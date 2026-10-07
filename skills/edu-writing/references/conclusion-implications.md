@@ -1,6 +1,6 @@
 # 结论、建议与局限
 
-数字来自 27 篇 CSSCI 与 31 篇 SSCI 实证论文的结构和写法统计（仓库 `distill/results/sections_summary.md`、`writing_moves_zh.md`、`writing_moves_en.md`）。中文稿先读 [写法](prose-zh.md)，英文稿先读 [prose-en](prose-en.md)。这里讲结构和篇幅；措辞（结论怎样直陈、建议用什么动词、局限怎样转成后续研究）按 [voice-zh](voice-zh.md) 和 [voice-en](voice-en.md)。
+数字来自 27 篇 CSSCI 与 50 篇 SSCI 实证论文的结构和写法统计（仓库 `distill/results/sections_summary.md`、`writing_moves_zh.md`、`writing_moves_en.md`）。中文稿先读 [写法](prose-zh.md)，英文稿先读 [prose-en](prose-en.md)。这里讲结构和篇幅；措辞（结论怎样直陈、建议用什么动词、局限怎样转成后续研究）按 [voice-zh](voice-zh.md) 和 [voice-en](voice-en.md)。
 
 ## 中文稿的结尾结构
 
@@ -28,23 +28,24 @@
 
 ## 英文稿的结尾结构
 
-数字来自 31 篇 SSCI 实证论文（仓库 `distill/results/writing_moves_en.md`），写法细则见 [prose-en](prose-en.md)。讨论之后依次写启示、局限和简短的结论：
+数字来自 50 篇 SSCI 实证论文（仓库 `distill/results/writing_moves_en.md`），写法细则见 [prose-en](prose-en.md)。讨论之后依次写启示、局限和简短的结论：
 
 1. **Implications**：
-   - 中位 5 条（1–11），写成段落，不用编号或加粗标题列出（28/31）。
-   - 每条回扣一项发现（显式 39%、隐式 42%，找不到依据的 19%），并写明对象：teachers 14 篇，educators 9 篇，其次是研究者、政策制定者、学校管理者。
-   - 最强的措辞多为 *should*（13 篇），其次 *must*（6 篇）。
-   - 55% 的启示段落停在具体做法上。
+   - 中位 5 条（1–12），写成段落，不用编号或加粗标题列出（编号的只有 4/50）。
+   - 每条回扣一项发现（显式 43%、隐式 43%，找不到依据的 14%，顶刊 10%），并写明对象：教师最多，其次是研究者、政策制定者、学校管理者。
+   - 最强的措辞多为 *should*（21/50）。
+   - 52% 的启示段落停在具体做法上，6% 停在泛化价值句上。
    - 模板："Because [finding], [actor] should [action], for example by [practice taken from the study's materials]."
-   - 理论贡献可以单列一节（6/31），也可以写在讨论开头或结论里。
+   - 理论贡献可以单列一节，也可以写在讨论开头或结论里。
 2. **Limitations and future research**：
-   - 集中在一个单元（30/31，22 篇单独成节），中位 4 条。中位数只是描述；凡是限制了某个具体推论的设计特点都要写（如测量只取总分、组态分析只纳入三个条件），不为凑数删减或添加。
-   - 每条写清限制了哪一个推论，57% 接着给出后续设计；25/31 篇对至少一条给出缓解的事实；60% 的局限段落以后续方向收尾。
+   - 集中在一个单元（46/50，31 篇单独成节），中位 4 条（定量 5 条，定性 2 条）。中位数只是描述；凡是限制了某个具体推论的设计特点都要写（如测量只取总分、组态分析只纳入三个条件），不为凑数删减或添加。
+   - 每条写清限制了哪一个推论，约一半（51%）接着给出后续设计；39/50 篇对至少一条给出缓解的事实；55% 的局限段落以后续方向收尾。
    - 模板："[First], [design feature] limits [specific inference]; [mitigating fact]. Future studies using [design] could test whether [question]."
-3. **Conclusion**（24/31 有，中位 148 词，通常一段）：
+3. **Conclusion**（39/50 有，定性研究 15/15 都有；中位 154 词，通常一段）：
    - 依次写目的和主要发现、贡献、主要启示；
-   - 最后一句写具体的后续方向或启示（全文末句：后续方向 10 篇，启示 8 篇，泛化价值句 7 篇）；
-   - 不重复局限。
+   - 最后一句写具体的启示或后续方向（全文末句：启示 15 篇，后续方向 14 篇，泛化价值句 13 篇）；
+   - 不重复局限；不把摘要和讨论开头的发现概述再逐句写一遍，结论只用一两句点出主要发现，篇幅给贡献和启示。
+   - 讨论中提到的检验力不足、测量问题（如 AVE 低于 .50、构念只取总分）要列入局限。
 
 ## 写完后检查
 

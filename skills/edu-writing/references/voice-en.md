@@ -2,7 +2,7 @@
 
 Calibrated on 15 empirical articles (2024–2025) from Computers & Education, BJET, ETR&D, IJETHE, Education and Information Technologies, Teaching and Teacher Education, Learning and Instruction, IJME and Music Education Research. Figures below are medians across those papers; the analysis is in `distill/results/` of the project repository.
 
-This file covers stance. How paragraphs, citations and sentences are built is in [prose-en](prose-en.md), calibrated on 31 articles including 16 from top-tier journals; read both.
+This file covers stance. How paragraphs, citations and sentences are built is in [prose-en](prose-en.md), calibrated on 50 articles (35 from top-tier journals; 22 quantitative, 15 qualitative, 13 mixed); read both.
 
 Published authors are not less cautious than a careful draft. They put the caution in different places: findings are stated plainly, the authors' own explanations carry the hedges, and design limits are gathered in one limitations unit that turns into future work.
 
@@ -38,7 +38,7 @@ Claim the contribution explicitly, in the discussion opening or the conclusion: 
 
 ## Limitations: one unit, turned into future work
 
-Gather limitations in one subsection or the final discussion paragraph (30 of 31 articles; median 4 distinct limitations). State each limit once, say what it means for the claim, and turn it into a design: "Because the data are cross-sectional, the direction of the effect remains open; a longitudinal design could test whether…". Answer a limit with a mitigating fact when one exists. Close the paper on the conclusion or contribution, not on limitations (11 of 15 papers).
+Gather limitations in one subsection or the final discussion paragraph (46 of 50 articles; median 4 distinct limitations, 2 in qualitative papers). State each limit once, say what it means for the claim, and turn it into a design: "Because the data are cross-sectional, the direction of the effect remains open; a longitudinal design could test whether…". Answer a limit with a mitigating fact when one exists. Close the paper on the conclusion or contribution, not on limitations (11 of 15 papers).
 
 ## Authorial presence
 

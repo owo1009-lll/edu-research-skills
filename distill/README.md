@@ -6,7 +6,7 @@
 
 | 组 | 篇数 | 来源 | 清单 |
 |---|---|---|---|
-| 英文 SSCI | 31 | EN01–EN15：Computers & Education、BJET、ETR&D、IJETHE、Education and Information Technologies、Teaching and Teacher Education、Learning and Instruction、IJME、Music Education Research；2024–2025。EN16–EN31（`tier: top`）：AERJ、Journal of Educational Psychology、Contemporary Educational Psychology、Learning and Instruction、Computers & Education（2）、Internet and Higher Education、Educational Researcher、npj Science of Learning、Higher Education（2）、Studies in Higher Education、BJET、Journal of the Learning Sciences、Psychology of Music（2）；2024–2026。均为合法开放获取版本 | `manifest_en.json` |
+| 英文 SSCI | 50 | EN01–EN15：Computers & Education、BJET、ETR&D、IJETHE、Education and Information Technologies、Teaching and Teacher Education、Learning and Instruction、IJME、Music Education Research；2024–2025。EN16–EN31（`tier: top`）：AERJ、Journal of Educational Psychology、Contemporary Educational Psychology、Learning and Instruction、Computers & Education（2）、Internet and Higher Education、Educational Researcher、npj Science of Learning、Higher Education（2）、Studies in Higher Education、BJET、Journal of the Learning Sciences、Psychology of Music（2）；2024–2026。EN32–EN50（`tier: top`，2026-10-08 补充）：BJME（2）、Research Studies in Music Education、BERJ、Science Education、Learning, Media and Technology、CBE—LSE（2）、JRST（2）、AEHE、Teaching in Higher Education、Journal of Learning Analytics、Modern Language Journal、TATE（2）、Sociology of Education、AERA Open、Journal of Teacher Education。均为合法开放获取版本 | `manifest_en.json` |
 | 中文 CSSCI | 27 | 中国电化教育、电化教育研究、开放教育研究、现代远程教育研究、远程教育杂志、中国远程教育、教育研究、华东师大学报（教育科学版）、教师教育研究，各 3 篇；2025–2026；经高校图书馆数据库下载 | `manifest_zh.json` |
 
 全文和逐篇编码只存在本地 `private/`（已在 .gitignore 中），仓库只保存书目信息、脚本和汇总。
@@ -57,25 +57,31 @@
 
 在 27 篇 CSSCI 论文上逐段编码引言、综述、讨论、建议的语步与段末收尾，并统计引用方式与密度、句长、套话和自称（`results/writing_moves_zh.md`，逐篇记录在 `private/writing_moves_coding.jsonl`）。据此新增 edu-writing 的 `prose-zh.md`，重写引言、综述、讨论、结论各路线，并写出 `check_prose.py`（阈值在这 27 篇上校准）。
 
-## 英文写法统计（2026-10-07）
+## 英文写法统计（2026-10-07 至 10-08）
 
-**语料**：英文语料补充 16 篇顶刊论文（EN16–EN31）。在 31 篇上逐段编码引言、综述、present study、讨论和结尾单元，共 924 段、120 个讨论要点、632 个结果段开头；引用方式与密度、句长、被动语态、we、套话和 AI 常用词由脚本统计。
-- **编码**：七个编码子任务按同一方案编码，每个子任务都分到两组论文，所以编码者差异不会和组别差异重合。
-- **信度**：随机抽 45 段盲重编段末收尾，一致率 82%（κ = 0.78）。
-- **结果文件**：汇总在 `results/writing_moves_en.md`，逐篇记录在 `private/writing_moves_en_coding.jsonl`。
+**31 篇（0.7.0）**：英文语料补充 16 篇顶刊论文（EN16–EN31），逐段编码引言、综述、present study、讨论和结尾单元，引用方式与密度、句长、被动语态、we、套话和 AI 常用词由脚本统计。两组（原 15 篇、顶刊 16 篇）的中位数一致，但偏态指标的上尾和按研究设计的差异看不清，当时只有 8 篇定性、5 篇混合研究。
 
-**两组对照**（原 15 篇与顶刊 16 篇）：
-- **一致**：句长、各部分引用密度、讨论要点的构成（复述、对照）、空白类型、研究目的的位置和段末收尾两组一致，bootstrap 区间在中位数 ±15% 以内，31 篇足以支撑这些规则。
-- **组间差异**：顶刊长句更少（12% 对 17%），讨论要点更常解释（92% 对 58%）、更常点名理论（41% 对 17%），引言更常写明贡献（13/16 对 6/15）。写作目标按顶刊定。
-- **还不够的地方**：偏态指标的上尾阈值（点名作者式引用占比、成组引注、we、缩写、AI 常用词）还不稳定，要 100–150 篇才能定 p90 阈值。按研究设计分开定阈值，每种设计需 15–20 篇；现在只有 8 篇定性、5 篇混合研究。
-
-**对 skill 的改动**：
-- 新增 `prose-en.md`；
-- 重写引言、综述、讨论、结论和结果段各路线的英文部分；
-- `check_prose.py` 增加英文模式，阈值设在 31 篇的极值附近：用脚本检查这 31 篇，除 EN24（数字编号引用在提取时丢失）外，只有 EN07 一篇因 AI 常用词偏多而触发提示。
+**50 篇（0.8.0）**：再补 19 篇顶刊（EN32–EN50，以定性和混合研究为主，含 BERJ、Science Education、JRST、CBE—LSE、AERA Open、Sociology of Education、Journal of Teacher Education、British Journal of Music Education 等）。语料现为定量 22 篇、定性 15 篇、混合 13 篇；顶刊 35 篇，其余 15 篇。
+- **编码**：六个编码子任务按同一方案编码新增论文，每个子任务分到不同设计的论文和一篇已编过的锚定论文。锚定论文前后两次编码 κ = 0.90–0.98，没有编码漂移。
+- **信度**：另一位编码者盲重编随机 10 篇的 278 个段末收尾，一致率 95.3%，κ = 0.95；泛化收尾句这一罕见编码 κ = 0.91。编码者都是同一模型，按同一方案编码，所以这些 κ 可能高估人与人之间的一致；第一轮人工抽查的 κ 为 0.78。
+- **稳定性**：
+  - 中位数和 p90 都稳定（bootstrap 区间在 ±15% 以内）：句长、段长、引言和综述的引用密度与带引注句比例、被动语态、缩写。
+  - 只有中位数稳定、上尾仍不稳定的：长句比例、讨论引用密度、we、点名作者式引用、成组引注、AI 常用词。这些的报警线仍设在已发表论文的最大值附近，要把区间再缩一半需约 200 篇。
+- **组间差异**：31 篇时看到的长句、we 的组间差异，到 50 篇已不成立。顶刊讨论更常解释发现、更常点名理论，这一差异在三种设计中都成立。
+- **设计差异**（写进 `prose-en.md` 第 7 节）：
+  - 研究问题与假设：定量研究几乎都写假设（19/22），定性研究不写，用编号研究问题（11/15）。
+  - 结果段开头：定量以分析步骤或发现开头，定性以主题论断开头（62%）。
+  - 讨论中点名作者式引用：定量中位 2.5%，定性 33%。
+  - 相反证据：定量综述几乎都写（21/22），定性 8/15。
+  - 局限：定量中位 5 条，定性 2 条。
+- **检验**：用按 31 篇定的阈值去查新增 19 篇，有 9 篇触发提示，说明上尾阈值确实不稳。`check_prose.py` 已按 50 篇重定阈值：
+  - 讨论中点名作者式引用的提示只用于写了假设的稿件；
+  - 修正了题目含"methods"时整篇被识别成方法部分的问题，章节识别与人工标记的一致率为 94%；
+  - 除 EN24（数字编号引用在提取时丢失）外，已发表论文都不再触发提示。
+- **结果文件**：汇总在 `results/writing_moves_en.md`，第 7 节列出与 31 篇版本相比的全部变化；逐篇记录在 `private/writing_moves_en_coding.jsonl`。
 
 ## 已知局限
 
 - 词表指标只是近似。中文"并非……而是"多为实质判断，所以中文免责句改用严格词表；人工编码结果以 `results/coding_summary_*.md` 为准。
 - 中文提取有少量缺失：ZH20 结语、ZH27 总结与展望为空，ZH21 讨论缺第一小节，ZH10–12 摘要不全。表格碎片混入段落，编码时已忽略。
-- 中文 27 篇、英文 31 篇，以教育技术、教师教育、教育心理和音乐教育为主。JRME、JCAL 没有拿到合法的开放获取全文。英文写法编码每篇只编一次，罕见编码（泛化收尾句）在用作硬性门槛前需要第二位编码者。
+- 中文 27 篇、英文 50 篇，以教育技术、教师教育、教育心理、科学教育和音乐教育为主。JRME、JCAL、EEPA 没有拿到合法的开放获取全文；EN48 的引言开头在提取时缺失，不计入引言相关的统计。

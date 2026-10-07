@@ -338,6 +338,17 @@ class ProseEnglish(Folder):
     def test_published_style_passes(self):
         self.assertEqual(self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION), '')
 
+    def test_narrative_discussion_flagged_only_for_hypothesis_testing(self):
+        narrative = ('## 5. Discussion\n\nTeacher support was related to engagement both directly and through self-efficacy. '
+                     'Skinner and Belmont (1993) found the same pattern among children across a school year. Li and Chiu (2025) '
+                     'reported that needs satisfaction carried part of this association among university students. Schunk (1991) '
+                     'argued that feedback from teachers is a situational source of efficacy beliefs. Linnenbrink and Pintrich '
+                     '(2003) showed that efficacious students engage more fully in classroom learning. Ryan and Deci (2000) '
+                     'proposed that relatedness and autonomy support intrinsic motivation, which may explain the direct path '
+                     'that remained once self-efficacy was taken into account in the model of engagement.\n')
+        self.assertNotIn('narrative_share', self.flags(self.INTRO + narrative))
+        self.assertIn('narrative_share', self.flags(self.INTRO + '## 2. Hypotheses\n\nH1. Support predicts engagement.\n\n' + narrative))
+
     def test_weak_prose_is_flagged(self):
         out = self.flags(self.INTRO + self.WEAK_REVIEW + self.WEAK_DISCUSSION)
         for expected in ['consecutive sentences open with "Author (year)"', 'narrative_share', 'cites no earlier study',

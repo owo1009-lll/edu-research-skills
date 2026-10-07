@@ -23,29 +23,29 @@
 
 ## 英文稿：四段
 
-先读 [prose-en](prose-en.md) 和 [voice-en](voice-en.md)。数字来自 31 篇 SSCI 实证论文（仓库 `distill/results/writing_moves_en.md`），"顶刊"指其中 16 篇 AERJ、JEP、C&E 等期刊的论文。
+先读 [prose-en](prose-en.md) 和 [voice-en](voice-en.md)。数字来自 50 篇 SSCI 实证论文（仓库 `distill/results/writing_moves_en.md`；定量 22、定性 15、混合 13），"顶刊"指其中 35 篇 AERJ、JEP、C&E、AERA Open 等期刊的论文。
 
-写 3–5 段，约 400–800 词（中位 529 词、4 段，每段约 140 词）；没有单独的综述一节时可以写到 1,200–1,400 词：
+写 3–5 段，约 450–800 词（中位 580 词、4 段，每段约 140 词）；没有单独的综述一节时可以写到 1,200–1,400 词：
 
 1. **现象或问题，带引注**：从趋势、技术变化或现实问题写起。
-   - 首句类型：趋势或发展 11/31，现实问题 5，研究现状 4，概念界定 4，宽泛的重要性 4，统计数字 0。
-   - 23/31 篇首句带引注。
+   - 首句类型：趋势或发展 16/49，现实问题 9，宽泛的重要性 7，研究现状 6，概念界定 5，统计数字 0。
+   - 32/49 篇首句带引注。
    - 不以引语、"In today's …"或无引注的大判断开头。
 2. **已有研究到了哪一步**：先写综合论断加成组引注（"Studies consistently show … (A; B; C)"），再给一两项具体发现。
 3. **空白**：具体到对象、机制或设计，再说明这一空白为什么关系到本研究的问题。
-   - 中位 5 处空白陈述，31/31 在引言里写空白。
-   - 类型：缺乏研究 28 篇，"多聚焦 A、忽视 B"18 篇（顶刊 12/16），对象或情境 13 篇，已有研究的设计局限 13 篇。
+   - 中位 4 处空白陈述，30/49 在综述末尾再写一次。
+   - 类型：缺乏研究 42 篇，"多聚焦 A、忽视 B"28 篇，现实问题 23 篇，已有研究的设计局限 20 篇，对象或情境 17 篇。
    - 模板："Most studies have [examined A in B]; [C] remains [unexamined]." "Prior studies relied on [design or measure], which cannot [show X]."
    - 不要只写"few studies"。
 4. **本研究与贡献**：
-   - 用第一人称写目的、对象和设计："In this study, we examine [X] among [population] using [design]."（19/31 用第一人称，24/31 预告设计。）
-   - 列出研究问题：15/31 编号，中位 2 个。
-   - 最后写贡献："In doing so, we contribute to [literature] by [specific addition]."（19/31 写明贡献，顶刊 13/16。）
-   - 路线图可有可无（4/31）。"to our knowledge, no study …"只在真实、可查时用（7/31）。
+   - 用第一人称写目的、对象和设计："In this study, we examine [X] among [population] using [design]."（30/49 用第一人称，定量研究 17/21、定性研究 5/15；40/49 预告设计。）
+   - 定性和混合研究列出编号的研究问题（定性 11/15、混合 10/13）；定量研究多在"The present study"一节写假设（见 [文献综合](synthesis.md)）。
+   - 最后写贡献："In doing so, we contribute to [literature] by [specific addition]."（30/49 写明贡献，顶刊 24/34，其余 6/15。）
+   - 路线图可有可无（7/49）。"to our knowledge, no study …"只在真实、可查时用（10/49）。
 
 **要求**：
 - 一半以上的句子带引注（中位 57%，每千词 23 处），论断在前、引注在句末；引言几乎不用"Author (year) found"式引用。
-- 段落停在证据、空白或目的上：132 个引言段落中只有 2 段以价值句收尾。
+- 段落停在证据、空白或目的上：218 个引言段落中只有 4 段以价值句收尾。
 - 贡献句写具体的增量（对哪一类文献、增加了什么），不写"informs decisions about …""provides valuable insights"。
 - 空白与研究问题一一对应；假设在综述或"The present study"一节中推出（见 [文献综合](synthesis.md)）。
 - 空白和贡献对照国际文献写清，不只写"在中国情境中验证"。

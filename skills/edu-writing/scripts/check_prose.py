@@ -8,7 +8,7 @@ section it reports sentence length, citation density and author-led citations, s
 reviewer-style sentences (proposing analyses, conceding on null results), signposting, paragraph-final value
 sentences, stock phrases, self-reference and the density of 的.
 
-English drafts (detected from the text) are compared with 31 SSCI empirical articles (writing_moves_en.md): citation
+English drafts (detected from the text) are compared with 50 SSCI empirical articles (writing_moves_en.md): citation
 density, cited sentences, narrative "Author (year)" citations and bundles by section, numbers in the discussion and
 results, sentence and paragraph length, we, passive voice, abbreviations, connectives, value-sentence paragraph
 endings, signposting and AI-typical words.
@@ -233,7 +233,7 @@ def check(text):
     return report
 
 
-# ---- English manuscripts: 31 SSCI empirical articles (distill/results/writing_moves_en.md) ----
+# ---- English manuscripts: 50 SSCI empirical articles (distill/results/writing_moves_en.md) ----
 
 KINDS_EN = [  # matched against the heading without its number; first match wins
     ('stop', r'^(?:references?|bibliography|acknowledge?ments?|funding|declarations?|conflicts? of interest|competing interests?|'
@@ -243,7 +243,7 @@ KINDS_EN = [  # matched against the heading without its number; first match wins
     ('discussion', r'discussion'),
     ('closing', r'conclu|implications?\b|limitations?\b|future (?:research|directions?|studies)|recommendations?\b|contributions?\b'),
     ('results', r'\bresults?\b|^findings\b'),
-    ('method', r'^(?:methods?|methodology|materials and methods|research design|study design|participants|procedures?|measures|'
+    ('method', r'\bmethod(?:s|ology)?\b|^(?:research design|study design|participants|procedures?|measures|'
                r'data (?:collection|analysis|sources?)|instruments?|sample)\b'),
     ('present', r'^(?:the )?(?:present|current) (?:study|research|investigation)|^this study|^research questions?|^aims?\b'),
     ('review', r'literature|background|theor|framework|hypothes|prior (?:research|work)|related (?:work|research)|conceptual'),
@@ -269,14 +269,14 @@ CONNECT = ['however', 'moreover', 'furthermore', 'in addition', 'additionally', 
            'for example', 'for instance', 'also', 'next', 'then', 'another', 'further', 'beyond', 'in this context',
            'in light of', 'given', 'regarding', 'on the other hand', 'still', 'despite', 'although', 'while', 'whereas',
            'unlike', 'contrary to', 'consistent with', 'in line with']
-WORDS_EN = {  # per 10,000 words of argued prose: (pattern, highest rate in the 31 articles)
-    'crucial': (r'\bcrucial(?:ly)?\b', 20), 'highlight': (r'\bhighlight(?:s|ed|ing)?\b', 32.4), 'foster': (r'\bfoster(?:s|ed|ing)?\b', 19.9),
+WORDS_EN = {  # per 10,000 words of argued prose: (pattern, highest rate in the 50 articles)
+    'crucial': (r'\bcrucial(?:ly)?\b', 20), 'highlight': (r'\bhighlight(?:s|ed|ing)?\b', 33.3), 'foster': (r'\bfoster(?:s|ed|ing)?\b', 19.9),
     'essential': (r'\bessential(?:ly)?\b', 15.9), 'insights': (r'\b(?:valuable|important|new|novel|useful|deeper|key|rich|further) insights?\b|'
-                                                             r'\b(?:provid|offer|yield|gain)(?:e|es|ed|ing|s)? (?:\w+ )?insights?\b', 14.3),
-    'notably': (r'\bnotably\b', 7.3), 'underscore': (r'\bunderscor(?:e|es|ed|ing)\b', 5.6), 'pivotal': (r'\bpivotal\b', 5.6),
-    'nuanced': (r'\bnuanced?\b', 7.0), 'multifaceted': (r'\bmulti-?faceted\b', 7.8), 'leverage': (r'\bleverag(?:e|es|ed|ing)\b', 6.4),
-    'navigate': (r'\bnavigat(?:e|es|ed|ing)\b', 6.7), 'robust': (r'\brobust(?:ly|ness)?\b', 8.3),
-    'comprehensive': (r'\bcomprehensive(?:ly)?\b', 9.4), 'shed light on': (r'\bsh(?:ed|eds|edding) (?:new |some |further )?light\b', 9.6),
+                                                             r'\b(?:provid|offer|yield|gain)(?:e|es|ed|ing|s)? (?:\w+ )?insights?\b', 25.9),
+    'notably': (r'\bnotably\b', 8.6), 'underscore': (r'\bunderscor(?:e|es|ed|ing)\b', 8.6), 'pivotal': (r'\bpivotal\b', 5.6),
+    'nuanced': (r'\bnuanced?\b', 9.5), 'multifaceted': (r'\bmulti-?faceted\b', 7.8), 'leverage': (r'\bleverag(?:e|es|ed|ing)\b', 6.4),
+    'navigate': (r'\bnavigat(?:e|es|ed|ing)\b', 15.9), 'robust': (r'\brobust(?:ly|ness)?\b', 25.9),
+    'comprehensive': (r'\bcomprehensive(?:ly)?\b', 10.0), 'shed light on': (r'\bsh(?:ed|eds|edding) (?:new |some |further )?light\b', 9.6),
     'play a ... role': (r'\bplay(?:s|ed|ing)? an? (?:crucial|key|vital|pivotal|important|significant|central|essential|critical|major) role\b', 9.8),
     'it is important to': (r'\bit is (?:important|essential|crucial|vital|necessary) to\b|\bit should be noted\b', 11.3),
 }
@@ -369,8 +369,10 @@ def sections_en(text):
     section only for a present-study part of the review or an implications/limitations part of the discussion."""
     lines = [l.strip() for l in text.splitlines()]
     heads = {i: h for i, h in ((i, en_heading(l)) for i, l in enumerate(lines) if l) if h}
-    main = [lv for lv, t in heads.values() if lv is not None and en_kind(t) in ('intro', 'method', 'results', 'discussion')]
-    top = min(main or [lv for lv, _ in heads.values() if lv is not None] or [1])
+    levels = [(lv, en_kind(t)) for _, (lv, t) in sorted(heads.items()) if lv is not None]
+    anchors = [lv for lv, k in levels if k in ('intro', 'abstract')]
+    main = [lv for lv, k in levels[1:] if k in ('intro', 'method', 'results', 'discussion')]  # levels[0] may be a title
+    top = min(anchors or main or [lv for lv, _ in levels] or [1])
     out, kind, before_method, combined = {}, 'front', True, False
     for i, s in enumerate(lines):
         if (not s or s.startswith('|') or re.match(r'^(?:\*\*)?(?:table|figure|fig\.)\s*\d+', s, re.I)
@@ -433,26 +435,28 @@ def en_metrics(paras):
         'signpost': [s[:110] for s in sents if re.search(SIGNPOST_EN, s, re.I)]}
 
 
-# Flags sit at or just beyond the extremes of the 31 articles (checked by running this script on them), so a
-# published article rarely triggers one. Rates need enough text: sections need 5 sentences and 150 words, the
+# Flags sit at or just beyond the extremes of the 50 articles (checked by running this script on them), so a
+# published article rarely triggers one. Published medians are this script's measures on the 50 articles. Rates need enough text: sections need 5 sentences and 150 words, the
 # whole-text rates 1,500 words of argued prose.
 SECTION_RULES_EN = {  # kind: [(metric, low, high, published median)]
-    'intro': [('cite_per_k', 10, None, 23), ('cited_share', 25, None, 56)],
-    'review': [('cite_per_k', 10, None, 25.5), ('cited_share', 20, None, 58), ('narrative_share', None, 65, 12),
-               ('bundle3_share', None, 45, 10)],
-    'discussion': [('cite_per_k', 3, None, 13.5), ('number_share', None, 35, 4), ('narrative_share', None, 65, 7)],
-    'results': [('number_openings', None, 25, 0), ('numbers_per_numeric_sentence', None, 6, 2)],
+    'intro': [('cite_per_k', 10, None, 23), ('cited_share', 25, None, 57)],
+    'review': [('cite_per_k', 5, None, 23.5), ('cited_share', 15, None, 55), ('narrative_share', None, 70, 14),
+               ('bundle3_share', None, 80, 9)],
+    'discussion': [('cite_per_k', 3, None, 11), ('number_share', None, 35, 2.6)],
+    'results': [('number_openings', None, 25, 0), ('numbers_per_numeric_sentence', None, 6, 1.5)],
 }
 DOC_RULES_EN = [
-    ('sentence_median', 20, 33, 26.5), ('long_share', None, 30, 14.6), ('paragraph_median', 75, 230, 130),
-    ('we_per_k', None, 18, 4.8), ('passive_share', 8, 50, 24), ('abbr_per_k', None, 65, 15),
-    ('connective_openings', None, 45, 21), ('value_end_share', None, 25, 6),
+    ('sentence_median', 20, 33, 26), ('long_share', 3, 30, 13.5), ('paragraph_median', 75, 240, 135),
+    ('we_per_k', None, 20, 4.9), ('passive_share', 8, 50, 23.4), ('abbr_per_k', None, 65, 10),
+    ('connective_openings', None, 45, 16.7), ('value_end_share', None, 25, 5.4),
 ]
+HYPOTHESES = re.compile(r'\bH\d+[a-c]?\b|\bHypothesis \d')  # hypothesis-testing (quantitative) drafts
 
 
 def check_en(text):
     secs = sections_en(text)
-    report = {'language': 'en', 'sections': {}, 'document': []}
+    quantitative = bool(HYPOTHESES.search(text))
+    report = {'language': 'en', 'design': 'hypothesis-testing' if quantitative else 'not determined', 'sections': {}, 'document': []}
     for kind in ['abstract', 'intro', 'review', 'present', 'method', 'results', 'discussion', 'closing']:
         if sum(len(en_words(p)) for p in secs.get(kind, [])) < 30:  # absent, or a placeholder for the authors' part
             continue
@@ -463,9 +467,12 @@ def check_en(text):
                 if (lo is not None and m[key] < lo) or (hi is not None and m[key] > hi):
                     flags.append(f'{key} {m[key]} outside the published range ({"<" if lo is not None else ">"} {lo if lo is not None else hi} '
                                  f'flags; published median {med})')
+        if kind == 'discussion' and quantitative and m['sentences'] >= 5 and m['narrative_share'] > 70:
+            flags.append(f'narrative_share {m["narrative_share"]}: "Author (year) found" carries most comparisons (published '
+                         'quantitative discussions: median 1%, max 68%; compare with parenthetical citations)')
         if kind == 'discussion' and m['sentences'] >= 5 and m['cite_per_k'] == 0:
             flags.append('the discussion cites no earlier study (published: 76% of discussion points compare with 2-4 cited studies)')
-        if kind == 'review' and m['narrative_led_run'] >= 4:
+        if kind == 'review' and m['narrative_led_run'] >= 5:
             flags.append(f'{m["narrative_led_run"]} consecutive sentences open with "Author (year)": the review lists studies one by one '
                          '(published reviews synthesise first and illustrate with one or two studies)')
         if kind in ('discussion', 'closing') and ex['reviewer']:
@@ -488,8 +495,8 @@ def check_en(text):
             doc.append(f'signposting {per10k(SIGNPOST_EN)} per 10,000 words (published median 0, max 8)')
         if per10k(ADDITIVE) > 45:
             doc.append(f'furthermore/moreover/additionally/in addition {per10k(ADDITIVE)} per 10,000 words (published median 14.6, max 41)')
-        if per10k(AI_WORDS) > 70:
-            doc.append(f'AI-typical words {per10k(AI_WORDS)} per 10,000 words (published median 20, max 82 in one article)')
+        if per10k(AI_WORDS) > 90:
+            doc.append(f'AI-typical words {per10k(AI_WORDS)} per 10,000 words (published median 20, max 86 in one article)')
         over = [f'{w} {per10k(p)}' for w, (p, mx) in WORDS_EN.items() if count(p) >= 3 and per10k(p) > mx * 1.05]
         if over:
             doc.append('above the highest published rate per 10,000 words: ' + ', '.join(over))
@@ -500,7 +507,8 @@ def check_en(text):
 def print_en(report):
     names = {'abstract': 'Abstract', 'intro': 'Introduction', 'review': 'Literature review', 'present': 'Present study',
              'method': 'Method', 'results': 'Results', 'discussion': 'Discussion', 'closing': 'Implications, limitations, conclusion'}
-    published = {'intro': (23, 56, 0), 'review': (25.5, 58, 12), 'discussion': (13.5, 30, 7)}  # medians of the 31 articles
+    disc_narr = '1 quantitative, 30 qualitative/mixed'
+    published = {'intro': (23, 57, 8), 'review': (23.5, 55, 14), 'discussion': (11, 30, disc_narr)}  # medians, 50 articles
     total = sum(len(s['flags']) for s in report['sections'].values()) + len(report['document'])
     print(f'Sections found: {", ".join(names[k] for k in report["sections"])} | prompts: {total}')
     for kind, sec in report['sections'].items():
@@ -516,10 +524,12 @@ def print_en(report):
             for e in sec['examples'][key][:5]:
                 print(f'    {key}: {e}')
     a = report['argued']
-    print(f'\n[Argued sections together] {a["words"]} words | sentence median {a["sentence_median"]} (published 26.5), '
-          f'>40 words {a["long_share"]}% (14.6) | paragraph median {a["paragraph_median"]} words (130) | we {a["we_per_k"]}/1,000 (4.8) | '
-          f'passive {a["passive_share"]}% (24) | abbreviations {a["abbr_per_k"]}/1,000 (15) | paragraphs opening with a connective '
-          f'{a["connective_openings"]}% (21) | value-sentence paragraph endings {a["value_end_share"]}% (6)')
+    med = {key: m for key, _, _, m in DOC_RULES_EN}
+    print(f'\n[Argued sections together] {a["words"]} words | sentence median {a["sentence_median"]} (published {med["sentence_median"]}), '
+          f'>40 words {a["long_share"]}% ({med["long_share"]}) | paragraph median {a["paragraph_median"]} words ({med["paragraph_median"]}) | '
+          f'we {a["we_per_k"]}/1,000 ({med["we_per_k"]}) | passive {a["passive_share"]}% ({med["passive_share"]}) | abbreviations '
+          f'{a["abbr_per_k"]}/1,000 ({med["abbr_per_k"]}) | paragraphs opening with a connective {a["connective_openings"]}% '
+          f'({med["connective_openings"]}) | value-sentence paragraph endings {a["value_end_share"]}% ({med["value_end_share"]})')
     for f in report['document']:
         print(f'  ! {f}')
 

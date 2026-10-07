@@ -183,12 +183,14 @@ def check_terms(text, lang, groups, full=''):
     out = []
     groups = list(groups) + [g for g in keyword_groups(text, lang, full or text) if g[0].split(' ', 1)[1] not in sum((v for _, v in groups), [])]
     low = text.lower() if lang == 'en' else text
+    # English variants match whole words only, so "AI use" is not counted inside "GenAI use"
+    pat = (lambda v: r'(?<![A-Za-z0-9])' + re.escape(v) + r'(?![A-Za-z0-9])') if lang == 'en' else re.escape
     for name, variants in groups:
-        counts = {v: len(re.findall(re.escape(v.lower() if lang == 'en' else v), low)) for v in variants}
+        counts = {v: len(re.findall(pat(v.lower() if lang == 'en' else v), low)) for v in variants}
         if sum(1 for c in counts.values() if c) > 1:
             minority = [v for v, c in counts.items() if c and c < max(counts.values())]
             examples = [ctx(text, m.start(), m.end(), 20) for v in minority
-                        for m in list(re.finditer(re.escape(v), text, re.I if lang == 'en' else 0))[:3]]
+                        for m in list(re.finditer(pat(v), text, re.I if lang == 'en' else 0))[:3]]
             out.append({'group': name, 'counts': counts, 'minority_contexts': examples})
     counts = {v: len(re.findall(re.escape(v), low)) for v in SELF[lang]}
     total = sum(counts.values())

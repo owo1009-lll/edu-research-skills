@@ -9,7 +9,7 @@ Writes or revises Chinese and English education papers from evidence, in a voice
 - Write one part: abstract, introduction, literature review, methods, results, discussion, conclusions and implications
 - Write a complete paper delivered as Word (three-line tables, figures, verified references)
 - Revise or polish an existing manuscript
-- Check a whole manuscript for internal consistency and for writing conventions against published articles (27 CSSCI articles for Chinese, 31 SSCI articles for English)
+- Check a whole manuscript for internal consistency and for writing conventions against published articles (27 CSSCI articles for Chinese, 50 SSCI articles for English)
 
 ## Typical Requests
 
