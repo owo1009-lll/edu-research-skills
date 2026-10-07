@@ -78,6 +78,14 @@ class Structure(unittest.TestCase):
                     broken.append(f'{md.relative_to(SKILLS)} -> {target}')
         self.assertEqual(broken, [])
 
+    def test_root_document_links_resolve(self):
+        broken = []
+        for md in [ROOT / 'README.md', ROOT / '使用手册.md']:
+            for target in re.findall(r'\]\(([^)\s]+)\)', md.read_text(encoding='utf-8')):
+                if not re.match(r'(https?:|mailto:|#)', target) and not (ROOT / target.split('#')[0]).exists():
+                    broken.append(f'{md.name} -> {target}')
+        self.assertEqual(broken, [])
+
     def test_scripts_named_in_skills_exist(self):
         missing = []
         for name in RELEASE['packages']:
