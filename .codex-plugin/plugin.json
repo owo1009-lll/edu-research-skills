@@ -1,6 +1,6 @@
 {
   "name": "edu-research-skills",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Education research skills for Claude Code and Codex: research design, statistical analysis in R (SEM, PLS-SEM, fsQCA, NCA, regression, multilevel), qualitative coding, results checks, Chinese (CSSCI) and English (SSCI) paper writing, mock peer review, responses to reviewers and grant applications.",
   "author": {
     "name": "owo1009-lll",

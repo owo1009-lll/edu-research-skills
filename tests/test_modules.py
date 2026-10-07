@@ -104,7 +104,7 @@ class Voice(Project):
         (self.dir / 'draft.md').write_text('# 讨论\n\n研究发现，教师支持显著正向预测学习投入。可能的原因在于，支持提高了学生的胜任感。'
                                           '这与已有研究的结论一致。\n\n# 研究局限与展望\n\n本研究为横截面设计，后续研究可采用纵向设计检验因果方向。\n', encoding='utf-8')
         p = run([self.CHECK, '--draft', 'draft.md'], self.dir)
-        self.assertIn('Disclaimer sentences (%): 0.0', p.stdout)
+        self.assertIn('Disclaimer sentences in the discussion body (%): 0.0', p.stdout)
         self.assertIn('Limitation sentences outside the limitations unit: 0', p.stdout)
 
 

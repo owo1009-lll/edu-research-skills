@@ -22,6 +22,7 @@ description: Write or revise education research papers in Chinese (CSSCI) or Eng
    - 发现直接陈述，动词与设计相符；不确定性放在原因解释上；局限集中写一次，并转成后续研究。
    - 论证在段内完成：论断在前、引注在句末，段末停在证据或具体推断上，价值句只在引言末句和结语出现。
    - 讨论用文字复述发现，与已有研究对照、用理论解释，不重复统计量，不提"还可以做的分析"。
+   - 论证要有锋芒：一个核心问题贯穿全文，在几种解释中作出选择，点明修正了哪种已有看法，结论第一句直接回答核心问题，建议写清取舍。锋芒来自清楚的论断，不来自更强的动词（voice-zh、voice-en 的"锋芒/Edge"一节）。
    - 中文期刊要有核实过的国内文献和国内背景；投中文期刊的完整论文默认附英文题名、摘要和关键词。
    - 英文稿与中文稿的做法不同：
      - 引言和综述一半以上的句子带引注，"Author (year) found"式引用只占约十分之一；每处引注只用于该文献实际支持的论断，参考文献少时引用密度低于中位数是正常的，不为凑密度把文献挂到它没说过的论断上；
@@ -63,7 +64,7 @@ description: Write or revise education research papers in Chinese (CSSCI) or Eng
    - 脚本只列线索，逐条回到原文判断。修订一次（一轮完整的修订；之后按脚本提示做的小改不算新一轮）后交付。评阅只是 AI 自查，不称为专家审阅；用户要投稿前的外审模拟时用 edu-review，要回复真实审稿意见时用 edu-response。
 7. **交付。**先给终稿和必要的简短说明。首稿、评阅、终稿、`rationale.md` 和来源位置存在 `edu_output/writing/<新任务文件夹>/`。
    - 完整论文的 Word、图表和引用核验见 [文件交付](references/file-delivery.md) 和 [引用核验](references/reference-verification.md)。
-   - 不是整篇论文的交付（摘要、结果部分、研究发现、报告）用 `scripts/md_to_docx.py` 把 Markdown 转成 Word（中文三线表、宋体，`--superscript-citations` 处理 GB/T 7714 上标）。
+   - 不是整篇论文的交付（摘要、结果部分、研究发现、报告）用 `scripts/md_to_docx.py` 把 Markdown 转成 Word（用户只要 Markdown 时不转）（中文三线表、宋体，`--superscript-citations` 处理 GB/T 7714 上标）。
    - 图用 `scripts/make_figures.py`，中文图在 spec 中加 `"language": "zh"`，模型图的每条边写 `relation`（`influence` 影响、`association` 关联、`sequence` 过程顺序、`hypothesized` 待检验、`candidate` 候选）。
 
 规则的来源和验证范围见 [规则来源](references/source-basis.md)。诚信要求见 [共同规则](../edu-shared/references/integrity.md)。

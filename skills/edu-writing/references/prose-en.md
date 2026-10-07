@@ -52,13 +52,9 @@ Figures are medians unless stated. Where the groups differ, write to the top tie
   - Do not cite a work that does no work in the argument.
   - Use a study as support only when its finding points the way you argue; a reverse or reciprocal effect is not evidence for the forward one.
   - The published densities come from papers with 50–80 references. With a small reference pack, a lower density is correct. Stretching citations to reach the median is a more serious fault than citing too little.
-  - **Problem entries in a reference pack:**
-    - an abstract that belongs to another paper;
-    - an entry with a title only;
-    - an author list cut short with "et al.";
-    - an online year that differs from the issue year.
-
-    Put each one on the author to-do list. Until it is checked, cite the work only for the central claim stated in its title, or for a canonical claim the field attributes to it. Never cite details from a mismatched abstract.
+  - **Problem entries in a reference pack.** Put each one on the author to-do list. They differ in what you may cite:
+    - **Abstract belongs to another paper, or title only:** until checked, cite the work only for the central claim in its title, or for a canonical claim the field attributes to it. Never cite details from a mismatched abstract.
+    - **Author list cut short, or online year differs from issue year:** the abstract is still usable, so cite its findings normally. In the reference list, keep the given authors followed by "[remaining authors to be added]", use the year the pack gives, and flag the discrepancy.
 - **Introduction and review.** Do not repeat the same sentence or the same citation group in both. The Introduction gives the point and its citations; definitions, detailed evidence and examples belong in the review.
 
 ## 3. Where the numbers go

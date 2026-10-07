@@ -105,6 +105,8 @@ def sections(text):
             continue
         if re.match(r'^[\[【]?\s*关键词', s):
             continue
+        if len(re.findall(r'[一-鿿]', s)) < 0.2 * len(re.sub(r'\s', '', s)):  # the English title and abstract of a Chinese paper
+            continue
         if out and out[-1][0] == kind:
             out[-1][1].append(s)
         else:
@@ -403,7 +405,8 @@ def sections_en(text):
 
 def en_metrics(paras):
     sents = [s for p in paras for s in en_sentences(p)]
-    lens = [len(en_words(s)) for s in sents] or [0]
+    # one-line hypotheses and research questions are labels, not prose sentences
+    lens = [len(en_words(s)) for s in sents if not re.match(r'^\W*(?:H\d+[a-c]?|RQ\d+|Hypothesis \d+)\b', s)] or [0]
     n = sum(lens) or 1
     long_paras = [p for p in paras if len(en_words(p)) >= 25]  # one-line hypotheses and RQs are not paragraphs
     cites = [en_cites(s) for s in sents]
@@ -414,7 +417,7 @@ def en_metrics(paras):
     pct = lambda a, b: round(100 * a / b, 1) if b else 0.0
     return {
         'words': n, 'paragraphs': len(long_paras), 'sentences': len(sents),
-        'sentence_median': statistics.median(lens), 'long_share': pct(sum(l > 40 for l in lens), len(sents)),
+        'sentence_median': statistics.median(lens), 'long_share': pct(sum(l > 40 for l in lens), len(lens)),
         'paragraph_median': statistics.median([len(en_words(p)) for p in long_paras] or [0]),
         'cite_per_k': round(1000 * (paren + narr) / n, 1),
         'cited_share': pct(sum(c[0] + c[1] > 0 for c in cites), len(sents)),

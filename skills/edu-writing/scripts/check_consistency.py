@@ -192,7 +192,8 @@ def check_terms(text, lang, groups, full=''):
             examples = [ctx(text, m.start(), m.end(), 20) for v in minority
                         for m in list(re.finditer(pat(v), text, re.I if lang == 'en' else 0))[:3]]
             out.append({'group': name, 'counts': counts, 'minority_contexts': examples})
-    counts = {v: len(re.findall(re.escape(v), low)) for v in SELF[lang]}
+    prose = '\n'.join(l for l in low.splitlines() if not re.match(r'^\s*#', l))  # headings are not self-reference
+    counts = {v: len(re.findall(re.escape(v), prose)) for v in SELF[lang]}
     total = sum(counts.values())
     stray = [v for v, c in counts.items() if c and total >= 5 and c / total <= 0.15]
     self_ref = {'counts': {k: v for k, v in counts.items() if v}, 'stray': stray}

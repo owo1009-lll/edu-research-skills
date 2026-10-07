@@ -172,10 +172,14 @@ def main():
     if not sents or not units:
         print('No discussion/conclusion text found.'); return
     disc = [(i, s) for k, i, s in sents if k == 'focus' and re.search(lex['disclaimer'], s, flags)]
-    stacked = [(i, s) for k, i, s in sents if len(re.findall(lex['hedge'], s, flags)) >= 2]
+    # counterfactual tests ("if X, we would have expected Y" / 若……则应……) are reasoning, not stacked hedges
+    counterfactual = r'\bif\b[^.]*\bwould(?: not)? have\b|\bwould(?: not)? have\b[^.]*\bif\b|若[^。]{0,40}则应|如果[^。]{0,40}应当会'
+    stacked = [(i, s) for k, i, s in sents if len(re.findall(lex['hedge'], s, flags)) >= 2
+               and not re.search(counterfactual, s, re.I)]
     lims = [(k, i, s) for k, i, s in sents if re.search(lex['limitation'], s, flags)]
     stray = [(i, s) for k, i, s in lims if k != 'limits']
-    disc_pct = 100 * sum(bool(re.search(lex['disclaimer'], s, flags)) for _, _, s in sents) / len(sents)
+    focus = [s for k, _, s in sents if k == 'focus']  # the limitations unit may say what cannot be inferred
+    disc_pct = 100 * len(disc) / len(focus) if focus else None
     self_rate = 1000 * len(re.findall(lex['self'], body, flags)) / units
     in_unit = 100 * (len(lims) - len(stray)) / len(lims) if lims else None
     unit = '千字' if lang == 'zh' else '1,000 words'
@@ -190,7 +194,7 @@ def main():
             bad = val < bound if higher_is_better else val > bound
             msg += f'  (published median {med}; {"outside" if bad else "within"} typical range)'
         print(msg)
-    line('Disclaimer sentences (%)', disc_pct, 'disclaimer_sent_pct', False)
+    line('Disclaimer sentences in the discussion body (%)', disc_pct, 'disclaimer_sent_pct', False)
     line(f'Self-mention per {unit}', self_rate, 'self_per1k', True)
     line('Limitation sentences inside the limitations unit (%)', in_unit, 'limitation_in_unit_pct', True)
     for title, items in (('Disclaimer sentences in the discussion body', disc),
