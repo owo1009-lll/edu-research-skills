@@ -1,0 +1,31 @@
+{
+  "id": "N07",
+  "doi": "10.1007/s10755-024-09711-x",
+  "role": "method_development",
+  "status": "full_argument_body_read; AI extraction awaiting human review",
+  "title": "Belonging Interrupted: Toward an Understanding of How Virtual Learning Impedes Women Students’ Belonging in Engineering",
+  "source": "https://link.springer.com/article/10.1007/s10755-024-09711-x",
+  "read_utc_date": "2026-10-03",
+  "body_coverage": "Full Introduction, Review of Literature, Methods, three Findings sections, Discussion including practice/research limitations, Conclusion and Notes; Tables 1–3. Journey-map figures not visually checked; textual descriptions alone used. Cited references not individually retraced.",
+  "design": "Seven March-2022 focus groups at one Mid-Atlantic U.S. research institution with 21 women and one non-binary student, all assigned female at birth; eight then in third year (remote during second year), fourteen then in fourth year (remote during third year). Transcripts, journey maps and challenge/resolution cards analyzed. Pandemic focus emerged from accounts, not a planned pandemic questioning route.",
+  "parse_check": "Native section order and three linked tables read. Table 3 transcript salience 7/8 versus 8/14 refers to coded representation of COVID, not a risk difference in clinical distress or belonging scores. Participant nicknames map consistently across tables and text; figure-only trajectories not used.",
+  "moves": [
+    {
+      "problem": "A single adverse effect of remote learning cannot explain why some accounts describe an opportunity.",
+      "locations": ["Findings:Remote Experiences in Second College Year", "Findings:Remote Experiences in Third College Year", "Discussion:first five paragraphs"],
+      "author_move": "Contrasts entering the major remotely without established peers with moving established relationships online. Anna finds virtual office hours awkward; Kalea, with existing professor relationships, finds them less intimidating. The same communication format carries different meanings depending on relational history.",
+      "project_inference": "Use the same activity across cases to sharpen a conditional explanation, rather than infer a blanket technology effect. The contrast identifies relational history as an explanation worth checking, not a causally identified moderator.",
+      "condition": "Cohorts differ in stage, courses and experiences; do not treat focus-group differences as an experimental timing effect or a universal trajectory."
+    },
+    {
+      "problem": "A favorable case is absorbed into the main theme, hiding what support cannot do.",
+      "locations": ["Findings:COVID-19 Exacerbated External Challenges Irrespective of Class Year", "Discussion:paragraph on external challenges"],
+      "author_move": "Revisits Caroline, whose academic focus later improved after leaving an unstable home, and Mila, whose established friendships could be sources of racialized stress. These accounts limit a simple proposition that existing community protects students.",
+      "project_inference": "Let a case revise a proposed relationship: connections may provide resources but their quality and material conditions matter. Preserve external explanations rather than rename every difficulty belonging uncertainty.",
+      "condition": "Do not impose chronology beyond what the named account supplies; self-reported outcomes were not independently audited."
+    }
+  ],
+  "do_not_adopt": ["The findings' conditional variation is more defensible than the title's blanket language that virtual learning impedes belonging.", "Counterfactual statements that relationships would have protected students or will prevent engineering-career attrition exceed this design.", "Less gender-performance pressure online is a proposed alternative interpretation in Discussion, not a measured mechanism in these focus groups.", "COVID salience in artefacts cannot establish effect magnitude or population incidence.", "Do not describe all participants as women without retaining the non-binary participant and recruitment based on administrative sex data."],
+  "correction_check": "Publisher landing page and Crossref fields inspected; no notice encountered there. Independent withdrawal check pending.",
+  "review_status": "AI full-argument body/table reading; diagram/artefact visual verification and human review pending"
+}

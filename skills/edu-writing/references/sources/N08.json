@@ -1,0 +1,47 @@
+{
+  "id": "N08",
+  "doi": "10.1007/s40299-024-00914-6",
+  "role": "method_development",
+  "status": "full_argument_body_read; AI extraction awaiting human review",
+  "title": "Unlocking Teacher Agency for Professional Learning Through Connection-Building: Evidence from a Professional Development Program on China’s Standards of English Language Ability",
+  "source": "https://link.springer.com/article/10.1007/s40299-024-00914-6",
+  "read_utc_date": "2026-10-03",
+  "body_coverage": "Full Introduction, Literature Review, Research Methods, three Findings case narratives, Discussion and Conclusion/limitations. Table 1 read; no diagram-only propositions used. References not individually retraced.",
+  "design": "Nine voluntary teachers in an eight-session CSE professional-development program at an East-China university subsidiary college, followed by two-month consultation availability. Three successful/insightful key informants selected by engagement, continuing effort and project progress; Chinese recordings/reflections, artefacts and 51–69-minute interviews. First author was program instructor/guest professor.",
+  "parse_check": "Native section and paragraph order inspected. Claims here use body narratives, not uninspected diagram features. Authors' mapping of ownership onto subject/object versus subject/tool connections is not internally clear; retain the concrete actions instead of silently repairing their framework labels. Table 1 confirms three female lecturers with M.A. qualifications, 6–12 years teaching; table inspected, no new population inference.",
+  "moves": [
+    {
+      "problem": "A list of PD features does not explain how a common tool becomes useful for different teachers.",
+      "locations": [
+        "Introduction:p1",
+        "Findings:Mary, Zoe and Peggy case narratives",
+        "Discussion:Revisiting RQ2",
+        "Discussion:Implications"
+      ],
+      "author_move": "Mary uses CSE descriptors to specify objectives for a tourism course, Zoe for teaching-competition lesson design, Peggy for proficiency selection/measurement in a doctoral proposal. The discussion compares goals, knowledge and application rather than simply calling all three teachers motivated.",
+      "project_inference": "Use contrasting practical purposes to show what a shared process has in common and what must remain specific. Move from an abstract property such as agency to the actions and unresolved task difficulties it describes.",
+      "condition": "These are three selected success cases. No comparison of all nine teachers' agency change or alternative mechanisms is demonstrated."
+    },
+    {
+      "problem": "The introduction's explanatory gap disappears behind a final contribution label.",
+      "locations": [
+        "Literature Review:Teacher Agency for Professional Learning",
+        "Literature Review:Understanding Teacher Agency from an Activity Theory Perspective",
+        "Discussion:Revisiting RQ2",
+        "Conclusion"
+      ],
+      "author_move": "Starts from existing descriptions of supportive PD features and systemic tensions, then examines teachers' work connecting a standard to professional goals; returns to that shift when describing an agency-oriented approach.",
+      "project_inference": "State the specific additional relation that the findings make visible, rather than claim theoretical extension merely by adding a new label.",
+      "condition": "Application difficulties remain (e.g. adapting general descriptors to tourism). Do not write successful use as complete resolution or long-term sustainable growth."
+    }
+  ],
+  "do_not_adopt": [
+    "Success-selected informants cannot establish that this program unlocks agency generally or is more effective than alternatives.",
+    "Career advancement pressures and instrument-specific expertise are context, not generic learner motivation.",
+    "Winning a competition or defending a proposal is reported progress; the design does not isolate the program as its cause.",
+    "Positive attitudes, ownership and application should not be treated as measured interchangeable components of agency.",
+    "The instructor's ongoing relationships are both context/rapport and a potential influence on accounts, not a guarantee of reliability."
+  ],
+  "correction_check": "Publisher page and Crossref fields inspected; no notice encountered there. Dedicated withdrawal check pending.",
+  "review_status": "AI full-body argument reading and native table check; diagram-only features and human review pending"
+}

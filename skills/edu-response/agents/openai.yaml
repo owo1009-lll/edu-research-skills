@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Response"
+  short_description: "Answer reviewers, revise the manuscript and mark changes in red"
+  default_prompt: "Use $edu-response to respond to these reviewer comments: "

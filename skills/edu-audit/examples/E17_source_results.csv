@@ -1,0 +1,7 @@
+key,original,digits,comparison,source_location
+n_intervention,32,0,exact,E17 Table 4; P0045 for RR
+n_control,33,0,exact,E17 Table 4; P0045 for RR
+n_total,65,0,exact,E17 Table 4; P0045 for RR
+failed_total,12,0,exact,E17 Table 4; P0045 for RR
+passed_total,53,0,exact,E17 Table 4; P0045 for RR
+failure_risk_ratio,0.34,2,rounded,E17 Table 4; P0045 for RR

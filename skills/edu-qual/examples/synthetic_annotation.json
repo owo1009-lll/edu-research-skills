@@ -1,0 +1,109 @@
+{
+  "_note": "虚构示例，仅用于展示标注格式和测试脚本；不是任何真实研究的数据。",
+  "question": "中学教师如何描述用生成式AI备课带来的变化？",
+  "approach": "AI-assisted reflexive thematic analysis; semantic/contextual",
+  "memo": "分析者关注备课时间与教师判断的关系；两位教师都主动使用AI，样本不含不使用者，这一取向会影响主题。",
+  "document_memos": {
+    "T01": "强调省时，同时报告例题与教材进度不符需要核对。",
+    "T02": "用于设计课堂提问；提到学校缺少统一规范和对学生使用的担忧。"
+  },
+  "codes": [
+    {
+      "id": "C01",
+      "label": "AI承担初稿，教师负责改编",
+      "definition": "教师让AI先生成材料，再按班级情况修改",
+      "include": "描述先生成后修改的分工",
+      "exclude": "只说使用AI而无分工描述",
+      "category": "备课分工"
+    },
+    {
+      "id": "C02",
+      "label": "核对负担",
+      "definition": "教师需要检查或修正AI产出",
+      "include": "核对、修改错误或不匹配的内容",
+      "exclude": "一般性的修改润色",
+      "category": "备课分工"
+    },
+    {
+      "id": "C03",
+      "label": "规范缺位下的回避",
+      "definition": "缺少学校规范时教师选择不公开讨论AI",
+      "include": "提到规范缺失并影响课堂做法",
+      "exclude": "只表达个人态度",
+      "category": "学校环境"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "A01",
+      "code": "C01",
+      "segment": "Sf30390cbe7cd",
+      "excerpt": "现在先让AI列一个提纲，我再按我们班的情况改",
+      "role": "support",
+      "evidence_kind": "participant_statement",
+      "interpretation": "AI承担起草，班级适配仍由教师完成。"
+    },
+    {
+      "id": "A02",
+      "code": "C01",
+      "segment": "S1746afa02747",
+      "excerpt": "它能给我很多不同角度，我挑两三个最适合学生的",
+      "role": "support",
+      "evidence_kind": "participant_statement",
+      "interpretation": "AI扩展备选，教师按学生情况筛选。"
+    },
+    {
+      "id": "A03",
+      "code": "C02",
+      "segment": "S9f33cfc14e7d",
+      "excerpt": "它给的例题经常和我们的教材进度对不上，我还得一道一道核对",
+      "role": "counterexample",
+      "evidence_kind": "participant_statement",
+      "interpretation": "省下的时间部分转为核对时间，限定了“省时”的说法。"
+    },
+    {
+      "id": "A04",
+      "code": "C03",
+      "segment": "S3d15e5a33066",
+      "excerpt": "学校没有统一要求，我也担心学生作业也让AI代写，所以课上不太提这件事",
+      "role": "support",
+      "evidence_kind": "participant_statement",
+      "interpretation": "规范缺位使教师把AI使用限于自己备课，不在课堂上讨论。"
+    }
+  ],
+  "themes": [
+    {
+      "id": "T1",
+      "name": "AI起草、教师判断",
+      "status": "candidate_AI_assisted",
+      "central_idea": "教师把AI当作起草和发散工具，最终取舍依赖对班级的了解。",
+      "support": [
+        "A01",
+        "A02"
+      ],
+      "counterexamples": [
+        "A03"
+      ],
+      "counterexample_review": "检查了两份记录中关于修改和核对的全部段落；T01的核对负担限定了省时的程度。",
+      "alternative_explanation": "两位教师可能本来就重视个性化备课，主题部分反映了样本特点。",
+      "boundary": "仅基于两位主动使用AI的教师。"
+    },
+    {
+      "id": "T2",
+      "name": "规范缺位下的谨慎",
+      "status": "candidate_AI_assisted",
+      "central_idea": "学校缺少规范时，教师把AI使用留在课后，不带进课堂讨论。",
+      "support": [
+        "A04"
+      ],
+      "counterexamples": [],
+      "counterexample_review": "两份记录中没有找到在课堂上公开讨论AI的描述；检查范围为全部参与者段落。",
+      "alternative_explanation": "回避也可能来自教师对学生作业诚信的个人担忧，与学校规范无关。",
+      "boundary": "只有一位教师提到，需更多访谈确认。"
+    }
+  ],
+  "unresolved": [
+    "规范缺位与个人担忧各自起多大作用尚不清楚。"
+  ],
+  "change_reason": "首次编码。"
+}

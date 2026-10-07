@@ -1,0 +1,14 @@
+{
+  "version": "0.7.0",
+  "packages": [
+    "edu-research",
+    "edu-writing",
+    "edu-analysis",
+    "edu-qual",
+    "edu-audit",
+    "edu-proposal",
+    "edu-review",
+    "edu-response",
+    "edu-shared"
+  ]
+}

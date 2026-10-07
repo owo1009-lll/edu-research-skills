@@ -1,0 +1,9 @@
+{
+  "published_zh_cssci": ["private/zh/ZH*.txt"],
+  "published_en_ssci": ["private/en/EN*.txt"],
+  "published_original_en": ["../round5/private/original_discussion.md"],
+  "skill_zh_discussion": ["../round5/outputs/skill/discussion.md", "../round6/outputs/*/prose.md", "../round6/exploratory/*/prose.md"],
+  "plain_prompt_zh_discussion": ["../round5/outputs/baseline/discussion.md"],
+  "skill_en_manuscript": ["../runs/manuscripts/luo-demo/delivery-v3/manuscript.md", "../round13/manuscript/final_word_delivery/manuscript.md"],
+  "skill_en_sections": ["../round10/trials/full_argument/[ABC]/final.md", "../round10/trials/synthesis/[ABC]/final.md", "../round9/trials/full_argument/candidate_first.md", "../round9/trials/synthesis/candidate_first.md", "../runs/writing/trial-discussion/final.md"]
+}

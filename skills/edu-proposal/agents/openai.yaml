@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Proposal"
+  short_description: "Draft and check Chinese grant applications and opening reports"
+  default_prompt: "Use $edu-proposal to draft this grant application: "

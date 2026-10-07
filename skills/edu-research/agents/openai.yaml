@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Research"
+  short_description: "Plan education studies and coordinate analysis-to-paper projects"
+  default_prompt: "Use $edu-research to plan this education study and route the work: "

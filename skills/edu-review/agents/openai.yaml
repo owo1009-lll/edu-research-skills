@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Mock Review"
+  short_description: "Simulate independent peer review before submission"
+  default_prompt: "Use $edu-review to review this manuscript before submission: "

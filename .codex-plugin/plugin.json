@@ -1,0 +1,40 @@
+{
+  "name": "edu-research-skills",
+  "version": "0.7.0",
+  "description": "Education research skills for Claude Code and Codex: research design, statistical analysis in R (SEM, PLS-SEM, fsQCA, NCA, regression, multilevel), qualitative coding, results checks, Chinese (CSSCI) and English (SSCI) paper writing, mock peer review, responses to reviewers and grant applications.",
+  "author": {
+    "name": "owo1009-lll",
+    "url": "https://github.com/owo1009-lll"
+  },
+  "repository": "https://github.com/owo1009-lll/edu-research-skills",
+  "keywords": [
+    "education research",
+    "academic writing",
+    "SEM",
+    "fsQCA",
+    "qualitative analysis",
+    "peer review",
+    "grant proposal"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Education Research Skills",
+    "shortDescription": "Education research, analysis and writing workflows",
+    "longDescription": "Education research skills for Claude Code and Codex: research design, statistical analysis in R (SEM, PLS-SEM, fsQCA, NCA, regression, multilevel), qualitative coding, results checks, Chinese (CSSCI) and English (SSCI) paper writing, mock peer review, responses to reviewers and grant applications.",
+    "developerName": "owo1009-lll",
+    "category": "Research",
+    "capabilities": [
+      "Statistical analysis in R",
+      "Qualitative coding",
+      "Academic writing",
+      "Peer review and responses",
+      "Grant applications"
+    ],
+    "defaultPrompt": [
+      "用 $edu-research 帮我规划这项研究：",
+      "用 $edu-analysis 分析这份问卷数据：",
+      "用 $edu-response 回复这份审稿意见："
+    ]
+  },
+  "license": "CC-BY-NC-4.0"
+}

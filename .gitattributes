@@ -1,0 +1,10 @@
+# Preserve evidence/configuration bytes across Windows checkouts for SHA256 checks.
+* -text
+
+# Preserve generated R output and matplotlib SVG formatting as actual evidence.
+# Source-code whitespace remains checked normally.
+round13/results/** -whitespace
+round13/displays/** -whitespace
+round13/manuscript/final_word_delivery/** -whitespace
+round13/records/*.log -whitespace
+round13/records/*.txt -whitespace

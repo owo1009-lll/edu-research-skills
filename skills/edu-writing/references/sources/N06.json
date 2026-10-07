@@ -1,0 +1,31 @@
+{
+  "id": "N06",
+  "doi": "10.1186/s40594-026-00633-y",
+  "role": "method_development",
+  "status": "full_argument_body_read; AI extraction awaiting human review",
+  "title": "Negotiating belonging: a constructivist grounded theory of transfer students’ experiences in STEM",
+  "source": "https://link.springer.com/article/10.1186/s40594-026-00633-y",
+  "read_utc_date": "2026-10-03",
+  "body_coverage": "Complete Introduction, literature review, Methods, all Results categories, Discussion, Conclusion, Data availability and Notes; Tables 1 and 2. References not individually retraced. No coding of original transcripts or new grounded-theory analysis performed.",
+  "design": "Single interviews (30–60 minutes) with 13 community-college transfers at UC San Diego, seven first-year and six second-year after transfer, all in a well-resourced neuroscience-related support program. Retrospective accounts across settings, not a multiwave longitudinal interview design. Constructivist grounded-theory analysis reported by authors.",
+  "parse_check": "Native section order and both linked tables read. Body major counts sum to 13 plus one reported missing major, inconsistent with total 13; no inferred distribution used. Results says at least five orientations but describes four named orientations and Table 2 lists four. Five core themes are distinct from the orientation categories. Figures not independently inspected.",
+  "moves": [
+    {
+      "problem": "One account of performance-dependent belonging overlooks contrasting meanings of achievement.",
+      "locations": ["Results:Orientation toward belonging/Conditional Orientation", "Results:Perceived academic performance/Comparisons With Peers", "Results:Social dynamics/Social Positioning"],
+      "author_move": "Performance demands can make belonging fragile, yet one Black student's earned admission affirms her place; peer comparison can deepen inadequacy or normalize self-doubt; another account describes peers belittling a high-performing student.",
+      "project_inference": "Compare what the same signal means across accounts and what the response adds. This develops conditions of an explanation rather than impose a single insecurity mechanism. Do not connect anonymous quotations into invented participant histories.",
+      "condition": "Preserve how accounts are identified and distinguish narrated treatment from independently observed motives of peers."
+    },
+    {
+      "problem": "The existence of supportive programs is mistaken for felt connection or the only form of belonging.",
+      "locations": ["Results:Orientation toward belonging/Disinterested Orientation", "Results:Motivation", "Results:Institutional conditions/Equal Expectations in Unequal Conditions", "Discussion:Integration with prior studies"],
+      "author_move": "Distinguishes disciplinary interest from institutional social connection; shows why reassurance that a transfer is competitive can miss the student's request for acknowledgment of unequal opportunity.",
+      "project_inference": "Specify the referent of a construct and compare what support says with the problem it is meant to answer. The educational question becomes responsiveness to conditions, not merely increasing a general connection score.",
+      "condition": "Reported disinterest in seeking belonging is not evidence of either isolation or withdrawal; support effectiveness was not tested."
+    }
+  ],
+  "do_not_adopt": ["The review already discusses dynamic/relational belonging; a static-versus-dynamic novelty claim is too broad without specifying which prior account changes.", "Accounts across contexts cannot establish a universally ordered process or measured temporal transition.", "Do not transform selected supported students into a representative sample of all transfers or a proven best-case population.", "Descriptions of peers' hostility do not identify peers' cognitive dissonance as the causal mechanism.", "Low salience of program elements in broadly framed interviews does not show disciplinary identity is more influential than program resources.", "Do not borrow the paper's dropping/absorbing rare codes as an automatic writing rule; rare cases may change the account."],
+  "correction_check": "Publisher page and Crossref update/relation fields inspected; linked preprint exists, publisher version used. No notice encountered there; independent withdrawal check pending.",
+  "review_status": "AI full-argument/table reading; internal reporting inconsistencies retained for human review"
+}

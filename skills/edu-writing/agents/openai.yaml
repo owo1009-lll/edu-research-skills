@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Writing"
+  short_description: "Write or revise CSSCI and SSCI papers from evidence"
+  default_prompt: "Use $edu-writing to write or revise this education paper: "

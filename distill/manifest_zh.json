@@ -1,0 +1,492 @@
+[
+  {
+    "id": "ZH01",
+    "title": "高等教育扩张中博士教育需求溢出的逻辑机制——基于民办本科高校教师赴东南亚读博的调查",
+    "authors": [
+      "陈先哲",
+      "王俊"
+    ],
+    "year": 2025,
+    "journal": "教育研究",
+    "volume_issue": "2025-6",
+    "selection_role": "primary",
+    "design": "qualitative",
+    "method_detail": "单案例：深度访谈n=21+观察+文本",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH02",
+    "title": "如何从“高成绩”走向“高创新”——科学成绩对学生创新能力的影响探究",
+    "authors": [
+      "钱佳",
+      "曹义兰"
+    ],
+    "year": 2026,
+    "journal": "教育研究",
+    "volume_issue": "2026-2",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "问卷+成绩匹配n=2871",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH03",
+    "title": "家庭社会经济地位、数字素养与青少年学业成就关系研究",
+    "authors": [
+      "孙婧",
+      "张欢欢",
+      "张权"
+    ],
+    "year": 2025,
+    "journal": "教育研究",
+    "volume_issue": "2025-6",
+    "selection_role": "backup",
+    "design": "quantitative",
+    "method_detail": "问卷+SEM n=8115",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH04",
+    "title": "使用生成式人工智能辅助学习的学生类型画像——基于全国20所高校本科生调查的实证研究",
+    "authors": [
+      "马莉萍",
+      "郑翔睿",
+      "周雪涵"
+    ],
+    "year": 2026,
+    "journal": "华东师范大学学报（教育科学版）",
+    "volume_issue": "2026-1",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "问卷+潜在剖面+回归n=12678",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH05",
+    "title": "在场与呈现：乡村教师地方感生成的影像发声实践",
+    "authors": [
+      "曾姝倩",
+      "王建平"
+    ],
+    "year": 2026,
+    "journal": "华东师范大学学报（教育科学版）",
+    "volume_issue": "2026-3",
+    "selection_role": "primary",
+    "design": "qualitative",
+    "method_detail": "影像发声法n=24",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH06",
+    "title": "教师知识共享行为是如何发生的？",
+    "authors": [
+      "魏晓宇",
+      "苏娜"
+    ],
+    "year": 2026,
+    "journal": "华东师范大学学报（教育科学版）",
+    "volume_issue": "2026-7",
+    "selection_role": "backup",
+    "design": "quantitative",
+    "method_detail": "问卷+SEM n=3483",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH07",
+    "title": "SEL教学助推师范生社会情感能力的有效性：一项包含前后测双组实验的混合研究",
+    "authors": [
+      "邢芸"
+    ],
+    "year": 2026,
+    "journal": "教师教育研究",
+    "volume_issue": "2026-4",
+    "selection_role": "primary",
+    "design": "mixed",
+    "method_detail": "HLM+准实验n=306+访谈n=29",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH08",
+    "title": "浸润与赋能：师范生数字化教学能力形成机理的质性研究",
+    "authors": [
+      "黄庆双",
+      "张思琦",
+      "杜岩岩"
+    ],
+    "year": 2026,
+    "journal": "教师教育研究",
+    "volume_issue": "2026-1",
+    "selection_role": "primary",
+    "design": "qualitative",
+    "method_detail": "扎根理论访谈n=24",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH09",
+    "title": "大语言模型赋能职前教师协作问题解决的实证研究",
+    "authors": [
+      "郑兰琴",
+      "史喆",
+      "高蕾",
+      "傅骞"
+    ],
+    "year": 2025,
+    "journal": "教师教育研究",
+    "volume_issue": "2025-3",
+    "selection_role": "backup",
+    "design": "quantitative",
+    "method_detail": "对照实验n=78",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH10",
+    "title": "教师人工智能素养影响教学创新行为的链式中介效应研究",
+    "authors": [
+      "詹泽慧",
+      "钟超诚",
+      "林志航",
+      "周嘉慧",
+      "杨明欢"
+    ],
+    "year": 2026,
+    "journal": "中国电化教育",
+    "volume_issue": "2026-4",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "问卷+链式中介n=634",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH11",
+    "title": "中小学校长数字化转型领导力的测评与应用",
+    "authors": [
+      "李姗姗",
+      "林易",
+      "曾诚则",
+      "王志明",
+      "吴筱萌"
+    ],
+    "year": 2026,
+    "journal": "中国电化教育",
+    "volume_issue": "2026-9",
+    "selection_role": "primary",
+    "design": "mixed",
+    "method_detail": "访谈+德尔菲+问卷n=243",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH12",
+    "title": "数字教材何以改变课堂教学方式——基于126个教学案例片段的视频分析",
+    "authors": [
+      "周坤亮"
+    ],
+    "year": 2026,
+    "journal": "中国电化教育",
+    "volume_issue": "2026-9",
+    "selection_role": "backup",
+    "design": "qualitative",
+    "method_detail": "课堂视频分析126片段",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH13",
+    "title": "生成式人工智能赋能大学生自我调节学习的行为模式与提升路径",
+    "authors": [
+      "冯汝源",
+      "谢卓学"
+    ],
+    "year": 2026,
+    "journal": "电化教育研究",
+    "volume_issue": "2026-8",
+    "selection_role": "primary",
+    "design": "mixed",
+    "method_detail": "对话编码328段+访谈",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH14",
+    "title": "项目式学习何以培养高中生的数据素养——基于数据生命周期的信息技术课程实证研究",
+    "authors": [
+      "张学军",
+      "李莉",
+      "岳彦龙"
+    ],
+    "year": 2026,
+    "journal": "电化教育研究",
+    "volume_issue": "2026-8",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "准实验n=106",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH15",
+    "title": "GAI支持的同伴反馈模式对大学生反馈素养与质量的影响研究",
+    "authors": [
+      "张屹",
+      "陈邓康",
+      "郭富成",
+      "卢逸杰"
+    ],
+    "year": 2026,
+    "journal": "电化教育研究",
+    "volume_issue": "2026-8",
+    "selection_role": "backup",
+    "design": "quantitative",
+    "method_detail": "准实验n=68+认知网络分析",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH16",
+    "title": "焦虑、依赖还是高效利用？——人工智能使用行为对学业表现的分化影响",
+    "authors": [
+      "李静",
+      "黄淑仪",
+      "刘信韬"
+    ],
+    "year": 2026,
+    "journal": "开放教育研究",
+    "volume_issue": "2026-4",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "问卷+SEM n=5638",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH17",
+    "title": "从参与者到建设者：学习型城市建设市民行动机制研究",
+    "authors": [
+      "顾凤佳",
+      "朱益明",
+      "陈劲良"
+    ],
+    "year": 2026,
+    "journal": "开放教育研究",
+    "volume_issue": "2026-1",
+    "selection_role": "primary",
+    "design": "qualitative",
+    "method_detail": "扎根理论访谈n=18",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH18",
+    "title": "自我的启蒙——学习者与生成式人工智能共享意义创造内在影响机制研究",
+    "authors": [
+      "蒋佳东",
+      "郭俊杰"
+    ],
+    "year": 2026,
+    "journal": "开放教育研究",
+    "volume_issue": "2026-1",
+    "selection_role": "backup",
+    "design": "qualitative",
+    "method_detail": "扎根理论n=24",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH19",
+    "title": "教师形成性反馈和对话式人工智能形成性反馈对本科生批判性思维影响的差异比较——学习焦虑的调节作用",
+    "authors": [
+      "赵利曼",
+      "王祎辉",
+      "黄顺玲",
+      "马利红"
+    ],
+    "year": 2026,
+    "journal": "中国远程教育",
+    "volume_issue": "2026-7",
+    "selection_role": "primary",
+    "design": "mixed",
+    "method_detail": "准实验n=184+访谈",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH20",
+    "title": "数智背景下教师数字素养对职业焦虑的影响及作用机制——基于全国1,517份问卷的实证研究",
+    "authors": [
+      "金志杰",
+      "周轶一",
+      "方洁",
+      "范国睿"
+    ],
+    "year": 2026,
+    "journal": "中国远程教育",
+    "volume_issue": "2026-7",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "问卷+SEM n=1517",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH21",
+    "title": "虚实教学环境与反思模式对师范生专业能力的影响——双因素方差分析与有序网络分析",
+    "authors": [
+      "张琪",
+      "张锦",
+      "罗霞",
+      "陈玉杰"
+    ],
+    "year": 2026,
+    "journal": "中国远程教育",
+    "volume_issue": "2026-8",
+    "selection_role": "backup",
+    "design": "quantitative",
+    "method_detail": "2×2实验n=64",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH22",
+    "title": "有限循证：整合实践经验与数字证据的教师数字评价素养形成机制",
+    "authors": [
+      "逯行",
+      "张硕",
+      "章仪"
+    ],
+    "year": 2026,
+    "journal": "现代远程教育研究",
+    "volume_issue": "2026-3",
+    "selection_role": "primary",
+    "design": "qualitative",
+    "method_detail": "访谈n=30",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH23",
+    "title": "典型科研场景下生成式人工智能使用的差异性分析——学科背景与人工智能素养的影响",
+    "authors": [
+      "李艳",
+      "朱雨萌",
+      "孙丹",
+      "许洁",
+      "翟雪松"
+    ],
+    "year": 2025,
+    "journal": "现代远程教育研究",
+    "volume_issue": "2025-2",
+    "selection_role": "primary",
+    "design": "mixed",
+    "method_detail": "问卷n=1226+访谈",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH24",
+    "title": "基础学科拔尖学生专业兴趣为何消退——基于情绪认知评价理论的分析",
+    "authors": [
+      "朱德玲",
+      "郭仕豪",
+      "余秀兰"
+    ],
+    "year": 2025,
+    "journal": "现代远程教育研究",
+    "volume_issue": "2025-2",
+    "selection_role": "backup",
+    "design": "qualitative",
+    "method_detail": "深度访谈n=16",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH25",
+    "title": "生成式人工智能幻觉对计算机支持协作学习的影响研究——基于群体层面的实证检验",
+    "authors": [
+      "陈德鑫",
+      "李函臻",
+      "杨欣雨",
+      "梅傲寒"
+    ],
+    "year": 2026,
+    "journal": "远程教育杂志",
+    "volume_issue": "2026-4",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "被试内实验n=56",
+    "ai_related": true,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH26",
+    "title": "老年人数字技术使用态度和能力对数字技术使用行为的影响——以老年教育为中介变量",
+    "authors": [
+      "朱建春",
+      "章肖",
+      "邵玲"
+    ],
+    "year": 2025,
+    "journal": "远程教育杂志",
+    "volume_issue": "2025-5",
+    "selection_role": "primary",
+    "design": "quantitative",
+    "method_detail": "问卷+中介n=1982",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  },
+  {
+    "id": "ZH27",
+    "title": "共享生理唤醒水平如何影响小组协作行为——基于人际神经科学视角的协作学习互动差异探究",
+    "authors": [
+      "吴林静",
+      "李雅洁",
+      "陈浠钒",
+      "金璇",
+      "毛刚"
+    ],
+    "year": 2026,
+    "journal": "远程教育杂志",
+    "volume_issue": "2026-4",
+    "selection_role": "backup",
+    "design": "quantitative",
+    "method_detail": "多模态数据+认知网络分析",
+    "ai_related": false,
+    "access_note": "CNKI PDF downloaded by the user through institutional access",
+    "verification": "title verified on journal site or CNKI abstract page, 2026-10-06"
+  }
+]

@@ -1,0 +1,190 @@
+{
+  "data": "paths_synthetic.csv",
+  "question": "SYNTHETIC PROGRAM TEST: estimate pre-specified linear paths, not a real paper reproduction",
+  "design": {
+    "unit": "simulated independent unit",
+    "id": "unit",
+    "row_structure": "one_per_unit",
+    "cluster_columns": [],
+    "independence_basis": "Independent pseudorandom synthetic rows; no real participants"
+  },
+  "variables": {
+    "x": {
+      "type": "numeric",
+      "meaning": "Explicitly synthetic x",
+      "source": "synthetic program fixture; not empirical education data"
+    },
+    "w": {
+      "type": "numeric",
+      "meaning": "Explicitly synthetic w",
+      "source": "synthetic program fixture; not empirical education data"
+    },
+    "cov": {
+      "type": "numeric",
+      "meaning": "Explicitly synthetic cov",
+      "source": "synthetic program fixture; not empirical education data"
+    },
+    "m1": {
+      "type": "numeric",
+      "meaning": "Explicitly synthetic m1",
+      "source": "synthetic program fixture; not empirical education data"
+    },
+    "m2": {
+      "type": "numeric",
+      "meaning": "Explicitly synthetic m2",
+      "source": "synthetic program fixture; not empirical education data"
+    },
+    "y": {
+      "type": "numeric",
+      "meaning": "Explicitly synthetic y",
+      "source": "synthetic program fixture; not empirical education data"
+    },
+    "ym": {
+      "type": "numeric",
+      "meaning": "Explicitly synthetic ym",
+      "source": "synthetic program fixture; not empirical education data"
+    },
+    "xb": {
+      "type": "categorical",
+      "meaning": "Synthetic binary xb",
+      "source": "synthetic program fixture",
+      "levels": [
+        "zero",
+        "one"
+      ],
+      "labels": [
+        "zero",
+        "one"
+      ],
+      "reference": "zero"
+    },
+    "wb": {
+      "type": "categorical",
+      "meaning": "Synthetic binary wb",
+      "source": "synthetic program fixture",
+      "levels": [
+        "lo",
+        "hi"
+      ],
+      "labels": [
+        "lo",
+        "hi"
+      ],
+      "reference": "lo"
+    }
+  },
+  "scales": [],
+  "na_strings": [
+    "NA",
+    ""
+  ],
+  "seed": 92341,
+  "bootstrap_replicates": 400,
+  "confidence": 0.95,
+  "analyses": [
+    {
+      "purpose": "Synthetic calculation check only",
+      "missing": "complete_case",
+      "covariates": [
+        "cov"
+      ],
+      "center": [],
+      "inference": "HC3",
+      "time_order": "Synthetic stipulated ordering; not a real temporal design",
+      "path_rationale": "Fixed equations, no significance or mediator-order search",
+      "id": "sim_simple",
+      "method": "simple_mediation",
+      "x": "x",
+      "outcome": "y",
+      "mediators": [
+        "m1"
+      ]
+    },
+    {
+      "purpose": "Synthetic calculation check only",
+      "missing": "complete_case",
+      "covariates": [
+        "cov"
+      ],
+      "center": [],
+      "inference": "HC3",
+      "time_order": "Synthetic stipulated ordering; not a real temporal design",
+      "path_rationale": "Fixed equations, no significance or mediator-order search",
+      "id": "sim_serial",
+      "method": "serial_mediation",
+      "x": "x",
+      "outcome": "y",
+      "mediators": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "purpose": "Synthetic calculation check only",
+      "missing": "complete_case",
+      "covariates": [
+        "cov"
+      ],
+      "center": [
+        "x",
+        "w"
+      ],
+      "inference": "HC3",
+      "time_order": "Synthetic stipulated ordering; not a real temporal design",
+      "path_rationale": "Fixed equations, no significance or mediator-order search",
+      "id": "sim_mod",
+      "method": "moderation",
+      "x": "x",
+      "w": "w",
+      "outcome": "ym",
+      "moderator_values": [
+        -1,
+        0,
+        1
+      ],
+      "plot_x_values": [
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "purpose": "Synthetic calculation check only",
+      "missing": "complete_case",
+      "covariates": [
+        "cov"
+      ],
+      "center": [],
+      "inference": "HC3",
+      "time_order": "Synthetic stipulated ordering; not a real temporal design",
+      "path_rationale": "Fixed equations, no significance or mediator-order search",
+      "id": "sim_binary_mod",
+      "method": "moderation",
+      "x": "xb",
+      "w": "wb",
+      "outcome": "ym",
+      "moderator_values": [
+        "lo",
+        "hi"
+      ]
+    },
+    {
+      "purpose": "Synthetic calculation check only",
+      "missing": "complete_case",
+      "covariates": [
+        "cov"
+      ],
+      "center": [],
+      "inference": "HC3",
+      "time_order": "Synthetic stipulated ordering; not a real temporal design",
+      "path_rationale": "Fixed equations, no significance or mediator-order search",
+      "id": "sim_binary_simple",
+      "method": "simple_mediation",
+      "x": "xb",
+      "outcome": "y",
+      "mediators": [
+        "m1"
+      ]
+    }
+  ]
+}

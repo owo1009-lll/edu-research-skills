@@ -1,0 +1,1 @@
+来源：Hasan MR & Khan B (2023), An AI-based intervention for improving undergraduate STEM learning, PLOS ONE. https://doi.org/10.1371/journal.pone.0288844 ，Table 4，PDF物理页5。人工转录并对照JATS与PDF核查，获取日期2026-10-02。此目录可整体复制为workspace，配置为E17_config.json。仅复算已发表计数和失败风险比；未复算Barnard检验。来源论文CC BY，数字转录不是独立原始数据。

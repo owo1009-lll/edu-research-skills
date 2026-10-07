@@ -1,0 +1,31 @@
+{
+  "id": "N05",
+  "doi": "10.1007/s10643-026-02310-9",
+  "role": "method_development",
+  "status": "full_argument_body_read; AI extraction awaiting human review",
+  "title": "Teaching Toward Equity: Kindergarten Teachers’ Responses to Readiness Variation and Preschool Skill Gaps",
+  "source": "https://link.springer.com/article/10.1007/s10643-026-02310-9",
+  "read_utc_date": "2026-10-03",
+  "body_coverage": "Four unsectioned introduction paragraphs; full conceptual background, Methodology, Findings, Discussion and Notes; Tables 1 and 2. Public interview-protocol supplement and prior survey were not independently analyzed; full interview data are not supplied.",
+  "design": "Directed content analysis of 26 U.S. public-kindergarten-teacher interviews, selected for diversity from 422 survey respondents (274 willing, 57 contacted); 40–60-minute interviews, no direct classroom or child-outcome observation in this paper.",
+  "parse_check": "Native HTML paragraphs and two tables inspected. Table 1 contains 26 teachers and 20 distinct jurisdiction codes (19 states plus DC); this does not match the body's 22 states/22 states plus DC claims. Geography remains unresolved and is not repeated as verified fact. Directed coding and prior theoretical commitments explicitly reported.",
+  "moves": [
+    {
+      "problem": "A system-level outcome theory does not yet specify how teachers decide whom to support.",
+      "locations": ["unsectioned_prose:p3–4", "Background:From Convergence Patterns to Teachers’ Sensemaking", "Findings:Themes 2 and 4", "Discussion:Interpreting Inequality Through Fairness and Efficiency Logics"],
+      "author_move": "Connects previously reported convergence/attention patterns to teachers' fairness and efficiency reasons, distinguishing individual attention at the lower end from whole-group instruction directed nearer the middle.",
+      "project_inference": "Ask what a prior outcome pattern leaves unexplained at the level of decisions; keep the proposed link to student outcomes separate from the decision accounts actually obtained.",
+      "condition": "Reported reasons and practices can elaborate a process account; they cannot establish that these practices caused preschool-effect convergence."
+    },
+    {
+      "problem": "A normative implication merely repeats that differentiation is important.",
+      "locations": ["Findings:Theme 5", "Discussion:The Ethics of Differentiation and the Purpose of Kindergarten", "Discussion:Reconsidering What Counts as Pre-K Advantage"],
+      "author_move": "Uses teachers' regret about less attention to advanced pupils to pose a distributional question about closing gaps and extending each child's learning; compares perceived preschool advantage with the diversity of programs rather than treating attendance as a uniform exposure.",
+      "project_inference": "Develop the implication from an observed trade-off and specify what competing educational aims would prioritize. Keep equal growth or fixed inequality propositions conditional rather than redefine differentiation as necessarily equal growth.",
+      "condition": "The study supports a question about resource decisions; it does not determine an acceptable cost or an optimal equity policy."
+    }
+  ],
+  "do_not_adopt": ["A purposely diverse interview sample is not established population representativeness.", "Terms such as engine producing convergence overstate the interview design; the paper's later limitations explicitly identify missing outcome/observation evidence.", "Do not portray teacher regret as evidence of measured lost learning among advanced children.", "Do not adopt the equation of perfect differentiation with equal growth as a universal definition.", "Repeated quotations without participant IDs cannot establish cross-case frequencies or link particular reasons to particular outcomes."],
+  "correction_check": "Publisher page and Crossref update/relation fields inspected; no notice encountered; dedicated withdrawal check pending. Internal geographic inconsistency retained for review, not silently repaired.",
+  "review_status": "AI reading and project interpretation; human/source clarification pending"
+}

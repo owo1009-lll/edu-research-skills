@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Qualitative"
+  short_description: "Thematic, content and grounded-theory coding with source-linked records"
+  default_prompt: "Use $edu-qual to code these interviews: "

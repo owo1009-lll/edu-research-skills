@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Analysis"
+  short_description: "Run recorded R analyses: SEM, PLS-SEM, fsQCA, NCA, regression and more"
+  default_prompt: "Use $edu-analysis to analyze this survey or experiment data: "

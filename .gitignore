@@ -1,0 +1,24 @@
+# Python and R environments
+.venv/
+.r-library/
+__pycache__/
+*.pyc
+
+# Output of running the skills inside this folder
+edu_output/
+
+# Local-only material from the archived development rounds at the repository root
+# (history: archive/dev-history branch); skills/*/examples/ are part of the skills
+/round*/
+/runs/
+/corpus/
+/records/
+/reports/
+/examples/
+/source/
+/dist/
+/docs/
+/*.zip
+
+# Style distillation full texts (copyrighted; local only)
+distill/private/

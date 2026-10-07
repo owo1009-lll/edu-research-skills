@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Audit"
+  short_description: "Recompute reported statistics and review statistical reporting"
+  default_prompt: "Use $edu-audit to check the statistics reported in this manuscript: "

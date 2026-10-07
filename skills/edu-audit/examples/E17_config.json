@@ -1,0 +1,17 @@
+{
+  "case_id": "E17_summary",
+  "mode": "summary_counts",
+  "evidence_status": "source_verified_summary",
+  "input": "E17_counts.csv",
+  "source_results": "E17_source_results.csv",
+  "outcome_definition": "Final grade <=64 is failure; NOT the <70 ML class boundary",
+  "unit": "randomized student",
+  "sample_selection": "All 65 randomized students in published Table 4; counts transcribed from JATS and checked against rendered PDF",
+  "scoring": "published binary outcomes only",
+  "missing_policy": "No imputation; use published complete 2x2 counts; raw missingness unknown",
+  "model": "descriptive counts and failure risk ratio only; Barnard p not recomputed",
+  "standardization": "none",
+  "interval_algorithm": "none: no CI claimed or added",
+  "software_original": "scipy for Barnard test, version not specified; not relevant to exact count/RR arithmetic",
+  "source_location": "E17 P0022 P0038 P0045; JATS pone.0288844.t004"
+}
