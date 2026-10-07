@@ -21,7 +21,24 @@
 | 某条件是否是结果的必要条件、需要到什么水平 | 连续或有序 | NCA | [NCA](methods/nca.md) |
 | 学生嵌套在班级或学校中 | 多层数据 | ICC 判断，多层线性模型 | [多层与纵向](methods/multilevel-longitudinal.md) |
 | 多次测量的变化 | 三个及以上时点 | 重复测量方差分析、增长模型、CLPM / RI-CLPM | [多层与纵向](methods/multilevel-longitudinal.md) |
+| 样本中有哪些潜在亚群（剖面） | 连续指标（量表均分、因子得分） | 潜在剖面分析（LPA，mclust）（试用） | [潜在剖面与潜在类别](methods/latent-profile.md) |
+| 按作答模式把人分成类别 | 二分或类别题目 | 潜在类别分析（LCA，poLCA）（试用） | [潜在剖面与潜在类别](methods/latent-profile.md) |
+| 题目难度、区分度、测验精度与能力估计 | 二分题或有序题，单维 | IRT：Rasch、2PL、等级反应模型（mirt）（试用） | [项目反应理论](methods/irt.md) |
+| 非随机分组的干预效果（自愿参加、选择性进入） | 干预组 + 对照组，干预前协变量 | 倾向得分匹配（MatchIt + cobalt 平衡检验）（试用） | [准实验因果推断](methods/causal-inference.md) |
+| 政策或试点在实施前后的效果 | 干预组/对照组 × 前/后；多期面板 | 双重差分；事件研究；交错实施用 Sun & Abraham（试用） | [准实验因果推断](methods/causal-inference.md) |
+| 分数线、门槛决定是否受干预 | 连续运行变量 + 门槛 | 断点回归（rdrobust，稳健偏差校正）（试用） | [准实验因果推断](methods/causal-inference.md) |
+| 合并多项研究的效应、异质性与调节因素 | 各研究的均值/标准差/n、相关或 2×2 表；同一研究多效应量 | 随机效应元分析、元回归/亚组、Egger 与剪补法、逐一剔除、三水平元分析（试用） | [元分析](methods/meta-analysis.md) |
+| 影响有序等级结果的因素 | 有序因变量（3–5 级） | 有序 Logistic 回归 + 比例优势检验（试用） | [有序、多项与计数](methods/glm-extensions.md) |
+| 影响无序多类别选择的因素 | 三类及以上无序因变量 | 多项 Logistic 回归（试用） | [有序、多项与计数](methods/glm-extensions.md) |
+| 影响次数的因素 | 计数因变量（常有过度离散、零多） | Poisson / 负二项 / 零膨胀或障碍模型（试用） | [有序、多项与计数](methods/glm-extensions.md) |
+| 数据支持"有差异"还是"无差异" | 连续，两组、配对、多组、回归或相关 | 贝叶斯因子检验（BayesFactor）（试用） | [贝叶斯检验](methods/bayesian.md) |
+| 学生可分成哪几类（描述性类型） | 多个连续指标 | 聚类分析（k-means / Ward / PAM，轮廓系数、间隙统计量、ARI）；需要类别数检验时用 LPA（试用） | [聚类分析](methods/cluster.md) |
+| 谁处在互动中心、有没有小团体 | 边列表（回帖、同伴提名、合作） | 社会网络分析（密度、互惠、中心性、社群与模块度）（试用） | [社会网络](methods/network.md) |
+| 哪些行为常紧接着发生；学习轨迹有哪几种 | 行为编码日志（ID、顺序、编码）；按时间网格的状态序列 | 滞后序列分析（调整残差、Yule's Q）；序列分析（OM + 聚类）（试用） | [学习日志](methods/learning-logs.md) |
+| 大量文本谈了哪些主题，主题比例是否随组别变化 | 开放题、反思、论坛帖子（中文先分词） | 结构主题模型（STM，searchK，estimateEffect）（试用） | [主题模型](methods/topic-model.md) |
 | 访谈、开放题编码 | 文本 | 转到 edu-qual（主题分析、内容分析、扎根理论、编码一致性） | ../../edu-qual/SKILL.md |
+
+标"试用"的方法已用已发表数值或解析解核对，但还没有在真实研究数据上用过，结果要多看一遍。这些方法用到的 R 包不在基础安装里，首次使用时运行 `Rscript scripts/setup_packages.R --all` 安装。
 
 ## 常见组合
 

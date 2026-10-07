@@ -1,257 +1,285 @@
 [
- {
-  "id": 1,
-  "prompt": "这是我收的500份问卷，帮我做信效度检验和结构方程模型",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 2,
-  "prompt": "实验组和对照组的后测成绩有没有显著差异？数据在 scores.xlsx",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 3,
-  "prompt": "我想看性别和是否使用ChatGPT写作业之间有没有关系",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 4,
-  "prompt": "在SEM结果之外，再用fsQCA找出导致高学习投入的条件组态",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 5,
-  "prompt": "教师支持是不是学生学习投入的必要条件？用NCA分析",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 6,
-  "prompt": "学生嵌套在40个班级里，帮我判断要不要用多层线性模型",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 7,
-  "prompt": "检验自我效能在教师支持和学业成绩之间的中介作用，用bootstrap",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 8,
-  "prompt": "这20份教师访谈，用扎根理论做三级编码，提炼数字化教学能力的形成机理",
-  "expected": [
-   "edu-qual"
-  ]
- },
- {
-  "id": 9,
-  "prompt": "帮我对学生的开放题回答做主题分析，保留原话",
-  "expected": [
-   "edu-qual"
-  ]
- },
- {
-  "id": 10,
-  "prompt": "两个编码者的编码结果都在这里了，算一下编码一致性",
-  "expected": [
-   "edu-qual",
-   "edu-analysis"
-  ]
- },
- {
-  "id": 11,
-  "prompt": "核对一下这篇论文表3里报告的均值和标准差能不能复算出来",
-  "expected": [
-   "edu-audit"
-  ]
- },
- {
-  "id": 12,
-  "prompt": "根据这些方法和结果，帮我写一节中文讨论，准备投中国电化教育",
-  "expected": [
-   "edu-writing"
-  ]
- },
- {
-  "id": 13,
-  "prompt": "Write the Discussion section for my study on generative AI feedback, targeting BJET",
-  "expected": [
-   "edu-writing"
-  ]
- },
- {
-  "id": 14,
-  "prompt": "我的初稿在这里，帮我修改引言部分，保留我的论点和结构",
-  "expected": [
-   "edu-writing"
-  ]
- },
- {
-  "id": 15,
-  "prompt": "帮我把这段文献综述改得更有逻辑",
-  "expected": [
-   "edu-writing"
-  ]
- },
- {
-  "id": 16,
-  "prompt": "根据这份问卷数据，写一篇完整的CSSCI论文",
-  "expected": [
-   "edu-analysis",
-   "edu-writing"
-  ],
-  "optional_first": [
-   "edu-research"
-  ]
- },
- {
-  "id": 17,
-  "prompt": "访谈都转录好了，帮我分析完写成论文的研究发现部分",
-  "expected": [
-   "edu-qual",
-   "edu-writing"
-  ],
-  "optional_first": [
-   "edu-research"
-  ]
- },
- {
-  "id": 18,
-  "prompt": "我想研究生成式AI对大学生自主学习的影响，帮我想几个研究问题和研究设计",
-  "expected": [
-   "edu-research"
-  ]
- },
- {
-  "id": 19,
-  "prompt": "这个课题怎么设计准实验？需要多少样本？",
-  "expected": [
-   "edu-research"
-  ]
- },
- {
-  "id": 20,
-  "prompt": "量表的CFA拟合不好，CR和AVE也偏低，帮我看看问题在哪",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 21,
-  "prompt": "用PLS-SEM分析技术接受模型，样本只有150",
-  "expected": [
-   "edu-analysis"
-  ]
- },
- {
-  "id": 22,
-  "prompt": "帮我写一封申请博士后的求职信",
-  "expected": []
- },
- {
-  "id": 23,
-  "prompt": "这段Python爬虫代码报错了，帮我调试",
-  "expected": []
- },
- {
-  "id": 24,
-  "prompt": "把这首唐诗翻译成英文",
-  "expected": []
- },
- {
-  "id": 25,
-  "prompt": "帮我写国家社科基金教育学一般项目的活页，选题是生成式AI与农村教师专业发展",
-  "expected": [
-   "edu-proposal"
-  ]
- },
- {
-  "id": 26,
-  "prompt": "我的开题报告写好了，帮我看看创新点写得怎么样，字数有没有超",
-  "expected": [
-   "edu-proposal"
-  ]
- },
- {
-  "id": 27,
-  "prompt": "把这篇稿子的参考文献改成GB/T 7714格式",
-  "expected": [
-   "edu-writing"
-  ]
- },
- {
-  "id": 28,
-  "prompt": "稿子写完了，准备投《中国电化教育》，你从审稿人角度挑挑毛病，看哪里可能被拒",
-  "expected": [
-   "edu-review"
-  ]
- },
- {
-  "id": 29,
-  "prompt": "Please do a mock peer review of my manuscript before I submit it to Computers & Education",
-  "expected": [
-   "edu-review"
-  ]
- },
- {
-  "id": 30,
-  "prompt": "收到外审意见了，大修，帮我逐条回复并写修改说明",
-  "expected": [
-   "edu-response"
-  ]
- },
- {
-  "id": 31,
-  "prompt": "Write a point-by-point response letter to Reviewer 2 and mark the changes in the revised manuscript",
-  "expected": [
-   "edu-response"
-  ]
- },
- {
-  "id": 32,
-  "prompt": "帮我把修改稿和原稿对比，修改的地方标红",
-  "expected": [
-   "edu-response"
-  ]
- },
- {
-  "id": 33,
-  "prompt": "看看我结果部分的统计报告规不规范，比如有没有漏报自由度和效应量",
-  "expected": [
-   "edu-audit"
-  ]
- },
- {
-  "id": 34,
-  "prompt": "帮我写这篇论文的中英文摘要和关键词",
-  "expected": [
-   "edu-writing"
-  ]
- },
- {
-  "id": 35,
-  "prompt": "检查一下全文的样本量、数字和术语前后是否一致",
-  "expected": [
-   "edu-writing"
-  ]
- },
- {
-  "id": 36,
-  "prompt": "模拟两位评审专家，看看我的国家社科基金申报书能不能过",
-  "expected": [
-   "edu-review"
-  ]
- }
+  {
+    "id": 1,
+    "prompt": "这是我收的500份问卷，帮我做信效度检验和结构方程模型",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 2,
+    "prompt": "实验组和对照组的后测成绩有没有显著差异？数据在 scores.xlsx",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 3,
+    "prompt": "我想看性别和是否使用ChatGPT写作业之间有没有关系",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 4,
+    "prompt": "在SEM结果之外，再用fsQCA找出导致高学习投入的条件组态",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 5,
+    "prompt": "教师支持是不是学生学习投入的必要条件？用NCA分析",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 6,
+    "prompt": "学生嵌套在40个班级里，帮我判断要不要用多层线性模型",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 7,
+    "prompt": "检验自我效能在教师支持和学业成绩之间的中介作用，用bootstrap",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 8,
+    "prompt": "这20份教师访谈，用扎根理论做三级编码，提炼数字化教学能力的形成机理",
+    "expected": [
+      "edu-qual"
+    ]
+  },
+  {
+    "id": 9,
+    "prompt": "帮我对学生的开放题回答做主题分析，保留原话",
+    "expected": [
+      "edu-qual"
+    ]
+  },
+  {
+    "id": 10,
+    "prompt": "两个编码者的编码结果都在这里了，算一下编码一致性",
+    "expected": [
+      "edu-qual",
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 11,
+    "prompt": "核对一下这篇论文表3里报告的均值和标准差能不能复算出来",
+    "expected": [
+      "edu-audit"
+    ]
+  },
+  {
+    "id": 12,
+    "prompt": "根据这些方法和结果，帮我写一节中文讨论，准备投中国电化教育",
+    "expected": [
+      "edu-writing"
+    ]
+  },
+  {
+    "id": 13,
+    "prompt": "Write the Discussion section for my study on generative AI feedback, targeting BJET",
+    "expected": [
+      "edu-writing"
+    ]
+  },
+  {
+    "id": 14,
+    "prompt": "我的初稿在这里，帮我修改引言部分，保留我的论点和结构",
+    "expected": [
+      "edu-writing"
+    ]
+  },
+  {
+    "id": 15,
+    "prompt": "帮我把这段文献综述改得更有逻辑",
+    "expected": [
+      "edu-writing"
+    ]
+  },
+  {
+    "id": 16,
+    "prompt": "根据这份问卷数据，写一篇完整的CSSCI论文",
+    "expected": [
+      "edu-analysis",
+      "edu-writing"
+    ],
+    "optional_first": [
+      "edu-research"
+    ]
+  },
+  {
+    "id": 17,
+    "prompt": "访谈都转录好了，帮我分析完写成论文的研究发现部分",
+    "expected": [
+      "edu-qual",
+      "edu-writing"
+    ],
+    "optional_first": [
+      "edu-research"
+    ]
+  },
+  {
+    "id": 18,
+    "prompt": "我想研究生成式AI对大学生自主学习的影响，帮我想几个研究问题和研究设计",
+    "expected": [
+      "edu-research"
+    ]
+  },
+  {
+    "id": 19,
+    "prompt": "这个课题怎么设计准实验？需要多少样本？",
+    "expected": [
+      "edu-research"
+    ]
+  },
+  {
+    "id": 20,
+    "prompt": "量表的CFA拟合不好，CR和AVE也偏低，帮我看看问题在哪",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 21,
+    "prompt": "用PLS-SEM分析技术接受模型，样本只有150",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 22,
+    "prompt": "帮我写一封申请博士后的求职信",
+    "expected": []
+  },
+  {
+    "id": 23,
+    "prompt": "这段Python爬虫代码报错了，帮我调试",
+    "expected": []
+  },
+  {
+    "id": 24,
+    "prompt": "把这首唐诗翻译成英文",
+    "expected": []
+  },
+  {
+    "id": 25,
+    "prompt": "帮我写国家社科基金教育学一般项目的活页，选题是生成式AI与农村教师专业发展",
+    "expected": [
+      "edu-proposal"
+    ]
+  },
+  {
+    "id": 26,
+    "prompt": "我的开题报告写好了，帮我看看创新点写得怎么样，字数有没有超",
+    "expected": [
+      "edu-proposal"
+    ]
+  },
+  {
+    "id": 27,
+    "prompt": "把这篇稿子的参考文献改成GB/T 7714格式",
+    "expected": [
+      "edu-writing"
+    ]
+  },
+  {
+    "id": 28,
+    "prompt": "稿子写完了，准备投《中国电化教育》，你从审稿人角度挑挑毛病，看哪里可能被拒",
+    "expected": [
+      "edu-review"
+    ]
+  },
+  {
+    "id": 29,
+    "prompt": "Please do a mock peer review of my manuscript before I submit it to Computers & Education",
+    "expected": [
+      "edu-review"
+    ]
+  },
+  {
+    "id": 30,
+    "prompt": "收到外审意见了，大修，帮我逐条回复并写修改说明",
+    "expected": [
+      "edu-response"
+    ]
+  },
+  {
+    "id": 31,
+    "prompt": "Write a point-by-point response letter to Reviewer 2 and mark the changes in the revised manuscript",
+    "expected": [
+      "edu-response"
+    ]
+  },
+  {
+    "id": 32,
+    "prompt": "帮我把修改稿和原稿对比，修改的地方标红",
+    "expected": [
+      "edu-response"
+    ]
+  },
+  {
+    "id": 33,
+    "prompt": "看看我结果部分的统计报告规不规范，比如有没有漏报自由度和效应量",
+    "expected": [
+      "edu-audit"
+    ]
+  },
+  {
+    "id": 34,
+    "prompt": "帮我写这篇论文的中英文摘要和关键词",
+    "expected": [
+      "edu-writing"
+    ]
+  },
+  {
+    "id": 35,
+    "prompt": "检查一下全文的样本量、数字和术语前后是否一致",
+    "expected": [
+      "edu-writing"
+    ]
+  },
+  {
+    "id": 36,
+    "prompt": "模拟两位评审专家，看看我的国家社科基金申报书能不能过",
+    "expected": [
+      "edu-review"
+    ]
+  },
+  {
+    "id": 37,
+    "prompt": "根据学生的学习动机、自我效能和焦虑三个量表得分，看看学生可以分成哪几种潜在类型",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 38,
+    "prompt": "我收集了 28 篇关于翻转课堂效果的实验研究的均值和标准差，帮我做一个元分析，看看异质性和发表偏倚",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 39,
+    "prompt": "把这 3000 条课程论坛帖子做主题模型，看看不同年级讨论的主题有没有差别",
+    "expected": [
+      "edu-analysis"
+    ]
+  },
+  {
+    "id": 40,
+    "prompt": "部分学校 2022 年开始试点双减课后服务，用这几年的面板数据评估试点对学生成绩的影响",
+    "expected": [
+      "edu-analysis"
+    ]
+  }
 ]

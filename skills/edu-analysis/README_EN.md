@@ -39,4 +39,4 @@ Statistical analysis for education research in R, with the script, data fingerpr
 
 ## Status
 
-- Beta: 33 known-answer checks (R documentation examples, lavaan tutorial values, analytic solutions); tried on synthetic data
+- Stable: used by the author on real research material; core methods have 33 known-answer checks (R documentation examples, lavaan tutorial values, analytic solutions). Twelve trial method families (latent profile/class, IRT, propensity scores, DID, RDD, meta-analysis, ordinal/multinomial/count models, Bayes factors, clustering, networks, learning-log sequences, topic models) have 121 checks, mostly against published values; they have not yet been used on real data

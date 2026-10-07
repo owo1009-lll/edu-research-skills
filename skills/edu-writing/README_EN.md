@@ -40,4 +40,4 @@ Writes or revises Chinese and English education papers from evidence, in a voice
 
 ## Status
 
-- Beta: voice calibrated on 42 published articles with same-materials before/after comparisons (Claude and Codex); full workflow tried on synthetic data
+- Stable: used by the author on real research material; voice and prose calibrated on 27 CSSCI and 50 SSCI published articles with same-materials before/after comparisons (Claude and Codex); full workflow tried on synthetic data

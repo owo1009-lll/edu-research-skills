@@ -1,6 +1,6 @@
 ---
 name: edu-analysis
-description: Analyze education research data in R with a recorded run for every analysis - descriptives and reliability, t tests, ANOVA and nonparametric tests, chi-square, correlation, hierarchical and logistic regression, moderation and bootstrap mediation, EFA/CFA with CR/AVE/HTMT and common-method-bias checks, CB-SEM, PLS-SEM, fsQCA, NCA, multilevel and longitudinal models. Use for 问卷数据分析、量表信效度、描述统计、差异检验、t检验、方差分析、非参数检验、卡方检验、相关分析、回归分析、Logistic回归、调节效应、中介效应、结构方程、SEM、PLS-SEM、验证性因子分析、共同方法偏差、fsQCA、组态分析、NCA、必要条件分析、多层线性模型、纵向数据、准实验数据分析.
+description: Analyze education research data in R with a recorded run for every analysis - descriptives and reliability, t tests, ANOVA and nonparametric tests, chi-square, correlation, hierarchical and logistic regression, moderation and bootstrap mediation, EFA/CFA with CR/AVE/HTMT and common-method-bias checks, CB-SEM, PLS-SEM, fsQCA, NCA, multilevel and longitudinal models; latent profile/class analysis and IRT, propensity score matching, difference-in-differences and regression discontinuity, meta-analysis, ordinal/multinomial/count regression, Bayes factors, cluster and social network analysis, lag sequential and sequence analysis of learning logs, and structural topic models. Use for 问卷数据分析、量表信效度、描述统计、差异检验、t检验、方差分析、非参数检验、卡方检验、相关分析、回归分析、Logistic回归、调节效应、中介效应、结构方程、SEM、PLS-SEM、验证性因子分析、共同方法偏差、fsQCA、组态分析、NCA、必要条件分析、多层线性模型、纵向数据、准实验数据分析、潜在剖面分析、潜在类别分析、IRT、Rasch、倾向得分匹配、双重差分、断点回归、元分析、有序Logistic、多项Logistic、计数模型、贝叶斯因子、聚类分析、社会网络分析、滞后序列分析、学习日志、主题模型.
 ---
 
 # 教育学数据分析
@@ -23,7 +23,8 @@ description: Analyze education research data in R with a recorded run for every 
 ## 文件
 
 - `scripts/edu_methods.R`：分析函数（`edu_describe`、`edu_reliability`、`edu_harman`、`edu_cmb`（共同方法偏差三项检验）、`edu_compare`、`edu_chisq`、`edu_cor`、`edu_regression`、`edu_moderation`、`edu_mediation`、`edu_cfa`、`edu_sem`、`edu_pls`、`edu_fsqca`、`edu_fsqca_robust`、`edu_nca`、`edu_nca_plot`、`edu_kappa`、`edu_icc`）。
-- `scripts/run_r.py`：运行并记录（脚本、数据指纹、R 版本与包版本、日志）。
-- `tests/known_answers.R`：用 R 文档例题、lavaan 教程和解析解核对全部函数。
+- 试用方法组（同一文件夹，由 `edu_methods.R` 自动加载）：`edu_methods_latent.R`（`edu_lpa`、`edu_lca`、`edu_irt`）、`edu_methods_causal.R`（`edu_psm`、`edu_did`、`edu_did_event`、`edu_rdd`）、`edu_methods_models.R`（`edu_meta`、`edu_meta_plot`、`edu_ordinal`、`edu_multinom`、`edu_count`、`edu_bayes`）、`edu_methods_patterns.R`（`edu_cluster`、`edu_network`、`edu_network_plot`、`edu_lsa`、`edu_sequence`、`edu_topics`）；中文文本先用 `scripts/segment_zh.py`（jieba）分词。这些方法的 R 包用 `scripts/setup_packages.R --all` 安装。
+- `scripts/run_r.py`：运行并记录（脚本、数据指纹、R 版本与包版本、日志），所有 `edu_methods*.R` 一起复制进运行文件夹。
+- `tests/known_answers.R`：用 R 文档例题、lavaan 教程、已发表论文的数值和解析解核对全部函数（共 154 项，试用方法组的检查在 `tests/ka_*.R`，缺包时跳过）。
 
 诚信要求见 [共同规则](../edu-shared/references/integrity.md)。

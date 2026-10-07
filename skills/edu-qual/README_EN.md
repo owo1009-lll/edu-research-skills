@@ -39,4 +39,4 @@ Analysis of interviews, observations and open-ended responses, with every code t
 
 ## Status
 
-- Beta: tried on synthetic interviews
+- Stable: used by the author on real research material; tried on synthetic interviews

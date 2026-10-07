@@ -43,7 +43,7 @@ def main():
     else:
         run = new_run_dir('analysis', a.slug or a.script.stem, a.out_base)
         (run / 'output').mkdir()
-        code = run_r(a.script, run, inputs=a.input, helpers=[HERE / 'edu_methods.R'],
+        code = run_r(a.script, run, inputs=a.input, helpers=sorted(HERE.glob('edu_methods*.R')),
                      rscript=a.rscript, timeout=a.timeout)
     print(json.dumps({'run': str(run), 'returncode': code}, ensure_ascii=False))
     return code

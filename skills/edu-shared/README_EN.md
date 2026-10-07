@@ -35,4 +35,4 @@ Support package shared by the other edu-* skills; it does not handle tasks on it
 
 ## Status
 
-- Beta: tested together with the modules
+- Stable: used by the author on real research material; tested together with the modules

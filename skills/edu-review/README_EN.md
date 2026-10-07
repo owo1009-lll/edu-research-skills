@@ -36,4 +36,4 @@ Simulated peer review before submission: two or three independent reviewers give
 
 ## Status
 
-- Beta: check script tested on seeded examples; full workflow tried on one synthetic manuscript with reviewers in separate sub-agents
+- Stable: used by the author on real research material; check script tested on seeded examples; full workflow tried on one synthetic manuscript with reviewers in separate sub-agents

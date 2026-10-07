@@ -36,4 +36,4 @@ Drafts and checks Chinese grant applications and opening reports, from topic and
 
 ## Status
 
-- Beta: National Education Science Planning rules checked against the 2026 template; tried on a synthetic topic
+- Stable: used by the author on real research material; National Education Science Planning rules checked against the 2026 template; tried on a synthetic topic

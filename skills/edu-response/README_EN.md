@@ -37,4 +37,4 @@ Responds to journal peer review: splits comments, decides actions, revises the m
 
 ## Status
 
-- Beta: check and redline scripts tested on seeded examples; full workflow tried on one set of synthetic reviews
+- Stable: used by the author on real research material; check and redline scripts tested on seeded examples; full workflow tried on one set of synthetic reviews

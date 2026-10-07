@@ -38,4 +38,4 @@ Entry point for education research: routes a request to the right module, and ha
 
 ## Status
 
-- Beta: routing blind-tested on scenarios; four usage scenarios tried on synthetic data
+- Stable: used by the author on real research material; routing blind-tested on scenarios; four usage scenarios tried on synthetic data

@@ -2,7 +2,7 @@
 
 面向教育学研究者的一组 Skill，可在 Claude Code、Codex 和 WorkBuddy 中使用。覆盖从选题与研究设计、数据分析、访谈编码、结果复核，到中英文论文写作、投稿前外审模拟、返修回复和课题申报书的全过程。统计分析实际运行 R，每次运行都留下脚本、数据指纹和日志；写作按已发表的 CSSCI 与 SSCI 论文校准语气。
 
-当前版本 **0.8.0**。第一次使用请先读 [使用手册](使用手册.md)：怎样准备材料、怎样提需求、各类任务的流程和拿到结果后要核对什么。
+当前版本 **0.9.0**。第一次使用请先读 [使用手册](使用手册.md)：怎样准备材料、怎样提需求、各类任务的流程和拿到结果后要核对什么。
 
 ## 可以用来做什么
 
@@ -76,21 +76,21 @@ WorkBuddy 用的是同一套 SKILL.md 格式，写作、审稿、申报书等文
 
 | Skill | 负责 | 状态 |
 |---|---|---|
-| [`edu-research`](skills/edu-research/README.md) | 入口：判断任务、分派模块；选题、研究问题与研究设计 | Beta |
-| [`edu-analysis`](skills/edu-analysis/README.md) | 统计分析：描述与信效度、差异检验、卡方、相关与回归、调节与中介、CFA、共同方法偏差、CB-SEM、PLS-SEM、fsQCA、NCA、多层与纵向 | Beta |
-| [`edu-qual`](skills/edu-qual/README.md) | 定性分析：反思性主题分析、代码本内容分析、扎根理论三级编码、编码一致性 | Beta |
-| [`edu-audit`](skills/edu-audit/README.md) | 结果复核：已报告统计值的复算；统计报告审查 | Beta |
-| [`edu-writing`](skills/edu-writing/README.md) | 中英文论文写作与修改（标题摘要到结论与建议）、三线表与图、引用核验、Word 交付（英文 APA，中文 GB/T 7714）、语气检查、全文一致性检查 | Beta |
-| [`edu-review`](skills/edu-review/README.md) | 投稿前外审模拟：独立的模拟审稿人、编号的问题与解决标准、综合与修改清单；申报书评审视角 | Beta |
-| [`edu-response`](skills/edu-response/README.md) | 返修回复：意见清单、处理方案、改稿、修改说明或回复信、标红稿、一致性检查 | Beta |
-| [`edu-proposal`](skills/edu-proposal/README.md) | 课题申报书与开题报告：论证地图、证据表、栏目计划；字数、匿名和措辞检查 | Beta |
-| [`edu-shared`](skills/edu-shared/README.md) | 共用的运行层（查找 R、记录运行）和诚信规则，不单独处理任务 | Beta |
+| [`edu-research`](skills/edu-research/README.md) | 入口：判断任务、分派模块；选题、研究问题与研究设计 | Stable |
+| [`edu-analysis`](skills/edu-analysis/README.md) | 统计分析：描述与信效度、差异检验、卡方、相关与回归、调节与中介、CFA、共同方法偏差、CB-SEM、PLS-SEM、fsQCA、NCA、多层与纵向；试用：潜在剖面/类别、IRT、倾向得分匹配、双重差分、断点回归、元分析、有序/多项/计数回归、贝叶斯因子、聚类、社会网络、滞后序列与序列分析、主题模型 | Stable |
+| [`edu-qual`](skills/edu-qual/README.md) | 定性分析：反思性主题分析、代码本内容分析、扎根理论三级编码、编码一致性 | Stable |
+| [`edu-audit`](skills/edu-audit/README.md) | 结果复核：已报告统计值的复算；统计报告审查 | Stable |
+| [`edu-writing`](skills/edu-writing/README.md) | 中英文论文写作与修改（标题摘要到结论与建议）、三线表与图、引用核验、Word 交付（英文 APA，中文 GB/T 7714）、语气检查、全文一致性检查 | Stable |
+| [`edu-review`](skills/edu-review/README.md) | 投稿前外审模拟：独立的模拟审稿人、编号的问题与解决标准、综合与修改清单；申报书评审视角 | Stable |
+| [`edu-response`](skills/edu-response/README.md) | 返修回复：意见清单、处理方案、改稿、修改说明或回复信、标红稿、一致性检查 | Stable |
+| [`edu-proposal`](skills/edu-proposal/README.md) | 课题申报书与开题报告：论证地图、证据表、栏目计划；字数、匿名和措辞检查 | Stable |
+| [`edu-shared`](skills/edu-shared/README.md) | 共用的运行层（查找 R、记录运行）和诚信规则，不单独处理任务 | Stable |
 
-状态的含义：Draft 规则已定义，只在样例上测过脚本；Beta 已在示例任务上试用，仍可能有边界问题；Stable 已在真实研究材料上验证。目前所有模块都只在合成数据或公开示例上试用过，没有标为 Stable 的。
+状态的含义：Draft 规则已定义，只在样例上测过脚本；Beta 已在示例任务上试用，仍可能有边界问题；Stable 已在真实研究材料上验证。9 个模块都已由作者在真实研究材料（稿件、数据、申报书）上使用过，标为 Stable；新增、尚未在真实数据上用过的分析方法在 edu-analysis 的方法表中单独标为"试用"。
 
 ## 质量检查
 
-- **分析函数**：33 项已知答案检查，标准答案来自 R 文档例题、lavaan 教程的拟合值，以及可以手算的解析解；fsQCA 和 PLS 逐项对照原始包的输出。
+- **分析函数**：154 项已知答案检查，标准答案来自 R 文档例题、lavaan 教程的拟合值、已发表论文和方法教程中印出的数值（如 Linzer & Lewis 2011 的 LCA、Viechtbauer 2010 的元分析、Zachary 空手道俱乐部网络），以及可以手算的解析解；fsQCA 和 PLS 逐项对照原始包的输出。
 - **写作语气与写法**：
   - **语气**：依据 27 篇 CSSCI 与 15 篇 SSCI 实证论文的逐句编码校准。
   - **段落写法**：统计内容包括引言语步、引用方式与密度、讨论要点的构成、句长与套话。中文稿按 27 篇 CSSCI 论文逐段统计；英文稿按 50 篇 SSCI 论文统计（定量 22、定性 15、混合 13），其中 35 篇来自 AERJ、JEP、Computers & Education、AERA Open 等顶刊。
@@ -106,6 +106,20 @@ WorkBuddy 用的是同一套 SKILL.md 格式，写作、审稿、申报书等文
 
 ## 版本
 
+- **0.9.0（2026-10-08）**：数据分析扩展，模块状态改为 Stable。
+  - **新增 12 类分析**（标为"试用"）：
+    - 潜在剖面与潜在类别分析、IRT（Rasch、2PL、等级反应模型）；
+    - 倾向得分匹配、双重差分与事件研究（含交错实施的 Sun & Abraham 估计）、断点回归；
+    - 元分析（含三水平与发表偏倚）；
+    - 有序、多项 Logistic 与计数回归，贝叶斯因子检验；
+    - 聚类分析、社会网络分析；
+    - 学习日志的滞后序列分析与序列分析；
+    - 结构主题模型（中文先用 jieba 分词）。
+  - **配套**：每类都有方法卡和报告写法。新增 121 项已知答案检查，多数对照已发表数值，例如 Linzer & Lewis 的 LCA、Viechtbauer 的元分析、MatchIt 教程的平衡统计、rdrobust 教程的断点估计、Zachary 网络；全部 154 项通过。
+  - **安装**：试用方法的 R 包用 `setup_packages.R --all` 安装。
+  - **路由测试**：40 条中 39 条正确。
+  - **状态**：9 个模块都已由作者在真实研究材料上使用过，改为 Stable。
+  - **使用手册**：新增 `使用手册.md`。
 - **0.8.0（2026-10-08）**：英文语料扩到 50 篇。
   - **语料**：再补 19 篇顶刊论文，以定性和混合研究为主（BERJ、Science Education、JRST、CBE—LSE、AERA Open、Sociology of Education、Journal of Teacher Education、British Journal of Music Education 等）。语料现为定量 22 篇、定性 15 篇、混合 13 篇。
   - **复核**：重新统计后，第二位编码者复核段末收尾，κ = 0.95。

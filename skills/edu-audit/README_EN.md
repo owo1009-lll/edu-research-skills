@@ -37,4 +37,4 @@ Checks statistics in papers or drafts: recompute values from data or tables, or 
 
 ## Status
 
-- Beta: recomputation verified on a published paper; the reporting review is new and tested on seeded examples
+- Stable: used by the author on real research material; recomputation verified on a published paper; the reporting review is new and tested on seeded examples

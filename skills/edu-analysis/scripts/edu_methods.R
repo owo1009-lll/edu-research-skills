@@ -1,4 +1,5 @@
-# edu_methods.R — helper functions used by the edu-analysis method cards.
+# edu_methods.R — helper functions used by the edu-analysis method cards. The extra method groups
+# (edu_methods_latent/causal/models/patterns.R) in the same folder are loaded at the end of this file.
 # Base R plus packages loaded only by the function that needs them (psych, lavaan, semTools,
 # seminr, QCA, NCA, lme4). Every function returns a list of data frames plus `notes`;
 # edu_save() writes each table to output/<name>_<table>.csv and all of them to output/<name>.md.
@@ -557,3 +558,15 @@ edu_icc <- function(d, y, cluster) {
                         design_effect = 1 + (avg - 1) * icc),
        notes = "ICC from an intercept-only random-effects model. Design effect > 2 (or ICC >= .05) usually calls for a multilevel model.")
 }
+
+# ---------------------------------------------------------------- extra method groups
+# Sourced from the folder this file was sourced from (the scripts folder, or a run folder that run_r.py
+# filled with every edu_methods*.R).
+local({
+  here <- "."
+  for (i in rev(seq_len(sys.nframe()))) {
+    f <- sys.frame(i)$ofile
+    if (!is.null(f)) { here <- dirname(f); break }
+  }
+  for (f in list.files(here, "^edu_methods_[a-z]+\\.R$", full.names = TRUE)) source(f, encoding = "UTF-8")
+})

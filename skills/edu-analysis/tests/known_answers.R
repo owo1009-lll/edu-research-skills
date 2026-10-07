@@ -132,6 +132,9 @@ safely("method bias, bootstrap sample, formatting", {
   check("NCA plot file written", as.numeric(file.exists(f) && file.size(f) > 1000), 1, 0)
 })
 
+# method groups added in 0.9.0; each block is skipped when its packages are missing
+for (f in sort(list.files(here, "^ka_[a-z]+\\.R$", full.names = TRUE))) source(f, encoding = "UTF-8")
+
 print(results, right = FALSE)
 cat(sprintf("\n%d of %d checks passed.\n", sum(results$ok), nrow(results)))
 if (!all(results$ok)) quit(status = 1)
