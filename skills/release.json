@@ -1,8 +1,9 @@
 {
-  "version": "0.10.0",
+  "version": "0.11.0",
   "packages": [
     "edu-research",
     "edu-writing",
+    "edu-ppt",
     "edu-analysis",
     "edu-qual",
     "edu-audit",

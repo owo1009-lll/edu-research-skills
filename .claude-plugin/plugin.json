@@ -1,7 +1,7 @@
 {
   "name": "edu-research-skills",
-  "version": "0.10.0",
-  "description": "Education research skills for Claude Code and Codex: research design, statistical analysis in R (SEM, PLS-SEM, fsQCA, NCA, regression, multilevel), qualitative coding, results checks, Chinese (CSSCI) and English (SSCI) paper writing, mock peer review, responses to reviewers and grant applications.",
+  "version": "0.11.0",
+  "description": "Education research skills for Claude Code and Codex: research design, statistical analysis in R (SEM, PLS-SEM, fsQCA, NCA, regression, multilevel), qualitative coding, results checks, Chinese (CSSCI) and English (SSCI) paper writing, mock peer review, responses to reviewers and grant applications, research presentations and paper-reading slides.",
   "author": {
     "name": "owo1009-lll",
     "url": "https://github.com/owo1009-lll"
@@ -14,7 +14,8 @@
     "fsQCA",
     "qualitative analysis",
     "peer review",
-    "grant proposal"
+    "grant proposal",
+    "presentation"
   ],
   "license": "CC-BY-NC-4.0"
 }

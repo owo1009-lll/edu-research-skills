@@ -1,0 +1,4 @@
+interface:
+  display_name: "教育研究汇报与文章解读"
+  short_description: "汇报自己的论文或研究进展，解读并检索文章，生成逐页讲稿或可编辑PPT"
+  default_prompt: "用 $edu-ppt 把这份研究材料做成15分钟中文组会汇报，保留关键证据和逐页讲稿。"

@@ -10,7 +10,7 @@ Restate results as plain declaratives with the statistic or theme: "Teacher supp
 
 - **Match the verb to the design.** Experiments may say *improved* or *increased*. Surveys and correlational designs, including path models, say *predicted*, *was associated with* or *was related to*. In the abstract and implications too, cross-sectional findings do not *add to*, *drive* or *build* anything.
 - **Keep the conditions that define a claim inside it.** Sample scope, covariates, the exploratory status of an analysis and the timing of measurement belong in the sentence: "With prior achievement controlled, …", "In an exploratory analysis, …". Do not move them to the end of the paper.
-- **Plain is not absolute.** Write *only*, *solely* or *fully* only when the estimates show it. A non-significant direct path next to a significant indirect one gives "the indirect association was significant; the direct association was not", not "only through self-efficacy". See [framing-results](framing-results.md) §5.
+- **Plain is not absolute.** A non-significant direct path next to a significant indirect one gives "the indirect association was significant; the direct estimate did not reach statistical significance", not "only through self-efficacy" or "there was no direct association". See [framing-results](framing-results.md) §5 for the evidence needed for each claim.
 - **Name what each method shows.**
   - NCA identifies necessity in degree.
   - The fsQCA necessity test asks about necessity in kind.
@@ -43,9 +43,9 @@ State a non-significant or contrary result directly ("Contrary to H2…"), offer
 
 A position comes from clear claims and grounded choices, not from intensifiers.
 - **One question carried through.** Pose it in the Introduction, answer it point by point in the Discussion, and answer it in the first sentence of the conclusion. This holds when the main outcome is null too.
-- **Competing explanations.** When the evidence distinguishes them, choose and give the reason: "If X, we would have expected Y; we observed Z." When it does not, do not force a choice. Say what each account implies, what design would separate them, and what has been learned either way.
+- **Competing explanations.** When the evidence distinguishes them, choose and give the reason: "If X, we would have expected Y; we observed Z." Otherwise state what remains unresolved. Explain any supported common pattern or process; if the materials provide none, keep the unresolved answer concise.
 - **Relation to prior knowledge.** Say what the study refines, adds to or changes, and name representative studies. Write "contradicts" or "revises" only for comparable outcomes and populations; otherwise write "extends" or "adds to".
-- **Conclusions as claims.** Give propositions a reader could cite or dispute, not a restatement of the Results. A short label for the central finding can help if it is accurate; "complement", for instance, implies a tested interaction.
+- **Conclusions as claims.** State what the study adds to the educational question, including an unresolved answer when warranted. Preserve the author's supported conceptual frame. Define "complement" according to its intended meaning: functional roles, resource coordination or statistical interaction need different evidence (see [foundation](foundation.md) §1).
 - **Implications as trade-offs.** Say what to prioritise, what not to do and under which conditions ([argument](argument.md) §8).
 - **End with weight.** The last sentence states the central judgement or the most specific next step.
 
@@ -53,7 +53,7 @@ Limits:
 - The abstract, Discussion and conclusion word each result the same way. A result described as imprecise in the Discussion does not become "did not act as a separate route" in the conclusion.
 - Factors the study did not manipulate or measure can appear in the Discussion as candidate explanations, but not as conclusions or as the basis for recommendations.
 - Explanations do not rest on facts outside the materials.
-- Implications are only as strong as the design allows. From a single-site, cross-sectional study, write "this does not justify …"; do not make claims about class sizes, teaching hours or budgets.
+- Calibrate recommendations to their grounds, conditions and consequences. A cross-sectional association does not establish an intervention effect; it does not automatically invalidate a supported professional or normative judgement. Preserve a justified *should* rather than replacing it with *could* by default ([argument](argument.md) §8).
 
 ## Contribution and implications
 

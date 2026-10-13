@@ -1,6 +1,6 @@
 ---
 name: edu-research
-description: Plan education research and coordinate multi-step projects - topics, research questions, theoretical frameworks, research and sampling design including sample size, and projects that chain several steps such as analyzing data and then writing the paper. Single tasks (one analysis, qualitative coding, a results or reporting check, a paper, a mock peer review, a response to reviewers or a grant application) go straight to edu-analysis, edu-qual, edu-audit, edu-writing, edu-review, edu-response or edu-proposal. Use for 选题、研究问题、研究设计、研究方案、理论框架、抽样设计、样本量估计、准实验设计、教育研究整体规划、从数据到完整论文.
+description: Plan education research and coordinate multi-step projects - topics, research questions, frameworks, sampling and design, or analysis followed by writing or presenting. Single tasks go to edu-analysis, edu-qual, edu-audit, edu-writing, edu-review, edu-response, edu-proposal or edu-ppt. Use for 选题、研究问题、研究设计、研究方案、理论框架、抽样设计、样本量估计、准实验设计、教育研究整体规划、从数据到完整论文. A request for a research presentation or paper-reading slides goes directly to edu-ppt.
 ---
 
 # 教育学科研入口
@@ -18,10 +18,12 @@ description: Plan education research and coordinate multi-step projects - topics
    | 访谈、观察、开放题，要主题分析、内容分析或扎根理论编码 | edu-qual |
    | 已发表论文或自己稿件里的统计结果，要核对、复算或检查报告是否规范 | edu-audit |
    | 要写或改论文的某一部分、整篇论文、文献综合、讨论，或润色 | edu-writing |
+   | 要汇报自己的论文、方案或进展；解读文章、按选题找文章做组会PPT；只要逐页内容和讲稿 | edu-ppt |
    | 要写课题申报书、活页或开题报告 | edu-proposal |
    | 稿件或申报书写好了，投稿前想知道审稿人会挑什么毛病 | edu-review |
    | 收到审稿意见，要改稿、写修改说明或回复信 | edu-response |
    | 数据和成文都要（"根据这些数据写一篇论文"） | 先 edu-analysis 或 edu-qual，结果确认后再 edu-writing |
+   | 要先做新分析，再把结果做成汇报PPT | 先 edu-analysis 或 edu-qual，已有实际结果后再 edu-ppt |
 
 2. **确定语言和期刊。**投中文期刊（CSSCI、北大核心）写中文，投 SSCI 写英文；用户没说时按请求语言判断，判断不了问一句。目标期刊明确时，先读该刊近期的作者须知。
 3. **确定范围。**只要一段、一个提纲或一章时，就只做这一部分；要完整论文时，按 edu-writing 的流程先确认一次主线，再一次做完。

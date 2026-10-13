@@ -34,7 +34,7 @@ Entry point for education research: routes a request to the right module, and ha
 
 ## Related Skills
 
-- edu-analysis, edu-qual, edu-audit, edu-writing, edu-proposal, edu-review, edu-response
+- edu-analysis, edu-qual, edu-audit, edu-writing, edu-proposal, edu-review, edu-response, edu-ppt (research presentations and paper reading)
 
 ## Status
 

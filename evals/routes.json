@@ -281,5 +281,77 @@
     "expected": [
       "edu-analysis"
     ]
+  },
+  {
+    "id": 41,
+    "prompt": "把我的论文做成15分钟组会汇报",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 42,
+    "prompt": "根据我的研究进展做PPT，招募还没完成",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 43,
+    "prompt": "解读这篇英文论文，生成中文汇报PPT",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 44,
+    "prompt": "围绕婴幼儿情绪社会性发展找文献，做组会汇报",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 45,
+    "prompt": "按四步走生成这篇文章的PPT内容",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 46,
+    "prompt": "只要这篇教育研究论文的逐页内容和讲稿",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 47,
+    "prompt": "按这个模板生成可编辑PPT，材料是我的研究方案",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 48,
+    "prompt": "先分析这份课堂实验数据，再做成汇报PPT",
+    "expected": [
+      "edu-analysis",
+      "edu-ppt"
+    ],
+    "optional_first": [
+      "edu-research"
+    ]
+  },
+  {
+    "id": 49,
+    "prompt": "综合这三篇文章回答同一个问题，准备组会汇报",
+    "expected": [
+      "edu-ppt"
+    ]
+  },
+  {
+    "id": 50,
+    "prompt": "帮我设计一张婚礼请柬",
+    "expected": []
   }
 ]

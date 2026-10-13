@@ -34,7 +34,7 @@
 
 ## 相关技能
 
-- edu-analysis、edu-qual、edu-audit、edu-writing、edu-proposal、edu-review、edu-response
+- edu-analysis、edu-qual、edu-audit、edu-writing、edu-proposal、edu-review、edu-response、edu-ppt（自己的研究汇报与文章解读）
 
 ## 状态
 

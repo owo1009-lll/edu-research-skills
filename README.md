@@ -2,7 +2,7 @@
 
 面向教育学研究者的一组 Skill，可在 Claude Code、Codex 和 WorkBuddy 中使用。覆盖从选题与研究设计、数据分析、访谈编码、结果复核，到中英文论文写作、投稿前外审模拟、返修回复和课题申报书的全过程。统计分析实际运行 R，每次运行都留下脚本、数据指纹和日志；写作按已发表的 CSSCI 与 SSCI 论文校准语气。
 
-当前版本 **0.10.0**。第一次使用请先读 [使用手册](使用手册.md)：怎样准备材料、怎样提需求、各类任务的流程和拿到结果后要核对什么。
+当前版本 **0.11.0**。[English](README_EN.md)。第一次使用请先读 [使用手册](使用手册.md)：怎样准备材料、怎样提需求、各类任务的流程和拿到结果后要核对什么。
 
 ## 可以用来做什么
 
@@ -24,6 +24,8 @@
 | 已发表论文的数据 | "核对这篇论文表 4 的计数和风险比" | 原值与复算值对照 |
 | 申报课题 | "按今年全国教育科学规划的活页，写一份申报书" | 论证地图和证据表，确认主线后交付活页正文；字数、匿名和"首次""填补空白"等说法的检查 |
 | 只有选题 | "围绕生成式 AI 与大学生自主学习，提出可做的研究问题和设计" | 文献核对、候选问题、框架与研究设计 |
+| 自己的论文、方案或研究进展 | "把我的论文做成15分钟组会汇报" / "按这个模板做研究进展PPT" | 可编辑PPTX、逐页讲稿、实际渲染预览；区分结果与计划 |
+| 他人文章或一个选题 | "解读这篇英文论文，生成中文PPT" / "围绕婴幼儿情绪社会性发展找文章做汇报" | 全文或公网选文记录，四步走内容稿与讲稿；可选择生成PPT |
 
 所有结果写在论文文件夹下的 `edu_output/`，原始数据不上传。
 
@@ -63,7 +65,7 @@ python scripts/install.py --host codebuddy     # 企业版或 CodeBuddy，装到
 不想用命令行时，手动安装：
 
 1. 在本仓库页面点 Code → Download ZIP，解压。
-2. 打开解压后的 `skills` 文件夹，把里面的 9 个文件夹（`edu-research`、`edu-analysis`……`edu-shared`）全部复制到 `C:\Users\你的用户名\.workbuddy\skills\`（Mac 是 `~/.workbuddy/skills/`；文件夹不存在就新建）。`edu-shared` 不能漏，其他模块要用它。
+2. 打开解压后的 `skills` 文件夹，把里面的 10 个文件夹（`edu-research`、`edu-analysis`……`edu-ppt`、`edu-shared`）全部复制到 `C:\Users\你的用户名\.workbuddy\skills\`（Mac 是 `~/.workbuddy/skills/`；文件夹不存在就新建）。`edu-shared` 不能漏，其他模块要用它。
 3. 重启 WorkBuddy，在技能列表里能看到 edu-research 等模块即可。
 
 WorkBuddy 用的是同一套 SKILL.md 格式，写作、审稿、申报书等文字类功能直接可用；统计分析和生成 Word 需要电脑上装有 R 和 Python（见下文），并允许 WorkBuddy 运行本地命令。本仓库在 Claude Code 和 Codex 中测试过，WorkBuddy 中没有实测。
@@ -71,6 +73,8 @@ WorkBuddy 用的是同一套 SKILL.md 格式，写作、审稿、申报书等文
 **其他支持 SKILL.md 的 Agent**：把 `skills/` 下的所有文件夹（包括 `edu-shared`）复制到该 Agent 的 skills 目录，保持目录结构不变。
 
 首次做统计分析时，助理会运行自检（`edu-analysis/tests/known_answers.R`），缺少的 R 包用 `Rscript edu-analysis/scripts/setup_packages.R` 安装到 R 的用户库。生成 Word 稿需要 python-docx 和 matplotlib（`edu-writing/requirements.txt`）。
+
+生成PPT需要[edu-ppt的Python依赖](skills/edu-ppt/requirements.txt)，不需要额外模型API密钥。实际渲染需要本机PowerPoint，或LibreOffice与pdftoppm；只要逐页内容和讲稿时不需要渲染器。
 
 ## 模块
 
@@ -81,12 +85,13 @@ WorkBuddy 用的是同一套 SKILL.md 格式，写作、审稿、申报书等文
 | [`edu-qual`](skills/edu-qual/README.md) | 定性分析：反思性主题分析、代码本内容分析、扎根理论三级编码、编码一致性 | Stable |
 | [`edu-audit`](skills/edu-audit/README.md) | 结果复核：已报告统计值的复算；统计报告审查 | Stable |
 | [`edu-writing`](skills/edu-writing/README.md) | 中英文论文写作与修改（标题摘要到结论与建议）、三线表与图、引用核验、Word 交付（英文 APA，中文 GB/T 7714）、语气检查、全文一致性检查 | Stable |
+| [`edu-ppt`](skills/edu-ppt/README.md) | 自己的完成论文、方案及进展汇报；文章解读与公网选文；逐页内容和讲稿、可编辑PPTX、模板与渲染检查 | Beta |
 | [`edu-review`](skills/edu-review/README.md) | 投稿前外审模拟：独立的模拟审稿人、编号的问题与解决标准、综合与修改清单；申报书评审视角 | Stable |
 | [`edu-response`](skills/edu-response/README.md) | 返修回复：意见清单、处理方案、改稿、修改说明或回复信、标红稿、一致性检查 | Stable |
 | [`edu-proposal`](skills/edu-proposal/README.md) | 课题申报书与开题报告：论证地图、证据表、栏目计划；字数、匿名和措辞检查 | Stable |
 | [`edu-shared`](skills/edu-shared/README.md) | 共用的运行层（查找 R、记录运行）和诚信规则，不单独处理任务 | Stable |
 
-状态的含义：Draft 规则已定义，只在样例上测过脚本；Beta 已在示例任务上试用，仍可能有边界问题；Stable 已在真实研究材料上验证。9 个模块都已由作者在真实研究材料（稿件、数据、申报书）上使用过，标为 Stable；新增、尚未在真实数据上用过的分析方法在 edu-analysis 的方法表中单独标为"试用"。
+状态的含义：Draft 规则已定义，只在样例上测过脚本；Beta 已在示例任务上试用，仍可能有边界问题；Stable 已在真实研究材料上验证。原有9个模块已由作者在真实研究材料上使用；新增edu-ppt标为Beta，实际验证范围另列，不冒充作者验收。尚未在真实数据上用过的分析方法在edu-analysis中单独标为“试用”。
 
 ## 质量检查
 
@@ -105,6 +110,9 @@ WorkBuddy 用的是同一套 SKILL.md 格式，写作、审稿、申报书等文
 这些检验范围有限，不等于对所有数据和研究类型都有效；AI 的评阅和模拟审稿是自查，不能替代导师或审稿人。
 
 ## 版本
+
+- **0.11.0（2026-10-13）**：新增edu-ppt的两条路线、两种交付模式、原生PPTX和逐页讲稿、模板适配与实际渲染工具；定向修复写作中的作者立场、概念框架、全文限定和引用边界。写作复测改善与残留错误分开报告，见[试用记录](evals/smoke-evaluation.md)。
+  - 七类PPT场景、实际渲染、独立试用暴露的问题及修复后结果见[PPT验证记录](evals/edu-ppt-evaluation.md)；公开的[文章解读示例](skills/edu-ppt/examples/article-nbo/README.md)含选文依据、逐页计划和来源许可。
 
 - **0.10.0（2026-10-13）**：重构论证规则与防御性写作的处理方式。
   - **新增 `argument.md`**：

@@ -1,0 +1,6 @@
+python-pptx>=1.0.2,<2
+python-docx>=1.1,<2
+pypdf>=5,<7
+Pillow>=10,<13
+requests>=2.31,<3
+pywin32>=306; sys_platform == 'win32'
