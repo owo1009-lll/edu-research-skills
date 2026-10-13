@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "errors": [],
+  "issues": [],
+  "warnings": [],
+  "inventory": [
+    {
+      "slide": 1,
+      "editable_text": 5,
+      "shapes_or_lines": 1,
+      "native_charts": 1
+    },
+    {
+      "slide": 2,
+      "editable_text": 9,
+      "shapes_or_lines": 5
+    },
+    {
+      "slide": 3,
+      "editable_text": 9,
+      "shapes_or_lines": 5
+    },
+    {
+      "slide": 4,
+      "editable_text": 5,
+      "shapes_or_lines": 1,
+      "native_charts": 1
+    },
+    {
+      "slide": 5,
+      "editable_text": 6,
+      "shapes_or_lines": 1,
+      "native_charts": 1
+    }
+  ],
+  "render_status": "rendered",
+  "plan_consistency": "passed",
+  "source_fact_check": "not_performed",
+  "visual_review": "not_performed",
+  "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+}

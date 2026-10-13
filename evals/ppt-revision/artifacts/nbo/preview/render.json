@@ -1,0 +1,30 @@
+{
+  "source": "../slides.pptx",
+  "pptx_sha256": "0bdf73bf2ed2e56d32847bbc5dc55b0594af752a4c606089a70be90b6d34aab1",
+  "status": "rendered",
+  "visual_review": "not_performed",
+  "errors": [],
+  "engine": "PowerPoint COM",
+  "slides": 15,
+  "contact_sheets": [
+    "contact-01.png",
+    "contact-02.png"
+  ],
+  "images": {
+    "slide-001.png": "de57877b4c44be9b6d9336e9d38be8a6b79e09ef9fcbcbc0a30713f76f8dec24",
+    "slide-002.png": "2a8edecc32c339c673738f37c424aeaf0957f38b5bcd2e85209d1587d1384f3e",
+    "slide-003.png": "8da4312e518dcf913a1eec488edb3f4c4917e35fbe31f047d0534418752eed8d",
+    "slide-004.png": "6a07ee7ead5d5a34855cbf25827de287698f27867dfb3a7c16041289aced36ab",
+    "slide-005.png": "ad89654d46c550586195661107cbab2096a51fb76ef96bb9e3b112dc6458d1e6",
+    "slide-006.png": "594c8680869c2cee782237852d548325de5eff050a4b349c1eb336bfeec71c23",
+    "slide-007.png": "0f728e0b67c46073ce868cb32a8a167a24a29dfa9bea51c13e5719f162b80636",
+    "slide-008.png": "640ec26a51df077998e6ee91b79837357f537e89481d00f0a582cec36221dac2",
+    "slide-009.png": "281ad06c0fd04a19aed66b23ea41fa0a70bc4d6ecc13f0e39167a80b29295557",
+    "slide-010.png": "4e1d68d88b31ad6a2162f55d5a1e7ecb7f46f5a0c0633fe6e7918b4c8d27d2d2",
+    "slide-011.png": "44cd30cd4b94d1746e6204cad6e8e310e59c7063d9dcd4cd2bbdabd57b639d41",
+    "slide-012.png": "a0ced0fcb697aeb68078fce5531ccce42d4cf8702efc0008bf4e9e1f93b89b93",
+    "slide-013.png": "9b6a66ee7679cdf5ac072d074438d5081d1877e5d1e3c6ecb68cc18b563e1361",
+    "slide-014.png": "295af806a359899f215041dc526d1ac9888eb1aae93a7db17c0ac044cd4fea61",
+    "slide-015.png": "a66fe68f1bf0576ea1b8bc8832942fee63e8344cddf1237d783adb832c8485b8"
+  }
+}

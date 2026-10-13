@@ -1,0 +1,138 @@
+$ python -X utf8 -m unittest discover -s tests -v [original repository path; child process uses native Windows UTF-8 locale, inherited C.UTF-8 overrides removed]
+test_contracts_present (test_contracts.RedLines.test_contracts_present) ... ok
+test_writing_language_follows_journal (test_contracts.RedLines.test_writing_language_follows_journal) ... ok
+test_codex_interface (test_contracts.Structure.test_codex_interface) ... ok
+test_frontmatter (test_contracts.Structure.test_frontmatter) ... ok
+test_packages_match_folders (test_contracts.Structure.test_packages_match_folders) ... ok
+test_plugin_manifests_match_release (test_contracts.Structure.test_plugin_manifests_match_release) ... ok
+test_readmes_mirror (test_contracts.Structure.test_readmes_mirror) ... ok
+test_relative_links_resolve (test_contracts.Structure.test_relative_links_resolve) ... ok
+test_root_document_links_resolve (test_contracts.Structure.test_root_document_links_resolve) ... ok
+test_scripts_named_in_skills_exist (test_contracts.Structure.test_scripts_named_in_skills_exist) ... ok
+test_bytecode_cache_from_running_scripts_does_not_block_update (test_install.InstallLifecycle.test_bytecode_cache_from_running_scripts_does_not_block_update) ... ok
+test_changed_and_extra_files_preserved (test_install.InstallLifecycle.test_changed_and_extra_files_preserved) ... ok
+test_extra_empty_directory_preserved (test_install.InstallLifecycle.test_extra_empty_directory_preserved) ... ok
+test_foreign_target_preflight_no_partial_install (test_install.InstallLifecycle.test_foreign_target_preflight_no_partial_install) ... ok
+test_host_destinations_include_workbuddy_and_codebuddy (test_install.InstallLifecycle.test_host_destinations_include_workbuddy_and_codebuddy) ... ok
+test_idempotency_and_stable_sibling_preserved (test_install.InstallLifecycle.test_idempotency_and_stable_sibling_preserved) ... ok
+test_identical_without_receipt_is_foreign (test_install.InstallLifecycle.test_identical_without_receipt_is_foreign) ... ok
+test_installed_links_and_unchanged_analysis_code (test_install.InstallLifecycle.test_installed_links_and_unchanged_analysis_code) ... ok
+test_partial_failure_rolls_back_all_packages (test_install.InstallLifecycle.test_partial_failure_rolls_back_all_packages) ... ok
+test_real_version_update_and_repeat (test_install.InstallLifecycle.test_real_version_update_and_repeat) ... ok
+test_gbt7714_numbering_superscript_and_three_line_table (test_manuscript_delivery.ChineseJournalLayout.test_gbt7714_numbering_superscript_and_three_line_table) ... ok
+test_chinese_source_identities_are_not_empty (test_manuscript_delivery.ManuscriptDelivery.test_chinese_source_identities_are_not_empty) ... ok
+test_cli_preserves_installed_tree_and_compact_table_layout (test_manuscript_delivery.ManuscriptDelivery.test_cli_preserves_installed_tree_and_compact_table_layout) ... ok
+test_conceptual_and_theme_diagram_status_and_exports (test_manuscript_delivery.ManuscriptDelivery.test_conceptual_and_theme_diagram_status_and_exports) ... ok
+test_display_numbering_and_known_wrong_reference (test_manuscript_delivery.ManuscriptDelivery.test_display_numbering_and_known_wrong_reference) ... ok
+test_doi_less_primary_record_and_changed_evidence (test_manuscript_delivery.ManuscriptDelivery.test_doi_less_primary_record_and_changed_evidence) ... ok
+test_doi_title_author_and_year_known_errors (test_manuscript_delivery.ManuscriptDelivery.test_doi_title_author_and_year_known_errors) ... ok
+test_known_correction_and_full_structure_gates (test_manuscript_delivery.ManuscriptDelivery.test_known_correction_and_full_structure_gates) ... ok
+test_no_fabricated_trajectory_or_interval (test_manuscript_delivery.ManuscriptDelivery.test_no_fabricated_trajectory_or_interval) ... ok
+test_pending_reading_and_semantic_review_rejected (test_manuscript_delivery.ManuscriptDelivery.test_pending_reading_and_semantic_review_rejected) ... ok
+test_provided_intervals_export_without_estimation (test_manuscript_delivery.ManuscriptDelivery.test_provided_intervals_export_without_estimation) ... ok
+test_real_docx_embedding_editable_table_and_exact_plot_data (test_manuscript_delivery.ManuscriptDelivery.test_real_docx_embedding_editable_table_and_exact_plot_data) ... ok
+test_same_author_year_disambiguation (test_manuscript_delivery.ManuscriptDelivery.test_same_author_year_disambiguation) ... ok
+test_theory_structure_does_not_require_fake_methods (test_manuscript_delivery.ManuscriptDelivery.test_theory_structure_does_not_require_fake_methods) ... ok
+test_unknown_and_uncited_references_rejected (test_manuscript_delivery.ManuscriptDelivery.test_unknown_and_uncited_references_rejected) ... ok
+test_audit_example (test_modules.Analysis.test_audit_example) ... ok
+test_failed_script_is_kept_and_reported (test_modules.Analysis.test_failed_script_is_kept_and_reported) ... ok
+test_known_answers (test_modules.Analysis.test_known_answers) ... ok
+test_script_and_adapter_runs_write_to_project (test_modules.Analysis.test_script_and_adapter_runs_write_to_project) ... ok
+test_counts_identity_and_overclaims (test_modules.Proposal.test_counts_identity_and_overclaims) ... ok
+test_synthetic_thematic_cycle (test_modules.Qualitative.test_synthetic_thematic_cycle) ... ok
+test_transcripts_outside_private_are_refused (test_modules.Qualitative.test_transcripts_outside_private_are_refused) ... ok
+test_disclaimers_and_invented_numbers_are_flagged (test_modules.Voice.test_disclaimers_and_invented_numbers_are_flagged) ... ok
+test_published_style_passes (test_modules.Voice.test_published_style_passes) ... ok
+test_content_mode_delivers_actual_prose_and_notes (test_ppt.PptTests.test_content_mode_delivers_actual_prose_and_notes) ... ok
+test_content_only_table_is_readable_without_json_or_empty_body (test_ppt.PptTests.test_content_only_table_is_readable_without_json_or_empty_body) ... ok
+test_density_and_overwrite_fail_explicitly (test_ppt.PptTests.test_density_and_overwrite_fail_explicitly) ... ok
+test_docx_extraction_retains_paragraph_and_table_locators (test_ppt.PptTests.test_docx_extraction_retains_paragraph_and_table_locators) ... ok
+test_invalid_evidence_and_intervals_are_rejected (test_ppt.PptTests.test_invalid_evidence_and_intervals_are_rejected) ... ok
+test_multiline_body_keeps_line_breaks_and_room_for_next_item (test_ppt.PptTests.test_multiline_body_keeps_line_breaks_and_room_for_next_item) ... ok
+test_native_objects_and_notes_survive_editing (test_ppt.PptTests.test_native_objects_and_notes_survive_editing) ... ok
+test_notes_tampering_detected (test_ppt.PptTests.test_notes_tampering_detected) ... ok
+test_style_rebuild_retains_content_and_input (test_ppt.PptTests.test_style_rebuild_retains_content_and_input) ... ok
+test_template_geometry_preserved_without_sample_pages (test_ppt.PptTests.test_template_geometry_preserved_without_sample_pages) ... ok
+test_chart_labels_series_order_values_units_and_axes (test_ppt_fidelity.FidelityTests.test_chart_labels_series_order_values_units_and_axes) ... ok
+test_display_precision_near_zero_and_ratio_reference (test_ppt_fidelity.FidelityTests.test_display_precision_near_zero_and_ratio_reference) ... ok
+test_explicit_axis_validation_and_intentional_truncation (test_ppt_fidelity.FidelityTests.test_explicit_axis_validation_and_intentional_truncation) ... ok
+test_identity_survives_layout_and_theme_and_defeats_decoy_text (test_ppt_fidelity.FidelityTests.test_identity_survives_layout_and_theme_and_defeats_decoy_text) ... ok
+test_nonzero_reference_geometry_and_label_changes (test_ppt_fidelity.FidelityTests.test_nonzero_reference_geometry_and_label_changes) ... ok
+test_preview_freshness_is_separate_from_plan_and_source_checks (test_ppt_fidelity.FidelityTests.test_preview_freshness_is_separate_from_plan_and_source_checks) ... ok
+test_process_order_connections_and_quote_attribution (test_ppt_fidelity.FidelityTests.test_process_order_connections_and_quote_attribution) ... ok
+test_small_intervals_and_original_numeric_labels (test_ppt_fidelity.FidelityTests.test_small_intervals_and_original_numeric_labels) ... ok
+test_source_image_bytes_and_generation_record (test_ppt_fidelity.FidelityTests.test_source_image_bytes_and_generation_record) ... ok
+test_table_cells_header_structure_and_removal (test_ppt_fidelity.FidelityTests.test_table_cells_header_structure_and_removal) ... ok
+test_two_series_have_distinct_colors_and_legend (test_ppt_fidelity.FidelityTests.test_two_series_have_distinct_colors_and_legend) ... ok
+test_consistent_english_manuscript_passes (test_review_response.Consistency.test_consistent_english_manuscript_passes) ... ok
+test_keyword_variants_found_without_term_group (test_review_response.Consistency.test_keyword_variants_found_without_term_group) ... ok
+test_seeded_chinese_manuscript (test_review_response.Consistency.test_seeded_chinese_manuscript) ... ok
+test_evaluative_wording_is_a_review_cue_not_a_fault (test_review_response.Prose.test_evaluative_wording_is_a_review_cue_not_a_fault) ... ok
+test_no_chinese_references (test_review_response.Prose.test_no_chinese_references) ... ok
+test_published_style_passes (test_review_response.Prose.test_published_style_passes) ... ok
+test_weak_discussion_is_flagged (test_review_response.Prose.test_weak_discussion_is_flagged) ... ok
+test_evaluative_wording_is_a_review_cue_not_a_fault (test_review_response.ProseEnglish.test_evaluative_wording_is_a_review_cue_not_a_fault) ... ok
+test_narrative_discussion_flagged_only_for_hypothesis_testing (test_review_response.ProseEnglish.test_narrative_discussion_flagged_only_for_hypothesis_testing) ... ok
+test_published_style_passes (test_review_response.ProseEnglish.test_published_style_passes) ... ok
+test_sections_found_from_topic_headings (test_review_response.ProseEnglish.test_sections_found_from_topic_headings) ... ok
+test_weak_prose_is_flagged (test_review_response.ProseEnglish.test_weak_prose_is_flagged) ... ok
+test_fullwidth_signs_table_mentions_and_numbering (test_review_response.RealManuscriptConventions.test_fullwidth_signs_table_mentions_and_numbering) ... ok
+test_voice_check_stops_at_back_matter_in_word (test_review_response.RealManuscriptConventions.test_voice_check_stops_at_back_matter_in_word) ... ok
+test_seeded_statements (test_review_response.Reporting.test_seeded_statements) ... ok
+test_placeholders_deleted_quotes_and_procedural_items (test_review_response.Response.test_placeholders_deleted_quotes_and_procedural_items) ... ok
+test_redline_keeps_tables_in_place_and_whole_numbers (test_review_response.Response.test_redline_keeps_tables_in_place_and_whole_numbers) ... ok
+test_reference_list_labels_not_superscript (test_review_response.Response.test_reference_list_labels_not_superscript) ... ok
+test_response_checks_and_redline (test_review_response.Response.test_response_checks_and_redline) ... ok
+test_empty_field_negated_probability_and_multiline_values (test_review_response.Review.test_empty_field_negated_probability_and_multiline_values) ... ok
+test_numbered_sections_back_matter_and_evidence_pointing_to_concern (test_review_response.Review.test_numbered_sections_back_matter_and_evidence_pointing_to_concern) ... ok
+test_structure_checks (test_review_response.Review.test_structure_checks) ... ok
+test_conceptual_distinction_is_not_a_disclaimer (test_review_response.VoiceCues.test_conceptual_distinction_is_not_a_disclaimer) ... ok
+test_may_partly_is_one_qualifier (test_review_response.VoiceCues.test_may_partly_is_one_qualifier) ... ok
+test_null_turned_into_equivalence_or_exclusive_mechanism_needs_semantic_check (test_review_response.VoiceCues.test_null_turned_into_equivalence_or_exclusive_mechanism_needs_semantic_check) ... ok
+test_number_check_states_its_limits (test_review_response.VoiceCues.test_number_check_states_its_limits) ... ok
+test_commit_tables_and_saturation (test_usability_fixes.GroundedCoding.test_commit_tables_and_saturation) ... ok
+test_md_to_docx_three_line_table_and_superscript (test_usability_fixes.WordAndChecks.test_md_to_docx_three_line_table_and_superscript) ... ok
+test_proposal_official_headings_and_section_limits (test_usability_fixes.WordAndChecks.test_proposal_official_headings_and_section_limits) ... ok
+test_rounded_values_count_as_sourced (test_usability_fixes.WordAndChecks.test_rounded_values_count_as_sourced) ... ok
+
+----------------------------------------------------------------------
+Ran 95 tests in 62.349s
+
+OK
+
+Exit: 0
+
+$ python -X utf8 -m unittest discover -s tests -p "test_ppt*.py" -v [original repository path]
+test_content_mode_delivers_actual_prose_and_notes (test_ppt.PptTests.test_content_mode_delivers_actual_prose_and_notes) ... ok
+test_content_only_table_is_readable_without_json_or_empty_body (test_ppt.PptTests.test_content_only_table_is_readable_without_json_or_empty_body) ... ok
+test_density_and_overwrite_fail_explicitly (test_ppt.PptTests.test_density_and_overwrite_fail_explicitly) ... ok
+test_docx_extraction_retains_paragraph_and_table_locators (test_ppt.PptTests.test_docx_extraction_retains_paragraph_and_table_locators) ... ok
+test_invalid_evidence_and_intervals_are_rejected (test_ppt.PptTests.test_invalid_evidence_and_intervals_are_rejected) ... ok
+test_multiline_body_keeps_line_breaks_and_room_for_next_item (test_ppt.PptTests.test_multiline_body_keeps_line_breaks_and_room_for_next_item) ... ok
+test_native_objects_and_notes_survive_editing (test_ppt.PptTests.test_native_objects_and_notes_survive_editing) ... ok
+test_notes_tampering_detected (test_ppt.PptTests.test_notes_tampering_detected) ... ok
+test_style_rebuild_retains_content_and_input (test_ppt.PptTests.test_style_rebuild_retains_content_and_input) ... ok
+test_template_geometry_preserved_without_sample_pages (test_ppt.PptTests.test_template_geometry_preserved_without_sample_pages) ... ok
+test_chart_labels_series_order_values_units_and_axes (test_ppt_fidelity.FidelityTests.test_chart_labels_series_order_values_units_and_axes) ... ok
+test_display_precision_near_zero_and_ratio_reference (test_ppt_fidelity.FidelityTests.test_display_precision_near_zero_and_ratio_reference) ... ok
+test_explicit_axis_validation_and_intentional_truncation (test_ppt_fidelity.FidelityTests.test_explicit_axis_validation_and_intentional_truncation) ... ok
+test_identity_survives_layout_and_theme_and_defeats_decoy_text (test_ppt_fidelity.FidelityTests.test_identity_survives_layout_and_theme_and_defeats_decoy_text) ... ok
+test_nonzero_reference_geometry_and_label_changes (test_ppt_fidelity.FidelityTests.test_nonzero_reference_geometry_and_label_changes) ... ok
+test_preview_freshness_is_separate_from_plan_and_source_checks (test_ppt_fidelity.FidelityTests.test_preview_freshness_is_separate_from_plan_and_source_checks) ... ok
+test_process_order_connections_and_quote_attribution (test_ppt_fidelity.FidelityTests.test_process_order_connections_and_quote_attribution) ... ok
+test_small_intervals_and_original_numeric_labels (test_ppt_fidelity.FidelityTests.test_small_intervals_and_original_numeric_labels) ... ok
+test_source_image_bytes_and_generation_record (test_ppt_fidelity.FidelityTests.test_source_image_bytes_and_generation_record) ... ok
+test_table_cells_header_structure_and_removal (test_ppt_fidelity.FidelityTests.test_table_cells_header_structure_and_removal) ... ok
+test_two_series_have_distinct_colors_and_legend (test_ppt_fidelity.FidelityTests.test_two_series_have_distinct_colors_and_legend) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 2.203s
+
+OK
+
+Exit: 0
+
+$ python -X utf8 <skill-creator>/scripts/quick_validate.py skills/edu-ppt
+Skill is valid!
+
+Exit: 0

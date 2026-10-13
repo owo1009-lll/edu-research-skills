@@ -1,11 +1,12 @@
-"""Structural PPTX checks. Geometry and text presence do not prove semantic fidelity."""
+"""Check plan/object consistency and preview freshness, separately from source facts."""
 from pathlib import Path
 from collections import Counter
 import argparse
 import hashlib
 import json
 from pptx import Presentation
-from plan import load_plan, reference_text
+from plan import load_plan
+from fidelity import check_objects
 
 
 def all_text(shape):
@@ -20,16 +21,15 @@ def check(source, plan_path, render_dir=None):
     plan = load_plan(plan_path)
     prs = Presentation(source)
     errors, warnings, inventory = [], [], []
+    issues = check_objects(prs, plan, plan_path, source)
+    errors.extend(f"slide {x['slide']}, object {x['object']}, {x['field']}: expected {x['expected']!r}; actual {x['actual']!r}" for x in issues)
     if len(prs.slides) != len(plan['slides']):
         errors.append('Slide count differs from plan')
     for i, (slide, page) in enumerate(zip(prs.slides, plan['slides']), 1):
         counts = Counter()
         shapes = []
-        texts = []
         for shape in slide.shapes:
             text = all_text(shape)
-            if text:
-                texts.append(text)
             if shape.has_table:
                 counts['native_tables'] += 1
             elif shape.has_chart:
@@ -48,31 +48,14 @@ def check(source, plan_path, render_dir=None):
                         if run.font.size and run.font.size.pt < 10:
                             warnings.append(f'slide {i}: tiny text in {shape.name}')
             # Intentional dots/lines within interval plots are excluded from overlap checks.
-            if shape.name in ('edu:title', 'edu:message', 'edu:body', 'edu:source', 'edu:table', 'edu:chart', 'edu:source-image', 'edu:quote', 'edu:caption'):
+            if shape.name in ('edu:title', 'edu:message', 'edu:body', 'edu:source', 'edu:table', 'edu:chart', 'edu:source-image', 'edu:quote', 'edu:caption', 'edu:truncation-note'):
                 shapes.append(shape)
-        joined = '\n'.join(texts)
-        for text in [page['title'], page['message'], *page.get('body', []), reference_text(plan, page)]:
-            if text not in joined:
-                errors.append(f'slide {i}: planned text missing: {text[:50]}')
-        notes = slide.notes_slide.notes_text_frame
-        if notes is None or not notes.text.startswith(page['notes'] + '\n\n来源：'):
-            errors.append(f'slide {i}: speaker notes differ from plan')
         for j, a in enumerate(shapes):
             for b in shapes[j + 1:]:
                 x = min(a.left + a.width, b.left + b.width) - max(a.left, b.left)
                 y = min(a.top + a.height, b.top + b.height) - max(a.top, b.top)
                 if x > 9144 and y > 9144:
                     errors.append(f'slide {i}: overlapping content: {a.name} / {b.name}')
-        data = page.get('visual', {})
-        if data.get('type') == 'chart':
-            charts = [s.chart for s in slide.shapes if s.has_chart]
-            if len(charts) != 1:
-                errors.append(f'slide {i}: native chart missing')
-            else:
-                actual = [list(series.values) for series in charts[0].series]
-                expected = [series['values'] for series in data['series']]
-                if actual != expected:
-                    errors.append(f'slide {i}: chart values changed')
         if counts['editable_text'] == 0:
             errors.append(f'slide {i}: no editable text')
         inventory.append({'slide': i, **dict(counts)})
@@ -87,13 +70,18 @@ def check(source, plan_path, render_dir=None):
                 errors.append('Rendering did not complete')
             if render.get('pptx_sha256') != hashlib.sha256(Path(source).read_bytes()).hexdigest():
                 errors.append('Previews are stale: PPTX changed after rendering')
+            if len(render.get('images', {})) != len(prs.slides):
+                errors.append('Preview page count differs from PPTX')
             for name, expected in render.get('images', {}).items():
                 image = Path(render_dir) / name
                 if not image.exists() or hashlib.sha256(image.read_bytes()).hexdigest() != expected:
                     errors.append('Preview image missing or changed: ' + name)
-    return {'status': 'passed' if not errors else 'failed', 'errors': errors, 'warnings': warnings,
+    return {'status': 'passed' if not errors else 'failed', 'errors': errors, 'issues': issues, 'warnings': warnings,
             'inventory': inventory, 'render_status': render.get('status'),
-            'scope': 'structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review'}
+            'plan_consistency': 'failed' if issues or len(prs.slides) != len(plan['slides']) else 'passed',
+            'source_fact_check': 'not_performed',
+            'visual_review': render.get('visual_review', 'not_performed'),
+            'scope': 'native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review'}
 
 
 if __name__ == '__main__':

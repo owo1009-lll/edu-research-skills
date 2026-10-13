@@ -1,0 +1,359 @@
+{
+  "normal": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    }
+  },
+  "table_changed": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    }
+  },
+  "table_deleted": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    }
+  },
+  "categories_changed": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    }
+  },
+  "series_changed": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    }
+  },
+  "unit_changed": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    }
+  },
+  "small_interval": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 8,
+          "shapes_or_lines": 4
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    },
+    "display": [
+      "0.01 [0.00, 0.01]"
+    ]
+  },
+  "clipped_axis": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    }
+  },
+  "two_series": {
+    "build": "generated",
+    "check": {
+      "status": "passed",
+      "errors": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 11,
+          "shapes_or_lines": 4
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 5,
+          "editable_text": 10,
+          "shapes_or_lines": 6
+        }
+      ],
+      "render_status": "not_checked",
+      "scope": "structure, text/notes presence, chart values and preview freshness; source meaning and visual quality require review"
+    },
+    "series_colors": [
+      "176B76",
+      "176B76"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "../slides.pptx",
+  "pptx_sha256": "5a5b2e3df228953ce95d10ba853c2483d019f25e089a0c6fee7afdea699e9e8d",
+  "status": "rendered",
+  "visual_review": "not_performed",
+  "errors": [],
+  "engine": "PowerPoint COM",
+  "slides": 5,
+  "contact_sheets": [
+    "contact-01.png"
+  ],
+  "images": {
+    "slide-001.png": "a6a84b2aafdebada4fa8ac180b96a6389e86ed5f4d8f372319637c03a8f86729",
+    "slide-002.png": "13940a8a694bff27b31ece90fdb670345ab670462592800ea6d82d4cb860b44c",
+    "slide-003.png": "0905f679657a985a2fe723e813bcc857f7d6ee32301522efeb5e440e09841ac9",
+    "slide-004.png": "65c3bebb9126e194e7aa96af1066b6d37cf04747b7b9ff79d6c22492e206801c",
+    "slide-005.png": "f49bfbba97db32ddc15c5407ac7d60ceecf028b145b0d7145bbc5e1c55216d9e"
+  }
+}

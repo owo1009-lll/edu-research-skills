@@ -20,6 +20,8 @@ Content mode delivers actual slide copy, visual arrangements, narration, source 
 
 Python dependencies are in requirements.txt. The single engine is python-pptx; no extra model API key is required. Rendering needs Windows PowerPoint, or LibreOffice and pdftoppm. No renderer means no claimed visual acceptance. Text, tables, models and reconstructed charts use native objects; source images are not internally editable. Abstract access does not authorize invented full-text details, new analyses or progress claims.
 
+Object checks compare native content, numeric display and chart settings with the plan; source correctness requires separate reading. Interval plots support explicit display precision and reference values on linear scales only. See the [targeted revision record](https://github.com/owo1009-lll/edu-research-skills/blob/main/evals/ppt-revision/README.md) for reproducible cases and artifacts.
+
 See the [entrypoint](SKILL.md), [commands](references/production.md), [project references](references/open-source.md) and [synthetic and open-article examples](examples/README.md). Keep task materials under the user's edu_output/ppt directory, outside the skill.
 
 ## Status

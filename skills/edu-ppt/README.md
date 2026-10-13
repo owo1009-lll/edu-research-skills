@@ -20,6 +20,8 @@
 
 Python依赖见requirements.txt；生成引擎python-pptx，不需要额外模型API密钥。渲染需Windows PowerPoint，或LibreOffice与pdftoppm。没有渲染器不宣称完成视觉验收。文本、表格、模型和重建图表为原生对象；文章图片内部不可编辑。只见摘要时不假装全文阅读，不新增分析，不补造研究进度。
 
+成品检查逐对象核对计划中的内容、数值显示和图表设置；通过表示与计划一致，事实仍需回源核对。区间支持明确显示精度和参考值，当前仅支持线性尺度。验证案例与可复现产物见[定向修订记录](https://github.com/owo1009-lll/edu-research-skills/blob/main/evals/ppt-revision/README.md)。
+
 详见[入口](SKILL.md)、[生成命令](references/production.md)、[参考项目](references/open-source.md)及[合成与开放文章示例](examples/README.md)。任务材料存用户项目edu_output/ppt，不能放进技能目录。
 
 ## 状态

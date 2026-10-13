@@ -23,7 +23,7 @@ description: Prepare education research presentations with source-linked slide t
 3. **写实际逐页内容。**按[页面计划格式](references/plan-format.md)生成任务目录中的 `plan.json`。每页有标题、核心信息、可上屏正文、图表/案例安排、完整讲稿、关键主张的来源位置及时间。内容模式也输出完整正文和讲稿，不能只交目录。
 4. **核查内容后再排版。**对照原文核实数字、引语、比较对象、正负号、区间、显著性和分析身份；重要反例及反向结果不删。不显著不转成无效、等效、排他机制或任选方案。核实后的计划作为内容快照；样式重做直接复用，改变论断则重新核查对应证据。
 5. **生成。**内容模式运行 `scripts/build_deck.py --plan ... --out ... --content-only`，输出 `content.md` 与 `speaker_notes.md`。成品模式运行同一脚本而不加该开关，增加 `slides.pptx`；讲稿同时写入演讲者备注。模板、视觉布局及命令详见[生成与检查](references/production.md)。
-6. **实际渲染和复查。**成品运行 `scripts/render_deck.py`，打开预览检查每页及重点局部，结合 `scripts/check_deck.py` 的几何、字体大小、备注和编辑对象检查。修复受影响页面后重新渲染检查。环境无法渲染须说明；几何检查不等于视觉验收，AI阅读不称人工审核。
+6. **实际渲染和复查。**成品运行 `scripts/render_deck.py`，打开预览检查每页及重点局部，结合 `scripts/check_deck.py` 按对象核对表格、图表、区间、引文、流程、图片及备注。脚本验证成品与已核实计划的一致性，事实仍需回源核对。修复受影响页面后重新渲染检查。环境无法渲染须说明；几何检查不等于视觉验收，AI阅读不称人工审核，计划秒数不等于实际试讲时长。
 
 ## 讲述与页面约束
 

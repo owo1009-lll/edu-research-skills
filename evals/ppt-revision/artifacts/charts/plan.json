@@ -1,0 +1,233 @@
+{
+  "title": "图表成品核对：合成验证材料",
+  "route": "own",
+  "stage": "progress",
+  "language": "zh",
+  "minutes": 5,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "为图表边界检验构造的合成值",
+      "short": "合成验证数据",
+      "access": "author_material",
+      "year": 2026
+    }
+  ],
+  "slides": [
+    {
+      "id": "C01",
+      "title": "实验组与对照组：前测和后测",
+      "section": "已完成",
+      "message": "两种颜色固定对应两个组，图例与数据保持一致。",
+      "body": [],
+      "visual_plan": "验证实际成品的原生图表或区间对象。",
+      "visual": {
+        "type": "chart",
+        "kind": "column",
+        "categories": [
+          "前测",
+          "后测"
+        ],
+        "series": [
+          {
+            "name": "实验组",
+            "values": [
+              12,
+              18
+            ]
+          },
+          {
+            "name": "对照组",
+            "values": [
+              12,
+              14
+            ]
+          }
+        ],
+        "unit": "分（合成）",
+        "minimum": 0,
+        "maximum": 20,
+        "major_unit": 5,
+        "number_format": "0",
+        "caption": "纯合成成品验证，不能用于教学效果推断。"
+      },
+      "notes": "两种颜色固定对应两个组，图例与数据保持一致。 所有数值专为检查显示和对象一致性构造，不属于阶段项目的结果。",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "C01",
+          "supports": "本页全部合成值与显示要求"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "小数区间：保留与零的关系",
+      "section": "已完成",
+      "message": "0.009 [0.004, 0.014]的三个数值均按原精度显示。",
+      "body": [],
+      "visual_plan": "验证实际成品的原生图表或区间对象。",
+      "visual": {
+        "type": "interval",
+        "rows": [
+          {
+            "label": "小差值（合成）",
+            "estimate": 0.009,
+            "low": 0.004,
+            "high": 0.014
+          }
+        ],
+        "range": [
+          -0.002,
+          0.02
+        ],
+        "reference": 0,
+        "unit": "差值",
+        "caption": "合成区间，仅检查精度与位置；下限保持大于零。"
+      },
+      "notes": "0.009 [0.004, 0.014]的三个数值均按原精度显示。 所有数值专为检查显示和对象一致性构造，不属于阶段项目的结果。",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "C02",
+          "supports": "本页全部合成值与显示要求"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "比值区间：参考值为1",
+      "section": "已完成",
+      "message": "参考线按比值指标设为1，此处使用线性尺度。",
+      "body": [],
+      "visual_plan": "验证实际成品的原生图表或区间对象。",
+      "visual": {
+        "type": "interval",
+        "rows": [
+          {
+            "label": "风险比（合成）",
+            "estimate": 1.2,
+            "low": 0.9,
+            "high": 1.5
+          }
+        ],
+        "range": [
+          0.5,
+          2
+        ],
+        "reference": 1,
+        "unit": "风险比",
+        "caption": "合成区间，不表示任何真实干预的风险。"
+      },
+      "notes": "参考线按比值指标设为1，此处使用线性尺度。 所有数值专为检查显示和对象一致性构造，不属于阶段项目的结果。",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "C03",
+          "supports": "本页全部合成值与显示要求"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "折线图：按变化范围设置坐标",
+      "section": "已完成",
+      "message": "非零坐标范围覆盖全部观测值，保留可读的单位。",
+      "body": [],
+      "visual_plan": "验证实际成品的原生图表或区间对象。",
+      "visual": {
+        "type": "chart",
+        "kind": "line",
+        "categories": [
+          "前测",
+          "后测"
+        ],
+        "series": [
+          {
+            "name": "实验组",
+            "values": [
+              8,
+              12
+            ]
+          },
+          {
+            "name": "对照组",
+            "values": [
+              9,
+              10
+            ]
+          }
+        ],
+        "minimum": 7,
+        "maximum": 13,
+        "major_unit": 2,
+        "unit": "分（合成）",
+        "number_format": "0",
+        "caption": "非零起点不裁切本例数据；颜色与标记共同区分两个系列。"
+      },
+      "notes": "非零坐标范围覆盖全部观测值，保留可读的单位。 所有数值专为检查显示和对象一致性构造，不属于阶段项目的结果。",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "C04",
+          "supports": "本页全部合成值与显示要求"
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "有意截断的边界测试",
+      "section": "已完成",
+      "message": "这页展示显式截断警示，不用于比较柱长。",
+      "body": [],
+      "visual_plan": "验证实际成品的原生图表或区间对象。",
+      "visual": {
+        "type": "chart",
+        "kind": "column",
+        "categories": [
+          "A",
+          "B"
+        ],
+        "series": [
+          {
+            "name": "合成计数",
+            "values": [
+              12,
+              8
+            ]
+          }
+        ],
+        "unit": "份数（合成）",
+        "minimum": 0,
+        "maximum": 5,
+        "allow_truncation": true,
+        "truncation_note": "纵轴上限5，两个柱均被截断；完整数值：A=12，B=8。",
+        "number_format": "0",
+        "caption": "验证许可截断时说明实际可见；正式汇报优先使用完整范围。"
+      },
+      "notes": "这页展示显式截断警示，不用于比较柱长。 所有数值专为检查显示和对象一致性构造，不属于阶段项目的结果。",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "C05",
+          "supports": "本页全部合成值与显示要求"
+        }
+      ]
+    }
+  ]
+}
