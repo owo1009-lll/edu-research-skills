@@ -28,6 +28,7 @@ class RedLines(unittest.TestCase):
                                  'check_consistency.py', '先确认一次主线', '属于抄袭'],
         'edu-writing/references/prose-zh.md': ['不编造', '待补', '还可以做的分析'],
         'edu-writing/references/prose-en.md': ['never invent citations', 'Proposed analyses', 'check_prose.py'],
+        'edu-writing/references/framing-results.md': ['红线', '把不显著写成显著', '看了结果再改假设', 'Kraft', '优势清单'],
         'edu-writing/references/foundation.md': ['不加免责句', '只在局限部分写一次', '不编造引文'],
         'edu-writing/references/full-manuscript.md': ['写作语言跟随目标期刊', '不编造'],
         'edu-proposal/SKILL.md': ['取消参评资格', '前期成果不列入参考文献', '研究基础只写真实成果', '--identity'],

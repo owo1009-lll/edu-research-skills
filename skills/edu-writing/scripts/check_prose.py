@@ -48,6 +48,13 @@ NOT_ONLY = re.compile(r'不仅.{0,40}?(?:更|还|也)')
 PROVIDE = re.compile(r'为.{0,30}?提供.{0,20}?(?:参考|依据|借鉴|启示)')
 BUZZ = re.compile(r'赋能|深度融合|高质量发展|数智')
 SELF = re.compile(r'本研究|本文|笔者')
+# self-deprecating wording about results (published: median 0, at most 3 per CSSCI and 2 per SSCI article)
+SELF_DEP = re.compile(r'作用有限|效果有限|影响有限|效应量?较小|效应量?偏小|实际意义不大|收效甚微|作用甚微|未能(?:显著)?(?:提升|促进|改善|提高)'
+                      r'|仅能解释|解释力有限|作用不大|效果不明显|效果并不理想')
+SELF_DEP_EN = re.compile(r'\blimited (?:effects?|impacts?|influence)\b|\bnegligible\b|\bonly (?:a )?(?:small|modest|weak)\b'
+                         r'|\bweak (?:effects?|associations?|relationships?|correlations?)\b'
+                         r'|\bfailed to (?:improve|increase|enhance|affect|predict)\b|\bof little practical\b'
+                         r'|\bsmall effect sizes?\b|\b(?:effects?|associations?) (?:was|were) (?:small|weak|modest)\b', re.I)
 
 # Flags sit at the edge of what the 27 published articles do (checked by running this script on them), so a
 # published article rarely triggers one; abstracts, methods and results are measured but not flagged.
@@ -189,6 +196,10 @@ def document_flags(text):
     n = chars(body) or 1
     per10k = lambda pat: round(10000 * len(pat.findall(body)) / n, 1)
     out = []
+    dep = SELF_DEP.findall(body)
+    if len(dep) > 3:
+        out.append(f'{len(dep)} self-deprecating phrases about results ({", ".join(sorted(set(dep)))}); published articles use at most 3. '
+                   'See framing-results.md: interpret effect sizes against education benchmarks and report non-significant results without verdicts')
     stock = STOCK.findall(body)
     if len(stock) > 2:
         out.append(f'stock phrases used {len(stock)} times ({", ".join(sorted(set(stock)))}); published papers use them less than once per 10,000 characters')
@@ -487,6 +498,10 @@ def check_en(text):
     count = lambda pat: len(re.findall(pat, body))
     per10k = lambda pat: round(10000 * count(pat) / m['words'], 1)
     doc = report['document']
+    dep = SELF_DEP_EN.findall('\n'.join(argued + secs.get('abstract', [])))
+    if len(dep) > 2:
+        doc.append(f'{len(dep)} self-deprecating phrases about results ({", ".join(sorted(set(d.lower() for d in dep)))}); published articles '
+                   'use at most 2. See framing-results.md: benchmark effect sizes (Kraft 2020; Gignac & Szodorai 2016) instead of calling them small')
     rare = re.findall(RARE, body)
     if len(rare) >= 4:
         doc.append(f'{len(rare)} rare stock phrases ({", ".join(sorted(set(rare)))}); published articles use at most 3 in total')

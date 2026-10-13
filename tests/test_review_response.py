@@ -264,6 +264,12 @@ class Prose(Folder):
     def test_published_style_passes(self):
         self.assertEqual(self.flags(self.INTRO + self.GOOD_DISCUSSION), '')
 
+    def test_self_deprecating_results_flagged(self):
+        weak = ('## 六、结论与建议\n\n教师支持的作用有限，效应量较小。AI 使用未能显著提升学习投入，实际意义不大。'
+                '自我效能感的中介作用也效果不明显。\n')
+        self.assertIn('self-deprecating phrases', self.flags(self.INTRO + self.GOOD_DISCUSSION + weak))
+        self.assertNotIn('self-deprecating', self.flags(self.INTRO + self.GOOD_DISCUSSION))
+
     def test_no_chinese_references(self):
         refs = '\n## 参考文献\n\n' + ''.join(f'[{i}] Author A. A title about learning number {i}[J]. Journal, 2020: 1-10.\n'
                                             for i in range(1, 12))
@@ -337,6 +343,12 @@ class ProseEnglish(Folder):
 
     def test_published_style_passes(self):
         self.assertEqual(self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION), '')
+
+    def test_self_deprecating_results_flagged(self):
+        weak = ('## 6. Conclusion\n\nThe effect of teacher support was small, and GenAI use failed to improve engagement. '
+                'Self-efficacy showed only a small indirect role, and the remaining associations were negligible.\n')
+        self.assertIn('self-deprecating phrases', self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION + weak))
+        self.assertNotIn('self-deprecating', self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION))
 
     def test_narrative_discussion_flagged_only_for_hypothesis_testing(self):
         narrative = ('## 5. Discussion\n\nTeacher support was related to engagement both directly and through self-efficacy. '
