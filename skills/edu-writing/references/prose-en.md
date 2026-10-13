@@ -18,7 +18,7 @@ Figures are medians unless stated. They describe how published papers usually wr
   - 6% of implication paragraphs.
 
   The conclusion is the only unit where they are common (26% of its paragraphs). One evaluative sentence may close the paper; 13 of 50 articles end that way.
-- Paragraphs run about 140 words (published range 83–228). Split a paragraph that grows past about 230 words; merge paragraphs shorter than about 75 words into a neighbour.
+- Paragraphs run about 140 words (published range 83–228). These lengths are descriptive references; split or combine paragraphs according to the argument, article structure and explicit journal requirements.
 
 ## 2. Using the literature
 
@@ -41,11 +41,11 @@ Figures are medians unless stated. They describe how published papers usually wr
   - "findings on [X] are mixed: [A] reported …, whereas [B] …";
   - "although [consensus] (cites), [study] found [exception]";
   - "However, [Author] ([year]) showed …".
-- **Gap.** State the gap as a specific absence plus a contrast, a design weakness or a practical problem, and restate it before the aims. Published papers make a median of 4 gap statements, and 30 of 49 restate the gap at the end of the review. Templates:
+- **Gap.** Focus on the key unresolved matters needed to motivate the research questions: a specific absence or contrast, a design weakness or a practical problem. Published papers make a median of 4 gap statements, and 30 of 49 restate the gap at the end of the review. These are observations, not requirements for the number or placement of gaps. Optional examples:
   - "Most studies have [examined A in B]; [C] remains [unexamined]."
   - "Prior studies relied on [design or measure], which cannot [show X]."
 
-  Make each gap match a research question.
+  Explain how the unresolved matters motivate the research questions; a one-to-one pairing is not required. See [introduction](introduction.md) for organising questions, hypotheses and contributions without fixed closing formulas.
 - **Use only verified sources.** Use only references that have been verified (see [reference verification](reference-verification.md)). When the materials give few references, cite them where they support a claim and bundle them where several support the same claim; never invent citations to reach a density. A thin reference list is an author to-do item.
 - **Each citation carries its claim.** Cite a work only for what it reports or argues, as far as its abstract or the materials show.
   - Do not attach a real source to a background claim it does not make, for example a study of consequences cited for how common a practice is.
@@ -55,7 +55,7 @@ Figures are medians unless stated. They describe how published papers usually wr
   - **Problem entries in a reference pack.** Put each one on the author to-do list. They differ in what you may cite:
     - **Abstract belongs to another paper, or title only:** in new writing, do not use the work to support a new factual claim; list it for checking. In a revision, keep the author's existing citation, record it as unverified in `rationale.md`, and do not mark it as verified.
     - **Author list cut short, or online year differs from issue year:** the abstract is still usable, so cite its findings normally. In the reference list, keep the given authors followed by "[remaining authors to be added]", use the year the pack gives, and flag the discrepancy.
-- **Introduction and review.** Do not repeat the same sentence or the same citation group in both. The Introduction gives the point and its citations; definitions, detailed evidence and examples belong in the review.
+- **Introduction and review.** Allocate material by its role in the argument and avoid repeating the same explanation. Definitions and examples needed to understand the problem can appear in the Introduction; arrange detailed evidence according to the article structure.
 
 ## 3. Where the numbers go
 
@@ -94,9 +94,11 @@ Figures are medians unless stated. They describe how published papers usually wr
 
 ## 7. By design
 
+The question and hypothesis formats below describe the sampled articles. Their placement and whether to number them depend on the argument, article structure and explicit journal requirements, including for qualitative and mixed-methods studies.
+
 | | Quantitative (22) | Qualitative (15) | Mixed methods (13) |
 |---|---|---|---|
-| Questions and hypotheses | Hypotheses (19/22), derived from theory plus evidence and usually stated in a present-study section; first-person aim (17/21) | Numbered RQs (11/15) at the end of the Introduction (13/15); no hypotheses; a present-study section is rarely used (2/15) | Numbered RQs (10/13), usually in a present-study section (9/13) |
+| Questions and hypotheses | Hypotheses observed in 19/22, derived from theory plus evidence and usually stated in a present-study section; first-person aim (17/21) | Numbered RQs observed in 11/15; questions at the end of the Introduction in 13/15; no hypotheses in this sample; a present-study section in 2/15 | Numbered RQs observed in 10/13; a present-study section in 9/13 |
 | Review | Counter-evidence almost always (21/22) | Narrative citations up to about a quarter; still synthesise rather than list | As quantitative, with counter-evidence where the literature is contested |
 | Results paragraphs | Open with the procedure, the finding in words, a table pointer or a check (procedure 32%, finding 27%); 56% of sentences carry numbers | Open with a theme claim (62%), then quotes with participant codes (21% open with a quote); numbers in about 12% of sentences | Alternate theme-led and procedure- or finding-led paragraphs; numbers in about 42% of sentences |
 | Discussion | About half the points deal with null or contrary results; compare information-prominently | Narrative citations about a third; points may end on an implication (41% contain one) | Implications inside about a fifth of points |
