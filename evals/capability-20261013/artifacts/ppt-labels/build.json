@@ -1,0 +1,174 @@
+{
+  "plan_sha256": "a26c4a8d50dfa7dd3e80343249025b9bc4eb0a893741d26fd2adf21cdaefc86b",
+  "mode": "pptx",
+  "source_plan": "../../../../skills/edu-ppt/examples/label-row-plan.json",
+  "slides": 4,
+  "planned_seconds": 180,
+  "requested_minutes": 3,
+  "warnings": [],
+  "render_status": "not_run",
+  "template_sha256": null,
+  "theme_sha256": null,
+  "objects": [
+    {
+      "slide": 1,
+      "id": "L01/title"
+    },
+    {
+      "slide": 1,
+      "id": "L01/message"
+    },
+    {
+      "slide": 1,
+      "id": "L01/visual/chart",
+      "series_colors": [
+        "176B76"
+      ]
+    },
+    {
+      "slide": 1,
+      "id": "L01/source"
+    },
+    {
+      "slide": 1,
+      "id": "L01/number"
+    },
+    {
+      "slide": 2,
+      "id": "L02/title"
+    },
+    {
+      "slide": 2,
+      "id": "L02/message"
+    },
+    {
+      "slide": 2,
+      "id": "L02/visual/chart",
+      "series_colors": [
+        "176B76"
+      ]
+    },
+    {
+      "slide": 2,
+      "id": "L02/visual/caption"
+    },
+    {
+      "slide": 2,
+      "id": "L02/source"
+    },
+    {
+      "slide": 2,
+      "id": "L02/number"
+    },
+    {
+      "slide": 3,
+      "id": "L03/title"
+    },
+    {
+      "slide": 3,
+      "id": "L03/message"
+    },
+    {
+      "slide": 3,
+      "id": "L03/visual/chart",
+      "series_colors": [
+        "176B76"
+      ]
+    },
+    {
+      "slide": 3,
+      "id": "L03/source"
+    },
+    {
+      "slide": 3,
+      "id": "L03/number"
+    },
+    {
+      "slide": 4,
+      "id": "L04/title"
+    },
+    {
+      "slide": 4,
+      "id": "L04/message"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/reference",
+      "value": 0
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/axis-line",
+      "range": [
+        -0.5,
+        1
+      ],
+      "scale": "linear",
+      "unit": "合成差值"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/0/label"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/0/interval",
+      "low": -0.1,
+      "high": 0.5
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/0/estimate",
+      "value": 0.2
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/0/display"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/1/label"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/1/interval",
+      "low": 0.2,
+      "high": 0.8
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/1/estimate",
+      "value": 0.5
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/row/1/display"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/axis-label"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/reference-label"
+    },
+    {
+      "slide": 4,
+      "id": "L04/visual/caption"
+    },
+    {
+      "slide": 4,
+      "id": "L04/source"
+    },
+    {
+      "slide": 4,
+      "id": "L04/number"
+    }
+  ],
+  "outputs": {
+    "content.md": "0e39a63fc0d89d1ea4f50e87bad4fa746ce9127d19dc038e4e8911a3fc567cbd",
+    "plan.json": "a26c4a8d50dfa7dd3e80343249025b9bc4eb0a893741d26fd2adf21cdaefc86b",
+    "slides.pptx": "29d3ca17f6685ce18b761746edc0c9da01e44399fec8b7d8fbba5eb603498e87",
+    "speaker_notes.md": "ce3ed35d0996a7acb69bbbcd27c8de2dbbb4c3a7be4aec80ce96c309e3259dd4"
+  }
+}

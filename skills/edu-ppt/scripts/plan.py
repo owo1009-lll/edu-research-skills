@@ -5,6 +5,7 @@ import json
 import math
 import re
 from decimal import Decimal
+from chart_labels import validate_labels
 
 
 def display_number(value, number_format=None):
@@ -125,6 +126,10 @@ def validate(plan):
                 require(nonempty(series.get('name')) and len(series.get('values', [])) == len(visual['categories']) and all(number(x) for x in series['values']), f'{sid}: invalid chart series')
             require(nonempty(visual.get('unit')), f'{sid}: chart units required')
             require(all(nonempty(c) for c in visual['categories']), f'{sid}: category labels must be text')
+            try:
+                validate_labels(visual)
+            except ValueError as exc:
+                raise ValueError(f'{sid}: {exc}') from exc
             for key in ('minimum', 'maximum', 'major_unit'):
                 if key in visual:
                     require(number(visual[key]), f'{sid}: {key} must be finite')

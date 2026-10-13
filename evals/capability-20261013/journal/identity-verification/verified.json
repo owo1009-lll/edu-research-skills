@@ -1,0 +1,599 @@
+{
+  "schema": 1,
+  "identity_results": [
+    {
+      "id": "J1",
+      "doi": "10.14742/ajet.8821",
+      "checked_utc": "2026-10-13T11:36:01.026490+00:00",
+      "lookup_url": "https://api.crossref.org/works/10.14742%2Fajet.8821",
+      "status": "verified",
+      "metadata": {
+        "doi": "10.14742/ajet.8821",
+        "title": "It is like a friend to me: Critical usage of automated feedback systems by self-regulating English learners in higher education",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1105-3963",
+            "authenticated-orcid": false,
+            "given": "Long",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3807-692X",
+            "authenticated-orcid": false,
+            "given": "Mira",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2024,
+        "registered_years": [
+          2024
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.8821",
+        "update_to": [],
+        "relation": {}
+      },
+      "identity_errors": [],
+      "metadata_sha256": "6859c50de3e6690d03fd0e84a2f21c5158bc953258f0905f5d19c826fc62686c",
+      "reading": {
+        "status": "abstract",
+        "url": "https://ajet.org.au/index.php/AJET/article/view/8821",
+        "locator": "Abstract; Implications for practice or policy; How to Cite",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      },
+      "correction_retraction_scope": "Registered update/relation fields plus separately recorded publisher checks; not exhaustive certification"
+    },
+    {
+      "id": "J2",
+      "doi": "10.1186/s41239-024-00455-4",
+      "checked_utc": "2026-10-13T11:36:01.027010+00:00",
+      "lookup_url": "https://api.crossref.org/works/10.1186%2Fs41239-024-00455-4",
+      "status": "verified",
+      "metadata": {
+        "doi": "10.1186/s41239-024-00455-4",
+        "title": "Feedback sources in essay writing: peer-generated or AI-generated feedback?",
+        "authors": [
+          {
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nafiseh Taghizadeh",
+            "family": "Kerman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jewoong",
+            "family": "Moon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hendrik",
+            "family": "Drachsler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2024,
+        "registered_years": [
+          2024
+        ],
+        "venue": "International Journal of Educational Technology in Higher Education",
+        "volume": "21",
+        "issue": "1",
+        "pages": "23",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1186/s41239-024-00455-4",
+        "update_to": [],
+        "relation": {}
+      },
+      "identity_errors": [],
+      "metadata_sha256": "3af678b4f389da098ea93f459356c2acde95727933070f4591893ea8dda1db33",
+      "reading": {
+        "status": "source_excerpt",
+        "url": "https://link.springer.com/article/10.1186/s41239-024-00455-4",
+        "locator": "Abstract; Method; Results RQ1/RQ2; Discussion; Limitations; Author information",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      },
+      "correction_retraction_scope": "Registered update/relation fields plus separately recorded publisher checks; not exhaustive certification"
+    },
+    {
+      "id": "J3",
+      "doi": "10.1016/j.compedu.2026.105591",
+      "checked_utc": "2026-10-13T11:36:01.881267+00:00",
+      "lookup_url": "https://api.crossref.org/works/10.1016%2Fj.compedu.2026.105591",
+      "status": "verified",
+      "metadata": {
+        "doi": "10.1016/j.compedu.2026.105591",
+        "title": "AI assistance in peer feedback provision: Pedagogically sound, but minimally adopted",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4451-9181",
+            "authenticated-orcid": false,
+            "given": "Stanislav",
+            "family": "Pozdniakov",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6669-2076",
+            "authenticated-orcid": false,
+            "given": "Jonathan",
+            "family": "Brazil",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9978-3783",
+            "authenticated-orcid": false,
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0622-289X",
+            "authenticated-orcid": false,
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9265-1908",
+            "authenticated-orcid": false,
+            "given": "Dragan",
+            "family": "Gašević",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6739-4145",
+            "authenticated-orcid": false,
+            "given": "Shazia",
+            "family": "Sadiq",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8664-6117",
+            "authenticated-orcid": false,
+            "given": "Hassan",
+            "family": "Khosravi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2026,
+        "registered_years": [
+          2026
+        ],
+        "venue": "Computers & Education",
+        "volume": "248",
+        "issue": "",
+        "pages": "105591",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.compedu.2026.105591",
+        "update_to": [],
+        "relation": {}
+      },
+      "identity_errors": [],
+      "metadata_sha256": "7bf053e6473d6bcc651ac022c20893073fc0005471d91c68185cab9646cf1f74",
+      "reading": {
+        "status": "abstract",
+        "url": "https://research.ou.nl/en/publications/ai-assistance-in-peer-feedback-provision-pedagogically-sound-but-/",
+        "locator": "Abstract and bibliographic metadata; publisher abstract cross-check",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      },
+      "correction_retraction_scope": "Registered update/relation fields plus separately recorded publisher checks; not exhaustive certification"
+    },
+    {
+      "id": "J4",
+      "doi": "10.1080/02602938.2018.1463354",
+      "checked_utc": "2026-10-13T11:36:01.988584+00:00",
+      "lookup_url": "https://api.crossref.org/works/10.1080%2F02602938.2018.1463354",
+      "status": "verified",
+      "metadata": {
+        "doi": "10.1080/02602938.2018.1463354",
+        "title": "The development of student feedback literacy: enabling uptake of feedback",
+        "authors": [
+          {
+            "given": "David",
+            "family": "Carless",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Faculty of Education, University of Hong Kong, Hong Kong, Hong Kong"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6883-2722",
+            "authenticated-orcid": false,
+            "given": "David",
+            "family": "Boud",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Melbourne City Centre, Deakin University, Melbourne, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018
+        ],
+        "venue": "Assessment & Evaluation in Higher Education",
+        "volume": "43",
+        "issue": "8",
+        "pages": "1315-1325",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/02602938.2018.1463354",
+        "update_to": [],
+        "relation": {}
+      },
+      "identity_errors": [],
+      "metadata_sha256": "e936808c586a62922ead1802176931d44e6578e4207315f176f05f018c5eea0e",
+      "reading": {
+        "status": "abstract",
+        "url": "https://hub.hku.hk/handle/10722/261886",
+        "locator": "Institutional abstract and citation record",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      },
+      "correction_retraction_scope": "Registered update/relation fields plus separately recorded publisher checks; not exhaustive certification"
+    },
+    {
+      "id": "J5",
+      "doi": "10.1016/j.caeo.2025.100300",
+      "checked_utc": "2026-10-13T11:36:02.583924+00:00",
+      "lookup_url": "https://api.crossref.org/works/10.1016%2Fj.caeo.2025.100300",
+      "status": "verified",
+      "metadata": {
+        "doi": "10.1016/j.caeo.2025.100300",
+        "title": "Teacher, peer, or AI? Comparing effects of feedback sources in higher education",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1926-5127",
+            "authenticated-orcid": false,
+            "given": "Joshua",
+            "family": "Weidlich",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Flurin",
+            "family": "Gotsch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kai",
+            "family": "Schudel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Claudia",
+            "family": "Marusic-Würscher",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jennifer",
+            "family": "Mazzarella",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hannah",
+            "family": "Bolten",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dario",
+            "family": "Bütler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Simon",
+            "family": "Luger",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bettina",
+            "family": "Wohlfender",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Katharina Maag",
+            "family": "Merki",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Computers and Education Open",
+        "volume": "9",
+        "issue": "",
+        "pages": "100300",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.caeo.2025.100300",
+        "update_to": [],
+        "relation": {}
+      },
+      "identity_errors": [],
+      "metadata_sha256": "87152a02fc0e64d98bfba832e04bb2533023b9f905c12ac0d72e543cca7a0fa9",
+      "reading": {
+        "status": "abstract",
+        "url": "https://www.ife.uzh.ch/dam/jcr%3A240d1fe5-81a5-4670-8e0d-b8ab9548d498/Weidlich%20et%20al_2025_Teacher%20peer%20or%20AI_Comparing%20effects%20of%20feedback%20sources%20in%20higher%20education.pdf",
+        "locator": "机构存档的出版社版本PDF第1页：摘要、完整署名和出版信息；未读后续全文。",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      },
+      "correction_retraction_scope": "Registered update/relation fields plus separately recorded publisher checks; not exhaustive certification"
+    }
+  ],
+  "semantic_review": [
+    {
+      "block_id": "introduction-J1",
+      "reference_id": "J1",
+      "status": "supported",
+      "locator": "Abstract; Implications for practice or policy; How to Cite",
+      "support": "摘要报告七名学生的质性材料及32人调查，强调课程结构、教师指导及人机反馈结合；不据此宣称ChatGPT改善写作成绩。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    },
+    {
+      "block_id": "introduction-J2",
+      "reference_id": "J2",
+      "status": "supported",
+      "locator": "Abstract; Method; Results RQ1/RQ2; Discussion; Limitations; Author information",
+      "support": "结果比较74名研究生的作文所获反馈，作者提出互补解释；局限明确未检查反馈采用与修订成效。保留功能互补作为有待验证的设计理由。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    },
+    {
+      "block_id": "introduction-J3",
+      "reference_id": "J3",
+      "status": "supported",
+      "locator": "Abstract and bibliographic metadata; publisher abstract cross-check",
+      "support": "摘要描述433名学生的7670次AI辅助同伴反馈，9%（690）的建议引起修订；这里是反馈提供环节，不是作文改善率。为什么较差建议更容易引起修订仍为作者提出的解释。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    },
+    {
+      "block_id": "introduction-J4",
+      "reference_id": "J4",
+      "status": "supported",
+      "locator": "Institutional abstract and citation record",
+      "support": "概念论文摘要提出四个相互关联的特征；只用其概念框架，不虚构量表、效应值或干预结论。",
+      "reader": "root assistant source review",
+      "claim_type": "conceptual framework"
+    },
+    {
+      "block_id": "introduction-J5",
+      "reference_id": "J5",
+      "status": "supported",
+      "locator": "机构存档的出版社版本PDF第1页：摘要、完整署名和出版信息；未读后续全文。",
+      "support": "摘要报告90人的随机实验，教师反馈的接受评价较低但作品改善较强，LLM组总体改善较小；不从摘要补写具体系数或效应差异机制。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    }
+  ],
+  "limitations": [
+    "Bibliographic identity does not establish claim support",
+    "Semantic statuses are reader judgments; the script does not assess meaning",
+    "Missing notice metadata is not proof of no correction or retraction"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "H1-writing": {
+    "A": "arm-q",
+    "B": "arm-p"
+  },
+  "H2-writing": {
+    "A": "arm-q",
+    "B": "arm-p"
+  },
+  "H1-ppt": {
+    "A": "arm-p",
+    "B": "arm-q"
+  },
+  "H3-ppt": {
+    "A": "arm-p",
+    "B": "arm-q"
+  }
+}

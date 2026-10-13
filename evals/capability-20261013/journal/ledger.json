@@ -1,0 +1,161 @@
+{
+  "references": [
+    {
+      "id": "J1",
+      "doi": "10.14742/ajet.8821",
+      "expected": {
+        "title": "It is like a friend to me: Critical usage of automated feedback systems by self-regulating English learners in higher education",
+        "year": 2024,
+        "venue": "Australasian Journal of Educational Technology",
+        "first_author": "Li"
+      },
+      "reading": {
+        "status": "abstract",
+        "url": "https://ajet.org.au/index.php/AJET/article/view/8821",
+        "locator": "Abstract; Implications for practice or policy; How to Cite",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      }
+    },
+    {
+      "id": "J2",
+      "doi": "10.1186/s41239-024-00455-4",
+      "expected": {
+        "title": "Feedback sources in essay writing: peer-generated or AI-generated feedback?",
+        "year": 2024,
+        "venue": "International Journal of Educational Technology in Higher Education",
+        "first_author": "Banihashem"
+      },
+      "reading": {
+        "status": "source_excerpt",
+        "url": "https://link.springer.com/article/10.1186/s41239-024-00455-4",
+        "locator": "Abstract; Method; Results RQ1/RQ2; Discussion; Limitations; Author information",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      }
+    },
+    {
+      "id": "J3",
+      "doi": "10.1016/j.compedu.2026.105591",
+      "expected": {
+        "title": "AI assistance in peer feedback provision: Pedagogically sound, but minimally adopted",
+        "year": 2026,
+        "venue": "Computers & Education",
+        "first_author": "Pozdniakov"
+      },
+      "reading": {
+        "status": "abstract",
+        "url": "https://research.ou.nl/en/publications/ai-assistance-in-peer-feedback-provision-pedagogically-sound-but-/",
+        "locator": "Abstract and bibliographic metadata; publisher abstract cross-check",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      }
+    },
+    {
+      "id": "J4",
+      "doi": "10.1080/02602938.2018.1463354",
+      "expected": {
+        "title": "The development of student feedback literacy: enabling uptake of feedback",
+        "year": 2018,
+        "venue": "Assessment & Evaluation in Higher Education",
+        "first_author": "Carless"
+      },
+      "reading": {
+        "status": "abstract",
+        "url": "https://hub.hku.hk/handle/10722/261886",
+        "locator": "Institutional abstract and citation record",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      }
+    },
+    {
+      "id": "J5",
+      "doi": "10.1016/j.caeo.2025.100300",
+      "expected": {
+        "title": "Teacher, peer, or AI? Comparing effects of feedback sources in higher education",
+        "year": 2025,
+        "venue": "Computers and Education Open",
+        "first_author": "Weidlich"
+      },
+      "reading": {
+        "status": "abstract",
+        "url": "https://www.ife.uzh.ch/dam/jcr%3A240d1fe5-81a5-4670-8e0d-b8ab9548d498/Weidlich%20et%20al_2025_Teacher%20peer%20or%20AI_Comparing%20effects%20of%20feedback%20sources%20in%20higher%20education.pdf",
+        "locator": "机构存档的出版社版本PDF第1页：摘要、完整署名和出版信息；未读后续全文。",
+        "checked_at": "2026-10-13",
+        "version": "publisher/author-institution record; scope as located"
+      },
+      "notice_check": {
+        "status": "registered_fields_and_visible_source_checked",
+        "scope": "No notice observed in accessed abstract/metadata pages; not exhaustive notice certification",
+        "checked_utc": "2026-10-13"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "block_id": "introduction-J1",
+      "reference_id": "J1",
+      "status": "supported",
+      "locator": "Abstract; Implications for practice or policy; How to Cite",
+      "support": "摘要报告七名学生的质性材料及32人调查，强调课程结构、教师指导及人机反馈结合；不据此宣称ChatGPT改善写作成绩。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    },
+    {
+      "block_id": "introduction-J2",
+      "reference_id": "J2",
+      "status": "supported",
+      "locator": "Abstract; Method; Results RQ1/RQ2; Discussion; Limitations; Author information",
+      "support": "结果比较74名研究生的作文所获反馈，作者提出互补解释；局限明确未检查反馈采用与修订成效。保留功能互补作为有待验证的设计理由。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    },
+    {
+      "block_id": "introduction-J3",
+      "reference_id": "J3",
+      "status": "supported",
+      "locator": "Abstract and bibliographic metadata; publisher abstract cross-check",
+      "support": "摘要描述433名学生的7670次AI辅助同伴反馈，9%（690）的建议引起修订；这里是反馈提供环节，不是作文改善率。为什么较差建议更容易引起修订仍为作者提出的解释。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    },
+    {
+      "block_id": "introduction-J4",
+      "reference_id": "J4",
+      "status": "supported",
+      "locator": "Institutional abstract and citation record",
+      "support": "概念论文摘要提出四个相互关联的特征；只用其概念框架，不虚构量表、效应值或干预结论。",
+      "reader": "root assistant source review",
+      "claim_type": "conceptual framework"
+    },
+    {
+      "block_id": "introduction-J5",
+      "reference_id": "J5",
+      "status": "supported",
+      "locator": "机构存档的出版社版本PDF第1页：摘要、完整署名和出版信息；未读后续全文。",
+      "support": "摘要报告90人的随机实验，教师反馈的接受评价较低但作品改善较强，LLM组总体改善较小；不从摘要补写具体系数或效应差异机制。",
+      "reader": "root assistant source review",
+      "claim_type": "reported finding"
+    }
+  ]
+}

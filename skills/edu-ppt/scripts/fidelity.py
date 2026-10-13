@@ -5,6 +5,7 @@ import json
 from pptx.enum.chart import XL_CHART_TYPE
 from objects import identity
 from plan import reference_text, interval_text, display_number, chart_range_error
+from chart_labels import check_labels
 
 
 def check_objects(prs, plan, plan_path, source):
@@ -120,6 +121,8 @@ def check_objects(prs, plan, plan_path, source):
                 equal(key, 'data labels', data.get('labels', True), plot.has_data_labels)
                 if plot.has_data_labels:
                     equal(key, 'number format', data.get('number_format', 'General'), plot.data_labels.number_format)
+                for scope, field, expected, actual in check_labels(chart, data):
+                    fail(key + '/' + scope, field, expected, actual)
                 actual_colors = []
                 for n, series in enumerate(chart.series):
                     try:
@@ -148,8 +151,8 @@ def check_objects(prs, plan, plan_path, source):
                 position('visual/reference', 'vertical reference width', 0, ref.width)
             for j, row in enumerate(data['rows']):
                 key = f'visual/row/{j}'
-                text_at(key + '/label', row['label'])
-                text_at(key + '/display', interval_text(data, row))
+                label = text_at(key + '/label', row['label'])
+                display = text_at(key + '/display', interval_text(data, row))
                 bar = get(key + '/interval', 'connector')
                 point = get(key + '/estimate')
                 metadata(key + '/interval', bar, low=row['low'], high=row['high'])
@@ -159,6 +162,20 @@ def check_objects(prs, plan, plan_path, source):
                     position(key, 'high x', at(row['high']), bar.left + bar.width)
                     position(key, 'estimate x', at(row['estimate']), point.left + point.width / 2)
                     position(key, 'estimate y', bar.top, point.top + point.height / 2)
+                if label is not None and display is not None and bar is not None and point is not None:
+                    # Relative to each row's text, independent of slide origin,
+                    # row order and theme. Cap by nearest other row spacing so
+                    # tall text boxes cannot make a neighbouring row acceptable.
+                    center = lambda s: s.top + s.height / 2
+                    others = [center(s) for oid, s in mapped.items()
+                              if '/visual/row/' in oid and oid.endswith('/label') and s is not label]
+                    tolerance = max(1829, min(label.height, display.height) * .18)
+                    if others:
+                        tolerance = min(tolerance, min(abs(center(label) - y) for y in others) * .25)
+                    for part, actual_y in [('display', center(display)), ('interval', bar.top + bar.height / 2), ('estimate', center(point))]:
+                        if abs(center(label) - actual_y) > tolerance:
+                            fail(key + '/' + part, 'row correspondence y (EMU)',
+                                 {'label_center': round(center(label)), 'tolerance': round(tolerance)}, round(actual_y))
         elif kind == 'quote':
             text_at('visual/quote', '“' + data['text'] + '”')
             text_at('visual/attribution', data['attribution'])

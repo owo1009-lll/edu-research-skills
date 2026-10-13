@@ -1,0 +1,23 @@
+{
+  "source": "evals/capability-20261013/distillation/trials/arm-q/H1-ppt/deck/slides.pptx",
+  "pptx_sha256": "dcf4cd124af79fe60b1199adcdd484555458b59e0df101b0c2665a41abbfdde1",
+  "status": "rendered",
+  "visual_review": "not_performed",
+  "errors": [],
+  "engine": "PowerPoint COM",
+  "slides": 9,
+  "contact_sheets": [
+    "contact-01.png"
+  ],
+  "images": {
+    "slide-001.png": "2caa163bb6912bd857952cce6ed3b3fae070f4271f68fc9ccb5e043ab5cab647",
+    "slide-002.png": "3df2588d70a2a11835695a02d97cdc1550698b0127c49414a52f941331e6f7e6",
+    "slide-003.png": "130c4e0fb13287b470427fa03b1a50ab999548cdeb53ac45538372196ab89191",
+    "slide-004.png": "00b94fbe7c7ecf19652f3faba94d8c1b926b4aaed75539325e27b986dc9c99e6",
+    "slide-005.png": "affa616aa90915b4f98aa9939d678fd2a75b59b73a4654a7e5125b7760a682df",
+    "slide-006.png": "4319ab933f12944a0856eb95ca07454a609678d375949ceab0cf57457a8c2564",
+    "slide-007.png": "91fa25c626e9d07c81f84d8ef9d16811537e70398d143039ba34452c39f367d7",
+    "slide-008.png": "ce5e6e55ba424619061d8ab908afebcd8bdd5000c4d1472eebcfade6fffcea14",
+    "slide-009.png": "4385059dd242fe8c9a159a2b9a9c8e7ffe1000251e5b6475854aa2950d7d2cbd"
+  }
+}

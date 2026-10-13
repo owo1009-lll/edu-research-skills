@@ -1,0 +1,27 @@
+Language: en | discussion/conclusion sentences: 25 | paragraphs: 4
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 4.0  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 2.1  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): 0.0  (published median 66.7; outside typical range)
+
+Disclaimer sentences in the discussion body: 1
+  (keep those that state a condition the claim needs)
+  [para 2] This association does not establish that trust increased ease of use, or the reverse.
+
+Possible substantive distinctions: 1
+  (arguments, not disclaimers)
+  [para 1] The comparison concerns different samples and measurements: general awareness of AI’s limitations in one survey is not evidence that the physics students held t
+
+Sentences with two or more hedges: 1
+  (one accurate qualifier is fine; check that each one is needed)
+  [para 4] In similar correction activities, educators should require students to justify acceptance or rejection against disciplinary evidence, and should discuss why an
+
+Limitation sentences outside the limitations unit: 2
+  (a specific problem may belong next to its result)
+  [para 1] The comparison concerns different samples and measurements: general awareness of AI’s limitations in one survey is not evidence that the physics students held t
+  [para 4] The single class, limited prior AI experience, and absence of a learning-outcome comparison restrict conclusions about effectiveness.
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

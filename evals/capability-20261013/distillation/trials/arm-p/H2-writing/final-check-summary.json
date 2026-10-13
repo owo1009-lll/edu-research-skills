@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "script": "check_voice",
+      "exit_code": 0
+    },
+    {
+      "script": "check_prose",
+      "exit_code": 0
+    },
+    {
+      "script": "check_consistency",
+      "exit_code": 0
+    }
+  ],
+  "word_counts": {
+    "introduction": 153,
+    "discussion": 465
+  }
+}

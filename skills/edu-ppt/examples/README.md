@@ -6,6 +6,8 @@
 
 [图表边界计划](chart-fidelity-plan.json)使用合成值展示双系列、微小区间、参考值1、非零起点折线和显式截断说明。三套示例的实际PPTX、PNG/PDF及前后检查记录见[定向修订验证](https://github.com/owo1009-lll/edu-research-skills/blob/main/evals/ppt-revision/README.md)。
 
+[标签与行对应计划](label-row-plan.json)演示逐点标签、比例与百分比、类别标签和区间行对应；[验证记录](https://github.com/owo1009-lll/edu-research-skills/blob/main/evals/capability-20261013/ppt-checks.md)提供改前漏检、改后反例及合法格式/布局的正例。
+
 运行：`python <本skill>/scripts/build_deck.py --plan <本skill>/examples/progress-plan.json --out <任务>/demo`。加`--content-only`仅导出完整文案和讲稿。实际渲染仍需PowerPoint或LibreOffice；不要把生成文件保存进本技能目录。
 
 自然语言调用：

@@ -1,0 +1,511 @@
+COMMAND: ['C:\\Program Files\\R\\R-4.6.1\\bin\\Rscript.exe', 'skills/edu-analysis/tests/known_answers.R']
+    check
+1   Welch t (sleep)
+2   paired t (sleep)
+3   one-way ANOVA F, p, eta2 (PlantGrowth)
+4   Kruskal-Wallis (airquality)
+5   Pearson chi-square and Cramer's V (?chisq.test)
+6   Pearson r (mtcars mpg-wt)
+7   hierarchical R2, delta R2 (mtcars)
+8   lm coefficients wt, hp
+9   logistic B (mtcars am ~ wt)
+10  interaction coefficient equals lm
+11  simple slope at mean equals centred main effect
+12  indirect effect equals a*b from OLS
+13  CFA fit (lavaan tutorial: chisq, df, CFI, TLI, RMSEA, SRMR)
+14  Cronbach alpha equals formula
+15  Harman first component equals PCA
+16  SEM fit (lavaan tutorial: chisq, df)
+17  PLS path equals direct seminr estimate
+18  PLS reliability within (0, 1)
+19  direct calibration maps e, c, i to .05, .5, .95
+20  necessity consistency equals QCA::pof
+21  parsimonious solution equals QCA::minimize
+22  configuration table has one column per configuration
+23  intermediate solution (LF, all conditions expected present)
+24  core/peripheral marks (URB core, DEV peripheral; ~IND core, LIT peripheral)
+25  CE-FDH effect size on a staircase equals (n+1)/(2n)
+26  Cohen's kappa (45/15/25/15 table)
+27  ICC within (0, 1)
+28  single-factor CFA fits worse (delta chi2 > 0, p < .001)
+29  CMB Harman equals edu_harman
+30  bootstrap SEM keeps all cases with missing data (FIML)
+31  standardized indirect effect has a CI
+32  p values print as '< .001' and '.041'
+33  NCA plot file written
+34  lalonde SMD before (age, educ, re74, re75, race_black)
+35  lalonde variance ratio before (age, re74)
+36  lalonde SMD after NN matching (age, educ, re74, re75, race_black)
+37  lalonde variance ratio after (re74, re75)
+38  lalonde sample sizes (matched control/treated, unmatched control)
+39  matched effect and pair-clustered SE equal lm + vcovCL
+40  simulated ATT = 2 recovered (matched; matched + covariates)
+41  naive difference biased (> 0.8 away from 2), CI of adjusted estimate covers 2
+42  all covariates balanced after caliper matching
+43  2x2 DID equals difference of four means (Card & Krueger cell means)
+44  simulated DID = 3 recovered; CI covers 3
+45  clustered SE equals sandwich::vcovCL (HC1)
+46  leads equal 0 (rel -5..-2)
+47  lags equal true dynamic effects 1..5 (rel 0..4)
+48  Sun & Abraham lags equal the true weighted effects
+49  Sun & Abraham leads equal 0
+50  TWFE leads are contaminated by cohort heterogeneity (max |lead| > 0.5), as Sun & Abraham (2021) show
+51  Sun & Abraham overall ATT equals mean true effect
+52  rel_time input gives the same TWFE estimates as treat_time
+53  Senate RD (conventional, bias-corrected)
+54  Senate RD, CR3 by state (estimate, robust CI, h)
+55  Senate RD, CR3 effective N left/right
+56  uniform-kernel RD equals difference of local OLS intercepts
+57  simulated jump 0.5 recovered; robust CI covers 0.5
+58  balanced covariate: robust CI covers 0
+59  no manipulation: binomial p > .05 in every window
+60  manipulated density flagged (smallest window p < .001)
+61  LPA diabetes VVV,3 LL, npar, BIC (mclust vignette)
+62  LPA diabetes mixing proportions (mclust vignette)
+63  LPA diabetes BLRT observed LRTS (mclust vignette)
+64  LPA SABIC and AIC from LL (closed form)
+65  LPA simulated: BIC minimum at k = 3 (EEI and VVI)
+66  LPA simulated: provisional choice is k = 3
+67  LPA simulated: class shares equal realised shares
+68  LPA simulated: raw profile means recover true means
+69  LPA simulated: entropy > .90 and BLRT 2 vs 3 p = 1/20
+70  LCA carcinoma 2-class AIC, BIC (Linzer & Lewis 2011)
+71  LCA carcinoma 3-class LL, npar, df, AIC, BIC (Linzer & Lewis 2011)
+72  LCA carcinoma 3-class G2, X2 (Linzer & Lewis 2011)
+73  LCA carcinoma class shares, ordered by size (Linzer & Lewis 2011)
+74  LCA carcinoma item probabilities (A in C3, C in C1)
+75  LCA simulated: BIC minimum at k = 3
+76  LCA simulated: class shares equal realised shares
+77  LCA simulated: P(item = 1 | class) recovers the generating table
+78  Rasch LSAT log-likelihood (Rizopoulos 2006)
+79  Rasch LSAT common discrimination (Rizopoulos 2006)
+80  Rasch LSAT difficulties in SD(theta) = 1 metric (Rizopoulos 2006)
+81  Rasch vs 2PL LRT (Rizopoulos 2006: 2PL LL -2466.65, LRT 0.57, df 4, p .967)
+82  Rasch EAP is a function of the sum score
+83  Rasch difficulty order = reverse order of proportion correct
+84  item fit table has S-X2 with RMSEA for every item
+85  2PL simulated: discriminations recovered
+86  2PL simulated: difficulties recovered
+87  2PL simulated: Rasch vs 2PL LRT rejects equal slopes
+88  GRM simulated: discriminations recovered (|z| <= 3)
+89  GRM simulated: thresholds recovered (|z| <= 3)
+90  GRM simulated: reliabilities within (0, 1)
+91  RE pooled log RR, tau2, I2, H2, Q (dat.bcg)
+92  prediction interval equals mu +/- z*sqrt(tau2 + SE^2)
+93  meta-regression on ablat (dat.bcg)
+94  Hedges' g and its variance equal the closed form
+95  ZCOR: yi = atanh(r), vi = 1/(n-3), FE pooled r = tanh(weighted z)
+96  leave-one-out (FE) equals inverse-variance mean without study 1
+97  Egger test equals the intercept t of Egger's regression
+98  trim-and-fill imputes 0 studies for a symmetric funnel
+99  three-level model (dat.konstantopoulos2011)
+100 three-level variance shares sum to 100%
+101 forest and funnel plot files written
+102 cumulative logit coefficients (housing)
+103 thresholds and deviance (housing)
+104 two-category ordinal B equals glm logistic B
+105 PO test: p > .05 under PO, p < .001 when the slope differs by threshold
+106 two-category multinom B and SE equal glm
+107 saturated multinom: RRR = cell cross-ratios, McFadden R2 closed form
+108 Poisson coefficients and logLik (bioChemists)
+109 NB theta and logLik (bioChemists)
+110 ZIP count coefficients (bioChemists)
+111 ZIP and ZINB logLik and df
+112 Vuong NB vs ZINB equals pscl::vuong
+113 Poisson IRR with exposure offset equals ratio of group rates
+114 overdispersion test: p > .05 for Poisson data, p < .001 for NB data
+115 paired JZS BF10 (sleep, BayesFactor docs)
+116 independent JZS BF10 equals the Rouder integral
+117 two-group Bayesian ANOVA equals the t-test BF
+118 regression BF10 equals the Zellner-Siow integral (relative)
+119 posterior slope near OLS for a single predictor
+120 correlation posterior median near sample r, BF > 100
+121 evidence labels (Lee & Wagenmakers, 2013)
+122 ARI hand example
+123 ARI invariant to label names
+124 k-means iris within SS = 78.851
+125 k-means iris sizes 62/50/38
+126 PAM ruspini k = 4 average silhouette 0.74
+127 silhouette picks k = 4 for ruspini
+128 recovered k (silhouette, gap) = 3
+129 ARI with planted clusters = 1 (kmeans, ward, pam)
+130 ARI between methods = 1
+131 centroids in z units have mean 0 (weighted by size)
+132 karate density, transitivity, mean distance
+133 karate degree of nodes 1 and 34
+134 karate betweenness of node 1
+135 karate Louvain modularity about .42
+136 directed reciprocity, density, nodes
+137 in/out degree of b
+138 weighted: mean distance in steps, out-strength of b
+139 network plot file written
+140 observed AB, BA (no cross-actor transition)
+141 expected AB, BB
+142 adjusted residuals AB, BB = +-sqrt(3)
+143 Yule's Q AB = 1; P(B|A) = 1; chi-square = 3
+144 adjusted residuals equal Haberman residuals
+145 quasi-independence expected margins = observed margins
+146 mvad 712 sequences, 70 months, 6 states
+147 transition rates equal direct counts
+148 first-month state distribution equals direct counts
+149 planted sequence types: k = 3, ARI = 1
+150 each topic's top words come from one planted vocabulary
+151 documents recovered (ARI = 1)
+152 searchK rows and topic proportions sum to 1
+153 gadarian shape: 341 documents, 3 topics, 6 representative docs, 3 x 3 effect rows
+154 gadarian theta rows sum to 1
+    ok
+1   TRUE
+2   TRUE
+3   TRUE
+4   TRUE
+5   TRUE
+6   TRUE
+7   TRUE
+8   TRUE
+9   TRUE
+10  TRUE
+11  TRUE
+12  TRUE
+13  TRUE
+14  TRUE
+15  TRUE
+16  TRUE
+17  TRUE
+18  TRUE
+19  TRUE
+20  TRUE
+21  TRUE
+22  TRUE
+23  TRUE
+24  TRUE
+25  TRUE
+26  TRUE
+27  TRUE
+28  TRUE
+29  TRUE
+30  TRUE
+31  TRUE
+32  TRUE
+33  TRUE
+34  TRUE
+35  TRUE
+36  TRUE
+37  TRUE
+38  TRUE
+39  TRUE
+40  TRUE
+41  TRUE
+42  TRUE
+43  TRUE
+44  TRUE
+45  TRUE
+46  TRUE
+47  TRUE
+48  TRUE
+49  TRUE
+50  TRUE
+51  TRUE
+52  TRUE
+53  TRUE
+54  TRUE
+55  TRUE
+56  TRUE
+57  TRUE
+58  TRUE
+59  TRUE
+60  TRUE
+61  TRUE
+62  TRUE
+63  TRUE
+64  TRUE
+65  TRUE
+66  TRUE
+67  TRUE
+68  TRUE
+69  TRUE
+70  TRUE
+71  TRUE
+72  TRUE
+73  TRUE
+74  TRUE
+75  TRUE
+76  TRUE
+77  TRUE
+78  TRUE
+79  TRUE
+80  TRUE
+81  TRUE
+82  TRUE
+83  TRUE
+84  TRUE
+85  TRUE
+86  TRUE
+87  TRUE
+88  TRUE
+89  TRUE
+90  TRUE
+91  TRUE
+92  TRUE
+93  TRUE
+94  TRUE
+95  TRUE
+96  TRUE
+97  TRUE
+98  TRUE
+99  TRUE
+100 TRUE
+101 TRUE
+102 TRUE
+103 TRUE
+104 TRUE
+105 TRUE
+106 TRUE
+107 TRUE
+108 TRUE
+109 TRUE
+110 TRUE
+111 TRUE
+112 TRUE
+113 TRUE
+114 TRUE
+115 TRUE
+116 TRUE
+117 TRUE
+118 TRUE
+119 TRUE
+120 TRUE
+121 TRUE
+122 TRUE
+123 TRUE
+124 TRUE
+125 TRUE
+126 TRUE
+127 TRUE
+128 TRUE
+129 TRUE
+130 TRUE
+131 TRUE
+132 TRUE
+133 TRUE
+134 TRUE
+135 TRUE
+136 TRUE
+137 TRUE
+138 TRUE
+139 TRUE
+140 TRUE
+141 TRUE
+142 TRUE
+143 TRUE
+144 TRUE
+145 TRUE
+146 TRUE
+147 TRUE
+148 TRUE
+149 TRUE
+150 TRUE
+151 TRUE
+152 TRUE
+153 TRUE
+154 TRUE
+    detail
+1   got -1.86081, 17.7765, 0.0793941; want -1.8608, 17.776, 0.07939
+2   got 4.06213, 0.00283289; want 4.0621, 0.002833
+3   got 4.84609, 0.01591, 0.264148; want 4.846, 0.01591, 0.2641
+4   got 29.2666, 6.90071e-06; want 29.267, 6.901e-06
+5   got 30.0701, 2.95359e-07, 0.104436; want 30.0701, 2.954e-07, 0.10444
+6   got -0.867659, 1.29396e-10; want -0.86766, 1.294e-10
+7   got 0.752833, 0.826785, 0.0739527; want 0.75283, 0.82679, 0.07396
+8   got -3.87783, -0.0317729; want -3.87783, -0.03177
+9   got 12.0404, -4.02397; want 12.04, -4.024
+10  got 0.0278481; want 0.0278481
+11  got -0.0305076; want -0.0305076
+12  got -1.46664; want -1.46664
+13  got 85.3055, 24, 0.93056, 0.895839, 0.0921215, 0.0652051; want 85.306, 24, 0.931, 0.896, 0.092, 0.065
+14  got 0.626117; want 0.626117
+15  got 35.7372; want 35.7372
+16  got 38.1252, 35; want 38.125, 35
+17  got 0.506928; want 0.506928
+18  got 1; want 1
+19  got 0.05, 0.5, 0.95; want 0.05, 0.5, 0.95
+20  got 0.830986; want 0.830986
+21  got 1; want 1
+22  got 2; want 2
+23  got 1; want 1
+24  got 1, 1, 1, 1; want 1, 1, 1, 1
+25  got 0.55; want 0.55
+26  got 0.130435; want 0.130435
+27  got 1; want 1
+28  got 1, 1; want 1, 1
+29  got 35.7372; want 35.7372
+30  got 1; want 1
+31  got 1; want 1
+32  got 1, 1; want 1, 1
+33  got 1; want 1
+34  got -0.309445, 0.0549647, -0.721084, -0.290263, 1.76154; want -0.3094, 0.055, -0.7211, -0.2903, 1.7615
+35  got 0.439995, 0.518128; want 0.44, 0.5181
+36  got 0.0717697, -0.129043, -0.0504508, -0.025686, 1.02586; want 0.0718, -0.129, -0.0505, -0.0257, 1.0259
+37  got 1.32891, 1.49562; want 1.3289, 1.4956
+38  got 185, 185, 244; want 185, 185, 244
+39  got 894.367, 705.23; want 894.367, 705.23
+40  got 2.13871, 1.99441; want 2, 2
+41  got 1, 1; want 1, 1
+42  got 1; want 1
+43  got 2.75, 2.75; want 2.75, 2.75
+44  got 3.08245, 1; want 3, 1
+45  got 0.139157; want 0.139157
+46  got -0.00596688, -0.0121223, 0.00234347, -0.0180306; want 0, 0, 0, 0
+47  got 1.00124, 1.99178, 3.00458, 4.0116, 4.98798; want 1, 2, 3, 4, 5
+48  got 1.25346, 2.0083, 2.74911, 3.50443, 6.03799, 7.00439, 8.02761; want 1.25, 2, 2.75, 3.5, 6, 7, 8
+49  got -0.00974297, -0.0029998, -0.0102027, 0.00672325, -0.00546182; want 0, 0, 0, 0, 0
+50  got 1; want 1
+51  got 3.64551; want 3.63636
+52  got 1.06994, 1.07229, 1.03822, 0.0813293, 0.0635674, 0, 0.999063, 1.97835, 2.73259, 3.66716, 5.59653, 6.70099, 7.93138; want 1.06994, 1.07229, 1.03822, 0.0813293, 0.0635674, 0, 0.999063, 1.97835, 2.73259, 3.66716, 5.59653, 6.70099, 7.93138
+53  got 7.41413, 7.5065; want 7.414, 7.507
+54  got 7.38633, 3.91586, 11.0722, 18.2592; want 7.386, 3.916, 11.072, 18.259
+55  got 369, 328; want 369, 328
+56  got 0.493943; want 0.493943
+57  got 0.489367, 1; want 0.5, 1
+58  got 1; want 1
+59  got 1; want 1
+60  got 1; want 1
+61  got -2295.12, 29, 4734.56; want -2295.12, 29, 4734.56
+62  got 0.555363, 0.247943, 0.196694; want 0.555363, 0.247943, 0.196694
+63  got 369.985, 121.107, 19.9007; want 369.985, 121.107, 19.9007
+64  got 4648.24, 4642.8; want 4648.24, 4642.79
+65  got 3, 3; want 3, 3
+66  got 3; want 3
+67  got 0.518049, 0.310144, 0.171807; want 0.511667, 0.315, 0.173333
+68  got 0.0236125, -0.0463767, -0.0156423, 0.0632692, 3.00665, 3.02553, -0.00591221, -0.0318234, 0.0800297, 3.0126, 2.97887, 3.03924; want 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 3, 3
+69  got 1, 0.05; want 1, 0.05
+70  got 664.514, 706.074; want 664.5, 706.1
+71  got -293.705, 23, 95, 633.41, 697.136; want -293.705, 23, 95, 633.41, 697.136
+72  got 15.2617, 20.5034; want 15.2617, 20.5034
+73  got 0.444728, 0.373565, 0.181708; want 0.4447, 0.3736, 0.1817
+74  got 0.512832, 0.857505; want 0.5128, 0.8575
+75  got 3; want 3
+76  got 0.527492, 0.260462, 0.212047; want 0.514667, 0.28, 0.205333
+77  got 0.829286, 0.870808, 0.171723, 0.873587, 0.879441, 0.201823, 0.860702, 0.845483, 0.152973, 0.833119, 0.87545, 0.2005, 0.863443, 0.131838, 0.136145, 0.832516, 0.126786, 0.184703, 0.81836, 0.127204, 0.147091, 0.844122, 0.105905, 0.128031; want 0.85, 0.85, 0.15, 0.85, 0.85, 0.15, 0.85, 0.85, 0.15, 0.85, 0.85, 0.15, 0.85, 0.15, 0.15, 0.85, 0.15, 0.15, 0.85, 0.15, 0.15, 0.85, 0.15, 0.15
+78  got -2466.94; want -2466.94
+79  got 0.756186; want 0.7551
+80  got -3.61105, -1.32097, -0.317292, -1.72815, -2.77699; want -3.6153, -1.3224, -0.3176, -1.7301, -2.7802
+81  got -2466.65, 0.568649, 4, 0.966483; want -2466.65, 0.57, 4, 0.967
+82  got 4.44089e-16; want 0
+83  got 1, 4, 5, 3, 2; want 1, 4, 5, 3, 2
+84  got 1; want 1
+85  got 0.800295, 0.992521, 1.22926, 1.50461, 2.09895, 0.627222, 1.19359, 1.79673, 0.986873, 1.06809; want 0.8, 1, 1.2, 1.5, 2, 0.7, 1.3, 1.8, 1, 1.1
+86  got -1.56341, -1.16662, -0.883949, -0.552587, -0.193314, 0.223492, 0.428266, 0.831068, 1.1607, 1.51668; want -1.5, -1.16667, -0.833333, -0.5, -0.166667, 0.166667, 0.5, 0.833333, 1.16667, 1.5
+87  got 1; want 1
+88  got 1.21644, 1.79204, 0.174324, 1.04253, 1.23967, 0.415944; want 0
+89  got 0.634845, 1.86565, 0.380948, 1.27983, 0.018409, 2.32922, 2.12525, 0.183002, 0.451619, 0.472335, 0.917033, 1.0516, 0.834095, 0.302735, 0.183215, 1.03999, 1.86471, 0.962118; want 0
+90  got 1; want 1
+91  got -0.714532, 0.313243, 92.2214, 12.8558, 152.233; want -0.7145, 0.3132, 92.22, 12.86, 152.233
+92  got -1.86669, 0.437628; want -1.86669, 0.437628
+93  got 0.251464, -0.0291017, 0.0763547, 16.3571; want 0.2515, -0.0291, 0.0764, 16.3571
+94  got 0.428534, 0.389979, 0.0920405, 0.124527; want 0.428534, 0.389979, 0.0920405, 0.124527
+95  got 0.30952, 0.4847, 0.202733, 0.549306, 0.0212766, 0.012987, 0.00854701, 0.027027, 0.331945; want 0.30952, 0.4847, 0.202733, 0.549306, 0.0212766, 0.012987, 0.00854701, 0.027027, 0.331945
+96  got 0.352234; want 0.352234
+97  got -1.40128, 0.188707; want -1.40128, 0.188707
+98  got 0; want 0
+99  got 0.184713, 0.0650619, 0.0327365; want 0.1847, 0.0651, 0.0327
+100 got 100; want 100
+101 got 1; want 1
+102 got 0.566394, 1.28882, -0.57235, -0.366186, -1.09101, 0.360284; want 0.5664, 1.2888, -0.5724, -0.3662, -1.091, 0.3603
+103 got -0.496135, 0.690708, 3479.15; want -0.4961, 0.6907, 3479.15
+104 got -8.08348, 0.0362556; want -8.08348, 0.0362556
+105 got 1, 1; want 1, 1
+106 got 18.8663, -8.08347, 0.0362556, 7.44359, 3.06869, 0.0177342; want 18.8663, -8.08348, 0.0362556, 7.44356, 3.06868, 0.0177342
+107 got 2.5, 8, 0.0718002; want 2.5, 8, 0.0718002
+108 got 0.304617, -0.224594, 0.155243, -0.184883, 0.0128226, 0.0255427, -1651.06; want 0.3046, -0.2246, 0.1552, -0.1849, 0.0128, 0.0255, -1651.1
+109 got 2.26439, -1560.96; want 2.264, -1561
+110 got 0.640838, -0.209145, 0.103751, -0.14332, -0.00616604, 0.0180977; want 0.6408, -0.2091, 0.1038, -0.1433, -0.0062, 0.0181
+111 got -1604.77, -1549.99, 12, 13; want -1605, -1550, 12, 13
+112 got -2.24183, -1.01539, 1.93969; want -2.24183, -1.01538, 1.93969
+113 got 2.02128; want 2.02128
+114 got 1, 1; want 1, 1
+115 got 17.2589; want 17.2589
+116 got 1.26593; want 1.26593
+117 got 1.26593; want 1.26593
+118 got 1; want 1
+119 got -5.23512; want -5.34447
+120 got 1, 1; want 1, 1
+121 got 1, 1, 1, 1; want 1, 1, 1, 1
+122 got 0.242424; want 0.242424
+123 got 1; want 1
+124 got 78.8514; want 78.8514
+125 got 62, 50, 38; want 62, 50, 38
+126 got 0.737657; want 0.74
+127 got 4; want 4
+128 got 3, 3, 3, 3, 3, 3; want 3, 3, 3, 3, 3, 3
+129 got 1, 1, 1; want 1, 1, 1
+130 got 1, 1, 1; want 1, 1, 1
+131 got -2.36848e-17; want 0
+132 got 0.139037, 0.255682, 2.4082; want 0.139037, 0.2557, 2.408
+133 got 16, 17; want 16, 17
+134 got 231.071; want 231.07
+135 got 0.41979; want 0.42
+136 got 0.666667, 0.25, 4; want 0.666667, 0.25, 4
+137 got 1, 2; want 1, 2
+138 got 1.25, 15; want 1.25, 15
+139 got 1; want 1
+140 got 2, 3; want 2, 3
+141 got 1, 2; want 1, 2
+142 got 1.73205, -1.73205; want 1.73205, -1.73205
+143 got 1, 1, 3; want 1, 1, 3
+144 got 0.0441015, -1.6759, 0.94244, -0.00150839, -1.93521, 2.27236, 1.7312, -1.5169, 1.21261, 1.11403, -1.84859, 0.174424, -0.135551, -1.0618, 0.035306, 0.756963; want 0.0441015, -1.6759, 0.94244, -0.00150839, -1.93521, 2.27236, 1.7312, -1.5169, 1.21261, 1.11403, -1.84859, 0.174424, -0.135551, -1.0618, 0.035306, 0.756963
+145 got -5.68434e-14, 1.7053e-13, 0, 1.13687e-13, 1.98952e-13, 5.68434e-14, 0, -2.84217e-14; want 0, 0, 0, 0, 0, 0, 0, 0
+146 got 712, 70, 6; want 712, 70, 6
+147 got 0.986381, 0.0279316, 0.0102354, 0.0418039, 0.0142331, 0.0382851, 0.00199077, 0.951397, 0.00017059, 0.00836078, 0.00809816, 0.00358923, 0.00253371, 0.00664452, 0.987206, 0.00228021, 0.0181595, 0, 0.00647, 0.0089824, 0.00187649, 0.938688, 0.00564417, 0.0135593, 0.000407203, 0.000984373, 0, 0.000506714, 0.95092, 0.000398804, 0.00221699, 0.00406054, 0.000511771, 0.00836078, 0.00294479, 0.944167; want 0.986381, 0.0279316, 0.0102354, 0.0418039, 0.0142331, 0.0382851, 0.00199077, 0.951397, 0.00017059, 0.00836078, 0.00809816, 0.00358923, 0.00253371, 0.00664452, 0.987206, 0.00228021, 0.0181595, 0, 0.00647, 0.0089824, 0.00187649, 0.938688, 0.00564417, 0.0135593, 0.000407203, 0.000984373, 0, 0.000506714, 0.95092, 0.000398804, 0.00221699, 0.00406054, 0.000511771, 0.00836078, 0.00294479, 0.944167
+148 got 0.116573, 0.386236, 0.0238764, 0.251404, 0.22191; want 0.116573, 0.386236, 0.0238764, 0.251404, 0.22191
+149 got 3, 1; want 3, 1
+150 got 1, 2; want 1, 2
+151 got 1; want 1
+152 got 2, 1; want 2, 1
+153 got 341, 3, 6, 9; want 341, 3, 6, 9
+154 got 0.9999, 1.0001; want 1, 1
+
+154 of 154 checks passed.
+Warning message:
+lavaan->lav_model_nvcov_bootstrap():
+   1 bootstrap runs failed or did not converge.
+Number of categories should be increased  in order to count frequencies.
+Loading required namespace: GPArotation
+Omega_h for 1 factor is not meaningful, just omega_t
+Generating the seminr model
+All 250 observations are valid.
+Bootstrapping model using seminr...
+SEMinR Model successfully bootstrapped
+Generating the seminr model
+All 250 observations are valid.
+Warning messages:
+1: lavaan->lav_object_post_check():
+   some estimated lv variances are negative
+2: lavaan->lav_model_nvcov_bootstrap():
+   1 bootstrap runs resulted in nonadmissible solutions.
+Warning messages:
+1: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+2: In theta.ml(Y, mu, sum(w), w, limit = control$maxit, trace = control$trace >  :
+  iteration limit reached
+3: In stm(documents = heldout$documents, vocab = heldout$vocab, K = k,  :
+  K=2 is equivalent to a unidimensional scaling model which you may prefer.
+4: In stm::stm(pp$documents, pp$vocab, K = kf, prevalence = prev, data = pp$meta,  :
+  K=2 is equivalent to a unidimensional scaling model which you may prefer.
+
+EXIT: 0
+
+COMMAND: ['[USER_HOME]\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-B', '-X', 'utf8', '[USER_HOME]\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py', 'skills/edu-writing']
+Skill is valid!
+
+EXIT: 0
+
+COMMAND: ['[USER_HOME]\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-B', '-X', 'utf8', '[USER_HOME]\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py', 'skills/edu-research']
+Skill is valid!
+
+EXIT: 0
+
+COMMAND: ['[USER_HOME]\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-B', '-X', 'utf8', '[USER_HOME]\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py', 'skills/edu-ppt']
+Skill is valid!
+
+EXIT: 0

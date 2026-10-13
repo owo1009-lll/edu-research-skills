@@ -1,0 +1,225 @@
+{
+  "example_type": "synthetic manuscript concept; no private data",
+  "journal": {
+    "name": "Australasian Journal of Educational Technology",
+    "publisher": "ASCILITE",
+    "homepage": "https://ajet.org.au/index.php/AJET",
+    "issn": [
+      "1449-5554"
+    ],
+    "evidence": {
+      "url": "https://ajet.org.au/index.php/AJET",
+      "locator": "About the Journal; ISSN cross-checked in journal-hosted editorial https://ajet.org.au/index.php/AJET/article/download/1261/634/4319",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "target_issue": null,
+  "manuscript": {
+    "question": "How do undergraduate writers evaluate and use AI-assisted peer feedback, and when does adoption lead to a substantive revision?",
+    "concepts": [
+      "feedback quality",
+      "feedback uptake",
+      "revision quality",
+      "student agency"
+    ],
+    "theory": "Feedback literacy and self-regulated learning; conceptual choices to be checked against sources",
+    "population": "Undergraduate students writing argumentative essays",
+    "methods": "Planned mixed-method study: feedback/revision coding and stimulated recall; assignment design not yet fixed",
+    "findings": "No data collected. Author position: preserve student judgment and assess revisions, rather than substitute automated comments for learning."
+  },
+  "editors": [
+    {
+      "id": "corrin",
+      "name": "Linda Corrin",
+      "affiliation": "Deakin University",
+      "role": "lead_editor",
+      "status": "current",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Lead Editorial team",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "confirmed",
+        "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+        "evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Full name and institutional affiliation",
+          "checked_at": "2026-10-13"
+        }
+      },
+      "search_terms": [
+        "feedback self-regulated learning"
+      ]
+    },
+    {
+      "id": "deneen",
+      "name": "Chris Deneen",
+      "affiliation": "Adelaide University",
+      "role": "lead_editor",
+      "status": "current",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Lead Editorial team",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "confirmed",
+        "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+        "evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Full name and institutional affiliation",
+          "checked_at": "2026-10-13"
+        }
+      },
+      "search_terms": [
+        "feedback self-regulated learning"
+      ]
+    },
+    {
+      "id": "han",
+      "name": "Feifei Han",
+      "affiliation": "Griffith University",
+      "role": "lead_editor",
+      "status": "current",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Lead Editorial team",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "confirmed",
+        "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+        "evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Full name and institutional affiliation",
+          "checked_at": "2026-10-13"
+        }
+      },
+      "search_terms": [
+        "feedback self-regulated learning"
+      ]
+    },
+    {
+      "id": "huijser",
+      "name": "Henk Huijser",
+      "affiliation": "Queensland University of Technology",
+      "role": "lead_editor",
+      "status": "current",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Lead Editorial team",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "confirmed",
+        "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+        "evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Full name and institutional affiliation",
+          "checked_at": "2026-10-13"
+        }
+      },
+      "search_terms": [
+        "feedback self-regulated learning"
+      ]
+    },
+    {
+      "id": "banihashem",
+      "name": "Seyyed Kazem Banihashem",
+      "affiliation": "Maastricht University",
+      "role": "associate_editor",
+      "status": "current",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Associate Editors",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "confirmed",
+        "basis": "Full-name Maastricht profile and research area; ORCID from WUR-hosted author ORCID list, cross-checked against publication metadata.",
+        "evidence": {
+          "url": "https://www.maastrichtuniversity.nl/nl/k-banihashem",
+          "locator": "Full-name profile and AI, feedback, self-regulated learning expertise",
+          "checked_at": "2026-10-13"
+        },
+        "orcid": "0000-0002-9978-3783",
+        "orcid_evidence": {
+          "url": "https://edepot.wur.nl/658826",
+          "locator": "Author ORCID list",
+          "checked_at": "2026-10-13"
+        }
+      },
+      "search_terms": [
+        "Feedback sources essay writing peer-generated AI-generated feedback",
+        "AI assistance peer feedback minimally adopted"
+      ]
+    },
+    {
+      "id": "noroozi",
+      "name": "Omid Noroozi",
+      "affiliation": "Wageningen University and Research",
+      "role": "associate_editor",
+      "status": "current",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Associate Editors",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "confirmed",
+        "basis": "Full name and WUR affiliation on official team; WUR-hosted author ORCID list.",
+        "evidence": {
+          "url": "https://edepot.wur.nl/658826",
+          "locator": "Author bio and ORCID list",
+          "checked_at": "2026-10-13"
+        },
+        "orcid": "0000-0002-0622-289X"
+      },
+      "search_terms": [
+        "feedback self-regulated learning"
+      ]
+    },
+    {
+      "id": "henderson",
+      "name": "Michael Henderson",
+      "role": "lead_editor",
+      "status": "former",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Past AJET Lead Editor / Copyeditors",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "unresolved"
+      },
+      "search_terms": []
+    },
+    {
+      "id": "petrolito",
+      "name": "Antonina Petrolito",
+      "role": "copyeditor",
+      "status": "current",
+      "role_evidence": {
+        "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+        "locator": "Past AJET Lead Editor / Copyeditors",
+        "checked_at": "2026-10-13"
+      },
+      "identity": {
+        "status": "unresolved"
+      },
+      "search_terms": []
+    }
+  ],
+  "queries": {
+    "A": [
+      "generative artificial intelligence feedback higher education",
+      "critical usage automated feedback self-regulating English learners"
+    ],
+    "C": [
+      "student feedback literacy uptake evaluative judgement",
+      "Teacher peer AI Comparing effects feedback sources higher education"
+    ]
+  },
+  "scope_note": "Current team checked on stated date, selected relevant associate editors only. Regular submission: 2026 feedback special issue is recorded separately and is not presumed open."
+}

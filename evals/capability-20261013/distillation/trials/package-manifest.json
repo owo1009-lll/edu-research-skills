@@ -1,0 +1,1145 @@
+{
+  "scope": "Original frozen trials; no post-review content revisions",
+  "files": [
+    {
+      "file": "arm-p/H1-writing/delivery.json",
+      "original": "runs/arm-p/H1-writing/delivery.json",
+      "original_sha256": "0ec868384fd73a9db0dbb3e0b8a3546c102f478c58e88a9cccae07b91065d5f9",
+      "published_sha256": "2cb8fb1c7b417f078c2193e3f0b6be4695e57bd568cdd0e1db2a1a9f6b8ab3fa"
+    },
+    {
+      "file": "arm-p/H1-writing/final-check-summary.json",
+      "original": "runs/arm-p/H1-writing/final-check-summary.json",
+      "original_sha256": "2dbec4b28c34abf0c3ea351f1fb2d47f0bbbaee7e499817f8f63c01046fd30c0",
+      "published_sha256": "bb3b79365682ee63ecc63d32fef5fb8febecd1959bb57e5981e3c67729ccd823"
+    },
+    {
+      "file": "arm-p/H1-writing/final-check_consistency.txt",
+      "original": "runs/arm-p/H1-writing/final-check_consistency.txt",
+      "original_sha256": "7ed873bf02fca872b5d44b19df4df82011c4cf49fece3c4ac3098a49e49ea157",
+      "published_sha256": "8074d9b33cd01a5d69fb6d3d9f7e6b2566cb1119453007841d94cf9418d49f58"
+    },
+    {
+      "file": "arm-p/H1-writing/final-check_prose.txt",
+      "original": "runs/arm-p/H1-writing/final-check_prose.txt",
+      "original_sha256": "efdaa3ce2dcd97b659509a2a1027c157ff150afb7d79d3cbc701ef5b142bb77f",
+      "published_sha256": "f8cd0a9cd4972dcc2b683b297fdc8a1d3b345239ce8af9cf7b1c8aa63a29bbd4"
+    },
+    {
+      "file": "arm-p/H1-writing/final-check_voice.txt",
+      "original": "runs/arm-p/H1-writing/final-check_voice.txt",
+      "original_sha256": "ad508a78bab2650c2b0655cbebd875b5415e3cb2348e2ed0670497991c913bfc",
+      "published_sha256": "31d882d0ee0aa6e0d4a3bba0239dcb70fee387ae371fc43d5348dce983fe5bd0"
+    },
+    {
+      "file": "arm-p/H1-writing/final.docx",
+      "original": "runs/arm-p/H1-writing/final.docx",
+      "original_sha256": "50ec75f4659db24dc69796e54b2ef12d2ee1bb5afbef71a994e64c6f5d4f639a",
+      "published_sha256": "50ec75f4659db24dc69796e54b2ef12d2ee1bb5afbef71a994e64c6f5d4f639a"
+    },
+    {
+      "file": "arm-p/H1-writing/final.md",
+      "original": "runs/arm-p/H1-writing/final.md",
+      "original_sha256": "c660b33fc9e369fd87a59bcadc1a6587a9a5889626ae47de9c324648976171c2",
+      "published_sha256": "ff157bd0eff89cace3eec135bfc6aee1d2b650c473f337a0e665d19e8f034249"
+    },
+    {
+      "file": "arm-p/H1-writing/first-check-summary.json",
+      "original": "runs/arm-p/H1-writing/first-check-summary.json",
+      "original_sha256": "dfc025cefb87c5b39a2b8b7f1ee65f5c36f0cab3d40cd92f15eb39281e822203",
+      "published_sha256": "115e0ead62a3a25dde257569409de185cebb2a78c94c10bf7ed4f87d75ff071b"
+    },
+    {
+      "file": "arm-p/H1-writing/first-check_consistency.txt",
+      "original": "runs/arm-p/H1-writing/first-check_consistency.txt",
+      "original_sha256": "77e92d4a0d92bd67049542f8c4e357778db0c5235d264aa202d230efc4172bac",
+      "published_sha256": "cde2e639147559ad8fc3e15bc072a4bf6b04fb0f2bd13d676348df91c2d19773"
+    },
+    {
+      "file": "arm-p/H1-writing/first-check_prose.txt",
+      "original": "runs/arm-p/H1-writing/first-check_prose.txt",
+      "original_sha256": "b8a1a93aaa0c97d477de7987eee1322de5dca0dd36de7d1ffe621ef55c4b81f3",
+      "published_sha256": "dce926cad541dc69c895e2e8823c04fa0f79e9c973933c585853d24b4a4b02d5"
+    },
+    {
+      "file": "arm-p/H1-writing/first-check_voice.txt",
+      "original": "runs/arm-p/H1-writing/first-check_voice.txt",
+      "original_sha256": "966bf7401d562a7a5ffe4f82fe8e26ec1bfad9d5f30e2adb07206b14468794f2",
+      "published_sha256": "ca1bd8c6906552d2a7ebd1b64997fd4de825db3f6497266b6cf571122e3b807e"
+    },
+    {
+      "file": "arm-p/H1-writing/first.md",
+      "original": "runs/arm-p/H1-writing/first.md",
+      "original_sha256": "24473efd562eda4ee6ddb9cd9afa8657e94bdc13271f4bba6b826926923f22de",
+      "published_sha256": "24473efd562eda4ee6ddb9cd9afa8657e94bdc13271f4bba6b826926923f22de"
+    },
+    {
+      "file": "arm-p/H1-writing/rationale.md",
+      "original": "runs/arm-p/H1-writing/rationale.md",
+      "original_sha256": "a900fcc19e9cd0fb959713a37def5e5dc3a50c658e61112f2e39ab8d808fae37",
+      "published_sha256": "213a27bd044cc3fba3665c7072d117b0c743cbb277372bb7de537baa0e93758d"
+    },
+    {
+      "file": "arm-p/H1-writing/review.md",
+      "original": "runs/arm-p/H1-writing/review.md",
+      "original_sha256": "d2825176ed3f512d66ee8026baf126f9c469e9b540314c84c5d62e5ea7b81c92",
+      "published_sha256": "74d58359a8b046209ca6d37c4abc00429b276c057ec7f426e744b518bcec85aa"
+    },
+    {
+      "file": "arm-p/H2-writing/delivery.json",
+      "original": "runs/arm-p/H2-writing/delivery.json",
+      "original_sha256": "7e899a5a9771151d3684ecc05e04fa717fe26157fee5dcc6b2eac8420b6ae149",
+      "published_sha256": "3b933830164cd6ef96d9a431f4da1e7c096298d66378a00e6358fc3e53b71730"
+    },
+    {
+      "file": "arm-p/H2-writing/final-check-summary.json",
+      "original": "runs/arm-p/H2-writing/final-check-summary.json",
+      "original_sha256": "e2ac184a129c6f5c975e4313fb3f7b7b1842e65bc058845c9fb6e44a010a7e11",
+      "published_sha256": "37d713cdc7b3e78cb69cc090674c85cd5b43f4d60d5a635541badabc691f1690"
+    },
+    {
+      "file": "arm-p/H2-writing/final-check_consistency.txt",
+      "original": "runs/arm-p/H2-writing/final-check_consistency.txt",
+      "original_sha256": "75a8c08971e1f0a9f299ae483e1b9245cdeeabcd29f88000b056de6397cecf46",
+      "published_sha256": "fccbb6f4ddf631cdc00007d35e7a77fc874637c7f5e1b8b86d7f2b4e6baafbe8"
+    },
+    {
+      "file": "arm-p/H2-writing/final-check_prose.txt",
+      "original": "runs/arm-p/H2-writing/final-check_prose.txt",
+      "original_sha256": "9c0905de4b6e37be81d8cbea37e4e1503369bec3f0fd165183784c367b99bf9b",
+      "published_sha256": "373fc8c1e6b7015b605c5edacdd97c2efc5828c101135878c3db1d1abf11ac78"
+    },
+    {
+      "file": "arm-p/H2-writing/final-check_voice.txt",
+      "original": "runs/arm-p/H2-writing/final-check_voice.txt",
+      "original_sha256": "fd189717de5fe9aa0aaa0290c34ccde5dd37b4d811cedaac859aa411259d5619",
+      "published_sha256": "d90121ab0ba73b6715c206a9e2fb3b4ccea32281f2ce52d6e1c6b1d5ecaa6cb1"
+    },
+    {
+      "file": "arm-p/H2-writing/final.docx",
+      "original": "runs/arm-p/H2-writing/final.docx",
+      "original_sha256": "7549f9cf1a82ee89d604d3dc16ed199875e04f0ed16df63c2f6e33832ebdccbe",
+      "published_sha256": "7549f9cf1a82ee89d604d3dc16ed199875e04f0ed16df63c2f6e33832ebdccbe"
+    },
+    {
+      "file": "arm-p/H2-writing/final.md",
+      "original": "runs/arm-p/H2-writing/final.md",
+      "original_sha256": "4d00a97d3c8f9e4424e615fa79f032a1e9dd2cfe07bf69d5095a21c0a4785ec4",
+      "published_sha256": "216550ac39fd4470f4517d30bf6fb5424735aee0763efdcf60981667a6577113"
+    },
+    {
+      "file": "arm-p/H2-writing/first-check-summary.json",
+      "original": "runs/arm-p/H2-writing/first-check-summary.json",
+      "original_sha256": "3035131f9645c4f80cf3082818edb4f76d8d0ad7f284705f52dca3704071ce4c",
+      "published_sha256": "101815d3c0b4c56c278bf64441e58479ddc08aa40b97f28ee15a48ebf1461d34"
+    },
+    {
+      "file": "arm-p/H2-writing/first-check_consistency.txt",
+      "original": "runs/arm-p/H2-writing/first-check_consistency.txt",
+      "original_sha256": "75a8c08971e1f0a9f299ae483e1b9245cdeeabcd29f88000b056de6397cecf46",
+      "published_sha256": "fccbb6f4ddf631cdc00007d35e7a77fc874637c7f5e1b8b86d7f2b4e6baafbe8"
+    },
+    {
+      "file": "arm-p/H2-writing/first-check_prose.txt",
+      "original": "runs/arm-p/H2-writing/first-check_prose.txt",
+      "original_sha256": "a80c4ec5d85b18d82c6095283e99cb35dcfeb154d9dcba8550794a04e0dc85e9",
+      "published_sha256": "d73eb621dbb034a45d2c5f68fecc5f4784ab00c493c3015064bc7aa3ad059514"
+    },
+    {
+      "file": "arm-p/H2-writing/first-check_voice.txt",
+      "original": "runs/arm-p/H2-writing/first-check_voice.txt",
+      "original_sha256": "a6fb45a603a09591afff0aa7f3efe736b3f6c9c22fa256241dab1f222528d09c",
+      "published_sha256": "7e3674e70e96b18dc273c6511be2d7be31d788e5b59af3f1c6176651ba02b49c"
+    },
+    {
+      "file": "arm-p/H2-writing/first.md",
+      "original": "runs/arm-p/H2-writing/first.md",
+      "original_sha256": "725724fd54c81705e7814b345c863695a98a3e399907d075352f467efca1f12d",
+      "published_sha256": "725724fd54c81705e7814b345c863695a98a3e399907d075352f467efca1f12d"
+    },
+    {
+      "file": "arm-p/H2-writing/rationale.md",
+      "original": "runs/arm-p/H2-writing/rationale.md",
+      "original_sha256": "660d2f6a78d08817b7e52a4ab80ca86c8fca8fcfef9c1b685b0dc44a80a94aa2",
+      "published_sha256": "9b22c59299d85e6cb0bccf485959175f1548496830cf1647839570c37ed196a7"
+    },
+    {
+      "file": "arm-p/H2-writing/review.md",
+      "original": "runs/arm-p/H2-writing/review.md",
+      "original_sha256": "01d54d9b64af8b2802456c04448fa20b05c85b7f818fc35e635db13599a3f5f6",
+      "published_sha256": "e7bd00c1d63c7217f4a5e87735db946b755b679b187afe16e01fd5be224a8b73"
+    },
+    {
+      "file": "arm-p/H1-ppt/delivery.json",
+      "original": "runs/arm-p/H1-ppt/delivery.json",
+      "original_sha256": "aeac75c52617fbe3796148745d8d87665c6c90aa389f1d701b1f03c66d7570cd",
+      "published_sha256": "8c37e7b08257c93f3fad7de4d74aa9a21bbdc5f82bf6b3eae56b75278551d0e4"
+    },
+    {
+      "file": "arm-p/H1-ppt/final-build-log.txt",
+      "original": "runs/arm-p/H1-ppt/final-build-log.txt",
+      "original_sha256": "ab959cfd0b741e42adad5146df6a1c3b58c7d9a42778931641df7b58befb01d0",
+      "published_sha256": "35549677eaeed6458bb31d8da8202f75eba01c9e0acd311b3043cc4957c2308e"
+    },
+    {
+      "file": "arm-p/H1-ppt/final-check-log.txt",
+      "original": "runs/arm-p/H1-ppt/final-check-log.txt",
+      "original_sha256": "53dd2879c4e288950e0db7096fa847ac35fecc652cf3ca525f653b846fd28866",
+      "published_sha256": "13748fc06c2eb9e773eef40266d2a7942d6a47a01381e7cc1ed13788222943bf"
+    },
+    {
+      "file": "arm-p/H1-ppt/final-checks.json",
+      "original": "runs/arm-p/H1-ppt/final-checks.json",
+      "original_sha256": "ba5c175ac0479e3e7ea7310832698eb6dff01854c2b6a0f35a3b3eb01957461a",
+      "published_sha256": "0dfbec3ee11e84727bd9bafef6a663f7b48f077d761eea439ff57286b560ec47"
+    },
+    {
+      "file": "arm-p/H1-ppt/final-execution-summary.json",
+      "original": "runs/arm-p/H1-ppt/final-execution-summary.json",
+      "original_sha256": "8f13e6c1732ef4d3eb94a8a4e6815b0808bc09d4d227a1b1a4f51254eb0eb69b",
+      "published_sha256": "9124bc3089761d639d8507e0621771eef70cda63b7b700ef778d6bc0fe6c77ab"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-build-log.txt",
+      "original": "runs/arm-p/H1-ppt/first-build-log.txt",
+      "original_sha256": "a26c06f0a13778d5f00d6c17c221610aa77bb751d612053e515f8543310e8921",
+      "published_sha256": "d6f21c3892183194961f8da930a1a3c12a3baaedb0eb44302d6625cd5a382505"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-check-log.txt",
+      "original": "runs/arm-p/H1-ppt/first-check-log.txt",
+      "original_sha256": "53dd2879c4e288950e0db7096fa847ac35fecc652cf3ca525f653b846fd28866",
+      "published_sha256": "13748fc06c2eb9e773eef40266d2a7942d6a47a01381e7cc1ed13788222943bf"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-checks.json",
+      "original": "runs/arm-p/H1-ppt/first-checks.json",
+      "original_sha256": "ba5c175ac0479e3e7ea7310832698eb6dff01854c2b6a0f35a3b3eb01957461a",
+      "published_sha256": "0dfbec3ee11e84727bd9bafef6a663f7b48f077d761eea439ff57286b560ec47"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-execution-summary.json",
+      "original": "runs/arm-p/H1-ppt/first-execution-summary.json",
+      "original_sha256": "82edf6425538ea7c3fac2f1e655fa57929121645a357d0188f9b64f6b52d4485",
+      "published_sha256": "327900ae1f7a7e225765a30ff99e0fd386f7158e787b796ed3272536bbe17215"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-plan.json",
+      "original": "runs/arm-p/H1-ppt/first-plan.json",
+      "original_sha256": "1f5807dcdfa8371c2d03bbcab4b02cffe72635d61ae7b8944fb2b0f6fb443bf2",
+      "published_sha256": "4e2fd5d38e3f50dd6afed33df440846720ee2b0ec9ab9876b274483c066a16a0"
+    },
+    {
+      "file": "arm-p/H1-ppt/plan.json",
+      "original": "runs/arm-p/H1-ppt/plan.json",
+      "original_sha256": "93e91ea034cd5e25c0fa7af5ed7fadb71a0fdc9d91364279c2a4c7ce94b36950",
+      "published_sha256": "c1cb44f3461de806f62345c151e4f5440e518fc673053893547d4dcde41125bc"
+    },
+    {
+      "file": "arm-p/H1-ppt/rationale.md",
+      "original": "runs/arm-p/H1-ppt/rationale.md",
+      "original_sha256": "42652d5f0695977f9a5c220d76333d801074185b7e6a143e66783521426c03f3",
+      "published_sha256": "db56a0ea95c68cdafd104bd3e6726481edc0b03f5e4ecffabfb223d15dcac1f7"
+    },
+    {
+      "file": "arm-p/H1-ppt/review.md",
+      "original": "runs/arm-p/H1-ppt/review.md",
+      "original_sha256": "5255cbff30d91c5423df961f731e67e93ca24656cab2302355d1b4c4e49bf806",
+      "published_sha256": "4f7df94f8336177230ad6961cf4c11e170edbc140b1d8cb15c33c7ae2dc3d5a7"
+    },
+    {
+      "file": "arm-p/H1-ppt/runtime-note.md",
+      "original": "runs/arm-p/H1-ppt/runtime-note.md",
+      "original_sha256": "e849a0519f35086d54726334885619f7ed5163390f605e0e9082fcc4ba75ae9b",
+      "published_sha256": "e849a0519f35086d54726334885619f7ed5163390f605e0e9082fcc4ba75ae9b"
+    },
+    {
+      "file": "arm-p/H1-ppt/deck/build.json",
+      "original": "runs/arm-p/H1-ppt/deck/build.json",
+      "original_sha256": "1f091225eb805763c9740129444d0203810daeb44713442e994ce4c903ad59b0",
+      "published_sha256": "942ad3633bfab6dc73f384891366cbf391f081617c36269baf653fac6d3dd4e2"
+    },
+    {
+      "file": "arm-p/H1-ppt/deck/content.md",
+      "original": "runs/arm-p/H1-ppt/deck/content.md",
+      "original_sha256": "4654860231c91d491cae64c6991977ad76b61d2d38c5ef255070bf315e6d2f68",
+      "published_sha256": "4c24a01aa7f20d31686c901418b8a8d2d384cc36551588084b6e150234c62fa2"
+    },
+    {
+      "file": "arm-p/H1-ppt/deck/plan.json",
+      "original": "runs/arm-p/H1-ppt/deck/plan.json",
+      "original_sha256": "93e91ea034cd5e25c0fa7af5ed7fadb71a0fdc9d91364279c2a4c7ce94b36950",
+      "published_sha256": "c1cb44f3461de806f62345c151e4f5440e518fc673053893547d4dcde41125bc"
+    },
+    {
+      "file": "arm-p/H1-ppt/deck/slides.pptx",
+      "original": "runs/arm-p/H1-ppt/deck/slides.pptx",
+      "original_sha256": "6bb7dea8dc48f12245530b776c92556ec7b04be582f50eb9035473b8e44d9685",
+      "published_sha256": "6bb7dea8dc48f12245530b776c92556ec7b04be582f50eb9035473b8e44d9685"
+    },
+    {
+      "file": "arm-p/H1-ppt/deck/speaker_notes.md",
+      "original": "runs/arm-p/H1-ppt/deck/speaker_notes.md",
+      "original_sha256": "bc4bd9aa69d068bdb32885e934d7e13c26ad654f32b5ffb68bbd23949b9ebff9",
+      "published_sha256": "6e91c97a7eeaadb87b5889c744cfece3bc53388cc944e273efa72bfc3b44c0a4"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-deck/build.json",
+      "original": "runs/arm-p/H1-ppt/first-deck/build.json",
+      "original_sha256": "d7f0e7364579ce8363ccf61375fd0d5f930fb1366fa0cf3fd5e7cf4673e966b5",
+      "published_sha256": "7a9786a5ad02911a3ee2d574e8c9a709cd03303412836d5ddc5927e5d2071dea"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-deck/content.md",
+      "original": "runs/arm-p/H1-ppt/first-deck/content.md",
+      "original_sha256": "c2bd2e80c42670a6d5e976592cd54ab227140425db6ff95ee15dd52c8ac4e736",
+      "published_sha256": "861af38cf82eb90f470cbc0d9027b154546d9a625c9b180083bc7ca690226ef1"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-deck/plan.json",
+      "original": "runs/arm-p/H1-ppt/first-deck/plan.json",
+      "original_sha256": "1f5807dcdfa8371c2d03bbcab4b02cffe72635d61ae7b8944fb2b0f6fb443bf2",
+      "published_sha256": "4e2fd5d38e3f50dd6afed33df440846720ee2b0ec9ab9876b274483c066a16a0"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-deck/slides.pptx",
+      "original": "runs/arm-p/H1-ppt/first-deck/slides.pptx",
+      "original_sha256": "a594e6a81a0eb796a6534ca99f8591a7465910b72cca11f5504838ede5be0c94",
+      "published_sha256": "a594e6a81a0eb796a6534ca99f8591a7465910b72cca11f5504838ede5be0c94"
+    },
+    {
+      "file": "arm-p/H1-ppt/first-deck/speaker_notes.md",
+      "original": "runs/arm-p/H1-ppt/first-deck/speaker_notes.md",
+      "original_sha256": "90c26b608eddd8ec9cc8d013df97f3d0fc6fbaa837b85c0abbe6808abe2e4649",
+      "published_sha256": "e13f14a580392bc62bc5418c9f38f6b6bf835c3671c1ec67ccbf28c2f570d783"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/contact-01.png",
+      "original": "renders/arm-p/H1-ppt/contact-01.png",
+      "original_sha256": "221a94e2c82faf1726b891c00cc283e94bc55353f5b27dfdcdd12a8282671286",
+      "published_sha256": "221a94e2c82faf1726b891c00cc283e94bc55353f5b27dfdcdd12a8282671286"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/render.json",
+      "original": "renders/arm-p/H1-ppt/render.json",
+      "original_sha256": "f842256da276d52c73638579638d47dcb0d58150e0f90786a7e8bff0246bf5d5",
+      "published_sha256": "29e3c6ac06ce5573b4266133642ac05c81ad1e3d66ffe36db28a8427dc5633a1"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-001.png",
+      "original": "renders/arm-p/H1-ppt/slide-001.png",
+      "original_sha256": "9ad56d5d016ece680a33e0d6cc0697f3c97db694a3e5a164470f20bc592b1601",
+      "published_sha256": "9ad56d5d016ece680a33e0d6cc0697f3c97db694a3e5a164470f20bc592b1601"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-002.png",
+      "original": "renders/arm-p/H1-ppt/slide-002.png",
+      "original_sha256": "657ad5d78fa3e6521c9bb688b46d56f7a058ffc092e996826f225ac02afd1e5a",
+      "published_sha256": "657ad5d78fa3e6521c9bb688b46d56f7a058ffc092e996826f225ac02afd1e5a"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-003.png",
+      "original": "renders/arm-p/H1-ppt/slide-003.png",
+      "original_sha256": "34373c0c2ab3903a33eba16d678763faddc3d59227c45820847d6a01ec300791",
+      "published_sha256": "34373c0c2ab3903a33eba16d678763faddc3d59227c45820847d6a01ec300791"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-004.png",
+      "original": "renders/arm-p/H1-ppt/slide-004.png",
+      "original_sha256": "4433cf0a4f76f9001378b202c24e0cb7f84401fb6836dcc6f8ab621c6bbb5b8c",
+      "published_sha256": "4433cf0a4f76f9001378b202c24e0cb7f84401fb6836dcc6f8ab621c6bbb5b8c"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-005.png",
+      "original": "renders/arm-p/H1-ppt/slide-005.png",
+      "original_sha256": "06b4b639a4879674c4b09f7ac3dcdf8fff6f9d6af4ba13983c064a5d9dd799ab",
+      "published_sha256": "06b4b639a4879674c4b09f7ac3dcdf8fff6f9d6af4ba13983c064a5d9dd799ab"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-006.png",
+      "original": "renders/arm-p/H1-ppt/slide-006.png",
+      "original_sha256": "facc92c40da7b58bcb0f1c8b14cf88ca4aee602cce446c1287ce23778dbe1c00",
+      "published_sha256": "facc92c40da7b58bcb0f1c8b14cf88ca4aee602cce446c1287ce23778dbe1c00"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-007.png",
+      "original": "renders/arm-p/H1-ppt/slide-007.png",
+      "original_sha256": "19dbec65d11e6849fe9b300f13a604d465e527d5536bbcc09e3476314cdc3174",
+      "published_sha256": "19dbec65d11e6849fe9b300f13a604d465e527d5536bbcc09e3476314cdc3174"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-008.png",
+      "original": "renders/arm-p/H1-ppt/slide-008.png",
+      "original_sha256": "2848dc667436c2c8b02e74f63dc955b40d8d92ae4cf6246f09769f3f1be51ff1",
+      "published_sha256": "2848dc667436c2c8b02e74f63dc955b40d8d92ae4cf6246f09769f3f1be51ff1"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slide-009.png",
+      "original": "renders/arm-p/H1-ppt/slide-009.png",
+      "original_sha256": "12e52e56b6b924f593b3d0bab58d3496e11d4f99292c26bfab1ec0d774ef5eda",
+      "published_sha256": "12e52e56b6b924f593b3d0bab58d3496e11d4f99292c26bfab1ec0d774ef5eda"
+    },
+    {
+      "file": "arm-p/H1-ppt/preview/slides.pdf",
+      "original": "renders/arm-p/H1-ppt/slides.pdf",
+      "original_sha256": "acabbc547e052c626d317e20ccd50f1068271352efd93e59154e9e842607ae5a",
+      "published_sha256": "acabbc547e052c626d317e20ccd50f1068271352efd93e59154e9e842607ae5a"
+    },
+    {
+      "file": "arm-p/H3-ppt/delivery.json",
+      "original": "runs/arm-p/H3-ppt/delivery.json",
+      "original_sha256": "4abd0f7901e0e59a0882fdaca2198f400bad806690edbb334892d8fd779f35ba",
+      "published_sha256": "3770d48c08a1d42f58409994a8791ea26f8ce8a01b1e7f0c299fb32c28243974"
+    },
+    {
+      "file": "arm-p/H3-ppt/final-build-log.txt",
+      "original": "runs/arm-p/H3-ppt/final-build-log.txt",
+      "original_sha256": "486b531750818a8bc6763654d5ca8c9c51739ab13d45ca19c9161ff35257be9a",
+      "published_sha256": "a9950a7247092514d85690cabfdd6158f987ef17dcf2be6d8af3ebe56e25a5f6"
+    },
+    {
+      "file": "arm-p/H3-ppt/final-check-log.txt",
+      "original": "runs/arm-p/H3-ppt/final-check-log.txt",
+      "original_sha256": "8ebccccff592b07be1d25644aec9ead75ab8f4294260803c8adb1bf643bbad17",
+      "published_sha256": "8f615eaebdab06ad3f6170f3411b4c12dba911eea4563d632a6494f95ea8d2dc"
+    },
+    {
+      "file": "arm-p/H3-ppt/final-checks.json",
+      "original": "runs/arm-p/H3-ppt/final-checks.json",
+      "original_sha256": "c7914f55d9b68cf34bd441b667c110cbce1b8dbd00ca5cc3a6eb32d0cfb64622",
+      "published_sha256": "a9f1c31a0e1f2ad2a7ac0a99a3b1d078f128ec140b67cf3aacef4f495ed1c248"
+    },
+    {
+      "file": "arm-p/H3-ppt/final-execution-summary.json",
+      "original": "runs/arm-p/H3-ppt/final-execution-summary.json",
+      "original_sha256": "7717798184929346ed660f963914b3b8d951ae6ff3056b6508c95ec19eb91234",
+      "published_sha256": "9dd6a3077b84ee8d680de7341a8edcae2308dd5030dbc4065ee7ee851d0ca206"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-build-log.txt",
+      "original": "runs/arm-p/H3-ppt/first-build-log.txt",
+      "original_sha256": "8edd3fb40ffaad3512726e4578d9e51388449018d874d42fda4d34591b7505ef",
+      "published_sha256": "5adabff3128b2499c01c45bd1e3071b2ea3629c03c7c88a2e7355a9a879af3b6"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-check-log.txt",
+      "original": "runs/arm-p/H3-ppt/first-check-log.txt",
+      "original_sha256": "8ebccccff592b07be1d25644aec9ead75ab8f4294260803c8adb1bf643bbad17",
+      "published_sha256": "8f615eaebdab06ad3f6170f3411b4c12dba911eea4563d632a6494f95ea8d2dc"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-checks.json",
+      "original": "runs/arm-p/H3-ppt/first-checks.json",
+      "original_sha256": "c7914f55d9b68cf34bd441b667c110cbce1b8dbd00ca5cc3a6eb32d0cfb64622",
+      "published_sha256": "a9f1c31a0e1f2ad2a7ac0a99a3b1d078f128ec140b67cf3aacef4f495ed1c248"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-execution-summary.json",
+      "original": "runs/arm-p/H3-ppt/first-execution-summary.json",
+      "original_sha256": "419423a766ee648be5624bc654e834b69efb4c2ffdf9b57345d1c76b224da206",
+      "published_sha256": "f926ced227d392def7c986ee45f3ddd92b9d1716cc0f3a249525cf8aa7c2df44"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-plan.json",
+      "original": "runs/arm-p/H3-ppt/first-plan.json",
+      "original_sha256": "238addde1582dbb4fbebff7f864cba9996a2a7396b569e8b9a1e72d2fdd67a83",
+      "published_sha256": "d5e8cbc9f6635dd9d53768696e5d9d303104601e96cf2100e1f7afc0dd477488"
+    },
+    {
+      "file": "arm-p/H3-ppt/plan.json",
+      "original": "runs/arm-p/H3-ppt/plan.json",
+      "original_sha256": "bf51d7c405bfa26324a7aac0677699eef71c29e35202063cefca6f52be6cea83",
+      "published_sha256": "27b619ffef41bb4805bd863993628c0136320192c126b1985e81e30b7d82b117"
+    },
+    {
+      "file": "arm-p/H3-ppt/rationale.md",
+      "original": "runs/arm-p/H3-ppt/rationale.md",
+      "original_sha256": "f14a5597c8ece83c5faad2e0d9284fb18b1fb270687d829e4a6e36f9a39ec508",
+      "published_sha256": "1cda78f04fe26bc12e27b52bc02802b52547dd36295999e6e776a2e43d6505d2"
+    },
+    {
+      "file": "arm-p/H3-ppt/review.md",
+      "original": "runs/arm-p/H3-ppt/review.md",
+      "original_sha256": "09a18b4ef3b8d139a5ff0d7a6918560cc247a34d3b7b2c12c4f83c668856d3b8",
+      "published_sha256": "c2c3575dd207f27426cd2390bc31bf92116336bb0db552c1e8b1bbc6dd51ce74"
+    },
+    {
+      "file": "arm-p/H3-ppt/deck/build.json",
+      "original": "runs/arm-p/H3-ppt/deck/build.json",
+      "original_sha256": "827c63a083d2b9779070428c99a7be656d49972d9d0f9c28398d6ded70d06c67",
+      "published_sha256": "441557ee50cf65f6d7e88f929bc888c51e3380fb5f31d5f40689c9d79148565f"
+    },
+    {
+      "file": "arm-p/H3-ppt/deck/content.md",
+      "original": "runs/arm-p/H3-ppt/deck/content.md",
+      "original_sha256": "e61e33a0a35f13cc789849041c7eb5020830d656cf9e7a8b77befbf9b6abeb02",
+      "published_sha256": "2e8d47a80091a7ef583ed928f536551855910d428a831faa6a382ffc614ecd86"
+    },
+    {
+      "file": "arm-p/H3-ppt/deck/plan.json",
+      "original": "runs/arm-p/H3-ppt/deck/plan.json",
+      "original_sha256": "bf51d7c405bfa26324a7aac0677699eef71c29e35202063cefca6f52be6cea83",
+      "published_sha256": "27b619ffef41bb4805bd863993628c0136320192c126b1985e81e30b7d82b117"
+    },
+    {
+      "file": "arm-p/H3-ppt/deck/slides.pptx",
+      "original": "runs/arm-p/H3-ppt/deck/slides.pptx",
+      "original_sha256": "64343c7aa90717bbacfbda6d86b37d13f4c6f8b396da3c81df1dbc02899c3c76",
+      "published_sha256": "64343c7aa90717bbacfbda6d86b37d13f4c6f8b396da3c81df1dbc02899c3c76"
+    },
+    {
+      "file": "arm-p/H3-ppt/deck/speaker_notes.md",
+      "original": "runs/arm-p/H3-ppt/deck/speaker_notes.md",
+      "original_sha256": "4fa708ce9434e5e815b97841bdbcb128f3f4d4218f102bed9bc8b12dad0cbd5d",
+      "published_sha256": "c66dbd91fd3c1ad9e6bc78960b78dfe927669087f3186dee6c0ae0f5d65fb5b2"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-deck/build.json",
+      "original": "runs/arm-p/H3-ppt/first-deck/build.json",
+      "original_sha256": "675eecb60a5ff67e301a4ee7f0023159dc1cb3b3c595a9430f6df8ce81fc24dc",
+      "published_sha256": "7cfa62dff4581834f438c923f2767ce77f71b7874625a3f352a0da8c10bc1c6c"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-deck/content.md",
+      "original": "runs/arm-p/H3-ppt/first-deck/content.md",
+      "original_sha256": "77b1f6aa7a2f93eeaf6a372f993b21df2f1b0e5b2bd52498be23bd4832e859ac",
+      "published_sha256": "2e7aabc11cb17128b8a941e40f1c3db9400f2092cb70cc179f0f8f5b603b5e6f"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-deck/plan.json",
+      "original": "runs/arm-p/H3-ppt/first-deck/plan.json",
+      "original_sha256": "238addde1582dbb4fbebff7f864cba9996a2a7396b569e8b9a1e72d2fdd67a83",
+      "published_sha256": "d5e8cbc9f6635dd9d53768696e5d9d303104601e96cf2100e1f7afc0dd477488"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-deck/slides.pptx",
+      "original": "runs/arm-p/H3-ppt/first-deck/slides.pptx",
+      "original_sha256": "0144bc9bcb8aa5eaa403cd6c8248462ab3c2cca5d2d445438eb0359cf5bf9100",
+      "published_sha256": "0144bc9bcb8aa5eaa403cd6c8248462ab3c2cca5d2d445438eb0359cf5bf9100"
+    },
+    {
+      "file": "arm-p/H3-ppt/first-deck/speaker_notes.md",
+      "original": "runs/arm-p/H3-ppt/first-deck/speaker_notes.md",
+      "original_sha256": "4935ce6827fc454288e7842ad794f6cb990c0f7d196b4e4e1c5b6b875ceda343",
+      "published_sha256": "3564de49890cce6bf3ff769f62ec4567df46988eb41b4665b802e5842a853be8"
+    },
+    {
+      "file": "arm-p/H3-ppt/preview/contact-01.png",
+      "original": "renders/arm-p/H3-ppt/contact-01.png",
+      "original_sha256": "a4b1baed7589c22d334d20b5979f4824ec07a7ab977b179dfd5d90bbf9f27580",
+      "published_sha256": "a4b1baed7589c22d334d20b5979f4824ec07a7ab977b179dfd5d90bbf9f27580"
+    },
+    {
+      "file": "arm-p/H3-ppt/preview/render.json",
+      "original": "renders/arm-p/H3-ppt/render.json",
+      "original_sha256": "a4fe1c69c04d307f8b34a2a8a145bd0250388730f0637ab6822f0d204e0e3771",
+      "published_sha256": "c14b5b7ae2ae10a1cfdceb50a5f6e8bd1dbbe60a133638dbe5497026a663d035"
+    },
+    {
+      "file": "arm-p/H3-ppt/preview/slide-001.png",
+      "original": "renders/arm-p/H3-ppt/slide-001.png",
+      "original_sha256": "0465691707e03f06285067690ea436bb9d1bc885a2d2ff8ae03e01718a2bb717",
+      "published_sha256": "0465691707e03f06285067690ea436bb9d1bc885a2d2ff8ae03e01718a2bb717"
+    },
+    {
+      "file": "arm-p/H3-ppt/preview/slide-002.png",
+      "original": "renders/arm-p/H3-ppt/slide-002.png",
+      "original_sha256": "239c559fb8006cf612717a07497de0b3a9ed012c45ef0fd0d8c79dbd43ce3bcc",
+      "published_sha256": "239c559fb8006cf612717a07497de0b3a9ed012c45ef0fd0d8c79dbd43ce3bcc"
+    },
+    {
+      "file": "arm-p/H3-ppt/preview/slide-003.png",
+      "original": "renders/arm-p/H3-ppt/slide-003.png",
+      "original_sha256": "6df2a1229c8816631071b6b4cdac06eb9a2352fd830112e827a4eb87ceaa369f",
+      "published_sha256": "6df2a1229c8816631071b6b4cdac06eb9a2352fd830112e827a4eb87ceaa369f"
+    },
+    {
+      "file": "arm-p/H3-ppt/preview/slide-004.png",
+      "original": "renders/arm-p/H3-ppt/slide-004.png",
+      "original_sha256": "1aa1b1d0d6517755ec968b3c6eff6e1f8697d173cad98ff76eaa21c704203fe6",
+      "published_sha256": "1aa1b1d0d6517755ec968b3c6eff6e1f8697d173cad98ff76eaa21c704203fe6"
+    },
+    {
+      "file": "arm-p/H3-ppt/preview/slides.pdf",
+      "original": "renders/arm-p/H3-ppt/slides.pdf",
+      "original_sha256": "008be8c17e4fda3ee39e4ab7b9f52c4946cdadc6fb2bcb61c77a5940ab30d96b",
+      "published_sha256": "008be8c17e4fda3ee39e4ab7b9f52c4946cdadc6fb2bcb61c77a5940ab30d96b"
+    },
+    {
+      "file": "arm-q/H1-writing/check_consistency-final.txt",
+      "original": "runs/arm-q/H1-writing/check_consistency-final.txt",
+      "original_sha256": "4ee14400986d47b048973ddda44f9d5aa757d7830a7bf6638779425aa9ba878c",
+      "published_sha256": "9eb20ca5083617d900944d8d31e25fe12b76d33391c1ef34ea3cd0868a8bf60c"
+    },
+    {
+      "file": "arm-q/H1-writing/check_consistency-first.txt",
+      "original": "runs/arm-q/H1-writing/check_consistency-first.txt",
+      "original_sha256": "4ee14400986d47b048973ddda44f9d5aa757d7830a7bf6638779425aa9ba878c",
+      "published_sha256": "9eb20ca5083617d900944d8d31e25fe12b76d33391c1ef34ea3cd0868a8bf60c"
+    },
+    {
+      "file": "arm-q/H1-writing/check_prose-final.txt",
+      "original": "runs/arm-q/H1-writing/check_prose-final.txt",
+      "original_sha256": "e59fb61e28c37904d21b35fee449d5ec2fbf1931706a667a9c7f2b45bd308192",
+      "published_sha256": "b9a269cb0d9d63bdff68311b9fee9a052e43c78ab1c87deea205ef24bbcc014d"
+    },
+    {
+      "file": "arm-q/H1-writing/check_prose-first.txt",
+      "original": "runs/arm-q/H1-writing/check_prose-first.txt",
+      "original_sha256": "211cab3de5e7e481746859b3fe64d2979b01ef30add8c3b59f03ef111c5ff4d2",
+      "published_sha256": "74368be786ae8a97a4f14a37ed584b3ca6c2840a0ba7f455cb0022aa2e301f62"
+    },
+    {
+      "file": "arm-q/H1-writing/check_voice-final.txt",
+      "original": "runs/arm-q/H1-writing/check_voice-final.txt",
+      "original_sha256": "e2254e740f7b1a01e55350a6b8c66a7f412e3b6866e2d6833370ecb05ed73ab6",
+      "published_sha256": "13104848610725c7a68786017ca7a809662e19dc7a7177194b184fb0c13e88f9"
+    },
+    {
+      "file": "arm-q/H1-writing/check_voice-first.txt",
+      "original": "runs/arm-q/H1-writing/check_voice-first.txt",
+      "original_sha256": "e2254e740f7b1a01e55350a6b8c66a7f412e3b6866e2d6833370ecb05ed73ab6",
+      "published_sha256": "13104848610725c7a68786017ca7a809662e19dc7a7177194b184fb0c13e88f9"
+    },
+    {
+      "file": "arm-q/H1-writing/docx-build.txt",
+      "original": "runs/arm-q/H1-writing/docx-build.txt",
+      "original_sha256": "eeeba456bb28d22831c0cc592c9190caeb560a4da58c7a9f71d5c3bedc09fe35",
+      "published_sha256": "5ca75b5d95b8126f5c9a4d3e2ea8a1f3955f8d4a0b2a78d4905d662a0a7b5db0"
+    },
+    {
+      "file": "arm-q/H1-writing/final.docx",
+      "original": "runs/arm-q/H1-writing/final.docx",
+      "original_sha256": "a971aede20f6247a079396ceb03eb898cb75afecabb5d470794c87c4f44b3312",
+      "published_sha256": "a971aede20f6247a079396ceb03eb898cb75afecabb5d470794c87c4f44b3312"
+    },
+    {
+      "file": "arm-q/H1-writing/final.md",
+      "original": "runs/arm-q/H1-writing/final.md",
+      "original_sha256": "0365805f1037bc700005eb4640aca04c9ef0e689326ccd026b305da8a5623b60",
+      "published_sha256": "0ff60096371ca6ecc1b43a3e8978648e18d071b473d2739b73b34e6516c5a5fd"
+    },
+    {
+      "file": "arm-q/H1-writing/first.md",
+      "original": "runs/arm-q/H1-writing/first.md",
+      "original_sha256": "be0c2474eb43e8f37213808b9cdc20c74a2fdd2c4a45bce982b17647e983c66f",
+      "published_sha256": "be0c2474eb43e8f37213808b9cdc20c74a2fdd2c4a45bce982b17647e983c66f"
+    },
+    {
+      "file": "arm-q/H1-writing/rationale.md",
+      "original": "runs/arm-q/H1-writing/rationale.md",
+      "original_sha256": "799822cee6a9d6dddce16a309ebf5f1835544f556bd1fc19d81a5be167baaf9f",
+      "published_sha256": "055dbe4597c362df01ba357e11b549c051a2f422e04692e67540fc51ea62c5a3"
+    },
+    {
+      "file": "arm-q/H1-writing/review.md",
+      "original": "runs/arm-q/H1-writing/review.md",
+      "original_sha256": "0b746d340866b1c2c83e19c0e5930f30f016d2fcf96286fd9ce4f263c6ff66cc",
+      "published_sha256": "0b746d340866b1c2c83e19c0e5930f30f016d2fcf96286fd9ce4f263c6ff66cc"
+    },
+    {
+      "file": "arm-q/H1-writing/word-counts.json",
+      "original": "runs/arm-q/H1-writing/word-counts.json",
+      "original_sha256": "940977887a5ee5c3204026a189771dd52eddf4f9633834603a8365bfcf066403",
+      "published_sha256": "ba5a374f5a483b683f42cca27f06ae91ee5bb476b30c0c7e235841da1b52d34e"
+    },
+    {
+      "file": "arm-q/H2-writing/check_consistency-final.txt",
+      "original": "runs/arm-q/H2-writing/check_consistency-final.txt",
+      "original_sha256": "e993a615cd3eb5467afe88c67d2a96cad6ceb579ce1fedbb039557a420a55320",
+      "published_sha256": "d0033ecc80dcae3030e31c9df3881f5894809e3eaaa6388a6a172870df628ffe"
+    },
+    {
+      "file": "arm-q/H2-writing/check_consistency-first.txt",
+      "original": "runs/arm-q/H2-writing/check_consistency-first.txt",
+      "original_sha256": "e993a615cd3eb5467afe88c67d2a96cad6ceb579ce1fedbb039557a420a55320",
+      "published_sha256": "d0033ecc80dcae3030e31c9df3881f5894809e3eaaa6388a6a172870df628ffe"
+    },
+    {
+      "file": "arm-q/H2-writing/check_prose-final.txt",
+      "original": "runs/arm-q/H2-writing/check_prose-final.txt",
+      "original_sha256": "4d09f192fe1276e4ce4f01e0179232649c3b69597d7a54850df3ea7618288257",
+      "published_sha256": "fe8b4a2fbfcd2098399dff2613bd6cd40e1672b531c7e9b431c6a32bd02f7f1a"
+    },
+    {
+      "file": "arm-q/H2-writing/check_prose-first.txt",
+      "original": "runs/arm-q/H2-writing/check_prose-first.txt",
+      "original_sha256": "f6b36dbc20bebb654d7cfa48c2f0145f6d983939a6541cac77124a0304b57abd",
+      "published_sha256": "ecc4580233d07149fcf7a4b498d65f8786d16329eb875ed7180d0d855277d57e"
+    },
+    {
+      "file": "arm-q/H2-writing/check_voice-final.txt",
+      "original": "runs/arm-q/H2-writing/check_voice-final.txt",
+      "original_sha256": "16400ac07d4186c6429ab1553eb31d0c0fd708c025cab87d2248003bb8b81202",
+      "published_sha256": "651d776a54d07b67d492a29b76c4f890bce78012b265e4afee432a4d56bdbf2a"
+    },
+    {
+      "file": "arm-q/H2-writing/check_voice-first.txt",
+      "original": "runs/arm-q/H2-writing/check_voice-first.txt",
+      "original_sha256": "45732909f9bcf49dddf4f722b87adb2a379eedf959ce3206a9fcbb4e5e8c568c",
+      "published_sha256": "988d7cf024d5607b4d1339524e1802cb3f13bb952621d67a870669c7c5139ff5"
+    },
+    {
+      "file": "arm-q/H2-writing/docx-build.txt",
+      "original": "runs/arm-q/H2-writing/docx-build.txt",
+      "original_sha256": "e5752aeaeb62ef5cfe4c84898510c595e8f693969726219c916cbac8d970ade3",
+      "published_sha256": "4f66a7f34651c642a8afbed297b23f57ebd4ff206b64604781f1ddce2a8650e0"
+    },
+    {
+      "file": "arm-q/H2-writing/final.docx",
+      "original": "runs/arm-q/H2-writing/final.docx",
+      "original_sha256": "eb139a265e9eb3209a3f21365756281c56aefa321cdf9a0e838d3f4c70f56d4b",
+      "published_sha256": "eb139a265e9eb3209a3f21365756281c56aefa321cdf9a0e838d3f4c70f56d4b"
+    },
+    {
+      "file": "arm-q/H2-writing/final.md",
+      "original": "runs/arm-q/H2-writing/final.md",
+      "original_sha256": "13e339cf78ab5897e80070f1ba98f0ccc8e07db323f88bc8fd34b5a16a5ddcb6",
+      "published_sha256": "47a29bfa05f9608b26b561c5ddb5605b6c15d1c62fc37ca252e386382ea379de"
+    },
+    {
+      "file": "arm-q/H2-writing/first.md",
+      "original": "runs/arm-q/H2-writing/first.md",
+      "original_sha256": "41db2721140dc98f413e4cd653d63da2201515e1a3c985717cadcab2e3ea7b7c",
+      "published_sha256": "41db2721140dc98f413e4cd653d63da2201515e1a3c985717cadcab2e3ea7b7c"
+    },
+    {
+      "file": "arm-q/H2-writing/rationale.md",
+      "original": "runs/arm-q/H2-writing/rationale.md",
+      "original_sha256": "431a3ffd666aa5f58535b3383ebff4dfe2b7a36baffcedb2d81c894db292748e",
+      "published_sha256": "4943717756bf2f9c148d6d9b29267170e5f0f916ceecca3a4118a36e011f5e7a"
+    },
+    {
+      "file": "arm-q/H2-writing/review.md",
+      "original": "runs/arm-q/H2-writing/review.md",
+      "original_sha256": "f93eca1ab05e6c1369198fe31c2fc3380cfd2f66fd0b97eaa0146ea5710c17cb",
+      "published_sha256": "f93eca1ab05e6c1369198fe31c2fc3380cfd2f66fd0b97eaa0146ea5710c17cb"
+    },
+    {
+      "file": "arm-q/H2-writing/word-counts.json",
+      "original": "runs/arm-q/H2-writing/word-counts.json",
+      "original_sha256": "fd791f106d11e9be7d3b141d25dfaa6fe8e6aae06a7dbd6c7d8287d997257d11",
+      "published_sha256": "1e3cf0728007c6e41f49f7f64307cbb8d905a4baef337326df2180740d9286fe"
+    },
+    {
+      "file": "arm-q/H1-ppt/build-final.txt",
+      "original": "runs/arm-q/H1-ppt/build-final.txt",
+      "original_sha256": "cfdeeb8bf0ee722ae13effbba4931e845d0a74e22a88db66d7a52e35ae3d439d",
+      "published_sha256": "79b62b0e05787c325e575f43e21ed10d831aa5313639dd1929204f7708576603"
+    },
+    {
+      "file": "arm-q/H1-ppt/build-first.txt",
+      "original": "runs/arm-q/H1-ppt/build-first.txt",
+      "original_sha256": "bf4d0b717dc9f82b1e222699a9b0859382eaea02ff2c6c25b15ff337c819ae3b",
+      "published_sha256": "7c5f7e113d4c5cfef33d74187359048ae7c3e955342e5c84ed5db9eeaf0c9c75"
+    },
+    {
+      "file": "arm-q/H1-ppt/check-final.txt",
+      "original": "runs/arm-q/H1-ppt/check-final.txt",
+      "original_sha256": "8ded87a2480f0b05dd7cf509c5cc7c6a26b5852c7d50bb55d5e01a858f7b40ca",
+      "published_sha256": "eb25cf25eeae9e3a0b740f74a4346e3177b6e2a9a75236da843d01421deff9e7"
+    },
+    {
+      "file": "arm-q/H1-ppt/check-first.txt",
+      "original": "runs/arm-q/H1-ppt/check-first.txt",
+      "original_sha256": "8ded87a2480f0b05dd7cf509c5cc7c6a26b5852c7d50bb55d5e01a858f7b40ca",
+      "published_sha256": "eb25cf25eeae9e3a0b740f74a4346e3177b6e2a9a75236da843d01421deff9e7"
+    },
+    {
+      "file": "arm-q/H1-ppt/checks-final.json",
+      "original": "runs/arm-q/H1-ppt/checks-final.json",
+      "original_sha256": "8ded87a2480f0b05dd7cf509c5cc7c6a26b5852c7d50bb55d5e01a858f7b40ca",
+      "published_sha256": "eb25cf25eeae9e3a0b740f74a4346e3177b6e2a9a75236da843d01421deff9e7"
+    },
+    {
+      "file": "arm-q/H1-ppt/checks-first.json",
+      "original": "runs/arm-q/H1-ppt/checks-first.json",
+      "original_sha256": "8ded87a2480f0b05dd7cf509c5cc7c6a26b5852c7d50bb55d5e01a858f7b40ca",
+      "published_sha256": "eb25cf25eeae9e3a0b740f74a4346e3177b6e2a9a75236da843d01421deff9e7"
+    },
+    {
+      "file": "arm-q/H1-ppt/first-plan.json",
+      "original": "runs/arm-q/H1-ppt/first-plan.json",
+      "original_sha256": "9178593b9ec07223bed706c5f4a735796754f0efba1905f74569b8ab38102556",
+      "published_sha256": "20b17b9485b77affe49d3bb8224b7ec7a4163a0ba275080336c55691c4840323"
+    },
+    {
+      "file": "arm-q/H1-ppt/plan.json",
+      "original": "runs/arm-q/H1-ppt/plan.json",
+      "original_sha256": "aa58e22eef83495323c1cc55f21cc08cf27026bf66554c21f71b2390ba962a7f",
+      "published_sha256": "08b9d667c7c34d870d8af7a9b242db003c31f6c14f25f89314cdf0c252aabc81"
+    },
+    {
+      "file": "arm-q/H1-ppt/rationale.md",
+      "original": "runs/arm-q/H1-ppt/rationale.md",
+      "original_sha256": "8557e9d9efcdb4e8cb97d91e49839c18d3f0be575e9fc83301b2050a8ee522fa",
+      "published_sha256": "7303e764344d51f15f9065554c5dbf7916f1d08fbe914c7ace028b30f9882ea9"
+    },
+    {
+      "file": "arm-q/H1-ppt/review.md",
+      "original": "runs/arm-q/H1-ppt/review.md",
+      "original_sha256": "5bafb8a1cdf7b71619513c55b969de463b33e5cba3d03d5edab48d6b5ffe81b1",
+      "published_sha256": "5bafb8a1cdf7b71619513c55b969de463b33e5cba3d03d5edab48d6b5ffe81b1"
+    },
+    {
+      "file": "arm-q/H1-ppt/deck/build.json",
+      "original": "runs/arm-q/H1-ppt/deck/build.json",
+      "original_sha256": "cfdeeb8bf0ee722ae13effbba4931e845d0a74e22a88db66d7a52e35ae3d439d",
+      "published_sha256": "5137d587c9bac874f3bea9aa7f8b51f16307451369b7d0511d9cabfa88631e6b"
+    },
+    {
+      "file": "arm-q/H1-ppt/deck/content.md",
+      "original": "runs/arm-q/H1-ppt/deck/content.md",
+      "original_sha256": "9ff69a43ed91cf5f33ec88b114aee6ce3a8a6a21404cc941b783b13dba5eacee",
+      "published_sha256": "a4c8104a33d33b9977f7822748cc53e26f2395e94ea575307d25890284a49143"
+    },
+    {
+      "file": "arm-q/H1-ppt/deck/plan.json",
+      "original": "runs/arm-q/H1-ppt/deck/plan.json",
+      "original_sha256": "aa58e22eef83495323c1cc55f21cc08cf27026bf66554c21f71b2390ba962a7f",
+      "published_sha256": "08b9d667c7c34d870d8af7a9b242db003c31f6c14f25f89314cdf0c252aabc81"
+    },
+    {
+      "file": "arm-q/H1-ppt/deck/slides.pptx",
+      "original": "runs/arm-q/H1-ppt/deck/slides.pptx",
+      "original_sha256": "dcf4cd124af79fe60b1199adcdd484555458b59e0df101b0c2665a41abbfdde1",
+      "published_sha256": "dcf4cd124af79fe60b1199adcdd484555458b59e0df101b0c2665a41abbfdde1"
+    },
+    {
+      "file": "arm-q/H1-ppt/deck/speaker_notes.md",
+      "original": "runs/arm-q/H1-ppt/deck/speaker_notes.md",
+      "original_sha256": "6ceb1fa195fcc6838e5ed6934a9e03b49f298d8651c1b2dd49f7bbe11af32d16",
+      "published_sha256": "09b59585685c1a583d1919338959582bb2cd1f0dd50a17cdb75a255d10a7f820"
+    },
+    {
+      "file": "arm-q/H1-ppt/first-deck/build.json",
+      "original": "runs/arm-q/H1-ppt/first-deck/build.json",
+      "original_sha256": "bf4d0b717dc9f82b1e222699a9b0859382eaea02ff2c6c25b15ff337c819ae3b",
+      "published_sha256": "69d8b2d7824f02b9e02f1d1a3df95c69f0e6726700077437f9cdb547e03d6a3e"
+    },
+    {
+      "file": "arm-q/H1-ppt/first-deck/content.md",
+      "original": "runs/arm-q/H1-ppt/first-deck/content.md",
+      "original_sha256": "5865c7a53c1406782c6c730ec1695e1f9a18f78263862fbe0ef156a5f8b4c9d9",
+      "published_sha256": "c767b188b38f01e6fb29b0bf4cd192bee4d6447fd45ef030caf7563c381302e6"
+    },
+    {
+      "file": "arm-q/H1-ppt/first-deck/plan.json",
+      "original": "runs/arm-q/H1-ppt/first-deck/plan.json",
+      "original_sha256": "9178593b9ec07223bed706c5f4a735796754f0efba1905f74569b8ab38102556",
+      "published_sha256": "20b17b9485b77affe49d3bb8224b7ec7a4163a0ba275080336c55691c4840323"
+    },
+    {
+      "file": "arm-q/H1-ppt/first-deck/slides.pptx",
+      "original": "runs/arm-q/H1-ppt/first-deck/slides.pptx",
+      "original_sha256": "748e8aba54df70e6d3c4837f678d0c7ef7e43928e1b0294419ba9d7b81d39568",
+      "published_sha256": "748e8aba54df70e6d3c4837f678d0c7ef7e43928e1b0294419ba9d7b81d39568"
+    },
+    {
+      "file": "arm-q/H1-ppt/first-deck/speaker_notes.md",
+      "original": "runs/arm-q/H1-ppt/first-deck/speaker_notes.md",
+      "original_sha256": "8c3f1fd75dae0de9274eb718d9a46a2de764097892dc3cd80aafdbd78223fd4e",
+      "published_sha256": "6e1112a02eb7e0fb059ecd881e93c18e9d7c4898f93768076637ab732c14481e"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/contact-01.png",
+      "original": "renders/arm-q/H1-ppt/contact-01.png",
+      "original_sha256": "fbe9d686f1f898e03723f500e76ff9a520b3aae321ce02eb63af0b4950138d08",
+      "published_sha256": "fbe9d686f1f898e03723f500e76ff9a520b3aae321ce02eb63af0b4950138d08"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/render.json",
+      "original": "renders/arm-q/H1-ppt/render.json",
+      "original_sha256": "9128db805a4f47d9431009188660f3d0cd289ab66d5b7cf4b75238da98d39df8",
+      "published_sha256": "5111e98b7ff1f5b3effee84ce4fc8edd4913c689f6c7d2b8e02b88fe2423f88a"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-001.png",
+      "original": "renders/arm-q/H1-ppt/slide-001.png",
+      "original_sha256": "2caa163bb6912bd857952cce6ed3b3fae070f4271f68fc9ccb5e043ab5cab647",
+      "published_sha256": "2caa163bb6912bd857952cce6ed3b3fae070f4271f68fc9ccb5e043ab5cab647"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-002.png",
+      "original": "renders/arm-q/H1-ppt/slide-002.png",
+      "original_sha256": "3df2588d70a2a11835695a02d97cdc1550698b0127c49414a52f941331e6f7e6",
+      "published_sha256": "3df2588d70a2a11835695a02d97cdc1550698b0127c49414a52f941331e6f7e6"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-003.png",
+      "original": "renders/arm-q/H1-ppt/slide-003.png",
+      "original_sha256": "130c4e0fb13287b470427fa03b1a50ab999548cdeb53ac45538372196ab89191",
+      "published_sha256": "130c4e0fb13287b470427fa03b1a50ab999548cdeb53ac45538372196ab89191"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-004.png",
+      "original": "renders/arm-q/H1-ppt/slide-004.png",
+      "original_sha256": "00b94fbe7c7ecf19652f3faba94d8c1b926b4aaed75539325e27b986dc9c99e6",
+      "published_sha256": "00b94fbe7c7ecf19652f3faba94d8c1b926b4aaed75539325e27b986dc9c99e6"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-005.png",
+      "original": "renders/arm-q/H1-ppt/slide-005.png",
+      "original_sha256": "affa616aa90915b4f98aa9939d678fd2a75b59b73a4654a7e5125b7760a682df",
+      "published_sha256": "affa616aa90915b4f98aa9939d678fd2a75b59b73a4654a7e5125b7760a682df"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-006.png",
+      "original": "renders/arm-q/H1-ppt/slide-006.png",
+      "original_sha256": "4319ab933f12944a0856eb95ca07454a609678d375949ceab0cf57457a8c2564",
+      "published_sha256": "4319ab933f12944a0856eb95ca07454a609678d375949ceab0cf57457a8c2564"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-007.png",
+      "original": "renders/arm-q/H1-ppt/slide-007.png",
+      "original_sha256": "91fa25c626e9d07c81f84d8ef9d16811537e70398d143039ba34452c39f367d7",
+      "published_sha256": "91fa25c626e9d07c81f84d8ef9d16811537e70398d143039ba34452c39f367d7"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-008.png",
+      "original": "renders/arm-q/H1-ppt/slide-008.png",
+      "original_sha256": "ce5e6e55ba424619061d8ab908afebcd8bdd5000c4d1472eebcfade6fffcea14",
+      "published_sha256": "ce5e6e55ba424619061d8ab908afebcd8bdd5000c4d1472eebcfade6fffcea14"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slide-009.png",
+      "original": "renders/arm-q/H1-ppt/slide-009.png",
+      "original_sha256": "4385059dd242fe8c9a159a2b9a9c8e7ffe1000251e5b6475854aa2950d7d2cbd",
+      "published_sha256": "4385059dd242fe8c9a159a2b9a9c8e7ffe1000251e5b6475854aa2950d7d2cbd"
+    },
+    {
+      "file": "arm-q/H1-ppt/preview/slides.pdf",
+      "original": "renders/arm-q/H1-ppt/slides.pdf",
+      "original_sha256": "3b50e7d2546acaac71ef4371533deab89f19ee8031601e7cb24ae904f400e4e1",
+      "published_sha256": "3b50e7d2546acaac71ef4371533deab89f19ee8031601e7cb24ae904f400e4e1"
+    },
+    {
+      "file": "arm-q/H3-ppt/build-final.txt",
+      "original": "runs/arm-q/H3-ppt/build-final.txt",
+      "original_sha256": "4a62280f18a38f65e2d5afcd15c78f50507af70ee736207b9bb9d28ace367294",
+      "published_sha256": "a6be74e5a4768c743b9855e36d53f7d8df9225094d037e433d181f98d214e2eb"
+    },
+    {
+      "file": "arm-q/H3-ppt/build-first.txt",
+      "original": "runs/arm-q/H3-ppt/build-first.txt",
+      "original_sha256": "fcf72ce515273e193a8dbdf9395c1c37e9e4dc442a57264395cd485a055214e7",
+      "published_sha256": "7d9219cefbd27b74717538b283131c15fa34b3c1ee13718d16f94071ec2a78fc"
+    },
+    {
+      "file": "arm-q/H3-ppt/check-final.txt",
+      "original": "runs/arm-q/H3-ppt/check-final.txt",
+      "original_sha256": "1f72e43eb46c2bda763df74bb9b8b80b6f04f729ae7e04cdc1d398c444c34733",
+      "published_sha256": "c96ed95db3a9f798a66195a308c9e2d734be92f863d109107eb719a511b683db"
+    },
+    {
+      "file": "arm-q/H3-ppt/check-first.txt",
+      "original": "runs/arm-q/H3-ppt/check-first.txt",
+      "original_sha256": "1f72e43eb46c2bda763df74bb9b8b80b6f04f729ae7e04cdc1d398c444c34733",
+      "published_sha256": "c96ed95db3a9f798a66195a308c9e2d734be92f863d109107eb719a511b683db"
+    },
+    {
+      "file": "arm-q/H3-ppt/checks-final.json",
+      "original": "runs/arm-q/H3-ppt/checks-final.json",
+      "original_sha256": "1f72e43eb46c2bda763df74bb9b8b80b6f04f729ae7e04cdc1d398c444c34733",
+      "published_sha256": "c96ed95db3a9f798a66195a308c9e2d734be92f863d109107eb719a511b683db"
+    },
+    {
+      "file": "arm-q/H3-ppt/checks-first.json",
+      "original": "runs/arm-q/H3-ppt/checks-first.json",
+      "original_sha256": "1f72e43eb46c2bda763df74bb9b8b80b6f04f729ae7e04cdc1d398c444c34733",
+      "published_sha256": "c96ed95db3a9f798a66195a308c9e2d734be92f863d109107eb719a511b683db"
+    },
+    {
+      "file": "arm-q/H3-ppt/first-plan.json",
+      "original": "runs/arm-q/H3-ppt/first-plan.json",
+      "original_sha256": "88e6136e7753f218886a0f60c1cf595a95ba0f7013e06d4390506c8330e1b6d4",
+      "published_sha256": "5a4322a01a06064b0aab368f47f937763f888905f2e56c7ce683f829b089e3c5"
+    },
+    {
+      "file": "arm-q/H3-ppt/plan.json",
+      "original": "runs/arm-q/H3-ppt/plan.json",
+      "original_sha256": "763b7c30bc4897eb2331942545d3a22b22c6fa5be94ffe91dd7e314cb6f6d7c4",
+      "published_sha256": "699b31e96d2c66546af697fba6c822fc04306e3a6f4bac3691ae0ec6510394bf"
+    },
+    {
+      "file": "arm-q/H3-ppt/rationale.md",
+      "original": "runs/arm-q/H3-ppt/rationale.md",
+      "original_sha256": "6eeb92abc7ada17dc58e0b73126c626253eac0250b968d8de7725a34c2fe588b",
+      "published_sha256": "083e6372b7c8e5842d9ede6bbde2a6b99f54d13621d74e7612abceeb77de6681"
+    },
+    {
+      "file": "arm-q/H3-ppt/review.md",
+      "original": "runs/arm-q/H3-ppt/review.md",
+      "original_sha256": "6c9f9d6c04e0b8148503afc9ba8a3b2b2df868721274d0e7c15bcad7ed48e802",
+      "published_sha256": "6c9f9d6c04e0b8148503afc9ba8a3b2b2df868721274d0e7c15bcad7ed48e802"
+    },
+    {
+      "file": "arm-q/H3-ppt/deck/build.json",
+      "original": "runs/arm-q/H3-ppt/deck/build.json",
+      "original_sha256": "4a62280f18a38f65e2d5afcd15c78f50507af70ee736207b9bb9d28ace367294",
+      "published_sha256": "f09e0c821f002565847ac9127b28f145be274d5bc397a7ee9bc43af074007f2a"
+    },
+    {
+      "file": "arm-q/H3-ppt/deck/content.md",
+      "original": "runs/arm-q/H3-ppt/deck/content.md",
+      "original_sha256": "a4a1b3fdf523a115b6273e265a63d4dec59d9aad2697926f21dd9ab87dfa83cb",
+      "published_sha256": "59da0be3bc352a12db02d8184ef30c99624473437b8a0c6e7863eaef1e7526e1"
+    },
+    {
+      "file": "arm-q/H3-ppt/deck/plan.json",
+      "original": "runs/arm-q/H3-ppt/deck/plan.json",
+      "original_sha256": "763b7c30bc4897eb2331942545d3a22b22c6fa5be94ffe91dd7e314cb6f6d7c4",
+      "published_sha256": "699b31e96d2c66546af697fba6c822fc04306e3a6f4bac3691ae0ec6510394bf"
+    },
+    {
+      "file": "arm-q/H3-ppt/deck/slides.pptx",
+      "original": "runs/arm-q/H3-ppt/deck/slides.pptx",
+      "original_sha256": "5b20008dd949aba9c363a7e18df2afac303b43309e84f12b80df12cb66a0ae9d",
+      "published_sha256": "5b20008dd949aba9c363a7e18df2afac303b43309e84f12b80df12cb66a0ae9d"
+    },
+    {
+      "file": "arm-q/H3-ppt/deck/speaker_notes.md",
+      "original": "runs/arm-q/H3-ppt/deck/speaker_notes.md",
+      "original_sha256": "3d770377c5f3a228bf533fdf305abeb154870cb3e7b0dad527536c68a988989a",
+      "published_sha256": "a9d4602c8be2ca14a6d26ab83119748c7e5a94d4c13abc857144b42d78c60334"
+    },
+    {
+      "file": "arm-q/H3-ppt/first-deck/build.json",
+      "original": "runs/arm-q/H3-ppt/first-deck/build.json",
+      "original_sha256": "fcf72ce515273e193a8dbdf9395c1c37e9e4dc442a57264395cd485a055214e7",
+      "published_sha256": "748c9052cc398ffa92814d04e4847a72f983cec28af38bba4368802bdbd31854"
+    },
+    {
+      "file": "arm-q/H3-ppt/first-deck/content.md",
+      "original": "runs/arm-q/H3-ppt/first-deck/content.md",
+      "original_sha256": "c796911deeaafeedee81679a5ef0a31ba3f59be29f6b462f9b6e3b6d8629287c",
+      "published_sha256": "ab0a9b20aa41896097e83408b25ad9bb665a2f66a3c9f39464c89d31b8f71475"
+    },
+    {
+      "file": "arm-q/H3-ppt/first-deck/plan.json",
+      "original": "runs/arm-q/H3-ppt/first-deck/plan.json",
+      "original_sha256": "88e6136e7753f218886a0f60c1cf595a95ba0f7013e06d4390506c8330e1b6d4",
+      "published_sha256": "5a4322a01a06064b0aab368f47f937763f888905f2e56c7ce683f829b089e3c5"
+    },
+    {
+      "file": "arm-q/H3-ppt/first-deck/slides.pptx",
+      "original": "runs/arm-q/H3-ppt/first-deck/slides.pptx",
+      "original_sha256": "7854fcb9b226b2475a5edbd30fea0b45536727ac993ec9bead0b6d822047b429",
+      "published_sha256": "7854fcb9b226b2475a5edbd30fea0b45536727ac993ec9bead0b6d822047b429"
+    },
+    {
+      "file": "arm-q/H3-ppt/first-deck/speaker_notes.md",
+      "original": "runs/arm-q/H3-ppt/first-deck/speaker_notes.md",
+      "original_sha256": "eb3f6662f6b22a408e04c04d212f18af8bc3f060f8195a3acf128d8728fde9ce",
+      "published_sha256": "517c709ce4ba5e7f80a64604860d14e3056585a03f5be6cb5186ec04f76cc9b8"
+    },
+    {
+      "file": "arm-q/H3-ppt/preview/contact-01.png",
+      "original": "renders/arm-q/H3-ppt/contact-01.png",
+      "original_sha256": "021a6200af80e6e39d9cbe2b3f0f687e4d8287dbe651d7ace9d2327c377f3c81",
+      "published_sha256": "021a6200af80e6e39d9cbe2b3f0f687e4d8287dbe651d7ace9d2327c377f3c81"
+    },
+    {
+      "file": "arm-q/H3-ppt/preview/render.json",
+      "original": "renders/arm-q/H3-ppt/render.json",
+      "original_sha256": "bd2fbb577d23637be326549d607a4eabf6f5a42c8b7f8bb77aebb959ff8fa880",
+      "published_sha256": "e1978003cf62f0bfce1429372c4cd235779f5b6f70e12ee756c0112d5c936188"
+    },
+    {
+      "file": "arm-q/H3-ppt/preview/slide-001.png",
+      "original": "renders/arm-q/H3-ppt/slide-001.png",
+      "original_sha256": "a6e7b93594db7e24b138699c84bf4cb99a5674a7393f457591828d1d6a10147d",
+      "published_sha256": "a6e7b93594db7e24b138699c84bf4cb99a5674a7393f457591828d1d6a10147d"
+    },
+    {
+      "file": "arm-q/H3-ppt/preview/slide-002.png",
+      "original": "renders/arm-q/H3-ppt/slide-002.png",
+      "original_sha256": "89c04118649dd570d229fb0d19d6b274b5b2158de98533aa5a8f70101ca78a5d",
+      "published_sha256": "89c04118649dd570d229fb0d19d6b274b5b2158de98533aa5a8f70101ca78a5d"
+    },
+    {
+      "file": "arm-q/H3-ppt/preview/slide-003.png",
+      "original": "renders/arm-q/H3-ppt/slide-003.png",
+      "original_sha256": "971c3795fd5eab8398469e4db7ff916c54a5238a47d809f34e2c00babad73410",
+      "published_sha256": "971c3795fd5eab8398469e4db7ff916c54a5238a47d809f34e2c00babad73410"
+    },
+    {
+      "file": "arm-q/H3-ppt/preview/slide-004.png",
+      "original": "renders/arm-q/H3-ppt/slide-004.png",
+      "original_sha256": "11b82628864575e7f2a8bbc1f4746d60862acc72ee448ac1c4e703a9a2cf14f4",
+      "published_sha256": "11b82628864575e7f2a8bbc1f4746d60862acc72ee448ac1c4e703a9a2cf14f4"
+    },
+    {
+      "file": "arm-q/H3-ppt/preview/slides.pdf",
+      "original": "renders/arm-q/H3-ppt/slides.pdf",
+      "original_sha256": "21b63735f2a31559a14a4180ff89ac46094916f2cc33f86cea658d20705a837e",
+      "published_sha256": "21b63735f2a31559a14a4180ff89ac46094916f2cc33f86cea658d20705a837e"
+    },
+    {
+      "file": "blind/H1-ppt/A.md",
+      "original": "blind/H1-ppt/A.md",
+      "original_sha256": "24a46d4b6fde56b84486dc96e3c6b3fab339074d7e3f9d04b4eb92c84d81730c",
+      "published_sha256": "a88faf54caca7e5d251c7e38bf923fd28fca6bc6e7f2335384f5e2b6fcea8410"
+    },
+    {
+      "file": "blind/H1-ppt/B.md",
+      "original": "blind/H1-ppt/B.md",
+      "original_sha256": "2b80985c7becd88e3f13e8c4bb2ea3576ec8c2d1720daee274a6d3f3cbfa0b07",
+      "published_sha256": "952483eaf732b4c74cdb5fb95eaf4d15d383708478ce46e61328ad2efefaa9a6"
+    },
+    {
+      "file": "blind/H1-writing/A.md",
+      "original": "blind/H1-writing/A.md",
+      "original_sha256": "0ff60096371ca6ecc1b43a3e8978648e18d071b473d2739b73b34e6516c5a5fd",
+      "published_sha256": "0ff60096371ca6ecc1b43a3e8978648e18d071b473d2739b73b34e6516c5a5fd"
+    },
+    {
+      "file": "blind/H1-writing/B.md",
+      "original": "blind/H1-writing/B.md",
+      "original_sha256": "ff157bd0eff89cace3eec135bfc6aee1d2b650c473f337a0e665d19e8f034249",
+      "published_sha256": "ff157bd0eff89cace3eec135bfc6aee1d2b650c473f337a0e665d19e8f034249"
+    },
+    {
+      "file": "blind/H2-writing/A.md",
+      "original": "blind/H2-writing/A.md",
+      "original_sha256": "47a29bfa05f9608b26b561c5ddb5605b6c15d1c62fc37ca252e386382ea379de",
+      "published_sha256": "47a29bfa05f9608b26b561c5ddb5605b6c15d1c62fc37ca252e386382ea379de"
+    },
+    {
+      "file": "blind/H2-writing/B.md",
+      "original": "blind/H2-writing/B.md",
+      "original_sha256": "216550ac39fd4470f4517d30bf6fb5424735aee0763efdcf60981667a6577113",
+      "published_sha256": "216550ac39fd4470f4517d30bf6fb5424735aee0763efdcf60981667a6577113"
+    },
+    {
+      "file": "blind/H3-ppt/A.md",
+      "original": "blind/H3-ppt/A.md",
+      "original_sha256": "297dc154fbb60ec609a431087dc6885a352f7ce37034d074d27822135c55fc94",
+      "published_sha256": "9cc7b96c5554ea0028f2b2e46e00c013bb6433ce96b976c6e6d37be993ab931a"
+    },
+    {
+      "file": "blind/H3-ppt/B.md",
+      "original": "blind/H3-ppt/B.md",
+      "original_sha256": "d3e8bba75358b34da051d7845682f0a27a2c3ff2159fb92ec5b121eb3f5d70d2",
+      "published_sha256": "66d99ffc4f86615ab40f5958e6e72cfd39ea905167e954b7a6aadb915e3a9008"
+    },
+    {
+      "file": "blind-key.json",
+      "original": "blind-key.json",
+      "original_sha256": "a1ad1eacc79d3223c6e47a4cff978b0a542a0718a8e2a1aec6efe198e5792263",
+      "published_sha256": "4ab0f4f47185e70430de4cb7d5a1aa8235500394671298fdcda55e406709e083"
+    },
+    {
+      "file": "blind-input-hashes.json",
+      "original": "blind-input-hashes.json",
+      "original_sha256": "2355efa3f9c134ff5dae98cd84c6e38884e340913c2292ea9bb1140baba392b7",
+      "published_sha256": "32c1b1450fb0bc272e5c80f05479d31b666a9c960b4a72d57b612edd76032911"
+    },
+    {
+      "file": "blind-review.md",
+      "original": "blind-review.md",
+      "original_sha256": "a8b8c9b09c6504388077d58a3683063b9bd31d27ce1b1263bb6246447faac6ca",
+      "published_sha256": "a8b8c9b09c6504388077d58a3683063b9bd31d27ce1b1263bb6246447faac6ca"
+    }
+  ]
+}

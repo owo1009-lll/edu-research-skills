@@ -1,0 +1,3888 @@
+{
+  "brief": {
+    "example_type": "synthetic manuscript concept; no private data",
+    "journal": {
+      "name": "Australasian Journal of Educational Technology",
+      "publisher": "ASCILITE",
+      "homepage": "https://ajet.org.au/index.php/AJET",
+      "issn": [
+        "1449-5554"
+      ],
+      "evidence": {
+        "url": "https://ajet.org.au/index.php/AJET",
+        "locator": "About the Journal; ISSN cross-checked in journal-hosted editorial https://ajet.org.au/index.php/AJET/article/download/1261/634/4319",
+        "checked_at": "2026-10-13"
+      }
+    },
+    "target_issue": null,
+    "manuscript": {
+      "question": "How do undergraduate writers evaluate and use AI-assisted peer feedback, and when does adoption lead to a substantive revision?",
+      "concepts": [
+        "feedback quality",
+        "feedback uptake",
+        "revision quality",
+        "student agency"
+      ],
+      "theory": "Feedback literacy and self-regulated learning; conceptual choices to be checked against sources",
+      "population": "Undergraduate students writing argumentative essays",
+      "methods": "Planned mixed-method study: feedback/revision coding and stimulated recall; assignment design not yet fixed",
+      "findings": "No data collected. Author position: preserve student judgment and assess revisions, rather than substitute automated comments for learning."
+    },
+    "editors": [
+      {
+        "id": "corrin",
+        "name": "Linda Corrin",
+        "affiliation": "Deakin University",
+        "role": "lead_editor",
+        "status": "current",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Lead Editorial team",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "confirmed",
+          "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+          "evidence": {
+            "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+            "locator": "Full name and institutional affiliation",
+            "checked_at": "2026-10-13"
+          }
+        },
+        "search_terms": [
+          "feedback self-regulated learning"
+        ]
+      },
+      {
+        "id": "deneen",
+        "name": "Chris Deneen",
+        "affiliation": "Adelaide University",
+        "role": "lead_editor",
+        "status": "current",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Lead Editorial team",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "confirmed",
+          "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+          "evidence": {
+            "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+            "locator": "Full name and institutional affiliation",
+            "checked_at": "2026-10-13"
+          }
+        },
+        "search_terms": [
+          "feedback self-regulated learning"
+        ]
+      },
+      {
+        "id": "han",
+        "name": "Feifei Han",
+        "affiliation": "Griffith University",
+        "role": "lead_editor",
+        "status": "current",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Lead Editorial team",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "confirmed",
+          "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+          "evidence": {
+            "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+            "locator": "Full name and institutional affiliation",
+            "checked_at": "2026-10-13"
+          }
+        },
+        "search_terms": [
+          "feedback self-regulated learning"
+        ]
+      },
+      {
+        "id": "huijser",
+        "name": "Henk Huijser",
+        "affiliation": "Queensland University of Technology",
+        "role": "lead_editor",
+        "status": "current",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Lead Editorial team",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "confirmed",
+          "basis": "Official journal lists this full name with this institution; individual paper authorship remains to be matched separately.",
+          "evidence": {
+            "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+            "locator": "Full name and institutional affiliation",
+            "checked_at": "2026-10-13"
+          }
+        },
+        "search_terms": [
+          "feedback self-regulated learning"
+        ]
+      },
+      {
+        "id": "banihashem",
+        "name": "Seyyed Kazem Banihashem",
+        "affiliation": "Maastricht University",
+        "role": "associate_editor",
+        "status": "current",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Associate Editors",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "confirmed",
+          "basis": "Full-name Maastricht profile and research area; ORCID from WUR-hosted author ORCID list, cross-checked against publication metadata.",
+          "evidence": {
+            "url": "https://www.maastrichtuniversity.nl/nl/k-banihashem",
+            "locator": "Full-name profile and AI, feedback, self-regulated learning expertise",
+            "checked_at": "2026-10-13"
+          },
+          "orcid": "0000-0002-9978-3783",
+          "orcid_evidence": {
+            "url": "https://edepot.wur.nl/658826",
+            "locator": "Author ORCID list",
+            "checked_at": "2026-10-13"
+          }
+        },
+        "search_terms": [
+          "Feedback sources essay writing peer-generated AI-generated feedback",
+          "AI assistance peer feedback minimally adopted"
+        ]
+      },
+      {
+        "id": "noroozi",
+        "name": "Omid Noroozi",
+        "affiliation": "Wageningen University and Research",
+        "role": "associate_editor",
+        "status": "current",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Associate Editors",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "confirmed",
+          "basis": "Full name and WUR affiliation on official team; WUR-hosted author ORCID list.",
+          "evidence": {
+            "url": "https://edepot.wur.nl/658826",
+            "locator": "Author bio and ORCID list",
+            "checked_at": "2026-10-13"
+          },
+          "orcid": "0000-0002-0622-289X"
+        },
+        "search_terms": [
+          "feedback self-regulated learning"
+        ]
+      },
+      {
+        "id": "henderson",
+        "name": "Michael Henderson",
+        "role": "lead_editor",
+        "status": "former",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Past AJET Lead Editor / Copyeditors",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "unresolved"
+        },
+        "search_terms": []
+      },
+      {
+        "id": "petrolito",
+        "name": "Antonina Petrolito",
+        "role": "copyeditor",
+        "status": "current",
+        "role_evidence": {
+          "url": "https://ajet.org.au/index.php/AJET/about/editorialTeam",
+          "locator": "Past AJET Lead Editor / Copyeditors",
+          "checked_at": "2026-10-13"
+        },
+        "identity": {
+          "status": "unresolved"
+        },
+        "search_terms": []
+      }
+    ],
+    "queries": {
+      "A": [
+        "generative artificial intelligence feedback higher education",
+        "critical usage automated feedback self-regulating English learners"
+      ],
+      "C": [
+        "student feedback literacy uptake evaluative judgement",
+        "Teacher peer AI Comparing effects feedback sources higher education"
+      ]
+    },
+    "scope_note": "Current team checked on stated date, selected relevant associate editors only. Regular submission: 2026 feedback special issue is recorded separately and is not presumed open."
+  },
+  "queries": [
+    {
+      "stream": "A",
+      "params": {
+        "query.bibliographic": "generative artificial intelligence feedback higher education",
+        "filter": "issn:1449-5554",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.bibliographic=generative+artificial+intelligence+feedback+higher+education&filter=issn%3A1449-5554&rows=5",
+      "retrieved_at": "2026-10-13T11:19:03.913186+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "A",
+      "params": {
+        "query.bibliographic": "critical usage automated feedback self-regulating English learners",
+        "filter": "issn:1449-5554",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.bibliographic=critical+usage+automated+feedback+self-regulating+English+learners&filter=issn%3A1449-5554&rows=5",
+      "retrieved_at": "2026-10-13T11:19:05.488303+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "B",
+      "editor_id": "corrin",
+      "params": {
+        "query.author": "Linda Corrin",
+        "query.bibliographic": "feedback self-regulated learning",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.author=Linda+Corrin&query.bibliographic=feedback+self-regulated+learning&rows=5",
+      "retrieved_at": "2026-10-13T11:19:06.286559+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "B",
+      "editor_id": "deneen",
+      "params": {
+        "query.author": "Chris Deneen",
+        "query.bibliographic": "feedback self-regulated learning",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.author=Chris+Deneen&query.bibliographic=feedback+self-regulated+learning&rows=5",
+      "retrieved_at": "2026-10-13T11:19:07.000432+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "B",
+      "editor_id": "han",
+      "params": {
+        "query.author": "Feifei Han",
+        "query.bibliographic": "feedback self-regulated learning",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.author=Feifei+Han&query.bibliographic=feedback+self-regulated+learning&rows=5",
+      "retrieved_at": "2026-10-13T11:19:07.795945+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "B",
+      "editor_id": "huijser",
+      "params": {
+        "query.author": "Henk Huijser",
+        "query.bibliographic": "feedback self-regulated learning",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.author=Henk+Huijser&query.bibliographic=feedback+self-regulated+learning&rows=5",
+      "retrieved_at": "2026-10-13T11:19:08.848617+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "B",
+      "editor_id": "banihashem",
+      "params": {
+        "query.author": "Seyyed Kazem Banihashem",
+        "query.bibliographic": "Feedback sources essay writing peer-generated AI-generated feedback",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.author=Seyyed+Kazem+Banihashem&query.bibliographic=Feedback+sources+essay+writing+peer-generated+AI-generated+feedback&rows=5",
+      "retrieved_at": "2026-10-13T11:20:27.196650+00:00",
+      "status": "completed",
+      "previous_attempt": {
+        "retrieved_at": "2026-10-13T11:19:09.547669+00:00",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "returned": 5
+    },
+    {
+      "stream": "B",
+      "editor_id": "banihashem",
+      "params": {
+        "query.author": "Seyyed Kazem Banihashem",
+        "query.bibliographic": "AI assistance peer feedback minimally adopted",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.author=Seyyed+Kazem+Banihashem&query.bibliographic=AI+assistance+peer+feedback+minimally+adopted&rows=5",
+      "retrieved_at": "2026-10-13T11:20:28.568760+00:00",
+      "status": "completed",
+      "previous_attempt": {
+        "retrieved_at": "2026-10-13T11:19:10.088148+00:00",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "returned": 5
+    },
+    {
+      "stream": "B",
+      "editor_id": "noroozi",
+      "params": {
+        "query.author": "Omid Noroozi",
+        "query.bibliographic": "feedback self-regulated learning",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.author=Omid+Noroozi&query.bibliographic=feedback+self-regulated+learning&rows=5",
+      "retrieved_at": "2026-10-13T11:19:10.628494+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "C",
+      "params": {
+        "query.bibliographic": "student feedback literacy uptake evaluative judgement",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.bibliographic=student+feedback+literacy+uptake+evaluative+judgement&rows=5",
+      "retrieved_at": "2026-10-13T11:19:11.523487+00:00",
+      "status": "completed",
+      "returned": 5
+    },
+    {
+      "stream": "C",
+      "params": {
+        "query.bibliographic": "Teacher peer AI Comparing effects feedback sources higher education",
+        "rows": 5
+      },
+      "url": "https://api.crossref.org/works?query.bibliographic=Teacher+peer+AI+Comparing+effects+feedback+sources+higher+education&rows=5",
+      "retrieved_at": "2026-10-13T11:19:12.743955+00:00",
+      "status": "completed",
+      "returned": 5
+    }
+  ],
+  "skipped_editors": [
+    {
+      "editor_id": "henderson",
+      "reason": "not a current academic editor"
+    },
+    {
+      "editor_id": "petrolito",
+      "reason": "not a current academic editor"
+    }
+  ],
+  "works": {
+    "10.14742/ajet.10561": {
+      "metadata": {
+        "doi": "10.14742/ajet.10561",
+        "title": "Generative Artificial Intelligence in higher education: A systematic review of student use and learning outcomes",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1937-1587",
+            "authenticated-orcid": false,
+            "given": "Qin",
+            "family": "An",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5626-4927",
+            "authenticated-orcid": false,
+            "given": "Joyce Hwee Ling",
+            "family": "Koh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1412-0615",
+            "authenticated-orcid": false,
+            "given": "Qian",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2026,
+        "registered_years": [
+          2026
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.10561",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.9932": {
+      "metadata": {
+        "doi": "10.14742/ajet.9932",
+        "title": "Generative artificial intelligence-supported programming education: Effects on learning performance, self-efficacy and processes",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1511-8189",
+            "authenticated-orcid": false,
+            "given": "Siran",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiangyue",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qianyan",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.9932",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.8695": {
+      "metadata": {
+        "doi": "10.14742/ajet.8695",
+        "title": "Mapping out a research agenda for generative artificial intelligence in tertiary education",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6330-6160",
+            "authenticated-orcid": false,
+            "given": "Jason M.",
+            "family": "Lodge",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0738-0205",
+            "authenticated-orcid": false,
+            "given": "Kate",
+            "family": "Thompson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1593-3271",
+            "authenticated-orcid": false,
+            "given": "Linda",
+            "family": "Corrin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2023,
+        "registered_years": [
+          2023
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "39",
+        "issue": "1",
+        "pages": "1-8",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.8695",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.10656": {
+      "metadata": {
+        "doi": "10.14742/ajet.10656",
+        "title": "Artificial intelligence literacy among Chinese Master of Education students: Current situation, influencing factors and generative pathways",
+        "authors": [
+          {
+            "given": "Jinrun",
+            "family": "Xu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ruizi",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiarui",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dianshun",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "41",
+        "issue": "6",
+        "pages": "1-17",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.10656",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.10934": {
+      "metadata": {
+        "doi": "10.14742/ajet.10934",
+        "title": "Artificial intelligence in interdisciplinary higher education: A systematic review on opportunities, challenges and future directions",
+        "authors": [
+          {
+            "given": "Qi",
+            "family": "Xia",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zili",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Taiqi",
+            "family": "Xing",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andic",
+            "family": "Branko",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas K.F.",
+            "family": "Chiu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2026,
+        "registered_years": [
+          2026
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.10934",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.8821": {
+      "metadata": {
+        "doi": "10.14742/ajet.8821",
+        "title": "It is like a friend to me: Critical usage of automated feedback systems by self-regulating English learners in higher education",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1105-3963",
+            "authenticated-orcid": false,
+            "given": "Long",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3807-692X",
+            "authenticated-orcid": false,
+            "given": "Mira",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2024,
+        "registered_years": [
+          2024
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.8821",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.3548": {
+      "metadata": {
+        "doi": "10.14742/ajet.3548",
+        "title": "Examining the relationship between English language learners’ online self-regulation and their self-efficacy",
+        "authors": [
+          {
+            "given": "You",
+            "family": "Su",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chunping",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jyh-Chong",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chin-Chung",
+            "family": "Tsai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "34",
+        "issue": "3",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.3548",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.1154": {
+      "metadata": {
+        "doi": "10.14742/ajet.1154",
+        "title": "Improving critical thinking using web based argument mapping exercises with automated feedback",
+        "authors": [
+          {
+            "given": "Sam",
+            "family": "Butchart",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Daniella",
+            "family": "Forster",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ian",
+            "family": "Gold",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "John",
+            "family": "Bigelow",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kevin",
+            "family": "Korb",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Graham",
+            "family": "Oppy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alexandra",
+            "family": "Serrenti",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2009,
+        "registered_years": [
+          2009
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "25",
+        "issue": "2",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.1154",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.1198": {
+      "metadata": {
+        "doi": "10.14742/ajet.1198",
+        "title": "Educators' perceptions of automated feedback systems",
+        "authors": [
+          {
+            "given": "Justin C. W.",
+            "family": "Debuse",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Meredith",
+            "family": "Lawley",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rania",
+            "family": "Shibl",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2008,
+        "registered_years": [
+          2008
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "24",
+        "issue": "4",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.1198",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/ajet.1360": {
+      "metadata": {
+        "doi": "10.14742/ajet.1360",
+        "title": "Automated formative feedback and summative assessment using individualised spreadsheet assignments",
+        "authors": [
+          {
+            "given": "Paul",
+            "family": "Blayney",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mark",
+            "family": "Freeman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2004,
+        "registered_years": [
+          2004
+        ],
+        "venue": "Australasian Journal of Educational Technology",
+        "volume": "20",
+        "issue": "2",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/ajet.1360",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "A"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/apubs.2014.1300": {
+      "metadata": {
+        "doi": "10.14742/apubs.2014.1300",
+        "title": "Exploring students’ interpretation of feedback delivered through learning analytics dashboards",
+        "authors": [
+          {
+            "given": "Linda",
+            "family": "Corrin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Paula",
+            "family": "De Barba",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2014,
+        "registered_years": [
+          2014
+        ],
+        "venue": "ASCILITE Publications",
+        "volume": "",
+        "issue": "",
+        "pages": "629-633",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/apubs.2014.1300",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "corrin"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.4324/9781351136501-13": {
+      "metadata": {
+        "doi": "10.4324/9781351136501-13",
+        "title": "Evaluating Students' Interpretation of Feedback in Interactive Dashboards",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1593-3271",
+            "authenticated-orcid": false,
+            "given": "Linda",
+            "family": "Corrin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018
+        ],
+        "venue": "Score Reporting Research and Applications",
+        "volume": "",
+        "issue": "",
+        "pages": "145-159",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.4324/9781351136501-13",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "corrin"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.4324/9781351113038-13": {
+      "metadata": {
+        "doi": "10.4324/9781351113038-13",
+        "title": "Supporting the use of student-facing learning analytics in the classroom",
+        "authors": [
+          {
+            "given": "Linda",
+            "family": "Corrin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018
+        ],
+        "venue": "Learning Analytics in the Classroom",
+        "volume": "",
+        "issue": "",
+        "pages": "208-220",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.4324/9781351113038-13",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "corrin"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1145/2723576.2723662": {
+      "metadata": {
+        "doi": "10.1145/2723576.2723662",
+        "title": "How do students interpret feedback delivered via dashboards?",
+        "authors": [
+          {
+            "given": "Linda",
+            "family": "Corrin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "The University of Melbourne, Melbourne, Victoria, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Paula",
+            "family": "de Barba",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The University of Melbourne, Melbourne, Victoria, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2015,
+        "registered_years": [
+          2015
+        ],
+        "venue": "Proceedings of the Fifth International Conference on Learning Analytics And Knowledge",
+        "volume": "",
+        "issue": "",
+        "pages": "430-431",
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.1145/2723576.2723662",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "corrin"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.4324/9781003443803-5": {
+      "metadata": {
+        "doi": "10.4324/9781003443803-5",
+        "title": "Self-Regulated Learning from Meta-Assignments",
+        "authors": [
+          {
+            "given": "Linda B.",
+            "family": "Nilson",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2023,
+        "registered_years": [
+          2023
+        ],
+        "venue": "Creating Self-Regulated Learners",
+        "volume": "",
+        "issue": "",
+        "pages": "46-59",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.4324/9781003443803-5",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "corrin"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.24135/pjtel.v7i2.230": {
+      "metadata": {
+        "doi": "10.24135/pjtel.v7i2.230",
+        "title": "Technology and self-regulated learning",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2860-2073",
+            "authenticated-orcid": false,
+            "given": "Chris",
+            "family": "Deneen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Pacific Journal of Technology Enhanced Learning",
+        "volume": "7",
+        "issue": "2",
+        "pages": "27",
+        "type": "journal-article",
+        "url": "https://doi.org/10.24135/pjtel.v7i2.230",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "deneen"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.24135/pjtel.v4i1.135": {
+      "metadata": {
+        "doi": "10.24135/pjtel.v4i1.135",
+        "title": "ePortfolios for self-regulated learning",
+        "authors": [
+          {
+            "given": "Christopher",
+            "family": "Deneen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tracii",
+            "family": "Ryan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mike",
+            "family": "Prosser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2022,
+        "registered_years": [
+          2022
+        ],
+        "venue": "Pacific Journal of Technology Enhanced Learning",
+        "volume": "4",
+        "issue": "1",
+        "pages": "25-26",
+        "type": "journal-article",
+        "url": "https://doi.org/10.24135/pjtel.v4i1.135",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "deneen"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.59453/ll.v4.38": {
+      "metadata": {
+        "doi": "10.59453/ll.v4.38",
+        "title": "Editorial: Artificial intelligence and educational assessment",
+        "authors": [
+          {
+            "given": "Chris",
+            "family": "Deneen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Learning Letters",
+        "volume": "4",
+        "issue": "",
+        "pages": "38",
+        "type": "journal-article",
+        "url": "https://doi.org/10.59453/ll.v4.38",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "deneen"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.37237/110306": {
+      "metadata": {
+        "doi": "10.37237/110306",
+        "title": "Creating a Virtual Writing Center to Support Self-Regulated Learning",
+        "authors": [
+          {
+            "given": "Chris",
+            "family": "Harwood",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Faculty of Liberal Arts, Sophia University, Tokyo, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dennis",
+            "family": "Koyama",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Liberal Arts, Sophia University, Tokyo, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2020,
+        "registered_years": [
+          2020
+        ],
+        "venue": "Studies in Self-Access Learning Journal",
+        "volume": "",
+        "issue": "",
+        "pages": "164-186",
+        "type": "journal-article",
+        "url": "https://doi.org/10.37237/110306",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "deneen"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.63608/ssj.3766": {
+      "metadata": {
+        "doi": "10.63608/ssj.3766",
+        "title": "Transition Pedagogy in the Age of AI: The Role of Self-Regulated Learning",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3517-8269",
+            "authenticated-orcid": false,
+            "given": "Lisa-Angelique",
+            "family": "Lim",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8840-0719",
+            "authenticated-orcid": false,
+            "given": "Louise",
+            "family": "Ainscough",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2860-2073",
+            "authenticated-orcid": false,
+            "given": "Chris",
+            "family": "Deneen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-1083-7128",
+            "authenticated-orcid": false,
+            "given": "Helena",
+            "family": "Pacitti",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9285-5705",
+            "authenticated-orcid": false,
+            "given": "Daniel",
+            "family": "Taylor-Griffiths",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9852-3077",
+            "authenticated-orcid": false,
+            "given": "Sally A",
+            "family": "Male",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7318-2464",
+            "authenticated-orcid": false,
+            "given": "Sarah",
+            "family": "Frankland",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Student Success",
+        "volume": "16",
+        "issue": "3",
+        "pages": "57-66",
+        "type": "journal-article",
+        "url": "https://doi.org/10.63608/ssj.3766",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "deneen"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.3390/su17219495": {
+      "metadata": {
+        "doi": "10.3390/su17219495",
+        "title": "Sustainable Lifelong Learning Competence: Understanding University Students’ Self-Regulated Learning in Flipped Classrooms by Combining Questionnaire and Learning Analytics Data",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8464-0854",
+            "authenticated-orcid": false,
+            "given": "Feifei",
+            "family": "Han",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Griffith Institute for Educational Research, Level 2, Macrossan Building (N16), Nathan Campus, Griffith University, Brisbane, QLD 4111, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Sustainability",
+        "volume": "17",
+        "issue": "21",
+        "pages": "9495",
+        "type": "journal-article",
+        "url": "https://doi.org/10.3390/su17219495",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "han"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1007/s10639-023-11698-5": {
+      "metadata": {
+        "doi": "10.1007/s10639-023-11698-5",
+        "title": "Self-reported and digital-trace measures of computer science students’ self-regulated learning in blended course designs",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8464-0854",
+            "authenticated-orcid": false,
+            "given": "Feifei",
+            "family": "Han",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8781-3316",
+            "authenticated-orcid": false,
+            "given": "Robert A.",
+            "family": "Ellis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2023,
+        "registered_years": [
+          2023
+        ],
+        "venue": "Education and Information Technologies",
+        "volume": "28",
+        "issue": "10",
+        "pages": "13253-13268",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1007/s10639-023-11698-5",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "han"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1109/tlt.2016.2639508": {
+      "metadata": {
+        "doi": "10.1109/tlt.2016.2639508",
+        "title": "Combining University Student Self-Regulated Learning Indicators and Engagement with Online Learning Events to Predict Academic Performance",
+        "authors": [
+          {
+            "given": "Abelardo",
+            "family": "Pardo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Feifei",
+            "family": "Han",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Robert A.",
+            "family": "Ellis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2017,
+        "registered_years": [
+          2017
+        ],
+        "venue": "IEEE Transactions on Learning Technologies",
+        "volume": "10",
+        "issue": "1",
+        "pages": "82-92",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tlt.2016.2639508",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "han"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.3389/fpsyg.2022.1001202": {
+      "metadata": {
+        "doi": "10.3389/fpsyg.2022.1001202",
+        "title": "The relations between Czech undergraduates’ motivation and emotion in self-regulated learning, learning engagement, and academic success in blended course designs: Consistency between theory-driven and data-driven approaches",
+        "authors": [
+          {
+            "given": "Feifei",
+            "family": "Han",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jitka",
+            "family": "Vaculíková",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kateřina",
+            "family": "Juklová",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2022,
+        "registered_years": [
+          2022
+        ],
+        "venue": "Frontiers in Psychology",
+        "volume": "13",
+        "issue": "",
+        "pages": "1001202",
+        "type": "journal-article",
+        "url": "https://doi.org/10.3389/fpsyg.2022.1001202",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "han"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1080/10494820.2023.2215288": {
+      "metadata": {
+        "doi": "10.1080/10494820.2023.2215288",
+        "title": "The profiles of Chinese university students’ learning experience in flipped classrooms: combining the self-reported and process data",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8464-0854",
+            "authenticated-orcid": false,
+            "given": "Feifei",
+            "family": "Han",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Australian Catholic University",
+                "place": [
+                  "Brisbane, Australia"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2023,
+        "registered_years": [
+          2023,
+          2024
+        ],
+        "venue": "Interactive Learning Environments",
+        "volume": "32",
+        "issue": "9",
+        "pages": "5433-5444",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/10494820.2023.2215288",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "han"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1080/03075070903519210": {
+      "metadata": {
+        "doi": "10.1080/03075070903519210",
+        "title": "Exploring the combined relationships of student and teacher factors on learning approaches and self‐directed learning readiness at a Malaysian university",
+        "authors": [
+          {
+            "given": "Megan",
+            "family": "Kek",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Henk",
+            "family": "Huijser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2011,
+        "registered_years": [
+          2011
+        ],
+        "venue": "Studies in Higher Education",
+        "volume": "36",
+        "issue": "2",
+        "pages": "185-208",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/03075070903519210",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "huijser"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.18538/lthe.v15.n1.293": {
+      "metadata": {
+        "doi": "10.18538/lthe.v15.n1.293",
+        "title": "Write to improve: exploring the impact of an automated feedback tool on Bahraini learners of English",
+        "authors": [
+          {
+            "given": "Fatema",
+            "family": "Wali",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Henk",
+            "family": "Huijser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018
+        ],
+        "venue": "Learning and Teaching in Higher Education: Gulf Perspectives",
+        "volume": "15",
+        "issue": "1",
+        "pages": "14-34",
+        "type": "journal-article",
+        "url": "https://doi.org/10.18538/lthe.v15.n1.293",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "huijser"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.4018/978-1-59904-861-1.ch040": {
+      "metadata": {
+        "doi": "10.4018/978-1-59904-861-1.ch040",
+        "title": "Designing Learning Objects for Generic Web Sites",
+        "authors": [
+          {
+            "given": "Henk",
+            "family": "Huijser",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Southern Queensland, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2009,
+        "registered_years": [
+          2009
+        ],
+        "venue": "Handbook of Research on Learning Design and Learning Objects",
+        "volume": "",
+        "issue": "",
+        "pages": "808-826",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.4018/978-1-59904-861-1.ch040",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "huijser"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.5172/ijpl.2.1.22": {
+      "metadata": {
+        "doi": "10.5172/ijpl.2.1.22",
+        "title": "Refocusing Multiliteracies for the Net Generation",
+        "authors": [
+          {
+            "given": "Henk",
+            "family": "Huijser",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2006,
+        "registered_years": [
+          2006,
+          2014
+        ],
+        "venue": "International Journal of Pedagogies and Learning",
+        "volume": "2",
+        "issue": "1",
+        "pages": "22-34",
+        "type": "journal-article",
+        "url": "https://doi.org/10.5172/ijpl.2.1.22",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "huijser"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.53761/1.16.4.7": {
+      "metadata": {
+        "doi": "10.53761/1.16.4.7",
+        "title": "Using “just in time” online feedback to improve first year undergraduate nursing students’ essay writing performance",
+        "authors": [
+          {
+            "given": "Lisa",
+            "family": "Beccaria",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Megan",
+            "family": "Kek",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Henk",
+            "family": "Huijser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2019,
+        "registered_years": [
+          2019
+        ],
+        "venue": "Journal of University Teaching and Learning Practice",
+        "volume": "16",
+        "issue": "4",
+        "pages": "",
+        "type": "journal-article",
+        "url": "https://doi.org/10.53761/1.16.4.7",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "huijser"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.3102/2185908": {
+      "metadata": {
+        "doi": "10.3102/2185908",
+        "title": "Students’ Self-Regulation and Learning Satisfaction in an Online Peer Feedback Setting",
+        "authors": [
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Proceedings of the 2025 AERA Annual Meeting",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.3102/2185908",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "noroozi"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1016/j.chb.2019.07.020": {
+      "metadata": {
+        "doi": "10.1016/j.chb.2019.07.020",
+        "title": "Multidisciplinary innovations and technologies for facilitation of self-regulated learning",
+        "authors": [
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sanna",
+            "family": "Järvelä",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Paul A.",
+            "family": "Kirschner",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2019,
+        "registered_years": [
+          2019
+        ],
+        "venue": "Computers in Human Behavior",
+        "volume": "100",
+        "issue": "",
+        "pages": "295-297",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.chb.2019.07.020",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "noroozi"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1080/10494820.2020.1799032": {
+      "metadata": {
+        "doi": "10.1080/10494820.2020.1799032",
+        "title": "Worked example or scripting? Fostering students’ online argumentative peer feedback, essay writing and learning",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0420-7474",
+            "authenticated-orcid": false,
+            "given": "Saeed",
+            "family": "Latifi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Educational Technology, Kharazmi University, Tehran, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0622-289X",
+            "authenticated-orcid": false,
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Education and Learning Sciences, Wageningen University and Research, Wageningen, The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7954-9888",
+            "authenticated-orcid": false,
+            "given": "Ebrahim",
+            "family": "Talaee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Education, Tarbiat Modares University, Tehran, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2020,
+        "registered_years": [
+          2020,
+          2023
+        ],
+        "venue": "Interactive Learning Environments",
+        "volume": "31",
+        "issue": "2",
+        "pages": "655-669",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/10494820.2020.1799032",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "noroozi"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1080/14703297.2018.1431143": {
+      "metadata": {
+        "doi": "10.1080/14703297.2018.1431143",
+        "title": "The effects of online peer feedback and epistemic beliefs on students’ argumentation-based learning",
+        "authors": [
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Faculty of Humanities, Tarbiat Modares University, Tehran, Iran"
+              },
+              {
+                "name": "Education and Learning Sciences, Wageningen University, Wageningen, The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Javad",
+            "family": "Hatami",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Humanities, Tarbiat Modares University, Tehran, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018,
+          2019
+        ],
+        "venue": "Innovations in Education and Teaching International",
+        "volume": "56",
+        "issue": "5",
+        "pages": "548-557",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/14703297.2018.1431143",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "noroozi"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.3102/1569545": {
+      "metadata": {
+        "doi": "10.3102/1569545",
+        "title": "Instructional Supports and Learning Outcomes of Argumentation Game-Based Learning",
+        "authors": [
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2020,
+        "registered_years": [
+          2020
+        ],
+        "venue": "Proceedings of the 2020 AERA Annual Meeting",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.3102/1569545",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "noroozi"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.4324/9781315109251-18": {
+      "metadata": {
+        "doi": "10.4324/9781315109251-18",
+        "title": "Building evaluative judgement through the process of feedback",
+        "authors": [
+          {
+            "given": "Christina",
+            "family": "Johnson",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Elizabeth",
+            "family": "Molloy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018
+        ],
+        "venue": "Developing Evaluative Judgement in Higher Education",
+        "volume": "",
+        "issue": "",
+        "pages": "166-175",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.4324/9781315109251-18",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.14742/apubs.2024.1116": {
+      "metadata": {
+        "doi": "10.14742/apubs.2024.1116",
+        "title": "Exploring the Impact of Student-Elicited Video Feedback on Evaluative Judgement",
+        "authors": [
+          {
+            "given": "Jimena",
+            "family": "De Mello Heredia",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Michael",
+            "family": "Henderson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Michael",
+            "family": "Phillips",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2024,
+        "registered_years": [
+          2024
+        ],
+        "venue": "ASCILITE Publications",
+        "volume": "",
+        "issue": "",
+        "pages": "66-75",
+        "type": "journal-article",
+        "url": "https://doi.org/10.14742/apubs.2024.1116",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.4324/9781315109251-8": {
+      "metadata": {
+        "doi": "10.4324/9781315109251-8",
+        "title": "Understanding, assessing and enhancing student evaluative judgement in digital environments",
+        "authors": [
+          {
+            "given": "Jason M.",
+            "family": "Lodge",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gregor",
+            "family": "Kennedy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "John",
+            "family": "Hattie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2018,
+        "registered_years": [
+          2018
+        ],
+        "venue": "Developing Evaluative Judgement in Higher Education",
+        "volume": "",
+        "issue": "",
+        "pages": "70-78",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.4324/9781315109251-8",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1007/s10734-019-00469-2": {
+      "metadata": {
+        "doi": "10.1007/s10734-019-00469-2",
+        "title": "Developing student competence through peer assessment: the role of feedback, self-regulation and evaluative judgement",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4513-702X",
+            "authenticated-orcid": false,
+            "given": "María Soledad",
+            "family": "Ibarra-Sáiz",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9337-1270",
+            "authenticated-orcid": false,
+            "given": "Gregorio",
+            "family": "Rodríguez-Gómez",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6883-2722",
+            "authenticated-orcid": false,
+            "given": "David",
+            "family": "Boud",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2020,
+        "registered_years": [
+          2020
+        ],
+        "venue": "Higher Education",
+        "volume": "80",
+        "issue": "1",
+        "pages": "137-156",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1007/s10734-019-00469-2",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1007/978-3-030-25112-3_8": {
+      "metadata": {
+        "doi": "10.1007/978-3-030-25112-3_8",
+        "title": "Operationalising Dialogic Feedback to Develop Students’ Evaluative Judgement and Enactment of Feedback",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7475-0299",
+            "authenticated-orcid": false,
+            "given": "Edd",
+            "family": "Pitt",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2019,
+        "registered_years": [
+          2019
+        ],
+        "venue": "The Impact of Feedback in Higher Education",
+        "volume": "",
+        "issue": "",
+        "pages": "129-146",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.1007/978-3-030-25112-3_8",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.31234/osf.io/h6nmz_v1": {
+      "metadata": {
+        "doi": "10.31234/osf.io/h6nmz_v1",
+        "title": "Teacher, Peer, or AI? Comparing Effects of Feedback Sources in Higher Education",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1926-5127",
+            "authenticated-orcid": true,
+            "given": "Joshua",
+            "family": "Weidlich",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "type": "posted-content",
+        "url": "https://doi.org/10.31234/osf.io/h6nmz_v1",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1016/j.caeo.2025.100300": {
+      "metadata": {
+        "doi": "10.1016/j.caeo.2025.100300",
+        "title": "Teacher, peer, or AI? Comparing effects of feedback sources in higher education",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1926-5127",
+            "authenticated-orcid": false,
+            "given": "Joshua",
+            "family": "Weidlich",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Flurin",
+            "family": "Gotsch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kai",
+            "family": "Schudel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Claudia",
+            "family": "Marusic-Würscher",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jennifer",
+            "family": "Mazzarella",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hannah",
+            "family": "Bolten",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dario",
+            "family": "Bütler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Simon",
+            "family": "Luger",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bettina",
+            "family": "Wohlfender",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Katharina Maag",
+            "family": "Merki",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2025,
+        "registered_years": [
+          2025
+        ],
+        "venue": "Computers and Education Open",
+        "volume": "9",
+        "issue": "",
+        "pages": "100300",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.caeo.2025.100300",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1080/02602938.2026.2661357": {
+      "metadata": {
+        "doi": "10.1080/02602938.2026.2661357",
+        "title": "Teacher and peer feedback effects on student feedback literacy in disciplinary academic writing",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2915-4970",
+            "authenticated-orcid": false,
+            "given": "Jianda",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Center for Linguistics and Applied Linguistics, Guangdong University of Foreign Studies",
+                "place": [
+                  "Guangzhou, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7760-465X",
+            "authenticated-orcid": false,
+            "given": "Zihao",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Center for Linguistics and Applied Linguistics, Guangdong University of Foreign Studies",
+                "place": [
+                  "Guangzhou, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-8954-3178",
+            "authenticated-orcid": false,
+            "given": "Wanqing",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Foreign Languages and Literatures, Tsinghua University",
+                "place": [
+                  "Beijing, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "year": 2026,
+        "registered_years": [
+          2026
+        ],
+        "venue": "Assessment & Evaluation in Higher Education",
+        "volume": "",
+        "issue": "",
+        "pages": "1-19",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/02602938.2026.2661357",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.4018/979-8-2600-1458-5.ch010": {
+      "metadata": {
+        "doi": "10.4018/979-8-2600-1458-5.ch010",
+        "title": "Accurate or Artificial?",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4900-3635",
+            "authenticated-orcid": true,
+            "given": "Ahmed M.",
+            "family": "Alaa",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Badr University in Cairo, Egypt"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2026,
+        "registered_years": [
+          2026
+        ],
+        "venue": "Advances in Computational Intelligence and Robotics",
+        "volume": "",
+        "issue": "",
+        "pages": "247-264",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.4018/979-8-2600-1458-5.ch010",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1016/j.iheduc.2024.100962": {
+      "metadata": {
+        "doi": "10.1016/j.iheduc.2024.100962",
+        "title": "Effects of an AI-supported approach to peer feedback on university EFL students' feedback quality and writing ability",
+        "authors": [
+          {
+            "given": "Kai",
+            "family": "Guo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mengru",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuanke",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chun",
+            "family": "Lai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2024,
+        "registered_years": [
+          2024
+        ],
+        "venue": "The Internet and Higher Education",
+        "volume": "63",
+        "issue": "",
+        "pages": "100962",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.iheduc.2024.100962",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "C"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1186/s41239-024-00455-4": {
+      "metadata": {
+        "doi": "10.1186/s41239-024-00455-4",
+        "title": "Feedback sources in essay writing: peer-generated or AI-generated feedback?",
+        "authors": [
+          {
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nafiseh Taghizadeh",
+            "family": "Kerman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jewoong",
+            "family": "Moon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hendrik",
+            "family": "Drachsler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2024,
+        "registered_years": [
+          2024
+        ],
+        "venue": "International Journal of Educational Technology in Higher Education",
+        "volume": "21",
+        "issue": "1",
+        "pages": "23",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1186/s41239-024-00455-4",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "banihashem"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1080/10494820.2023.2215822": {
+      "metadata": {
+        "doi": "10.1080/10494820.2023.2215822",
+        "title": "How does the type of online peer feedback influence feedback quality, argumentative essay writing quality, and domain-specific learning?",
+        "authors": [
+          {
+            "given": "Anahuac",
+            "family": "Valero Haro",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research",
+                "place": [
+                  "Wageningen, Netherlands"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0622-289X",
+            "authenticated-orcid": false,
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research",
+                "place": [
+                  "Wageningen, Netherlands"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2955-8211",
+            "authenticated-orcid": false,
+            "given": "Harm J. A.",
+            "family": "Biemans",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research",
+                "place": [
+                  "Wageningen, Netherlands"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Mulder",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research",
+                "place": [
+                  "Wageningen, Netherlands"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9978-3783",
+            "authenticated-orcid": false,
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research",
+                "place": [
+                  "Wageningen, Netherlands"
+                ]
+              },
+              {
+                "name": "Open Universiteit",
+                "place": [
+                  "Heerlen, Netherlands"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2023,
+        "registered_years": [
+          2023,
+          2024
+        ],
+        "venue": "Interactive Learning Environments",
+        "volume": "32",
+        "issue": "9",
+        "pages": "5459-5478",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/10494820.2023.2215822",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "banihashem"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1111/bjet.13558": {
+      "metadata": {
+        "doi": "10.1111/bjet.13558",
+        "title": "Assessing student perceptions and use of instructor versus AI ‐generated feedback",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9624-4055",
+            "authenticated-orcid": false,
+            "given": "Erkan",
+            "family": "Er",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Education and Instructional Technology Middle East Technical University  Ankara Turkey"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0742-1612",
+            "authenticated-orcid": false,
+            "given": "Gökhan",
+            "family": "Akçapınar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Education and Instructional Technology Hacettepe University  Ankara Turkey"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6860-4404",
+            "authenticated-orcid": false,
+            "given": "Alper",
+            "family": "Bayazıt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Medical Education and Informatics Ankara University  Ankara Turkey"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0622-289X",
+            "authenticated-orcid": false,
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Omid Noroozi: Education and Learning Science Group Wageningen University and Research  Wageningen The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9978-3783",
+            "authenticated-orcid": false,
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Omid Noroozi: Education and Learning Science Group Wageningen University and Research  Wageningen The Netherlands"
+              },
+              {
+                "name": "Seyyed Kazem Banihashem: Online Learning and Instruction Open Universiteit  Heerlen The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2024,
+        "registered_years": [
+          2024,
+          2025
+        ],
+        "venue": "British Journal of Educational Technology",
+        "volume": "56",
+        "issue": "3",
+        "pages": "1074-1091",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1111/bjet.13558",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "banihashem"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1080/10494820.2022.2093914": {
+      "metadata": {
+        "doi": "10.1080/10494820.2022.2093914",
+        "title": "Online peer feedback patterns of success and failure in argumentative essay writing",
+        "authors": [
+          {
+            "given": "Nafiseh Taghizadeh",
+            "family": "Kerman",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Ferdowsi University of Mashhad, Mashhad, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0622-289X",
+            "authenticated-orcid": false,
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research, Wageningen, The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9978-3783",
+            "authenticated-orcid": false,
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research, Wageningen, The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Morteza",
+            "family": "Karami",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ferdowsi University of Mashhad, Mashhad, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2955-8211",
+            "authenticated-orcid": false,
+            "given": "Harm J.A.",
+            "family": "Biemans",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wageningen University and Research, Wageningen, The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2022,
+        "registered_years": [
+          2022,
+          2024
+        ],
+        "venue": "Interactive Learning Environments",
+        "volume": "32",
+        "issue": "2",
+        "pages": "614-626",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1080/10494820.2022.2093914",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "banihashem"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1007/978-3-031-29411-2_16": {
+      "metadata": {
+        "doi": "10.1007/978-3-031-29411-2_16",
+        "title": "The Relationship Among Students’ Attitude Towards Peer Feedback, Peer Feedback Performance, and Uptake",
+        "authors": [
+          {
+            "given": "Nafiseh Taghizadeh",
+            "family": "Kerman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2023,
+        "registered_years": [
+          2023
+        ],
+        "venue": "Social Interaction in Learning and Development",
+        "volume": "",
+        "issue": "",
+        "pages": "347-371",
+        "type": "book-chapter",
+        "url": "https://doi.org/10.1007/978-3-031-29411-2_16",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "banihashem"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1016/j.compedu.2026.105591": {
+      "metadata": {
+        "doi": "10.1016/j.compedu.2026.105591",
+        "title": "AI assistance in peer feedback provision: Pedagogically sound, but minimally adopted",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4451-9181",
+            "authenticated-orcid": false,
+            "given": "Stanislav",
+            "family": "Pozdniakov",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6669-2076",
+            "authenticated-orcid": false,
+            "given": "Jonathan",
+            "family": "Brazil",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9978-3783",
+            "authenticated-orcid": false,
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0622-289X",
+            "authenticated-orcid": false,
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9265-1908",
+            "authenticated-orcid": false,
+            "given": "Dragan",
+            "family": "Gašević",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6739-4145",
+            "authenticated-orcid": false,
+            "given": "Shazia",
+            "family": "Sadiq",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8664-6117",
+            "authenticated-orcid": false,
+            "given": "Hassan",
+            "family": "Khosravi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2026,
+        "registered_years": [
+          2026
+        ],
+        "venue": "Computers & Education",
+        "volume": "248",
+        "issue": "",
+        "pages": "105591",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.compedu.2026.105591",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "banihashem"
+        }
+      ],
+      "reading": "metadata_only"
+    },
+    "10.1016/j.learninstruc.2026.102428": {
+      "metadata": {
+        "doi": "10.1016/j.learninstruc.2026.102428",
+        "title": "Understanding peer feedback uptake: The role of perceived peer feedback literacy and situational factors",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0841-1686",
+            "authenticated-orcid": false,
+            "given": "Xingshi",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christian D.",
+            "family": "Schunn",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Omid",
+            "family": "Noroozi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Judith",
+            "family": "Gulikers",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Harm J.A.",
+            "family": "Biemans",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Seyyed Kazem",
+            "family": "Banihashem",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "year": 2026,
+        "registered_years": [
+          2026
+        ],
+        "venue": "Learning and Instruction",
+        "volume": "105",
+        "issue": "",
+        "pages": "102428",
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.learninstruc.2026.102428",
+        "update_to": [],
+        "relation": {}
+      },
+      "found_by": [
+        {
+          "stream": "B",
+          "candidate_editor_id": "banihashem"
+        }
+      ],
+      "reading": "metadata_only"
+    }
+  },
+  "status": "completed",
+  "scope": "Bounded candidate discovery, not systematic coverage. B hits do not establish editor authorship."
+}

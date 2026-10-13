@@ -18,6 +18,7 @@ description: Plan education research and coordinate multi-step projects - topics
    | 访谈、观察、开放题，要主题分析、内容分析或扎根理论编码 | edu-qual |
    | 已发表论文或自己稿件里的统计结果，要核对、复算或检查报告是否规范 | edu-audit |
    | 要写或改论文的某一部分、整篇论文、文献综合、讨论，或润色 | edu-writing |
+   | 指定目标期刊，按该刊修改或找编辑团队相关研究 | edu-writing的 [目标期刊检索](../edu-writing/references/target-journal.md) |
    | 要汇报自己的论文、方案或进展；解读文章、按选题找文章做组会PPT；只要逐页内容和讲稿 | edu-ppt |
    | 要写课题申报书、活页或开题报告 | edu-proposal |
    | 稿件或申报书写好了，投稿前想知道审稿人会挑什么毛病 | edu-review |

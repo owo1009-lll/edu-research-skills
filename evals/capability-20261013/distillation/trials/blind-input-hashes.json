@@ -1,0 +1,90 @@
+{
+  "H1-writing/A.md": {
+    "sha256": "0ff60096371ca6ecc1b43a3e8978648e18d071b473d2739b73b34e6516c5a5fd",
+    "inputs": [
+      {
+        "file": "runs/arm-q/H1-writing/final.md",
+        "sha256": "0365805f1037bc700005eb4640aca04c9ef0e689326ccd026b305da8a5623b60"
+      }
+    ]
+  },
+  "H1-writing/B.md": {
+    "sha256": "ff157bd0eff89cace3eec135bfc6aee1d2b650c473f337a0e665d19e8f034249",
+    "inputs": [
+      {
+        "file": "runs/arm-p/H1-writing/final.md",
+        "sha256": "c660b33fc9e369fd87a59bcadc1a6587a9a5889626ae47de9c324648976171c2"
+      }
+    ]
+  },
+  "H2-writing/A.md": {
+    "sha256": "47a29bfa05f9608b26b561c5ddb5605b6c15d1c62fc37ca252e386382ea379de",
+    "inputs": [
+      {
+        "file": "runs/arm-q/H2-writing/final.md",
+        "sha256": "13e339cf78ab5897e80070f1ba98f0ccc8e07db323f88bc8fd34b5a16a5ddcb6"
+      }
+    ]
+  },
+  "H2-writing/B.md": {
+    "sha256": "216550ac39fd4470f4517d30bf6fb5424735aee0763efdcf60981667a6577113",
+    "inputs": [
+      {
+        "file": "runs/arm-p/H2-writing/final.md",
+        "sha256": "4d00a97d3c8f9e4424e615fa79f032a1e9dd2cfe07bf69d5095a21c0a4785ec4"
+      }
+    ]
+  },
+  "H1-ppt/A.md": {
+    "sha256": "24a46d4b6fde56b84486dc96e3c6b3fab339074d7e3f9d04b4eb92c84d81730c",
+    "inputs": [
+      {
+        "file": "runs/arm-p/H1-ppt/deck/content.md",
+        "sha256": "4654860231c91d491cae64c6991977ad76b61d2d38c5ef255070bf315e6d2f68"
+      },
+      {
+        "file": "runs/arm-p/H1-ppt/deck/speaker_notes.md",
+        "sha256": "bc4bd9aa69d068bdb32885e934d7e13c26ad654f32b5ffb68bbd23949b9ebff9"
+      }
+    ]
+  },
+  "H1-ppt/B.md": {
+    "sha256": "2b80985c7becd88e3f13e8c4bb2ea3576ec8c2d1720daee274a6d3f3cbfa0b07",
+    "inputs": [
+      {
+        "file": "runs/arm-q/H1-ppt/deck/content.md",
+        "sha256": "9ff69a43ed91cf5f33ec88b114aee6ce3a8a6a21404cc941b783b13dba5eacee"
+      },
+      {
+        "file": "runs/arm-q/H1-ppt/deck/speaker_notes.md",
+        "sha256": "6ceb1fa195fcc6838e5ed6934a9e03b49f298d8651c1b2dd49f7bbe11af32d16"
+      }
+    ]
+  },
+  "H3-ppt/A.md": {
+    "sha256": "297dc154fbb60ec609a431087dc6885a352f7ce37034d074d27822135c55fc94",
+    "inputs": [
+      {
+        "file": "runs/arm-p/H3-ppt/deck/content.md",
+        "sha256": "e61e33a0a35f13cc789849041c7eb5020830d656cf9e7a8b77befbf9b6abeb02"
+      },
+      {
+        "file": "runs/arm-p/H3-ppt/deck/speaker_notes.md",
+        "sha256": "4fa708ce9434e5e815b97841bdbcb128f3f4d4218f102bed9bc8b12dad0cbd5d"
+      }
+    ]
+  },
+  "H3-ppt/B.md": {
+    "sha256": "d3e8bba75358b34da051d7845682f0a27a2c3ff2159fb92ec5b121eb3f5d70d2",
+    "inputs": [
+      {
+        "file": "runs/arm-q/H3-ppt/deck/content.md",
+        "sha256": "a4a1b3fdf523a115b6273e265a63d4dec59d9aad2697926f21dd9ab87dfa83cb"
+      },
+      {
+        "file": "runs/arm-q/H3-ppt/deck/speaker_notes.md",
+        "sha256": "3d770377c5f3a228bf533fdf305abeb154870cb3e7b0dad527536c68a988989a"
+      }
+    ]
+  }
+}

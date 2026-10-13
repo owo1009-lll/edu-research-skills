@@ -9,6 +9,8 @@ description: Prepare education research presentations with source-linked slide t
 
 ## 选择路线和交付
 
+路线A中用户指定目标期刊、需要定位贡献时，可复用edu-writing的 [目标期刊检索](../edu-writing/references/target-journal.md) 及已核实文献。路线B不默认检索编辑团队。
+
 | 用户目的 | 路线 |
 |---|---|
 | 我的论文、研究方案、阶段进展、答辩或会议汇报 | A：[自己的研究](references/own-research.md)，先区分完成、方案、进展 |

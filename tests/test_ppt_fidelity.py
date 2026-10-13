@@ -255,6 +255,119 @@ class FidelityTests(unittest.TestCase):
         self.assertEqual(report['source_fact_check'], 'not_performed')
         self.assertEqual(report['visual_review'], 'not_performed')
 
+    def test_individual_label_text_format_and_visibility(self):
+        from chart_labels import apply_spec, label_spec
+        for mutation in ('text', 'point_format', 'series_format', 'hidden', 'category'):
+            with self.subTest(mutation=mutation):
+                visual = copy.deepcopy(self.base['slides'][1]['visual'])
+                path, pptx, prs = self.deck(visual=visual)
+                chart = self.obj(prs, 'visual/chart').chart
+                series = chart.series[0]
+                group = series._element.get_or_add_dLbls()
+                apply_spec(group, label_spec(visual))
+                point = series.points[0].data_label._get_or_add_dLbl()
+                apply_spec(point, label_spec(visual), point=True)
+                if mutation == 'text':
+                    series.points[0].data_label.text_frame.text = '999'
+                    self.assertEqual(series.values[0], 12)
+                elif mutation == 'point_format':
+                    point.xpath('./c:numFmt')[0].set('formatCode', '0%')
+                elif mutation == 'series_format':
+                    group.get_or_add_numFmt().set('formatCode', '0%')
+                elif mutation == 'hidden':
+                    apply_spec(point, dict(label_spec(visual), visible=False), point=True)
+                else:
+                    point.xpath('./c:showCatName')[0].set('val', '1')
+                self.rejected(path, pptx, prs, {'text': 'custom label text', 'hidden': 'label visibility',
+                                             'category': 'label content'}.get(mutation, 'number format'))
+
+    def test_legal_label_components_percent_and_point_overrides(self):
+        from chart_labels import expected_text, label_spec, apply_spec
+        for settings, values in [
+            ({'number_format': '0.0'}, [12, 8]),
+            ({'number_format': '0.0%', 'unit': '原始比例0–1；标签百分比'}, [.12, .08]),
+            ({'number_format': '0"%"', 'unit': '百分数'}, [12, 8]),
+            ({'number_format': '#,##0.00'}, [1234, 987]),
+            ({'label_content': ['category']}, [12, 8]),
+            ({'label_content': ['series', 'category', 'value'], 'label_separator': ' / '}, [12, 8]),
+            ({'label_overrides': [{'series':0, 'point':0, 'number_format':'0.00', 'content':['category','value'], 'separator':': '}]}, [12, 8]),
+            ({'label_overrides': [{'series':0, 'point':1, 'visible':False}]}, [12, 8]),
+            ({'labels':False, 'label_overrides': [{'series':0, 'point':0, 'visible':True}]}, [12, 8]),
+        ]:
+            with self.subTest(settings=settings):
+                visual = copy.deepcopy(self.base['slides'][1]['visual'])
+                visual.update(settings)
+                visual['series'][0]['values'] = values
+                path, pptx, prs = self.deck(visual=visual)
+                chart = self.obj(prs, 'visual/chart').chart
+                apply_spec(chart.series[0]._element.get_or_add_dLbls(), label_spec(visual))
+                point = chart.series[0].points[0].data_label
+                apply_spec(point._get_or_add_dLbl(), label_spec(visual, 0, 0), point=True)
+                point.text_frame.text = expected_text(visual, 0, 0, label_spec(visual, 0, 0))
+                prs.save(pptx)
+                self.assertEqual(check(pptx, path)['errors'], [])
+        # Automatic complex Excel formats can be checked by their declared
+        # format; custom literals in those formats must not be guessed.
+        visual = copy.deepcopy(self.base['slides'][1]['visual'])
+        visual['number_format'] = '[>=10]0.0;0.00'
+        path, pptx, prs = self.deck(visual=visual)
+        self.obj(prs, 'visual/chart').chart.series[0].points[0].data_label.text_frame.text = '12.0'
+        self.rejected(path, pptx, prs, 'unverified.custom label format')
+
+    def test_unsupported_label_sources_are_reported_unverified(self):
+        from pptx.oxml.xmlchemy import OxmlElement
+        from chart_labels import apply_spec, label_spec
+        for mutation in ('linked', 'reference', 'field', 'extension', 'index', 'series_reset'):
+            with self.subTest(mutation=mutation):
+                visual = copy.deepcopy(self.base['slides'][1]['visual'])
+                path, pptx, prs = self.deck(visual=visual)
+                series = self.obj(prs, 'visual/chart').chart.series[0]
+                apply_spec(series._element.get_or_add_dLbls(), label_spec(visual))
+                point = series.points[0].data_label
+                node = point._get_or_add_dLbl()
+                apply_spec(node, label_spec(visual), point=True)
+                if mutation == 'linked':
+                    node.xpath('./c:numFmt')[0].set('sourceLinked', '1')
+                elif mutation == 'reference':
+                    tx = OxmlElement('c:tx'); ref = OxmlElement('c:strRef'); tx.append(ref); node.append(tx)
+                elif mutation == 'field':
+                    point.text_frame.text = '12'
+                    field = OxmlElement('a:fld'); field.set('id', 'dynamic'); field.set('type', 'VALUE')
+                    node.xpath('./c:tx/c:rich/a:p')[0].append(field)
+                elif mutation == 'extension':
+                    node.append(OxmlElement('c:extLst'))
+                elif mutation == 'series_reset':
+                    group = series._element.get_or_add_dLbls()
+                    for element in group.xpath('./c:numFmt|./c:dLbl'):
+                        group.remove(element)
+                else:
+                    node.xpath('./c:idx')[0].set('val', '99')
+                self.rejected(path, pptx, prs, 'unverified.')
+
+    def test_interval_rows_keep_text_and_marks_together(self):
+        for mutation in ('marks_swap', 'label_only', 'display_only', 'whole_swap', 'whole_move', 'all_move'):
+            with self.subTest(mutation=mutation):
+                path, pptx, prs = self.deck(4)
+                parts = ('label', 'display', 'interval', 'estimate')
+                if mutation in ('marks_swap', 'whole_swap'):
+                    for part in (parts if mutation == 'whole_swap' else ('interval','estimate')):
+                        a = self.obj(prs, 'visual/row/0/' + part)
+                        b = self.obj(prs, 'visual/row/1/' + part)
+                        a.top, b.top = b.top, a.top
+                elif mutation == 'all_move':
+                    for shape in prs.slides[0].shapes:
+                        if '/visual/' in identity(shape).get('id', ''):
+                            shape.top += Inches(.1)
+                else:
+                    chosen = parts if mutation == 'whole_move' else ('label',) if mutation == 'label_only' else ('display',)
+                    for part in chosen:
+                        self.obj(prs, 'visual/row/0/' + part).top += Inches(.2)
+                if mutation in ('marks_swap','label_only','display_only'):
+                    self.rejected(path, pptx, prs, 'row correspondence')
+                else:
+                    prs.save(pptx)
+                    self.assertEqual(check(pptx, path)['errors'], [])
+
     def test_identity_survives_layout_and_theme_and_defeats_decoy_text(self):
         path, pptx, prs = self.deck(3, theme={'accent': '663399', 'canvas': [.08, .26, .84, .58]})
         table = self.obj(prs, 'visual/table')

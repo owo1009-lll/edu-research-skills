@@ -1,0 +1,136 @@
+{
+  "plan_sha256": "d5e8cbc9f6635dd9d53768696e5d9d303104601e96cf2100e1f7afc0dd477488",
+  "mode": "pptx",
+  "source_plan": "evals/capability-20261013/distillation/trials/arm-p/H3-ppt/first-plan.json",
+  "slides": 4,
+  "planned_seconds": 240,
+  "requested_minutes": 4,
+  "warnings": [],
+  "render_status": "not_run",
+  "template_sha256": null,
+  "theme_sha256": null,
+  "objects": [
+    {
+      "slide": 1,
+      "id": "S01/title"
+    },
+    {
+      "slide": 1,
+      "id": "S01/message"
+    },
+    {
+      "slide": 1,
+      "id": "S01/body/0"
+    },
+    {
+      "slide": 1,
+      "id": "S01/body/1"
+    },
+    {
+      "slide": 1,
+      "id": "S01/body/2"
+    },
+    {
+      "slide": 1,
+      "id": "S01/source"
+    },
+    {
+      "slide": 1,
+      "id": "S01/number"
+    },
+    {
+      "slide": 2,
+      "id": "S02/title"
+    },
+    {
+      "slide": 2,
+      "id": "S02/message"
+    },
+    {
+      "slide": 2,
+      "id": "S02/visual/chart",
+      "series_colors": [
+        "176B76"
+      ]
+    },
+    {
+      "slide": 2,
+      "id": "S02/visual/caption"
+    },
+    {
+      "slide": 2,
+      "id": "S02/source"
+    },
+    {
+      "slide": 2,
+      "id": "S02/number"
+    },
+    {
+      "slide": 3,
+      "id": "S03/title"
+    },
+    {
+      "slide": 3,
+      "id": "S03/message"
+    },
+    {
+      "slide": 3,
+      "id": "S03/body/0"
+    },
+    {
+      "slide": 3,
+      "id": "S03/body/1"
+    },
+    {
+      "slide": 3,
+      "id": "S03/visual/quote"
+    },
+    {
+      "slide": 3,
+      "id": "S03/visual/attribution"
+    },
+    {
+      "slide": 3,
+      "id": "S03/visual/caption"
+    },
+    {
+      "slide": 3,
+      "id": "S03/source"
+    },
+    {
+      "slide": 3,
+      "id": "S03/number"
+    },
+    {
+      "slide": 4,
+      "id": "S04/title"
+    },
+    {
+      "slide": 4,
+      "id": "S04/message"
+    },
+    {
+      "slide": 4,
+      "id": "S04/visual/table"
+    },
+    {
+      "slide": 4,
+      "id": "S04/visual/caption"
+    },
+    {
+      "slide": 4,
+      "id": "S04/source"
+    },
+    {
+      "slide": 4,
+      "id": "S04/number"
+    }
+  ],
+  "outputs": {
+    "content.md": "2e7aabc11cb17128b8a941e40f1c3db9400f2092cb70cc179f0f8f5b603b5e6f",
+    "plan.json": "d5e8cbc9f6635dd9d53768696e5d9d303104601e96cf2100e1f7afc0dd477488",
+    "slides.pptx": "0144bc9bcb8aa5eaa403cd6c8248462ab3c2cca5d2d445438eb0359cf5bf9100",
+    "speaker_notes.md": "3564de49890cce6bf3ff769f62ec4567df46988eb41b4665b802e5842a853be8"
+  },
+  "packaging": "Portable source paths and text line endings; original hashes in package-manifest.json"
+}

@@ -1,0 +1,42 @@
+{
+  "retrieved_at": "2026-10-13T11:10:33.223197+00:00",
+  "H1": {
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232635/fullTextXML",
+    "license": "CC BY-NC-ND 4.0",
+    "read_scope": "Full main article; no supplementary appendix",
+    "correction": "10.1073/pnas.2518204122",
+    "correction_scope": "Affiliation of Osbert Bastani; no change to results stated in notice"
+  },
+  "H2": {
+    "source": "https://educationaltechnologyjournal.springeropen.com/counter/pdf/10.1186/s41239-023-00434-1",
+    "license": "CC BY 4.0",
+    "read_scope": "Full article including printed appendices"
+  },
+  "public_distribution": "Original analyses and generated teaching examples, no full source text or source figures. Source downloads remain in ignored work directory.",
+  "source_hashes": [
+    {
+      "file": "H1-correction.txt",
+      "sha256": "5d3478e9ed9c218affe41119b8a918deacc6bfe7753cdf9245034eee5a94cd06"
+    },
+    {
+      "file": "H1-correction.xml",
+      "sha256": "f128b30ca4d931df697105267da4a42350d3ece11025148f28142eca0baa7da4"
+    },
+    {
+      "file": "H1.txt",
+      "sha256": "da030f030a01a0f08b4968306f559988f37586efabce30c5abc63be68a4e9d52"
+    },
+    {
+      "file": "H1.xml",
+      "sha256": "d3b61ee92873f2ac2eb2b7b82b28f95583c0d12a00b5cd385104dc6d21d60d92"
+    },
+    {
+      "file": "H2.pdf",
+      "sha256": "316d1664a4ef7647b487f97eae6a17224b148b200b823e00ef436c8f85247bcd"
+    },
+    {
+      "file": "H2.txt",
+      "sha256": "f64ce535054ac15d888fbd8259fe218bdc4c259f1bcbe52dbe71a81ac55bf633"
+    }
+  ]
+}

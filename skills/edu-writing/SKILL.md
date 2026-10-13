@@ -1,6 +1,6 @@
 ---
 name: edu-writing
-description: Write or revise education research papers in Chinese (CSSCI) or English (SSCI) from evidence - titles and abstracts, introductions, literature synthesis and hypotheses, methods, results, discussion, conclusions and implications, full manuscripts with tables, figures, verified references formatted in APA or GB/T 7714 and Word delivery - while preserving the author's argument in revisions, writing in the voice of published journal articles and checking the whole manuscript for internal consistency. When only raw data or interviews are given, the analysis is done first by edu-analysis or edu-qual. Use for 写论文、论文写作、写摘要、写讨论、写引言、文献综述、研究方法部分、研究结果写作、结论与建议、修改论文、润色、改稿、完整论文、全文一致性检查、参考文献格式、GB/T 7714、中文核心期刊、CSSCI、SSCI、英文论文、学术写作、教育学论文.
+description: Write or revise Chinese (CSSCI) and English (SSCI) education papers from evidence, preserving the author's argument. Covers paper sections, literature synthesis, full manuscripts, tables, figures, APA or GB/T 7714 references, Word delivery and manuscript consistency. When a target journal is specified, verify current editorial roles and search relevant journal, editor and competing research for substantive citation use. Raw data or interviews go first to edu-analysis or edu-qual. Use for 写论文、论文写作、写摘要、写讨论、写引言、文献综述、研究方法、研究结果写作、结论与建议、修改论文、润色、改稿、完整论文、全文一致性检查、参考文献格式、目标期刊、编辑团队相关研究、GB/T 7714、中文核心期刊、CSSCI、SSCI、英文论文、学术写作、教育学论文.
 ---
 
 # 教育学论文写作
@@ -30,6 +30,8 @@ description: Write or revise education research papers in Chinese (CSSCI) or Eng
    - **引用**要支持对应论断且不超出实际阅读范围：摘要没有报告的机制、结果或条件，不因 DOI 已核实就补写；修改旧稿时区分已发现的错引与暂时无法获取的来源，后者保留并记为待查，不标为已核验。
    - 中文期刊要有核实过的国内文献和国内背景，无法核实时留【待补】占位；投中文期刊的完整论文默认附英文题名、摘要和关键词。
 3. **只读需要的路线：**
+
+   用户指定目标期刊、要求按该刊修改或查编辑团队相关研究时，先用 [目标期刊检索](references/target-journal.md) 核实当前身份并交叉检索刊内、编辑跨刊及其他必要证据，再进入写作路线。没有目标期刊时沿用普通检索。
 
    | 要写什么 | 读这里 |
    |---|---|

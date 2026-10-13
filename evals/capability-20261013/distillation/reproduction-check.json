@@ -1,0 +1,16 @@
+{
+  "scope": "Current-source reproduction of frozen instruction comparison",
+  "arms": {
+    "arm-p": {
+      "expected": "52c7561fdf14e2f3188f1c3d57032667359dd4841d320508b7ab165821794a8e",
+      "actual": "52c7561fdf14e2f3188f1c3d57032667359dd4841d320508b7ab165821794a8e",
+      "matches": true
+    },
+    "arm-q": {
+      "expected": "46a74ad753a0a01b9ee3fb0d399d8d4efd9e75de908a4b5a8214512dafd207bb",
+      "actual": "46a74ad753a0a01b9ee3fb0d399d8d4efd9e75de908a4b5a8214512dafd207bb",
+      "matches": true
+    }
+  },
+  "rebuilt_public_h1": "passed"
+}

@@ -1,0 +1,193 @@
+[
+  {
+    "doi": "10.14742/ajet.8821",
+    "decision": "include",
+    "purpose": "citation",
+    "reading": {
+      "status": "abstract",
+      "url": "https://ajet.org.au/index.php/AJET/article/view/8821",
+      "locator": "Abstract; Implications for practice or policy; How to Cite",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "刊内最接近的自动反馈使用与自我调节研究，但工具和任务不同于拟研究的生成式AI同伴反馈。",
+    "claim": "反馈工具的使用需要结合学习者批判性参与与教师支持来理解。",
+    "placement": "引言：从工具可用转向学生如何使用反馈。",
+    "support": "摘要报告七名学生的质性材料及32人调查，强调课程结构、教师指导及人机反馈结合；不据此宣称ChatGPT改善写作成绩。",
+    "reason": "支持过程导向的问题定位；不将不同工具的结果直接等同。",
+    "editor_links": [],
+    "distillation_use": "本轮不用于候选规则提炼",
+    "citation": "Li, L., & Kim, M. (2024). It is like a friend to me: Critical usage of automated feedback systems by self-regulating English learners in higher education. *Australasian Journal of Educational Technology, 40*(1), 1–18. https://doi.org/10.14742/ajet.8821"
+  },
+  {
+    "doi": "10.1186/s41239-024-00455-4",
+    "decision": "include",
+    "purpose": "citation",
+    "reading": {
+      "status": "source_excerpt",
+      "url": "https://link.springer.com/article/10.1186/s41239-024-00455-4",
+      "locator": "Abstract; Method; Results RQ1/RQ2; Discussion; Limitations; Author information",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "与论证文写作任务、同伴与AI反馈质量的比较直接相关。",
+    "claim": "反馈来源在描述内容、识别问题等功能上可呈现不同特点；功能差异尚不能证明组合使用提高修订质量。",
+    "placement": "综述：反馈质量与实际修订之间的待解关系。",
+    "support": "结果比较74名研究生的作文所获反馈，作者提出互补解释；局限明确未检查反馈采用与修订成效。保留功能互补作为有待验证的设计理由。",
+    "reason": "具体支撑研究设计与问题，不因编辑身份引用；不采用原文由相关不显著推出独立性的表述。",
+    "editor_links": [
+      {
+        "editor_id": "banihashem",
+        "status": "confirmed",
+        "basis_type": "primary_author_record",
+        "basis": "出版社完整姓名、Open Universiteit/WUR署名与机构出版记录对应；Maastricht现任个人页连接姓名及研究领域。此篇Crossref未登记ORCID，未伪称ORCID自动匹配。",
+        "evidence": {
+          "url": "https://research.ou.nl/en/publications/feedback-sources-in-essay-writing-peer-generated-or-ai-generated-/fingerprints/",
+          "locator": "作者清单与论文题名；对照出版社Author information",
+          "checked_at": "2026-10-13"
+        }
+      }
+    ],
+    "distillation_use": "本轮不用于候选规则提炼",
+    "citation": "Banihashem, S. K., Kerman, N. T., Noroozi, O., Moon, J., & Drachsler, H. (2024). Feedback sources in essay writing: Peer-generated or AI-generated feedback? *International Journal of Educational Technology in Higher Education, 21*, 23. https://doi.org/10.1186/s41239-024-00455-4"
+  },
+  {
+    "doi": "10.1016/j.compedu.2026.105591",
+    "decision": "include",
+    "purpose": "citation",
+    "reading": {
+      "status": "abstract",
+      "url": "https://research.ou.nl/en/publications/ai-assistance-in-peer-feedback-provision-pedagogically-sound-but-/",
+      "locator": "Abstract and bibliographic metadata; publisher abstract cross-check",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "研究学生提供同伴反馈时如何采用AI建议，属于反馈生产阶段；不与收到反馈后修改作文的采用率混为一谈。",
+    "claim": "AI建议结构良好、语气积极，仍可能较少引起学生修改其正在撰写的同伴反馈。",
+    "placement": "引言缺口与研究设计：记录反馈到修订的过程。",
+    "support": "摘要描述433名学生的7670次AI辅助同伴反馈，9%（690）的建议引起修订；这里是反馈提供环节，不是作文改善率。为什么较差建议更容易引起修订仍为作者提出的解释。",
+    "reason": "是跨期刊检索得到的直接相关证据，也限制简单的AI优势叙事。",
+    "editor_links": [
+      {
+        "editor_id": "banihashem",
+        "status": "confirmed",
+        "author_orcid": "0000-0002-9978-3783",
+        "basis": "该篇Crossref作者ORCID与机构存档论文ORCID列表对应；现任机构与期刊官方团队姓名相符。",
+        "evidence": {
+          "url": "https://edepot.wur.nl/658826",
+          "locator": "PDF p.12 contributor bio and ORCID list; compare this paper's Crossref deposited author list",
+          "checked_at": "2026-10-13"
+        }
+      }
+    ],
+    "distillation_use": "本轮不用于候选规则提炼",
+    "citation": "Pozdniakov, S., Brazil, J., Banihashem, S. K., Noroozi, O., Gašević, D., Sadiq, S., & Khosravi, H. (2026). AI assistance in peer feedback provision: Pedagogically sound, but minimally adopted. *Computers & Education, 248*, 105591. https://doi.org/10.1016/j.compedu.2026.105591"
+  },
+  {
+    "doi": "10.1080/02602938.2018.1463354",
+    "decision": "include",
+    "purpose": "citation",
+    "reading": {
+      "status": "abstract",
+      "url": "https://hub.hku.hk/handle/10722/261886",
+      "locator": "Institutional abstract and citation record",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "为学生如何理解并使用反馈提供概念框架，来自C入口而非编辑身份筛选。",
+    "claim": "反馈素养涉及理解反馈、作出判断、处理情感和采取行动。",
+    "placement": "理论框架与研究问题。",
+    "support": "概念论文摘要提出四个相互关联的特征；只用其概念框架，不虚构量表、效应值或干预结论。",
+    "reason": "提供必要理论；正文如需细化理论关系或操作化，后续须阅读全文。",
+    "editor_links": [],
+    "distillation_use": "本轮不用于候选规则提炼",
+    "citation": "Carless, D., & Boud, D. (2018). The development of student feedback literacy: Enabling uptake of feedback. *Assessment & Evaluation in Higher Education, 43*(8), 1315–1325. https://doi.org/10.1080/02602938.2018.1463354"
+  },
+  {
+    "doi": "10.1016/j.caeo.2025.100300",
+    "decision": "include",
+    "purpose": "citation",
+    "reading": {
+      "status": "abstract",
+      "url": "https://www.ife.uzh.ch/dam/jcr%3A240d1fe5-81a5-4670-8e0d-b8ab9548d498/Weidlich%20et%20al_2025_Teacher%20peer%20or%20AI_Comparing%20effects%20of%20feedback%20sources%20in%20higher%20education.pdf",
+      "locator": "机构存档的出版社版本PDF第1页：摘要、完整署名和出版信息；未读后续全文。",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "与对反馈的感受、接受意愿和作品改善之间的区别直接相关；比较对象和学习任务并不等同。",
+    "claim": "对反馈的积极感受未必对应更大的作品改善，因而两者应分别评估。",
+    "placement": "引言与研究设计中的竞争证据。",
+    "support": "摘要报告90人的随机实验，教师反馈的接受评价较低但作品改善较强，LLM组总体改善较小；不从摘要补写具体系数或效应差异机制。",
+    "reason": "保留可能挑战简单替代方案的证据，不按目标期刊或编辑身份排除。",
+    "editor_links": [],
+    "distillation_use": "本轮不用于候选规则提炼",
+    "metadata_note": "PDF第1页署名是Dario Bütler（一个t）、Katharina Maag Merki。参考文献按该页姓名整理；Crossref把Maag放入given字段。",
+    "citation": "Weidlich, J., Gotsch, F., Schudel, K., Marusic-Würscher, C., Mazzarella, J., Bolten, H., Bütler, D., Luger, S., Wohlfender, B., & Maag Merki, K. (2025). Teacher, peer, or AI? Comparing effects of feedback sources in higher education. *Computers and Education Open, 9*, 100300. https://doi.org/10.1016/j.caeo.2025.100300"
+  },
+  {
+    "doi": "10.14742/ajet.8695",
+    "decision": "backup",
+    "purpose": "editorial_scope",
+    "reading": {
+      "status": "source_excerpt",
+      "url": "https://ajet.org.au/index.php/AJET/article/download/8695/1987",
+      "locator": "Search-visible discussion of generative AI research questions and feedback; bibliographic record",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "了解该刊曾提出的研究议程，不等于当前投稿规范或教学效果证据。",
+    "claim": "不作为本例的实证论断依据。",
+    "placement": "工作记录，未放入稿件正文。",
+    "reason": "现有实证和概念文献已能支持问题；社论保留为背景资料，不为增加编辑引用而插入。",
+    "editor_links": [
+      {
+        "editor_id": "corrin",
+        "status": "unresolved",
+        "basis": "姓名匹配；本例未完成该篇作者ORCID的独立个人主页交叉核验。"
+      }
+    ],
+    "distillation_use": "不是写作模板或正式规范",
+    "citation": "Lodge, J. M., Thompson, K., & Corrin, L. (2023). Mapping out a research agenda for generative artificial intelligence in tertiary education. *Australasian Journal of Educational Technology, 39*(1), 1–8. https://doi.org/10.14742/ajet.8695"
+  },
+  {
+    "doi": "10.4018/978-1-59904-861-1.ch040",
+    "decision": "exclude",
+    "purpose": "citation",
+    "reading": {
+      "status": "metadata_only",
+      "url": "https://doi.org/10.4018/978-1-59904-861-1.ch040",
+      "locator": "Crossref title, author, venue and pages",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "广义网页学习对象设计，未显示与本例反馈采用问题的直接联系。",
+    "claim": "没有可纳入本例的已读论断。",
+    "placement": "不纳入。",
+    "reason": "在本次限定问题下不优先阅读全文；不能因姓名命中现任编辑就强行引用。",
+    "editor_links": [
+      {
+        "editor_id": "huijser",
+        "status": "unresolved"
+      }
+    ],
+    "distillation_use": "未评估",
+    "citation": "Huijser, H. (2009). Designing learning objects for generic web sites. In *Handbook of Research on Learning Design and Learning Objects* (pp. 808–826). IGI Global. https://doi.org/10.4018/978-1-59904-861-1.ch040 （元数据筛除项；未独立核实编者，不作为可直接投稿的最终书章条目。）"
+  },
+  {
+    "doi": "10.37237/110306",
+    "decision": "backup",
+    "purpose": "citation",
+    "reading": {
+      "status": "abstract",
+      "url": "https://sisaljournal.org/archives/sep20/harwood_koyama/",
+      "locator": "出版者页面题录、完整作者姓名及摘要；未读完整正文。",
+      "checked_at": "2026-10-13"
+    },
+    "relation": "关于写作中心转到Zoom后的自主学习支持；不是Chris Deneen的论文，与本例的生成式AI反馈问题不够接近。",
+    "claim": "可供了解线上写作支持的背景；本稿未使用其论断。",
+    "placement": "备查，未放入正文。",
+    "reason": "B入口的真实误命中：作者是Chris Harwood与Dennis Koyama，不能把名字中的Chris认成Chris Deneen。主题是否有用另行阅读，不靠身份误认纳入。",
+    "editor_links": [
+      {
+        "editor_id": "deneen",
+        "status": "different_person",
+        "basis": "完整作者姓名为Chris Harwood与Dennis Koyama。"
+      }
+    ],
+    "distillation_use": "未评估",
+    "citation": "Harwood, C., & Koyama, D. (2020). Creating a virtual writing center to support self-regulated learning. *Studies in Self-Access Learning Journal, 11*(3), 164–186. https://doi.org/10.37237/110306"
+  }
+]

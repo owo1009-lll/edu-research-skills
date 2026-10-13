@@ -1,0 +1,226 @@
+{
+  "normal": {
+    "status": "passed",
+    "errors": [],
+    "issues": [],
+    "warnings": [],
+    "inventory": [
+      {
+        "slide": 1,
+        "editable_text": 7,
+        "shapes_or_lines": 1
+      },
+      {
+        "slide": 2,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_charts": 1
+      },
+      {
+        "slide": 3,
+        "editable_text": 11,
+        "shapes_or_lines": 4
+      },
+      {
+        "slide": 4,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_tables": 1
+      },
+      {
+        "slide": 5,
+        "editable_text": 11,
+        "shapes_or_lines": 7
+      }
+    ],
+    "render_status": "not_checked",
+    "plan_consistency": "passed",
+    "source_fact_check": "not_performed",
+    "visual_review": "not_performed",
+    "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+  },
+  "custom_label_999": {
+    "status": "failed",
+    "errors": [
+      "slide 2, object S02/visual/chart/series[0]/point[0], custom label text: expected '12'; actual '999'",
+      "slide 2, object S02/visual/chart/series[0]/point[1], label visibility: expected True; actual False"
+    ],
+    "issues": [
+      {
+        "slide": 2,
+        "object": "S02/visual/chart/series[0]/point[0]",
+        "field": "custom label text",
+        "expected": "12",
+        "actual": "999"
+      },
+      {
+        "slide": 2,
+        "object": "S02/visual/chart/series[0]/point[1]",
+        "field": "label visibility",
+        "expected": true,
+        "actual": false
+      }
+    ],
+    "warnings": [],
+    "inventory": [
+      {
+        "slide": 1,
+        "editable_text": 7,
+        "shapes_or_lines": 1
+      },
+      {
+        "slide": 2,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_charts": 1
+      },
+      {
+        "slide": 3,
+        "editable_text": 11,
+        "shapes_or_lines": 4
+      },
+      {
+        "slide": 4,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_tables": 1
+      },
+      {
+        "slide": 5,
+        "editable_text": 11,
+        "shapes_or_lines": 7
+      }
+    ],
+    "render_status": "not_checked",
+    "plan_consistency": "failed",
+    "source_fact_check": "not_performed",
+    "visual_review": "not_performed",
+    "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+  },
+  "interval_partial_swap": {
+    "status": "failed",
+    "errors": [
+      "slide 5, object S05/visual/row/0/interval, row correspondence y (EMU): expected {'label_center': 2077974, 'tolerance': 85588}; actual 2891790",
+      "slide 5, object S05/visual/row/0/estimate, row correspondence y (EMU): expected {'label_center': 2077974, 'tolerance': 85588}; actual 2891790",
+      "slide 5, object S05/visual/row/1/interval, row correspondence y (EMU): expected {'label_center': 2900934, 'tolerance': 85588}; actual 2068830",
+      "slide 5, object S05/visual/row/1/estimate, row correspondence y (EMU): expected {'label_center': 2900934, 'tolerance': 85588}; actual 2068830"
+    ],
+    "issues": [
+      {
+        "slide": 5,
+        "object": "S05/visual/row/0/interval",
+        "field": "row correspondence y (EMU)",
+        "expected": {
+          "label_center": 2077974,
+          "tolerance": 85588
+        },
+        "actual": 2891790
+      },
+      {
+        "slide": 5,
+        "object": "S05/visual/row/0/estimate",
+        "field": "row correspondence y (EMU)",
+        "expected": {
+          "label_center": 2077974,
+          "tolerance": 85588
+        },
+        "actual": 2891790
+      },
+      {
+        "slide": 5,
+        "object": "S05/visual/row/1/interval",
+        "field": "row correspondence y (EMU)",
+        "expected": {
+          "label_center": 2900934,
+          "tolerance": 85588
+        },
+        "actual": 2068830
+      },
+      {
+        "slide": 5,
+        "object": "S05/visual/row/1/estimate",
+        "field": "row correspondence y (EMU)",
+        "expected": {
+          "label_center": 2900934,
+          "tolerance": 85588
+        },
+        "actual": 2068830
+      }
+    ],
+    "warnings": [],
+    "inventory": [
+      {
+        "slide": 1,
+        "editable_text": 7,
+        "shapes_or_lines": 1
+      },
+      {
+        "slide": 2,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_charts": 1
+      },
+      {
+        "slide": 3,
+        "editable_text": 11,
+        "shapes_or_lines": 4
+      },
+      {
+        "slide": 4,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_tables": 1
+      },
+      {
+        "slide": 5,
+        "editable_text": 11,
+        "shapes_or_lines": 7
+      }
+    ],
+    "render_status": "not_checked",
+    "plan_consistency": "failed",
+    "source_fact_check": "not_performed",
+    "visual_review": "not_performed",
+    "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+  },
+  "interval_whole_row_swap": {
+    "status": "passed",
+    "errors": [],
+    "issues": [],
+    "warnings": [],
+    "inventory": [
+      {
+        "slide": 1,
+        "editable_text": 7,
+        "shapes_or_lines": 1
+      },
+      {
+        "slide": 2,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_charts": 1
+      },
+      {
+        "slide": 3,
+        "editable_text": 11,
+        "shapes_or_lines": 4
+      },
+      {
+        "slide": 4,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_tables": 1
+      },
+      {
+        "slide": 5,
+        "editable_text": 11,
+        "shapes_or_lines": 7
+      }
+    ],
+    "render_status": "not_checked",
+    "plan_consistency": "passed",
+    "source_fact_check": "not_performed",
+    "visual_review": "not_performed",
+    "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+  }
+}

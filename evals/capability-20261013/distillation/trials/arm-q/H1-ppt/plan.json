@@ -1,0 +1,389 @@
+{
+  "title": "工具帮助完成之后，学生学会了吗？",
+  "route": "article",
+  "language": "zh",
+  "minutes": 8,
+  "sources": [
+    {
+      "id": "H1",
+      "short": "Bastani等，2025",
+      "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+      "authors": [
+        "Hamsa Bastani",
+        "Osbert Bastani",
+        "Alp Sungu",
+        "Haosen Ge",
+        "Özge Kabakcı",
+        "Rei Mariman"
+      ],
+      "year": 2025,
+      "venue": "PNAS, 122(26), e2422633122",
+      "doi": "10.1073/pnas.2422633122",
+      "access": "fulltext",
+      "path": "edu_output\\capability-20261013\\holdout\\H1.xml",
+      "license": "CC BY-NC-ND 4.0；本PPT只重排事实与数值，不复制原图。"
+    },
+    {
+      "id": "C1",
+      "short": "PNAS更正，2025",
+      "title": "Correction for Bastani et al.",
+      "year": 2025,
+      "doi": "10.1073/pnas.2518204122",
+      "access": "fulltext",
+      "path": "edu_output\\capability-20261013\\holdout\\H1-correction.txt"
+    }
+  ],
+  "slides": [
+    {
+      "id": "S01",
+      "title": "工具帮助完成之后，学生学会了吗？",
+      "section": "What",
+      "message": "Bastani等（2025）：把辅助表现与短期独立表现分开检验。",
+      "body": [],
+      "visual_plan": "原生可编辑table；不使用原文图片。",
+      "notes": "今天解读Bastani等人的高中数学现场实验。一个教学上很容易混淆的现象是：学生在工具帮助下把题做出来了，我们就认为他们学会了。本文把这件事拆成两个实际可观察的表现：练习时可以使用资源的成绩，以及同一次课稍后完全独立完成相近题目的成绩。后者才是作者预注册的主要结局。接下来沿着为什么要这样问、怎样比较、得到什么答案来讲；这里的学习指短期独立表现，并不是长期保持。",
+      "seconds": 40,
+      "role": "background",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "引言；Experimental Design",
+          "supports": "原问题、两个结局和主要结局身份"
+        }
+      ],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "表现",
+          "本文怎样观察"
+        ],
+        "rows": [
+          [
+            "辅助练习",
+            "按分组使用相应资源完成练习"
+          ],
+          [
+            "短期独立表现",
+            "撤去资源后，完成概念相近的测验题"
+          ]
+        ],
+        "font_size": 20,
+        "caption": "原研究：高中数学复习；本汇报为文章解读。",
+        "widths": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "title": "为什么“当下做得好”还不够？",
+      "section": "Why",
+      "message": "作者把研究焦点从有工具时的产出，推进到撤去工具后的能力。",
+      "body": [],
+      "visual_plan": "原生可编辑table；不使用原文图片。",
+      "notes": "作者回顾的既有生成式AI研究，主要讨论人在使用工具时是否完成得更快、更好。这些研究中的生产率收益，与教育里希望留下的能力不是同一个结局。Bastani等的担心是，如果解题活动被直接代做，练习成绩会变好，但学生可能减少了自己推理的机会。本文因此增加一次撤去所有资源的测验，观察工具帮助结束后还剩下什么。这不是否认作者回顾的生产率发现，而是提出它们尚未回答的学习问题。这里关于既有研究的概括来自本文回顾。",
+      "seconds": 45,
+      "role": "background",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "引言第1–4段",
+          "supports": "生产率研究回顾与技能获得问题"
+        }
+      ],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "证据关注点",
+          "能支持的判断"
+        ],
+        "rows": [
+          [
+            "作者回顾：有AI的任务表现",
+            "工具是否帮助完成当前任务"
+          ],
+          [
+            "本文增加：随后无AI测验",
+            "短期独立解题是否改善或受损"
+          ]
+        ],
+        "font_size": 20,
+        "caption": "既有生产率研究由Bastani等在引言中回顾。",
+        "widths": [
+          1.2,
+          1.8
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "title": "同一节课：先提供帮助，再撤去资源",
+      "section": "How",
+      "message": "土耳其一所高中；四次90分钟课程；干预只发生在练习阶段。",
+      "body": [],
+      "visual_plan": "原生可编辑process；不使用原文图片。",
+      "notes": "研究在2023年秋季、土耳其一所高中的九至十一年级开展，覆盖近千名学生。每次九十分钟，共四次，内容是已经学过的数学知识。所有组先接受教师复习，然后做练习；练习提交之后，教师统一讲解答案，最后闭卷、关闭电脑参加测验。每个测验题对应概念相近的练习题，所以这是紧接练习的近距离检验。分配以班级为单位，普通班学生此前随机入班，研究再结合可观察特征与排课限制分配班级；主分析排除荣誉班。评分由独立评分者按教师规则进行。设计把练习工具变化与共同的课堂环节区分开来。",
+      "seconds": 65,
+      "role": "method",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "Experimental Design；脚注#",
+          "supports": "课堂流程、分配、评分、样本范围"
+        }
+      ],
+      "visual": {
+        "type": "process",
+        "steps": [
+          "教师复习",
+          "分组练习",
+          "统一讲解",
+          "独立测验"
+        ],
+        "caption": "普通班；按班级分配。最后测验闭卷、无电脑，题目概念相近。"
+      }
+    },
+    {
+      "id": "S04",
+      "title": "两种AI帮助，改变的不只一条提示",
+      "section": "How",
+      "message": "GPT Tutor同时加入不给完整答案的要求，以及教师提供的题目知识。",
+      "body": [],
+      "visual_plan": "原生可编辑table；不使用原文图片。",
+      "notes": "三个组都能使用教材与笔记。对照组按日常方式练习，不提供设备。GPT Base使用研究团队搭建的GPT-4聊天接口，接近常规ChatGPT式帮助；它可以直接给出解答。GPT Tutor同样基于GPT-4，但被要求用提示引导，避免直接交出完整答案，同时获得教师提供的正确解答、常见错误与相应反馈。这一点对解释结果很关键：Tutor不仅限制给答案，也改善了问题信息。两者组成一个支持方案，不能把结果全归因于某一句提示。教师准备这些材料也需要劳动成本。",
+      "seconds": 60,
+      "role": "method",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "Experimental Design；图1；脚注†",
+          "supports": "工具差别为复合设计"
+        }
+      ],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "分组",
+          "练习资源与处理"
+        ],
+        "rows": [
+          [
+            "对照",
+            "教材、笔记；无AI"
+          ],
+          [
+            "GPT Base",
+            "教材、笔记＋常规GPT-4聊天帮助"
+          ],
+          [
+            "GPT Tutor",
+            "教材、笔记＋分步提示；教师解答、错误与反馈信息"
+          ]
+        ],
+        "font_size": 20,
+        "caption": "Tutor的教学护栏与题目信息一起改变，未单独操纵各成分。",
+        "widths": [
+          0.7,
+          2.3
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "title": "练习收益没有转成独立测验收益",
+      "section": "Result",
+      "message": "短期独立测验：GPT Base下降；GPT Tutor未检出明确的正向收益。",
+      "body": [],
+      "visual_plan": "原生可编辑table；不使用原文图片。",
+      "notes": "这张表是核心证据。所有估计均相对普通资源对照组，分数归一化到零至一，括号中是按班级聚类的标准误。先看练习，Base提高零点一三七，Tutor提高零点三六一；作者换算成相对对照均值的增幅，分别约百分之四十八和百分之一百二十七。再看预注册主要结局，也就是独立测验：Base下降零点零五四，相对对照均值约下降百分之十七。Tutor的估计是负零点零零四，没有检出明确差异，更没有显示独立成绩提高。这个模式与护栏减轻损害的解释一致，但未显著不是等效证明，也不能只比星号就断言两种处理有显著差异。原表的两千八百四十八是学生与课次的观测数，不是参与者人数；分析按最初分配保留学生。",
+      "seconds": 85,
+      "role": "finding",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "Main Results；表1",
+          "supports": "ITT估计、聚类SE、均值和主要结局"
+        }
+      ],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "相对对照组",
+          "辅助练习",
+          "无辅助测验"
+        ],
+        "rows": [
+          [
+            "GPT Base",
+            "+0.137** (0.031)",
+            "−0.054* (0.022)"
+          ],
+          [
+            "GPT Tutor",
+            "+0.361** (0.032)",
+            "−0.004 (0.013)"
+          ],
+          [
+            "对照均值",
+            "0.284",
+            "0.321"
+          ]
+        ],
+        "font_size": 20,
+        "caption": "分数0–1；ITT估计（班级聚类SE）；* p<.05，** p<.01；未显著不代表等效。",
+        "widths": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "title": "互动记录支持“依赖现成解答”的解释",
+      "section": "Result",
+      "message": "作者的“拐杖”解释有过程依据，具体机制尚未被单独识别。",
+      "body": [],
+      "visual_plan": "原生可编辑table；不使用原文图片。",
+      "notes": "作者进一步问，Base组独立成绩下降，是被错误答案误导，还是因为直接拿走解答而减少了自己的思考？互动记录显示，Base组常直接要答案，而Tutor组更多请求帮助或尝试解题。这支持作者的拐杖解释。错误分析则发现，Base的错误率与练习表现有关，但逻辑错误率的交互项在独立测验中没有显著结果。这个未显著结果不足以排除错误传递，因此不能把拐杖说成唯一机制。再联系上一页的设计，Tutor还同时提供了更准确的教师信息。我们得到的是支持某个解释的证据组合，而不是拆解每一条因果路径的实验。",
+      "seconds": 65,
+      "role": "author_interpretation",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "Potential Mechanism；表2；图3",
+          "supports": "消息内容与错误率分析支持的解释范围"
+        }
+      ],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "工具",
+          "作者报告的互动内容"
+        ],
+        "rows": [
+          [
+            "GPT Base",
+            "常直接请求答案或重述题目"
+          ],
+          [
+            "GPT Tutor",
+            "更多请求帮助、尝试作答"
+          ]
+        ],
+        "font_size": 20,
+        "caption": "未单独操纵：依赖解答、反馈准确性与其他交互特点。",
+        "widths": [
+          0.8,
+          2.2
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "title": "学习感受也不能替代独立测验",
+      "section": "Result",
+      "message": "作者报告：学生对学习或表现的自我判断，比实际测验结果乐观。",
+      "body": [],
+      "visual_plan": "原生可编辑table；不使用原文图片。",
+      "notes": "另一个与教学评价有关的结果是学生怎么看自己。Base组的独立测验表现下降，但他们没有感觉自己学得更少或表现更差。Tutor组没有显示独立测验收益，却感觉自己表现得更好。作者用课后问卷收集学习感受，再与实际测验作对照。这说明，即使学生喜欢帮助、觉得学得不错，也还需要看他们独立完成任务时的表现。它把前面的实验结果直接连到学校常用的课程评价方式。",
+      "seconds": 45,
+      "role": "finding",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "Main Results：Student Perception",
+          "supports": "自我感受与测验方向对照"
+        }
+      ],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "工具",
+          "独立测验",
+          "学生自我感受"
+        ],
+        "rows": [
+          [
+            "GPT Base",
+            "低于对照组",
+            "未感到学得更少或表现更差"
+          ],
+          [
+            "GPT Tutor",
+            "未检出收益",
+            "认为表现更好"
+          ]
+        ],
+        "font_size": 20,
+        "caption": "学生自我感受与独立表现是两种不同的评价信息。",
+        "widths": [
+          0.8,
+          1,
+          1.8
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "title": "部署时，应把独立能力留在评价中",
+      "section": "Result",
+      "message": "保留作者的教学判断：需要学习护栏，也需要检验护栏留下了什么能力。",
+      "body": [
+        "评价：辅助任务与独立任务并列；学习感受另看。",
+        "设计：支持学生尝试推理，并计入教师材料准备成本。",
+        "范围：单校数学复习、短期测验、2023年模型。",
+        "下一步：主动诊断与追问仍是待验证的设计方向。"
+      ],
+      "visual_plan": "原生可编辑文本；不使用原文图片。",
+      "notes": "从这项研究能作出的部署判断很明确：学校评估AI时，应同时保留辅助任务与无辅助任务，不能只看练习完成率或学生感受。工具设计应让学生继续尝试推理，教师的题目知识是这次方案的一部分，也带来准备成本。范围同样具体：这是一所学校、数学复习、四次课和2023年的模型，没有回答长期保持与跨学科迁移。作者提出更主动地诊断误解、追问并生成提示，但这些是下一步设计方向。护栏值得继续发展，是否真正提升独立能力仍需直接测量。",
+      "seconds": 50,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "Discussion；Experimental Design",
+          "supports": "作者的部署建议、教师成本与范围"
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "一句话收尾",
+      "section": "Close",
+      "message": "辅助练习做得更好，并不自动意味着学生独立解题更好。",
+      "body": [
+        "Bastani、Bastani、Sungu、Ge、Kabakcı与Mariman（2025）",
+        "PNAS, 122(26), e2422633122",
+        "原文 DOI：10.1073/pnas.2422633122",
+        "更正 DOI：10.1073/pnas.2518204122"
+      ],
+      "visual_plan": "原生可编辑文本；不使用原文图片。",
+      "notes": "一句话收尾：这项高中数学现场实验把辅助练习和随后独立测验分开，发现常规GPT式帮助存在短期学习损害风险，因而把工具设计与独立能力评估放到了教育部署的核心。原文后续更正仅修正作者单位，没有修改结果。",
+      "seconds": 25,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "evidence": [
+        {
+          "source": "H1",
+          "location": "Main Results；Discussion",
+          "supports": "研究问题、设计和核心贡献"
+        },
+        {
+          "source": "C1",
+          "location": "更正正文",
+          "supports": "仅修正作者单位"
+        }
+      ]
+    }
+  ]
+}

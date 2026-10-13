@@ -9,6 +9,7 @@ Writes or revises Chinese and English education papers from evidence, in a voice
 - Write one part: abstract, introduction, literature review, methods, results, discussion, conclusions and implications
 - Write a complete paper delivered as Word (three-line tables, figures, verified references)
 - Revise or polish an existing manuscript
+- For a specified journal, verify editorial identities and search relevant journal, cross-journal editor and other necessary studies for evidence-based citation advice
 - Check a whole manuscript for internal consistency and for writing conventions against published articles (27 CSSCI articles for Chinese, 50 SSCI articles for English)
 
 ## Typical Requests
@@ -17,6 +18,7 @@ Writes or revises Chinese and English education papers from evidence, in a voice
 - "Write the Discussion in English"
 - "Revise the discussion but keep my argument and structure"
 - "Check that numbers and terms are consistent throughout"
+- "For AJET, find journal and editorial-team studies relevant to this abstract and integrate them into the introduction"
 
 ## What You Need To Provide
 
@@ -25,6 +27,7 @@ Writes or revises Chinese and English education papers from evidence, in a voice
 ## Outputs
 
 - Prose or a Word manuscript, figures and tables, a reference check table, a writing rationale table and the review record
+- Journal searches also provide identity sources, actual reading scope and inclusion reasons; [public example](https://github.com/owo1009-lll/edu-research-skills/tree/main/evals/capability-20261013/journal)
 
 ## Runtime and Dependencies
 

@@ -1,0 +1,106 @@
+{
+  "task": "H3-ppt",
+  "status": "generated_and_checked",
+  "artifacts": {
+    "first-plan.json": {
+      "bytes": 7974,
+      "sha256": "238addde1582dbb4fbebff7f864cba9996a2a7396b569e8b9a1e72d2fdd67a83"
+    },
+    "review.md": {
+      "bytes": 2577,
+      "sha256": "09a18b4ef3b8d139a5ff0d7a6918560cc247a34d3b7b2c12c4f83c668856d3b8"
+    },
+    "plan.json": {
+      "bytes": 8009,
+      "sha256": "bf51d7c405bfa26324a7aac0677699eef71c29e35202063cefca6f52be6cea83"
+    },
+    "rationale.md": {
+      "bytes": 3147,
+      "sha256": "f14a5597c8ece83c5faad2e0d9284fb18b1fb270687d829e4a6e36f9a39ec508"
+    },
+    "deck/slides.pptx": {
+      "bytes": 52126,
+      "sha256": "64343c7aa90717bbacfbda6d86b37d13f4c6f8b396da3c81df1dbc02899c3c76"
+    },
+    "deck/content.md": {
+      "bytes": 5302,
+      "sha256": "e61e33a0a35f13cc789849041c7eb5020830d656cf9e7a8b77befbf9b6abeb02"
+    },
+    "deck/speaker_notes.md": {
+      "bytes": 3118,
+      "sha256": "4fa708ce9434e5e815b97841bdbcb128f3f4d4218f102bed9bc8b12dad0cbd5d"
+    },
+    "final-checks.json": {
+      "bytes": 833,
+      "sha256": "c7914f55d9b68cf34bd441b667c110cbce1b8dbd00ca5cc3a6eb32d0cfb64622"
+    }
+  },
+  "checks": {
+    "build_exit_code": 0,
+    "deck": "edu_output\\capability-20261013\\runs\\arm-p\\H3-ppt\\deck",
+    "render": "not_run_by_task_instruction",
+    "visual_review": "not_performed",
+    "rehearsal": "not_performed",
+    "check_exit_code": 0,
+    "check_result": {
+      "status": "passed",
+      "errors": [],
+      "issues": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_charts": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 9,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 4,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        }
+      ],
+      "render_status": "not_checked",
+      "plan_consistency": "passed",
+      "source_fact_check": "not_performed",
+      "visual_review": "not_performed",
+      "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+    },
+    "timing": [
+      {
+        "slide": "S01",
+        "planned_seconds": 55,
+        "notes_han_characters": 179
+      },
+      {
+        "slide": "S02",
+        "planned_seconds": 60,
+        "notes_han_characters": 188
+      },
+      {
+        "slide": "S03",
+        "planned_seconds": 65,
+        "notes_han_characters": 192
+      },
+      {
+        "slide": "S04",
+        "planned_seconds": 60,
+        "notes_han_characters": 186
+      }
+    ]
+  },
+  "review_identity": "AI self-check",
+  "formal_skill_files_modified": false,
+  "external_browsing": false
+}

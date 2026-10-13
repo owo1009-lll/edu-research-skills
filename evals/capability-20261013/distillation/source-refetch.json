@@ -1,0 +1,34 @@
+[
+  {
+    "file": "H1.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232635/fullTextXML",
+    "retrieved_at": "2026-10-13T11:48:29.124089+00:00",
+    "sha256": "d3b61ee92873f2ac2eb2b7b82b28f95583c0d12a00b5cd385104dc6d21d60d92",
+    "status": "downloaded",
+    "frozen_match": true
+  },
+  {
+    "file": "H1-correction.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12403119/fullTextXML",
+    "retrieved_at": "2026-10-13T11:48:39.439660+00:00",
+    "sha256": "f128b30ca4d931df697105267da4a42350d3ece11025148f28142eca0baa7da4",
+    "status": "downloaded",
+    "frozen_match": true
+  },
+  {
+    "file": "H2.pdf",
+    "url": "https://educationaltechnologyjournal.springeropen.com/counter/pdf/10.1186/s41239-023-00434-1",
+    "retrieved_at": "2026-10-13T11:48:50.295391+00:00",
+    "sha256": "316d1664a4ef7647b487f97eae6a17224b148b200b823e00ef436c8f85247bcd",
+    "status": "downloaded",
+    "frozen_match": true
+  },
+  {
+    "file": "T2.pdf",
+    "url": "https://educationaltechnologyjournal.springeropen.com/counter/pdf/10.1186/s41239-023-00411-8",
+    "retrieved_at": "2026-10-13T11:48:57.779106+00:00",
+    "sha256": "0a77c9527b24af63ed4b08e72e15b69098fed2957d128e470186dbae578ce117",
+    "status": "downloaded",
+    "frozen_match": null
+  }
+]

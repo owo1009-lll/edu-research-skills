@@ -1,0 +1,43 @@
+{
+  "build_exit_code": 0,
+  "deck": "edu_output\\capability-20261013\\runs\\arm-p\\H3-ppt\\deck",
+  "render": "not_run_by_task_instruction",
+  "visual_review": "not_performed",
+  "rehearsal": "not_performed",
+  "check_exit_code": 0,
+  "check_result": {
+    "status": "passed",
+    "errors": [],
+    "issues": [],
+    "warnings": [],
+    "inventory": [
+      {
+        "slide": 1,
+        "editable_text": 7,
+        "shapes_or_lines": 1
+      },
+      {
+        "slide": 2,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_charts": 1
+      },
+      {
+        "slide": 3,
+        "editable_text": 9,
+        "shapes_or_lines": 1
+      },
+      {
+        "slide": 4,
+        "editable_text": 5,
+        "shapes_or_lines": 1,
+        "native_tables": 1
+      }
+    ],
+    "render_status": "not_checked",
+    "plan_consistency": "passed",
+    "source_fact_check": "not_performed",
+    "visual_review": "not_performed",
+    "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+  }
+}

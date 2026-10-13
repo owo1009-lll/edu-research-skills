@@ -1,0 +1,20 @@
+Language: en | abstract found: False | findings to inspect: 2
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (0 distinct values; check each is a named subsample):
+
+Same value at different precision: 0
+
+Term variants: 1
+  AI: {'AI': 7, 'artificial intelligence': 1}
+    …value of generative artificial intelligence (AI) depends on wha…
+
+Abbreviations: 0
+
+Tables and figures: 1
+  table 1: mentioned but no caption found
+
+Numbered citations: 0
+
+STDERR:

@@ -1,0 +1,20 @@
+Language: en | discussion/conclusion sentences: 24 | paragraphs: 4
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 4.2  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 1
+  (keep those that state a condition the claim needs)
+  [para 1] The latter result supports the authors’ view that learning-oriented design can mitigate the pattern of harm, but it does not establish equivalence with ordinary
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

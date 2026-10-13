@@ -1,0 +1,159 @@
+{
+  "task": "H1-ppt",
+  "status": "generated_and_checked",
+  "artifacts": {
+    "first-plan.json": {
+      "bytes": 17938,
+      "sha256": "1f5807dcdfa8371c2d03bbcab4b02cffe72635d61ae7b8944fb2b0f6fb443bf2"
+    },
+    "review.md": {
+      "bytes": 2995,
+      "sha256": "5255cbff30d91c5423df961f731e67e93ca24656cab2302355d1b4c4e49bf806"
+    },
+    "plan.json": {
+      "bytes": 17944,
+      "sha256": "93e91ea034cd5e25c0fa7af5ed7fadb71a0fdc9d91364279c2a4c7ce94b36950"
+    },
+    "rationale.md": {
+      "bytes": 4652,
+      "sha256": "42652d5f0695977f9a5c220d76333d801074185b7e6a143e66783521426c03f3"
+    },
+    "deck/slides.pptx": {
+      "bytes": 64483,
+      "sha256": "6bb7dea8dc48f12245530b776c92556ec7b04be582f50eb9035473b8e44d9685"
+    },
+    "deck/content.md": {
+      "bytes": 11842,
+      "sha256": "4654860231c91d491cae64c6991977ad76b61d2d38c5ef255070bf315e6d2f68"
+    },
+    "deck/speaker_notes.md": {
+      "bytes": 6434,
+      "sha256": "bc4bd9aa69d068bdb32885e934d7e13c26ad654f32b5ffb68bbd23949b9ebff9"
+    },
+    "final-checks.json": {
+      "bytes": 1360,
+      "sha256": "ba5c175ac0479e3e7ea7310832698eb6dff01854c2b6a0f35a3b3eb01957461a"
+    }
+  },
+  "checks": {
+    "build_exit_code": 0,
+    "deck": "edu_output\\capability-20261013\\runs\\arm-p\\H1-ppt\\deck",
+    "render": "not_run_by_task_instruction",
+    "visual_review": "not_performed",
+    "rehearsal": "not_performed",
+    "check_exit_code": 0,
+    "check_result": {
+      "status": "passed",
+      "errors": [],
+      "issues": [],
+      "warnings": [],
+      "inventory": [
+        {
+          "slide": 1,
+          "editable_text": 7,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 2,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 3,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 4,
+          "editable_text": 11,
+          "shapes_or_lines": 3
+        },
+        {
+          "slide": 5,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 6,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 7,
+          "editable_text": 5,
+          "shapes_or_lines": 1,
+          "native_tables": 1
+        },
+        {
+          "slide": 8,
+          "editable_text": 8,
+          "shapes_or_lines": 1
+        },
+        {
+          "slide": 9,
+          "editable_text": 9,
+          "shapes_or_lines": 1
+        }
+      ],
+      "render_status": "not_checked",
+      "plan_consistency": "passed",
+      "source_fact_check": "not_performed",
+      "visual_review": "not_performed",
+      "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+    },
+    "timing": [
+      {
+        "slide": "S01",
+        "planned_seconds": 35,
+        "notes_han_characters": 143
+      },
+      {
+        "slide": "S02",
+        "planned_seconds": 40,
+        "notes_han_characters": 161
+      },
+      {
+        "slide": "S03",
+        "planned_seconds": 65,
+        "notes_han_characters": 167
+      },
+      {
+        "slide": "S04",
+        "planned_seconds": 60,
+        "notes_han_characters": 189
+      },
+      {
+        "slide": "S05",
+        "planned_seconds": 50,
+        "notes_han_characters": 140
+      },
+      {
+        "slide": "S06",
+        "planned_seconds": 65,
+        "notes_han_characters": 167
+      },
+      {
+        "slide": "S07",
+        "planned_seconds": 75,
+        "notes_han_characters": 211
+      },
+      {
+        "slide": "S08",
+        "planned_seconds": 60,
+        "notes_han_characters": 200
+      },
+      {
+        "slide": "S09",
+        "planned_seconds": 30,
+        "notes_han_characters": 110
+      }
+    ]
+  },
+  "review_identity": "AI self-check",
+  "formal_skill_files_modified": false,
+  "external_browsing": false
+}

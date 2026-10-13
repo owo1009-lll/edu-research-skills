@@ -10,6 +10,7 @@ import re
 import sys
 from plan import load_plan, export_text, reference_text, digest, interval_text, display_number
 from objects import identify, identity, SERIES_COLORS
+from chart_labels import configure_labels
 
 
 DEFAULT = {'font': 'Microsoft YaHei', 'accent': '176B76', 'ink': '172D3A',
@@ -163,6 +164,7 @@ def make_pptx(plan, destination, base, template=None, theme=None):
                 chart.plots[0].data_labels.font.size = Pt(16)
                 chart.plots[0].data_labels.number_format = data.get('number_format', 'General')
                 chart.plots[0].data_labels.position = XL_LABEL_POSITION.ABOVE if data.get('kind') == 'line' else XL_LABEL_POSITION.OUTSIDE_END
+            configure_labels(chart, data)
             for i, series in enumerate(chart.series):
                 rgb = RGBColor.from_string(colors[i])
                 if data.get('kind', 'column') != 'line':

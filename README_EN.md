@@ -2,9 +2,11 @@
 
 [中文说明](README.md)
 
-Version **0.11.0**. Skills for education paper writing and revision, mock review, reviewer responses, recorded R analyses, qualitative analysis, statistical checks, proposals, research design and academic presentations. The Chinese [user manual](使用手册.md) explains material preparation and review responsibilities.
+Version **0.12.0**. Skills for education paper writing and revision, mock review, reviewer responses, recorded R analyses, qualitative analysis, statistical checks, proposals, research design and academic presentations. The Chinese [user manual](使用手册.md) explains material preparation and review responsibilities.
 
 The [presentation evaluation](evals/edu-ppt-evaluation.md) records seven exercised scenarios, actual renders, independent AI trials and remaining limits. The [open-article example](skills/edu-ppt/examples/article-nbo/README.md) includes selection reasons, a runnable plan and attribution.
+
+Version 0.12.0 adds per-point chart-label and interval-row checks, plus target-journal and editorial-team literature discovery. A new writing card was withheld after mixed blinded comparisons; mechanical introduction quotas were removed, and an optional evidence-sequencing method was retained for article presentations. Complete outputs, source records and rendered previews are in the [evaluation](evals/capability-20261013/README.md).
 
 ## Install
 

@@ -1,0 +1,191 @@
+{
+  "title": "逐点标签与区间行对应：合成验证",
+  "route": "own",
+  "stage": "progress",
+  "language": "zh",
+  "minutes": 3,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "讨论课反馈项目的阶段进展（合成）",
+      "short": "合成演示材料",
+      "access": "author_material",
+      "url": "",
+      "year": 2026,
+      "license": "CC-BY-NC-4.0"
+    }
+  ],
+  "slides": [
+    {
+      "id": "L01",
+      "title": "计数标签应当对应真实数值",
+      "section": "已完成",
+      "message": "底层值12和8，默认标签分别显示12和8。",
+      "body": [],
+      "visual_plan": "可编辑原生对象",
+      "visual": {
+        "type": "chart",
+        "kind": "column",
+        "categories": [
+          "完整",
+          "待补"
+        ],
+        "series": [
+          {
+            "name": "模拟试填",
+            "values": [
+              12,
+              8
+            ]
+          }
+        ],
+        "unit": "份（合成）"
+      },
+      "notes": "底层值12和8，默认标签分别显示12和8。本页为合成验证材料；汇报时按标签、坐标和原始数据之间的关系解释。",
+      "seconds": 45,
+      "role": "finding",
+      "status": "preliminary",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "合成标签与行对应验证",
+          "supports": "底层值12和8，默认标签分别显示12和8。"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "比例原值与百分比显示",
+      "section": "已完成",
+      "message": "原值0.12和0.08显示为12.0%和8.0%。",
+      "body": [],
+      "visual_plan": "可编辑原生对象",
+      "visual": {
+        "type": "chart",
+        "kind": "column",
+        "categories": [
+          "前测",
+          "后测"
+        ],
+        "series": [
+          {
+            "name": "合成比例",
+            "values": [
+              0.12,
+              0.08
+            ]
+          }
+        ],
+        "unit": "原始比例0–1",
+        "number_format": "0.0%",
+        "caption": "数据标签用百分比，原始数值未乘100存储。"
+      },
+      "notes": "原值0.12和0.08显示为12.0%和8.0%。本页为合成验证材料；汇报时按标签、坐标和原始数据之间的关系解释。",
+      "seconds": 45,
+      "role": "finding",
+      "status": "preliminary",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "合成标签与行对应验证",
+          "supports": "原值0.12和0.08显示为12.0%和8.0%。"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "标签内容可以按解释需要选择",
+      "section": "已完成",
+      "message": "第一点只写类别，第二点同时写类别和原值。",
+      "body": [],
+      "visual_plan": "可编辑原生对象",
+      "visual": {
+        "type": "chart",
+        "kind": "column",
+        "categories": [
+          "实验组",
+          "对照组"
+        ],
+        "series": [
+          {
+            "name": "合成计数",
+            "values": [
+              12,
+              8
+            ]
+          }
+        ],
+        "unit": "人（合成）",
+        "label_content": [
+          "category"
+        ],
+        "label_overrides": [
+          {
+            "series": 0,
+            "point": 1,
+            "content": [
+              "category",
+              "value"
+            ],
+            "number_format": "0.00",
+            "separator": ": "
+          }
+        ]
+      },
+      "notes": "第一点只写类别，第二点同时写类别和原值。本页为合成验证材料；汇报时按标签、坐标和原始数据之间的关系解释。",
+      "seconds": 45,
+      "role": "finding",
+      "status": "preliminary",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "合成标签与行对应验证",
+          "supports": "第一点只写类别，第二点同时写类别和原值。"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "项目名称与区间保持逐行对应",
+      "section": "已完成",
+      "message": "整行可移动；线和点不能移到另一个项目名称旁。",
+      "body": [],
+      "visual_plan": "可编辑原生对象",
+      "visual": {
+        "type": "interval",
+        "range": [
+          -0.5,
+          1
+        ],
+        "reference": 0,
+        "unit": "合成差值",
+        "rows": [
+          {
+            "label": "甲项目",
+            "estimate": 0.2,
+            "low": -0.1,
+            "high": 0.5
+          },
+          {
+            "label": "乙项目",
+            "estimate": 0.5,
+            "low": 0.2,
+            "high": 0.8
+          }
+        ],
+        "caption": "仅为绘图与校验示例，数字不代表真实研究结果。"
+      },
+      "notes": "整行可移动；线和点不能移到另一个项目名称旁。本页为合成验证材料；汇报时按标签、坐标和原始数据之间的关系解释。",
+      "seconds": 45,
+      "role": "finding",
+      "status": "preliminary",
+      "evidence": [
+        {
+          "source": "S1",
+          "location": "合成标签与行对应验证",
+          "supports": "整行可移动；线和点不能移到另一个项目名称旁。"
+        }
+      ]
+    }
+  ]
+}

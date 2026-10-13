@@ -1,0 +1,30 @@
+test_content_mode_delivers_actual_prose_and_notes (test_ppt.PptTests.test_content_mode_delivers_actual_prose_and_notes) ... ok
+test_content_only_table_is_readable_without_json_or_empty_body (test_ppt.PptTests.test_content_only_table_is_readable_without_json_or_empty_body) ... ok
+test_density_and_overwrite_fail_explicitly (test_ppt.PptTests.test_density_and_overwrite_fail_explicitly) ... ok
+test_docx_extraction_retains_paragraph_and_table_locators (test_ppt.PptTests.test_docx_extraction_retains_paragraph_and_table_locators) ... ok
+test_invalid_evidence_and_intervals_are_rejected (test_ppt.PptTests.test_invalid_evidence_and_intervals_are_rejected) ... ok
+test_multiline_body_keeps_line_breaks_and_room_for_next_item (test_ppt.PptTests.test_multiline_body_keeps_line_breaks_and_room_for_next_item) ... ok
+test_native_objects_and_notes_survive_editing (test_ppt.PptTests.test_native_objects_and_notes_survive_editing) ... ok
+test_notes_tampering_detected (test_ppt.PptTests.test_notes_tampering_detected) ... ok
+test_style_rebuild_retains_content_and_input (test_ppt.PptTests.test_style_rebuild_retains_content_and_input) ... ok
+test_template_geometry_preserved_without_sample_pages (test_ppt.PptTests.test_template_geometry_preserved_without_sample_pages) ... ok
+test_chart_labels_series_order_values_units_and_axes (test_ppt_fidelity.FidelityTests.test_chart_labels_series_order_values_units_and_axes) ... ok
+test_display_precision_near_zero_and_ratio_reference (test_ppt_fidelity.FidelityTests.test_display_precision_near_zero_and_ratio_reference) ... ok
+test_explicit_axis_validation_and_intentional_truncation (test_ppt_fidelity.FidelityTests.test_explicit_axis_validation_and_intentional_truncation) ... ok
+test_identity_survives_layout_and_theme_and_defeats_decoy_text (test_ppt_fidelity.FidelityTests.test_identity_survives_layout_and_theme_and_defeats_decoy_text) ... ok
+test_individual_label_text_format_and_visibility (test_ppt_fidelity.FidelityTests.test_individual_label_text_format_and_visibility) ... ok
+test_interval_rows_keep_text_and_marks_together (test_ppt_fidelity.FidelityTests.test_interval_rows_keep_text_and_marks_together) ... ok
+test_legal_label_components_percent_and_point_overrides (test_ppt_fidelity.FidelityTests.test_legal_label_components_percent_and_point_overrides) ... ok
+test_nonzero_reference_geometry_and_label_changes (test_ppt_fidelity.FidelityTests.test_nonzero_reference_geometry_and_label_changes) ... ok
+test_preview_freshness_is_separate_from_plan_and_source_checks (test_ppt_fidelity.FidelityTests.test_preview_freshness_is_separate_from_plan_and_source_checks) ... ok
+test_process_order_connections_and_quote_attribution (test_ppt_fidelity.FidelityTests.test_process_order_connections_and_quote_attribution) ... ok
+test_small_intervals_and_original_numeric_labels (test_ppt_fidelity.FidelityTests.test_small_intervals_and_original_numeric_labels) ... ok
+test_source_image_bytes_and_generation_record (test_ppt_fidelity.FidelityTests.test_source_image_bytes_and_generation_record) ... ok
+test_table_cells_header_structure_and_removal (test_ppt_fidelity.FidelityTests.test_table_cells_header_structure_and_removal) ... ok
+test_two_series_have_distinct_colors_and_legend (test_ppt_fidelity.FidelityTests.test_two_series_have_distinct_colors_and_legend) ... ok
+test_unsupported_label_sources_are_reported_unverified (test_ppt_fidelity.FidelityTests.test_unsupported_label_sources_are_reported_unverified) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 3.346s
+
+OK

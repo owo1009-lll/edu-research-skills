@@ -1,0 +1,18 @@
+{
+  "source": "evals/capability-20261013/distillation/trials/arm-p/H3-ppt/deck/slides.pptx",
+  "pptx_sha256": "64343c7aa90717bbacfbda6d86b37d13f4c6f8b396da3c81df1dbc02899c3c76",
+  "status": "rendered",
+  "visual_review": "not_performed",
+  "errors": [],
+  "engine": "PowerPoint COM",
+  "slides": 4,
+  "contact_sheets": [
+    "contact-01.png"
+  ],
+  "images": {
+    "slide-001.png": "0465691707e03f06285067690ea436bb9d1bc885a2d2ff8ae03e01718a2bb717",
+    "slide-002.png": "239c559fb8006cf612717a07497de0b3a9ed012c45ef0fd0d8c79dbd43ce3bcc",
+    "slide-003.png": "6df2a1229c8816631071b6b4cdac06eb9a2352fd830112e827a4eb87ceaa369f",
+    "slide-004.png": "1aa1b1d0d6517755ec968b3c6eff6e1f8697d173cad98ff76eaa21c704203fe6"
+  }
+}

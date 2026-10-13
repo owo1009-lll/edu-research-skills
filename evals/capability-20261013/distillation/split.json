@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-10-13T19:01:00+08:00",
+  "timestamp_note": "Minute-level session record; the earlier draft used 19:03, corrected before candidate extraction. Allocation is unchanged.",
+  "baseline_commit": "08aa93320c356b75fd0f6bfc61b5df02f98e2682",
+  "allocation_rule": "Assigned before full-text reading and candidate-rule extraction. Discovery titles and search snippets were visible; these are not a completely unseen corpus. Holdout full text is reserved until candidate instructions are frozen.",
+  "training": [
+    {"id": "T1", "type": "published_quantitative_paper", "doi": "10.1073/pnas.1821936116", "title": "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom", "reason": "Competing explanations and a consequential distinction between subjective experience and tested learning."},
+    {"id": "T2", "type": "published_mixed_survey_paper", "doi": "10.1186/s41239-023-00411-8", "title": "Students’ voices on generative AI: perceptions, benefits, and challenges in higher education", "reason": "Interpret self-report and qualitative responses without converting perceived benefits into demonstrated learning effects."},
+    {"id": "T3", "type": "public_trial_report", "url": "https://discovery.ucl.ac.uk/10118795/11/Foliano_Changing%20Mindsets.%20Effectiveness%20trial_report_VoR2.pdf", "title": "Changing Mindsets: Effectiveness trial", "reason": "Null primary outcomes alongside implementation and process evidence; do not transfer the contribution to a favourable secondary outcome."},
+    {"id": "S1", "type": "authentic_public_seminar_slides", "url": "https://curriculumfellows.hms.harvard.edu/sites/g/files/omnuum5346/files/cfp_version2/files/loseminarslides_marked.pdf", "title": "When active learning fails: How faculty beliefs and intentions inform their teaching and influence student outcomes", "metadata_note": "Title corrected from PDF metadata to the actual title slide; same preassigned source.", "reason": "Observe actual presentation sequencing and audience explanation, separately from published-paper prose; visual layout is unverified because screenshots did not produce inspectable images."}
+  ],
+  "holdout": [
+    {"id": "H1", "type": "published_quantitative_paper", "doi": "10.1073/pnas.2422633122", "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics", "tasks": ["English discussion rewrite", "Chinese article-reading presentation"]},
+    {"id": "H2", "type": "published_student_perceptions_paper", "doi": "10.1186/s41239-023-00434-1", "title": "Students’ perceptions of using ChatGPT in a physics class as a virtual tutor", "tasks": ["English interpretation and contribution"]},
+    {"id": "H3", "type": "synthetic_own_research_progress", "title": "Peer feedback pilot with a planned comparison", "tasks": ["Chinese route-A research-progress presentation"], "note": "Synthetic educational scenario. No real user manuscript or student data."}
+  ],
+  "substitution_policy": "If a source cannot be read lawfully, record its exclusion and reason before deriving any rule from a substitute. Keep a failed holdout as an access failure; do not choose a favourable replacement after scoring."
+}
