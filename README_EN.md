@@ -2,7 +2,7 @@
 
 [中文说明](README.md)
 
-Version **0.11.0**. Skills for education research design, recorded R analyses, qualitative analysis, paper writing, mock review, reviewer responses, proposals and academic presentations. The Chinese [user manual](使用手册.md) explains material preparation and review responsibilities.
+Version **0.11.0**. Skills for education paper writing and revision, mock review, reviewer responses, recorded R analyses, qualitative analysis, statistical checks, proposals, research design and academic presentations. The Chinese [user manual](使用手册.md) explains material preparation and review responsibilities.
 
 The [presentation evaluation](evals/edu-ppt-evaluation.md) records seven exercised scenarios, actual renders, independent AI trials and remaining limits. The [open-article example](skills/edu-ppt/examples/article-nbo/README.md) includes selection reasons, a runnable plan and attribution.
 
