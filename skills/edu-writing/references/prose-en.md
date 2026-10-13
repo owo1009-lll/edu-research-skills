@@ -4,7 +4,7 @@ Figures come from 50 empirical articles published 2024–2026 (repository `disti
 - **Top tier (35 articles):** from journals such as AERJ, Journal of Educational Psychology, Contemporary Educational Psychology, Learning and Instruction, Computers & Education, Educational Researcher, Sociology of Education, AERA Open, Journal of Teacher Education, Teaching and Teacher Education, JRST, Science Education, BERJ, Higher Education, Studies in Higher Education, BJET, JLS, Psychology of Music and the British Journal of Music Education.
 - **Other 15 articles:** from Computers & Education, BJET, ETR&D, IJETHE, Education and Information Technologies, TATE, IJME and Music Education Research.
 
-Figures are medians unless stated. Where the groups differ, write to the top tier; where designs differ, follow §7.
+Figures are medians unless stated. They describe how published papers usually write and are optional references, not quality targets. Whether to use a given form depends on the argument, the type of study and the target journal. How the argument is organised is in [argument](argument.md).
 
 [voice-en](voice-en.md) covers stance: where to state and where to hedge. This file covers how paragraphs move, how literature is used and how sentences are built. Read both.
 
@@ -53,7 +53,7 @@ Figures are medians unless stated. Where the groups differ, write to the top tie
   - Use a study as support only when its finding points the way you argue; a reverse or reciprocal effect is not evidence for the forward one.
   - The published densities come from papers with 50–80 references. With a small reference pack, a lower density is correct. Stretching citations to reach the median is a more serious fault than citing too little.
   - **Problem entries in a reference pack.** Put each one on the author to-do list. They differ in what you may cite:
-    - **Abstract belongs to another paper, or title only:** until checked, cite the work only for the central claim in its title, or for a canonical claim the field attributes to it. Never cite details from a mismatched abstract.
+    - **Abstract belongs to another paper, or title only:** in new writing, do not use the work to support a new factual claim; list it for checking. In a revision, keep the author's existing citation, record it as unverified in `rationale.md`, and do not mark it as verified.
     - **Author list cut short, or online year differs from issue year:** the abstract is still usable, so cite its findings normally. In the reference list, keep the given authors followed by "[remaining authors to be added]", use the year the pack gives, and flag the discrepancy.
 - **Introduction and review.** Do not repeat the same sentence or the same citation group in both. The Introduction gives the point and its citations; definitions, detailed evidence and examples belong in the review.
 
@@ -73,7 +73,7 @@ Figures are medians unless stated. Where the groups differ, write to the top tie
 
 ## 5. Sentences
 
-- **Length.** Aim for a median of about 25–27 words; the published median is 27 (22–33). Keep sentences over 40 words to about 1 in 7 (15% published; every article has at least 5%). Results sentences are shortest (22) and Introduction sentences longest (30.5). Too short is also a departure: when fixing long sentences, do not chop the text into 15-word sentences. A median near 20 and almost no sentence over 40 words reads as clipped.
+- **Length** (reference). The published median is 27 words (22–33). Keep sentences over 40 words to about 1 in 7 (15% published; every article has at least 5%). Results sentences are shortest (22) and Introduction sentences longest (30.5). Too short is also a departure: when fixing long sentences, do not chop the text into 15-word sentences. A median near 20 and almost no sentence over 40 words reads as clipped.
 - **First person.** Use *we* for the study's actions and decisions: 4.8 per 1,000 words. It is most frequent in the present-study section (9.5), limitations (9.3) and Discussion (6.1); review prose rarely uses it (1.2). Impersonal prose is also within range (8 of 50 articles stay below 1 per 1,000).
 - **Passive.** About a quarter of sentences use the passive (24%, range 10–46%). The measure counts *was related to* and *was associated with*, which survey designs need (see voice-en). A high figure in a short abstract is therefore normal. Across the argued sections, change passives that hide who acted (*it was decided*, *data were collected by us*), not the relational verbs.
 - **Connectives.** *However* is the main contrast word (about 14 per 10,000 words). *Furthermore*, *moreover*, *additionally* and *in addition* together run at about 13 per 10,000, about five in a 4,000-word text (qualitative papers 8). About one paragraph in six opens with a connective. Vary them; do not open consecutive paragraphs with them.
@@ -88,7 +88,7 @@ Figures are medians unless stated. Where the groups differ, write to the top tie
 
 ## 6. Headings and lists
 
-- **Discussion.** Discussion subheadings are absent in 23 of 50 articles and topic labels in 21 ("Teacher support and engagement"). Claim headings appear in only 4. Unlike Chinese articles, do not phrase English Discussion subheadings as claims; put the claim in the first sentence of the point.
+- **Discussion.** Discussion subheadings are absent in 23 of 50 articles, topic labels in 21 ("Teacher support and engagement") and claim headings in 4. Choose by the target journal and what the argument needs.
 - **Implications.** Write implications as prose paragraphs; only 4 of 50 articles number them.
 - **Limitations.** In quantitative papers, number them "First, … Second, …" when there are several (12/22).
 
@@ -104,7 +104,7 @@ Figures are medians unless stated. Where the groups differ, write to the top tie
 
 ## 8. Check
 
-After drafting, run `python <this skill>/scripts/check_prose.py --draft <manuscript>`. It detects English and reports, section by section, the measures above against the published medians:
+After drafting, you can run `python <this skill>/scripts/check_prose.py --draft <manuscript>`. It detects English and reports, section by section, the measures above against the published medians. The output gives cues for a human to judge: being outside the range does not mean poor writing, and being near the median does not mean good writing. It reports:
 - citation density, cited sentences, narrative and bundled citations;
 - numbers in the Discussion and Results;
 - sentence and paragraph length, *we*, passive voice and abbreviations;
@@ -112,6 +112,4 @@ After drafting, run `python <this skill>/scripts/check_prose.py --draft <manuscr
 
 A draft that states hypotheses is treated as quantitative for the Discussion's narrative citations.
 
-Flags fire only beyond the published extremes. A value far from the median but inside the range still deserves a reread, especially:
-- cited sentences in the Introduction and review;
-- narrative citations in the Discussion, compared with the design's median.
+Cues appear only beyond the published extremes.

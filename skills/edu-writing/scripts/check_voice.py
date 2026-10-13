@@ -1,8 +1,17 @@
-"""Check the stance of a discussion or manuscript draft against published education articles.
+"""List stance cues in a discussion or manuscript draft for a human to judge.
 
-Lists disclaimer sentences ("cannot establish", 尚不能证明), stacked hedges and limitation sentences
-outside the limitations unit, and compares rates in the discussion/conclusion region with the corpus
-medians in voice-en.md / voice-zh.md. Usage: python check_voice.py --draft <file.md|.txt|.docx>
+    python check_voice.py --draft <file.md|.txt|.docx> [--source materials ...]
+
+Lists disclaimer-type sentences ("cannot establish", 尚不能证明), sentences that stack qualifiers,
+limitation sentences outside the limitations unit, possible substantive distinctions ("X 不等于 Y",
+"is not the same as"), and sentences that need a semantic check because they may turn a non-significant
+result into equivalence, an exclusive mechanism or a free choice. Rates are compared with the corpus
+medians in voice-en.md / voice-zh.md as a reference only: a rate near the median does not show good
+writing, and a necessary condition or an accurate qualification should stay.
+
+The number check only confirms that each number string in the draft occurs somewhere in the sources
+(also after rounding). It does not check what the number refers to, its direction, unit or analysis
+identity (for example a standardized versus an unstandardized coefficient); those need reading.
 """
 from pathlib import Path
 import argparse, re, sys
@@ -23,6 +32,30 @@ LEX = {
 }
 # (published median, bound of the typical range) in the discussion/conclusion region; see voice-*.md.
 # Chinese papers rarely have a limitations section and use few self-mentions, so only disclaimers are compared.
+# A self-referential subject marks a disclaimer about this study's own inference; without one,
+# "X does not mean Y" / "X 不等于 Y" is more likely a substantive distinction (an argument).
+SELF_SUBJECT = {
+    'en': r"\b(this|these|our|we|the (?:present |current )?(?:results?|findings?|data|study|analysis|analyses|association|effect|pattern|design|estimates?))\b",
+    'zh': r"(本研究|本文|上述|研究发现|研究结果|结果|数据|这|该)",
+}
+DISTINCTION = {
+    'en': r"\bis not the same as\b|\bdoes not amount to\b|\bis distinct from\b|\bnot (?:simply|merely|just) \w+(?: \w+){0,3},? but\b",
+    'zh': r"(?<![这此])(?:并)?不等于|并非[^，。；]{1,20}而是|不只是[^，。；]{1,20}而是",
+}
+# a non-significant result possibly turned into equivalence, an exclusive mechanism or a free choice
+SEMANTIC = {
+    'en': r"\b(equivalent|equally effective|as effective as|interchangeab\w*|either (?:\w+ ){0,4}(?:can|could|may) be used|"
+          r"only through|solely through|exclusively through|entirely through|fully mediat\w*|complete(?:ly)? mediat\w*|"
+          r"no effect|had no (?:impact|influence)|does not work|did not work|boundary condition)\b",
+    'zh': r"(效果相当|同样有效|等效|可以互换|可互换|任选其一|任选|均可采用|二者皆可|两者皆可|只通过|仅通过|完全通过|完全中介|"
+          r"没有作用|不起作用|无效|边界条件)",
+}
+# "may partly / 可能部分" is one accurate qualifier, not two
+ONE_QUALIFIER = {
+    'en': r"\b(may|might|could)\s+(?:be\s+|have\s+)?(?:partly|partially|in part)\b",
+    'zh': r"可能(?:在)?(?:一定程度上|部分(?:地)?)",
+}
+
 REFERENCE = {
     'en': {'disclaimer_sent_pct': (0.9, 1.7), 'self_per1k': (10.8, 7.8), 'limitation_in_unit_pct': (66.7, 28.6)},
     'zh': {'disclaimer_sent_pct': (0.0, 2.0)},
@@ -171,11 +204,14 @@ def main():
     units = len(re.findall(r'[一-鿿]', body)) if lang == 'zh' else len(re.findall(r"[A-Za-z][A-Za-z'-]*", body))
     if not sents or not units:
         print('No discussion/conclusion text found.'); return
-    disc = [(i, s) for k, i, s in sents if k == 'focus' and re.search(lex['disclaimer'], s, flags)]
+    disc_all = [(i, s) for k, i, s in sents if k == 'focus' and re.search(lex['disclaimer'], s, flags)]
+    distinct = [(i, s) for k, i, s in sents if re.search(DISTINCTION[lang], s, flags)]
+    distinct += [(i, s) for i, s in disc_all if not re.search(SELF_SUBJECT[lang], s, flags) and (i, s) not in distinct]
+    disc = [(i, s) for i, s in disc_all if (i, s) not in distinct]
     # counterfactual tests ("if X, we would have expected Y" / 若……则应……) are reasoning, not stacked hedges
     counterfactual = r'\bif\b[^.]*\bwould(?: not)? have\b|\bwould(?: not)? have\b[^.]*\bif\b|若[^。]{0,40}则应|如果[^。]{0,40}应当会'
-    stacked = [(i, s) for k, i, s in sents if len(re.findall(lex['hedge'], s, flags)) >= 2
-               and not re.search(counterfactual, s, re.I)]
+    qualifiers = lambda s: len(re.findall(lex['hedge'], re.sub(ONE_QUALIFIER[lang], 'may' if lang == 'en' else '可能', s, flags=flags), flags))
+    stacked = [(i, s) for k, i, s in sents if qualifiers(s) >= 2 and not re.search(counterfactual, s, re.I)]
     lims = [(k, i, s) for k, i, s in sents if re.search(lex['limitation'], s, flags)]
     stray = [(i, s) for k, i, s in lims if k != 'limits']
     focus = [s for k, _, s in sents if k == 'focus']  # the limitations unit may say what cannot be inferred
@@ -194,18 +230,27 @@ def main():
             bad = val < bound if higher_is_better else val > bound
             msg += f'  (published median {med}; {"outside" if bad else "within"} typical range)'
         print(msg)
+    print('  (rates are references from published articles, not quality targets)')
     line('Disclaimer sentences in the discussion body (%)', disc_pct, 'disclaimer_sent_pct', False)
     line(f'Self-mention per {unit}', self_rate, 'self_per1k', True)
     line('Limitation sentences inside the limitations unit (%)', in_unit, 'limitation_in_unit_pct', True)
-    for title, items in (('Disclaimer sentences in the discussion body', disc),
-                         ('Sentences with two or more hedges', stacked),
-                         ('Limitation sentences outside the limitations unit', stray)):
+    whole = manuscript_text(text)
+    semantic = [(0, x.strip()) for para in whole.splitlines() for x in sentences(para, lang) if re.search(SEMANTIC[lang], x, flags)]
+    for title, hint, items in (
+            ('Disclaimer sentences in the discussion body', 'keep those that state a condition the claim needs', disc),
+            ('Possible substantive distinctions', 'arguments, not disclaimers', distinct),
+            ('Sentences with two or more hedges', 'one accurate qualifier is fine; check that each one is needed', stacked),
+            ('Limitation sentences outside the limitations unit', 'a specific problem may belong next to its result', stray),
+            ('Sentences for a semantic check', 'does a non-significant result become equivalence, an exclusive mechanism or a free choice?', semantic)):
         print(f'\n{title}: {len(items)}')
+        if items:
+            print(f'  ({hint})')
         for i, s in items:
-            print(f'  [para {i}] {s[:160]}')
+            print(f'  [para {i}] {s[:160]}' if i else f'  {s[:160]}')
     if a.source:
         hits = unsupported_numbers(manuscript_text(text), a.source)
         print(f'\nNumbers not found in the sources (derived values are fine; invented details are not): {len(hits)}')
+        print('  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)')
         for h in hits:
             print(f'  …{h}…')
 

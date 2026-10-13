@@ -23,7 +23,7 @@
 
 > The reminder group completed more tasks on time, but it did not outperform the comparison group on the independent transfer task. One possible explanation is that reminders made it easier to schedule work without changing how participants approached it; completers mostly described the reminders as help with planning. Several completers also reported following the prompt without reconsidering their solutions, which suggests that the reminders supported compliance more than transfer. For vocational programmes, the findings support reminders as a low-cost aid to timely participation.
 
-改进发生在解释对象、证据角色与待检验区别上：发现直接陈述（准时完成更多，迁移任务无差异），不确定性放在解释上，随后落到实践含义上。可检验的下一步（如加入反思提示）写进局限与展望，不留在讨论段内，讨论段对解释作出取舍。完成任务不再被改写成学习效果，候选解释不再冒充因果发现。访谈只来自完成者这一局限写在局限部分，不在本段追加免责句。
+改进发生在解释对象、证据角色与待检验区别上：发现直接陈述（准时完成更多，迁移任务未见差异），不确定性放在解释上，随后落到实践含义上。可检验的下一步（如加入反思提示）写进局限与展望，不留在讨论段内。访谈材料在这里能区分两种解释，所以讨论段作出了取舍；证据不能区分时，写清未决之处（见 [论证](../argument.md) 第 5 节）。完成任务不再被改写成学习效果，候选解释不再冒充因果发现。访谈只来自完成者这一局限写在局限部分，不在本段追加免责句。
 
 ## 补充阅读后的条件修订
 

@@ -1,74 +1,80 @@
 # English voice for SSCI education journals
 
-Calibrated on 15 empirical articles (2024–2025) from Computers & Education, BJET, ETR&D, IJETHE, Education and Information Technologies, Teaching and Teacher Education, Learning and Instruction, IJME and Music Education Research. Figures below are medians across those papers; the analysis is in `distill/results/` of the project repository.
+This file covers stance at the level of language: where to state, where to qualify, and how to express a position. How the argument is ordered, how qualifications are classified and what each kind of claim needs are in [argument](argument.md) (written in Chinese, with English examples). How statistical results are interpreted is in [framing-results](framing-results.md).
 
-This file covers stance. How paragraphs, citations and sentences are built is in [prose-en](prose-en.md), calibrated on 50 articles (35 from top-tier journals; 22 quantitative, 15 qualitative, 13 mixed); read both.
+The figures below come from stance coding of 15 empirical articles (2024–2025: Computers & Education, BJET, ETR&D, IJETHE, Education and Information Technologies, Teaching and Teacher Education, Learning and Instruction, IJME, Music Education Research; analysis in `distill/results/`). [prose-en](prose-en.md) describes paragraph and sentence habits in 50 articles. Both describe how published papers usually write. Use them as references, not as quality targets.
 
-Published authors are not less cautious than a careful draft. They put the caution in different places: findings are stated plainly, the authors' own explanations carry the hedges, and design limits are gathered in one limitations unit that turns into future work.
+## Findings: state what the evidence supports
 
-## Findings: state them
+Restate results as plain declaratives with the statistic or theme: "Teacher support predicted engagement (β = .41, p < .001)", "Participants most often described…". In the corpus 86% of finding statements carry no hedge.
 
-Restate results as plain declaratives with the statistic or theme: "Teacher support predicted engagement (β = .41, p < .001)", "Participants most often described…". In the corpus 86% of finding statements carry no hedge. When a finding is weak (marginal p, small subgroup, exploratory analysis), one reporting verb is enough: "The data suggest…". Do not stack modals on a result.
-
-Direct is not causal. Match the verb to the design: experiments may say *improved* or *increased*; surveys and correlational designs say *predicted*, *was associated with*, *was related to*. Choosing the right verb replaces any later "this does not prove causation" sentence. In the abstract and implications too, cross-sectional findings do not *add to*, *drive* or *build* anything.
-
-Plain is not absolute. Write *only*, *solely* or *fully* only when the estimates show it.
-- **Non-significant direct path.** When the direct path is not significant but the indirect one is, write "was related to engagement through self-efficacy; the direct path was not significant", not "only through self-efficacy". This matters most when the direct estimate is not smaller than the indirect one; mention power there.
+- **Match the verb to the design.** Experiments may say *improved* or *increased*. Surveys and correlational designs, including path models, say *predicted*, *was associated with* or *was related to*. In the abstract and implications too, cross-sectional findings do not *add to*, *drive* or *build* anything.
+- **Keep the conditions that define a claim inside it.** Sample scope, covariates, the exploratory status of an analysis and the timing of measurement belong in the sentence: "With prior achievement controlled, …", "In an exploratory analysis, …". Do not move them to the end of the paper.
+- **Plain is not absolute.** Write *only*, *solely* or *fully* only when the estimates show it. A non-significant direct path next to a significant indirect one gives "the indirect association was significant; the direct association was not", not "only through self-efficacy". See [framing-results](framing-results.md) §5.
 - **Name what each method shows.**
-  - NCA identifies necessity in degree (bottlenecks at given outcome levels).
+  - NCA identifies necessity in degree.
   - The fsQCA necessity test asks about necessity in kind.
   - One sufficient configuration is one route to the outcome, not the only route.
-- **Keep the same strength everywhere.** A finding is worded the same way in the abstract, the discussion and the conclusion.
 
-## Explanations: carry the uncertainty here
+## Explanations: qualify them accurately
 
-When you propose why a result occurred, hedge the reason, not the result: "One possible explanation is that…", "This may reflect…", "…may be attributed to…". In the corpus 69% of the authors' own explanations are hedged against 16% of findings. Agreement with prior work is stated without hedges, usually with parenthetical citations: "This is consistent with studies of [population] (Lee & Kim, 2023; …)". When a result contradicts prior work, name the difference in sample, setting or measure that could account for it.
+When you propose why a result occurred, qualify the reason by the strength of its support: "One possible explanation is that…", "This may partly reflect…". In the corpus 69% of the authors' own explanations are qualified, against 16% of findings.
+- "May partly reflect" is accurate when the evidence partly supports an explanation. It is not defensive.
+- Agreement with prior work is stated without qualifiers: "This is consistent with studies of [population] (Lee & Kim, 2023; …)".
+- When a result contradicts prior work, name the difference in sample, setting or measure that could account for it.
 
-## Edge: take a position
+## Qualifications and limitations: classify them
 
-Caution governs how strong the evidence claims are. Edge governs whether the argument commits, and the two do not conflict. Top-tier articles explain more and claim contributions more often than the rest of the corpus. Their edge comes from the following, not from intensifiers:
-- **One question carried through.** Pose a question with tension at the end of the first Introduction paragraph ("does A substitute for B, or only add to it?"). Answer it point by point in the Discussion, and answer it in the first sentence of the conclusion.
-- **Choose between explanations.** When two accounts are possible, say which the data favour and why. Name what the other account predicts that did not happen: "If X, we would have expected Y; we did not observe it."
-- **Say whose view the findings revise.** Name the common assumption or prior conclusion the results contradict or qualify, with representative citations: "This does not fit the assumption that …".
-- **Write the conclusion as claims, not a summary.**
-  - Its first sentence answers the paper's question.
-  - Give one or two propositions a reader could cite or dispute. A short label for the central finding, reused in the abstract and Discussion, helps.
-  - Do not restate the Results.
-- **Implications as trade-offs.** Say what to prioritise and what not to do ("institutions should not treat tool provision as a substitute for teacher feedback"). Tie each trade-off to a finding.
-- **End with weight.** The last sentence states the central judgement or the most specific next step, not a generic value sentence.
+Handle qualifications by the four types in [argument](argument.md) §4:
+- **Repeated generic disclaimers:** merge or delete.
+- **Conditions that define a claim:** keep in the claim.
+- **Overall design limitations:** discuss together in the limitations unit.
+- **A specific problem that changes how one result reads**, such as low reliability of one scale: say it briefly where that result is discussed.
 
-The limits on causal language stay: cross-sectional findings are still "related to". Edge comes from reasoning such as "this pattern is incompatible with the substitution account", not from stronger verbs.
+A sentence such as "this does not show / cannot establish" appears a median of 0 times in a typical discussion body. Write one only when a reader is likely to draw a specific wrong inference, and follow it with an explanation or an alternative reading.
 
-Five guardrails, the places where testing showed edge turning into overreach:
-- **Every sharp claim points to a specific result.** If you cannot name the coefficient or configuration behind a claim, cut it.
-- **A label must not imply an analysis that was not run.** "Complement" suggests a tested interaction; "depended on" suggests causation. Define the label by what was found, e.g. "both relate to engagement through the same belief and are unrelated to each other".
-- **No outside facts to prop up an explanation.** A claim such as "GenAI use usually takes place during independent study" stays out unless the materials support it.
-- **"Revises" only views tested on comparable outcomes.** When the prior study measured a different outcome or population, write "extends" or "adds to", not "qualifies" or "overturns".
-- **Keep the conclusion consistent with the Discussion.** A result described as "no significant difference" or "an imprecise estimate" in the Discussion stays that way in the abstract and conclusion. It does not become "did not act as a separate route", "rather than a direct link" or "mainly through", especially when the indirect share is below half or the direct estimate is not smaller than the indirect one. Before delivering, compare how each null result is worded in the abstract, the Discussion and the conclusion.
-- **Factors the study did not manipulate or measure stay out of the conclusion.** They may appear in the Discussion as possible explanations, but not as conclusions or as the basis for recommendations.
-- **Marginal results are not evidence either way.** A result with p between .05 and .10, in the expected direction, or on a scale with low reliability neither supports nor refutes a theory. Write "not significant, though in the direction of …", and do not build a contribution on it.
-- **Implications as strong as the design allows.** From a single-site, cross-sectional study, write "this does not justify …". Do not issue claims about class sizes, teaching hours or budgets.
+A distinction that makes a substantive point is an argument, not a disclaimer: "Access to a tool is not the same as productive engagement with it."
 
-## Null and unexpected results: report, then explain
+## Null and unexpected results
 
-State a non-significant or contrary result directly, mark it as noteworthy ("Contrary to H2…", "Interestingly…"), offer one or two reasons with *may*, and name the design that could separate them. 13 of 15 papers do this; none treats a null result only as a limitation.
+State a non-significant or contrary result directly ("Contrary to H2…"), offer reasons, and say what design could separate them. 13 of 15 papers do this; none treats a null result only as a limitation. A non-significant result does not by itself mean equivalence, interchangeability, no effect or an identified boundary condition (see [framing-results](framing-results.md) §4).
 
-## Disclaimers: rare, specific, and followed by something
+## Taking a position
 
-A sentence of the form "this does not show / cannot establish / should not be interpreted as" appears 0 times in the discussion body of a typical paper (corpus total: 9 sentences, 1.2% of body sentences). When one is genuinely needed, it targets one named inference and is immediately followed by an explanation, an alternative reading or a next step. Never end a paragraph on a disclaimer, and never attach one to every finding.
+A position comes from clear claims and grounded choices, not from intensifiers.
+- **One question carried through.** Pose it in the Introduction, answer it point by point in the Discussion, and answer it in the first sentence of the conclusion. This holds when the main outcome is null too.
+- **Competing explanations.** When the evidence distinguishes them, choose and give the reason: "If X, we would have expected Y; we observed Z." When it does not, do not force a choice. Say what each account implies, what design would separate them, and what has been learned either way.
+- **Relation to prior knowledge.** Say what the study refines, adds to or changes, and name representative studies. Write "contradicts" or "revises" only for comparable outcomes and populations; otherwise write "extends" or "adds to".
+- **Conclusions as claims.** Give propositions a reader could cite or dispute, not a restatement of the Results. A short label for the central finding can help if it is accurate; "complement", for instance, implies a tested interaction.
+- **Implications as trade-offs.** Say what to prioritise, what not to do and under which conditions ([argument](argument.md) §8).
+- **End with weight.** The last sentence states the central judgement or the most specific next step.
+
+Limits:
+- The abstract, Discussion and conclusion word each result the same way. A result described as imprecise in the Discussion does not become "did not act as a separate route" in the conclusion.
+- Factors the study did not manipulate or measure can appear in the Discussion as candidate explanations, but not as conclusions or as the basis for recommendations.
+- Explanations do not rest on facts outside the materials.
+- Implications are only as strong as the design allows. From a single-site, cross-sectional study, write "this does not justify …"; do not make claims about class sizes, teaching hours or budgets.
 
 ## Contribution and implications
 
-Claim the contribution explicitly, in the discussion opening or the conclusion: "This study adds to research on [topic] by showing [finding] in [context]." All 15 papers do so. Implications name the actor, the action and the finding behind it: "Because [finding], teacher educators should…". Use *should*, *can* or *need to*. Write them as prose paragraphs, not numbered lists (28 of 31 articles; see [prose-en](prose-en.md)). Take concrete examples only from the study's own materials, or state them as general practices without parameters; never add durations, counts or proportions that the materials do not give.
+State the contribution once and say what kind it is: a new finding, a conceptual distinction, a deeper explanation, an important counter-example, a condition of application or a practical trade-off ([argument](argument.md) §2). "The results fit theory X" or "the mediation was significant" is not by itself a theoretical contribution.
 
-## Limitations: one unit, turned into future work
+For each implication, give the finding, its practical meaning, the conditions it needs and the action. Separate measures the study tested from applications inferred from associations. The number of implications follows the evidence. Concrete examples come only from the study's materials, or are general practices without invented durations, counts or proportions.
 
-Gather limitations in one subsection or the final discussion paragraph (46 of 50 articles; median 4 distinct limitations, 2 in qualitative papers). State each limit once, say what it means for the claim, and turn it into a design: "Because the data are cross-sectional, the direction of the effect remains open; a longitudinal design could test whether…". Answer a limit with a mitigating fact when one exists. Close the paper on the conclusion or contribution, not on limitations (11 of 15 papers).
+## Limitations
+
+Discuss overall design limitations together, say which inference each one limits, and turn it into a design for future work: "Because the data are cross-sectional, the direction of the association remains open; a longitudinal design could test whether…". Answer a limitation with a mitigating fact when one exists. Close the paper on the conclusion or contribution, not on limitations.
 
 ## Authorial presence
 
-Write as the authors: "we found", "our findings", "this study". The corpus uses about 11 such self-mentions per 1,000 words of discussion, counting "this study"; *we/our/us* alone run at about 6 per 1,000 words of discussion and 5 across the argued sections (see [prose-en](prose-en.md)). An impersonal draft with none reads as detached from its own results.
+Write as the authors: "we found", "our findings", "this study". The corpus uses about 11 such self-mentions per 1,000 words of discussion, counting "this study".
 
 ## Check
 
-Run `scripts/check_voice.py --draft <file> --source <materials or results>` on any discussion or full manuscript. It lists every disclaimer sentence, stacked hedges, limitation sentences that sit outside the limitations unit and numbers or durations that do not occur in the sources, and compares the rates with the corpus range.
+Run `scripts/check_voice.py --draft <file> --source <materials or results>`. It lists cues for a human to judge:
+- disclaimer-type sentences and stacked qualifiers;
+- limitation sentences outside the limitations unit;
+- sentences that need a semantic check (a null result possibly turned into equivalence, an exclusive mechanism or a free choice);
+- numbers that do not occur in the sources.
+
+Decide each one. Conditions that define a claim and accurate qualifications stay.

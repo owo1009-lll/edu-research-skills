@@ -264,11 +264,14 @@ class Prose(Folder):
     def test_published_style_passes(self):
         self.assertEqual(self.flags(self.INTRO + self.GOOD_DISCUSSION), '')
 
-    def test_self_deprecating_results_flagged(self):
-        weak = ('## 六、结论与建议\n\n教师支持的作用有限，效应量较小。AI 使用未能显著提升学习投入，实际意义不大。'
-                '自我效能感的中介作用也效果不明显。\n')
-        self.assertIn('self-deprecating phrases', self.flags(self.INTRO + self.GOOD_DISCUSSION + weak))
-        self.assertNotIn('self-deprecating', self.flags(self.INTRO + self.GOOD_DISCUSSION))
+    def test_evaluative_wording_is_a_review_cue_not_a_fault(self):
+        # own results described as small are listed for an accuracy check; others' results are not; neither counts as a flag
+        weak = ('## 六、结论与建议\n\n教师支持的作用有限，效应量较小。已有研究发现聊天机器人的作用有限[7]。\n')
+        name = self.write('d.md', '# 题目\n\n' + self.INTRO + self.GOOD_DISCUSSION + weak)
+        r = json.loads(run(SKILLS / 'edu-writing/scripts/check_prose.py', ['--draft', name, '--json'], self.dir).stdout)
+        self.assertEqual(len(r['review_cues']), 1)
+        self.assertIn('教师支持的作用有限', r['review_cues'][0])
+        self.assertNotIn('self-deprecating', ' | '.join(r['document']))
 
     def test_no_chinese_references(self):
         refs = '\n## 参考文献\n\n' + ''.join(f'[{i}] Author A. A title about learning number {i}[J]. Journal, 2020: 1-10.\n'
@@ -344,11 +347,13 @@ class ProseEnglish(Folder):
     def test_published_style_passes(self):
         self.assertEqual(self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION), '')
 
-    def test_self_deprecating_results_flagged(self):
-        weak = ('## 6. Conclusion\n\nThe effect of teacher support was small, and GenAI use failed to improve engagement. '
-                'Self-efficacy showed only a small indirect role, and the remaining associations were negligible.\n')
-        self.assertIn('self-deprecating phrases', self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION + weak))
-        self.assertNotIn('self-deprecating', self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION))
+    def test_evaluative_wording_is_a_review_cue_not_a_fault(self):
+        # a small effect in another study (cited) is not the author's self-assessment; cues never count as flags
+        text = ('## 6. Conclusion\n\nThe effect of teacher support was small but consistent across models. '
+                'Prior studies reported only a small effect of chatbots on motivation (Fan et al., 2024).\n')
+        r = self.report(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION + text)
+        self.assertEqual(r['review_cues'], ['The effect of teacher support was small but consistent across models.'])
+        self.assertEqual(self.flags(self.INTRO + self.GOOD_REVIEW + self.GOOD_DISCUSSION + text), '')
 
     def test_narrative_discussion_flagged_only_for_hypothesis_testing(self):
         narrative = ('## 5. Discussion\n\nTeacher support was related to engagement both directly and through self-efficacy. '
@@ -366,6 +371,47 @@ class ProseEnglish(Folder):
         for expected in ['consecutive sentences open with "Author (year)"', 'narrative_share', 'cites no earlier study',
                          'number_share', 'propose analyses', 'rare stock phrases']:
             self.assertIn(expected, out)
+
+
+class VoiceCues(Folder):
+    """check_voice.py lists cues for human judgement and states what it cannot check."""
+    EN = ('# Draft\n\n## Discussion\n\nGenAI use was not directly associated with engagement. This may partly reflect how the '
+          'items were worded. Access to a tool is not the same as productive engagement with it. These results do not establish '
+          'that teacher support causes engagement. Because the two formats did not differ, either format can be used in practice. '
+          'GenAI use was related to engagement only through self-efficacy.\n')
+    ZH = ('# 稿件\n\n## 五、讨论\n\n工具可用不等于有效参与。这可能部分源于题项的表述方式。本研究的结果不能说明教师支持导致了学习投入。'
+          '两种呈现方式的效果相当，教师可任选其一。\n')
+
+    def out(self, text, *extra):
+        name = self.write('v.md', text)
+        return run(SKILLS / 'edu-writing/scripts/check_voice.py', ['--draft', name, *extra], self.dir).stdout
+
+    def block(self, out, title):
+        """Lines listed under one heading of the report."""
+        part = out.split('\n' + title + ': ', 1)[1].split('\n\n')[0]
+        return [l.strip() for l in part.splitlines()[1:] if l.strip() and not l.strip().startswith('(')]
+
+    def test_may_partly_is_one_qualifier(self):
+        self.assertEqual(self.block(self.out(self.EN), 'Sentences with two or more hedges'), [])
+
+    def test_conceptual_distinction_is_not_a_disclaimer(self):
+        out = self.out(self.EN)
+        self.assertTrue(any('not the same as' in l for l in self.block(out, 'Possible substantive distinctions')))
+        self.assertFalse(any('not the same as' in l for l in self.block(out, 'Disclaimer sentences in the discussion body')))
+        out = self.out(self.ZH)
+        self.assertTrue(any('工具可用不等于有效参与' in l for l in self.block(out, 'Possible substantive distinctions')))
+        self.assertTrue(any('不能说明' in l for l in self.block(out, 'Disclaimer sentences in the discussion body')))
+
+    def test_null_turned_into_equivalence_or_exclusive_mechanism_needs_semantic_check(self):
+        lines = self.block(self.out(self.EN), 'Sentences for a semantic check')
+        self.assertTrue(any('either format can be used' in l for l in lines))
+        self.assertTrue(any('only through self-efficacy' in l for l in lines))
+        self.assertTrue(any('任选其一' in l for l in self.block(self.out(self.ZH), 'Sentences for a semantic check')))
+
+    def test_number_check_states_its_limits(self):
+        self.write('src.md', 'beta = .14')
+        out = self.out(self.EN, '--source', 'src.md')
+        self.assertIn('object, direction, unit and analysis identity need reading', out)
 
 
 class Review(Folder):

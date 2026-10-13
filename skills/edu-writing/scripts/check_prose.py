@@ -13,7 +13,9 @@ density, cited sentences, narrative "Author (year)" citations and bundles by sec
 results, sentence and paragraph length, we, passive voice, abbreviations, connectives, value-sentence paragraph
 endings, signposting and AI-typical words.
 
-Values outside the published range are flagged as prompts to reread the passage, not as errors.
+Values outside the published range are listed as prompts to reread the passage, not as errors; being near a
+published median is not evidence of good writing. Sentences that evaluate the study's own results as small,
+limited or failed are listed as review cues for an accuracy check, never counted as faults.
 """
 from pathlib import Path
 import argparse
@@ -48,13 +50,15 @@ NOT_ONLY = re.compile(r'不仅.{0,40}?(?:更|还|也)')
 PROVIDE = re.compile(r'为.{0,30}?提供.{0,20}?(?:参考|依据|借鉴|启示)')
 BUZZ = re.compile(r'赋能|深度融合|高质量发展|数智')
 SELF = re.compile(r'本研究|本文|笔者')
-# self-deprecating wording about results (published: median 0, at most 3 per CSSCI and 2 per SSCI article)
+# evaluative wording about results ('effect was small', 作用有限). Listed sentence by sentence for review, not
+# judged by frequency: an accurate description of a small or imprecise effect can stay. Sentences that cite or
+# name other studies are skipped, since they describe someone else's results.
 SELF_DEP = re.compile(r'作用有限|效果有限|影响有限|效应量?较小|效应量?偏小|实际意义不大|收效甚微|作用甚微|未能(?:显著)?(?:提升|促进|改善|提高)'
                       r'|仅能解释|解释力有限|作用不大|效果不明显|效果并不理想')
 SELF_DEP_EN = re.compile(r'\blimited (?:effects?|impacts?|influence)\b|\bnegligible\b|\bonly (?:a )?(?:small|modest|weak)\b'
                          r'|\bweak (?:effects?|associations?|relationships?|correlations?)\b'
                          r'|\bfailed to (?:improve|increase|enhance|affect|predict)\b|\bof little practical\b'
-                         r'|\bsmall effect sizes?\b|\b(?:effects?|associations?) (?:was|were) (?:small|weak|modest)\b', re.I)
+                         r'|\bsmall effect sizes?\b|\b(?:effects?|associations?|relationships?)\b[^.;]{0,40}?\b(?:was|were) (?:small|weak|modest)\b', re.I)
 
 # Flags sit at the edge of what the 27 published articles do (checked by running this script on them), so a
 # published article rarely triggers one; abstracts, methods and results are measured but not flagged.
@@ -196,10 +200,6 @@ def document_flags(text):
     n = chars(body) or 1
     per10k = lambda pat: round(10000 * len(pat.findall(body)) / n, 1)
     out = []
-    dep = SELF_DEP.findall(body)
-    if len(dep) > 3:
-        out.append(f'{len(dep)} self-deprecating phrases about results ({", ".join(sorted(set(dep)))}); published articles use at most 3. '
-                   'See framing-results.md: interpret effect sizes against education benchmarks and report non-significant results without verdicts')
     stock = STOCK.findall(body)
     if len(stock) > 2:
         out.append(f'stock phrases used {len(stock)} times ({", ".join(sorted(set(stock)))}); published papers use them less than once per 10,000 characters')
@@ -218,6 +218,22 @@ def document_flags(text):
     return out
 
 
+OTHERS = re.compile(r'\[\d+(?:\s*[,，\-–—~]\s*\d+)*\]|[（(][^（）()]{0,60}?(?:19|20)\d{2}[a-z]?[）)]|已有研究|有研究|以往研究|前人|'
+                    r'\bprior (?:work|studies|research)\b|\bprevious (?:work|studies|research)\b|\bearlier studies\b|\bother studies\b', re.I)
+
+
+def evaluative_cues(paras, lang):
+    # sentences that evaluate this study's results as small, limited or failed, for the writer to check
+    pat = SELF_DEP if lang == 'zh' else SELF_DEP_EN
+    split = sentences if lang == 'zh' else en_sentences
+    out = []
+    for para in paras:
+        for x in split(para):
+            if pat.search(x) and not OTHERS.search(x):
+                out.append(x.strip()[:160])
+    return out
+
+
 def reference_flags(text):
     m = re.search(r'^\s*(?:#+\s*)?(?:参考文献|references)\s*$', text, re.M | re.I)
     if not m:
@@ -233,6 +249,7 @@ def check(text):
     secs = sections(text)
     report = {'sections': {}, 'document': document_flags(text) + reference_flags(text)}
     argued = [p for k in PROSE for p in secs.get(k, [])]
+    report['review_cues'] = evaluative_cues(argued + secs.get('abstract', []), 'zh')
     n = sum(chars(p) for p in argued)
     if n > 1000:
         rate = round(1000 * sum(len(SELF.findall(p)) for p in argued) / n, 1)
@@ -498,10 +515,7 @@ def check_en(text):
     count = lambda pat: len(re.findall(pat, body))
     per10k = lambda pat: round(10000 * count(pat) / m['words'], 1)
     doc = report['document']
-    dep = SELF_DEP_EN.findall('\n'.join(argued + secs.get('abstract', [])))
-    if len(dep) > 2:
-        doc.append(f'{len(dep)} self-deprecating phrases about results ({", ".join(sorted(set(d.lower() for d in dep)))}); published articles '
-                   'use at most 2. See framing-results.md: benchmark effect sizes (Kraft 2020; Gignac & Szodorai 2016) instead of calling them small')
+    report['review_cues'] = evaluative_cues(argued + secs.get('abstract', []), 'en')
     rare = re.findall(RARE, body)
     if len(rare) >= 4:
         doc.append(f'{len(rare)} rare stock phrases ({", ".join(sorted(set(rare)))}); published articles use at most 3 in total')
@@ -550,6 +564,15 @@ def print_en(report):
           f'({med["connective_openings"]}) | value-sentence paragraph endings {a["value_end_share"]}% ({med["value_end_share"]})')
     for f in report['document']:
         print(f'  ! {f}')
+    print_cues(report)
+
+
+def print_cues(report):
+    if report.get('review_cues'):
+        print('\n[Review cues] sentences that evaluate this study\'s results as small, limited or failed. Check that each is '
+              'accurate (framing-results.md): an accurate description can stay; a verdict the estimates do not support should change.')
+        for c in report['review_cues'][:10]:
+            print(f'    {c}')
 
 
 def main():
@@ -586,6 +609,7 @@ def main():
         print('\n[全文]')
         for f in report['document']:
             print(f'  ! {f}')
+    print_cues(report)
 
 
 if __name__ == '__main__':
