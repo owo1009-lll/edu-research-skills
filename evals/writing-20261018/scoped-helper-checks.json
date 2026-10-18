@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-18T04:59:36.665556+00:00",
+  "cases": [
+    {
+      "case": "scoped",
+      "returncode": 0,
+      "output": "Prepared 1 anonymous pairs. Key saved separately.\n"
+    },
+    {
+      "case": "default",
+      "returncode": 0,
+      "output": "Prepared 1 anonymous pairs. Key saved separately.\n"
+    },
+    {
+      "case": "duplicate",
+      "returncode": 2,
+      "output": "usage: make_blind.py [-h] --runs RUNS --inputs INPUTS --out OUT --key KEY\n                     [--stage {development,holdout}]\n                     [--task {D1,D2,H1,H2,H3,H4,H5,H6,H7}]\n                     [--arms {p,q,r} {p,q,r}] [--repeat {1,2}]\nmake_blind.py: error: The compared arms must be different.\n"
+    },
+    {
+      "case": "wrongstage",
+      "returncode": 2,
+      "output": "usage: make_blind.py [-h] --runs RUNS --inputs INPUTS --out OUT --key KEY\n                     [--stage {development,holdout}]\n                     [--task {D1,D2,H1,H2,H3,H4,H5,H6,H7}]\n                     [--arms {p,q,r} {p,q,r}] [--repeat {1,2}]\nmake_blind.py: error: Task IDs must match the selected stage.\n"
+    },
+    {
+      "case": "scoped",
+      "returncode": 2,
+      "output": "usage: make_blind.py [-h] --runs RUNS --inputs INPUTS --out OUT --key KEY\n                     [--stage {development,holdout}]\n                     [--task {D1,D2,H1,H2,H3,H4,H5,H6,H7}]\n                     [--arms {p,q,r} {p,q,r}] [--repeat {1,2}]\nmake_blind.py: error: The output and key must both be new.\n"
+    }
+  ],
+  "scope": "byte identity, default p/q, new p/r and refusal paths; not prose quality"
+}

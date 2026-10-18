@@ -1,0 +1,258 @@
+{
+  "task": "H6-run02-arm-r",
+  "task_type": "New secondary writing; no supplied manuscript revision.",
+  "output_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r",
+  "resource_policy": {
+    "only_supplied_skill_and_task_relevant_references": true,
+    "only_supplied_research_evidence": true,
+    "network_used": false,
+    "subagents_used": false,
+    "other_runs_read": false,
+    "other_installed_skills_read": false,
+    "evaluation_or_development_reports_read": false,
+    "skills_or_inputs_modified": false,
+    "all_outputs_within_new_requested_directory": true
+  },
+  "model": {
+    "visible_role_description": "Codex, an agent based on GPT-6, per developer instruction.",
+    "exact_runtime_model_id": "unavailable",
+    "reasoning_effort": "unavailable",
+    "temperature": "unavailable",
+    "other_runtime_model_settings": "unavailable"
+  },
+  "file_read_scope": "Lists task files actually read by tool commands, checker scripts or final validation. Standard Python/runtime modules are not research resources and are not enumerated. No claim of reading linked article, earlier studies or packet source extraction records.",
+  "actual_file_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Determine mode, required task routes, evidence ledger, draft-review-revision workflow and required checks.",
+      "kind": "skill_instruction",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-request.md",
+      "purpose": "Read deliverables, audience, length and closed-evidence/no-network constraints.",
+      "kind": "task_input",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-materials.md",
+      "purpose": "Sole research evidence and source metadata for prose; also supplied to check_voice for both drafts.",
+      "kind": "research_evidence",
+      "encoding": "utf-8",
+      "details": {
+        "reads": "Full text read by writer; read by voice checker for first and final."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Build an educational argument, classify evidence and limitations, plan cross-section consistency and action implications.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Read full resource."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Calibrate findings, mechanisms, recommendations, authorship and English academic stance.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Read full resource."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/introduction.md",
+      "purpose": "Frame the teaching problem, literature scope and specific research question.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Read full resource."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Interpret the positive experimental comparison, competing explanations and educational contribution.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Read full resource."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Answer the question and connect justified findings to conditional teaching action.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Read full resource."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Preserve secondary-writing identity, avoid fabrication, and distinguish AI self-review from external review.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Read full resource."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Keep the adjusted coefficient, medians, timing contrast and scope of causal claims accurate.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "First combined display was truncated; full resource reread separately and inspected."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/prose-en.md",
+      "purpose": "Apply English paragraph/citation guidance without treating corpus medians as targets.",
+      "kind": "task_relevant_skill_reference",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Read full resource."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect applicable checker and invoke it on both drafts.",
+      "kind": "check_script",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Full-file read requested in combined output; display was truncated. Imports, file reads and CLI arguments were then inspected with rg. Executed with python -X utf8 on first.md and final.md.",
+        "external_data_dependencies": "Targeted inspection found standard-library imports and draft/source file reads; no external corpus files loaded by these runs."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect applicable checker and invoke it on both drafts.",
+      "kind": "check_script",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Full-file read requested in combined output; display was truncated. Imports, file reads and CLI arguments were then inspected with rg. Executed with python -X utf8 on first.md and final.md.",
+        "external_data_dependencies": "Targeted inspection found standard-library imports and draft/source file reads; no external corpus files loaded by these runs."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect applicable checker and invoke it on both drafts.",
+      "kind": "check_script",
+      "encoding": "utf-8",
+      "details": {
+        "inspection": "Full-file read requested in combined output; display was truncated. Imports, file reads and CLI arguments were then inspected with rg. Executed with python -X utf8 on first.md and final.md.",
+        "external_data_dependencies": "Targeted inspection found standard-library imports and draft/source file reads; no external corpus files loaded by these runs."
+      }
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/first.md",
+      "purpose": "Read by all three checkers; read locally for manual content reconciliation, section/total word counts and final integrity validation.",
+      "kind": "generated_draft",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/final.md",
+      "purpose": "Read by all three checkers; read locally for manual content reconciliation, section/total word counts and final integrity validation.",
+      "kind": "generated_draft",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/review.md",
+      "purpose": "Read to append completed final-check reconciliation; read again during final file validation.",
+      "kind": "generated_work_record",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/rationale.md",
+      "purpose": "Read to append completed final-check reconciliation; read again during final file validation.",
+      "kind": "generated_work_record",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/first_voice_check.txt",
+      "purpose": "Read saved checker output and inspect every cue; decisions recorded in review.md.",
+      "kind": "generated_check_output",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/first_prose_check.txt",
+      "purpose": "Read saved checker output and inspect every cue; decisions recorded in review.md.",
+      "kind": "generated_check_output",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/first_consistency_check.txt",
+      "purpose": "Read saved checker output and inspect every cue; decisions recorded in review.md.",
+      "kind": "generated_check_output",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/final_voice_check.txt",
+      "purpose": "Read saved checker output and inspect every cue; decisions recorded in review.md.",
+      "kind": "generated_check_output",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/final_prose_check.txt",
+      "purpose": "Read saved checker output and inspect every cue; decisions recorded in review.md.",
+      "kind": "generated_check_output",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/final_consistency_check.txt",
+      "purpose": "Read saved checker output and inspect every cue; decisions recorded in review.md.",
+      "kind": "generated_check_output",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/check_runs.json",
+      "purpose": "Read initial run manifest to append final executions; read for completion validation.",
+      "kind": "generated_execution_log",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/word_counts.json",
+      "purpose": "Read during final validation to confirm saved word-count metadata.",
+      "kind": "generated_word_count_record",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-r/loads.json",
+      "purpose": "Read during final validation to verify valid UTF-8 JSON and recorded resource list.",
+      "kind": "generated_read_manifest",
+      "encoding": "utf-8"
+    }
+  ],
+  "check_execution_manifest": "check_runs.json",
+  "word_counts": {
+    "first.md": {
+      "body_words": 638,
+      "including_exercise_notice": 661,
+      "section_words": {
+        "Introduction": 176,
+        "Discussion": 387,
+        "Conclusion": 75
+      },
+      "count_method": "Whitespace-delimited body tokens; excludes headings and references. Notice counted separately."
+    },
+    "final.md": {
+      "body_words": 621,
+      "including_exercise_notice": 644,
+      "section_words": {
+        "Introduction": 173,
+        "Discussion": 384,
+        "Conclusion": 64
+      },
+      "count_method": "Whitespace-delimited body tokens; excludes headings and references. Notice counted separately."
+    }
+  },
+  "revision_rounds": 1,
+  "limitations": [
+    "Only the supplied factual packet and metadata support research statements; linked originals were not independently accessed.",
+    "No raw data reanalysis or independent statistical validation.",
+    "Unresolved sample-accounting and Figure 3 test questions remain in work records; no contradictory inferential statistics appear in prose.",
+    "Exact runtime model identity/settings are unavailable."
+  ],
+  "change_log_applicability": "Not applicable: new writing from a factual packet. Substantive first-to-final changes are recorded in review.md and rationale.md."
+}

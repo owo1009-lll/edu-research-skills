@@ -1,0 +1,22 @@
+{
+  "first.md": {
+    "body_words": 638,
+    "including_exercise_notice": 661,
+    "section_words": {
+      "Introduction": 176,
+      "Discussion": 387,
+      "Conclusion": 75
+    },
+    "count_method": "Whitespace-delimited body tokens; excludes headings and references. Notice counted separately."
+  },
+  "final.md": {
+    "body_words": 621,
+    "including_exercise_notice": 644,
+    "section_words": {
+      "Introduction": 173,
+      "Discussion": 384,
+      "Conclusion": 64
+    },
+    "count_method": "Whitespace-delimited body tokens; excludes headings and references. Notice counted separately."
+  }
+}

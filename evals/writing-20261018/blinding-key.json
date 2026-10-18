@@ -1,0 +1,70 @@
+{
+  "disclosed_after_all_reviews": true,
+  "revealed_utc": "2026-10-18T03:55:04.156311+00:00",
+  "arms": {
+    "p": "baseline a4020c4 / dev-p01",
+    "q": "candidate dev-q01"
+  },
+  "pairs": [
+    {
+      "pair": "D1-pair01",
+      "assignment": {
+        "A": {
+          "run": "D1-run01-arm-p/final.md",
+          "sha256": "065016fa2b114cf3a1519f56bbd6c6d90aa9f038dc2537633c4c9cd492658d49"
+        },
+        "B": {
+          "run": "D1-run01-arm-q/final.md",
+          "sha256": "9ab102110431e190c830bef5b82c0972c0138b225347e4eed87640832d558665"
+        }
+      },
+      "review_sha256": "b8aea2226eb677552053e2741c951e942188cd5639270b45877723b79dd5e786",
+      "blind_directory": "blind/D1/D1-pair01"
+    },
+    {
+      "pair": "D1-pair02",
+      "assignment": {
+        "A": {
+          "run": "D1-run02-arm-q/final.md",
+          "sha256": "4083f581f9aa4b56970d5db097c248b822e4f6cca93699661d5ab560b8c4bc98"
+        },
+        "B": {
+          "run": "D1-run02-arm-p/final.md",
+          "sha256": "e72707e0c99b2791586190aa6b4e155e76efbd2e2d9cc598cd7b655dd05b222d"
+        }
+      },
+      "review_sha256": "a662f37d82bc955a2df8f27b37a9984e45885fbe782ecd7cd2a5e70cc7c2171e",
+      "blind_directory": "blind/D1/D1-pair02"
+    },
+    {
+      "pair": "D2-pair01",
+      "assignment": {
+        "A": {
+          "run": "D2-run01-arm-q/final.md",
+          "sha256": "957e6a9bbb16ebc2fc6cb7ae08b6279a2c336ddcb5c54e1f4b803e25cfed09db"
+        },
+        "B": {
+          "run": "D2-run01-arm-p/final.md",
+          "sha256": "f001b99390492e1d91649b2d44f4a1aba7dfe9414de2ef5aafedc215d36d1b36"
+        }
+      },
+      "review_sha256": "96f7da531568665a17916034c167b4dcd3dd4c7105448e5625ba7f0ccd0f4ac8",
+      "blind_directory": "blind/D2-01/D2-pair01"
+    },
+    {
+      "pair": "D2-pair02",
+      "assignment": {
+        "A": {
+          "run": "D2-run02-arm-p/final.md",
+          "sha256": "a203136f37e4c1ea5493c3fb86ee92fd08158801195622f58318f2e51e697d37"
+        },
+        "B": {
+          "run": "D2-run02-arm-q/final.md",
+          "sha256": "8a0e5c74b321807f2ac6430e41ce4a7cfa9e5db44788975aecdf6dae80faff79"
+        }
+      },
+      "review_sha256": "f4010bdbccd0884ef401205c13512412ec8a2cba8ccaf2908cb4458c0a8068d7",
+      "blind_directory": "blind/D2-02/D2-pair02"
+    }
+  ]
+}

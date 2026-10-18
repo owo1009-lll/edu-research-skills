@@ -1,0 +1,280 @@
+{
+  "basis": "actual frozen development skill bytes",
+  "changes": [
+    {
+      "path": "skills/edu-writing/SKILL.md",
+      "before": {
+        "path": "skills/edu-writing/SKILL.md",
+        "sha256": "6b71e163516bbb6ef79ead3e487be3c98caeeb6c5c543d45e936b647df7c8e93",
+        "bytes": 12073
+      },
+      "after": {
+        "path": "skills/edu-writing/SKILL.md",
+        "sha256": "739fea71878e3496f28ae697f811c758d8f077c18af2a27a07276fd58ceb5301",
+        "bytes": 12688
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/analysis-bridge.md",
+      "before": {
+        "path": "skills/edu-writing/references/analysis-bridge.md",
+        "sha256": "013d99a70bffbfc70304ee8838c258be3ac9307aafad577950fa2479843bb264",
+        "bytes": 4890
+      },
+      "after": {
+        "path": "skills/edu-writing/references/analysis-bridge.md",
+        "sha256": "ac78948a1cb1f4dbeae09ed7a8dba16df46b42194a7c0e4c1ed44a02d51ce143",
+        "bytes": 5201
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/argument.md",
+      "before": {
+        "path": "skills/edu-writing/references/argument.md",
+        "sha256": "84c28e6f5fe94beb94b7525a8a10479f94c62c7e7bf1127409f7f5fb5f0a9dbe",
+        "bytes": 11262
+      },
+      "after": {
+        "path": "skills/edu-writing/references/argument.md",
+        "sha256": "14b9ecc4016adc77c7e517580a8e9e5e4014e3ade9a628919c2bdb4ce39c7d02",
+        "bytes": 12525
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/conclusion-implications.md",
+      "before": {
+        "path": "skills/edu-writing/references/conclusion-implications.md",
+        "sha256": "823ee5c383566dfcc1aac44613b6c0049afef45d72fd224758bf1c42f821bfeb",
+        "bytes": 4201
+      },
+      "after": {
+        "path": "skills/edu-writing/references/conclusion-implications.md",
+        "sha256": "083664c80a4bc3f0e13861584704521b51689d9acc00c4779a486db8c4c761d6",
+        "bytes": 4638
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/examples/mixed-integration.md",
+      "before": null,
+      "after": {
+        "path": "skills/edu-writing/references/examples/mixed-integration.md",
+        "sha256": "bfbd065fc42e17861628f8c3cbc1464c08cb690f46494e8cfc91ce00e4bceee9",
+        "bytes": 2805
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/examples/revise-compress.md",
+      "before": null,
+      "after": {
+        "path": "skills/edu-writing/references/examples/revise-compress.md",
+        "sha256": "b31d01ce2cf6ebd170f28ec581d2aff0554fae1a341aecb36f39c38d82dcec00",
+        "bytes": 3976
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/foundation.md",
+      "before": {
+        "path": "skills/edu-writing/references/foundation.md",
+        "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+        "bytes": 6966
+      },
+      "after": {
+        "path": "skills/edu-writing/references/foundation.md",
+        "sha256": "409ea3ebdca2dfaa1776884c32023dabb7effa7e3d02f856af9f3f4fdb15e50e",
+        "bytes": 7997
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/introduction.md",
+      "before": {
+        "path": "skills/edu-writing/references/introduction.md",
+        "sha256": "8cd5996c189e71a71696d2e13db1a556bf7d07378297bbfa6a64ca31b590053b",
+        "bytes": 6122
+      },
+      "after": {
+        "path": "skills/edu-writing/references/introduction.md",
+        "sha256": "6249d6969c1d7aa4d32138897f2233e95a44e40b875d565e78eb80ddc6a78dc8",
+        "bytes": 6558
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/methods/cases-develop-explanations.md",
+      "before": {
+        "path": "skills/edu-writing/references/methods/cases-develop-explanations.md",
+        "sha256": "bac65a856e6eddda2ea6c0dfdce209b31635dd08ca70fe6f8f842b7c202f98be",
+        "bytes": 2089
+      },
+      "after": {
+        "path": "skills/edu-writing/references/methods/cases-develop-explanations.md",
+        "sha256": "706fe14286960cf6b40169b1214d9f00a5466b427df1fb6f2fcd6567d14bfcf7",
+        "bytes": 2835
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/methods/compare-explanations.md",
+      "before": {
+        "path": "skills/edu-writing/references/methods/compare-explanations.md",
+        "sha256": "dfb36b9117901bf1a26f03e45ad8f03e84c3a1a3583a4f53b78cd667e3121ed3",
+        "bytes": 3944
+      },
+      "after": {
+        "path": "skills/edu-writing/references/methods/compare-explanations.md",
+        "sha256": "16f43753635988879a9aad71f1fc613c551e79f177c22c1945e1668e1c2c9f6a",
+        "bytes": 3932
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/methods/premises-and-judgments.md",
+      "before": {
+        "path": "skills/edu-writing/references/methods/premises-and-judgments.md",
+        "sha256": "b9df84fe3345690e053d79524487b330f8d947c9a6f739ae37c7b9f19bb6f2a5",
+        "bytes": 1926
+      },
+      "after": {
+        "path": "skills/edu-writing/references/methods/premises-and-judgments.md",
+        "sha256": "015673395d28dd08401c261325392f2304afe8a04b5a2bb682d0d6cf08fda59c",
+        "bytes": 2535
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/methods/problem-with-consequences.md",
+      "before": {
+        "path": "skills/edu-writing/references/methods/problem-with-consequences.md",
+        "sha256": "79fa0b2d73608c8f91b7332dfcb338b74780e6055e89fca83c664ec9dbb0ec51",
+        "bytes": 5905
+      },
+      "after": {
+        "path": "skills/edu-writing/references/methods/problem-with-consequences.md",
+        "sha256": "731bc28ba8d482d98f20e4bd9fdd49c43130b9b6b680df9fd515a58b934228a4",
+        "bytes": 6615
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/methods/synthesize-explanatory-axes.md",
+      "before": {
+        "path": "skills/edu-writing/references/methods/synthesize-explanatory-axes.md",
+        "sha256": "f381f7feb4db4c60eb0a5370a7e0ce5aa79866052c40e5f911ca3253afdfb8fa",
+        "bytes": 5532
+      },
+      "after": {
+        "path": "skills/edu-writing/references/methods/synthesize-explanatory-axes.md",
+        "sha256": "23e5830cdd2a8e09379bd65c103acc0a56ee5034de947aa6af39f5d9329d94e1",
+        "bytes": 6305
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/mixed-methods.md",
+      "before": null,
+      "after": {
+        "path": "skills/edu-writing/references/mixed-methods.md",
+        "sha256": "697535a07f04b8eda610629c456dc8da788f82d90d7fc2d0c2e37a4e2f36852d",
+        "bytes": 2202
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/prose-en.md",
+      "before": {
+        "path": "skills/edu-writing/references/prose-en.md",
+        "sha256": "186409cdc88c696fb2039780620383a2e150c8c9125d7889993108c2786fb603",
+        "bytes": 13983
+      },
+      "after": {
+        "path": "skills/edu-writing/references/prose-en.md",
+        "sha256": "100cfb0df57c189965ed36bda0860dbd24f48d47c067e36e3bfbfddf3726b2a2",
+        "bytes": 14880
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/prose-zh.md",
+      "before": {
+        "path": "skills/edu-writing/references/prose-zh.md",
+        "sha256": "2adfc2f6027da74308cc7a45edf02eb14bd4840e0f7859f8b18191c3ddf38e2a",
+        "bytes": 7231
+      },
+      "after": {
+        "path": "skills/edu-writing/references/prose-zh.md",
+        "sha256": "982dfeafceb0aaa6dfc798f826c5c5ea23523c514ef4d031bd0ffe41a70359d1",
+        "bytes": 7383
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/qualitative-narrative.md",
+      "before": {
+        "path": "skills/edu-writing/references/qualitative-narrative.md",
+        "sha256": "674c4052d44eba719af2a28eb91d646c8a1e1c9b4cda7d764006308db79c23e6",
+        "bytes": 1536
+      },
+      "after": {
+        "path": "skills/edu-writing/references/qualitative-narrative.md",
+        "sha256": "ef6c0d520cdc98dd6858dba8d1cc0f5a638ef0891782df3ffe867195b76b2307",
+        "bytes": 1839
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/quantitative-discussion.md",
+      "before": {
+        "path": "skills/edu-writing/references/quantitative-discussion.md",
+        "sha256": "201160a8ab3e96f56e474f79564d0f1f047452c5812eed53c9d9767576ffbbae",
+        "bytes": 4671
+      },
+      "after": {
+        "path": "skills/edu-writing/references/quantitative-discussion.md",
+        "sha256": "a9921935cd3ae62e615d59e16064a9adda89150507bd3ba077bb28d58e4936d9",
+        "bytes": 5011
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/source-basis.md",
+      "before": {
+        "path": "skills/edu-writing/references/source-basis.md",
+        "sha256": "4722ecfbeed30c5ac95908d4368798d6a1a10d5f0b0e202fcb422000068c152f",
+        "bytes": 4369
+      },
+      "after": {
+        "path": "skills/edu-writing/references/source-basis.md",
+        "sha256": "ebdf61e2d5dd9283fe41bac31903b7fef6f59c2eba3b548cb6525ae75b5fdf49",
+        "bytes": 5746
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/synthesis.md",
+      "before": {
+        "path": "skills/edu-writing/references/synthesis.md",
+        "sha256": "109d7c261be6b05cebb83a131bf3bebe32d465bb2db2e8b6a60fb0bf906c84e7",
+        "bytes": 7504
+      },
+      "after": {
+        "path": "skills/edu-writing/references/synthesis.md",
+        "sha256": "78f99bfef474b36563fac0a2ca846544657f8e2aa296893060c6346a7b279c55",
+        "bytes": 8044
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/voice-en.md",
+      "before": {
+        "path": "skills/edu-writing/references/voice-en.md",
+        "sha256": "7a7b19251079f95b5e13bc2e724ac3a1ea65fd6b2a356cc47748606b380b1136",
+        "bytes": 8292
+      },
+      "after": {
+        "path": "skills/edu-writing/references/voice-en.md",
+        "sha256": "77f98f71f2d1449a4ea9b31611b163ad8d0434448a16146763b175c00bed988e",
+        "bytes": 9045
+      }
+    },
+    {
+      "path": "skills/edu-writing/references/voice-zh.md",
+      "before": {
+        "path": "skills/edu-writing/references/voice-zh.md",
+        "sha256": "cdfadfd9a01619a3dab63e5bfd4bc9a95e5a356727ea361345685a20d188dbc1",
+        "bytes": 6834
+      },
+      "after": {
+        "path": "skills/edu-writing/references/voice-zh.md",
+        "sha256": "cf5c4f0eb0507a8422135cdf7d043caf4419484f9e910ab672cfea30a669cfda",
+        "bytes": 7304
+      }
+    }
+  ],
+  "outside_edu_writing": []
+}

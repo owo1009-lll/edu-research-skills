@@ -1,0 +1,27 @@
+Secondary writing exercise based on the published study by Kestin et al. (2025). This text does not report research conducted by the writer.
+
+## Introduction
+
+Teaching decisions about artificial intelligence (AI) depend on the learning activities built around it. Individual guidance, peer discussion and instructor explanation offer different ways to introduce unfamiliar content. Choosing an arrangement requires evidence about the learning it supports. Kestin et al. (2025) examined a structured AI tutor combining expert-written solutions, sequenced questions and feedback during problem solving. The educational question was whether this arrangement could improve initial learning compared with an established active-learning class pursuing the same objectives.
+
+In Harvard's introductory physics course for life-science students, existing peer groups were randomly allocated to conditions that reversed across two consecutive weeks. Students studied surface tension and fluid flow, either individually at home with the tutor and a recorded introduction or in class with peers and experienced instructors. Both conditions used the same worksheets, and quizzes measured learning immediately around each lesson. This comparison situated tutoring within a concrete instructional choice, with an established classroom practice as its benchmark.
+
+## Discussion
+
+The tutor package improved immediate quiz performance relative to the active-learning class. The adjusted standardized regression coefficient was 0.63 after accounting for prior achievement, topic, test version and other measured characteristics (Kestin et al., 2025). The advantage persisted when uncertainty was calculated allowing for students belonging to the same randomized peer groups. Because the comparison class included experienced teachers, peer problem solving and staff support, the result establishes that the tutoring arrangement could outperform a substantial instructional alternative on these short-term assessments.
+
+Timely feedback and flexible pacing are plausible explanations for this advantage. Students could receive guidance while working through each problem, within a sequence prepared by subject experts. Yet the intervention also changed study location, individual work, peer interaction and the introductory presentation. These features were delivered together, leaving their separate contributions unresolved. Kestin et al.'s (2025) review describes earlier examples of unstructured ChatGPT use with limited reflection or weaker performance. Those accounts make implementation a relevant distinction when comparing results, although differences in implementation do not establish why outcomes differed across studies.
+
+The secondary findings qualify the picture of students' experiences. Reported engagement and motivation ratings favoured the tutor, whereas enjoyment and confidence in learning difficult physics through effort showed no statistically detected differences. These single-item reports describe distinct experiences and do not establish a general motivational benefit. Time also requires a specific interpretation: the median logged tutor activity was 49 minutes, while classroom instruction was assumed to last 60 minutes. Since the latter was a session allowance rather than individual time on task, the comparison offers an indication of feasible duration rather than a precise measure of learning efficiency.
+
+For teachers, the immediate learning advantage supports testing structured tutoring as preparation for further classroom work. The authors propose using class time for more demanding collaborative activities after students' initial engagement with material. That combination is a proposed teaching arrangement, rather than an evaluated course design. Its implementation would require attention to the resources evident in this study: expert content, programmed sequencing, lesson preparation lasting days and platform development lasting months. A trial adopting this approach should therefore examine what students learn alongside the work needed to provide it.
+
+The study's scope further defines this teaching decision. Two topics in one introductory course provide evidence about immediate learning, while delayed retention, complex transfer and sustained course achievement remain untested. Studies in other institutions should assess these outcomes and examine how tutoring is integrated with classroom activity. Evaluation should also address implementation costs and access before broad adoption is justified.
+
+## Conclusion
+
+In this introductory physics course, a structured AI tutoring package improved immediate topic learning compared with an experienced active-learning class. Its contribution is evidence for a designed instructional arrangement that can support students' first encounters with material. Teachers can use this finding to motivate carefully evaluated trials of initial tutoring, retaining the distinction between the demonstrated lesson-level advantage and the proposed integration of tutoring with collaborative classroom learning.
+
+## References
+
+Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports, 15*, 17458. https://doi.org/10.1038/s41598-025-97652-6

@@ -1,0 +1,54 @@
+{
+  "word_count_method": "Whitespace-delimited words; section headings, title, exercise notice and references excluded from section counts.",
+  "drafts": {
+    "first": {
+      "section_words": {
+        "Introduction": 153,
+        "Discussion": 401,
+        "Conclusion": 67
+      },
+      "body_words": 621,
+      "all_words_before_references_including_title_notice_headings": 655,
+      "exercise_notice_present": true,
+      "unfilled_placeholders": false
+    },
+    "final": {
+      "section_words": {
+        "Introduction": 160,
+        "Discussion": 400,
+        "Conclusion": 68
+      },
+      "body_words": 628,
+      "all_words_before_references_including_title_notice_headings": 662,
+      "exercise_notice_present": true,
+      "unfilled_placeholders": false
+    }
+  },
+  "check_outputs": {
+    "checks-first-voice.txt": {
+      "exit_zero": true,
+      "stderr_empty": true
+    },
+    "checks-first-prose.txt": {
+      "exit_zero": true,
+      "stderr_empty": true
+    },
+    "checks-first-consistency.txt": {
+      "exit_zero": true,
+      "stderr_empty": true
+    },
+    "checks-final-voice.txt": {
+      "exit_zero": true,
+      "stderr_empty": true
+    },
+    "checks-final-prose.txt": {
+      "exit_zero": true,
+      "stderr_empty": true
+    },
+    "checks-final-consistency.txt": {
+      "exit_zero": true,
+      "stderr_empty": true
+    }
+  },
+  "supplemental_check_history": "An initial word-count/placeholder helper stopped on a malformed regular expression after reading first.md. Replaced that optional placeholder regex with literal membership checks and reran successfully. All six skill-check executions succeeded on their first run."
+}

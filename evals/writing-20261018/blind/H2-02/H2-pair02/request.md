@@ -1,0 +1,5 @@
+# Revision request
+
+Revise and substantially shorten the supplied published discussion, limitations and conclusion into one coherent English Discussion followed by a short Conclusion, 650–800 words in total, excluding references. Write for an education-research audience concerned with university students' access to food and support. Retain the authors' substantive position and supported practical judgments while making the reasoning and contribution easier to follow. You may reorganize and merge paragraphs. Use the evidence packet to check statements in the excerpt.
+
+This is an attributed secondary revision exercise using real published prose, not a manuscript submitted by the authors. Use only the supplied source material; do not add data or outside literature. Save `first.md`, substantive self-review in `review.md`, revised `final.md`, `rationale.md`, `change_log.md` explaining consequential edits, and `loads.json` recording actual resources read and their purpose. Keep author queries and checking notes in the work records. Run applicable skill checks on first and final drafts; save and inspect the outputs. Do not inspect other runs or search the web.

@@ -1,0 +1,298 @@
+{
+  "schema": "ordered-task-file-read-log-v1",
+  "scope": "Task documents, assigned skill resources and scripts, and this run artifacts; repeated reads are listed. Python runtime and standard-library imports are excluded. Script executions list their task-file reads in execution order. No other runs, evaluation reports, installed skills, or network sources were inspected.",
+  "model": {
+    "exact_runtime_model": "unavailable",
+    "developer_role_description": "Codex, an agent based on GPT-6; descriptive instruction, not independently verified runtime identity",
+    "reasoning_effort": "unavailable",
+    "temperature": "unavailable",
+    "other_runtime_settings": "unavailable"
+  },
+  "reads": [
+    {
+      "order": 1,
+      "path": "@candidate/skills/edu-writing/SKILL.md",
+      "reason": "Read assigned writing workflow and routes.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 2,
+      "path": "@repo/evals/writing-20261018/inputs/D1-request.md",
+      "reason": "Read the scope, closed-source rule, length and delivery requirements.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 3,
+      "path": "@repo/evals/writing-20261018/inputs/D1-materials.md",
+      "reason": "Read all fictional study facts, author position and comparison cards.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 4,
+      "path": "@candidate/skills/edu-writing/references/argument.md",
+      "reason": "Read evidence-to-argument and cross-section consistency instructions.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 5,
+      "path": "@candidate/skills/edu-writing/references/framing-results.md",
+      "reason": "Read primary/secondary result, interval and null-result interpretation instructions; tool output later truncated.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 6,
+      "path": "@candidate/skills/edu-writing/references/voice-en.md",
+      "reason": "Read English stance instructions; initial tool display was partly truncated.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 7,
+      "path": "@candidate/skills/edu-writing/references/introduction.md",
+      "reason": "Read introduction route.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 8,
+      "path": "@candidate/skills/edu-writing/references/quantitative-discussion.md",
+      "reason": "Read quantitative discussion route.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 9,
+      "path": "@candidate/skills/edu-writing/references/conclusion-implications.md",
+      "reason": "Read conclusion, recommendation and limitation route.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 10,
+      "path": "@candidate/skills/edu-shared/references/integrity.md",
+      "reason": "Read integrity rules expressly referenced by assigned skill.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 11,
+      "path": "@candidate/skills/edu-writing/references/voice-en.md",
+      "reason": "Reread fully to recover the truncated initial display.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 12,
+      "path": "@candidate/skills/edu-writing/references/prose-en.md",
+      "reason": "Read English prose resource requested by introduction route.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 13,
+      "path": "@candidate/skills/edu-writing/scripts/check_voice.py",
+      "reason": "Inspect checker source and CLI, including numerical and semantic scope.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 14,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Inspect checker source; display partly truncated.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 15,
+      "path": "@candidate/skills/edu-writing/scripts/check_consistency.py",
+      "reason": "Inspect checker source and CLI, including term-group support.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 16,
+      "path": "@candidate/skills/edu-writing/references/framing-results.md",
+      "reason": "Reread final eight lines to recover the truncated ending.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 17,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Inspect imports and file-access sites with AST to confirm no external corpus file reads.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 18,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first.md",
+      "reason": "Count manuscript words, excluding teaching notice and section headings.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 19,
+      "path": "@candidate/skills/edu-writing/scripts/check_voice.py",
+      "reason": "Execute applicable checker on the saved first draft.",
+      "mode": "Python UTF-8 source execution"
+    },
+    {
+      "order": 20,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first.md",
+      "reason": "check_voice.py reads the saved first draft.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 21,
+      "path": "@repo/evals/writing-20261018/inputs/D1-materials.md",
+      "reason": "check_voice.py reads the supplied source for numeric correspondence.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 22,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Execute applicable checker on the saved first draft.",
+      "mode": "Python UTF-8 source execution"
+    },
+    {
+      "order": 23,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first.md",
+      "reason": "check_prose.py reads the saved first draft.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 24,
+      "path": "@candidate/skills/edu-writing/scripts/check_consistency.py",
+      "reason": "Execute applicable checker on the saved first draft.",
+      "mode": "Python UTF-8 source execution"
+    },
+    {
+      "order": 25,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first.md",
+      "reason": "check_consistency.py reads the saved first draft.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 26,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/loads.json",
+      "reason": "Load the existing ordered read ledger for this review/revision step.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 27,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first-check_voice.txt",
+      "reason": "Inspect persisted first-draft checker output before deciding revisions.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 28,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first-check_prose.txt",
+      "reason": "Inspect persisted first-draft checker output before deciding revisions.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 29,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first-check_consistency.txt",
+      "reason": "Inspect persisted first-draft checker output before deciding revisions.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 30,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/first.md",
+      "reason": "Read the saved first draft as the base for one complete revision.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 31,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/rationale.md",
+      "reason": "Read the pre-draft plan to append the completed revision rationale.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 32,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/loads.json",
+      "reason": "Load the read ledger to record final checks.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 33,
+      "path": "@candidate/skills/edu-writing/scripts/check_voice.py",
+      "reason": "Execute applicable checker on the revised final manuscript.",
+      "mode": "Python UTF-8 source execution"
+    },
+    {
+      "order": 34,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/final.md",
+      "reason": "check_voice.py reads the saved final manuscript.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 35,
+      "path": "@repo/evals/writing-20261018/inputs/D1-materials.md",
+      "reason": "check_voice.py reads supplied source to check final numeric correspondence.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 36,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Execute applicable checker on the revised final manuscript.",
+      "mode": "Python UTF-8 source execution"
+    },
+    {
+      "order": 37,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/final.md",
+      "reason": "check_prose.py reads the saved final manuscript.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 38,
+      "path": "@candidate/skills/edu-writing/scripts/check_consistency.py",
+      "reason": "Execute applicable checker on the revised final manuscript.",
+      "mode": "Python UTF-8 source execution"
+    },
+    {
+      "order": 39,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/final.md",
+      "reason": "check_consistency.py reads the saved final manuscript.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 40,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/final.md",
+      "reason": "Read the final manuscript for complete semantic verification and word count.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 41,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/loads.json",
+      "reason": "Load the ledger for final output inspection and closeout.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 42,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/final-check_voice.txt",
+      "reason": "Inspect saved final checker output and confirm its recorded exit status.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 43,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/final-check_prose.txt",
+      "reason": "Inspect saved final checker output and confirm its recorded exit status.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 44,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/final-check_consistency.txt",
+      "reason": "Inspect saved final checker output and confirm its recorded exit status.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 45,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/review.md",
+      "reason": "Read AI self-review to append final-check decisions.",
+      "mode": "explicit UTF-8 text read"
+    },
+    {
+      "order": 46,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q/rationale.md",
+      "reason": "Read rationale to append final alignment and delivery status.",
+      "mode": "explicit UTF-8 text read"
+    }
+  ],
+  "completion": {
+    "manuscript_words_excluding_notice_headings_references": 910,
+    "manuscript_words_including_reference_descriptions": 934,
+    "first_and_final_checks": "check_voice.py, check_prose.py, check_consistency.py; all exit code 0; outputs inspected",
+    "network_used": false,
+    "subagents_used": false,
+    "other_runs_or_evaluation_reports_read": false,
+    "output_directory": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-q"
+  }
+}

@@ -1,0 +1,23 @@
+Command: C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python.exe -X utf8 C:\Users\Administrator\Downloads\edu-writing-snapshot-p01-20261018\skills\edu-writing\scripts\check_voice.py --draft C:\Users\Administrator\Downloads\edu-research-skills-work\edu_output\writing-20261018\holdout-runs\H4-run01-arm-p\first.md --source C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H4-materials.md
+Exit code: 0
+
+Language: zh | discussion/conclusion sentences: 16 | paragraphs: 4
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.0; within typical range)
+  Self-mention per 千字: 2.5
+  Limitation sentences inside the limitations unit (%): 0.0
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 1
+  (a specific problem may belong next to its result)
+  [para 2] 例如，在 Silver 的案例中，共同体成员未能对“解放斗争有时需要枪支暴力”这一观点作出有实质内容的回应，引导者可以把这种“尴尬”的沉默作为信号，进一步追问这一立场，以确保它得到准确理解。
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

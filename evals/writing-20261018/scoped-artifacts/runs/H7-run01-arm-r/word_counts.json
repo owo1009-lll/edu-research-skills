@@ -1,0 +1,20 @@
+{
+  "first": {
+    "body_whitespace_tokens_including_citation_markers": 664,
+    "body_words_excluding_citation_markers_and_standalone_punctuation": 657,
+    "conclusion_words": 73,
+    "within_650_800": true,
+    "count_scope": "Discussion and Conclusion prose only; headings, front attribution and Source excluded",
+    "count_method": "Whitespace-delimited tokens; remove bracketed numeric citation markers and tokens without alphanumeric characters; hyphenated compounds count as one",
+    "utf8_punctuation_intact": true
+  },
+  "final": {
+    "body_whitespace_tokens_including_citation_markers": 662,
+    "body_words_excluding_citation_markers_and_standalone_punctuation": 655,
+    "conclusion_words": 73,
+    "within_650_800": true,
+    "count_scope": "Discussion and Conclusion prose only; headings, front attribution and Source excluded",
+    "count_method": "Whitespace-delimited tokens; remove bracketed numeric citation markers and tokens without alphanumeric characters; hyphenated compounds count as one",
+    "utf8_punctuation_intact": true
+  }
+}

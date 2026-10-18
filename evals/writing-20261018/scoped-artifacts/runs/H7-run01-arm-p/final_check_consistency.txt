@@ -1,0 +1,17 @@
+Language: en | abstract found: False | findings to inspect: 1
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (0 distinct values; check each is a named subsample):
+
+Same value at different precision: 0
+
+Term variants: 0
+  self-reference: this study 1
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 1
+  not numbered in order of first citation: {"first_mismatch": 26, "expected": 1}

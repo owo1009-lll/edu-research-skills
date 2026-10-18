@@ -1,0 +1,57 @@
+{
+  "stage": "post-freeze source selection for reading; inputs not yet frozen",
+  "date": "2026-10-18",
+  "candidate_freeze": "candidate-freeze.json",
+  "selection_basis": "Five different topics and study types, independently of model outputs. Public full texts found after the candidate freeze. Identity deduplicated against the recoverable prior index and this round's development sources; this does not establish non-exposure in pretraining or lost past sessions.",
+  "sources": [
+    {
+      "id": "H1",
+      "doi": "10.1126/sciadv.aau6200",
+      "title": "Sleepmore in Seattle: Later school start times are associated with more sleep and better performance in high school students",
+      "type": "quantitative; school start time policy comparison",
+      "reason": "A real school policy comparison with objectively measured sleep and several educational outcomes; suitable for testing whether new writing connects a concrete question, design and contribution without inventing causal identification.",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6291308/fullTextXML"],
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6291308/"
+    },
+    {
+      "id": "H2",
+      "doi": "10.1371/journal.pone.0298041",
+      "title": "Systematic investigation of inadequate food access at a large southeastern land grant university",
+      "type": "mixed methods; higher education basic needs",
+      "reason": "Survey patterns and students' written accounts concern access to food, housing and support. Tests joint interpretation, measurement and sample correspondence in a topic unlike the development tasks. Chosen over the nursing-student screening candidate for richer integration material and a clear CC BY reuse license.",
+      "urls": ["https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0298041&type=manuscript"],
+      "source_page": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298041"
+    },
+    {
+      "id": "H3",
+      "doi": "10.16382/j.cnki.1000-5579.2022.01.010",
+      "title": "“爱而不亲”：留守儿童的亲子关系体验与建构",
+      "type": "qualitative; Chinese family and childhood research",
+      "reason": "A Chinese account of children's interpretations of parent-child relationships, allowing a transfer check of conceptual contrast and agency without turning qualitative accounts into population effects.",
+      "urls": ["https://xbzs.ecnu.edu.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=11757"],
+      "source_page": "https://xbzs.ecnu.edu.cn/CN/lexeme/showArticleByLexeme.do?articleID=11757"
+    },
+    {
+      "id": "H4",
+      "doi": "10.12957/childphilo.2026.94211",
+      "title": "epistemic violence and philosophy for children: toward an epistemically capacious community of inquiry",
+      "type": "theoretical; philosophy of education",
+      "reason": "Distinguishes individual prejudice from the terms of an inquiry and uses classroom incidents to support an educational judgment. CC BY source permits a short attributed translation task with concepts and modal force preserved.",
+      "urls": ["https://new.scielo.br/j/cphi/a/STCmwT5gjSrsQtq6QDgwdjx/?format=xml&lang=en"],
+      "source_page": "https://www.scielo.br/j/cphi/a/STCmwT5gjSrsQtq6QDgwdjx/?lang=en"
+    },
+    {
+      "id": "H5",
+      "doi": "10.1002/cl2.1431",
+      "title": "The relationship between homework time and academic performance among K‐12: A systematic review",
+      "type": "systematic review; homework",
+      "reason": "The distinction between assigning homework and identifying its optimum duration gives a concrete test of synthesis, limits and practical contribution across heterogeneous evidence.",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11409198/fullTextXML"],
+      "source_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11409198/"
+    }
+  ],
+  "screened_not_selected": [
+    {"doi": "10.1111/nuf.12460", "reason": "Public author manuscript found; replaced before any writing runs by the richer CC BY mixed-methods source H2. Not read in full and not counted as a distilled full text."},
+    {"doi": "10.12957/childphilo.2020.47899", "reason": "Abstract and source identity screened; H4 was selected for the translation task because its CC BY terms are explicit. Not read in full or counted as a distilled full text."}
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "stage": "first",
+  "checks": [
+    {
+      "check": "voice",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run02-arm-p\\first.md",
+        "--source",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H7-materials.md",
+        "--lang",
+        "en"
+      ],
+      "returncode": 0,
+      "output": "first_voice.txt"
+    },
+    {
+      "check": "prose",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run02-arm-p\\first.md"
+      ],
+      "returncode": 0,
+      "output": "first_prose.txt"
+    },
+    {
+      "check": "consistency",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run02-arm-p\\first.md",
+        "--lang",
+        "en",
+        "--term-group",
+        "model=8A-Model|8A model|8-A Model",
+        "--term-group",
+        "grade=GPA|GPAs"
+      ],
+      "returncode": 0,
+      "output": "first_consistency.txt"
+    }
+  ],
+  "word_counts": {
+    "method": "Whitespace-delimited tokens; headings and reference excluded; attribution also reported separately.",
+    "discussion": 599,
+    "conclusion": 73,
+    "total_body": 672,
+    "attribution": 26,
+    "body_plus_attribution": 698,
+    "within_650_800": true
+  }
+}

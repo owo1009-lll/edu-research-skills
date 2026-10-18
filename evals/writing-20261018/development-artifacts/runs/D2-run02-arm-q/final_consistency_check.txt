@@ -1,0 +1,21 @@
+Command: ["C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe", "-X", "utf8", "-B", "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py", "--draft", "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\runs\\D2-run02-arm-q\\final.md", "--term-group", "answerability=answerability|student confidence", "--term-group", "automated channel=automated comments|automated feedback", "--term-group", "teacher channel=written teacher comments|teacher feedback"]
+Exit code: 0
+
+Language: en | abstract found: False | findings to inspect: 1
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (2 distinct values; check each is a named subsample):
+  214: …institution, 126 of 214 students chose automated com…
+  88: …ered 117/126 and 82/88 students, respectively; thes…
+
+Same value at different precision: 0
+
+Term variants: 0
+  self-reference: this study 1
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 0

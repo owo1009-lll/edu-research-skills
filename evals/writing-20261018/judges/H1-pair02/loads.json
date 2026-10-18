@@ -1,0 +1,99 @@
+{
+  "pair_id": "H1-pair02",
+  "assessment_type": "AI anonymous comparison of supplied manuscripts and evidence packet",
+  "encoding": "UTF-8",
+  "actual_resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+      "purpose": "Read judging scope, eight comparison criteria, evidence standards and output requirements.",
+      "scope": "Full file",
+      "read_method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "tool_output_limit_tokens": 12000,
+      "truncation_observed": false
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-02/H1-pair02/request.md",
+      "purpose": "Understand the writing task, audience, length and required manuscript sections; not execute the writing task.",
+      "scope": "Full file",
+      "read_method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "tool_output_limit_tokens": 18000,
+      "reported_original_output_tokens": 256,
+      "truncation_observed": false
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-02/H1-pair02/materials.md",
+      "purpose": "Establish supplied factual evidence, source interpretation, literature attribution limits and unresolved reporting questions.",
+      "scope": "Full file",
+      "read_method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "tool_output_limit_tokens": 18000,
+      "reported_original_output_tokens": 1584,
+      "truncation_observed": false
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-02/H1-pair02/A.md",
+      "purpose": "Assess A independently against the packet and then compare; reread programmatically only to count words and verify section headings.",
+      "scope": "Full file",
+      "read_method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "tool_output_limit_tokens": 18000,
+      "reported_original_output_tokens": 1300,
+      "truncation_observed": false,
+      "word_count_body_excluding_headings_exercise_note_and_references": 628,
+      "whitespace_token_count_all_text_before_references": 662
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-02/H1-pair02/B.md",
+      "purpose": "Assess B independently against the packet and then compare; reread programmatically only to count words and verify section headings.",
+      "scope": "Full file",
+      "read_method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "tool_output_limit_tokens": 18000,
+      "reported_original_output_tokens": 1306,
+      "truncation_observed": false,
+      "word_count_body_excluding_headings_exercise_note_and_references": 652,
+      "whitespace_token_count_all_text_before_references": 675
+    }
+  ],
+  "output_limit_notes": {
+    "functions_exec_direct_output_default_tokens": 10000,
+    "four_file_batch": "Four independent reads were awaited with Promise.allSettled; each exec_command permitted 18000 output tokens. Combined original outputs were 4446 tokens and all returned exit code 0 with complete visible file endings.",
+    "word_count_check_output_limit_tokens": 2000,
+    "word_count_check_reported_original_output_tokens": 207,
+    "truncation_or_missing_input_detected": false,
+    "review_generation_total_token_budget": "不可获取；没有可见的任务级生成总量参数。"
+  },
+  "visible_model_information": {
+    "system_visible_identity": "AI assistant accessed via an API",
+    "developer_visible_identity": "Codex, an agent based on GPT-6",
+    "exact_backend_model_version": "不可获取",
+    "temperature": "不可获取",
+    "random_seed": "不可获取",
+    "note": "Only explicit identity text visible to this evaluator is recorded. No inference from tool model catalogs, prose style or candidate text."
+  },
+  "scope_controls": {
+    "network_used": false,
+    "subagents_used": false,
+    "skills_read": false,
+    "other_pairs_or_runs_read": false,
+    "blind_key_read": false,
+    "input_files_edited": false,
+    "independent_source_verification_performed": false,
+    "human_review_performed": false,
+    "candidate_version_guessed": false
+  },
+  "comparison": {
+    "facts_and_author_intent": "相当",
+    "question_and_core_judgment": "相当",
+    "reasoning": "A 略优",
+    "concepts_and_literature": "B 略优",
+    "interpretation_and_contribution": "B 略优",
+    "language": "B 略优",
+    "necessary_qualifications": "相当",
+    "identifiable_editing_burden": "相当",
+    "overall_choice": "B",
+    "strength": "轻微偏好；不构成稳定提升证据",
+    "demonstrated_serious_errors": []
+  },
+  "outputs": [
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H1-pair02/review.md",
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H1-pair02/loads.json"
+  ]
+}

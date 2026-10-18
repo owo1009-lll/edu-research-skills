@@ -1,0 +1,51 @@
+{
+  "stage": "final",
+  "body_word_count_whitespace_excluding_headings_and_citation_markers": 670,
+  "runs": [
+    {
+      "check": "check_voice",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-p\\final.md",
+        "--source",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H7-materials.md"
+      ],
+      "exit_code": 0,
+      "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-p\\final_check_voice.txt"
+    },
+    {
+      "check": "check_prose",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-p\\final.md"
+      ],
+      "exit_code": 0,
+      "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-p\\final_check_prose.txt"
+    },
+    {
+      "check": "check_consistency",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-p\\final.md",
+        "--term-group",
+        "model=8A-Model|8A model",
+        "--term-group",
+        "practice=community of practice|community-of-practice"
+      ],
+      "exit_code": 0,
+      "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-p\\final_check_consistency.txt"
+    }
+  ]
+}

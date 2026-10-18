@@ -1,0 +1,718 @@
+[
+  {
+    "id": "H1",
+    "doi": "10.1126/sciadv.aau6200",
+    "retrieved_utc": "2026-10-18T04:01:53.372788+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6291308/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6291308/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 73586,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1126/sciadv.aau6200",
+      "title": [
+        "Sleepmore in Seattle: Later school start times are associated with more sleep and better performance in high school students"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9050-0225",
+          "authenticated-orcid": true,
+          "given": "Gideon P.",
+          "family": "Dunster",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luciano",
+          "family": "de la Iglesia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4879-3658",
+          "authenticated-orcid": true,
+          "given": "Miriam",
+          "family": "Ben-Hamo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3775-1241",
+          "authenticated-orcid": true,
+          "given": "Claire",
+          "family": "Nave",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9462-9333",
+          "authenticated-orcid": true,
+          "given": "Jason G.",
+          "family": "Fleischer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Regulatory Biology Laboratory, Salk Institute, La Jolla, CA 92037, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7855-0091",
+          "authenticated-orcid": true,
+          "given": "Satchidananda",
+          "family": "Panda",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Regulatory Biology Laboratory, Salk Institute, La Jolla, CA 92037, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0855-6807",
+          "authenticated-orcid": true,
+          "given": "Horacio O.",
+          "family": "de la Iglesia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195, USA."
+            },
+            {
+              "name": "Program in Neuroscience, University of Washington, Seattle, WA 98195, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            7
+          ]
+        ]
+      },
+      "container-title": [
+        "Science Advances"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "a2f58e417b6eaa9393982d177772797b4125a391efc2b2bfe441f87896e51e52",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6291308/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "514a98ced9108b6d15083794042f225960c35fe014bfcdde2ba1f535aa4c40ae",
+    "text_sha256": "fb247715394a1fcf26a8d4da6e3886608fcf3bb7ebfe1f34fb9c461c3855e6c9",
+    "text_characters": 41798,
+    "extraction": {
+      "sections": 12,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "210fe988c474b92969e3df368ecd253c4dbcfdf30eca20d968594d51a7f4f73f",
+    "reading_blocks": 48,
+    "reading_characters": 33854,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "H2",
+    "doi": "10.1371/journal.pone.0298041",
+    "retrieved_utc": "2026-10-18T04:01:53.373790+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0298041&type=manuscript",
+        "status": 200,
+        "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0298041/1/pone.0298041.xml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T220005Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=78ae52f087b426f92744b4e557cae92710b1db32edd4748f12773b6a6b9080946c9c014e113dcdf17ad1693017616c9297e302fdef809923ca5905b068bcd6a55427776eb4a7534bbf4493660b2cbc45ca156f70add5afcf11c9456dfc0ee87f3f408f179d0cc9004f49d65f78c0a39e96e2bf18eba9f8fed71cc7e4aececd1fe8ae7c15c11017bd7f4e6550352e5e17ea7af3113e92b3b86b50bc86f3f17e30ff073b0e26f75d823bf18765381d17ffa0ef8809d2343144b5b95355d6eb57659efe522ddde73ed982308dfbdda186f948474e03b620d2db8874e6c809270c5dc9387fb50c8fd15f4b1016ca317b4d49f4ae178d207daac2889e022f21eff751",
+        "content_type": "application/xml",
+        "bytes": 221259,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1371/journal.pone.0298041",
+      "title": [
+        "Systematic investigation of inadequate food access at a large southeastern land grant university"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4788-0976",
+          "authenticated-orcid": true,
+          "given": "Ralph P.",
+          "family": "Hall",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jessica",
+          "family": "Agnew",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lana",
+          "family": "Petrie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chris",
+          "family": "North",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "PLOS ONE"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                6
+              ]
+            ],
+            "date-time": "2024-03-06T00:00:00Z",
+            "timestamp": 1709683200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "fd384d3e04dfef97bd0f4a4d5a353a7c84548b3bd3d223e30afcbb173fcdaece",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0298041&type=manuscript",
+    "format": "xml",
+    "raw_sha256": "e08eb8a8c36ebe849787c391211214f8c1d8f771d212f9350e255ac2d3311b75",
+    "text_sha256": "fd6012eeb4f2a968d95c408ac73bee049dfc736e58b9835e349ebabf6fcf5dcb",
+    "text_characters": 68927,
+    "extraction": {
+      "sections": 22,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "50db9e8e46a098c156f05bb43419b8091e0d1784cf417f9b72e2f1527e6af80b",
+    "reading_blocks": 129,
+    "reading_characters": 54520,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "H3",
+    "doi": "10.16382/j.cnki.1000-5579.2022.01.010",
+    "retrieved_utc": "2026-10-18T04:01:53.373790+00:00",
+    "attempts": [
+      {
+        "url": "https://xbzs.ecnu.edu.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=11757",
+        "status": 200,
+        "final_url": "https://xbzs.ecnu.edu.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=11757",
+        "content_type": "application/octet-stream",
+        "bytes": 880119,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.16382/j.cnki.1000-5579.2022.01.010",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://xbzs.ecnu.edu.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=11757",
+    "format": "pdf",
+    "raw_sha256": "e0fc4ba6c3628a7c7566fa1a78ca04cdab0fd91c377f6d2c606230d1368a385e",
+    "text_sha256": "efa589bbc11daf2b250bbd6c9199e4ffbe8a9c6777cca36bb3b9c889e394af72",
+    "text_characters": 16482,
+    "extraction": {
+      "pages": 10,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "9be5bc24c090af3620350c16f2063f0ffdd859d2ed5ad1896d51096531a54fde",
+    "reading_blocks": 10,
+    "reading_characters": 17073,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "H4",
+    "doi": "10.12957/childphilo.2026.94211",
+    "retrieved_utc": "2026-10-18T04:01:55.914343+00:00",
+    "attempts": [
+      {
+        "url": "https://new.scielo.br/j/cphi/a/STCmwT5gjSrsQtq6QDgwdjx/?format=xml&lang=en",
+        "status": 200,
+        "final_url": "https://new.scielo.br/j/cphi/a/STCmwT5gjSrsQtq6QDgwdjx/?format=xml&lang=en",
+        "content_type": "application/xml",
+        "bytes": 89937,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.12957/childphilo.2026.94211",
+      "title": [
+        "epistemic violence and philosophy for children"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-7724-6197",
+          "authenticated-orcid": false,
+          "given": "Alaina",
+          "family": "Gostomski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-9470-1154",
+          "authenticated-orcid": false,
+          "given": "Sam",
+          "family": "Piede",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ]
+      },
+      "container-title": [
+        "childhood &amp; philosophy"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2026-06-25T00:00:00Z",
+            "timestamp": 1782345600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "cdc45b090d9ba420f1132e1a68b6286d4688c51c6a028057c1e6a45777b1d5f4",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://new.scielo.br/j/cphi/a/STCmwT5gjSrsQtq6QDgwdjx/?format=xml&lang=en",
+    "format": "xml",
+    "raw_sha256": "52e07b56350afaf2c95bcffa8770ceaa245a75eab9f7133d9bb4c82b0ba5965b",
+    "text_sha256": "feaa3b622952877411932df42082636374c35750e9e19fa091750924b7fcafa6",
+    "text_characters": 63935,
+    "extraction": {
+      "sections": 5,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "77018c5d7be12d38e200a1c5a749bbe3fccfa6b1102c542412c6a8837b67a668",
+    "reading_blocks": 57,
+    "reading_characters": 53865,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "H5",
+    "doi": "10.1002/cl2.1431",
+    "retrieved_utc": "2026-10-18T04:01:56.640684+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11409198/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11409198/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 245106,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1002/cl2.1431",
+      "title": [
+        "The relationship between homework time and academic performance among K-12: A systematic review"
+      ],
+      "author": [
+        {
+          "given": "Liping",
+          "family": "Guo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Basic Medical Sciences, Evidence-based Medicine Centre, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "School of Public Health, Center for Evidence-based Social Sciences, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "Laboratory of Evidence Based Medicine and Knowledge Translation of Gansu Province, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jieyun",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Basic Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zheng",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Basic Medical Sciences, Evidence-based Medicine Centre, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "School of Public Health, Center for Evidence-based Social Sciences, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "Laboratory of Evidence Based Medicine and Knowledge Translation of Gansu Province, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoling",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Higher Education Lanzhou University, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chunyan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Higher Education Lanzhou University, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Xing",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Basic Medical Sciences, Evidence-based Medicine Centre, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "School of Public Health, Center for Evidence-based Social Sciences, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "Laboratory of Evidence Based Medicine and Knowledge Translation of Gansu Province, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiuxia",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Public Health, Center for Evidence-based Social Sciences, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "Laboratory of Evidence Based Medicine and Knowledge Translation of Gansu Province, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Howard",
+          "family": "White",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Basic Medical Sciences, Evidence-based Medicine Centre, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "School of Public Health, Center for Evidence-based Social Sciences, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "Laboratory of Evidence Based Medicine and Knowledge Translation of Gansu Province, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kehu",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Basic Medical Sciences, Evidence-based Medicine Centre, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "School of Public Health, Center for Evidence-based Social Sciences, Lanzhou University, Lanzhou, Gansu, China"
+            },
+            {
+              "name": "Laboratory of Evidence Based Medicine and Knowledge Translation of Gansu Province, Lanzhou, Gansu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      },
+      "container-title": [
+        "Campbell Systematic Reviews: Better Evidence for a Better World"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2024-09-01T00:00:00Z",
+            "timestamp": 1725148800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2024-09-01T00:00:00Z",
+            "timestamp": 1725148800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ]
+    },
+    "metadata_sha256": "a6b8c5823fa7307b53367a67edbc637839905f5aa5c794e0deb558ae801c6c9e",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11409198/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "29255a69494b530b242eada492fb37b6b9e03b8a3e2d55ff513d5e0bf5468ed2",
+    "text_sha256": "8d73eecf62218b5aa3f698306e4f9a34015c424dc29c4202d6ec39b50fca97dd",
+    "text_characters": 115229,
+    "extraction": {
+      "sections": 96,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "924d8523b9c0ad94ac8de7b7ec794a98645d2382ed5b41af301af09df02044f8",
+    "reading_blocks": 242,
+    "reading_characters": 94703,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

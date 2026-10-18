@@ -1,0 +1,21 @@
+{
+  "stage": "candidate frozen before holdout selection",
+  "frozen_utc": "2026-10-18T03:55:04.168385+00:00",
+  "baseline_commit": "a4020c41a4f3d8ab180a4e2818955d90e40f6f3b",
+  "candidate_tree_sha256": "e69aead044e120a1359c15cf41a56b54808d7c1120e696de85d5b83f8e9087d7",
+  "candidate_manifest": "snapshots/dev-q01.json",
+  "candidate_archive": "development-artifacts/dev-q01-skills.zip",
+  "candidate_archive_sha256": "22f9b666c59b77995ff92b814d7783dc1395412c025e3cdde287641de5ddd815",
+  "baseline_archive": "development-artifacts/dev-p01-skills.zip",
+  "development_results": "development-results.md",
+  "decision": "Carry the unchanged candidate into new holdout comparison; no method yet accepted on stable writing gains.",
+  "selected_holdouts": [],
+  "excluded_development_sources": [
+    "distill/20261018/prior-index.json",
+    "distill/20261018/reading-coverage.json",
+    "evals/writing-20261018/inputs/D1-materials.md",
+    "evals/writing-20261018/inputs/D2-materials.md"
+  ],
+  "status_note": "Unfrozen status text inside the byte-preserved development snapshot describes its creation time. This record establishes the later candidate freeze; it is not a release or a claim of validation.",
+  "post_holdout_rule_change_policy": "If rules change after exposure to a holdout, reclassify that material as development and use a new holdout."
+}

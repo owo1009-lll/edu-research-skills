@@ -1,0 +1,1753 @@
+[
+  {
+    "id": "E08",
+    "doi": "10.1126/sciadv.aau4734",
+    "retrieved_utc": "2026-10-18T02:44:27.867552+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6377274/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6377274/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 83303,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1126/sciadv.aau4734",
+      "title": [
+        "STEM faculty who believe ability is fixed have larger racial achievement gaps and inspire less student motivation in their classes"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6864-2224",
+          "authenticated-orcid": true,
+          "given": "Elizabeth A.",
+          "family": "Canning",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Psychological and Brain Sciences, Indiana University, Bloomington, IN 47405, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katherine",
+          "family": "Muenks",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychological and Brain Sciences, Indiana University, Bloomington, IN 47405, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dorainne J.",
+          "family": "Green",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychological and Brain Sciences, Indiana University, Bloomington, IN 47405, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6511-498X",
+          "authenticated-orcid": true,
+          "given": "Mary C.",
+          "family": "Murphy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychological and Brain Sciences, Indiana University, Bloomington, IN 47405, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            2
+          ]
+        ]
+      },
+      "container-title": [
+        "Science Advances"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "e33acfa7f8b35957963d4a7e53f237470566b0f6d50a37d6d484e1a58ef2cb8a",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6377274/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "4a22952641db7a4e15be30ec96c219f2bc6e181346243fced97812192598c17a",
+    "text_sha256": "877bd5dab146c714174a8b8ed1da0c53def304badf2cf089a136d01555d480eb",
+    "text_characters": 44644,
+    "extraction": {
+      "sections": 15,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "72fba8feda822364c5050867ee31a11dede588284a8af5afa4efabf562e44e6a",
+    "reading_blocks": 62,
+    "reading_characters": 36390,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E09",
+    "doi": "10.1177/0038040715614913",
+    "retrieved_utc": "2026-10-18T02:44:27.867552+00:00",
+    "attempts": [
+      {
+        "url": "https://open.bu.edu/server/api/core/bitstreams/9f614474-32c2-449a-9523-83bb97491a6b/content",
+        "status": 200,
+        "final_url": "https://open.bu.edu/server/api/core/bitstreams/9f614474-32c2-449a-9523-83bb97491a6b/content",
+        "content_type": "application/pdf;charset=UTF-8",
+        "bytes": 207895,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/0038040715614913",
+      "title": [
+        "(No) Harm in Asking"
+      ],
+      "author": [
+        {
+          "given": "Anthony Abraham",
+          "family": "Jack",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Harvard University, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            11,
+            15
+          ]
+        ]
+      },
+      "container-title": [
+        "Sociology of Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                11,
+                15
+              ]
+            ],
+            "date-time": "2015-11-15T00:00:00Z",
+            "timestamp": 1447545600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "96c81fd4824a09488aede42edafb48007457f378f5c73b23d9cbe4436d473479",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://open.bu.edu/server/api/core/bitstreams/9f614474-32c2-449a-9523-83bb97491a6b/content",
+    "format": "pdf",
+    "raw_sha256": "88e8adbc8149df907c6e6a964e458180ee9fd7188f03a77a725dd30bdb3afc2c",
+    "text_sha256": "6727d03ef497f377cbcf988cb9c68d4b5c76f5869c7c090f7b2b30fe985919f3",
+    "text_characters": 87031,
+    "extraction": {
+      "pages": 20,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "21b27418cbe76ab6108917fae4c830df79b6d142f2072d017c04257528bfddc4",
+    "reading_blocks": 20,
+    "reading_characters": 88212,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E10",
+    "doi": "10.2307/3088916",
+    "retrieved_utc": "2026-10-18T02:44:27.867552+00:00",
+    "attempts": [
+      {
+        "url": "https://sociology.sas.upenn.edu/sites/default/files/Lareau2003_Invisible_Inequality.pdf",
+        "status": 200,
+        "final_url": "https://sociology.sas.upenn.edu/sites/default/files/Lareau2003_Invisible_Inequality.pdf",
+        "content_type": "application/pdf",
+        "bytes": 134559,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.2307/3088916",
+      "title": [
+        "Invisible Inequality: Social Class and Childrearing in Black Families and White Families"
+      ],
+      "author": [
+        {
+          "given": "Annette",
+          "family": "Lareau",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "American Sociological Review"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "b0c8cbb34ee4cd94443c3ad2de1f0a746b092afdb0b96291adff935c5edb763f",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://sociology.sas.upenn.edu/sites/default/files/Lareau2003_Invisible_Inequality.pdf",
+    "format": "pdf",
+    "raw_sha256": "22c9947c22bc85af438fd48d4762f5266cb6a075d738728762ea776faba9529f",
+    "text_sha256": "20a95cc6f8810843a8c885683a4bf347628cfcd13fffd34bd34e61fef6cf3d36",
+    "text_characters": 127625,
+    "extraction": {
+      "pages": 30,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "Manual title/author/version verification required: DOI absent",
+    "reading_sha256": "7a422c70d40f9adc3e9125c73e253dc1db90be9baa0d563a12d79190467b45dc",
+    "reading_blocks": 30,
+    "reading_characters": 129396,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E11",
+    "doi": "10.1007/s40753-020-00118-5",
+    "retrieved_utc": "2026-10-18T02:44:30.744243+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s40753-020-00118-5",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s40753-020-00118-5",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 433962,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s40753-020-00118-5",
+      "title": [
+        "How Does a Mathematician Fit in? A Mixed-Methods Analysis of University Students’ Sense of Belonging in Mathematics"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2430-8811",
+          "authenticated-orcid": false,
+          "given": "Juulia",
+          "family": "Lahdenperä",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3087-8933",
+          "authenticated-orcid": false,
+          "given": "Juuso Henrik",
+          "family": "Nieminen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            24
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Research in Undergraduate Mathematics Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2020-07-24T00:00:00Z",
+            "timestamp": 1595548800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2020-07-24T00:00:00Z",
+            "timestamp": 1595548800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "9146511a657f5bbb99fcaaa7ff65fe11f486107237a2de01c0b4b8a544ed0f47",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s40753-020-00118-5",
+    "format": "html",
+    "raw_sha256": "a1d9ab18503d04caf997532407365211f3af3ac16148654bfebcba52895b8186",
+    "text_sha256": "1637f31319d4add8b134505abac2d43d3d783703f2ca36fc615d7326b3e74023",
+    "text_characters": 65012,
+    "extraction": {
+      "sections": 14,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "1526a93f3aaf8571cd2d5924b45d16b16c14ed17728d2f7df896197710f5426c",
+    "reading_blocks": 213,
+    "reading_characters": 77779,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E12",
+    "doi": "10.1007/s10459-024-10324-4",
+    "retrieved_utc": "2026-10-18T02:44:31.089899+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10459-024-10324-4",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s10459-024-10324-4",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 520916,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s10459-024-10324-4",
+      "title": [
+        "Does ‘summative’ count? The influence of the awarding of study credits on feedback use and test-taking motivation in medical progress testing"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3815-1421",
+          "authenticated-orcid": false,
+          "given": "Elise V.",
+          "family": "van Wijk",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0518-4403",
+          "authenticated-orcid": false,
+          "given": "Floris M.",
+          "family": "van Blankenstein",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6769-0355",
+          "authenticated-orcid": false,
+          "given": "Jeroen",
+          "family": "Donkers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0059-872X",
+          "authenticated-orcid": false,
+          "given": "Roemer J.",
+          "family": "Janse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4331-5312",
+          "authenticated-orcid": false,
+          "given": "Jacqueline",
+          "family": "Bustraan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liesbeth G. M.",
+          "family": "Adelmeijer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9883-3312",
+          "authenticated-orcid": false,
+          "given": "Eline A.",
+          "family": "Dubois",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2433-2494",
+          "authenticated-orcid": false,
+          "given": "Friedo W.",
+          "family": "Dekker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1627-4324",
+          "authenticated-orcid": false,
+          "given": "Alexandra M. J.",
+          "family": "Langers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            19
+          ]
+        ]
+      },
+      "container-title": [
+        "Advances in Health Sciences Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2024-03-19T00:00:00Z",
+            "timestamp": 1710806400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2024-03-19T00:00:00Z",
+            "timestamp": 1710806400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "191b0047050e74b0fc85482dae3905d2ce2e500461ba9dc6c9b67576c92a8042",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s10459-024-10324-4",
+    "format": "html",
+    "raw_sha256": "97cbedae3c251bf6ac979704b1f8ad780fcfff7f725370289161408f7ffd6b68",
+    "text_sha256": "e3936143b94b4ad8b5115fc85a863002c7d4c4b2a1cb55e2001c31c9bc7aaada",
+    "text_characters": 73529,
+    "extraction": {
+      "sections": 14,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "626ac9e1b29693d033440180bd2d7cfd3da36fec7c98eedf1a442b7c00b3e2d4",
+    "reading_blocks": 277,
+    "reading_characters": 90136,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E13",
+    "doi": "10.1007/s10648-024-09957-z",
+    "retrieved_utc": "2026-10-18T02:44:31.284550+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10648-024-09957-z",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s10648-024-09957-z",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 573058,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s10648-024-09957-z",
+      "title": [
+        "Teachers’ Feedback on Oral Reading: A Critical Review of its Effects and the use of Theory in Research"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-3906-0353",
+          "authenticated-orcid": false,
+          "given": "Karianne Megard",
+          "family": "Grønli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1414-6014",
+          "authenticated-orcid": false,
+          "given": "Bente Rigmor",
+          "family": "Walgermo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3245-9719",
+          "authenticated-orcid": false,
+          "given": "Erin M.",
+          "family": "McTigue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5775-9830",
+          "authenticated-orcid": false,
+          "given": "Per Henning",
+          "family": "Uppstad",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            18
+          ]
+        ]
+      },
+      "container-title": [
+        "Educational Psychology Review"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                18
+              ]
+            ],
+            "date-time": "2024-10-18T00:00:00Z",
+            "timestamp": 1729209600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                18
+              ]
+            ],
+            "date-time": "2024-10-18T00:00:00Z",
+            "timestamp": 1729209600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "1f86feaca8b7f19cfdf9841d9b1c6672467f4b45781bd12068337f5d624e8050",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s10648-024-09957-z",
+    "format": "html",
+    "raw_sha256": "a5e933c7bf3cdb79638f60c86ad00456848e45711d2ab9a4d0db79121374c197",
+    "text_sha256": "a62de6cce02443d7cff36b80cc3c50f9864ea8cc6257b9beea0dce034a6c1c22",
+    "text_characters": 102546,
+    "extraction": {
+      "sections": 16,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "61f56fd76502695608782a05588b28e8b8e698496c27576a20545acae9199d40",
+    "reading_blocks": 342,
+    "reading_characters": 123051,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E14",
+    "doi": "10.1177/1745691615569000",
+    "retrieved_utc": "2026-10-18T02:44:35.108762+00:00",
+    "attempts": [
+      {
+        "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf",
+        "status": 200,
+        "final_url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf",
+        "content_type": "application/pdf",
+        "bytes": 689008,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/1745691615569000",
+      "title": [
+        "Learning Versus Performance"
+      ],
+      "author": [
+        {
+          "given": "Nicholas C.",
+          "family": "Soderstrom",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, University of California, Los Angeles"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert A.",
+          "family": "Bjork",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, University of California, Los Angeles"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            3
+          ]
+        ]
+      },
+      "container-title": [
+        "Perspectives on Psychological Science"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2015-03-01T00:00:00Z",
+            "timestamp": 1425168000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ]
+    },
+    "metadata_sha256": "5bcb10d132cc100abce0907175e9422a625cb15292ef9eedc5de076013878d90",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf",
+    "format": "pdf",
+    "raw_sha256": "f143e20a1d87bc00c89ac119860761cef63a213691e107ba04a9263e812a21e9",
+    "text_sha256": "9b210d689d0d197982a7a697479aef5871021c9ded16e199e2938da9fe8e7f64",
+    "text_characters": 128899,
+    "extraction": {
+      "pages": 24,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "9262c9a99e8316a04e0f01045107a72fa2fba9740ce10f7ecd52d87197318be4",
+    "reading_blocks": 24,
+    "reading_characters": 130306,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E15",
+    "doi": "10.1073/pnas.1916903117",
+    "retrieved_utc": "2026-10-18T02:44:35.481763+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7104254/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7104254/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 146502,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1073/pnas.1916903117",
+      "title": [
+        "Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math"
+      ],
+      "author": [
+        {
+          "given": "Elli J.",
+          "family": "Theobald",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mariah J.",
+          "family": "Hill",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elisa",
+          "family": "Tran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sweta",
+          "family": "Agrawal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physiology and Biophysics, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E. Nicole",
+          "family": "Arroyo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Immunology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shawn",
+          "family": "Behling",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Environmental and Forest Sciences, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nyasha",
+          "family": "Chambwe",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Systems Biology, Seattle, WA 98109;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dianne Laboy",
+          "family": "Cintrón",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jacob D.",
+          "family": "Cooper",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gideon",
+          "family": "Dunster",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jared A.",
+          "family": "Grummer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kelly",
+          "family": "Hennessey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jennifer",
+          "family": "Hsiao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicole",
+          "family": "Iranon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "suffix": "II",
+          "given": "Leonard",
+          "family": "Jones",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0709-0294",
+          "authenticated-orcid": false,
+          "given": "Hannah",
+          "family": "Jordt",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marlowe",
+          "family": "Keller",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Melissa E.",
+          "family": "Lacey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Caitlin E.",
+          "family": "Littlefield",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Environmental and Forest Sciences, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Lowe",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shannon",
+          "family": "Newman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Laboratory Medicine, University of Washington, Seattle, WA 98195;"
+            },
+            {
+              "name": "Department of Microbiology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vera",
+          "family": "Okolo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Savannah",
+          "family": "Olroyd",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brandon R.",
+          "family": "Peecook",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sarah B.",
+          "family": "Pickett",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Structure, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David L.",
+          "family": "Slager",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Itzue W.",
+          "family": "Caviedes-Solis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kathryn E.",
+          "family": "Stanchak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vasudha",
+          "family": "Sundaravardan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biology Department, Shoreline Community College, Shoreline, WA 98133;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Camila",
+          "family": "Valdebenito",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Claire R.",
+          "family": "Williams",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular and Cellular Biology Program, University of Washington, Seattle, WA 98195"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaitlin",
+          "family": "Zinsli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0988-1900",
+          "authenticated-orcid": false,
+          "given": "Scott",
+          "family": "Freeman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biology, University of Washington, Seattle, WA 98195;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            9
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the National Academy of Sciences"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                3,
+                9
+              ]
+            ],
+            "date-time": "2020-03-09T00:00:00Z",
+            "timestamp": 1583712000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "d91504660d52d3a74f84b992a0a025cca78735ce25d10ca26b66d3ea1420f786",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7104254/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "1ecdb3294983de7f8169bccb0b5e8984f5d6883fd54ebd561dc745b2ba97847d",
+    "text_sha256": "3703d65a372d9ee9d9d81294d15e7b26902af358a8da39aef35f7aef5927d4e3",
+    "text_characters": 64250,
+    "extraction": {
+      "sections": 18,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "d9e22dc30be779eb1fb235d447236b924a9ef7cc16ad8b0c57c032fa9ddb0e26",
+    "reading_blocks": 88,
+    "reading_characters": 48950,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E16",
+    "doi": "10.3402/nstep.v1.26558",
+    "retrieved_utc": "2026-10-18T02:44:35.574314+00:00",
+    "attempts": [
+      {
+        "url": "https://uu.diva-portal.org/smash/get/diva2%3A892555/FULLTEXT01.pdf",
+        "status": 200,
+        "final_url": "https://uu.diva-portal.org/smash/get/diva2%3A892555/FULLTEXT01.pdf",
+        "content_type": "application/pdf",
+        "bytes": 4457722,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.3402/nstep.v1.26558",
+      "title": [
+        "Toward a deliberative curriculum?"
+      ],
+      "author": [
+        {
+          "given": "Tomas",
+          "family": "Englund",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Education, Örebro University, Örebro, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Nordic Journal of Studies in Educational Policy"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "989026fd14066cd5d7534e06d34eae398749edff858011ec0d863f9f241d41ab",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://uu.diva-portal.org/smash/get/diva2%3A892555/FULLTEXT01.pdf",
+    "format": "pdf",
+    "raw_sha256": "3f5cc62a921f1741f985333c0dd002e813cfb3dd95404ad7b9fb8f201b40a570",
+    "text_sha256": "d4abb148b566967b8c75ca3a710671ce1e12ab44782dcb85ec535e7aab3fa805",
+    "text_characters": 529280,
+    "extraction": {
+      "pages": 98,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "article_pdf_pages": [
+      52,
+      60
+    ],
+    "file_note": "The institutional download is a complete journal issue. Only PDF pages 52–60 (printed pages 48–56) belong to this article; other articles are not counted or read as this source.",
+    "reading_sha256": "603752b0a5ad8f63c31c7112d8b5bcaf517e63a1cf34aa1dafca2d92fb1abac6",
+    "reading_blocks": 9,
+    "reading_characters": 51190,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E17",
+    "doi": "10.16382/j.cnki.1000-5560.2024.11.002",
+    "retrieved_utc": "2026-10-18T02:44:37.977890+00:00",
+    "attempts": [
+      {
+        "url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11129",
+        "status": 200,
+        "final_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11129",
+        "content_type": "application/octet-stream",
+        "bytes": 1078074,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.16382/j.cnki.1000-5560.2024.11.002",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11129",
+    "format": "pdf",
+    "raw_sha256": "7af33cb6900b3bb7f4b859b23f8c69636a9f1ab4dd742adcda4f354ab63cc3f0",
+    "text_sha256": "9c6f52e285eda4e5fb70d0beb97b510790cc9da2e1998bf3f911359dc3ec061d",
+    "text_characters": 39545,
+    "extraction": {
+      "pages": 18,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "0b9640c9db51851b9a7e4c8bdfb2d4b47dc4fc78db2e11b0c84f4dd7389a5ed0",
+    "reading_blocks": 18,
+    "reading_characters": 40608,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E18",
+    "doi": "10.16382/j.cnki.1000-5560.2023.09.002",
+    "retrieved_utc": "2026-10-18T02:44:38.676416+00:00",
+    "attempts": [
+      {
+        "url": "https://eduwx.nju.edu.cn/_upload/article/files/67/b3/75a5fb714893afdf33b534942d3f/d2b26fbb-358e-47b3-af1c-84a7670220d6.pdf",
+        "status": 200,
+        "final_url": "https://eduwx.nju.edu.cn/_upload/article/files/67/b3/75a5fb714893afdf33b534942d3f/d2b26fbb-358e-47b3-af1c-84a7670220d6.pdf",
+        "content_type": "application/pdf",
+        "bytes": 2004371,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.16382/j.cnki.1000-5560.2023.09.002",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://eduwx.nju.edu.cn/_upload/article/files/67/b3/75a5fb714893afdf33b534942d3f/d2b26fbb-358e-47b3-af1c-84a7670220d6.pdf",
+    "format": "pdf",
+    "raw_sha256": "5e4683aef4d3489bfb81835a1a625ec3ce6c7be86a7c6d39cc7e688faccbdc73",
+    "text_sha256": "3369b7c6c2eff1e0d07de150a1d0e463262045c4819fdace9ce18159bd8a3db5",
+    "text_characters": 44446,
+    "extraction": {
+      "pages": 22,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "855d4e599c8574058b86efcff5da44e0147fc8df866e94910039e48f5038e23a",
+    "reading_blocks": 22,
+    "reading_characters": 45745,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "E19",
+    "doi": "10.1126/sciadv.abj0691",
+    "retrieved_utc": "2026-10-18T02:44:40.393175+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8942350/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8942350/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 130909,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1126/sciadv.abj0691",
+      "title": [
+        "A scalable empathic-mindset intervention reduces group disparities in school suspensions"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5634-1101",
+          "authenticated-orcid": true,
+          "given": "Jason A.",
+          "family": "Okonofua",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of California, Berkeley, Berkeley, CA, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6403-3643",
+          "authenticated-orcid": true,
+          "given": "J. Parker",
+          "family": "Goyer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Constance A.",
+          "family": "Lindsay",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of North Carolina, Chapel Hill, NC, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5248-0542",
+          "authenticated-orcid": true,
+          "given": "Johnetta",
+          "family": "Haugabrook",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Multi-Tiered System of Supports, Largo, FL, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6194-0472",
+          "authenticated-orcid": true,
+          "given": "Gregory M.",
+          "family": "Walton",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            25
+          ]
+        ]
+      },
+      "container-title": [
+        "Science Advances"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "0486f4ee22f3dab418bbbcde4f495d2d581bae6a4c128c919c61e2b4d7f2b34c",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8942350/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "c317252cb38930239bcf83079a6e1d9a810fd6d077714c962f0f4d9972eb62d5",
+    "text_sha256": "3f68f93cb9868350ef904d771d612bebf94836350f07a5d643fde614f0bd8121",
+    "text_characters": 72024,
+    "extraction": {
+      "sections": 20,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "ee76aece96768a896c539e91c0e09415ca6e8f6aa900f45d3446f53193673fcc",
+    "reading_blocks": 79,
+    "reading_characters": 58815,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

@@ -1,0 +1,1374 @@
+{
+  "baseline": "a4020c41a4f3d8ab180a4e2818955d90e40f6f3b",
+  "scope": "77 original corpus records, six current source records, earlier training/holdout exposure, reconstructed method-card identities; searched all baseline skills/distill/evals Markdown and JSON for candidate DOI/title mentions.",
+  "limitation": "Several W-series identities are missing from available records. The private development repository HEAD 27cbb4758d0c27a152c959316589f89c37397793 exposes the same original manifests and six source cards but no W-series manifest. Absence here establishes novelty relative to available records, not proof of no prior reading in a lost session.",
+  "historical_w_markers": {
+    "W07": [
+      "skills/edu-writing/references/methods/compare-explanations.md",
+      "skills/edu-writing/references/methods/problem-with-consequences.md"
+    ],
+    "W48": [
+      "skills/edu-writing/references/methods/compare-explanations.md"
+    ],
+    "W09": [
+      "skills/edu-writing/references/methods/compare-explanations.md"
+    ],
+    "W24": [
+      "skills/edu-writing/references/methods/compare-explanations.md",
+      "skills/edu-writing/references/methods/problem-with-consequences.md"
+    ],
+    "W49": [
+      "skills/edu-writing/references/methods/compare-explanations.md"
+    ],
+    "W47": [
+      "skills/edu-writing/references/methods/compare-explanations.md"
+    ],
+    "W38": [
+      "skills/edu-writing/references/methods/compare-explanations.md"
+    ],
+    "W15": [
+      "skills/edu-writing/references/methods/compare-explanations.md"
+    ],
+    "W01": [
+      "skills/edu-writing/references/methods/problem-with-consequences.md",
+      "skills/edu-writing/references/methods/synthesize-explanatory-axes.md"
+    ],
+    "W02": [
+      "skills/edu-writing/references/methods/problem-with-consequences.md",
+      "skills/edu-writing/references/methods/synthesize-explanatory-axes.md"
+    ],
+    "W16": [
+      "skills/edu-writing/references/methods/problem-with-consequences.md"
+    ],
+    "W23": [
+      "skills/edu-writing/references/methods/problem-with-consequences.md"
+    ],
+    "W18": [
+      "skills/edu-writing/references/methods/synthesize-explanatory-axes.md"
+    ],
+    "W21": [
+      "skills/edu-writing/references/methods/synthesize-explanatory-axes.md"
+    ],
+    "W30": [
+      "skills/edu-writing/references/methods/synthesize-explanatory-axes.md"
+    ]
+  },
+  "prior_records": [
+    {
+      "id": "EN01",
+      "doi": "10.1186/s41239-024-00444-7",
+      "title": "Is it harmful or helpful? Examining the causes and consequences of generative AI usage among university students",
+      "authors": [
+        "Muhammad Abbas",
+        "Farooq Ahmed Jam",
+        "Tariq Iqbal Khan"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN02",
+      "doi": "10.1186/s41239-024-00496-9",
+      "title": "AI ethics as a complex and multifaceted challenge: decoding educators’ AI ethics alignment through the lens of activity theory",
+      "authors": [
+        "Jaber Kamali",
+        "Muhammet Furkan Alpat",
+        "Aras Bozkurt"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN03",
+      "doi": "10.1007/s11423-024-10439-w",
+      "title": "Leading the AI transformation in schools: it starts with a digital mindset",
+      "authors": [
+        "Marcus Pietsch",
+        "Dana-Kristin Mah"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN04",
+      "doi": "10.1007/s11423-024-10437-y",
+      "title": "Exploring instructional designers' utilization and perspectives on generative AI tools: A mixed methods study",
+      "authors": [
+        "Tian Luo",
+        "Pauline Salim Muljana",
+        "Xinyue Ren",
+        "Dara Young"
+      ],
+      "year": 2024,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN05",
+      "doi": "10.1007/s10639-025-13574-w",
+      "title": "The mediating effects of needs satisfaction on the relationship between teacher support and student engagement with generative artificial intelligence (GenAI) chatbots from a self-determination theory (SDT) perspective",
+      "authors": [
+        "Yan Li",
+        "Thomas K. F. Chiu"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN06",
+      "doi": "10.1007/s10639-024-13134-8",
+      "title": "Exploring the role of generative AI in higher education: Semi-structured interviews with students with disabilities",
+      "authors": [
+        "Oriane Pierrès",
+        "Alireza Darvishy",
+        "Markus Christen"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN07",
+      "doi": "10.1016/j.compedu.2025.105322",
+      "title": "The effects of generative AI agents and scaffolding on enhancing students’ comprehension of visual learning analytics",
+      "authors": [
+        "Lixiang Yan",
+        "Roberto Martínez-Maldonado",
+        "Yueqiao Jin",
+        "Vanessa Echeverría",
+        "Mikaela Elizabeth Milesi",
+        "Jie Xiang Fan",
+        "Linxuan Zhao",
+        "Riordan Alfredo",
+        "Xinyu Li",
+        "Dragan Gašević"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN08",
+      "doi": "10.1111/bjet.13480",
+      "title": "Comparing quality and engagement in face-to-face and online teacher professional development",
+      "authors": [
+        "Nina Mulaimović",
+        "Eric Richter",
+        "Rebecca Lazarides",
+        "Dirk Richter"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN09",
+      "doi": "10.1016/j.tate.2024.104706",
+      "title": "Exploring teachers’ psychological needs, motivating styles, emotion regulation and self-compassion: A comparative study before and during the COVID-19 lockdown",
+      "authors": [
+        "Idit Katz",
+        "Angelica Moè"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN10",
+      "doi": "10.1016/j.tate.2024.104719",
+      "title": "Pre-service teachers’ ways of understanding, observing, and supporting self-regulated learning",
+      "authors": [
+        "Jenni Latva-aho",
+        "Piia Näykki",
+        "Saara Pyykkönen",
+        "Sirpa Laitinen-Väänänen",
+        "Laura Hirsto",
+        "Marjaana Veermans"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN11",
+      "doi": "10.1016/j.tate.2024.104664",
+      "title": "Why don't all victims tell teachers about being bullied? A mixed methods study on how direct and indirect bullying and student-teacher relationship quality are linked with bullying disclosure",
+      "authors": [
+        "Ylva Bjereld",
+        "Robert Thornberg",
+        "Jun Sung Hong"
+      ],
+      "year": 2024,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN12",
+      "doi": "10.1016/j.learninstruc.2025.102177",
+      "title": "Scaffolding of learning activities: Aptitude-treatment-interaction effects in math?",
+      "authors": [
+        "Sarah Isabelle Hofer",
+        "Frank Reinhold"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN13",
+      "doi": "10.1016/j.learninstruc.2024.101896",
+      "title": "Joy is reciprocally transmitted between teachers and students: Evidence on facial mimicry in the classroom",
+      "authors": [
+        "Anne Christiane Frenzel",
+        "Muhterem Dindar",
+        "Reinhard H. Pekrun",
+        "Corinna Reck",
+        "Anton K. G. Marx"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN14",
+      "doi": "10.1177/02557614241262798",
+      "title": "Investigating the health and wellbeing of music students: Perspectives from schools of music in Switzerland and the UK",
+      "authors": [
+        "Dawn Rose",
+        "Karen Burland",
+        "Kate Louise Blackstone",
+        "Elena Alessandri"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN15",
+      "doi": "10.1080/14613808.2025.2509972",
+      "title": "Understanding the achievement goals of adolescent instrumental learners",
+      "authors": [
+        "Samantha Caffull",
+        "Caroline Waddington-Jones"
+      ],
+      "year": 2025,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN16",
+      "doi": "10.3102/00028312241288212",
+      "title": "Tracking Procedures and Criteria and the SES Bias in Teacher Track Recommendations",
+      "authors": [
+        "Sara Geven"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN17",
+      "doi": "10.1037/edu0000986",
+      "title": "Teacher coaching in upper secondary school: Examining the effects on teacher–student interaction and student engagement",
+      "authors": [
+        "Sigrun Karin Ertesvåg",
+        "Grete Sørensen Vaaland",
+        "Maren Stabel Tvedt",
+        "Tuomo Erkki Virtanen",
+        "Thormod Idsøe",
+        "Margarita Panayiotou",
+        "Maren Stahl Lerang",
+        "Randi M. Sølvik",
+        "Marja-Kristiina Lerkkanen"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN18",
+      "doi": "10.1016/j.cedpsych.2025.102388",
+      "title": "Enjoyable for some, stressful for others? Physiological and subjective indicators of achievement emotions during adaptive versus fixed-item testing",
+      "authors": [
+        "Miriam Wünsch",
+        "Anne Christiane Frenzel",
+        "Reinhard H. Pekrun",
+        "Luning Sun"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN19",
+      "doi": "10.1016/j.learninstruc.2025.102141",
+      "title": "Adaptive teaching with technology enhances lasting learning",
+      "authors": [
+        "Leonie Sibley",
+        "Armin Fabian",
+        "Christine Plicht",
+        "Lisa Pagano",
+        "Niklas Ehrhardt",
+        "Luisa Wellert",
+        "Thorsten Bohl",
+        "Andreas Lachner"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN20",
+      "doi": "10.1016/j.compedu.2025.105510",
+      "title": "Teacher-led robot intervention in early primary school classrooms improves pupil and teacher outcomes",
+      "authors": [
+        "Amy A.E. Hughes",
+        "Sarah A. Gerson",
+        "Johanna E. van Schaik"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN21",
+      "doi": "10.1016/j.compedu.2024.105140",
+      "title": "Pedagogical agents communicating and scaffolding students' learning: High school teachers' and students' perspectives",
+      "authors": [
+        "Pieta Sikström",
+        "Chiara Valentini",
+        "Anu E. Sivunen",
+        "Tommi Kärkkäinen"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN22",
+      "doi": "10.1016/j.iheduc.2025.100992",
+      "title": "Community of inquiry: A bridge linking motivation and self-regulation to satisfaction with E-learning",
+      "authors": [
+        "Mohammadreza Farrokhnia",
+        "Abbas Taghizade",
+        "Roshan Ahmadi",
+        "Pantelis M. Papadopoulos",
+        "Omid Noroozi"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN23",
+      "doi": "10.3102/0013189x251314808",
+      "title": "The Purposes of Education: A Citizen Perspective Beyond Political Elites",
+      "authors": [
+        "Ebba Henrekson",
+        "Fredrik O. Andersson",
+        "Jürgen Willems"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN24",
+      "doi": "10.1038/s41539-025-00358-7",
+      "title": "Unlocking math potential in students from lower SES backgrounds – using instructional scaffolds to improve performance",
+      "authors": [
+        "Katharina Marie Bach",
+        "Frank Reinhold",
+        "Sarah Isabelle Hofer"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN25",
+      "doi": "10.1007/s10734-023-01145-2",
+      "title": "Academic reading as a grudging act: how do Higher Education students experience academic reading and what can educators do about it?",
+      "authors": [
+        "Will Mason",
+        "Meesha Warmington"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN26",
+      "doi": "10.1007/s10734-023-01179-6",
+      "title": "“Every morning I take two steps to my desk…”: students’ perspectives on distance learning during the COVID-19 pandemic",
+      "authors": [
+        "Marco Chiodaroli",
+        "Lisa Freyhult",
+        "Andreas Solders",
+        "Diego Tarrío",
+        "Katerina Pia Günter"
+      ],
+      "year": 2024,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN27",
+      "doi": "10.1080/03075079.2024.2435563",
+      "title": "Implications of crib sheets for student well-being and exam performance: a mixed methods study",
+      "authors": [
+        "Sophie Whitehouse",
+        "John Bredican",
+        "Jayne Heaford",
+        "Anouk de Regt",
+        "Kirk A. Plangger"
+      ],
+      "year": 2024,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN28",
+      "doi": "10.1111/bjet.13447",
+      "title": "Comparing reusable, atomic feedback with classic feedback on a linear equations task using text mining and qualitative techniques",
+      "authors": [
+        "Filip Moons",
+        "Alexander Holvoet",
+        "Katrin Klingbeil",
+        "Ellen Vandervieren"
+      ],
+      "year": 2024,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN29",
+      "doi": "10.1080/10508406.2026.2686084",
+      "title": "Leveraging Onto-Epistemic Heterogeneity for “Outward” Exploration: Cultivating Critical AI Awareness in the ELA Classroom",
+      "authors": [
+        "Jennifer Higgs",
+        "Maria Kaimana",
+        "Mark Isero"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN30",
+      "doi": "10.1177/03057356261471783",
+      "title": "Children’s Initial Interest in Learning the Cello: An Interpretative Phenomenological Analysis",
+      "authors": [
+        "Stephanie L R MacArthur",
+        "Jane W. Davidson",
+        "Amanda E. Krause"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN31",
+      "doi": "10.1177/03057356261426478",
+      "title": "Flow in instrumental improvisation: Task constraints and their connection to students’ personality, musical skills, and self-regulation",
+      "authors": [
+        "Jo Stijnen",
+        "Filip Verneert",
+        "Luc Nijs",
+        "Peter Van Petegem"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN32",
+      "doi": "10.1017/s0265051726100928",
+      "title": "Understanding and managing music performance anxiety: perspectives from studio teachers in Australia",
+      "authors": [
+        "Isabella Mazzarolo",
+        "Kim Burwell",
+        "Emery Schubert",
+        "Margaret S. Osborne"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN33",
+      "doi": "10.1177/1321103x241264943",
+      "title": "Investigating if and how string teachers instruct and support the self-regulation of students’ practice in online lessons",
+      "authors": [
+        "Dora Utermohl de Queiroz",
+        "Guadalupe López-Íñiguez",
+        "Clarissa Foletto"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN34",
+      "doi": "10.1002/berj.4108",
+      "title": "Understanding the awarding gap through the lived experiences of minority ethnic students: An intersectional approach",
+      "authors": [
+        "Leslie Morrison Gutman",
+        "Fatima Younas"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN35",
+      "doi": "10.1002/sce.21856",
+      "title": "Inclusion for STEM, the institution, or minoritized youth? Exploring how educators navigate the discourses that shape social justice in informal science learning practices",
+      "authors": [
+        "Emily Dawson",
+        "Raj Bista",
+        "Amanda Colborne",
+        "Beau-Jensen McCubbin",
+        "Spela Godec",
+        "Uma Patel",
+        "Louise Archer",
+        "Ada Mau"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN36",
+      "doi": "10.1080/17439884.2024.2406963",
+      "title": "Beyond the screen: student experiences of social connection in a hybrid university learning environment",
+      "authors": [
+        "Theresa Poppy Wheele",
+        "Carmel Lindkvist",
+        "Clara Weber",
+        "Tore Brandstveit Haugen",
+        "Lukas Windlinger Inversini"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN37",
+      "doi": "10.1187/cbe.25-04-0066",
+      "title": "Faculty and Undergraduate Learning Assistants’ Perspectives on Supports and Barriers for Student-Centered Instructional Change in Introductory Biology",
+      "authors": [
+        "Alice R. Olmstead",
+        "Alicia M. Montecinos",
+        "Hannah Castro",
+        "Tyler Atkinson",
+        "Eleanor W. Close",
+        "Madison L. Fitzgerald-Russell",
+        "Kylie Hedge",
+        "Alexis Kerr"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN38",
+      "doi": "10.1002/tea.21973",
+      "title": "Students' awareness and conceptions of science-related communication mechanisms on social media",
+      "authors": [
+        "Soraya Kresin",
+        "Kerstin Kremer",
+        "Andreas Nehring",
+        "Alexander Georg Büssing"
+      ],
+      "year": 2024,
+      "design": "qualitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN39",
+      "doi": "10.1017/s0265051726100977",
+      "title": "Music outreach, social inclusion and human flourishing: evaluating the Liverpool Cathedral schools’ singing programme",
+      "authors": [
+        "Simone Krüger Bridge"
+      ],
+      "year": 2026,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN40",
+      "doi": "10.1080/02602938.2025.2588681",
+      "title": "The meaning of excellence in learning and teaching to students",
+      "authors": [
+        "Claudine Fox",
+        "Martyn Parker",
+        "Emily Locker"
+      ],
+      "year": 2025,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN41",
+      "doi": "10.1080/13562517.2025.2465992",
+      "title": "Learning to focus on students: the effect of pedagogical training on university teachers’ visual attention",
+      "authors": [
+        "Henna Vilppu",
+        "Erkki Anto",
+        "Mari Murtonen"
+      ],
+      "year": 2025,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN42",
+      "doi": "10.18608/jla.2024.8131",
+      "title": "Supporting Decision-Making for Promoting Teaching and Learning Innovation: A Multiple Case Study",
+      "authors": [
+        "Iouri Kotorov",
+        "Yuliya Krasylnykova",
+        "Mar Pérez-Sanagustín",
+        "Fernanda Mansilla",
+        "Julien Broisin"
+      ],
+      "year": 2024,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN43",
+      "doi": "10.1111/modl.12893",
+      "title": "Primary school children's conflicted emotions about using their heritage languages in multilingual classroom tasks",
+      "authors": [
+        "Koen Van Gorp",
+        "Steven Verheyen"
+      ],
+      "year": 2024,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN44",
+      "doi": "10.1187/cbe.24-05-0149",
+      "title": "Student Perceptions on the Value of an Ideologically Aware Curriculum",
+      "authors": [
+        "Ryan D. P. Dunk",
+        "Paula E. Adams",
+        "Abby E. Beatty",
+        "Cissy J. Ballen"
+      ],
+      "year": 2025,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN45",
+      "doi": "10.1016/j.tate.2025.105068",
+      "title": "Finnish teacher students’ career choice motivations: A mixed methods study",
+      "authors": [
+        "Päivi Virtanen",
+        "Helen M. G. Watt",
+        "Paul Richardson",
+        "Niina Linnanmäki",
+        "Ville Mankki",
+        "Riitta-Leena Metsäpelto",
+        "Kirsi Wallinheimo"
+      ],
+      "year": 2025,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN46",
+      "doi": "10.1016/j.tate.2026.105498",
+      "title": "Why pre-service teachers do not use social media for professional purposes: A mixed-methods study using the will-skill-tool framework",
+      "authors": [
+        "Hermann Dzingel",
+        "André Meyer",
+        "Eric Richter",
+        "Jeffrey Paul Carpenter",
+        "Dirk Richter"
+      ],
+      "year": 2026,
+      "design": "mixed",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN47",
+      "doi": "10.1177/00380407241230007",
+      "title": "The Shape of the Sieve: Which Components of the Admissions Application Matter Most in Particular Institutional Contexts?",
+      "authors": [
+        "Barrett J. Taylor",
+        "Kelly Ochs Rosinger",
+        "Karly Sarita Ford"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN48",
+      "doi": "10.1177/23328584251318306",
+      "title": "Do Preschool Peers Create a Sustaining Environment in Kindergarten? Evidence from the ECLS-K:2011",
+      "authors": [
+        "Zhiling Meng Shea",
+        "Qing Zhang",
+        "Jade Marcus Jenkins",
+        "Tyler W. Watts"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN49",
+      "doi": "10.1002/tea.21947",
+      "title": "Learning with multiple external representations in physics: Concreteness fading versus simultaneous presentation",
+      "authors": [
+        "Andreas Lichtenberger",
+        "Tommi Kokkonen",
+        "Lennart Schalk"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "EN50",
+      "doi": "10.1177/00224871241237497",
+      "title": "Advancing Preservice Science Teachers’ Skills to Assess Student Thinking On-the-Fly Through Practice-Based Learning",
+      "authors": [
+        "Tobias Hoppe",
+        "Tina Seidel",
+        "Alexander Renkl",
+        "Werner Rieß"
+      ],
+      "year": 2024,
+      "design": "quantitative",
+      "record": "distill/manifest_en.json"
+    },
+    {
+      "id": "ZH01",
+      "doi": null,
+      "title": "高等教育扩张中博士教育需求溢出的逻辑机制——基于民办本科高校教师赴东南亚读博的调查",
+      "authors": [
+        "陈先哲",
+        "王俊"
+      ],
+      "year": 2025,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH02",
+      "doi": null,
+      "title": "如何从“高成绩”走向“高创新”——科学成绩对学生创新能力的影响探究",
+      "authors": [
+        "钱佳",
+        "曹义兰"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH03",
+      "doi": null,
+      "title": "家庭社会经济地位、数字素养与青少年学业成就关系研究",
+      "authors": [
+        "孙婧",
+        "张欢欢",
+        "张权"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH04",
+      "doi": null,
+      "title": "使用生成式人工智能辅助学习的学生类型画像——基于全国20所高校本科生调查的实证研究",
+      "authors": [
+        "马莉萍",
+        "郑翔睿",
+        "周雪涵"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH05",
+      "doi": null,
+      "title": "在场与呈现：乡村教师地方感生成的影像发声实践",
+      "authors": [
+        "曾姝倩",
+        "王建平"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH06",
+      "doi": null,
+      "title": "教师知识共享行为是如何发生的？",
+      "authors": [
+        "魏晓宇",
+        "苏娜"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH07",
+      "doi": null,
+      "title": "SEL教学助推师范生社会情感能力的有效性：一项包含前后测双组实验的混合研究",
+      "authors": [
+        "邢芸"
+      ],
+      "year": 2026,
+      "design": "mixed",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH08",
+      "doi": null,
+      "title": "浸润与赋能：师范生数字化教学能力形成机理的质性研究",
+      "authors": [
+        "黄庆双",
+        "张思琦",
+        "杜岩岩"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH09",
+      "doi": null,
+      "title": "大语言模型赋能职前教师协作问题解决的实证研究",
+      "authors": [
+        "郑兰琴",
+        "史喆",
+        "高蕾",
+        "傅骞"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH10",
+      "doi": null,
+      "title": "教师人工智能素养影响教学创新行为的链式中介效应研究",
+      "authors": [
+        "詹泽慧",
+        "钟超诚",
+        "林志航",
+        "周嘉慧",
+        "杨明欢"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH11",
+      "doi": null,
+      "title": "中小学校长数字化转型领导力的测评与应用",
+      "authors": [
+        "李姗姗",
+        "林易",
+        "曾诚则",
+        "王志明",
+        "吴筱萌"
+      ],
+      "year": 2026,
+      "design": "mixed",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH12",
+      "doi": null,
+      "title": "数字教材何以改变课堂教学方式——基于126个教学案例片段的视频分析",
+      "authors": [
+        "周坤亮"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH13",
+      "doi": null,
+      "title": "生成式人工智能赋能大学生自我调节学习的行为模式与提升路径",
+      "authors": [
+        "冯汝源",
+        "谢卓学"
+      ],
+      "year": 2026,
+      "design": "mixed",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH14",
+      "doi": null,
+      "title": "项目式学习何以培养高中生的数据素养——基于数据生命周期的信息技术课程实证研究",
+      "authors": [
+        "张学军",
+        "李莉",
+        "岳彦龙"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH15",
+      "doi": null,
+      "title": "GAI支持的同伴反馈模式对大学生反馈素养与质量的影响研究",
+      "authors": [
+        "张屹",
+        "陈邓康",
+        "郭富成",
+        "卢逸杰"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH16",
+      "doi": null,
+      "title": "焦虑、依赖还是高效利用？——人工智能使用行为对学业表现的分化影响",
+      "authors": [
+        "李静",
+        "黄淑仪",
+        "刘信韬"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH17",
+      "doi": null,
+      "title": "从参与者到建设者：学习型城市建设市民行动机制研究",
+      "authors": [
+        "顾凤佳",
+        "朱益明",
+        "陈劲良"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH18",
+      "doi": null,
+      "title": "自我的启蒙——学习者与生成式人工智能共享意义创造内在影响机制研究",
+      "authors": [
+        "蒋佳东",
+        "郭俊杰"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH19",
+      "doi": null,
+      "title": "教师形成性反馈和对话式人工智能形成性反馈对本科生批判性思维影响的差异比较——学习焦虑的调节作用",
+      "authors": [
+        "赵利曼",
+        "王祎辉",
+        "黄顺玲",
+        "马利红"
+      ],
+      "year": 2026,
+      "design": "mixed",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH20",
+      "doi": null,
+      "title": "数智背景下教师数字素养对职业焦虑的影响及作用机制——基于全国1,517份问卷的实证研究",
+      "authors": [
+        "金志杰",
+        "周轶一",
+        "方洁",
+        "范国睿"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH21",
+      "doi": null,
+      "title": "虚实教学环境与反思模式对师范生专业能力的影响——双因素方差分析与有序网络分析",
+      "authors": [
+        "张琪",
+        "张锦",
+        "罗霞",
+        "陈玉杰"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH22",
+      "doi": null,
+      "title": "有限循证：整合实践经验与数字证据的教师数字评价素养形成机制",
+      "authors": [
+        "逯行",
+        "张硕",
+        "章仪"
+      ],
+      "year": 2026,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH23",
+      "doi": null,
+      "title": "典型科研场景下生成式人工智能使用的差异性分析——学科背景与人工智能素养的影响",
+      "authors": [
+        "李艳",
+        "朱雨萌",
+        "孙丹",
+        "许洁",
+        "翟雪松"
+      ],
+      "year": 2025,
+      "design": "mixed",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH24",
+      "doi": null,
+      "title": "基础学科拔尖学生专业兴趣为何消退——基于情绪认知评价理论的分析",
+      "authors": [
+        "朱德玲",
+        "郭仕豪",
+        "余秀兰"
+      ],
+      "year": 2025,
+      "design": "qualitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH25",
+      "doi": null,
+      "title": "生成式人工智能幻觉对计算机支持协作学习的影响研究——基于群体层面的实证检验",
+      "authors": [
+        "陈德鑫",
+        "李函臻",
+        "杨欣雨",
+        "梅傲寒"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH26",
+      "doi": null,
+      "title": "老年人数字技术使用态度和能力对数字技术使用行为的影响——以老年教育为中介变量",
+      "authors": [
+        "朱建春",
+        "章肖",
+        "邵玲"
+      ],
+      "year": 2025,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "ZH27",
+      "doi": null,
+      "title": "共享生理唤醒水平如何影响小组协作行为——基于人际神经科学视角的协作学习互动差异探究",
+      "authors": [
+        "吴林静",
+        "李雅洁",
+        "陈浠钒",
+        "金璇",
+        "毛刚"
+      ],
+      "year": 2026,
+      "design": "quantitative",
+      "record": "distill/manifest_zh.json"
+    },
+    {
+      "id": "C20",
+      "doi": "10.1186/s41239-023-00427-0",
+      "title": null,
+      "status": "full_argument_body_read",
+      "body_coverage": "Full Introduction, Related literature, Methodology, Results, Discussion and Conclusion; eight linked native tables. Figure-only frequencies and appendix prompts not independently inspected.",
+      "record": "skills/edu-writing/references/sources/C20.json"
+    },
+    {
+      "id": "C24",
+      "doi": "10.1007/s41979-025-00163-2",
+      "title": null,
+      "status": "full_argument_body_read",
+      "body_coverage": "Five unsectioned introductory paragraphs, all Theoretical Background, Methods, four Findings cases and cross-case analysis, Discussion, Limitations, Conclusions/Implications; both native tables. Nine-dimension model figure not visually checked; no figure-only claim.",
+      "record": "skills/edu-writing/references/sources/C24.json"
+    },
+    {
+      "id": "N05",
+      "doi": "10.1007/s10643-026-02310-9",
+      "title": "Teaching Toward Equity: Kindergarten Teachers’ Responses to Readiness Variation and Preschool Skill Gaps",
+      "status": "full_argument_body_read; AI extraction awaiting human review",
+      "body_coverage": "Four unsectioned introduction paragraphs; full conceptual background, Methodology, Findings, Discussion and Notes; Tables 1 and 2. Public interview-protocol supplement and prior survey were not independently analyzed; full interview data are not supplied.",
+      "record": "skills/edu-writing/references/sources/N05.json"
+    },
+    {
+      "id": "N06",
+      "doi": "10.1186/s40594-026-00633-y",
+      "title": "Negotiating belonging: a constructivist grounded theory of transfer students’ experiences in STEM",
+      "status": "full_argument_body_read; AI extraction awaiting human review",
+      "body_coverage": "Complete Introduction, literature review, Methods, all Results categories, Discussion, Conclusion, Data availability and Notes; Tables 1 and 2. References not individually retraced. No coding of original transcripts or new grounded-theory analysis performed.",
+      "record": "skills/edu-writing/references/sources/N06.json"
+    },
+    {
+      "id": "N07",
+      "doi": "10.1007/s10755-024-09711-x",
+      "title": "Belonging Interrupted: Toward an Understanding of How Virtual Learning Impedes Women Students’ Belonging in Engineering",
+      "status": "full_argument_body_read; AI extraction awaiting human review",
+      "body_coverage": "Full Introduction, Review of Literature, Methods, three Findings sections, Discussion including practice/research limitations, Conclusion and Notes; Tables 1–3. Journey-map figures not visually checked; textual descriptions alone used. Cited references not individually retraced.",
+      "record": "skills/edu-writing/references/sources/N07.json"
+    },
+    {
+      "id": "N08",
+      "doi": "10.1007/s40299-024-00914-6",
+      "title": "Unlocking Teacher Agency for Professional Learning Through Connection-Building: Evidence from a Professional Development Program on China’s Standards of English Language Ability",
+      "status": "full_argument_body_read; AI extraction awaiting human review",
+      "body_coverage": "Full Introduction, Literature Review, Research Methods, three Findings case narratives, Discussion and Conclusion/limitations. Table 1 read; no diagram-only propositions used. References not individually retraced.",
+      "record": "skills/edu-writing/references/sources/N08.json"
+    },
+    {
+      "id": "T1",
+      "type": "published_quantitative_paper",
+      "doi": "10.1073/pnas.1821936116",
+      "title": "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom",
+      "reason": "Competing explanations and a consequential distinction between subjective experience and tested learning.",
+      "record": "evals/capability-20261013/distillation/split.json",
+      "historical_role": "training",
+      "current_role": "prior_exposure"
+    },
+    {
+      "id": "T2",
+      "type": "published_mixed_survey_paper",
+      "doi": "10.1186/s41239-023-00411-8",
+      "title": "Students’ voices on generative AI: perceptions, benefits, and challenges in higher education",
+      "reason": "Interpret self-report and qualitative responses without converting perceived benefits into demonstrated learning effects.",
+      "record": "evals/capability-20261013/distillation/split.json",
+      "historical_role": "training",
+      "current_role": "prior_exposure"
+    },
+    {
+      "id": "T3",
+      "type": "public_trial_report",
+      "url": "https://discovery.ucl.ac.uk/10118795/11/Foliano_Changing%20Mindsets.%20Effectiveness%20trial_report_VoR2.pdf",
+      "title": "Changing Mindsets: Effectiveness trial",
+      "reason": "Null primary outcomes alongside implementation and process evidence; do not transfer the contribution to a favourable secondary outcome.",
+      "record": "evals/capability-20261013/distillation/split.json",
+      "historical_role": "training",
+      "current_role": "prior_exposure"
+    },
+    {
+      "id": "S1",
+      "type": "authentic_public_seminar_slides",
+      "url": "https://curriculumfellows.hms.harvard.edu/sites/g/files/omnuum5346/files/cfp_version2/files/loseminarslides_marked.pdf",
+      "title": "When active learning fails: How faculty beliefs and intentions inform their teaching and influence student outcomes",
+      "metadata_note": "Title corrected from PDF metadata to the actual title slide; same preassigned source.",
+      "reason": "Observe actual presentation sequencing and audience explanation, separately from published-paper prose; visual layout is unverified because screenshots did not produce inspectable images.",
+      "record": "evals/capability-20261013/distillation/split.json",
+      "historical_role": "training",
+      "current_role": "prior_exposure"
+    },
+    {
+      "id": "H1",
+      "type": "published_quantitative_paper",
+      "doi": "10.1073/pnas.2422633122",
+      "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+      "tasks": [
+        "English discussion rewrite",
+        "Chinese article-reading presentation"
+      ],
+      "record": "evals/capability-20261013/distillation/split.json",
+      "historical_role": "holdout",
+      "current_role": "prior_exposure"
+    },
+    {
+      "id": "H2",
+      "type": "published_student_perceptions_paper",
+      "doi": "10.1186/s41239-023-00434-1",
+      "title": "Students’ perceptions of using ChatGPT in a physics class as a virtual tutor",
+      "tasks": [
+        "English interpretation and contribution"
+      ],
+      "record": "evals/capability-20261013/distillation/split.json",
+      "historical_role": "holdout",
+      "current_role": "prior_exposure"
+    },
+    {
+      "id": "E01",
+      "doi": "10.1080/00461520.2014.965823",
+      "title": "The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes",
+      "prior_use": "W01 in existing method cards; development reuse",
+      "record": "existing method cards; reconstructed identity"
+    },
+    {
+      "id": "E02",
+      "doi": "10.1073/pnas.1821936116",
+      "title": "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom",
+      "prior_use": "T1 in 20261013; development reuse",
+      "record": "existing method cards; reconstructed identity"
+    },
+    {
+      "id": "E03",
+      "doi": "10.1007/s10755-024-09711-x",
+      "title": "Belonging Interrupted: Toward an Understanding of How Virtual Learning Impedes Women Students’ Belonging in Engineering",
+      "prior_use": "N07 in existing method development; reuse",
+      "record": "existing method cards; reconstructed identity"
+    },
+    {
+      "id": "E04",
+      "doi": "10.1007/s11423-024-10437-y",
+      "title": "Exploring instructional designers’ utilization and perspectives on generative AI tools: A mixed methods study",
+      "prior_use": "EN04 in earlier 50-article corpus; reuse",
+      "record": "existing method cards; reconstructed identity"
+    },
+    {
+      "id": "E05",
+      "doi": "10.3102/003465430298487",
+      "title": "The Power of Feedback",
+      "prior_use": "W02 in existing method cards; reuse",
+      "record": "existing method cards; reconstructed identity"
+    },
+    {
+      "id": "E07",
+      "doi": "10.1111/ejed.12109",
+      "title": "What is education for? On good education, teacher judgement, and educational professionalism",
+      "prior_use": "W23 in existing method cards; reuse",
+      "record": "existing method cards; reconstructed identity"
+    }
+  ],
+  "candidate_comparison": [
+    {
+      "id": "E08",
+      "doi": "10.1126/sciadv.aau4734",
+      "title": "STEM faculty who believe ability is fixed have larger racial achievement gaps and inspire less student motivation in their classes",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E09",
+      "doi": "10.1177/0038040715614913",
+      "title": "(No) Harm in Asking: Class, Acquired Cultural Capital, and Academic Engagement at an Elite University",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E10",
+      "doi": "10.2307/3088916",
+      "title": "Invisible Inequality: Social Class and Childrearing in Black Families and White Families",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E11",
+      "doi": "10.1007/s40753-020-00118-5",
+      "title": "How Does a Mathematician Fit in? A Mixed-Methods Analysis of University Students’ Sense of Belonging in Mathematics",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E12",
+      "doi": "10.1007/s10459-024-10324-4",
+      "title": "Does ‘summative’ count? The influence of the awarding of study credits on feedback use and test-taking motivation in medical progress testing",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E13",
+      "doi": "10.1007/s10648-024-09957-z",
+      "title": "Teachers’ Feedback on Oral Reading: A Critical Review of its Effects and the use of Theory in Research",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E14",
+      "doi": "10.1177/1745691615569000",
+      "title": "Learning Versus Performance: An Integrative Review",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E15",
+      "doi": "10.1073/pnas.1916903117",
+      "title": "Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E16",
+      "doi": "10.3402/nstep.v1.26558",
+      "title": "Toward a deliberative curriculum?",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E17",
+      "doi": "10.16382/j.cnki.1000-5560.2024.11.002",
+      "title": "探讨中国学习者现象与建构教育学自主知识的努力——以中国大学生学习与发展追踪研究（CCSS）项目十五年探索为案例",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E18",
+      "doi": "10.16382/j.cnki.1000-5560.2023.09.002",
+      "title": "我国中小学教师负担生成机制的质性研究",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E19",
+      "doi": "10.1126/sciadv.abj0691",
+      "title": "A scalable empathic-mindset intervention reduces group disparities in school suspensions",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    },
+    {
+      "id": "E06",
+      "doi": "10.1177/2515245917745629",
+      "title": "Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data",
+      "prior_source_matches": [],
+      "text_mentions": [],
+      "status": "not_found_in_available_prior_source_records"
+    }
+  ]
+}

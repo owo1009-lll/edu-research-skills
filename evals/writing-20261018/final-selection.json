@@ -1,0 +1,27 @@
+{
+  "selected_utc": "2026-10-18T05:23:07.038434+00:00",
+  "tested_candidate": "scoped-r01",
+  "accepted_unchanged_instruction_files": [
+    "skills/edu-writing/references/quantitative-discussion.md",
+    "skills/edu-writing/references/voice-en.md",
+    "skills/edu-writing/references/voice-zh.md"
+  ],
+  "restored_to_baseline": [
+    "skills/edu-writing/SKILL.md",
+    "skills/edu-writing/references/argument.md",
+    "skills/edu-writing/references/analysis-bridge.md",
+    "skills/edu-writing/references/prose-en.md"
+  ],
+  "candidate_only": [
+    {
+      "former": "skills/edu-writing/references/mixed-methods.md",
+      "candidate": "distill/20261018/candidates/mixed-methods.md"
+    },
+    {
+      "former": "skills/edu-writing/references/examples/mixed-integration.md",
+      "candidate": "distill/20261018/candidates/examples/mixed-integration.md"
+    }
+  ],
+  "decision": "Retain M3 quantitative comparison and supported interpretation; H6 repeated local preferences. M4 H7 one local preference and one tie: retain as candidate, no default runtime routing.",
+  "validation_boundary": "Final deployment is an accepted subset of frozen r01, not a separately rerun full tree and not an ablation identifying the effect of each rule. H6/H7 retain their historical status as r01 holdouts and now inform adoption. No additional outcome-selected generations. Chinese wording synchronization has no new independent Chinese performance validation."
+}

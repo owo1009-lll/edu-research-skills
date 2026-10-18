@@ -1,0 +1,87 @@
+{
+    "assessment_id":  "H2-pair01",
+    "assessment_type":  "AI anonymous manuscript comparison; not human review or independent source verification",
+    "read_encoding":  "UTF-8",
+    "source_files":  [
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+                             "purpose":  "Judging instructions",
+                             "full_content_read":  true,
+                             "full_read_count":  1,
+                             "execution_output_limit_tokens":  20000,
+                             "returned_original_token_count":  649
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-01/H2-pair01/request.md",
+                             "purpose":  "Understand revision task only; task not executed",
+                             "full_content_read":  true,
+                             "filesystem_read_count":  2,
+                             "characters_reported":  1172,
+                             "full_content_output_limit_tokens":  6000,
+                             "returned_original_token_count":  294
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-01/H2-pair01/materials.md",
+                             "purpose":  "Check source evidence, published passage, scope and source caveats",
+                             "full_content_read":  true,
+                             "filesystem_read_count":  2,
+                             "characters_reported":  23110,
+                             "full_content_output_limit_tokens":  30000,
+                             "returned_original_token_count":  5796
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-01/H2-pair01/A.md",
+                             "purpose":  "Independent text assessment and comparison; word-count and interval-character check",
+                             "full_content_read":  true,
+                             "filesystem_read_count":  3,
+                             "characters_reported":  5682,
+                             "full_content_output_limit_tokens":  14000,
+                             "returned_original_token_count":  1421
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-01/H2-pair01/B.md",
+                             "purpose":  "Independent text assessment and comparison; word-count and interval-character check",
+                             "full_content_read":  true,
+                             "filesystem_read_count":  3,
+                             "characters_reported":  5770,
+                             "full_content_output_limit_tokens":  14000,
+                             "returned_original_token_count":  1444
+                         }
+                     ],
+    "output_limits":  {
+                          "functions_exec_wrapper":  "Default 10000 output tokens per call; no explicit wrapper override",
+                          "initial_length_check_exec_command":  2000,
+                          "full_read_exec_command_limits":  "Judging request 20000; request 6000; materials 30000; A 14000; B 14000 tokens",
+                          "word_count_and_character_check_exec_command":  3000,
+                          "truncation_observed":  false,
+                          "completeness_check":  "All five source files appeared in full, including their endings, with no output truncation notice. Re-read A/B only for word counting and verification of interval characters."
+                      },
+    "word_count":  {
+                       "method":  "Whitespace-delimited tokens between Discussion and References; Conclusion heading removed; attribution, headings and references excluded",
+                       "A":  689,
+                       "B":  708,
+                       "required_minimum":  650,
+                       "required_maximum":  800
+                   },
+    "visible_model_information":  {
+                                      "visible_identity":  "Codex; developer-provided identity describes an agent based on GPT-6",
+                                      "exact_backend_model_version":  "不可获取",
+                                      "temperature":  "不可获取",
+                                      "random_seed":  "不可获取",
+                                      "model_information_inferred":  false
+                                  },
+    "tools_used":  [
+                       "functions.exec",
+                       "exec_command: PowerShell UTF-8 reads, in-memory word/character checks, output-file writing"
+                   ],
+    "network_used":  false,
+    "other_agents_or_writers_used":  false,
+    "skills_read":  false,
+    "other_pairs_or_keys_or_original_runs_read":  false,
+    "input_files_modified":  false,
+    "evidence_scope":  "Only the five specified input files; source claims judged within supplied materials, without external verification",
+    "outputs":  [
+                    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H2-pair01/review.md",
+                    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H2-pair01/loads.json"
+                ]
+}

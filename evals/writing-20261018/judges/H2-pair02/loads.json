@@ -1,0 +1,92 @@
+{
+  "assessment_id": "H2-pair02",
+  "assessment_type": "AI anonymous comparison of supplied manuscript texts; not human review or independent source verification",
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+      "purpose": "Read the anonymous evaluation protocol; determine comparison dimensions, evidence requirements and scope.",
+      "characters": 954,
+      "lines": 22,
+      "read_scope": "Full text, lines 1–22; re-read in UTF-8 after initial console decoding problem."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-02/H2-pair02/request.md",
+      "purpose": "Understand the revision task, intended audience, word limit and structural requirements; did not execute writing instructions.",
+      "characters": 1172,
+      "lines": 5,
+      "read_scope": "Full text, lines 1–5."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-02/H2-pair02/materials.md",
+      "purpose": "Check A and B against the supplied factual packet and attributed original passage.",
+      "characters": 23110,
+      "lines": 113,
+      "read_scope": "Full text, lines 1–62 and 63–113, displayed in two untruncated chunks."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-02/H2-pair02/A.md",
+      "purpose": "Independent source-grounded assessment of manuscript A, then comparison; count Discussion and Conclusion words.",
+      "characters": 5694,
+      "lines": 23,
+      "read_scope": "Full text, lines 1–23; subsequently re-read locally for word count."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-02/H2-pair02/B.md",
+      "purpose": "Independent source-grounded assessment of manuscript B, then comparison; count Discussion and Conclusion words.",
+      "characters": 5814,
+      "lines": 27,
+      "read_scope": "Full text, lines 1–27; subsequently re-read locally for word count."
+    }
+  ],
+  "reading_method": {
+    "encoding": "UTF-8",
+    "tool": "functions.exec -> exec_command -> local Python pathlib",
+    "initial_output_issue": "The first metadata/protocol call displayed Chinese text incorrectly through console encoding. All substantive protocol and input content was subsequently displayed with PYTHONIOENCODING=utf-8; no judgment relied on the corrupted rendering.",
+    "truncation": "No truncation reported for the complete readable displays. Materials split into two chunks; all file endings inspected."
+  },
+  "output_limits": {
+    "exec_command_max_output_tokens_used": [
+      20000,
+      12000,
+      16000,
+      2000
+    ],
+    "largest_readable_source_chunk_reported_tokens": 3104,
+    "review_output_written_directly_to_file": true,
+    "tool_output_policy": "Full source text remained below requested tool output limits; no file was judged from an excerpt caused by truncation."
+  },
+  "visible_model_information": {
+    "system_visible_identity": "AI assistant accessed via an API",
+    "developer_visible_identity": "Codex, an agent based on GPT-6",
+    "exact_backend_version": "不可获取",
+    "temperature": "不可获取",
+    "random_seed": "不可获取",
+    "notes": "No model identity, version or authorship of A/B was inferred."
+  },
+  "word_count": {
+    "method": "Python str.split over Discussion and Conclusion body text; excludes attribution, section headings and references; hyphenated forms remain one whitespace-delimited token.",
+    "A": {
+      "discussion": 609,
+      "conclusion": 69,
+      "total": 678
+    },
+    "B": {
+      "discussion": 663,
+      "conclusion": 57,
+      "total": 720
+    }
+  },
+  "scope_controls": {
+    "network_used": false,
+    "subagents_used": false,
+    "skills_read": false,
+    "other_pairs_read": false,
+    "original_runs_or_keys_read": false,
+    "input_files_modified": false,
+    "source_verification": "Only against supplied materials.md; no independent verification."
+  },
+  "outputs": [
+    "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\judges\\H2-pair02\\review.md",
+    "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\judges\\H2-pair02\\loads.json"
+  ]
+}

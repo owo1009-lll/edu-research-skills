@@ -1,0 +1,23 @@
+Language: en | abstract found: False | findings to inspect: 2
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (0 distinct values; check each is a named subsample):
+
+Same value at different precision: 0
+
+Term variants: 2
+  respondent_text: {'written accounts': 1, 'written responses': 1, 'interviews': 0}
+  food_access: {'food access': 3, 'food insecurity': 4, 'food security': 2}
+    …attention alongside food access; the association do…
+    …) likewise connects food access with housing, trans…
+    …examine changes in food access across the academic…
+    …riers. Low/very low food security was reported by 15.…
+    …ed measures improve food security or educational outc…
+  self-reference: this study 1
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 0

@@ -1,0 +1,23 @@
+*Secondary writing exercise based on Guo et al. (2024), not a newly conducted review.*
+
+## Discussion
+
+Guo et al. (2024) provide stronger grounds for considering homework as a supplement than for prescribing its duration. Their pooled homework-versus-none estimate favored homework (Hedges' g = 0.45, 95% CI [0.24, 0.66]), whereas the evidence comparing different amounts did not establish a duration-response relation. This distinction matters for curriculum policy: evidence that assigning work can support achievement does not specify how many minutes students should spend on it. The review's contribution is to separate these decisions within an intervention-focused synthesis, extending a debate previously informed by correlations between time and achievement.
+
+The achievement findings also require attention to what students learned. Arithmetic computation and arithmetic problem-solving had positive estimates, while the arithmetic-concepts estimate was close to zero with an interval spanning negative and positive effects (g = −0.02, 95% CI [−0.22, 0.18]). These separate estimates do not establish differences between domains. Practice and feedback offer a possible account of benefits, consistent with the review's theoretical framework, but the evidence does not determine which process produced them. A homework policy therefore needs a defined learning objective as well as a decision about quantity.
+
+The duration studies sharpen this problem. In Guo et al.'s account, Koch (1965) found greater growth in arithmetic concepts with roughly 20–30 rather than 10–15 minutes of work, without a detected corresponding difference in problem-solving. Dolean and Lervag (2021), also reported through the review, varied the balance of writing and mathematics homework. Their writing group showed short-term editing and spelling advantages over the mathematics group, but differences were no longer clear at four months. Increased mathematics homework produced no detected mathematics-skill benefit. Here, time changed alongside subject allocation; the comparison does not isolate the effect of additional minutes. Together, these studies leave the shape of a duration-response relation unresolved.
+
+The synthesis has limitations that affect both confidence and applicability. No included study received an overall low-risk rating, with outcome-measurement and confounding concerns identified. All assignments were paper-and-pencil, and most sources dated from 1939–1995. Several eligible sources were inaccessible, non-English databases were not searched, and the final search preceded publication by more than two years. Thus, the positive average cannot simply be transferred to contemporary online assignments or interpreted as precise guidance for every school stage. Uncertain age coverage in the source further complicates school-level conclusions.
+
+Research should now distinguish assigned quantity from actual completion time. Studies varying amount while keeping subject content and task type comparable would address whether additional work improves a specified outcome. Recording prior attainment and task difficulty would help interpret why students take different amounts of time. Follow-up assessments should examine retention, given the unclear longer-term writing differences. Broader duration comparisons are needed to test linear or nonlinear patterns rather than infer an optimum from a narrow contrast.
+
+For primary-school teachers and curriculum specialists, the authors' recommendation of supplementary homework, particularly for arithmetic computation and problem-solving, is a reasonable starting point for reviewing assignments. Teachers should specify the intended skill and examine whether assignments support it. The review supplies no basis for a universal daily duration; schools considering timetable rules need evidence that addresses duration directly, with content and learning outcomes clearly identified.
+
+## Conclusion
+
+The review supports considering paper-and-pencil homework as a supplement to achievement while leaving optimal duration unresolved. Its policy contribution is a distinction between the value of assigning homework and the value of assigning more. Curriculum decisions should connect assignments to specific learning goals, while research tests duration under comparable task conditions and examines whether gains persist.
+
+## References
+
+Guo, L., Li, J., Xu, Z., Hu, X., Liu, C., Xing, X., Li, X., White, H., & Yang, K. (2024). The relationship between homework time and academic performance among K-12: A systematic review. *Campbell Systematic Reviews, 20*(3), e1431. https://doi.org/10.1002/cl2.1431

@@ -1,0 +1,103 @@
+{
+  "assessment_id": "H7-pair01",
+  "assessment_type": "AI-only anonymous manuscript comparison",
+  "limitations": "不是真人评审；不是对原始数据、源论文统计分析或理论原著的独立核实；不推测版本或预期优胜者。",
+  "input_resources": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+      "purpose": "评阅边界、八项判断要求和交付要求",
+      "encoding": "UTF-8",
+      "successful_reads": 1,
+      "full_text_visible": true,
+      "truncated": false,
+      "initial_read_max_output_tokens": 12000,
+      "initial_read_reported_original_token_count": 649
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-01/H7-pair01/request.md",
+      "purpose": "理解修订任务的目标、长度和结构；不执行该写作请求",
+      "encoding": "UTF-8",
+      "successful_reads": 1,
+      "full_text_visible": true,
+      "truncated": false,
+      "initial_read_max_output_tokens": 12000,
+      "initial_read_reported_original_token_count": 287
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-01/H7-pair01/materials.md",
+      "purpose": "核对来源释义、原文节选、作者立场、来源疑点与证据限制",
+      "encoding": "UTF-8",
+      "successful_reads": 1,
+      "full_text_visible": true,
+      "truncated": false,
+      "initial_read_max_output_tokens": 18000,
+      "initial_read_reported_original_token_count": 3688
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-01/H7-pair01/A.md",
+      "purpose": "独立核对匿名文本 A，再与 B 比较；另读取一次以计数正文词数",
+      "encoding": "UTF-8",
+      "successful_reads": 2,
+      "full_text_visible": true,
+      "truncated": false,
+      "initial_read_max_output_tokens": 18000,
+      "initial_read_reported_original_token_count": 1449
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-01/H7-pair01/B.md",
+      "purpose": "独立核对匿名文本 B，再与 A 比较；另读取一次以计数正文词数",
+      "encoding": "UTF-8",
+      "successful_reads": 2,
+      "full_text_visible": true,
+      "truncated": false,
+      "initial_read_max_output_tokens": 18000,
+      "initial_read_reported_original_token_count": 1464
+    }
+  ],
+  "tool_usage": {
+    "source_content_reads": "PowerShell Get-Content -LiteralPath ... -Raw -Encoding UTF8, through exec_command",
+    "read_only_input_files": true,
+    "network_calls": 0,
+    "subagents_spawned": 0,
+    "other_pairs_or_original_runs_or_blind_keys_read": false,
+    "skills_read": false,
+    "word_count": "Only A.md and B.md were reread to extract Discussion and Conclusion and count non-whitespace runs.",
+    "failed_command": "One word-count command failed at PowerShell parsing because of quote characters in an unused lexical-token pattern. No file read or mutation occurred in that failed command; a simpler whitespace-count command succeeded.",
+    "output_verification": "Review and loads JSON were assembled and JSON round-trip validated in memory before writing; input files were not edited."
+  },
+  "output_limits": {
+    "functions_exec_max_output_tokens": "Default 10000 per call; no observed truncation.",
+    "initial_read_exec_command_caps": "Judge request and writing request: 12000 each; materials, A and B: 18000 each.",
+    "word_count_exec_command_max_output_tokens": 2000,
+    "artifact_write_exec_command_max_output_tokens": 3000,
+    "detected_input_truncation": false,
+    "assessment_output": "Saved as files; final chat handoff is intentionally brief."
+  },
+  "visible_model_information": {
+    "role": "Codex; developer-provided description says an agent based on GPT-6.",
+    "exact_backend_model_version": "不可获取",
+    "temperature": "不可获取",
+    "random_seed": "不可获取",
+    "precision_note": "No backend model identifier or sampling parameters were exposed. The general GPT-6 role description is not treated as an exact backend version."
+  },
+  "word_count": {
+    "method": "Whitespace-delimited token count of Discussion plus Conclusion; excludes headings, attribution preface, source/reference section and its explanatory note; retains inline citations and numbers.",
+    "A": {
+      "discussion": 589,
+      "conclusion": 73,
+      "total": 662
+    },
+    "B": {
+      "discussion": 606,
+      "conclusion": 64,
+      "total": 670
+    },
+    "requirement": "650–800 total words excluding references",
+    "compliance": "Both comply under the recorded counting method."
+  },
+  "overall_choice": "Slight preference for A, with a small difference; no claim of stable or general improvement.",
+  "outputs": {
+    "review": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H7-pair01/review.md",
+    "loads": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H7-pair01/loads.json"
+  }
+}

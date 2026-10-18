@@ -1,0 +1,328 @@
+{
+  "sources": [
+    {
+      "id": "H6",
+      "doi": "10.1038/s41598-025-97652-6",
+      "retrieved_utc": "2026-10-18T04:51:29.363725+00:00",
+      "attempts": [
+        {
+          "url": "https://www.nature.com/articles/s41598-025-97652-6",
+          "status": 200,
+          "final_url": "https://www.nature.com/articles/s41598-025-97652-6",
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 359332,
+          "outcome": "downloaded"
+        }
+      ],
+      "reading_status": "not_yet_read",
+      "identity": {
+        "DOI": "10.1038/s41598-025-97652-6",
+        "title": [
+          "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting"
+        ],
+        "author": [
+          {
+            "given": "Greg",
+            "family": "Kestin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kelly",
+            "family": "Miller",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Anna",
+            "family": "Klales",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Timothy",
+            "family": "Milbourne",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gregorio",
+            "family": "Ponti",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Scientific Reports"
+        ],
+        "type": "journal-article",
+        "update-to": null,
+        "relation": {
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.21203/rs.3.rs-4243877/v1",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  3
+                ]
+              ],
+              "date-time": "2025-06-03T00:00:00Z",
+              "timestamp": 1748908800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  3
+                ]
+              ],
+              "date-time": "2025-06-03T00:00:00Z",
+              "timestamp": 1748908800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+          }
+        ]
+      },
+      "metadata_sha256": "620b7e4588a10f3867f0ec93b0cab7f29aa9aa695e9ec8253e9a8a4b8c026395",
+      "status": "downloaded_for_reading",
+      "selected_url": "https://www.nature.com/articles/s41598-025-97652-6",
+      "format": "html",
+      "raw_sha256": "b823cbd573d17e2eb8c9efbed0840b0384032e4bddedbaf72b20a7c41c436b59",
+      "text_sha256": "62cbe3841f96f99f21119060b6e6dff20ea1a44726f551f8f5dd5f339413f028",
+      "text_characters": 45422,
+      "extraction": {
+        "sections": 16,
+        "table_note": "Linked tables may require separate reading; only inline content extracted"
+      },
+      "identity_check": "DOI present; title/authors still require reading"
+    },
+    {
+      "id": "H7",
+      "doi": "10.1371/journal.pone.0280310",
+      "retrieved_utc": "2026-10-18T04:51:29.363725+00:00",
+      "attempts": [
+        {
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0280310&type=manuscript",
+          "status": 200,
+          "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0280310/1/pone.0280310.xml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20261018%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261018T045128Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b02f425e2d1164a4e2c892b30edc61fe6860b91af120fd37f9153efb2aba5fbc06b3cec1aaf3948174ad77a369bd02100027334892a1d7b92625f4a1bd50cbc0615c8cfa4f13f7d3cf9524a226e5aeb6ea4f32ba2f14d816645ef16bb8db372a42079d5ce3ff5505dbaba21632c0918b4bc48236f18e3fed081dc570a2c9325256703c06c65bf7ca29f1840e47e32675a835fa3d0237fdb5ae17344d7c0e0480c891e61567aaac8e3c931bd8e52f58754ed53263bdae494bd5654e4220c93ad8191bfb3358c811feb43531fddffd0bfc6afcb06c6a6889194bc0e65e34f5afd24397cfc8bdf0cd4bdecf655fa547e7e719489865f1db865617c0fdd7c9abc2e3",
+          "content_type": "application/xml",
+          "bytes": 132195,
+          "outcome": "downloaded"
+        }
+      ],
+      "reading_status": "not_yet_read",
+      "identity": {
+        "DOI": "10.1371/journal.pone.0280310",
+        "title": [
+          "Investigating the evolution of undergraduate medical students’ perception and performance in relation to an innovative curriculum-based research module: A convergent mixed methods study launching the 8A-Model"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8944-4948",
+            "authenticated-orcid": true,
+            "given": "Farah",
+            "family": "Otaki",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Deena",
+            "family": "AlHashmi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Amar Hassan",
+            "family": "Khamis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7659-8262",
+            "authenticated-orcid": true,
+            "given": "Aida Joseph",
+            "family": "Azar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              13
+            ]
+          ]
+        },
+        "container-title": [
+          "PLOS ONE"
+        ],
+        "type": "journal-article",
+        "update-to": null,
+        "relation": {},
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  13
+                ]
+              ],
+              "date-time": "2023-01-13T00:00:00Z",
+              "timestamp": 1673568000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ]
+      },
+      "metadata_sha256": "57a1437345e91e42318da26ddf5dc24f000ae0cb9510491671c4d770e51d7452",
+      "status": "downloaded_for_reading",
+      "selected_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0280310&type=manuscript",
+      "format": "xml",
+      "raw_sha256": "53144956882db997b5a64c01f44be22bed05e31b302ab2924fa0ecc90e10206f",
+      "text_sha256": "18cb8fe4ee01441b5997bad65d81f98be6af9d902e065520d635a8715f4c4fb0",
+      "text_characters": 66809,
+      "extraction": {
+        "sections": 32,
+        "locator": "JATS section titles and paragraph order"
+      },
+      "identity_check": "DOI present; title/authors still require reading"
+    }
+  ],
+  "H6_extra": [
+    {
+      "file": "figure1.png",
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-025-97652-6/MediaObjects/41598_2025_97652_Fig1_HTML.png",
+      "sha256": "858828da61fb959c26a70d5ab0a878ef9fd70c5497bb1874fd376c2de7009ae8",
+      "bytes": 41677,
+      "retrieved_utc": "2026-10-18T04:52:33.158402+00:00"
+    },
+    {
+      "file": "figure2.png",
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-025-97652-6/MediaObjects/41598_2025_97652_Fig2_HTML.png",
+      "sha256": "b1b1af7169e440e54500bcde2a322dbf5d8d6a12ba0a9f5b7eccaaf35168c59f",
+      "bytes": 20369,
+      "retrieved_utc": "2026-10-18T04:52:34.055836+00:00"
+    },
+    {
+      "file": "figure3.png",
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-025-97652-6/MediaObjects/41598_2025_97652_Fig3_HTML.png",
+      "sha256": "a05b59ec618905517d4996c0adf83279c1aa9e8981e1cf63146a918099ed0447",
+      "bytes": 36274,
+      "retrieved_utc": "2026-10-18T04:52:34.936136+00:00"
+    },
+    {
+      "file": "supplement.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-025-97652-6/MediaObjects/41598_2025_97652_MOESM1_ESM.docx",
+      "sha256": "56a8250676cee2be25c1411b8d11292d5fac431b3af8edf5d9bb1ff51949b73e",
+      "bytes": 937872,
+      "retrieved_utc": "2026-10-18T04:52:36.816478+00:00"
+    }
+  ],
+  "H7_figures": [
+    {
+      "url": "https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0280310.g001",
+      "sha256": "810f988562dcd0604e00689e8211eff24d8f4a3769d12e74fe3ab3d235f1b633",
+      "bytes": 294118,
+      "retrieved_utc": "2026-10-18T04:56:04.843071+00:00"
+    },
+    {
+      "url": "https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0280310.g002",
+      "sha256": "0f07493d23809b076b33b85ed8a91b04ae132dc1af37d547756a511e45e4b2a7",
+      "bytes": 148503,
+      "retrieved_utc": "2026-10-18T04:56:07.454246+00:00"
+    },
+    {
+      "url": "https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0280310.g003",
+      "sha256": "11a80e611757e8f83e4ed7ac3abcbcb8413f003189d41006c142d47141b6e3d3",
+      "bytes": 186889,
+      "retrieved_utc": "2026-10-18T04:56:09.986509+00:00"
+    }
+  ]
+}

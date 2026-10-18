@@ -1,0 +1,106 @@
+{
+  "assessment_id": "H6-pair02",
+  "assessment_type": "AI anonymous manuscript comparison; not human review or independent source verification",
+  "date_from_environment": "2026-10-18",
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+      "purpose": "Anonymous judging instructions, required dimensions and scope",
+      "encoding": "UTF-8",
+      "read_count": 1,
+      "full_content_visible": true
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H6-02/H6-pair02/request.md",
+      "purpose": "Understand writing task, audience, structure and length; did not execute writing workflow",
+      "encoding": "UTF-8",
+      "read_count": 1,
+      "full_content_visible": true
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H6-02/H6-pair02/materials.md",
+      "purpose": "Sole evidence packet for checking factual claims, interpretation and source caveats",
+      "encoding": "UTF-8",
+      "read_count": 1,
+      "full_content_visible": true
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H6-02/H6-pair02/A.md",
+      "purpose": "Independent source comparison, pair comparison and local word count",
+      "encoding": "UTF-8",
+      "read_count": 2,
+      "full_content_visible": true
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H6-02/H6-pair02/B.md",
+      "purpose": "Independent source comparison, pair comparison and local word count",
+      "encoding": "UTF-8",
+      "read_count": 2,
+      "full_content_visible": true
+    }
+  ],
+  "output_limits": {
+    "initial_reads": {
+      "tool": "exec_command via functions.exec",
+      "per_file_requested_max_output_tokens": 20000,
+      "outer_functions_exec_default_max_output_tokens": 10000,
+      "reported_original_token_counts": {
+        "instructions": 649,
+        "request": 261,
+        "materials": 1712,
+        "A": 1281,
+        "B": 1271
+      },
+      "truncation_observed": false
+    },
+    "word_count": {
+      "tool": "exec_command via functions.exec",
+      "requested_max_output_tokens": 1500,
+      "reported_original_token_count": 98,
+      "truncation_observed": false
+    },
+    "exact_backend_context_limit": "不可获取",
+    "final_assessment_output_limit": "No numerical review length was specified in the judging request"
+  },
+  "word_counts": {
+    "method": "Whitespace-delimited tokens; section headings and references excluded; main-text count also excludes the opening secondary-exercise note",
+    "A": {
+      "main_text": 619,
+      "including_exercise_note": 640
+    },
+    "B": {
+      "main_text": 621,
+      "including_exercise_note": 644
+    }
+  },
+  "model_information": {
+    "visible_role_identity": "Codex, an agent based on GPT-6",
+    "exact_backend_model_version": "不可获取",
+    "temperature": "不可获取",
+    "random_seed": "不可获取",
+    "draft_author_model_information": "不可获取；未猜测 A/B 作者、版本或模型"
+  },
+  "access_constraints": {
+    "network_used": false,
+    "subagents_spawned": false,
+    "skills_read": false,
+    "other_pairs_or_original_runs_read": false,
+    "blind_keys_or_development_records_read": false,
+    "inputs_modified": false
+  },
+  "outputs": [
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H6-pair02/review.md",
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H6-pair02/loads.json"
+  ],
+  "overall_preference": "B, slight; not evidence of a stable improvement",
+  "dimension_comparisons": {
+    "1": "相当",
+    "2": "B",
+    "3": "相当",
+    "4": "相当",
+    "5": "B",
+    "6": "相当",
+    "7": "相当",
+    "8": "相当"
+  }
+}

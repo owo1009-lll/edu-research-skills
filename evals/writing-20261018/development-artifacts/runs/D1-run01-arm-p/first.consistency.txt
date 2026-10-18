@@ -1,0 +1,18 @@
+Language: en | abstract found: False | findings to inspect: 1
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (0 distinct values; check each is a named subsample):
+
+Same value at different precision: 0
+
+Term variants: 1
+  primary: {'delayed conceptual transfer': 3, 'delayed conceptual-transfer': 1}
+    …he study leaves the delayed conceptual-transfer benefit unresolved.…
+  self-reference: the present study 1
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 0

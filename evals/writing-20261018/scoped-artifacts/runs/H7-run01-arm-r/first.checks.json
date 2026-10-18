@@ -1,0 +1,48 @@
+[
+  {
+    "check": "voice",
+    "returncode": 0,
+    "output": "Language: en | discussion/conclusion sentences: 38 | paragraphs: 7\n  (rates are references from published articles, not quality targets)\n  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)\n  Self-mention per 1,000 words: 1.5  (published median 10.8; outside typical range)\n  Limitation sentences inside the limitations unit (%): n/a\n\nDisclaimer sentences in the discussion body: 0\n\nPossible substantive distinctions: 1\n  (arguments, not disclaimers)\n  [para 3] Higher project-course grades therefore do not establish an equivalent increase in research competence or show that appreciation caused performance gains.\n\nSentences with two or more hedges: 2\n  (one accurate qualifier is fine; check that each one is needed)\n  [para 2] Early biostatistics and software exercises could seem disconnected from research; project work later provided a context in which students recognized their relev\n  [para 4] Appreciation emerging during application suggests that evaluating students’ responses only when content is introduced may miss its later significance.\n\nLimitation sentences outside the limitations unit: 0\n\nSentences for a semantic check: 1\n  (does a non-significant result become equivalence, an exclusive mechanism or a free choice?)\n  Higher project-course grades therefore do not establish an equivalent increase in research competence or show that appreciation caused performance gains.\n\nNumbers not found in the sources (derived values are fine; invented details are not): 0\n  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)\n",
+    "stderr": "",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H7-materials.md"
+    ]
+  },
+  {
+    "check": "prose",
+    "returncode": 0,
+    "output": "Sections found: Discussion, Implications, limitations, conclusion | prompts: 0\n\n[Discussion] 596 words, 6 paragraphs | sentence median 16.5, >40 words 0.0% | citations 6.7/1,000 words (published 11), cited sentences 11.8% (published 30), narrative 0.0% (published 1 quantitative, 30 qualitative/mixed), 3+ works 0.0% | sentences with numbers 8.8% | we 0.0/1,000 | passive 8.8%\n\n[Implications, limitations, conclusion] 126 words, 2 paragraphs | sentence median 16.5, >40 words 0.0% | citations 0.0/1,000 words, cited sentences 0.0%, narrative 0.0%, 3+ works 0.0% | sentences with numbers 50.0% | we 0.0/1,000 | passive 0.0%\n\n[Argued sections together] 722 words | sentence median 16.5 (published 26), >40 words 0.0% (13.5) | paragraph median 90.5 words (135) | we 0.0/1,000 (4.9) | passive 7.1% (23.4) | abbreviations 11.1/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)\n",
+    "stderr": "",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.md"
+    ]
+  },
+  {
+    "check": "consistency",
+    "returncode": 0,
+    "output": "Language: en | abstract found: False | findings to inspect: 1\n\nAbstract numbers not found in the body: 0\n\nSample-size statements (0 distinct values; check each is a named subsample):\n\nSame value at different precision: 0\n\nTerm variants: 0\n  self-reference: this study 1\n\nAbbreviations: 0\n\nTables and figures: 0\n\nNumbered citations: 1\n  not numbered in order of first citation: {\"first_mismatch\": 26, \"expected\": 1}\n",
+    "stderr": "",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.md",
+      "--term-group",
+      "framework=8A-Model|8A model"
+    ]
+  }
+]

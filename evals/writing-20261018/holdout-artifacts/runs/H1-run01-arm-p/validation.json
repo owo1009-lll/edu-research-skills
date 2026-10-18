@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "required_files_verified": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "loads.json",
+    "first_voice.txt",
+    "first_prose.txt",
+    "first_consistency.txt",
+    "final_voice.txt",
+    "final_prose.txt",
+    "final_consistency.txt"
+  ],
+  "utf8_decoding": "strict, successful",
+  "draft_counts": {
+    "first.md": {
+      "body_words_whitespace": 625,
+      "all_words_before_references": 644,
+      "sha256_utf8": "43da192b197ff101d84ecc5b0e24081f32ed84acf1d6c2ec60f45d4aebfb2374"
+    },
+    "final.md": {
+      "body_words_whitespace": 633,
+      "all_words_before_references": 652,
+      "sha256_utf8": "32a5018692ea934d6517a0f0f47cbd2dad200e0cc33fb94e32248e0a08a4c918"
+    }
+  },
+  "word_count_scope": "Body is Introduction, Discussion and Conclusion, excluding headings, attribution note and references. All words before References is also provided.",
+  "script_runs": 6,
+  "script_exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "all_saved_check_outputs_inspected": true,
+  "manual_check_record": "review.md and rationale.md",
+  "no_further_manuscript_changes_after_final_checks": true
+}

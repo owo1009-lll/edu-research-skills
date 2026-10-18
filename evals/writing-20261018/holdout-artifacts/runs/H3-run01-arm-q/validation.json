@@ -1,0 +1,43 @@
+{
+  "encoding": "UTF-8",
+  "all_required_files_present": true,
+  "checks_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "drafts": {
+    "first.md": {
+      "han_chars": 534,
+      "nonspace_chars": 595,
+      "paragraphs": 4,
+      "encoding_integrity": true
+    },
+    "final.md": {
+      "han_chars": 562,
+      "nonspace_chars": 633,
+      "paragraphs": 4,
+      "encoding_integrity": true
+    }
+  },
+  "required_files": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "loads.json"
+  ],
+  "artifact_files": [
+    "final.md",
+    "final.prose.txt",
+    "final.voice.txt",
+    "first.md",
+    "first.prose.txt",
+    "first.voice.txt",
+    "loads.json",
+    "rationale.md",
+    "review.md",
+    "validation.json"
+  ]
+}

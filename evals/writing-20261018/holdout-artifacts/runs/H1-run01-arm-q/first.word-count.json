@@ -1,0 +1,9 @@
+{
+  "count_method": "Whitespace-delimited tokens in section prose; headings, title, exercise notice and references excluded",
+  "sections": {
+    "Introduction": 169,
+    "Discussion": 428,
+    "Conclusion": 69
+  },
+  "total": 666
+}

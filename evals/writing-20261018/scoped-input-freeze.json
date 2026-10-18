@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-10-18T04:58:13.423467+00:00",
+  "candidate_freeze": "scoped-freeze.json",
+  "sources": "scoped-sources.json",
+  "files": {
+    "inputs/H6-request.md": "cf15b3b66c8a57bf5cdadf147d756555c0cc76af72d16faef5bc4521fc4c0d1b",
+    "inputs/H6-materials.md": "98ffed15f3797afe45ee794bae5bc598bb6ce5117da76ff19738902949f0ec27",
+    "inputs/H7-request.md": "3748101d060f8bdb897d2785e4f129b639112c124e9d489511fd0616251c310d",
+    "inputs/H7-materials.md": "149921bae0d864d6a0ff445fa91b17acace7fdb03cf0b70c6b3f54909b654878",
+    "holdout-judge-request.md": "8d36c7d80edad98e023892b39fdba700e99e90fcd8d51b09ad0170e0f177d7d5"
+  },
+  "original_H7_excerpt_sha256": "3031dda27a83c79491cadbb173bd8547425a8a70f8336f603e631e9ab641f806",
+  "original_H7_excerpt_words": 1173,
+  "runs": 8,
+  "pairs": 4,
+  "stopping_rule": "One round; two repetitions for each task/arm. No outcome-selected generations or rule edits."
+}

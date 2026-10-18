@@ -1,0 +1,16 @@
+{
+  "first": {
+    "discussion": 615,
+    "conclusion": 71,
+    "body_total": 686,
+    "all_nonreference_including_attribution_and_heading_tokens": 717,
+    "method": "Whitespace-delimited words; body excludes attribution, headings and references."
+  },
+  "final": {
+    "discussion": 631,
+    "conclusion": 58,
+    "body_total": 689,
+    "all_nonreference_including_attribution_and_heading_tokens": 720,
+    "method": "Whitespace-delimited words; body excludes attribution, headings and references."
+  }
+}

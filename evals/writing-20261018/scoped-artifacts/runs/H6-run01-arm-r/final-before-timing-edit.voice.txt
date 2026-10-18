@@ -1,0 +1,29 @@
+COMMAND: C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python.exe -X utf8 -B C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_voice.py --draft C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-r/final.md --source C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-materials.md
+EXIT CODE: 0
+
+STDOUT
+Language: en | discussion/conclusion sentences: 27 | paragraphs: 6
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 3.7  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): 0.0  (published median 66.7; outside typical range)
+
+Disclaimer sentences in the discussion body: 1
+  (keep those that state a condition the claim needs)
+  [para 3] Because classroom time was not measured for individual students, these figures cannot establish comparative learning efficiency or identify self-pacing as the s
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 2
+  (a specific problem may belong next to its result)
+  [para 2] Kestin et al.'s (2025) review describes earlier examples of unstructured ChatGPT use with limited reflection or weaker performance.
+  [para 3] Because classroom time was not measured for individual students, these figures cannot establish comparative learning efficiency or identify self-pacing as the s
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)
+
+STDERR

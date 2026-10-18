@@ -1,0 +1,14 @@
+first.md: UTF-8 read OK; 5341 characters
+review.md: UTF-8 read OK; 8887 characters
+final.md: UTF-8 read OK; 5424 characters
+rationale.md: UTF-8 read OK; 9128 characters
+loads.json: UTF-8 read OK; 10128 characters
+first.voice.txt: UTF-8 read OK; 2036 characters
+first.prose.txt: UTF-8 read OK; 1226 characters
+first.consistency.txt: UTF-8 read OK; 317 characters
+final.voice.txt: UTF-8 read OK; 990 characters
+final.prose.txt: UTF-8 read OK; 1223 characters
+final.consistency.txt: UTF-8 read OK; 317 characters
+first.word-count.json: UTF-8 read OK; 232 characters
+final.word-count.json: UTF-8 read OK; 232 characters
+Final section-prose word count: 672; requested range satisfied.

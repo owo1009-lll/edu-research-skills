@@ -1,0 +1,10 @@
+{
+  "first_words_discussion_and_conclusion": 540,
+  "final_words_discussion_and_conclusion": 548,
+  "count_method": "Whitespace-delimited; section headings, exercise notice, and references excluded",
+  "required_files_present": true,
+  "all_six_skill_checks_exit_zero": true,
+  "encoding": "UTF-8",
+  "independent_source_verification": false,
+  "local_assertion_note": "Initial case-sensitive text-match assertion corrected; manuscript unchanged."
+}

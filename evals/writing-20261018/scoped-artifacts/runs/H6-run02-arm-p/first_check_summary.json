@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "check": "voice",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-p\\first.md",
+        "--source",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H6-materials.md"
+      ],
+      "exit_code": 0,
+      "output": "first_voice.txt"
+    },
+    {
+      "check": "prose",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-p\\first.md"
+      ],
+      "exit_code": 0,
+      "output": "first_prose.txt"
+    },
+    {
+      "check": "consistency",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-p\\first.md",
+        "--term-group",
+        "confidence=confidence in learning difficult physics with effort|growth mindset"
+      ],
+      "exit_code": 0,
+      "output": "first_consistency.txt"
+    }
+  ],
+  "word_counts": {
+    "method": "Whitespace-delimited tokens; section headings and references excluded.",
+    "sections": {
+      "Introduction": 171,
+      "Discussion": 402,
+      "Conclusion": 60
+    },
+    "section_prose_total": 633,
+    "including_exercise_label": 654
+  }
+}

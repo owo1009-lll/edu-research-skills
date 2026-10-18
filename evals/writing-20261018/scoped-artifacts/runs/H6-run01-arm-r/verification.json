@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "utf8_reads": "all required files and logs decoded successfully",
+  "body_word_counts": {
+    "first.md": 646,
+    "final.md": 636
+  },
+  "check_logs_validated": [
+    "first.voice.txt",
+    "first.prose.txt",
+    "first.consistency.txt",
+    "final.voice.txt",
+    "final.prose.txt",
+    "final.consistency.txt",
+    "final-before-timing-edit.voice.txt",
+    "final-before-timing-edit.prose.txt",
+    "final-before-timing-edit.consistency.txt"
+  ],
+  "all_logged_exit_codes_zero": true,
+  "all_logged_stderr_empty": true,
+  "substantive_self_review_completed": true,
+  "new_writing_task_change_log_not_required": true,
+  "source_limitations": [
+    "Factual and bibliographic verification is limited to the supplied packet.",
+    "Score-observation accounting and affective-test details remain author queries in rationale.md.",
+    "No raw-data analysis or online source verification was performed."
+  ],
+  "completed_files": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "loads.json",
+    "first.voice.txt",
+    "first.prose.txt",
+    "first.consistency.txt",
+    "final.voice.txt",
+    "final.prose.txt",
+    "final.consistency.txt",
+    "final-before-timing-edit.voice.txt",
+    "final-before-timing-edit.prose.txt",
+    "final-before-timing-edit.consistency.txt",
+    "verification.json"
+  ]
+}

@@ -1,0 +1,22 @@
+COMMAND: C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python.exe -X utf8 -B C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_consistency.py --draft C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-r/first.md --term-group confidence=confidence in learning difficult physics through effort|growth mindset --term-group comparison=active-learning class|traditional lecture
+EXIT CODE: 0
+
+STDOUT
+Language: en | abstract found: False | findings to inspect: 0
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (0 distinct values; check each is a named subsample):
+
+Same value at different precision: 0
+
+Term variants: 0
+  self-reference: this study 1
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 0
+
+STDERR

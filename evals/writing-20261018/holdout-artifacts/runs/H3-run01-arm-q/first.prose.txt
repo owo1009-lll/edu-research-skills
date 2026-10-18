@@ -1,0 +1,7 @@
+COMMAND: python -X utf8 C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_prose.py --draft C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H3-run01-arm-q/first.md
+EXIT_CODE: 0
+
+Sections found: 讨论 | prompts: 1
+
+[讨论] 542 chars, 4 paragraphs | sentence median 28, >100: 0.0% | citations 3.7/1,000, cited sentences 10.5%, author-led 50.0% | statistics 0.0/1,000, decimals 0.0/1,000 | paragraph-final value sentences 0.0%
+  ! sentence_median 28 below the published range (>= 30)

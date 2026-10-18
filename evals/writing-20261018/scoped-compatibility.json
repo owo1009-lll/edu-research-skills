@@ -1,0 +1,56 @@
+{
+  "stage": "r01 frozen candidate; before behavioral outcomes",
+  "commands": [
+    "python -X utf8 -m unittest discover -s tests -p test_contracts.py",
+    "python -X utf8 -m unittest discover -s tests -p test_ppt*.py",
+    "python -X utf8 -m unittest discover -s tests -p test_journal_search.py",
+    "python -X utf8 <skill-creator>/scripts/quick_validate.py skills/edu-writing"
+  ],
+  "results": [
+    {
+      "i": 0,
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "13272d",
+        "wall_time_seconds": 0.1401486,
+        "exit_code": 0,
+        "original_token_count": 29,
+        "output": "..........\r\n----------------------------------------------------------------------\r\nRan 10 tests in 0.047s\r\n\r\nOK\r\n"
+      }
+    },
+    {
+      "i": 1,
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "47a180",
+        "wall_time_seconds": 3.8438025,
+        "exit_code": 0,
+        "original_token_count": 33,
+        "output": ".........................\r\n----------------------------------------------------------------------\r\nRan 25 tests in 3.539s\r\n\r\nOK\r\n"
+      }
+    },
+    {
+      "i": 2,
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "8b3e7c",
+        "wall_time_seconds": 0.124574,
+        "exit_code": 0,
+        "original_token_count": 28,
+        "output": "........\r\n----------------------------------------------------------------------\r\nRan 8 tests in 0.001s\r\n\r\nOK\r\n"
+      }
+    },
+    {
+      "i": 3,
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "d5ede3",
+        "wall_time_seconds": 0.0535535,
+        "exit_code": 0,
+        "original_token_count": 5,
+        "output": "Skill is valid!\r\n"
+      }
+    }
+  ],
+  "limitation": "Mechanical compatibility, not evidence of manuscript quality or visual PPT acceptance."
+}

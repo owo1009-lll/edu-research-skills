@@ -1,0 +1,17 @@
+Final validation completed with python -X utf8.
+All five requested deliverables and six check logs are present, nonempty and readable as UTF-8.
+loads.json parses successfully.
+All six saved checker exit codes are 0.
+Word counts (whitespace tokens; section headings excluded from body):
+{
+  "first": {
+    "body_words": 598,
+    "pre_reference_words": 626
+  },
+  "final": {
+    "body_words": 630,
+    "pre_reference_words": 658
+  }
+}
+Final body meets 600-750 words.
+No change_log.md: new-writing task.

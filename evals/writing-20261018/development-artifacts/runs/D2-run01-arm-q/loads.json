@@ -1,0 +1,390 @@
+{
+  "task": "D2 independent author-draft revision",
+  "output_directory": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q",
+  "scope": "Only the supplied edu-writing snapshot, task-relevant referenced resources, the two supplied inputs, and this run's own outputs were read. No network, other runs, other installed skills or repository evaluation/development reports were accessed.",
+  "ordering": "Entries follow tool-command submission order. Entries sharing a concurrent_or_grouped_operation are grouped in submitted command order; exact interleaving of concurrent subprocess reads was not observable. Repeated reads are listed. Script execution reads are included; generic Python/PowerShell runtime and standard-library loading are outside this task-document read ledger.",
+  "encoding": "Content reads/writes use UTF-8. All Python commands, including check scripts and delivery validation, use python -X utf8. Script bytecode writing was disabled.",
+  "model_visibility": {
+    "declared_identity": "Codex, based on GPT-6, is visible in the developer instruction.",
+    "exact_runtime_model_id": "unavailable",
+    "reasoning_effort": "unavailable",
+    "temperature_and_other_sampling_settings": "unavailable"
+  },
+  "reads": [
+    {
+      "sequence": 1,
+      "path": "@candidate/skills/edu-writing/SKILL.md",
+      "reason": "Read the sole authorised skill snapshot and determine revision workflow and checks.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 2,
+      "path": "@repo/evals/writing-20261018/inputs/D2-request.md",
+      "reason": "Read deliverables, word limit, teaching notice, Markdown format and access restrictions.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 3,
+      "path": "@repo/evals/writing-20261018/inputs/D2-materials.md",
+      "reason": "Read author intent, fictional study record, comparison card and original draft.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 4,
+      "path": "@candidate/skills/edu-writing/references/foundation.md",
+      "reason": "Preserve author argument, concept, headings and recommendation strength during compression.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 5,
+      "path": "@candidate/skills/edu-writing/references/argument.md",
+      "reason": "Separate empirical, conceptual and normative claims; plan cross-section claim alignment.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 6,
+      "path": "@candidate/skills/edu-writing/references/voice-en.md",
+      "reason": "Apply English stance guidance to claims, necessary qualifications and normative should.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 7,
+      "path": "@candidate/skills/edu-writing/references/framing-results.md",
+      "reason": "Check the meaning of descriptive counts and prevent causal or effectiveness overclaiming.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 8,
+      "path": "@candidate/skills/edu-writing/references/examples/revise-compress.md",
+      "reason": "Read the referenced compression example for preserving concepts and judgement strength; do not import its facts or definition.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 9,
+      "path": "@candidate/skills/edu-writing/references/introduction.md",
+      "reason": "Retain a focused question and bounded comparison in the revised Introduction.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 10,
+      "path": "@candidate/skills/edu-writing/references/quantitative-discussion.md",
+      "reason": "Interpret descriptive study counts without inventing adjusted comparisons or learning effects.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 11,
+      "path": "@candidate/skills/edu-writing/references/conclusion-implications.md",
+      "reason": "Retain justified normative advice and distinguish an existing procedure from a new intervention.",
+      "mode": "explicit UTF-8 content read",
+      "detail": "This grouped output was partially truncated; affected resources were retrieved again below where needed."
+    },
+    {
+      "sequence": 12,
+      "path": "@candidate/skills/edu-shared/references/integrity.md",
+      "reason": "Apply the skill-referenced integrity rules: no invented data, preserve argument, local files and AI self-review identity.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 13,
+      "path": "@candidate/skills/edu-writing/references/argument.md",
+      "reason": "Recover the previously truncated end of cross-section guidance and examples.",
+      "mode": "explicit UTF-8 content read",
+      "concurrent_or_grouped_operation": "reference_retrieval_batch",
+      "detail": "Requested lines after the first 115; the shell content reader opened the file before selecting these lines."
+    },
+    {
+      "sequence": 14,
+      "path": "@candidate/skills/edu-writing/references/voice-en.md",
+      "reason": "Recover the previously truncated English voice resource.",
+      "mode": "explicit UTF-8 content read",
+      "concurrent_or_grouped_operation": "reference_retrieval_batch",
+      "detail": "Full visible content on this second retrieval."
+    },
+    {
+      "sequence": 15,
+      "path": "@candidate/skills/edu-writing/references/framing-results.md",
+      "reason": "Recover the previously truncated results-framing resource.",
+      "mode": "explicit UTF-8 content read",
+      "concurrent_or_grouped_operation": "reference_retrieval_batch",
+      "detail": "Full visible content on this second retrieval."
+    },
+    {
+      "sequence": 16,
+      "path": "@candidate/skills/edu-writing/references/examples/revise-compress.md",
+      "reason": "Recover the previously truncated revision/compression example.",
+      "mode": "explicit UTF-8 content read",
+      "concurrent_or_grouped_operation": "reference_retrieval_batch",
+      "detail": "Full visible content on this second retrieval."
+    },
+    {
+      "sequence": 17,
+      "path": "@candidate/skills/edu-writing/references/prose-en.md",
+      "reason": "Read the English prose resource explicitly required by the Introduction route; treat statistics as optional references.",
+      "mode": "explicit UTF-8 content read",
+      "concurrent_or_grouped_operation": "reference_retrieval_batch",
+      "detail": "No corpus files or development reports opened."
+    },
+    {
+      "sequence": 18,
+      "path": "@candidate/skills/edu-writing/references/qualitative-narrative.md",
+      "reason": "Use the appropriate route for the voluntary interview accounts and two distinct cases.",
+      "mode": "explicit UTF-8 content read",
+      "concurrent_or_grouped_operation": "reference_retrieval_batch",
+      "detail": "Read the route only; no unsupported recoding or quotations."
+    },
+    {
+      "sequence": 19,
+      "path": "@candidate/skills/edu-writing/references/mixed-methods.md",
+      "reason": "Distinguish the roles of opening logs, submission coding and interview reports without claiming an undocumented mixed-methods design.",
+      "mode": "explicit UTF-8 content read",
+      "concurrent_or_grouped_operation": "reference_retrieval_batch",
+      "detail": "Read the resource only; no referenced development reports or optional example opened."
+    },
+    {
+      "sequence": 20,
+      "path": "@candidate/skills/edu-writing/scripts/check_voice.py",
+      "reason": "Execute --help to inspect supported check arguments before running the required checks.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "check_help_batch"
+    },
+    {
+      "sequence": 21,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Execute --help to inspect supported check arguments before running the required checks.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "check_help_batch"
+    },
+    {
+      "sequence": 22,
+      "path": "@candidate/skills/edu-writing/scripts/check_consistency.py",
+      "reason": "Execute --help to inspect supported check arguments before running the required checks.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "check_help_batch"
+    },
+    {
+      "sequence": 23,
+      "path": "@candidate/skills/edu-writing/scripts/check_voice.py",
+      "reason": "Search imports and file I/O calls to confirm the scripts do not require other skill resources or write outside the assigned output directory.",
+      "mode": "rg selective content read",
+      "concurrent_or_grouped_operation": "single_rg_command",
+      "detail": "Listed in command argument order; rg internal read order was not observed."
+    },
+    {
+      "sequence": 24,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Search imports and file I/O calls to confirm the scripts do not require other skill resources or write outside the assigned output directory.",
+      "mode": "rg selective content read",
+      "concurrent_or_grouped_operation": "single_rg_command",
+      "detail": "Listed in command argument order; rg internal read order was not observed."
+    },
+    {
+      "sequence": 25,
+      "path": "@candidate/skills/edu-writing/scripts/check_consistency.py",
+      "reason": "Search imports and file I/O calls to confirm the scripts do not require other skill resources or write outside the assigned output directory.",
+      "mode": "rg selective content read",
+      "concurrent_or_grouped_operation": "single_rg_command",
+      "detail": "Listed in command argument order; rg internal read order was not observed."
+    },
+    {
+      "sequence": 26,
+      "path": "@candidate/skills/edu-writing/scripts/check_voice.py",
+      "reason": "Execute the required voice check on first.md.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "first_checks"
+    },
+    {
+      "sequence": 27,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/first.md",
+      "reason": "Checker reads the first manuscript.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "first_checks"
+    },
+    {
+      "sequence": 28,
+      "path": "@repo/evals/writing-20261018/inputs/D2-materials.md",
+      "reason": "Source-number presence check against the supplied fictional material.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "first_checks"
+    },
+    {
+      "sequence": 29,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Execute the required prose check on first.md.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "first_checks"
+    },
+    {
+      "sequence": 30,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/first.md",
+      "reason": "Checker reads the first manuscript.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "first_checks"
+    },
+    {
+      "sequence": 31,
+      "path": "@candidate/skills/edu-writing/scripts/check_consistency.py",
+      "reason": "Execute the required consistency check on first.md.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "first_checks"
+    },
+    {
+      "sequence": 32,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/first.md",
+      "reason": "Checker reads the first manuscript.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "first_checks"
+    },
+    {
+      "sequence": 33,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final.md",
+      "reason": "Read the complete revision for a small word-count repair: restore the source-grounded sentence about relevance questions in both channels.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 34,
+      "path": "@candidate/skills/edu-writing/scripts/check_voice.py",
+      "reason": "Execute the required voice check on final.md.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "final_checks"
+    },
+    {
+      "sequence": 35,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final.md",
+      "reason": "Checker reads the final manuscript after the word-count repair.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "final_checks"
+    },
+    {
+      "sequence": 36,
+      "path": "@repo/evals/writing-20261018/inputs/D2-materials.md",
+      "reason": "Repeat source-number presence check on the final manuscript.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "final_checks"
+    },
+    {
+      "sequence": 37,
+      "path": "@candidate/skills/edu-writing/scripts/check_prose.py",
+      "reason": "Execute the required prose check on final.md.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "final_checks"
+    },
+    {
+      "sequence": 38,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final.md",
+      "reason": "Checker reads the final manuscript after the word-count repair.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "final_checks"
+    },
+    {
+      "sequence": 39,
+      "path": "@candidate/skills/edu-writing/scripts/check_consistency.py",
+      "reason": "Execute the required consistency check on final.md.",
+      "mode": "Python source loaded for execution with python -X utf8; bytecode writing disabled",
+      "concurrent_or_grouped_operation": "final_checks"
+    },
+    {
+      "sequence": 40,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final.md",
+      "reason": "Checker reads the final manuscript after the word-count repair.",
+      "mode": "Checker Path.read_text(encoding=utf-8)",
+      "concurrent_or_grouped_operation": "final_checks"
+    },
+    {
+      "sequence": 41,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/first.md",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 42,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final.md",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 43,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/review.md",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 44,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/rationale.md",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 45,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/change_log.md",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 46,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/first_voice_check.txt",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 47,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/first_prose_check.txt",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 48,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/first_consistency_check.txt",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 49,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final_voice_check.txt",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 50,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final_prose_check.txt",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 51,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-q/final_consistency_check.txt",
+      "reason": "Final delivery audit: validate UTF-8 readability, nonempty content and requested manuscript/check artifacts.",
+      "mode": "explicit UTF-8 content read"
+    },
+    {
+      "sequence": 52,
+      "path": "@repo/evals/writing-20261018/inputs/D2-materials.md",
+      "reason": "Final audit compares the three delivered manuscript headings with the supplied author draft.",
+      "mode": "explicit UTF-8 content read"
+    }
+  ],
+  "check_output_inspection": "All six raw checker outputs were returned by tools, inspected, saved locally and read again during the delivery audit. Their warnings and manual dispositions are documented in review.md.",
+  "verification": {
+    "first": {
+      "body_words_whitespace": 453,
+      "words_with_headings_notice_excluded": 469,
+      "headings_match_author": true
+    },
+    "final": {
+      "body_words_whitespace": 457,
+      "words_with_headings_notice_excluded": 473,
+      "headings_match_author": true
+    }
+  },
+  "limitations": [
+    "The study record and [C1] are explicitly fictional and were not independently verified.",
+    "Automated checks are heuristic; all cues were manually assessed by the AI, not by an expert reviewer.",
+    "The only supplied comparison card is retained; no external literature was added."
+  ]
+}

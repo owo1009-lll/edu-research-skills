@@ -1,0 +1,91 @@
+{
+  "stage": "holdout inputs frozen before generation",
+  "frozen_utc": "2026-10-18T04:11:14.667493+00:00",
+  "candidate_freeze": "candidate-freeze.json",
+  "skills": {
+    "p": {
+      "manifest": "snapshots/dev-p01.json",
+      "tree_sha256": "1d00faafb6eb42a90d32170c7960fa9f2023b029beb264d382c0902ecea7a194",
+      "files_verified": 200
+    },
+    "q": {
+      "manifest": "snapshots/dev-q01.json",
+      "tree_sha256": "e69aead044e120a1359c15cf41a56b54808d7c1120e696de85d5b83f8e9087d7",
+      "files_verified": 203
+    }
+  },
+  "inputs": {
+    "inputs/H1-request.md": {
+      "sha256": "c651415d7b892c95636824dae8cab5d9abcf716110e2d21094d96b8ac1aa6b2d",
+      "bytes": 1021
+    },
+    "inputs/H1-materials.md": {
+      "sha256": "5382eb494cabfd3efd0424f307ec2e297273a3c294541728e280793a89d10f1f",
+      "bytes": 6332
+    },
+    "inputs/H2-request.md": {
+      "sha256": "4dd902f8b7ee25b2555bd9aa85e8b04a8733c41d24e0c80b0d2d3ce94d37507e",
+      "bytes": 1174
+    },
+    "inputs/H2-materials.md": {
+      "sha256": "45fc3e49a7f10ae2bdc23bfbaf27a69a85181a2a136cc0a71bd8a1b43e39b621",
+      "bytes": 23181
+    },
+    "inputs/H3-request.md": {
+      "sha256": "561dabb00fad5866849fce2e7a1c5e239e2cc83d76ea77ff27b59faf351a9d4c",
+      "bytes": 696
+    },
+    "inputs/H3-materials.md": {
+      "sha256": "9da8b5a4f23b562eef38afb876c3c8194fece18597507492c42607466d47c792",
+      "bytes": 2080
+    },
+    "inputs/H4-request.md": {
+      "sha256": "9821a4095ad021a8e6bdba78b0c6de16ef9fcbc9c40414a45914d0a770767ad4",
+      "bytes": 736
+    },
+    "inputs/H4-materials.md": {
+      "sha256": "1e6a0e17b9f0194df3731bad3b00eb62c40736b686ba9d8f33044fca0a0ed460",
+      "bytes": 5253
+    },
+    "inputs/H5-request.md": {
+      "sha256": "1acde401fed5d78658180d471a22541d170b85144451714dc1b4539d72cd67b4",
+      "bytes": 907
+    },
+    "inputs/H5-materials.md": {
+      "sha256": "c5de2a0d05471bc389ecce9fe54b6044f9ac89ec23784a7f96d6f96e353b448f",
+      "bytes": 6027
+    }
+  },
+  "judge_request": {
+    "path": "holdout-judge-request.md",
+    "sha256": "8d36c7d80edad98e023892b39fdba700e99e90fcd8d51b09ad0170e0f177d7d5"
+  },
+  "writer_wrapper": {
+    "path": "writer-request-template.md",
+    "sha256": "bb5b041714be54a43fdcb4b969d827cdc22329290521b918e93fbd33249effa8"
+  },
+  "plan": {
+    "H1": 2,
+    "H2": 2,
+    "H3": 1,
+    "H4": 1,
+    "H5": 1
+  },
+  "arms": [
+    "p",
+    "q"
+  ],
+  "outputs_expected": 14,
+  "dedup": {
+    "checked_files": [
+      "distill/20261018/prior-index.json",
+      "distill/20261018/sources.json",
+      "distill/20261018/new-sources.json"
+    ],
+    "source_doi_matches": [],
+    "limitation": "Recoverable prior records only; no pretraining or lost-session non-exposure claim."
+  },
+  "model_control": "Same inherited host configuration, independent fresh contexts; exact backend version, temperature and seed not exposed. No model override.",
+  "rule_changes_since_candidate_freeze": false,
+  "generation_started": false
+}

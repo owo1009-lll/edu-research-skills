@@ -1,0 +1,74 @@
+{
+  "assessment_type": "AI 匿名译文比较；非真人评审，非独立来源核验",
+  "pair": "H4-pair01",
+  "actual_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+      "purpose": "评阅范围、八项维度、证据与输出要求"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H4-01/H4-pair01/request.md",
+      "purpose": "理解翻译目标和合规要求；未执行写作请求"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H4-01/H4-pair01/materials.md",
+      "purpose": "核对四段英文、概念背景、署名及来源查阅边界"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H4-01/H4-pair01/A.md",
+      "purpose": "完整阅读并逐段对照原文，提取 A 的具体文本依据"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H4-01/H4-pair01/B.md",
+      "purpose": "完整阅读并逐段对照原文，提取 B 的具体文本依据"
+    }
+  ],
+  "read_method": {
+    "tool": "functions.exec 调用 exec_command",
+    "shell": "PowerShell",
+    "command": "Get-Content -LiteralPath <指定路径> -Encoding UTF8 -Raw",
+    "calls": 5,
+    "encoding": "UTF-8",
+    "completeness": "五份文件均返回退出码 0；输出包含各文件结尾，未发现截断",
+    "max_output_tokens_per_read": 22000,
+    "orchestration_default_max_output_tokens": 10000
+  },
+  "access_limits": {
+    "permitted_input_count": 5,
+    "no_network": true,
+    "no_skills": true,
+    "no_other_pairs_or_runs": true,
+    "no_development_records_or_blinding_key": true,
+    "no_subagents": true,
+    "input_files_modified": false,
+    "independent_source_verification": false
+  },
+  "output_limits": {
+    "permitted_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H4-pair01",
+    "permitted_files": [
+      "review.md",
+      "loads.json"
+    ],
+    "original_review_preserved": true,
+    "sample_texts_rewritten": false,
+    "review_word_quota": "未指定",
+    "writing_task_word_quota": "不设字数配额",
+    "process_artifact_compliance": "首稿、自查、修改记录和检查结果不在允许读取范围，无法判断",
+    "token_or_sampling_budget": "未获知专用于此评阅的生成预算；不推测"
+  },
+  "visible_model_information": {
+    "visible_identity": "Codex，基于 GPT-6（开发者指令可见自述）",
+    "exact_backend_version": "不可获取",
+    "temperature": "不可获取",
+    "random_seed": "不可获取",
+    "model_override": "无",
+    "limitations": "可见身份不等同于经过运行元数据核验的精确模型标识；未推测候选译文的生成模型或版本"
+  },
+  "assessment_outcome": {
+    "preference": "B",
+    "strength": "略偏向，优势有限",
+    "demonstrated_serious_errors_A": [],
+    "demonstrated_serious_errors_B": [],
+    "scope": "仅本对所附材料；不能推出稳定提升或总体写作效果"
+  }
+}

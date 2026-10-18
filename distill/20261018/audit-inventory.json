@@ -1,0 +1,101 @@
+{
+  "baseline_commit": "a4020c41a4f3d8ab180a4e2818955d90e40f6f3b",
+  "kind": "static audit reading inventory, not runtime load trace",
+  "files": [
+    {
+      "path": "skills/edu-writing/SKILL.md",
+      "sha256": "6b71e163516bbb6ef79ead3e487be3c98caeeb6c5c543d45e936b647df7c8e93",
+      "characters": 5809
+    },
+    {
+      "path": "skills/edu-writing/references/abstract-title.md",
+      "sha256": "cfa54efa0b2579e8831f00adb1f6e971b3ff15e16b01d5cef372409e30a960d4",
+      "characters": 1878
+    },
+    {
+      "path": "skills/edu-writing/references/analysis-bridge.md",
+      "sha256": "013d99a70bffbfc70304ee8838c258be3ac9307aafad577950fa2479843bb264",
+      "characters": 2014
+    },
+    {
+      "path": "skills/edu-writing/references/argument.md",
+      "sha256": "84c28e6f5fe94beb94b7525a8a10479f94c62c7e7bf1127409f7f5fb5f0a9dbe",
+      "characters": 4824
+    },
+    {
+      "path": "skills/edu-writing/references/conceptual-argument.md",
+      "sha256": "d1ca834af6a7fc47205de88638ded711dfe14e043f4b7ca9cd961ac0ac014283",
+      "characters": 177
+    },
+    {
+      "path": "skills/edu-writing/references/conclusion-implications.md",
+      "sha256": "823ee5c383566dfcc1aac44613b6c0049afef45d72fd224758bf1c42f821bfeb",
+      "characters": 1879
+    },
+    {
+      "path": "skills/edu-writing/references/foundation.md",
+      "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+      "characters": 2662
+    },
+    {
+      "path": "skills/edu-writing/references/framing-results.md",
+      "sha256": "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8",
+      "characters": 3633
+    },
+    {
+      "path": "skills/edu-writing/references/full-manuscript.md",
+      "sha256": "8234e130ddaa3cf7cf64b257d1baba071820dcc19be5810aa685bfcd2fee2ba7",
+      "characters": 2802
+    },
+    {
+      "path": "skills/edu-writing/references/introduction.md",
+      "sha256": "8cd5996c189e71a71696d2e13db1a556bf7d07378297bbfa6a64ca31b590053b",
+      "characters": 2720
+    },
+    {
+      "path": "skills/edu-writing/references/methods-section.md",
+      "sha256": "dfdca31d5111f7007ae490284a33c84c67e6566e426206850fd177454016c82b",
+      "characters": 1723
+    },
+    {
+      "path": "skills/edu-writing/references/prose-en.md",
+      "sha256": "186409cdc88c696fb2039780620383a2e150c8c9125d7889993108c2786fb603",
+      "characters": 13936
+    },
+    {
+      "path": "skills/edu-writing/references/prose-zh.md",
+      "sha256": "2adfc2f6027da74308cc7a45edf02eb14bd4840e0f7859f8b18191c3ddf38e2a",
+      "characters": 2944
+    },
+    {
+      "path": "skills/edu-writing/references/qualitative-narrative.md",
+      "sha256": "674c4052d44eba719af2a28eb91d646c8a1e1c9b4cda7d764006308db79c23e6",
+      "characters": 643
+    },
+    {
+      "path": "skills/edu-writing/references/quantitative-discussion.md",
+      "sha256": "201160a8ab3e96f56e474f79564d0f1f047452c5812eed53c9d9767576ffbbae",
+      "characters": 2089
+    },
+    {
+      "path": "skills/edu-writing/references/synthesis.md",
+      "sha256": "109d7c261be6b05cebb83a131bf3bebe32d465bb2db2e8b6a60fb0bf906c84e7",
+      "characters": 3237
+    },
+    {
+      "path": "skills/edu-writing/references/voice-en.md",
+      "sha256": "7a7b19251079f95b5e13bc2e724ac3a1ea65fd6b2a356cc47748606b380b1136",
+      "characters": 8266
+    },
+    {
+      "path": "skills/edu-writing/references/voice-zh.md",
+      "sha256": "cdfadfd9a01619a3dab63e5bfd4bc9a95e5a356727ea361345685a20d188dbc1",
+      "characters": 2682
+    },
+    {
+      "path": "skills/edu-shared/references/integrity.md",
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+      "characters": 775
+    }
+  ]
+}

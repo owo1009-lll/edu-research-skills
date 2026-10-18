@@ -1,0 +1,4 @@
+COMMAND: ['C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-X', 'utf8', 'C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_prose.py', '--draft', 'C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-q\\final.md']
+EXIT CODE: 0
+
+Sections found:  | prompts: 0

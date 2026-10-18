@@ -1,0 +1,166 @@
+{
+  "purpose": "New development candidates, not holdouts. Reasons are selection hypotheses until full reading. No claim that download alone establishes quality or reading.",
+  "sources": [
+    {
+      "id": "E08",
+      "title": "STEM faculty who believe ability is fixed have larger racial achievement gaps and inspire less student motivation in their classes",
+      "doi": "10.1126/sciadv.aau4734",
+      "type": "quantitative_observational",
+      "language": "en",
+      "urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6377274/fullTextXML"
+      ],
+      "reason": "Contrasts student and faculty beliefs; connects institutional records with course experiences while distinguishing association from intervention.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E09",
+      "title": "(No) Harm in Asking: Class, Acquired Cultural Capital, and Academic Engagement at an Elite University",
+      "doi": "10.1177/0038040715614913",
+      "type": "qualitative_interviews",
+      "language": "en",
+      "urls": [
+        "https://open.bu.edu/server/api/core/bitstreams/9f614474-32c2-449a-9523-83bb97491a6b/content",
+        "https://scholar.harvard.edu/files/anthonyjack/files/jack_no_harm.pdf"
+      ],
+      "reason": "Splits a supposedly homogeneous socioeconomic category through prior schooling and concrete encounters with authority; examine how cases qualify a class explanation.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E10",
+      "title": "Invisible Inequality: Social Class and Childrearing in Black Families and White Families",
+      "doi": "10.2307/3088916",
+      "type": "qualitative_ethnography",
+      "language": "en",
+      "urls": [
+        "https://sociology.sas.upenn.edu/sites/default/files/Lareau2003_Invisible_Inequality.pdf"
+      ],
+      "reason": "Links household practices and institutional encounters through extended cases; assess how conceptual categories earn support rather than just naming themes.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E11",
+      "title": "How Does a Mathematician Fit in? A Mixed-Methods Analysis of University Students’ Sense of Belonging in Mathematics",
+      "doi": "10.1007/s40753-020-00118-5",
+      "type": "mixed_methods",
+      "language": "en",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s40753-020-00118-5"
+      ],
+      "reason": "Treats belonging as different relations, not just a high-low score; assess whether qualitative material changes the meaning of quantitative clusters.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E12",
+      "title": "Does ‘summative’ count? The influence of the awarding of study credits on feedback use and test-taking motivation in medical progress testing",
+      "doi": "10.1007/s10459-024-10324-4",
+      "type": "mixed_methods",
+      "language": "en",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s10459-024-10324-4"
+      ],
+      "reason": "Triangulates survey, logs and interviews; explicitly distinguishes formal assessment status from students’ perceived stakes.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E13",
+      "title": "Teachers’ Feedback on Oral Reading: A Critical Review of its Effects and the use of Theory in Research",
+      "doi": "10.1007/s10648-024-09957-z",
+      "type": "critical_systematic_review",
+      "language": "en",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s10648-024-09957-z",
+        "https://d-nb.info/1360518851/34"
+      ],
+      "reason": "Organises two linked questions—reported effects and use of theory—and examines why an evidence review cannot yield a single best feedback formula.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E14",
+      "title": "Learning Versus Performance: An Integrative Review",
+      "doi": "10.1177/1745691615569000",
+      "type": "integrative_review",
+      "language": "en",
+      "urls": [
+        "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf"
+      ],
+      "reason": "Maintains one consequential distinction across motor learning, verbal learning and metacognition; examine transitions that build cumulative rather than repetitive support.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E15",
+      "title": "Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math",
+      "doi": "10.1073/pnas.1916903117",
+      "type": "meta_analysis",
+      "language": "en",
+      "urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7104254/fullTextXML"
+      ],
+      "reason": "Moves from average efficacy to distribution of benefits; examine how a new explanatory hypothesis is separated from meta-analytic findings.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E16",
+      "pdf_pages": [52, 60],
+      "file_note": "The institutional download is a complete journal issue. Only PDF pages 52–60 (printed pages 48–56) belong to this article; other articles are not counted or read as this source.",
+      "title": "Toward a deliberative curriculum?",
+      "doi": "10.3402/nstep.v1.26558",
+      "type": "normative_conceptual",
+      "language": "en",
+      "urls": [
+        "https://uu.diva-portal.org/smash/get/diva2%3A892555/FULLTEXT01.pdf",
+        "https://www.tandfonline.com/doi/pdf/10.3402/nstep.v1.26558"
+      ],
+      "reason": "Uses curriculum traditions as a live disagreement over educational purposes; examine explicit normative premises, objections and conditional proposals.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E17",
+      "title": "探讨中国学习者现象与建构教育学自主知识的努力——以中国大学生学习与发展追踪研究（CCSS）项目十五年探索为案例",
+      "doi": "10.16382/j.cnki.1000-5560.2024.11.002",
+      "type": "conceptual_and_research_programme_reflection",
+      "language": "zh",
+      "urls": [
+        "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11129"
+      ],
+      "reason": "以学习者悖论组织概念、工具与研究历程，考察本土化贡献如何具体表达；不因地区不同就宣布创新。",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E18",
+      "title": "我国中小学教师负担生成机制的质性研究",
+      "doi": "10.16382/j.cnki.1000-5560.2023.09.002",
+      "type": "qualitative_grounded_theory",
+      "language": "zh",
+      "urls": [
+        "https://eduwx.nju.edu.cn/_upload/article/files/67/b3/75a5fb714893afdf33b534942d3f/d2b26fbb-358e-47b3-af1c-84a7670220d6.pdf"
+      ],
+      "reason": "从感知、应对与制度情境连接教师负担生成过程，考察引文与解释之间的推理，以及反例能否限定概念。",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    },
+    {
+      "id": "E19",
+      "title": "A scalable empathic-mindset intervention reduces group disparities in school suspensions",
+      "doi": "10.1126/sciadv.abj0691",
+      "type": "quantitative_field_experiment",
+      "language": "en",
+      "urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8942350/fullTextXML"
+      ],
+      "reason": "Tests replication, subgroup disparities and persistence; examine how an overall uncertain result coexists with supported, precisely located contributions.",
+      "prior_use": "Candidate addition: compare with prior-index before counting as new; full-text reading pending",
+      "rights": "Publisher or institutional lawful access. Keep received full text outside the public repository; publish links and original analysis only."
+    }
+  ]
+}

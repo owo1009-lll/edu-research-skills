@@ -1,0 +1,16 @@
+{
+  "first.md": {
+    "body_words_excluding_notice_and_headings": 460,
+    "words_including_headings_excluding_notice": 476,
+    "headings_match_source": true,
+    "teaching_notice_present": true,
+    "sole_card_marker": "[C1]"
+  },
+  "final.md": {
+    "body_words_excluding_notice_and_headings": 456,
+    "words_including_headings_excluding_notice": 472,
+    "headings_match_source": true,
+    "teaching_notice_present": true,
+    "sole_card_marker": "[C1]"
+  }
+}

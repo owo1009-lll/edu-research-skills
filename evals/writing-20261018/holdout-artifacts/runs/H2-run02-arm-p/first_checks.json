@@ -1,0 +1,53 @@
+{
+  "voice": {
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run02-arm-p\\first.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H2-materials.md"
+    ],
+    "exit_code": 0,
+    "output": "first_voice.txt"
+  },
+  "prose": {
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run02-arm-p\\first.md"
+    ],
+    "exit_code": 0,
+    "output": "first_prose.txt"
+  },
+  "consistency": {
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run02-arm-p\\first.md",
+      "--term-group",
+      "food_security=food insecurity|low food security|low or very low food security",
+      "--term-group",
+      "accounts=written accounts|written statements|interviews"
+    ],
+    "exit_code": 0,
+    "output": "first_consistency.txt"
+  },
+  "word_count": {
+    "discussion_and_conclusion_whitespace": 664,
+    "lexical": 670,
+    "target": [
+      650,
+      800
+    ],
+    "within_range": true
+  }
+}

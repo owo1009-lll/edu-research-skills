@@ -1,0 +1,245 @@
+{
+  "created_utc": "2026-10-18T04:12:21.742940+00:00",
+  "runs": [
+    {
+      "task": "H1",
+      "repeat": 1,
+      "arm": "p",
+      "agent": "h1_01_p",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-request.md and H1-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run01-arm-p/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "d10a292790de699e6731375f8a3117228c6ea7c014546c21ee15b404e7eda189",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H1",
+      "repeat": 1,
+      "arm": "q",
+      "agent": "h1_01_q",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-request.md and H1-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run01-arm-q/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "b39ac0909919850312f2c77317770e4662ec92c8be9d8b9be3c610bdac34a14b",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H1",
+      "repeat": 2,
+      "arm": "p",
+      "agent": "h1_02_p",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-request.md and H1-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "4edc05497ac608220b35389c804bd27c09cc654b8397c56e131fa80ceba091cb",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H1",
+      "repeat": 2,
+      "arm": "q",
+      "agent": "h1_02_q",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-request.md and H1-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-q/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "a6c3d80ed2570954fbe111908b43d17d11f31e8543163646a0a046d5022517cc",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H2",
+      "repeat": 1,
+      "arm": "p",
+      "agent": "h2_01_p",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-request.md and H2-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "c2c24765eecc85a26c26b8754f15c1b071187aa7c1c312910882efcf45258079",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H2",
+      "repeat": 1,
+      "arm": "q",
+      "agent": "h2_01_q",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-request.md and H2-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-q/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "adc871208e54e0439837dbac6881f13c8b46fca50e5b5c4257c187e4c5a5ebb8",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H2",
+      "repeat": 2,
+      "arm": "p",
+      "agent": "h2_02_p",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-request.md and H2-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "ec00d94316fe71267627f49489daade4a130be2c08eb6d719e23d5a9a6fb5649",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H2",
+      "repeat": 2,
+      "arm": "q",
+      "agent": "h2_02_q",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-request.md and H2-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "467f6793a26fcb191a386afe00862515d0024c4a0e2ae46c6c3c8a245648cc7d",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H3",
+      "repeat": 1,
+      "arm": "p",
+      "agent": "h3_01_p",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H3-request.md and H3-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H3-run01-arm-p/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "8338a3f896c7f40f5b7cdcbbf31595707d91e27872a58c6b24c18d599f925eb5",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H3",
+      "repeat": 1,
+      "arm": "q",
+      "agent": "h3_01_q",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H3-request.md and H3-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H3-run01-arm-q/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "53a5ea26354234709a3b695689621c6fdf402bff25d243445a706628610298c8",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H4",
+      "repeat": 1,
+      "arm": "p",
+      "agent": "h4_01_p",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H4-request.md and H4-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H4-run01-arm-p/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "9643f82bb442d4884391260730dce1600ce8d08f3539b50beeb8a2db62c1f8c1",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H4",
+      "repeat": 1,
+      "arm": "q",
+      "agent": "h4_01_q",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H4-request.md and H4-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H4-run01-arm-q/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "44fd13fced42e26693ee0c17d6a751eb2381ccca7cd17ab7d47449e8118d39e2",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H5",
+      "repeat": 1,
+      "arm": "p",
+      "agent": "h5_01_p",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H5-request.md and H5-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-p/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "a6a0a1b98738046434a25da33d40c64a209527f14c16c79193d7c13158be36bd",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "task": "H5",
+      "repeat": 1,
+      "arm": "q",
+      "agent": "h5_01_q",
+      "dispatched": true,
+      "prompt": "Complete one independent writing task. Read only the supplied skill at C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md and its task-relevant referenced resources, plus C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H5-request.md and H5-materials.md in that same inputs directory. Execute that request directly. Save outputs ONLY in a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/. Use UTF-8 for all reads/writes and python -X utf8 for checks. Do not inspect other runs, repository evaluation/development reports, or any other installed skill. No network, no subagents, no edits to skills or inputs. Read relevant skill instructions, write first.md/review.md/final.md/rationale.md/loads.json as requested, plus change_log.md for revision tasks. Run applicable check scripts on first and final and inspect outputs. Maintain a list of actual file reads and reasons; model identity/settings only if genuinely visible, otherwise report unavailable. Report files completed and limitations. You are a writer, not a comparative evaluator.",
+      "prompt_sha256": "8d33bcd501bc1404b29e705c76c72da7c7ec9fd77648afb1fa4f81602106fe9b",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    }
+  ],
+  "judges": [
+    {
+      "agent": "judge_h1_pair01",
+      "pair": "H1-pair01",
+      "dispatched": true,
+      "prompt": "Perform one independent anonymous manuscript comparison. Read only C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md and the four files request.md, materials.md, A.md, B.md in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-01/H1-pair01/. Follow that judging request; do not execute the manuscript-writing request. Save original review.md and loads.json ONLY to a new directory C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H1-pair01/. Read UTF-8, and ensure text outputs are not truncated before judgment. Do not read skills, other pairs, development records, original runs or blinding keys. No network, subagents or edits to inputs. Do not guess version identity or assume either manuscript should win. Cite concrete manuscript evidence and distinguish source questions from demonstrated errors. This is AI assessment of the supplied material, not human review or independent verification of the study.",
+      "prompt_sha256": "1f8438fb954162d92ed4fb180d38cdc21134b627b98276d2b6a4b43d4ed1f2e0",
+      "fork_turns": "none",
+      "model_override": null,
+      "agent_reported_complete": true
+    },
+    {
+      "agent": "judge_h2_pair01",
+      "pair": "H2-pair01",
+      "dispatched": true,
+      "fork_turns": "none",
+      "model_override": null,
+      "prompt": "Perform one independent anonymous manuscript comparison. Read only C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md and four files request.md, materials.md, A.md, B.md in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-01/H2-pair01/. Follow the judging request; do not execute the writing request. Save original review.md and loads.json ONLY in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H2-pair01/. Read UTF-8 and ensure untruncated content. No skills, other pairs, development records, original runs or keys; no network, subagents or input edits. Do not guess version or desired winner. Give concrete text evidence and distinguish source questions from demonstrated errors. This is AI assessment, not human review or independent source verification.",
+      "prompt_sha256": "d0bd1bf5240ace47a862ffddbf921832410d13d805b97a22e6db14fe64dd7657",
+      "agent_reported_complete": true
+    },
+    {
+      "agent": "judge_h1_pair02",
+      "pair": "H1-pair02",
+      "dispatched": true,
+      "fork_turns": "none",
+      "model_override": null,
+      "prompt": "Perform one independent anonymous manuscript comparison. Read only C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md and four files request.md, materials.md, A.md, B.md in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-02/H1-pair02/. Follow the judging request; do not execute the writing request. Save original review.md and loads.json ONLY in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H1-pair02/. Read UTF-8 and ensure untruncated content. No skills, other pairs, development records, original runs or keys; no network, subagents or input edits. Do not guess version or desired winner. Give concrete text evidence and distinguish source questions from demonstrated errors. This is AI assessment, not human review or independent source verification.",
+      "prompt_sha256": "775b719452b1a5f023e5ae330b3846a1336a3f0bdd935a5b89942653a1b5e611",
+      "agent_reported_complete": true
+    },
+    {
+      "agent": "judge_h2_pair02",
+      "pair": "H2-pair02",
+      "dispatched": true,
+      "fork_turns": "none",
+      "model_override": null,
+      "prompt": "Perform one independent anonymous manuscript comparison. Read only C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md and four files request.md, materials.md, A.md, B.md in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H2-02/H2-pair02/. Follow the judging request; do not execute the writing request. Save original review.md and loads.json ONLY in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H2-pair02/. Read UTF-8 and ensure untruncated content. No skills, other pairs, development records, original runs or keys; no network, subagents or input edits. Do not guess version or desired winner. Give concrete text evidence and distinguish source questions from demonstrated errors. This is AI assessment, not human review or independent source verification.",
+      "prompt_sha256": "5db54fe8e36df65d49ac7af4b1b5526f39604d170ad03fce5fa13bd9cb281840",
+      "agent_reported_complete": true
+    },
+    {
+      "agent": "judge_h3_pair01",
+      "pair": "H3-pair01",
+      "dispatched": true,
+      "fork_turns": "none",
+      "model_override": null,
+      "prompt": "Perform one independent anonymous manuscript comparison. Read only C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md and four files request.md, materials.md, A.md, B.md in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H3-01/H3-pair01/. Follow the judging request; do not execute the writing request. Save original review.md and loads.json ONLY in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H3-pair01/. Read UTF-8 and ensure untruncated content. No skills, other pairs, development records, original runs or keys; no network, subagents or input edits. Do not guess version or desired winner. Give concrete text evidence and distinguish source questions from demonstrated errors. This is AI assessment, not human review or independent source verification.",
+      "prompt_sha256": "65d80c4eb2ce3500c74a26da96912f33f8fd0972e61fd6580bbebf0f310a058a",
+      "agent_reported_complete": true
+    },
+    {
+      "agent": "judge_h4_pair01",
+      "pair": "H4-pair01",
+      "dispatched": true,
+      "fork_turns": "none",
+      "model_override": null,
+      "prompt": "Perform one independent anonymous manuscript comparison. Read only C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md and four files request.md, materials.md, A.md, B.md in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H4-01/H4-pair01/. Follow the judging request; do not execute the writing request. Save original review.md and loads.json ONLY in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H4-pair01/. Read UTF-8 and ensure untruncated content. No skills, other pairs, development records, original runs or keys; no network, subagents or input edits. Do not guess version or desired winner. Give concrete text evidence and distinguish source questions from demonstrated errors. This is AI assessment, not human review or independent source verification.",
+      "prompt_sha256": "8cbdf544323c153d133dee5c2f81da04068334596630b791f942dd9c0f433c64",
+      "agent_reported_complete": true
+    },
+    {
+      "agent": "judge_h5_pair01",
+      "pair": "H5-pair01",
+      "dispatched": true,
+      "fork_turns": "none",
+      "model_override": null,
+      "prompt": "Perform one independent anonymous manuscript comparison. Read only C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md and four files request.md, materials.md, A.md, B.md in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H5-01/H5-pair01/. Follow the judging request; do not execute the writing request. Save original review.md and loads.json ONLY in C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H5-pair01/. Read UTF-8 and ensure untruncated content. No skills, other pairs, development records, original runs or keys; no network, subagents or input edits. Do not guess version or desired winner. Give concrete text evidence and distinguish source questions from demonstrated errors. This is AI assessment, not human review or independent source verification.",
+      "prompt_sha256": "b7cdb23ee5e6e60afeb26a833bf3cf663d30e0b1cc99a9caa66aeca94665762b",
+      "agent_reported_complete": true
+    }
+  ]
+}

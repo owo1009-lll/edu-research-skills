@@ -1,0 +1,18 @@
+{
+  "stage": "final selected subset after candidate withdrawal",
+  "commands": [
+    "python -X utf8 -m unittest discover -s tests -p test_contracts.py",
+    "python -X utf8 <skill-creator>/scripts/quick_validate.py skills/edu-writing"
+  ],
+  "result": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "fcd5f6",
+      "wall_time_seconds": 0.1730338,
+      "exit_code": 0,
+      "original_token_count": 33,
+      "output": "..........\r\n----------------------------------------------------------------------\r\nRan 10 tests in 0.044s\r\n\r\nOK\r\nSkill is valid!\r\n"
+    }
+  },
+  "limitation": "Mechanical structure checks only; no new writing generations after final selection."
+}

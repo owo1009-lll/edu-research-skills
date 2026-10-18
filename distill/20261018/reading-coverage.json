@@ -1,0 +1,345 @@
+{
+  "note": "A received file, a search snippet and a completed reading are distinct. This is the current reading ledger; acquisition records preserve the earlier download-time status. All analysis is by AI; no human review.",
+  "readings": [
+    {
+      "id": "E06",
+      "status": "main_article_figures_appendix_notes_read",
+      "read_date": "2026-10-18",
+      "coverage": "PDF pages 2-15, full main text and glossary; all nine notes on page 16; Figures 1-6 viewed on rendered pages 4,5,8,10,11,12",
+      "not_read": "Reference list not independently verified; cited empirical studies and formal proofs not independently read",
+      "identity": "Institutional repository cover and article title, author, DOI and pagination agree with metadata",
+      "analysis": "papers/E06.md",
+      "issues": [
+        "Illustrative numbers and causal graphs are assumptions in teaching examples, not empirical findings",
+        "Whether to control a mediator depends on the estimand and causal structure",
+        "Some broad summary claims and glossary simplifications cannot be reused as automatic statistical rules"
+      ]
+    },
+    {
+      "id": "E08",
+      "status": "main_article_read",
+      "read_date": "2026-10-18",
+      "coverage": "JATS main text B001–B060, Table 1 and figure captions",
+      "not_read": "Supplementary analyses/tables and figure images; cited works not independently read",
+      "identity": "Title, authors, DOI and journal match the PMC full text and Crossref",
+      "analysis": "papers/E08.md",
+      "issues": [
+        "Observational design with grades preceding the faculty survey",
+        "Several null-result equivalence phrasings and causal-sounding interpretations are not adopted"
+      ]
+    },
+    {
+      "id": "E09",
+      "status": "main_article_tables_notes_read",
+      "read_date": "2026-10-18",
+      "coverage": "PDF pages 2-17 (printed pages 1-16), full main text, both tables and all six notes",
+      "not_read": "Remaining reference-list pages not checked item by item; cited studies not independently read",
+      "identity": "Author, title, journal and DOI match the BU repository PDF and registered metadata; PDF page 1 is a repository cover",
+      "analysis": "papers/E09.md",
+      "issues": [
+        "Interviewed students were not randomly assigned to precollege schools",
+        "Ideal types include within-group exceptions and later adaptation",
+        "Some concluding necessity and developmental claims exceed direct comparisons"
+      ]
+    },
+    {
+      "id": "E10",
+      "status": "main_article_tables_notes_read",
+      "read_date": "2026-10-18",
+      "coverage": "PDF pages 1-28, entire main text and 40 footnotes; first-page identity and column order visually checked; Tables 1-4 viewed on rendered pages 5,7,9,16",
+      "not_read": "Reference list not independently verified; later follow-up publications not read or imported into this article",
+      "identity": "University-hosted filename includes 2003, but visual first page identifies ASR 2002, volume 67, pages 747-776 with matching author and title. DOI absent from PDF text; identity manually matched to registered metadata.",
+      "analysis": "papers/E10.md",
+      "issues": [
+        "88-family interviews and 12-family intensive observations are distinct evidence layers",
+        "Case matching is not control of all confounding influences",
+        "Question denominators and missing items vary",
+        "Observed institutional exchanges do not directly measure adult life-course consequences",
+        "Some extraction headers repeat; first-page two-column sequence checked visually"
+      ]
+    },
+    {
+      "id": "E11",
+      "status": "main_article_and_tables_read",
+      "read_date": "2026-10-18",
+      "coverage": "Publisher HTML B001–B096, abstract through conclusion; separately retrieved Tables 1–4",
+      "not_read": "Cited works not independently read; no statistical reanalysis",
+      "identity": "Publisher title, authors and DOI match Crossref",
+      "analysis": "papers/E11.md",
+      "table_sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s40753-020-00118-5/tables/1",
+          "sha256": "01e3c73e71fb42165114d7439a1622bc404ca03ee0adf18546ddd84aee974acf"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s40753-020-00118-5/tables/2",
+          "sha256": "4c56dba161020a01ae803656fc9c18c0bae25b3edef60fa572cb9186cc38f63e"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s40753-020-00118-5/tables/3",
+          "sha256": "b1ed5aa650b70602662cac2759bf6cf02ad96387cc23adf7e3d462525a52865d"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s40753-020-00118-5/tables/4",
+          "sha256": "fa7e36718e3a1defdf4c8a9b28d2fca8e3b6c4d7b1efb35a84695ec545741888"
+        }
+      ],
+      "issues": [
+        "Personal-interest statements conflict with Table 4",
+        "Some profile generalisations exceed the reported category distribution",
+        "Table 3 denominator degrees of freedom need verification",
+        "Significance differences alone cannot establish conflict with earlier research"
+      ],
+      "correction_check": {
+        "date": "2026-10-18",
+        "source": "https://crossmark.crossref.org/dialog/?doi=10.1007%2Fs40753-020-00118-5",
+        "result": "Crossmark displays Document is current and no updates; this does not resolve the internal inconsistencies."
+      }
+    },
+    {
+      "id": "E12",
+      "status": "main_article_tables_figures_read",
+      "read_date": "2026-10-18",
+      "coverage": "Publisher HTML B001-B096, Tables 1-3 with notes, original Figures 1-3",
+      "not_read": "Supplementary materials, interview transcripts and cited works not independently read",
+      "identity": "Publisher title, authors and DOI match registered Crossref metadata",
+      "analysis": "papers/E12.md",
+      "display_sources": [
+        {
+          "kind": "table",
+          "number": 1,
+          "url": "https://link.springer.com/article/10.1007/s10459-024-10324-4/tables/1",
+          "sha256": "28eb3221085b95238bd06bcc1abbbc88308808a0304a47d72cd94e2becb34366",
+          "bytes": 228569
+        },
+        {
+          "kind": "table",
+          "number": 2,
+          "url": "https://link.springer.com/article/10.1007/s10459-024-10324-4/tables/2",
+          "sha256": "623e82db4d0cd30f689de5423c3488360ce0b21eb2fdcefc3deb4f0c4a0aebcf",
+          "bytes": 232999
+        },
+        {
+          "kind": "table",
+          "number": 3,
+          "url": "https://link.springer.com/article/10.1007/s10459-024-10324-4/tables/3",
+          "sha256": "c6c98d1e0d4c387b1e7e61b74082c9542b59bf5ff0d146267387cea9bfe8946f",
+          "bytes": 230866
+        },
+        {
+          "kind": "figure",
+          "number": 1,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10459-024-10324-4/MediaObjects/10459_2024_10324_Fig1_HTML.png",
+          "sha256": "4af66701b02dae033f08004fcd03df17012e034920cdfede886f6469ad6fb21e",
+          "bytes": 272537
+        },
+        {
+          "kind": "figure",
+          "number": 2,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10459-024-10324-4/MediaObjects/10459_2024_10324_Fig2_HTML.png",
+          "sha256": "ea9f8a00e326bdd80c57e4025345b4c29cd8db577ee53635c4210f02ca955e41",
+          "bytes": 124081
+        },
+        {
+          "kind": "figure",
+          "number": 3,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10459-024-10324-4/MediaObjects/10459_2024_10324_Fig3_HTML.png",
+          "sha256": "1876fe5a5eff15d26069fec141bdd86da2172f167e05b99c86ee2345af0fd995",
+          "bytes": 140646
+        }
+      ],
+      "issues": [
+        "Assessment stakes co-vary with year group, proctoring and location",
+        "Different feedback measures refer to different actions and subsets",
+        "Quantitative patterns do not independently confirm the interview-derived mechanism",
+        "Table 1 Pass count, preceding-test year, B086 negation and Figure 3 caption contain unresolved inconsistencies"
+      ]
+    },
+    {
+      "id": "E13",
+      "status": "main_article_appendix_tables_figure_read",
+      "read_date": "2026-10-18",
+      "coverage": "Publisher HTML B001-B109; Appendix A B323-B326 with HTML column structure; Tables 1-6 (1,2,5,6 as original images) and Figure 1",
+      "not_read": "Online supplementary files and the 24 underlying studies not independently read",
+      "identity": "Publisher title, authors and DOI match registered Crossref metadata",
+      "analysis": "papers/E13.md",
+      "display_sources": [
+        {
+          "kind": "table",
+          "number": 1,
+          "url": "https://link.springer.com/article/10.1007/s10648-024-09957-z/tables/1",
+          "sha256": "9c2d19836bdcdc86d4bfe0cba751b4f4388eeb40dd6f66634ff4a65fc9fc3299",
+          "bytes": 198059
+        },
+        {
+          "kind": "table",
+          "number": 2,
+          "url": "https://link.springer.com/article/10.1007/s10648-024-09957-z/tables/2",
+          "sha256": "a991305b443516f869a6337e0b732a2579cefa88632662784737c732ce811866",
+          "bytes": 198649
+        },
+        {
+          "kind": "table",
+          "number": 3,
+          "url": "https://link.springer.com/article/10.1007/s10648-024-09957-z/tables/3",
+          "sha256": "2ef29597fa114c837277a8e066862372e9101ab60cd777b305aa7ce143ccb1ce",
+          "bytes": 201019
+        },
+        {
+          "kind": "table",
+          "number": 4,
+          "url": "https://link.springer.com/article/10.1007/s10648-024-09957-z/tables/4",
+          "sha256": "01d32d80a2921f862a971eebb9ca12b707b42de9b187da4b5580a460f3b9c328",
+          "bytes": 198925
+        },
+        {
+          "kind": "table",
+          "number": 5,
+          "url": "https://link.springer.com/article/10.1007/s10648-024-09957-z/tables/5",
+          "sha256": "5f2467bb6e7e65c4b2a28e2134274ccaac86498de5693897616830c8ef272c16",
+          "bytes": 198419
+        },
+        {
+          "kind": "table",
+          "number": 6,
+          "url": "https://link.springer.com/article/10.1007/s10648-024-09957-z/tables/6",
+          "sha256": "9ba957f30a366dad9ff6e00b2dadc3ab8cf89f72a90701bf258ede42850c3cfd",
+          "bytes": 198373
+        },
+        {
+          "kind": "table",
+          "number": 1,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10648-024-09957-z/MediaObjects/10648_2024_9957_Tab1_HTML.png",
+          "sha256": "1591dddc0ae1fb38a4de5cc137804b7ba011b4e2b6fc0072449b66f395696d3c",
+          "bytes": 220626
+        },
+        {
+          "kind": "table",
+          "number": 2,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10648-024-09957-z/MediaObjects/10648_2024_9957_Tab2_HTML.png",
+          "sha256": "fc4af5b8464ae500df9143fe06fdb2383b9821fa64105d517d70ff45b87c21ba",
+          "bytes": 313082
+        },
+        {
+          "kind": "table",
+          "number": 5,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10648-024-09957-z/MediaObjects/10648_2024_9957_Tab5_HTML.png",
+          "sha256": "b3d1defd32984ed79921e97f6e9dbf3f82339a2fb0bd238aff05f3bc90447f5a",
+          "bytes": 100769
+        },
+        {
+          "kind": "table",
+          "number": 6,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10648-024-09957-z/MediaObjects/10648_2024_9957_Tab6_HTML.png",
+          "sha256": "ba1eaca009bbd2c9b314ebb89234598a8848ec09e99e2f996512943d3ca2891f",
+          "bytes": 159768
+        },
+        {
+          "kind": "figure",
+          "number": 1,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10648-024-09957-z/MediaObjects/10648_2024_9957_Fig1_HTML.png",
+          "sha256": "810f0af63f4671340fdd728a36fdc7fd086f34ecb066df5f935cdd8e9f3e4f02",
+          "bytes": 433396
+        }
+      ],
+      "issues": [
+        "Descriptive direction counts do not test effect size or theory quality",
+        "Theory-use coding is an operational framework, not a universal contribution hierarchy",
+        "B026 and Figure 1 disagree on full-text count",
+        "B058 prosody outcomes differ from Appendix A and Table 1",
+        "B080 figure references do not match current table labels"
+      ]
+    },
+    {
+      "id": "E14",
+      "status": "main_article_and_figures_read",
+      "read_date": "2026-10-18",
+      "coverage": "PDF pages 1-18, entire main text; acknowledgments and conflict declaration on page 19; Figures 1-5 viewed on rendered pages 3,6,9,12,15",
+      "not_read": "Reference list not verified entry by entry; underlying experiments and theoretical papers not independently read",
+      "identity": "Title, authors, DOI and pagination match the UCLA-hosted journal PDF and registered metadata",
+      "analysis": "papers/E14.md",
+      "issues": [
+        "Selective integrative review, not a reproducible systematic search or bias appraisal",
+        "Spacing and interleaving mechanisms are not interchangeable",
+        "Delay duration and subsequent learning opportunities must remain explicit",
+        "Several plots contain adapted or approximated data; theoretical assumptions are not directly measured facts"
+      ]
+    },
+    {
+      "id": "E15",
+      "status": "main_article_captions_equations_read",
+      "read_date": "2026-10-18",
+      "coverage": "JATS B001-B083, full main article and methods, Figures 1-4 captions, plus display equations 1-6 read directly in source.xml",
+      "not_read": "Figure images, supplementary materials and underlying data; cited works not independently read except E08 already in this corpus",
+      "identity": "Title, authors and DOI match PMC full text and Crossref",
+      "analysis": "papers/E15.md",
+      "issues": [
+        "Overall results, subgroup distribution and proposed mechanism are different claims",
+        "Broad all/only phrasings require the corresponding comparisons; supplementary models not audited",
+        "MCMC chain counts differ between B067 and B072",
+        "No raw-data reanalysis; sampling-bias checks have limited scope"
+      ]
+    },
+    {
+      "id": "E16",
+      "status": "full_article_read",
+      "read_date": "2026-10-18",
+      "coverage": "PDF pages 52–60, printed pages 48–56: entire article, notes and reference list",
+      "not_read": "Other papers in the downloaded journal issue; cited works not independently read",
+      "identity": "Article heading, author and DOI footers match Crossref; whole-issue download contains the target article only at the specified pages",
+      "analysis": "papers/E16.md",
+      "issues": [
+        "Historical and normative argument is not an intervention-effect evaluation",
+        "Characterisation of Deng and the cited closing empirical result remain the author's interpretation/report"
+      ]
+    },
+    {
+      "id": "E17",
+      "status": "main_article_figure_notes_read",
+      "read_date": "2026-10-18",
+      "coverage": "PDF pages 1-15, full Chinese main text; Figure 1 viewed on rendered page 12; both notes and English abstract on page 18",
+      "not_read": "Reference list not checked item by item; underlying CCSS studies and unpublished reports not independently read",
+      "identity": "Title, authors, DOI and journal match the publisher PDF and registered metadata",
+      "analysis": "papers/E17.md",
+      "issues": [
+        "Project history and conceptual reconstruction are distinct from independent tests of each cited empirical claim",
+        "Terminology uptake by policy is not evidence of policy effects",
+        "Some broad descriptions of Western theories and causal claims for machine learning exceed the case evidence"
+      ]
+    },
+    {
+      "id": "E18",
+      "status": "main_article_tables_figures_read",
+      "read_date": "2026-10-18",
+      "coverage": "PDF pages 1-19, all Chinese main text and Tables 1-3; Figures 1-3 viewed on rendered PDF pages 10,14,16; English abstract on page 22",
+      "not_read": "Reference list not checked entry by entry; raw interviews, observations and collected objects unavailable; cited research not independently read",
+      "identity": "Title, authors, DOI and journal match the public university-hosted PDF and registered metadata",
+      "analysis": "papers/E18.md",
+      "issues": [
+        "49 participants include teachers, school managers and administrators",
+        "Main cases are five primary schools; contextual differences do not isolate a reform effect",
+        "Actor accounts of parents, media and responsibility are not independently verified external facts",
+        "Figure 3 is a conceptual classification, not a numerical measurement"
+      ]
+    },
+    {
+      "id": "E19",
+      "status": "main_article_read",
+      "read_date": "2026-10-18",
+      "coverage": "JATS B001-B079, full main article and both figure captions",
+      "not_read": "Supplementary analyses/tables, figure images and preregistration original/amendment history; cited works not independently read",
+      "identity": "Title, authors and DOI match PMC full text and Crossref",
+      "analysis": "papers/E19.md",
+      "issues": [
+        "Main randomized-sample overall effect remains imprecise",
+        "Prespecified versus exploratory status is author-reported, not independently audited",
+        "Some null-result and replication phrasings exceed reported precision",
+        "B040/B044 comparison-group text contains apparent duplicate-group naming"
+      ]
+    }
+  ],
+  "downloaded_pending_reading": [],
+  "earlier_reuse": {
+    "E07": "Main argument reread in preceding work, excluded from new-paper count; other E01–E05 downloads are prior-source reuse and do not count as newly read papers"
+  }
+}

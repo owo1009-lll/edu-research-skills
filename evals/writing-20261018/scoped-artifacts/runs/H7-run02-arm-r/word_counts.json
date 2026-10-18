@@ -1,0 +1,19 @@
+{
+  "method": "Unicode word tokens; apostrophes, hyphens and en dashes inside a word are retained. Reference section and headings excluded. Alternative whitespace count provided.",
+  "counts": {
+    "first": {
+      "body_words": 690,
+      "conclusion_words": 63,
+      "including_attribution": 723,
+      "body_whitespace_words": 682,
+      "within_requested_range": true
+    },
+    "final": {
+      "body_words": 681,
+      "conclusion_words": 63,
+      "including_attribution": 714,
+      "body_whitespace_words": 673,
+      "within_requested_range": true
+    }
+  }
+}

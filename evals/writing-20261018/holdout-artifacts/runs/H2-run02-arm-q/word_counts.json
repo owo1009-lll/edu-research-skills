@@ -1,0 +1,16 @@
+{
+  "first.md": {
+    "sections_words_whitespace": 694,
+    "conclusion_words_whitespace": 53,
+    "with_attribution_excluding_references_and_headings": 717,
+    "question_mark_count": 0,
+    "range_punctuation_correct": true
+  },
+  "final.md": {
+    "sections_words_whitespace": 720,
+    "conclusion_words_whitespace": 57,
+    "with_attribution_excluding_references_and_headings": 743,
+    "question_mark_count": 0,
+    "range_punctuation_correct": true
+  }
+}

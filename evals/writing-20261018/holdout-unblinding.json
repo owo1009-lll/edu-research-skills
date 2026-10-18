@@ -1,0 +1,96 @@
+{
+  "published_after_reviews": true,
+  "pairs": [
+    {
+      "pair": "H1-pair01",
+      "assignment": {
+        "A": {
+          "run": "H1-run01-arm-p/final.md",
+          "sha256": "32a5018692ea934d6517a0f0f47cbd2dad200e0cc33fb94e32248e0a08a4c918"
+        },
+        "B": {
+          "run": "H1-run01-arm-q/final.md",
+          "sha256": "5a0808a094d7bf1bb4cd619990faae6156fd328f93ad7c05a6b90c3328896eaf"
+        }
+      }
+    },
+    {
+      "pair": "H1-pair02",
+      "assignment": {
+        "A": {
+          "run": "H1-run02-arm-p/final.md",
+          "sha256": "a4b19041323ee62020b048d309cf47354197797ec1353a654398a67325dd133b"
+        },
+        "B": {
+          "run": "H1-run02-arm-q/final.md",
+          "sha256": "1a009409068053f9d1d3b526b41dbfddd410d78acca35e22355b0c1369eefe01"
+        }
+      }
+    },
+    {
+      "pair": "H2-pair01",
+      "assignment": {
+        "A": {
+          "run": "H2-run01-arm-p/final.md",
+          "sha256": "15107f246d4e46c7c7c0652875ce0810269638fad70a78fde8fc3ae60ffbe29a"
+        },
+        "B": {
+          "run": "H2-run01-arm-q/final.md",
+          "sha256": "0625fb5bc8dd3eefc509c7cd198e3c48a10435d88ab9312dd5169dd7a8ba6cea"
+        }
+      }
+    },
+    {
+      "pair": "H2-pair02",
+      "assignment": {
+        "A": {
+          "run": "H2-run02-arm-p/final.md",
+          "sha256": "fe99cf8284c8f28f4359c46f66268092d1e03648081a7a0fed7759f0852d8742"
+        },
+        "B": {
+          "run": "H2-run02-arm-q/final.md",
+          "sha256": "e1916bcdfa8f6a6fbd9d5f3be652e9ec1174a941a83febf1f302592ac0d097d8"
+        }
+      }
+    },
+    {
+      "pair": "H3-pair01",
+      "assignment": {
+        "A": {
+          "run": "H3-run01-arm-p/final.md",
+          "sha256": "558e9276b066495906f24062441c9e76e95679eda60d37992919ec918e14c56b"
+        },
+        "B": {
+          "run": "H3-run01-arm-q/final.md",
+          "sha256": "47d41affdaa98d93f0f90df6a8b3b66c29a7feff100615b2ec9fae1083aebcdb"
+        }
+      }
+    },
+    {
+      "pair": "H4-pair01",
+      "assignment": {
+        "A": {
+          "run": "H4-run01-arm-q/final.md",
+          "sha256": "7c6b7a8ef4bcddefd4932c8396a2b7fb60ce30833c66f84e953e8e2aa7da9265"
+        },
+        "B": {
+          "run": "H4-run01-arm-p/final.md",
+          "sha256": "635b12b650fe80d4e14bc5ef4f0ab29a9aa7437cdfdf6750fcfa814daf28700c"
+        }
+      }
+    },
+    {
+      "pair": "H5-pair01",
+      "assignment": {
+        "A": {
+          "run": "H5-run01-arm-q/final.md",
+          "sha256": "39dc0455366ea9f057660a37b3d61e5eb5293a3165369905a789d3ecc0d42eed"
+        },
+        "B": {
+          "run": "H5-run01-arm-p/final.md",
+          "sha256": "e08507d66e749cfef83af89eeea999c1f155f96d67d57cd68a00f964a0c16f28"
+        }
+      }
+    }
+  ]
+}

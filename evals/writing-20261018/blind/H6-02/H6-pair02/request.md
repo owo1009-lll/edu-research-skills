@@ -1,0 +1,5 @@
+# Writing request
+
+Using the supplied real-study materials, write a new English Introduction, Discussion and Conclusion for a secondary writing exercise about a structured AI tutor in introductory physics. Aim for 600–750 words in total, excluding references. The audience is education researchers interested in teaching decisions who are not physics or AI specialists. Make the research question, interpretation and educational contribution clear in connected academic prose. Choose the balance among sections to serve the argument. This is a bounded exercise using a published study, not a claim that we conducted new research.
+
+Use only the supplied evidence and source information. Save `first.md`, a substantive self-review in `review.md`, the revised `final.md`, `rationale.md`, and `loads.json` recording actual resources read and their purpose. Keep author queries and checking notes in the work records. Run relevant skill checks on first and final drafts; save and inspect the outputs. Do not use other runs or search the web.

@@ -1,0 +1,15 @@
+first.md: UTF-8 OK; chars=1369; sha256=e9db6569d587c6aed35bedf27198b07fb3f7e177b8bae19198d281c5350082bf
+review.md: UTF-8 OK; chars=3770; sha256=547531342a0b56bf6001528770738b7c0da00f07a998d28dd31d12500546030e
+final.md: UTF-8 OK; chars=1384; sha256=635b12b650fe80d4e14bc5ef4f0ab29a9aa7437cdfdf6750fcfa814daf28700c
+rationale.md: UTF-8 OK; chars=3193; sha256=7e64b72d9e7ef161c6311bc5926adfd3b199d8d004886d7eafb6be37267174f9
+change_log.md: UTF-8 OK; chars=2318; sha256=048118189b40313d409012eb712b9f363e992891fa0c221d2765d7fd11e0de2b
+loads.json: UTF-8 OK; chars=12663; sha256=0bb813517e57ef37ffb0e4c6c7ff92c49aa0ecdbb6c9ed16ba707b9817c248e6
+first.check_voice.txt: UTF-8 OK; chars=1360; sha256=3fc6083fa4faa85a7e7e041eb04a02768af1a3ac221cb601a7da93c3361a9439
+first.check_prose.txt: UTF-8 OK; chars=585; sha256=f5ecb8730f39fd9657b3099f1036428db0741d2c98f4f3d501eb5b53487f5288
+final.check_voice.txt: UTF-8 OK; chars=1470; sha256=9c762feaa36bc892794e6726d6a5f55303beaeb9aef73317b21f46b379e057d3
+final.check_prose.txt: UTF-8 OK; chars=585; sha256=f57032d094181c2dfa9ad2eb1a6b9f9f37f9317027cdebd97a56af1729eef260
+encoding-failure.first.check_voice.txt: UTF-8 OK; chars=1257; sha256=014c9dc50a99cad5c2ead74c915e24fd9b8cceb1e2ec29b0aec6f7f12b768327
+encoding-failure.first.check_prose.txt: UTF-8 OK; chars=964; sha256=0ea7d94990af4d4a3fbb75018c5ba97c153fca5abcffd77252f7fcb128b1ee70
+first.md: four body paragraphs; attribution and license outside body; original citation names retained.
+final.md: four body paragraphs; attribution and license outside body; original citation names retained.
+Validation completed using python -X utf8; no network or outside content read.

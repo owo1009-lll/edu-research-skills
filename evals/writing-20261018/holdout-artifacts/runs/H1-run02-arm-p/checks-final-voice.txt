@@ -1,0 +1,27 @@
+COMMAND: ['python', '-X', 'utf8', '-B', 'C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py', '--draft', 'C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md', '--source', 'C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-materials.md']
+EXIT CODE: 0
+
+STDOUT:
+Language: en | discussion/conclusion sentences: 27 | paragraphs: 6
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 7.4  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 2
+  (keep those that state a condition the claim needs)
+  [para 3] A sleep-related explanation is plausible, but the study did not establish that longer sleep accounted for this difference.
+  [para 4] The pattern warrants examining whether later starts support participation among disadvantaged students, but a difference in statistical significance between sch
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)
+
+STDERR:

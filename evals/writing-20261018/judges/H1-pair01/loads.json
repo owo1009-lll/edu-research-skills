@@ -1,0 +1,92 @@
+{
+    "assessment_id":  "H1-pair01",
+    "assessment_type":  "AI assessment of supplied anonymous manuscripts; not human review or independent verification",
+    "visible_environment_date":  "2026-10-18",
+    "visible_environment_timezone":  "Asia/Shanghai",
+    "resources_read":  [
+                           {
+                               "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+                               "encoding":  "UTF-8",
+                               "purpose":  "Read the anonymous judging instructions and required assessment dimensions.",
+                               "read_count":  1,
+                               "command_output_max_tokens":  20000,
+                               "tool_reported_original_token_count":  null,
+                               "visibility":  "Full instruction text visible; no truncation marker.",
+                               "token_count_note":  "The initial instruction call printed only output text, so its exact tool-reported token count was not exposed to the judge."
+                           },
+                           {
+                               "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-01/H1-pair01/request.md",
+                               "encoding":  "UTF-8",
+                               "purpose":  "Understand writing task, audience, structure and length; did not execute writing request.",
+                               "read_count":  1,
+                               "command_output_max_tokens":  24000,
+                               "tool_reported_original_token_count":  256,
+                               "visibility":  "Full text visible; no truncation."
+                           },
+                           {
+                               "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-01/H1-pair01/materials.md",
+                               "encoding":  "UTF-8",
+                               "purpose":  "Establish supplied factual evidence, source interpretation, reading scope and unresolved source questions.",
+                               "read_count":  1,
+                               "command_output_max_tokens":  24000,
+                               "tool_reported_original_token_count":  1584,
+                               "visibility":  "Full text visible, including final unavailable-evidence paragraph; no truncation."
+                           },
+                           {
+                               "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-01/H1-pair01/A.md",
+                               "encoding":  "UTF-8",
+                               "purpose":  "Assess manuscript A against packet and compare; reread in memory for body word count and end-of-file checks.",
+                               "read_count":  2,
+                               "initial_command_output_max_tokens":  24000,
+                               "initial_tool_reported_original_token_count":  1295,
+                               "visibility":  "Entire manuscript and reference ending visible; no truncation.",
+                               "raw_characters_reported_by_powershell":  5178,
+                               "body_whitespace_word_count":  633
+                           },
+                           {
+                               "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H1-01/H1-pair01/B.md",
+                               "encoding":  "UTF-8",
+                               "purpose":  "Assess manuscript B against packet and compare; reread in memory for body word count and end-of-file checks.",
+                               "read_count":  2,
+                               "initial_command_output_max_tokens":  24000,
+                               "initial_tool_reported_original_token_count":  1357,
+                               "visibility":  "Entire manuscript and reference ending visible; no truncation.",
+                               "raw_characters_reported_by_powershell":  5424,
+                               "body_whitespace_word_count":  672
+                           }
+                       ],
+    "output_limits":  {
+                          "functions_exec_outer_max_output_tokens":  "Default 10000; no explicit override used.",
+                          "word_count_command_max_output_tokens":  2000,
+                          "word_count_output_tool_reported_original_token_count":  64,
+                          "directory_existence_check_max_output_tokens":  1000,
+                          "final_write_command_max_output_tokens":  2000,
+                          "truncation_observed":  false,
+                          "completeness_check":  "Each full content response was visible. Both manuscripts included Conclusion and the final DOI. Follow-up reads counted body words and checked both markers without dumping the manuscripts again.",
+                          "word_count_method":  "Whitespace-delimited tokens between Introduction and References, excluding section headings; title, exercise note and reference list excluded."
+                      },
+    "model_information":  {
+                              "visible_assistant_description":  "Codex, an agent based on GPT-6, as stated in developer instructions.",
+                              "exact_backend_model_version":  "不可获取",
+                              "temperature":  "不可获取",
+                              "random_seed":  "不可获取",
+                              "manuscript_generator_identity":  "Unknown; not inferred."
+                          },
+    "access_boundaries":  {
+                              "network_used":  false,
+                              "subagents_used":  false,
+                              "skills_read":  false,
+                              "other_pairs_read":  false,
+                              "development_records_read":  false,
+                              "original_runs_read":  false,
+                              "blinding_keys_read":  false,
+                              "inputs_modified":  false,
+                              "output_directory_existed_before_creation":  false
+                          },
+    "outputs":  [
+                    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H1-pair01/review.md",
+                    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H1-pair01/loads.json"
+                ],
+    "overall_preference":  "B, slight and local advantage; not evidence of stable improvement",
+    "serious_demonstrated_errors":  "None established from the supplied packet."
+}

@@ -1,0 +1,35 @@
+{
+  "stage": "new sources selected after scoped-r01 freeze, before scoped generation",
+  "selected_utc": "2026-10-18T04:51:29.045662+00:00",
+  "candidate_freeze": "scoped-freeze.json",
+  "sources": [
+    {
+      "id": "H6",
+      "doi": "10.1038/s41598-025-97652-6",
+      "title": "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
+      "type": "quantitative randomized educational comparison",
+      "selection_reason": "Specific instructional conditions, short-term achievement and perceived experience allow testing whether comparisons explain what changed without generalizing to all AI use. Not selected for a favorable outcome.",
+      "urls": [
+        "https://www.nature.com/articles/s41598-025-97652-6",
+        "https://www.nature.com/articles/s41598-025-97652-6.pdf"
+      ]
+    },
+    {
+      "id": "H7",
+      "doi": "10.1371/journal.pone.0280310",
+      "title": "Investigating the evolution of undergraduate medical students’ perception and performance in relation to an innovative curriculum-based research module: A convergent mixed methods study launching the 8A-Model",
+      "type": "convergent mixed methods medical education",
+      "selection_reason": "Concurrent cohort perceptions and course records support a real integration task with an author-named framework, distinct from the earlier food-access source. A CC BY discussion can be revised and compressed with attribution.",
+      "urls": [
+        "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0280310&type=manuscript"
+      ]
+    }
+  ],
+  "excluded_before_selection": [
+    {
+      "doi": "10.1073/pnas.1821936116",
+      "reason": "Already recorded in prior-index.json; excluded from new holdout source identities."
+    }
+  ],
+  "dedup_scope": "DOI/title search in recoverable prior exposure index, current development sources and first holdout sources; unavailable historical manifests remain a limitation."
+}

@@ -1,0 +1,97 @@
+{
+    "assessment":  "AI anonymous comparison of supplied texts; no human review or independent source verification",
+    "pair_id":  "H5-pair01",
+    "date":  "2026-10-18",
+    "actual_resources_read":  [
+                                  {
+                                      "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+                                      "purpose":  "Read assessment instructions",
+                                      "encoding":  "UTF-8",
+                                      "full_content_read":  true,
+                                      "command_output_limit_tokens":  16000,
+                                      "returned_original_token_count":  649,
+                                      "truncated":  false
+                                  },
+                                  {
+                                      "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H5-01/H5-pair01/request.md",
+                                      "purpose":  "Understand writing task and assess applicable output requirements; do not execute writing task",
+                                      "encoding":  "UTF-8",
+                                      "full_content_read":  true,
+                                      "command_output_limit_tokens":  24000,
+                                      "returned_original_token_count":  228,
+                                      "truncated":  false
+                                  },
+                                  {
+                                      "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H5-01/H5-pair01/materials.md",
+                                      "purpose":  "Use supplied evidence and source caveats as the sole factual comparison basis",
+                                      "encoding":  "UTF-8",
+                                      "full_content_read":  true,
+                                      "command_output_limit_tokens":  24000,
+                                      "returned_original_token_count":  1508,
+                                      "truncated":  false
+                                  },
+                                  {
+                                      "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H5-01/H5-pair01/A.md",
+                                      "purpose":  "Assess manuscript A against supplied task and materials; reread programmatically for word count",
+                                      "encoding":  "UTF-8",
+                                      "full_content_read":  true,
+                                      "command_output_limit_tokens":  24000,
+                                      "returned_original_token_count":  1142,
+                                      "truncated":  false
+                                  },
+                                  {
+                                      "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H5-01/H5-pair01/B.md",
+                                      "purpose":  "Assess manuscript B against supplied task and materials; reread programmatically for word count",
+                                      "encoding":  "UTF-8",
+                                      "full_content_read":  true,
+                                      "command_output_limit_tokens":  24000,
+                                      "returned_original_token_count":  1156,
+                                      "truncated":  false
+                                  }
+                              ],
+    "output_limits":  {
+                          "functions_exec_direct_output_limit_tokens":  "Default 10000; not overridden",
+                          "read_batch_combined_output":  "All four files fully visible; no output truncation observed",
+                          "word_count_command_output_limit_tokens":  1000,
+                          "word_count_returned_original_token_count":  62,
+                          "review_write_command_output_limit_tokens":  1000,
+                          "metadata_write_command_output_limit_tokens":  1000,
+                          "final_generation_limit":  "不可获取"
+                      },
+    "visible_model_information":  {
+                                      "visible_identity":  "Developer instructions identify this agent as Codex, based on GPT-6",
+                                      "precise_backend_version":  "不可获取",
+                                      "temperature":  "不可获取",
+                                      "random_seed":  "不可获取",
+                                      "model_override_used":  false
+                                  },
+    "compliance":  {
+                       "network_used":  false,
+                       "skills_read":  false,
+                       "subagents_spawned":  false,
+                       "other_pairs_read":  false,
+                       "blind_key_read":  false,
+                       "original_runs_read":  false,
+                       "development_records_read":  false,
+                       "input_files_modified":  false,
+                       "writing_request_executed":  false,
+                       "human_review":  false,
+                       "independent_source_verification":  false
+                   },
+    "word_count":  {
+                       "method":  "Whitespace-delimited tokens in Discussion plus Conclusion; excludes preamble, headings and references",
+                       "A_total":  548,
+                       "A_conclusion":  57,
+                       "B_total":  565,
+                       "B_conclusion":  54
+                   },
+    "result":  {
+                   "overall_preference":  "B, slight",
+                   "demonstrated_serious_errors":  "None established by supplied materials",
+                   "limits":  "Single-pair preference only; no claim of stable improvement or general writing quality"
+               },
+    "output_paths":  [
+                         "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H5-pair01/review.md",
+                         "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H5-pair01/loads.json"
+                     ]
+}

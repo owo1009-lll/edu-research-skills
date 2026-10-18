@@ -1,0 +1,6 @@
+first.md: UTF-8 readable; 4 body paragraphs; 2 must clauses; citations and license retained.
+final.md: UTF-8 readable; 4 body paragraphs; 2 must clauses; citations and license retained.
+rationale.md: UTF-8 readable; contains Chinese text; no replacement character.
+review.md: UTF-8 readable; contains Chinese text; no replacement character.
+change_log.md: UTF-8 readable; contains Chinese text; no replacement character.
+loads.json: parsed successfully as UTF-8 JSON; actual source paths and own-output reads recorded.

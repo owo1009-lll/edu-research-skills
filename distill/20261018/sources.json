@@ -1,0 +1,107 @@
+{
+  "purpose": "Development corpus only; these are not final holdouts. Acquisition is not reading or endorsement.",
+  "sources": [
+    {
+      "id": "E01",
+      "title": "The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes",
+      "doi": "10.1080/00461520.2014.965823",
+      "type": "conceptual_framework_and_evidence_review",
+      "language": "en",
+      "prior_use": "W01 in existing method cards; development reuse",
+      "urls": [
+        "https://csi.asu.edu/wp-content/uploads/2018/01/ChiWylie2014ICAP.pdf"
+      ],
+      "format": "pdf",
+      "reason": "Concept definition, observable examples and conditional theoretical predictions",
+      "rights": "University-hosted author paper; no full-text redistribution in this repository"
+    },
+    {
+      "id": "E02",
+      "title": "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom",
+      "doi": "10.1073/pnas.1821936116",
+      "type": "quantitative_experiment",
+      "language": "en",
+      "prior_use": "T1 in 20261013; development reuse",
+      "urls": [
+        "https://www.williams.edu/teaching-center/files/2023/09/Deslauriers-et-al.-2019.pdf",
+        "https://bpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/9/11828/files/2019/09/Measuring-actual-learning-versus-feeling-of-learning-in-1.pdf"
+      ],
+      "format": "pdf",
+      "reason": "Outcome distinctions, experimental decisions and competing interpretations",
+      "rights": "Published CC BY-NC-ND 4.0; only original analysis and links published here"
+    },
+    {
+      "id": "E03",
+      "title": "Belonging Interrupted: Toward an Understanding of How Virtual Learning Impedes Women Students’ Belonging in Engineering",
+      "doi": "10.1007/s10755-024-09711-x",
+      "type": "qualitative_focus_groups",
+      "language": "en",
+      "prior_use": "N07 in existing method development; reuse",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s10755-024-09711-x",
+        "https://d-nb.info/1336407913/34"
+      ],
+      "format": "html_or_pdf",
+      "reason": "Case variation, countercases and bounded explanatory claims",
+      "rights": "Publisher open-access article; verify licence in downloaded body"
+    },
+    {
+      "id": "E04",
+      "title": "Exploring instructional designers’ utilization and perspectives on generative AI tools: A mixed methods study",
+      "doi": "10.1007/s11423-024-10437-y",
+      "type": "sequential_mixed_methods",
+      "language": "en",
+      "prior_use": "EN04 in earlier 50-article corpus; reuse",
+      "urls": [
+        "https://link.springer.com/article/10.1007/s11423-024-10437-y",
+        "https://link.springer.com/content/pdf/10.1007/s11423-024-10437-y.pdf"
+      ],
+      "format": "html_or_pdf",
+      "reason": "Integration of reported frequencies and interviews; distinguish substantive synthesis from parallel lists",
+      "rights": "Publisher open access; old manifest says CC BY 4.0, recheck current notice"
+    },
+    {
+      "id": "E05",
+      "title": "The Power of Feedback",
+      "doi": "10.3102/003465430298487",
+      "type": "conceptual_and_research_review",
+      "language": "en",
+      "prior_use": "W02 in existing method cards; reuse",
+      "urls": [
+        "https://assess.ucr.edu/sites/g/files/rcwecm2336/files/2019-02/hattietimperley_2007.pdf"
+      ],
+      "format": "pdf",
+      "reason": "Organise apparently conflicting findings through distinctions that change an inference",
+      "rights": "University-hosted published paper; no full-text redistribution"
+    },
+    {
+      "id": "E06",
+      "title": "Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data",
+      "doi": "10.1177/2515245917745629",
+      "type": "psychological_methodological_tutorial",
+      "language": "en",
+      "prior_use": "New development addition; not a holdout",
+      "urls": [
+        "https://pure.mpg.de/rest/items/item_3224114_7/component/file_3570047/content",
+        "https://www2.psych.ubc.ca/~schaller/528Readings/Rohrer2018.pdf"
+      ],
+      "format": "pdf",
+      "reason": "Explicit premises, examples, reasoning steps and precise methodological judgement",
+      "rights": "MPI deposit licence permits personal reading; prohibits redistribution/adaptation of deposited paper; publish original analysis and links only"
+    },
+    {
+      "id": "E07",
+      "title": "What is education for? On good education, teacher judgement, and educational professionalism",
+      "doi": "10.1111/ejed.12109",
+      "type": "normative_conceptual_argument",
+      "language": "en",
+      "prior_use": "W23 in existing method cards; reuse",
+      "urls": [
+        "https://bura.brunel.ac.uk/bitstream/2438/10509/1/Fulltext.docx"
+      ],
+      "format": "docx",
+      "reason": "Normative educational purposes and professional judgement distinct from effectiveness evidence",
+      "rights": "Author manuscript in institutional repository; all rights reserved; publish original analysis and links only"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Language: en | discussion/conclusion sentences: 26 | paragraphs: 6
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 3.8  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 1
+  (keep those that state a condition the claim needs)
+  [para 2] It does not establish which design differences explain the results across those studies.
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 1
+  (one accurate qualifier is fine; check that each one is needed)
+  [para 3] The timing evidence suggests a further question about how learning time might be organized.
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

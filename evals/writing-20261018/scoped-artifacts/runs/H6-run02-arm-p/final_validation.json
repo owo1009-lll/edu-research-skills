@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "files_validated": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "loads.json",
+    "first_voice.txt",
+    "first_prose.txt",
+    "first_consistency.txt",
+    "final_voice.txt",
+    "final_prose.txt",
+    "final_consistency.txt",
+    "first_check_summary.json",
+    "final_check_summary.json",
+    "run_checks.py"
+  ],
+  "utf8": "All listed files decoded strictly as UTF-8.",
+  "all_check_exit_codes": 0,
+  "final_section_words": 619,
+  "final_words_including_label": 640,
+  "final_sha256": "52b2138831c1aaa36da78904a7c93b302b5c8701a9c4f9dcd627bd43ffab9b60",
+  "limitations": "Evidence checked against packet; no independent source retrieval or raw-data reanalysis."
+}

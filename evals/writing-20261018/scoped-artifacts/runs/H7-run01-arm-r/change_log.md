@@ -1,0 +1,31 @@
+# Consequential change log
+
+Scope: the supplied published Discussion and Conclusion, attributed to Otaki et al. (2023). Original paragraph numbers refer to the supplied excerpt. Categories follow the supplied writing skill: (a) original factual, logical or expression problem; (b) adjustment required by new analysis; (c) missing or unresolved material. There were no new analyses, so category (b) does not apply. Reorganization and compression are also explicitly authorized by the revision request.
+
+| Original location and claim | Final location and treatment | Category and reason |
+|---|---|---|
+| Discussion P1 presents an evidence-driven sequence leading to appreciation, engagement, performance and improvement in medicine/public health | P1 retains the named 8A-Model and every pair, introduces its interpretive contribution and iterative nature; Affect concerns intended contribution | (a): the framework is supported as an interpretation, but causal links and clinical impact were not demonstrated. Its identity and substantive educational purpose remain intact. |
+| P1 says gender did not play a significant role and proposes standardized admission as the reason | Omitted from compressed prose; queries in rationale.md | (c): supplied results do not give adequate gender estimates/inference; admission standardization is not a measured mechanism. Do not assert equivalence or invent tests. |
+| P2 says performance rose in fourth/fifth courses, with Apply as the turning point | P3 supplies the five exact Figure 2 means, the reported cluster contrast and within-oldest-cohort pattern; preserves reported absence of detected within-cluster differences | (a): distinguish course-stage performance from an individual learning curve; no equivalence inferred from nonsignificance and no confidence limits reconstructed from pixels. |
+| P2/P3 connect appreciation and engagement to enhanced performance | P2 grounds the explanation in participant accounts; P3 describes joint-display integration at curriculum level and leaves appreciation/performance relationship unresolved | (a): focus groups and grade changes are not individually linked, and no mediation model or experiment identifies this process. The meaningful curricular transition remains the positive contribution. |
+| P2 invokes situated learning, a community of practice, expert support and authentic projects | P2 retains framework and original citations [26, 61]; P5 retains supervised research and [59, 60] | Preserved argument. Concrete examples come only from the packet and are identified as reports. No theoretical originals have been independently read. |
+| P2 recommends similar modules, reflection and analogical reasoning | P5 retains "should" and [63], specifies supervision and continuity across courses, and connects these conditions to authentic use | Preserved supported practical judgment; authorized compression makes the evidence-to-action reasoning more explicit rather than weakening recommendation by default. |
+| P3 contrasts delayed appreciation with Kirkpatrick and learning-transfer models | P4 explicitly states the authors' reading of these models and retains [43, 53] | (c): underlying originals were not supplied. The timing comparison is retained as author interpretation rather than independently endorsed criticism. |
+| P3 anticipates patient value and lower healthcare costs; Conclusion anticipates improved research behavior and patient outcomes | P6 locates research practice, careers and patient outcomes in future evaluation; Conclusion makes no measured effect claim | (a): these proposed longer-term effects were not observed. Preserve the research agenda without promising outcomes. |
+| P4 infers curriculum integration from less variable research-course than all-course performance | Removed; rationale.md records the overlapping comparator and changing assessment problems | (a): all-course GPA contains research courses, and course grades are not invariant competence measures. The integration rationale instead rests on curriculum design and participant experiences. |
+| P4 qualifies the diagram as potentially iterative | P1, P5 and Conclusion preserve overlapping/revisiting activities | Preserved conceptual commitment. P1 explains framework, P5 applies it, Conclusion states its interpretation briefly; no claim of observed repeated individual transitions. |
+| P5 restricts generalization and proposes longitudinal/experimental follow-up | P6 consolidates single-site/nonexperimental boundaries, 15 participants/three cohort groups, four-person member checking and future repeated interviews/comparable assessments | (a)/(c): specify what the actual design limits; member checking is not prospective validation. No invented resolution of course-availability counts. |
+| Original references have numbering tied to the full article | Relevant original numbers retained, with source attribution and DOI; unretained arguments' citations fall with those arguments | Source lineage preserved. No fabricated bibliography for unread cited sources. |
+
+## First draft to final
+
+- Replaced P3's generic "promising point at which to examine" with the positive curricular contribution of locating application as a meaningful transition; clarified the remaining individual-level gap.
+- Replaced "equivalent increase" with the actual change-in-assessment problem, avoiding a confusing equivalence term.
+- Added the original reported within-cluster nondifferences without asserting equality.
+- Added the supported account linking mentor support to asking research questions; made early confusion a direct participant report.
+- Replaced a general denial about evaluation models with the substantive implication of delayed appreciation.
+- Removed the all-course comparator sentence after removing its unsupported original inference, retaining its rationale in the work records.
+- Specified the qualitative sample, distinguished member checking, and consolidated the future-outcomes boundary.
+- Kept all four model pairs, the situated-learning/community-of-practice framework and the strong supervised-research recommendation.
+
+No source files or skills were edited. No outside literature, raw-data analysis or network access was used.

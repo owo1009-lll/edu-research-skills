@@ -1,0 +1,212 @@
+{
+  "checked_utc": "2026-10-18T05:25:33.481456+00:00",
+  "json_files": 121,
+  "relative_links": 167,
+  "missing_links": [],
+  "archived_file_hashes": 407,
+  "snapshots_verified": [
+    "p01",
+    "q01",
+    "r01"
+  ],
+  "protected_diff": "",
+  "final_writing_files": [
+    {
+      "path": "skills/edu-writing/agents/openai.yaml",
+      "sha256": "1470d8043e9c154e328e87f9de23c27b7159f083f4192f3f6aa04995f51ca80e"
+    },
+    {
+      "path": "skills/edu-writing/README.md",
+      "sha256": "8359a908a54ccbf96d133b90c1b1d33fa406babc18279235b467134d4f13ffe5"
+    },
+    {
+      "path": "skills/edu-writing/README_EN.md",
+      "sha256": "192261080f47e625471c279d7f8b0607e02d94bca991f89c259ecbab971fd963"
+    },
+    {
+      "path": "skills/edu-writing/references/abstract-title.md",
+      "sha256": "cfa54efa0b2579e8831f00adb1f6e971b3ff15e16b01d5cef372409e30a960d4"
+    },
+    {
+      "path": "skills/edu-writing/references/analysis-bridge.md",
+      "sha256": "013d99a70bffbfc70304ee8838c258be3ac9307aafad577950fa2479843bb264"
+    },
+    {
+      "path": "skills/edu-writing/references/argument.md",
+      "sha256": "84c28e6f5fe94beb94b7525a8a10479f94c62c7e7bf1127409f7f5fb5f0a9dbe"
+    },
+    {
+      "path": "skills/edu-writing/references/conceptual-argument.md",
+      "sha256": "d1ca834af6a7fc47205de88638ded711dfe14e043f4b7ca9cd961ac0ac014283"
+    },
+    {
+      "path": "skills/edu-writing/references/conclusion-implications.md",
+      "sha256": "823ee5c383566dfcc1aac44613b6c0049afef45d72fd224758bf1c42f821bfeb"
+    },
+    {
+      "path": "skills/edu-writing/references/examples/cases-same-facts.md",
+      "sha256": "cb3f96dab5c3864684536542da9f659c681e67eda2cecbc1b725258cbaa2ec8b"
+    },
+    {
+      "path": "skills/edu-writing/references/examples/premises-same-facts.md",
+      "sha256": "2564b13aa7efe028ac9e1d8106c2c905d65686a493c085ce5c36d5d17a8cdba1"
+    },
+    {
+      "path": "skills/edu-writing/references/figures-and-tables.md",
+      "sha256": "0a30c73d6ba1755d38aa15c11988389777c33b86ed6df6a1be48a10ae79f5e28"
+    },
+    {
+      "path": "skills/edu-writing/references/file-delivery.md",
+      "sha256": "f2352eb30cb44190dfb48db22bbfd1984f406f1982ac56b9df2348578d0d9763"
+    },
+    {
+      "path": "skills/edu-writing/references/foundation.md",
+      "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1"
+    },
+    {
+      "path": "skills/edu-writing/references/framing-results.md",
+      "sha256": "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8"
+    },
+    {
+      "path": "skills/edu-writing/references/full-manuscript.md",
+      "sha256": "8234e130ddaa3cf7cf64b257d1baba071820dcc19be5810aa685bfcd2fee2ba7"
+    },
+    {
+      "path": "skills/edu-writing/references/introduction.md",
+      "sha256": "8cd5996c189e71a71696d2e13db1a556bf7d07378297bbfa6a64ca31b590053b"
+    },
+    {
+      "path": "skills/edu-writing/references/methods/cases-develop-explanations.md",
+      "sha256": "bac65a856e6eddda2ea6c0dfdce209b31635dd08ca70fe6f8f842b7c202f98be"
+    },
+    {
+      "path": "skills/edu-writing/references/methods/compare-explanations.md",
+      "sha256": "dfb36b9117901bf1a26f03e45ad8f03e84c3a1a3583a4f53b78cd667e3121ed3"
+    },
+    {
+      "path": "skills/edu-writing/references/methods/premises-and-judgments.md",
+      "sha256": "b9df84fe3345690e053d79524487b330f8d947c9a6f739ae37c7b9f19bb6f2a5"
+    },
+    {
+      "path": "skills/edu-writing/references/methods/problem-with-consequences.md",
+      "sha256": "79fa0b2d73608c8f91b7332dfcb338b74780e6055e89fca83c664ec9dbb0ec51"
+    },
+    {
+      "path": "skills/edu-writing/references/methods/synthesize-explanatory-axes.md",
+      "sha256": "f381f7feb4db4c60eb0a5370a7e0ce5aa79866052c40e5f911ca3253afdfb8fa"
+    },
+    {
+      "path": "skills/edu-writing/references/methods-section.md",
+      "sha256": "dfdca31d5111f7007ae490284a33c84c67e6566e426206850fd177454016c82b"
+    },
+    {
+      "path": "skills/edu-writing/references/prose-en.md",
+      "sha256": "186409cdc88c696fb2039780620383a2e150c8c9125d7889993108c2786fb603"
+    },
+    {
+      "path": "skills/edu-writing/references/prose-zh.md",
+      "sha256": "2adfc2f6027da74308cc7a45edf02eb14bd4840e0f7859f8b18191c3ddf38e2a"
+    },
+    {
+      "path": "skills/edu-writing/references/qualitative-narrative.md",
+      "sha256": "674c4052d44eba719af2a28eb91d646c8a1e1c9b4cda7d764006308db79c23e6"
+    },
+    {
+      "path": "skills/edu-writing/references/quantitative-discussion.md",
+      "sha256": "0d2024ff3cf66029f1d37a5a6a9b00c53744c175c2d148ead6f368d61a51a814"
+    },
+    {
+      "path": "skills/edu-writing/references/reference-verification.md",
+      "sha256": "c5eadd2182e7d3f680a269661338201c88dc15b4ab6015f0af450c0d5e1b4130"
+    },
+    {
+      "path": "skills/edu-writing/references/source-basis.md",
+      "sha256": "4a2d4bf1b1254b14dda39f7e529dfb8a81bc963cb354e248cac4d91b520e26cc"
+    },
+    {
+      "path": "skills/edu-writing/references/sources/C20.json",
+      "sha256": "9f1aa2db8b0cfe5cb0b4ea9f1c61bf1c4a543dc279ea9bd17cb0dd79fe1dc86a"
+    },
+    {
+      "path": "skills/edu-writing/references/sources/C24.json",
+      "sha256": "88537cd637f867d44c7e8545110f6dbcb70d9bab6b440538c23a62cf2dc5855a"
+    },
+    {
+      "path": "skills/edu-writing/references/sources/N05.json",
+      "sha256": "ac23b178c60916aa4fa15256c703140cd47183a9d758edd6d7eec115dccabc96"
+    },
+    {
+      "path": "skills/edu-writing/references/sources/N06.json",
+      "sha256": "5e3f23caabd634e8eb8fe477868d8cca1550d8428f77ac0947aced0e57911f51"
+    },
+    {
+      "path": "skills/edu-writing/references/sources/N07.json",
+      "sha256": "38c3d9e60192697818cd2706fffa76dbfbc0f9c4e6f7ecc574fead8fe73fb1c2"
+    },
+    {
+      "path": "skills/edu-writing/references/sources/N08.json",
+      "sha256": "4ee9138af893fd93776ebe5e9b837ab3069478243e46cd1485e3cd54f41f9d34"
+    },
+    {
+      "path": "skills/edu-writing/references/synthesis.md",
+      "sha256": "109d7c261be6b05cebb83a131bf3bebe32d465bb2db2e8b6a60fb0bf906c84e7"
+    },
+    {
+      "path": "skills/edu-writing/references/target-journal.md",
+      "sha256": "3c3443c4dd714197ca79305622f3ab7404e7b3cbd59a7be34b26ac3cf355c98c"
+    },
+    {
+      "path": "skills/edu-writing/references/voice-en.md",
+      "sha256": "540a4bf588ee37e9fbcbfe975022632ea32292e0d441d4e8df0085621a4e8816"
+    },
+    {
+      "path": "skills/edu-writing/references/voice-zh.md",
+      "sha256": "7b86acb9e3eb226cba7ec8cf9bb0b2d16349b6258b729b1df561c6dfd65f0f6b"
+    },
+    {
+      "path": "skills/edu-writing/requirements.txt",
+      "sha256": "99012e9952d1b5986af5fb773bd7f5ae0d69a7d6b7d1d82cd082e98c79250d5c"
+    },
+    {
+      "path": "skills/edu-writing/scripts/check_consistency.py",
+      "sha256": "1c10286aaf2c395bba8adbb40c16d9e537ec24ed794316df5fe545d8369b4ae5"
+    },
+    {
+      "path": "skills/edu-writing/scripts/check_prose.py",
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2"
+    },
+    {
+      "path": "skills/edu-writing/scripts/check_voice.py",
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be"
+    },
+    {
+      "path": "skills/edu-writing/scripts/make_figures.py",
+      "sha256": "f6c0667a0af4f269f08f9fd8ea66632464a26bd20db2aaf73713b8cad0931140"
+    },
+    {
+      "path": "skills/edu-writing/scripts/manuscript_package.py",
+      "sha256": "bd4161d4e48ca780d363a6da53af168038ee4b4458c3df4260725d8747019f37"
+    },
+    {
+      "path": "skills/edu-writing/scripts/md_to_docx.py",
+      "sha256": "402f0ddf46f392578a4d0cf43993e45d962534068309a77829512bdde65e5997"
+    },
+    {
+      "path": "skills/edu-writing/scripts/render_word.ps1",
+      "sha256": "e21370f68e1c92b2b2f07d28504942f884a9b6d81b9055e71cc21c1e7aebd8eb"
+    },
+    {
+      "path": "skills/edu-writing/scripts/search_journal.py",
+      "sha256": "716477500bbf5a33d60e5a101661886315e0128653cca43642e5712b5608e232"
+    },
+    {
+      "path": "skills/edu-writing/scripts/verify_references.py",
+      "sha256": "4c49f63f89aafaac810a7e3d5114acf53c8cfc25b3830e5d061c87860a9d7e87"
+    },
+    {
+      "path": "skills/edu-writing/SKILL.md",
+      "sha256": "6b71e163516bbb6ef79ead3e487be3c98caeeb6c5c543d45e936b647df7c8e93"
+    }
+  ],
+  "scope": "Artifact and structure verification; final selected subset is not a separate behavioral holdout."
+}

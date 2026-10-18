@@ -1,0 +1,24 @@
+[
+  {
+    "file": "first.md",
+    "body_words": 468,
+    "words_including_headings": 484,
+    "headings": [
+      "### Introduction: Response is not yet answerability",
+      "### Discussion: Keep the route back to reasons",
+      "### Conclusion: Protect answerability"
+    ],
+    "teaching_notice": "> Teaching simulation: this manuscript uses an invented study record and fictional comparison card; it does not report real research."
+  },
+  {
+    "file": "final.md",
+    "body_words": 460,
+    "words_including_headings": 476,
+    "headings": [
+      "### Introduction: Response is not yet answerability",
+      "### Discussion: Keep the route back to reasons",
+      "### Conclusion: Protect answerability"
+    ],
+    "teaching_notice": "> Teaching simulation: this manuscript uses an invented study record and fictional comparison card; it does not report real research."
+  }
+]

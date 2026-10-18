@@ -1,0 +1,53 @@
+[
+  {
+    "draft": "final",
+    "name": "voice",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-q\\final.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H2-materials.md"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-q\\final_voice_check.txt",
+    "run_note": "Rerun after repairing shell-transport punctuation; no substantive first-draft edit."
+  },
+  {
+    "draft": "final",
+    "name": "prose",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-q\\final.md"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-q\\final_prose_check.txt",
+    "run_note": "Rerun after repairing shell-transport punctuation; no substantive first-draft edit."
+  },
+  {
+    "draft": "final",
+    "name": "consistency",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-q\\final.md",
+      "--term-group",
+      "accounts=written accounts|interviews",
+      "--term-group",
+      "measure=food insecurity|low food security"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-q\\final_consistency_check.txt",
+    "run_note": "Rerun after repairing shell-transport punctuation; no substantive first-draft edit."
+  }
+]

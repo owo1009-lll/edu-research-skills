@@ -1,0 +1,47 @@
+[
+  {
+    "check": "voice",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run02-arm-q\\first.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H2-materials.md"
+    ],
+    "output": "first_voice.txt"
+  },
+  {
+    "check": "prose",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run02-arm-q\\first.md"
+    ],
+    "output": "first_prose.txt"
+  },
+  {
+    "check": "consistency",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run02-arm-q\\first.md",
+      "--term-group",
+      "written evidence=written survey accounts|interviews",
+      "--term-group",
+      "housing state=housing insecurity|housing instability"
+    ],
+    "output": "first_consistency.txt"
+  }
+]

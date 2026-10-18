@@ -1,0 +1,103 @@
+{
+  "checks": {
+    "first_checks.json": {
+      "word_count": {
+        "discussion_and_conclusion_whitespace": 664,
+        "lexical": 670,
+        "target": [
+          650,
+          800
+        ],
+        "within_range": true
+      },
+      "all_script_exit_codes": 0
+    },
+    "final_checks.json": {
+      "word_count": {
+        "discussion_and_conclusion_whitespace": 678,
+        "lexical": 685,
+        "target": [
+          650,
+          800
+        ],
+        "within_range": true
+      },
+      "all_script_exit_codes": 0
+    }
+  },
+  "files": {
+    "first.md": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 5540,
+      "words_including_attribution_excluding_references": 701
+    },
+    "review.md": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 9466
+    },
+    "final.md": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 5700,
+      "words_including_attribution_excluding_references": 715
+    },
+    "rationale.md": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 10291
+    },
+    "change_log.md": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 7086
+    },
+    "run_checks.py": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 2531
+    },
+    "first_voice.txt": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 1782
+    },
+    "first_prose.txt": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 934
+    },
+    "first_consistency.txt": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 568
+    },
+    "final_voice.txt": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 1556
+    },
+    "final_prose.txt": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 935
+    },
+    "final_consistency.txt": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 717
+    },
+    "first_checks.json": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 2052
+    },
+    "final_checks.json": {
+      "nonempty": true,
+      "utf8_decoded": true,
+      "bytes": 2052
+    }
+  },
+  "limitations": "Checks and prose are based only on supplied materials; no source recomputation or independent literature verification."
+}

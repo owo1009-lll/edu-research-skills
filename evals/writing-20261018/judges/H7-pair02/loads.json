@@ -1,0 +1,94 @@
+{
+    "task":  "H7-pair02 anonymous manuscript comparison",
+    "assessment_type":  "AI assessment of supplied texts; not human review or independent source verification",
+    "actual_reads":  [
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+                             "purpose":  "Read judging instructions",
+                             "encoding":  "UTF-8",
+                             "read_count":  1,
+                             "max_output_tokens":  20000,
+                             "truncated":  false
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-02/H7-pair02/request.md",
+                             "purpose":  "Understand writing task and compliance requirements without executing it",
+                             "encoding":  "UTF-8",
+                             "read_count":  1,
+                             "max_output_tokens":  20000,
+                             "reported_original_token_count":  287,
+                             "truncated":  false
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-02/H7-pair02/materials.md",
+                             "purpose":  "Check facts, source claims, author position and known source questions",
+                             "encoding":  "UTF-8",
+                             "read_count":  1,
+                             "max_output_tokens":  26000,
+                             "reported_original_token_count":  3688,
+                             "truncated":  false
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-02/H7-pair02/A.md",
+                             "purpose":  "Compare manuscript against supplied evidence; reread only for word-count compliance",
+                             "encoding":  "UTF-8",
+                             "read_count":  2,
+                             "initial_max_output_tokens":  26000,
+                             "reported_original_token_count":  1457,
+                             "truncated":  false
+                         },
+                         {
+                             "path":  "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H7-02/H7-pair02/B.md",
+                             "purpose":  "Compare manuscript against supplied evidence; reread only for word-count compliance",
+                             "encoding":  "UTF-8",
+                             "read_count":  2,
+                             "initial_max_output_tokens":  26000,
+                             "reported_original_token_count":  1484,
+                             "truncated":  false
+                         }
+                     ],
+    "output_limits":  {
+                          "functions_exec_default_output_budget_tokens":  10000,
+                          "first_instruction_read_exec_command_budget_tokens":  20000,
+                          "parallel_batch_exec_command_budgets_tokens":  [
+                                                                             20000,
+                                                                             26000,
+                                                                             26000,
+                                                                             26000
+                                                                         ],
+                          "word_count_exec_command_budget_tokens":  2000,
+                          "visible_input_completeness":  "All five specified texts visibly complete; no truncation marker or omitted excerpt; reread of A and B was only for counting",
+                          "review_output":  "Original review written as UTF-8; no sample manuscript rewritten"
+                      },
+    "word_count":  {
+                       "method":  "Whitespace-delimited tokens in Discussion and Conclusion; exclude headings, attribution and reference section; body citation tokens included",
+                       "A":  {
+                                 "discussion":  605,
+                                 "conclusion":  73,
+                                 "total":  678
+                             },
+                       "B":  {
+                                 "discussion":  610,
+                                 "conclusion":  63,
+                                 "total":  673
+                             }
+                   },
+    "visible_model_information":  {
+                                      "exposed_identity":  "Codex; developer instruction describes an agent based on GPT-6",
+                                      "exact_backend_version":  "不可获取",
+                                      "temperature":  "不可获取",
+                                      "random_seed":  "不可获取",
+                                      "model_inference_used":  false
+                                  },
+    "other_resources_read":  [
+
+                             ],
+    "network_used":  false,
+    "subagents_used":  false,
+    "input_edits":  false,
+    "overall_judgment":  "相当；不指定赢家",
+    "outputs":  [
+                    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H7-pair02/review.md",
+                    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H7-pair02/loads.json"
+                ]
+}

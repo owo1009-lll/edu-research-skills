@@ -1,0 +1,288 @@
+{
+  "task": "H2 independent attributed revision exercise",
+  "output_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p",
+  "source_boundary": "Only the specified skill, task-relevant resources it references, the H2 request/materials and self-authored outputs were read. No other runs, repository evaluation/development reports, installed skills or network sources were inspected.",
+  "read_log_scope": "Purposeful file-content reads are listed by path. Repeated assistant/checker reads are described in access or scope; this is a resource ledger, not an OS syscall trace. Python standard-library loading and executable metadata are not research-resource reads.",
+  "model_information": {
+    "visible_role_description": "Codex, an agent based on GPT-6 (developer-provided description)",
+    "exact_backend_model_identifier": "unavailable",
+    "reasoning_effort": "unavailable",
+    "sampling_settings": "unavailable",
+    "independent_runtime_model_verification": "not performed; no tool exposes this information in the task"
+  },
+  "environment_observed": {
+    "shell": "PowerShell",
+    "python_check_invocation": "python -X utf8 / sys.executable -X utf8",
+    "text_encoding": "UTF-8"
+  },
+  "network_used": false,
+  "subagents_spawned": false,
+  "skills_or_inputs_modified": false,
+  "resource_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Use the supplied writing workflow, revision protections, output requirements and check instructions.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-request.md",
+      "purpose": "Establish task scope, language, length, attribution, required outputs and source restrictions.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-materials.md",
+      "purpose": "Read the original passage and supplied evidence, verify all adapted claims, preserve source discrepancies and use as the voice-check numerical source.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read; check_voice.py source read for first, final before clarity edit and delivered final"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/foundation.md",
+      "purpose": "Reconstruct and preserve author argument; distinguish consequential repairs and keep author queries outside prose.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Plan the contribution, claim-evidence links, recommendation grounds and placement of limitations; compare claims across the two sections.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Calibrate English finding, explanation and recommendation language without optimizing corpus medians.",
+      "scope": "Full text read; reread in full after an earlier batched display was truncated",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Organize the discussion around the educational issue and calibrated quantitative interpretation.",
+      "scope": "Full text read; reread in full after an earlier batched display was truncated",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Write a short supported conclusion and retain concrete, grounded implications and limits.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Keep statistical identity and uncertainty, avoid causal or equivalence overreach and retain counterevidence.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Follow source attribution, no-fabrication, local-data and honest self-review rules referenced by the supplied skill.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/qualitative-narrative.md",
+      "purpose": "Handle the written-account component of this mixed-methods adaptation without inventing coding or prevalence.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/methods/cases-develop-explanations.md",
+      "purpose": "Use differing food-support experiences to refine interpretation while preserving separate speakers and avoiding invented trajectories.",
+      "scope": "Full text read",
+      "access": "Assistant filesystem read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect and execute the mandated voice check; confirm command arguments and local input behavior.",
+      "scope": "Full file requested with Get-Content; combined display was partially truncated. Targeted rg inspection covered imports, file reads and command arguments. This is not a complete code audit.",
+      "access": "Assistant Get-Content and rg reads; Python execution in UTF-8 mode for first, final before clarity edit and delivered final"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect and execute the mandated prose check; confirm command arguments and local input behavior.",
+      "scope": "Full file requested with Get-Content; combined display was partially truncated. Targeted rg inspection covered imports, file reads and command arguments. This is not a complete code audit.",
+      "access": "Assistant Get-Content and rg reads; Python execution in UTF-8 mode for first, final before clarity edit and delivered final"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect and execute the mandated consistency check; confirm command arguments and local input behavior.",
+      "scope": "Full file requested with Get-Content; combined display was partially truncated. Targeted rg inspection covered imports, file reads and command arguments. This is not a complete code audit.",
+      "access": "Assistant Get-Content and rg reads; Python execution in UTF-8 mode for first, final before clarity edit and delivered final"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/change_log.md",
+      "purpose": "Final validation of the self-authored work record and its UTF-8 encoding.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/check_runs.json",
+      "purpose": "Read to append and label successive check invocations; validate exact commands and exit-code records.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/final.md",
+      "purpose": "Read by applicable check scripts, then for exact word counts and final artifact validation; final.md also read for one local clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/final_before_clarity_edit_consistency.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/final_before_clarity_edit_prose.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/final_before_clarity_edit_voice.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/final_consistency.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/final_prose.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/final_voice.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/first.md",
+      "purpose": "Read by applicable check scripts, then for exact word counts and final artifact validation; final.md also read for one local clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/first_consistency.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/first_prose.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/first_voice.txt",
+      "purpose": "Inspect the full checker output through captured stdout and validate the persisted UTF-8 report; earlier final reports preserved after a clarity edit.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/rationale.md",
+      "purpose": "Final validation of the self-authored work record and its UTF-8 encoding.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/review.md",
+      "purpose": "Final validation of the self-authored work record and its UTF-8 encoding.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/word_counts.json",
+      "purpose": "Validate the saved body and full non-reference word counts.",
+      "scope": "Full text read; no external source content added",
+      "access": "Self-authored artifact read and/or checker input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run01-arm-p/loads.json",
+      "purpose": "Parse the completed resource ledger immediately after writing it.",
+      "scope": "Full JSON read in the final validation step",
+      "access": "Self-authored artifact validation"
+    }
+  ],
+  "check_records": "check_runs.json",
+  "word_counts": "word_counts.json",
+  "limitations": [
+    "Source checking was limited to the supplied packet; no raw data, complete bibliography, outside article, or unaudited supplement was obtained.",
+    "Automated checks identify cues and numerical strings, not truth or causal validity; review.md records manual reasoning against the supplied evidence.",
+    "This is an attributed adaptation and AI self-review, not wording approved by Hall et al. or expert peer review."
+  ],
+  "validated_artifact_manifest_before_ledger": {
+    "change_log.md": {
+      "characters": 7652,
+      "sha256_utf8": "2267cefef4fe418b1571323d36e2fd826491d024307f19e95bf9272e11e8b464"
+    },
+    "check_runs.json": {
+      "characters": 5897,
+      "sha256_utf8": "da9308df6686e90a10b169df56e2276a9a8f5da74a8f80b87b74648973398572"
+    },
+    "final.md": {
+      "characters": 5657,
+      "sha256_utf8": "4efaf43ce55a4a735b6a972b0288501f61f3b2cf4aa110f661a67f74ed8d40aa"
+    },
+    "final_before_clarity_edit_consistency.txt": {
+      "characters": 706,
+      "sha256_utf8": "e94cd103a15ef963bd0c9119ee39ef431c69fdd0fd1db7c551a952d87f18c1ed"
+    },
+    "final_before_clarity_edit_prose.txt": {
+      "characters": 927,
+      "sha256_utf8": "4b4dd45f2187e7fd7a6618026036fd697cb1511b68aefa7188bbdc9350073414"
+    },
+    "final_before_clarity_edit_voice.txt": {
+      "characters": 1162,
+      "sha256_utf8": "cab404db356edefcbc5dbefc936c1cd1f449353c1c7409f72c53f48caa705586"
+    },
+    "final_consistency.txt": {
+      "characters": 706,
+      "sha256_utf8": "e94cd103a15ef963bd0c9119ee39ef431c69fdd0fd1db7c551a952d87f18c1ed"
+    },
+    "final_prose.txt": {
+      "characters": 927,
+      "sha256_utf8": "71ac81814a96a709bed867c5a1b2c69723e2783b40d8ebba5a19dc46096d05db"
+    },
+    "final_voice.txt": {
+      "characters": 1162,
+      "sha256_utf8": "cab404db356edefcbc5dbefc936c1cd1f449353c1c7409f72c53f48caa705586"
+    },
+    "first.md": {
+      "characters": 5658,
+      "sha256_utf8": "15f7db90d35f9c230c6edf342cbdc10098d63386be5e3e7563d876c6052916e6"
+    },
+    "first_consistency.txt": {
+      "characters": 787,
+      "sha256_utf8": "1b7f22d00ccb33f9e0d2c002c6d06daf8354d6fe7cc5e9cbc78b07c1a82214cc"
+    },
+    "first_prose.txt": {
+      "characters": 929,
+      "sha256_utf8": "bf1f65bfb0268d17eac5265c5dcf58160cc8ec2068ecc9afa3bfb745d01bfddd"
+    },
+    "first_voice.txt": {
+      "characters": 1570,
+      "sha256_utf8": "974a10e7d93a30658cb1e3b92bb514f8a30661f73ce99ef892b5621fb56a2642"
+    },
+    "rationale.md": {
+      "characters": 8902,
+      "sha256_utf8": "ddd6753c58de25a6e45acc55cb11c1d5421a218e7d1ad62bf4d2744444804881"
+    },
+    "review.md": {
+      "characters": 9829,
+      "sha256_utf8": "f648fd3d83cc6afa4ed8c16ca2511e0b008e9b3e97bdf115e6c09ef6d293d0cc"
+    },
+    "word_counts.json": {
+      "characters": 506,
+      "sha256_utf8": "a0ad75eeef0670c56e62d2b96dd7abe1629ab1cafdbf2e3a6cd2d48f6c6f091f"
+    }
+  }
+}

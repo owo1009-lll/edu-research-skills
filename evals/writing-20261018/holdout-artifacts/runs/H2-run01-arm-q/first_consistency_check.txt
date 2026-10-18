@@ -1,0 +1,19 @@
+Language: en | abstract found: False | findings to inspect: 1
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (0 distinct values; check each is a named subsample):
+
+Same value at different precision: 0
+
+Term variants: 1
+  measure: {'food insecurity': 4, 'low food security': 2}
+    …o food. Low or very low food security was reported by 15.…
+    …had higher odds of low food security (odds ratio 7.91, 9…
+  self-reference: this study 1
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 0

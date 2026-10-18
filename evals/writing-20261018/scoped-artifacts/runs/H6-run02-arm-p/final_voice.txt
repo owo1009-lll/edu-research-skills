@@ -1,0 +1,20 @@
+Language: en | discussion/conclusion sentences: 21 | paragraphs: 6
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 4.8  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 1
+  (keep those that state a condition the claim needs)
+  [para 2] This also qualifies comparisons with the less structured activities described in Kestin et al.'s (2025) review: the studies support attention to implementation,
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

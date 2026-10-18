@@ -1,0 +1,16 @@
+{
+  "first": {
+    "count_method": "Whitespace-delimited words; headings and references excluded",
+    "discussion": 586,
+    "conclusion": 68,
+    "body": 654,
+    "attribution_inclusive": 683
+  },
+  "final": {
+    "count_method": "Whitespace-delimited words; headings and references excluded",
+    "discussion": 640,
+    "conclusion": 68,
+    "body": 708,
+    "attribution_inclusive": 737
+  }
+}

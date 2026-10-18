@@ -1,0 +1,201 @@
+{
+  "task": "H5 secondary Discussion and Conclusion",
+  "resource_boundary": "Only the supplied skill and relevant linked resources, two specified H5 inputs, and this run's generated outputs. No network, subagents, other runs, primary-source downloads, or repository development/evaluation reports.",
+  "scope_note": "Task-content resources actually read or executed. Standard-library/runtime imports are not enumerated as writing resources. This list is not an operating-system file-access trace; repeat reads are described where relevant.",
+  "model": {
+    "exact_runtime_model_id": "unavailable",
+    "visible_developer_description": "Codex, an agent based on GPT-6",
+    "reasoning_effort": "unavailable",
+    "sampling_settings": "unavailable"
+  },
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Apply only the supplied education-writing workflow and choose relevant routes.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H5-request.md",
+      "purpose": "Determine language, length, source boundary, and requested Markdown/checking deliverables.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H5-materials.md",
+      "purpose": "Sole factual and bibliographic evidence; also read by the voice checks on both drafts.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Plan the argument, contribution, conditions, practical reasoning, and cross-section consistency.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Calibrate English findings, explanations, and attribution; reread to recover truncated first-batch output.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Write the quantitative synthesis Discussion; reread to recover truncated first-batch output.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Write the short Conclusion and grounded implications; reread to recover truncated first-batch output.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Interpret effect estimates, intervals, null findings, and comparators.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/synthesis.md",
+      "purpose": "Organize evidence by shared questions and comparison conditions.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/prose-en.md",
+      "purpose": "Read English synthesis/prose guidance; first 26 lines reread to recover the truncated region.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/methods/synthesize-explanatory-axes.md",
+      "purpose": "Read the linked card on comparing operations, outcomes, and times. Its illustrative studies were not used as evidence.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Apply linked integrity requirements for secondary writing, source limits, and AI self-review.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Execute CLI help and checks on first and final; inspect import and text-reading lines with rg.",
+      "scope": "Execution plus import/read-call lines; not a full source-code review",
+      "method": "python -X utf8 and UTF-8 rg inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Execute CLI help and checks on first and final; inspect import and text-reading lines with rg.",
+      "scope": "Execution plus import/read-call lines; not a full source-code review",
+      "method": "python -X utf8 and UTF-8 rg inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Execute CLI help and checks on first and final; inspect import and text-reading lines with rg.",
+      "scope": "Execution plus import/read-call lines; not a full source-code review",
+      "method": "python -X utf8 and UTF-8 rg inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/first.md",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/review.md",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/final.md",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/rationale.md",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/first.check_voice.txt",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/first.check_prose.txt",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/first.check_consistency.txt",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/final.check_voice.txt",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/final.check_prose.txt",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/final.check_consistency.txt",
+      "purpose": "Inspect and validate this run's generated draft, work record, or saved check output; checker stdout was also inspected when generated.",
+      "scope": "full text",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/loads.json",
+      "purpose": "Validate the generated UTF-8 resource inventory by parsing JSON.",
+      "scope": "full JSON",
+      "method": "UTF-8 text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H5-run01-arm-q/validation.json",
+      "purpose": "Parse the generated length and check-completion summary.",
+      "scope": "full JSON",
+      "method": "UTF-8 text read"
+    }
+  ],
+  "source_verification": {
+    "supplied_packet_read": true,
+    "full_review_independently_read": false,
+    "primary_studies_read": false,
+    "protocol_read": false,
+    "network_used": false
+  },
+  "checks": {
+    "first": [
+      "voice",
+      "prose",
+      "consistency"
+    ],
+    "final": [
+      "voice",
+      "prose",
+      "consistency"
+    ],
+    "executed_with": "python -X utf8",
+    "outputs_saved_and_inspected": true
+  },
+  "delivery": {
+    "format": "Markdown as explicitly requested",
+    "change_log_required": false,
+    "change_log_reason": "New secondary writing, not revision of supplied prose; first-to-final changes documented in review.md."
+  }
+}

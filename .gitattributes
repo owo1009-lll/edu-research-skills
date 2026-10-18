@@ -8,3 +8,8 @@ round13/displays/** -whitespace
 round13/manuscript/final_word_delivery/** -whitespace
 round13/records/*.log -whitespace
 round13/records/*.txt -whitespace
+
+# Preserve original writing-evaluation manuscripts and diagnostic output.
+# The maintained evaluation helpers and runtime skill files remain checked.
+evals/writing-20261018/*-artifacts/runs/** -whitespace
+evals/writing-20261018/blind/** -whitespace

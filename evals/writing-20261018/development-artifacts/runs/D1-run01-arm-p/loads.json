@@ -1,0 +1,273 @@
+{
+  "scope": "Explicit content reads, script invocations, script input files and inspected outputs. Files merely written or checked for existence are not content reads. Python runtime/internal imports are not research sources.",
+  "ordering": "The order field records tool-call invocation order. Tasks sharing a parallel_batch were concurrent, so their physical completion order is not asserted. Script input-file reading order is internal to the supplied checker.",
+  "restrictions_observed": {
+    "only_supplied_skill_and_needed_references": true,
+    "no_network": true,
+    "no_subagents": true,
+    "no_other_run_or_evaluation_report_inspection": true,
+    "no_skill_source_edits": true
+  },
+  "loads": [
+    {
+      "order": 1,
+      "path": "@baseline/skills/edu-writing/SKILL.md",
+      "mode": "read",
+      "why": "Read the only authorized skill and its workflow.",
+      "parallel_batch": "A",
+      "details": "Initial PowerShell read used default encoding; Chinese text was garbled, so the files were read again explicitly as UTF-8."
+    },
+    {
+      "order": 2,
+      "path": "@repo/evals/writing-20261018/inputs/D1-request.md",
+      "mode": "read",
+      "why": "Read the requested sections, length, delivery and closed-evidence constraints.",
+      "parallel_batch": "A",
+      "details": "Initial PowerShell read used default encoding; Chinese text was garbled, so the files were read again explicitly as UTF-8."
+    },
+    {
+      "order": 3,
+      "path": "@repo/evals/writing-20261018/inputs/D1-materials.md",
+      "mode": "read",
+      "why": "Read the supplied study record and fictional comparison cards.",
+      "parallel_batch": "A",
+      "details": "Initial PowerShell read used default encoding; Chinese text was garbled, so the files were read again explicitly as UTF-8."
+    },
+    {
+      "order": 4,
+      "path": "@baseline/skills/edu-writing/SKILL.md",
+      "mode": "read",
+      "why": "Recover the complete skill instructions with correct UTF-8 decoding."
+    },
+    {
+      "order": 5,
+      "path": "@repo/evals/writing-20261018/inputs/D1-request.md",
+      "mode": "read",
+      "why": "Confirm the 800?1,000 word range and exact requested outputs."
+    },
+    {
+      "order": 6,
+      "path": "@repo/evals/writing-20261018/inputs/D1-materials.md",
+      "mode": "read",
+      "why": "Confirm the complete source facts, fictional status and author position."
+    },
+    {
+      "order": 7,
+      "path": "@baseline/skills/edu-writing/references/argument.md",
+      "mode": "read",
+      "why": "Establish the educational argument, claim evidence, recommendation logic and cross-section alignment.",
+      "parallel_batch": "B",
+      "details": "Combined tool response was truncated around framing-results/voice-en; those portions were recovered next."
+    },
+    {
+      "order": 8,
+      "path": "@baseline/skills/edu-writing/references/framing-results.md",
+      "mode": "read",
+      "why": "Interpret intervals, null findings, temporal contrasts and outcome hierarchy.",
+      "parallel_batch": "B",
+      "details": "Combined tool response was truncated around framing-results/voice-en; those portions were recovered next."
+    },
+    {
+      "order": 9,
+      "path": "@baseline/skills/edu-writing/references/voice-en.md",
+      "mode": "read",
+      "why": "Apply English stance and proportionate qualifications.",
+      "parallel_batch": "B",
+      "details": "Combined tool response was truncated around framing-results/voice-en; those portions were recovered next."
+    },
+    {
+      "order": 10,
+      "path": "@baseline/skills/edu-writing/references/introduction.md",
+      "mode": "read",
+      "why": "Use the requested English-introduction route.",
+      "parallel_batch": "B",
+      "details": "Combined tool response was truncated around framing-results/voice-en; those portions were recovered next."
+    },
+    {
+      "order": 11,
+      "path": "@baseline/skills/edu-writing/references/quantitative-discussion.md",
+      "mode": "read",
+      "why": "Use the quantitative-discussion route for comparisons and explanation.",
+      "parallel_batch": "B",
+      "details": "Combined tool response was truncated around framing-results/voice-en; those portions were recovered next."
+    },
+    {
+      "order": 12,
+      "path": "@baseline/skills/edu-writing/references/conclusion-implications.md",
+      "mode": "read",
+      "why": "Use the conclusion, recommendation and limitation route.",
+      "parallel_batch": "B",
+      "details": "Combined tool response was truncated around framing-results/voice-en; those portions were recovered next."
+    },
+    {
+      "order": 13,
+      "path": "@baseline/skills/edu-shared/references/integrity.md",
+      "mode": "read",
+      "why": "Apply the skill-linked integrity rules to the fictional teaching simulation.",
+      "parallel_batch": "B",
+      "details": "Combined tool response was truncated around framing-results/voice-en; those portions were recovered next."
+    },
+    {
+      "order": 14,
+      "path": "@baseline/skills/edu-writing/references/voice-en.md",
+      "mode": "read",
+      "why": "Recover the complete English-voice instructions after combined-output truncation.",
+      "parallel_batch": "C"
+    },
+    {
+      "order": 15,
+      "path": "@baseline/skills/edu-writing/references/framing-results.md",
+      "mode": "read",
+      "why": "Recover the final check guidance after combined-output truncation.",
+      "parallel_batch": "C",
+      "details": "Tail 10 lines only; earlier content was already visible."
+    },
+    {
+      "order": 16,
+      "path": "@baseline/skills/edu-writing/references/prose-en.md",
+      "mode": "read",
+      "why": "Read English prose guidance required by the introduction route; use corpus medians as optional context.",
+      "parallel_batch": "C"
+    },
+    {
+      "order": 17,
+      "path": "@baseline/skills/edu-writing/scripts/check_voice.py",
+      "mode": "execute",
+      "why": "Execute --help to confirm supported check arguments.",
+      "parallel_batch": "D",
+      "details": "Script source was not opened as reading material; only help output was inspected."
+    },
+    {
+      "order": 18,
+      "path": "@baseline/skills/edu-writing/scripts/check_prose.py",
+      "mode": "execute",
+      "why": "Execute --help to confirm supported check arguments.",
+      "parallel_batch": "D",
+      "details": "Script source was not opened as reading material; only help output was inspected."
+    },
+    {
+      "order": 19,
+      "path": "@baseline/skills/edu-writing/scripts/check_consistency.py",
+      "mode": "execute",
+      "why": "Execute --help to confirm supported check arguments.",
+      "parallel_batch": "D",
+      "details": "Script source was not opened as reading material; only help output was inspected."
+    },
+    {
+      "order": 20,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.md",
+      "mode": "automated_read",
+      "why": "Count manuscript words excluding notice and headings after saving the first draft."
+    },
+    {
+      "order": 21,
+      "path": "@baseline/skills/edu-writing/scripts/check_voice.py",
+      "mode": "execute_and_inspect_output",
+      "why": "Execute and inspect the required voice check on first.md; save its output.",
+      "parallel_batch": "E",
+      "details": {
+        "input_files": [
+          "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.md",
+          "@repo/evals/writing-20261018/inputs/D1-materials.md"
+        ],
+        "output_file": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.voice.txt",
+        "exit_code": 0,
+        "output_read_via": "tool stdout, identical to saved report"
+      }
+    },
+    {
+      "order": 22,
+      "path": "@baseline/skills/edu-writing/scripts/check_prose.py",
+      "mode": "execute_and_inspect_output",
+      "why": "Execute and inspect the required prose check on first.md; save its output.",
+      "parallel_batch": "E",
+      "details": {
+        "input_files": [
+          "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.md"
+        ],
+        "output_file": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.prose.txt",
+        "exit_code": 0,
+        "output_read_via": "tool stdout, identical to saved report"
+      }
+    },
+    {
+      "order": 23,
+      "path": "@baseline/skills/edu-writing/scripts/check_consistency.py",
+      "mode": "execute_and_inspect_output",
+      "why": "Execute and inspect the required consistency check on first.md; save its output.",
+      "parallel_batch": "E",
+      "details": {
+        "input_files": [
+          "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.md"
+        ],
+        "output_file": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.consistency.txt",
+        "exit_code": 0,
+        "output_read_via": "tool stdout, identical to saved report"
+      }
+    },
+    {
+      "order": 24,
+      "path": "@baseline/skills/edu-writing/scripts/check_voice.py",
+      "mode": "execute_and_inspect_output",
+      "why": "Execute and inspect the required voice check on final.md; save its output.",
+      "parallel_batch": "F",
+      "details": {
+        "input_files": [
+          "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/final.md",
+          "@repo/evals/writing-20261018/inputs/D1-materials.md"
+        ],
+        "output_file": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/final.voice.txt",
+        "exit_code": 0,
+        "output_read_via": "tool stdout, identical to saved report"
+      }
+    },
+    {
+      "order": 25,
+      "path": "@baseline/skills/edu-writing/scripts/check_prose.py",
+      "mode": "execute_and_inspect_output",
+      "why": "Execute and inspect the required prose check on final.md; save its output.",
+      "parallel_batch": "F",
+      "details": {
+        "input_files": [
+          "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/final.md"
+        ],
+        "output_file": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/final.prose.txt",
+        "exit_code": 0,
+        "output_read_via": "tool stdout, identical to saved report"
+      }
+    },
+    {
+      "order": 26,
+      "path": "@baseline/skills/edu-writing/scripts/check_consistency.py",
+      "mode": "execute_and_inspect_output",
+      "why": "Execute and inspect the required consistency check on final.md; save its output.",
+      "parallel_batch": "F",
+      "details": {
+        "input_files": [
+          "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/final.md"
+        ],
+        "output_file": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/final.consistency.txt",
+        "exit_code": 0,
+        "output_read_via": "tool stdout, identical to saved report"
+      }
+    },
+    {
+      "order": 27,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/first.md",
+      "mode": "automated_read",
+      "why": "Read generated manuscript for final mechanical validation: word count, notice, sections, citation labels and key source values."
+    },
+    {
+      "order": 28,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/final.md",
+      "mode": "automated_read",
+      "why": "Read generated manuscript for final mechanical validation: word count, notice, sections, citation labels and key source values."
+    },
+    {
+      "order": 29,
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run01-arm-p/loads.json",
+      "mode": "automated_read",
+      "why": "Parse the completed read log to confirm valid JSON and ordering metadata."
+    }
+  ]
+}

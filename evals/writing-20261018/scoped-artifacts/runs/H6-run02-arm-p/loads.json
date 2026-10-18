@@ -1,0 +1,195 @@
+{
+  "task": "H6 new Introduction, Discussion and Conclusion",
+  "source_policy": "Only specified skill snapshot, its task-relevant resources, supplied H6 inputs and generated task outputs were read.",
+  "scope_note": "Lists task content files and check scripts; routine Python standard-library/runtime loading and filesystem metadata are not source reads.",
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Determine the new multi-section English writing workflow, required records and applicable checks.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-request.md",
+      "purpose": "Establish scope, 600-750-word target, audience, secondary-exercise status, output files and source restrictions.",
+      "scope": "provided input",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-materials.md",
+      "purpose": "Sole factual and bibliographic source; also supplied to check_voice.py for first and both final check runs.",
+      "scope": "provided input",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Build the education question, evidence-to-claim logic, competing explanations, implications and cross-section map.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Calibrate English findings, candidate explanations, qualifications and secondary-exercise authorial stance; reread after truncated batch output.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Interpret the standardized coefficient, time comparison and null findings without unsupported effect labels or equivalence; reread after truncated batch output.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/introduction.md",
+      "purpose": "Organize a bounded instructional question and source-supported context in the Introduction.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Connect the principal quantitative finding, candidate explanations, comparator and teaching implications.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Answer the question and connect instructional action to evidence and conditions.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Check secondary-writing attribution, nonfabrication, local data and AI-self-review requirements.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/prose-en.md",
+      "purpose": "Use connected English academic prose and sparse source-appropriate citation without treating corpus figures as targets.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Read script source and inspect CLI/I-O lines, then execute first once and final twice with source packet.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Read script source and inspect CLI/I-O lines, then execute first once and final twice.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Read script source and inspect CLI/I-O lines, then execute first once and final twice with a confidence terminology group.",
+      "scope": "specified skill snapshot",
+      "encoding": "UTF-8"
+    }
+  ],
+  "generated_files_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/first.md",
+      "purpose": "Read by three checks, local word counter and final UTF-8 validation; reviewed as initial manuscript.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/final.md",
+      "purpose": "Read by three checks on each final run, local word counter, direct final reread and final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/review.md",
+      "purpose": "Read for appending final check dispositions and final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/rationale.md",
+      "purpose": "Read for appending completion audit and final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/run_checks.py",
+      "purpose": "Executed as the local check runner for first once and final twice; final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/first_voice.txt",
+      "purpose": "Read to inspect automated first-draft voice/source-number findings; final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/first_prose.txt",
+      "purpose": "Read to inspect first-draft prose findings; final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/first_consistency.txt",
+      "purpose": "Read to inspect first-draft consistency findings; final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/final_voice.txt",
+      "purpose": "Read after each final run to inspect and disposition findings; final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/final_prose.txt",
+      "purpose": "Read after each final run to inspect prose and length findings; final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/final_consistency.txt",
+      "purpose": "Read after each final run to inspect consistency findings; final UTF-8 validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/first_check_summary.json",
+      "purpose": "Read to inspect saved commands, exit statuses and word counts; final validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/final_check_summary.json",
+      "purpose": "Read to inspect final saved commands, exit statuses and word counts; final validation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run02-arm-p/loads.json",
+      "purpose": "Read back during final JSON/UTF-8 validation.",
+      "encoding": "UTF-8"
+    }
+  ],
+  "not_used": [
+    "network",
+    "subagents",
+    "other runs",
+    "repository evaluation/development reports",
+    "other installed skills",
+    "original article full text",
+    "earlier cited originals",
+    "raw data"
+  ],
+  "model": {
+    "visible_instruction_label": "Codex, based on GPT-6",
+    "exact_runtime_model_identifier": "unavailable",
+    "reasoning_effort": "unavailable",
+    "sampling_settings": "unavailable",
+    "service_tier": "unavailable"
+  },
+  "execution": {
+    "python_mode": "python -X utf8",
+    "first_check_runs": 1,
+    "final_check_runs": 2,
+    "final_outputs_describe_delivered_text": true,
+    "final_prose_words_whitespace": 619,
+    "final_prose_words_check_prose": 618,
+    "final_words_including_label": 640
+  },
+  "limitations": [
+    "Factual verification is against the supplied packet only.",
+    "Unreconciled score counts, survey-test accounting and unsupplied coefficient interval are recorded as queries rather than silently repaired.",
+    "This is AI self-review, not external expert review."
+  ],
+  "change_log": "Not applicable: new writing; draft revision documented in review.md."
+}

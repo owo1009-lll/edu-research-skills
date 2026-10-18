@@ -1,0 +1,10 @@
+Sections found: Introduction, Discussion, Implications, limitations, conclusion | prompts: 1
+
+[Introduction] 184 words, 2 paragraphs | sentence median 18, >40 words 0.0% | citations 21.7/1,000 words (published 23), cited sentences 22.2% (published 57), narrative 100.0% (published 8), 3+ works 0.0% | sentences with numbers 0.0% | we 0.0/1,000 | passive 33.3%
+  ! cited_share 22.2 outside the published range (< 25 flags; published median 57)
+
+[Discussion] 376 words, 5 paragraphs | sentence median 21.5, >40 words 0.0% | citations 5.3/1,000 words (published 11), cited sentences 11.1% (published 30), narrative 100.0% (published 1 quantitative, 30 qualitative/mixed), 3+ works 0.0% | sentences with numbers 16.7% | we 0.0/1,000 | passive 16.7%
+
+[Implications, limitations, conclusion] 58 words, 1 paragraphs | sentence median 17, >40 words 0.0% | citations 0.0/1,000 words, cited sentences 0.0%, narrative 0.0%, 3+ works 0.0% | sentences with numbers 0.0% | we 0.0/1,000 | passive 0.0%
+
+[Argued sections together] 618 words | sentence median 19.5 (published 26), >40 words 0.0% (13.5) | paragraph median 81.0 words (135) | we 0.0/1,000 (4.9) | passive 20.0% (23.4) | abbreviations 11.3/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)

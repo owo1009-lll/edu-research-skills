@@ -1,0 +1,226 @@
+{
+  "task": "H2 independent secondary revision",
+  "read_log_scope": "Task resources and generated artifacts actually read or executed. Standard Python/OS runtime libraries are excluded; no research sources beyond the two supplied inputs were accessed.",
+  "model_information": {
+    "visible_identity": "Codex; developer instruction describes the agent as based on GPT-6.",
+    "exact_runtime_model_identifier": "unavailable",
+    "reasoning_effort": "unavailable",
+    "temperature": "unavailable",
+    "seed": "unavailable"
+  },
+  "source_resources": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Required writing workflow, revision preservation, applicable routes and checks.",
+      "read_extent": "Read in full.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-request.md",
+      "purpose": "User task, 650-800-word English revision, artifacts and source restrictions.",
+      "read_extent": "Read in full.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-materials.md",
+      "purpose": "Only research evidence: published passage, evidence packet, source attribution and discrepancies.",
+      "read_extent": "Read in full; reread by voice checker on both stages, including reruns.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/foundation.md",
+      "purpose": "Preserve the original author argument, repair specific scope errors and record consequential changes.",
+      "read_extent": "Read in full.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Reconstruct argument and contribution; distinguish claim types, limits and practical judgment.",
+      "read_extent": "Read in full by tool; final section re-read after aggregate output truncation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Association identity, uncertainty, contributions and caution against unsupported inferences.",
+      "read_extent": "Read in full; re-read after aggregate output truncation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "English finding/explanation distinction and calibrated recommendations.",
+      "read_extent": "Read in full; re-read after aggregate output truncation.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/mixed-methods.md",
+      "purpose": "Integrate survey associations and written accounts without invented individual matching or causal mechanisms.",
+      "read_extent": "Read in full.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Interpret selected odds-ratio evidence and comparisons in Discussion.",
+      "read_extent": "Read in full.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Short coherent Conclusion, evidence-based practical judgments and concentrated limitations.",
+      "read_extent": "Read in full.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "No fabrication, local data, attributed secondary adaptation and AI self-review status.",
+      "read_extent": "Read in full; referenced by the supplied skill, not another installed task skill.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect required checker behavior and run it with supplied source on first and final.",
+      "read_extent": "File read by tool and executed twice per stage; relevant code inspected.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect imports/file I/O/CLI and run the required prose check on both drafts.",
+      "read_extent": "File read by tool; filtered code inspection; executed twice per stage.",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect relevant terminology/consistency behavior and run on the two sections.",
+      "read_extent": "File read by tool; header/import lines recovered after truncation; executed twice per stage.",
+      "encoding": "UTF-8"
+    }
+  ],
+  "generated_artifact_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/first.md",
+      "purpose": "Checks, punctuation repair, word count and final audit; initial prose reviewed against the packet.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/final.md",
+      "purpose": "Full final text inspection, checks, attribution correction, punctuation repair, word count and final audit.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/rationale.md",
+      "purpose": "Inspect and repair transport punctuation; preserve original planning record and append final alignment.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/review.md",
+      "purpose": "Inspect and repair transport punctuation; append final check disposition.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/run_checks.py",
+      "purpose": "Execute local runner for both stages and reruns.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/first_voice.txt",
+      "purpose": "Inspect every first-draft voice cue before and after mechanical correction.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/first_prose.txt",
+      "purpose": "Inspect first-draft prose metrics and citation prompt before and after correction.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/first_consistency.txt",
+      "purpose": "Inspect all first-draft consistency findings before and after correction.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/final_voice.txt",
+      "purpose": "Inspect every final voice cue before and after attribution/encoding correction.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/final_prose.txt",
+      "purpose": "Inspect final prose metrics and citation prompt before and after correction.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/final_consistency.txt",
+      "purpose": "Inspect all final consistency findings before and after correction.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/first_checks.json",
+      "purpose": "Final audit of retained commands and return codes.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/final_checks.json",
+      "purpose": "Final audit of retained commands and return codes.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/word_counts.json",
+      "purpose": "Final audit of manuscript and attribution word counts.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/change_log.md",
+      "purpose": "Final UTF-8/completeness inspection of consequential edit record.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-q/loads.json",
+      "purpose": "Final JSON/UTF-8/completeness inspection of the reading record itself.",
+      "kind": "generated output",
+      "encoding": "UTF-8"
+    }
+  ],
+  "constraints_observed": {
+    "network_used": false,
+    "subagents_used": false,
+    "other_runs_inspected": false,
+    "evaluation_or_development_reports_read": false,
+    "other_installed_skills_read": false,
+    "skills_or_inputs_edited": false,
+    "all_outputs_confined_to_designated_new_directory": true
+  },
+  "check_execution": {
+    "python_mode": "python -X utf8",
+    "checks": [
+      "check_voice.py",
+      "check_prose.py",
+      "check_consistency.py"
+    ],
+    "stages": [
+      "first",
+      "final"
+    ],
+    "runs_per_stage": 2,
+    "reason_for_rerun": "Saved-file inspection found Windows stdin punctuation transport corruption; restored punctuation and clarified final attribution sentence before rerun.",
+    "retained_logs": "The named first_* and final_* logs contain the last successful executions.",
+    "outputs_inspected": true
+  },
+  "limitations": [
+    "Research claims verified only against supplied excerpt/evidence packet.",
+    "No independent access to the full article, source XML, original figure files, dataset, or the article's cited literature.",
+    "Invitation totals, table denominator questions and adjustment specification remain unresolved in work records.",
+    "Style checks provide prompts, not expert review or proof of validity."
+  ]
+}

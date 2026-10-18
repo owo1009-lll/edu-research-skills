@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "task": "H4 independent translation",
+  "date_from_environment": "2026-10-18",
+  "output_directory": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p",
+  "actual_reads": [
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\SKILL.md",
+      "purpose": "Read the designated writing workflow and task-relevant resource routing.",
+      "access": "Full UTF-8 text read"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H4-request.md",
+      "purpose": "Establish translation scope, output filenames, local-only restriction, and required self-review.",
+      "access": "Full UTF-8 text read"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H4-materials.md",
+      "purpose": "Read the four source paragraphs, background only for comprehension, and supplied attribution and license; use as the check_voice source.",
+      "access": "Full UTF-8 text read; also read by check_voice in first/final runs and initial encoding-failure run"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\foundation.md",
+      "purpose": "Preserve the source author argument, scope, modality, and revision rationale.",
+      "access": "Full UTF-8 text read"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\argument.md",
+      "purpose": "Map the theoretical argument, distinguish necessary conditions and candidate explanations, and preserve source limits.",
+      "access": "Full UTF-8 text read"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\voice-zh.md",
+      "purpose": "Use natural Chinese while preserving justified normative force and necessary qualifications.",
+      "access": "Full UTF-8 text read"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\conceptual-argument.md",
+      "purpose": "Check the theoretical passage as concept-premise-inference writing, not an intervention report.",
+      "access": "Full UTF-8 text read"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-shared\\references\\integrity.md",
+      "purpose": "Follow the designated skill linked integrity rules; preserve attribution and distinguish AI self-review from expert review.",
+      "access": "Full UTF-8 text read; no other installed skill read"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "purpose": "Inspect and run the required stance and source-number diagnostic.",
+      "access": "Full UTF-8 source displayed and executed with python -X utf8"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "purpose": "Inspect heading detection, diagnostics, and read behavior; run the required prose diagnostic.",
+      "access": "Full UTF-8 source requested but combined output truncated; relevant first 260 lines reread in full; script executed with python -X utf8"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\first.md",
+      "purpose": "Inspect encoding fault; run corrected first-draft checks; validate final delivery and four-paragraph source structure.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\final.md",
+      "purpose": "Run final checks and read final text for delivery validation.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\rationale.md",
+      "purpose": "Validate UTF-8 task record and argument map.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\review.md",
+      "purpose": "Validate UTF-8 substantive AI review and final diagnostic interpretation.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\change_log.md",
+      "purpose": "Validate UTF-8 translation choices and revision record.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\encoding-failure.first.check_voice.txt",
+      "purpose": "Validate retained diagnostic record for the initial encoding incident; not evidence of translation quality.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\encoding-failure.first.check_prose.txt",
+      "purpose": "Validate retained diagnostic record for the initial encoding incident; not evidence of translation quality.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\first.check_voice.txt",
+      "purpose": "Read saved output and assess the case-description limitation flag.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\first.check_prose.txt",
+      "purpose": "Read saved output; inspect Chinese four-paragraph detection and limits of corpus-based metrics.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\final.check_voice.txt",
+      "purpose": "Read saved output and assess the separate may/likelihood meanings and case-description flag.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\final.check_prose.txt",
+      "purpose": "Read saved final output; inspect section and paragraph detection.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\loads.json",
+      "purpose": "Parse and validate this manifest before handoff.",
+      "access": "UTF-8 own-output read; manuscript files also read by the applicable scripts"
+    }
+  ],
+  "read_manifest_scope": "Task-content resources, designated checker sources, and own output files. Interpreter and standard-library internals are not content sources.",
+  "model_identity_and_settings": {
+    "visible_role_description": "Developer text describes the assistant as Codex, based on GPT-6; this is a role description, not independently verified runtime identity.",
+    "actual_runtime_model_id": "unavailable",
+    "reasoning_effort": "unavailable",
+    "temperature": "unavailable",
+    "service_tier": "unavailable"
+  },
+  "constraints_observed": {
+    "network_calls": 0,
+    "subagents_spawned": 0,
+    "other_runs_read": 0,
+    "other_installed_skills_read": 0,
+    "skill_or_input_edits": 0,
+    "all_writes_within_output_directory": true
+  },
+  "checks": [
+    {
+      "draft": "first.md",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\first.md",
+        "--source",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H4-materials.md"
+      ],
+      "report": "first.check_voice.txt",
+      "exit_code": 0,
+      "output_inspected": true
+    },
+    {
+      "draft": "first.md",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\first.md"
+      ],
+      "report": "first.check_prose.txt",
+      "exit_code": 0,
+      "output_inspected": true
+    },
+    {
+      "draft": "final.md",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\final.md",
+        "--source",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H4-materials.md"
+      ],
+      "report": "final.check_voice.txt",
+      "exit_code": 0,
+      "output_inspected": true
+    },
+    {
+      "draft": "final.md",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H4-run01-arm-p\\final.md"
+      ],
+      "report": "final.check_prose.txt",
+      "exit_code": 0,
+      "output_inspected": true
+    }
+  ],
+  "diagnostic_judgments": [
+    "The case statement that group members failed to respond is a source example, not a manuscript limitation to relocate.",
+    "Final may and likelihood are different semantic levels; the repeated Chinese possibility token is required for fidelity.",
+    "check_prose flags are reference cues, not translation quality certification; its citation regex misses the Lardner citation with page number."
+  ],
+  "not_applicable": {
+    "check_consistency.py": "A four-paragraph single-section translation, not a multi-section or complete manuscript; local term and clause consistency checked in AI self-review.",
+    "md_to_docx.py": "Request explicitly specifies Markdown deliverables."
+  },
+  "encoding_incident": "Initial PowerShell-to-Python source pipe replaced Chinese with question marks. Restored rationale and first draft with explicit UTF-8 .NET writes before semantic review; reran both first-draft scripts. Original invalid diagnostics retained under encoding-failure.*.",
+  "limitations": [
+    "No independent source-article, cited-work, license, or canonical Chinese terminology verification; all attribution and source claims come from supplied material.",
+    "Review is AI self-review, not expert certification."
+  ],
+  "files_completed": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "change_log.md",
+    "loads.json",
+    "first.check_voice.txt",
+    "first.check_prose.txt",
+    "final.check_voice.txt",
+    "final.check_prose.txt",
+    "encoding-failure.first.check_voice.txt",
+    "encoding-failure.first.check_prose.txt"
+  ],
+  "additional_validation_report": "validation.txt"
+}

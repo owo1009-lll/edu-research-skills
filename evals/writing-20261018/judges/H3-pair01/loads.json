@@ -1,0 +1,98 @@
+{
+  "assessment_id": "H3-pair01",
+  "assessment_type": "AI anonymous supplied-material comparison",
+  "scope": "Only the judging request and this pair's request.md, materials.md, A.md and B.md were read. No source verification, skills, other pairs, original runs, development records or blind keys were accessed.",
+  "encoding": "UTF-8",
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/holdout-judge-request.md",
+      "purpose": "Judging criteria, scope and output requirements",
+      "read_count": 1,
+      "method": "PowerShell Get-Content -LiteralPath -Raw -Encoding UTF8",
+      "exec_command_max_output_tokens": 16000,
+      "reported_original_token_count": 649,
+      "complete_content_visible": true,
+      "truncation_reported": false
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H3-01/H3-pair01/request.md",
+      "purpose": "Understand the writing task; not execute it",
+      "read_count": 1,
+      "method": "PowerShell Get-Content -LiteralPath -Raw -Encoding UTF8",
+      "exec_command_max_output_tokens": 16000,
+      "reported_original_token_count": 175,
+      "complete_content_visible": true,
+      "truncation_reported": false
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H3-01/H3-pair01/materials.md",
+      "purpose": "Sole factual and author-meaning reference for assessment",
+      "read_count": 1,
+      "method": "PowerShell Get-Content -LiteralPath -Raw -Encoding UTF8",
+      "exec_command_max_output_tokens": 16000,
+      "reported_original_token_count": 521,
+      "complete_content_visible": true,
+      "truncation_reported": false
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H3-01/H3-pair01/A.md",
+      "purpose": "Assess manuscript A; reread only to calculate length and paragraph counts",
+      "read_count": 2,
+      "method": "PowerShell Get-Content -LiteralPath -Raw -Encoding UTF8",
+      "initial_exec_command_max_output_tokens": 16000,
+      "initial_reported_original_token_count": 503,
+      "complete_content_visible": true,
+      "truncation_reported": false
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/H3-01/H3-pair01/B.md",
+      "purpose": "Assess manuscript B; reread only to calculate length and paragraph counts",
+      "read_count": 2,
+      "method": "PowerShell Get-Content -LiteralPath -Raw -Encoding UTF8",
+      "initial_exec_command_max_output_tokens": 16000,
+      "initial_reported_original_token_count": 508,
+      "complete_content_visible": true,
+      "truncation_reported": false
+    }
+  ],
+  "output_limit_notes": {
+    "functions_exec_direct_output_token_limit": 10000,
+    "functions_exec_limit_source": "Documented default; no override used",
+    "initial_reads": "Three independent reads in the first batch and two in the second; each command limited to 16000 output tokens. All five complete tool outputs were visible without truncation markers.",
+    "length_check_exec_command_max_output_tokens": 2000,
+    "length_check_reported_original_token_count": 121,
+    "length_check_output_truncated": false
+  },
+  "length_check": {
+    "scope": "Body following the heading, excluding introductory attribution and heading",
+    "non_whitespace_count_includes_punctuation_and_digits": true,
+    "A": {
+      "body_non_whitespace_characters": 609,
+      "body_han_characters": 552,
+      "body_paragraphs": 3,
+      "whole_non_whitespace_characters": 675
+    },
+    "B": {
+      "body_non_whitespace_characters": 633,
+      "body_han_characters": 562,
+      "body_paragraphs": 4,
+      "whole_non_whitespace_characters": 683
+    }
+  },
+  "model_information": {
+    "visible_identity": "Developer context identifies the assistant as Codex, based on GPT-6; this does not establish the precise backend version.",
+    "exact_backend_model_version": "不可获取",
+    "temperature": "不可获取",
+    "random_seed": "不可获取",
+    "manuscript_generator_models": "不可获取；未推测"
+  },
+  "network_calls": 0,
+  "subagents_spawned": 0,
+  "input_files_modified": false,
+  "human_review_performed": false,
+  "independent_original_source_verification": false,
+  "outputs": [
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H3-pair01/review.md",
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/H3-pair01/loads.json"
+  ]
+}

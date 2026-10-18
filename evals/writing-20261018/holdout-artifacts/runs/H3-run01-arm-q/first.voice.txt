@@ -1,0 +1,21 @@
+COMMAND: python -X utf8 C:/Users/Administrator/Downloads/edu-writing-snapshot-q01-20261018/skills/edu-writing/scripts/check_voice.py --draft C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H3-run01-arm-q/first.md --source C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H3-materials.md
+EXIT_CODE: 0
+
+Language: zh | discussion/conclusion sentences: 19 | paragraphs: 4
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.0; within typical range)
+  Self-mention per 千字: 0.0
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

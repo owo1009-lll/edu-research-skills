@@ -1,0 +1,13 @@
+Sections found: Introduction, Discussion, Implications, limitations, conclusion | prompts: 4
+
+[Introduction] 270 words, 3 paragraphs | sentence median 18, >40 words 0.0% | citations 0.0/1,000 words (published 23), cited sentences 0.0% (published 57), narrative 0.0% (published 8), 3+ works 0.0% | sentences with numbers 13.3% | we 3.7/1,000 | passive 26.7%
+  ! cite_per_k 0.0 outside the published range (< 10 flags; published median 23)
+  ! cited_share 0.0 outside the published range (< 25 flags; published median 57)
+
+[Discussion] 361 words, 4 paragraphs | sentence median 17.5, >40 words 0.0% | citations 0.0/1,000 words (published 11), cited sentences 0.0% (published 30), narrative 0.0% (published 1 quantitative, 30 qualitative/mixed), 3+ works 0.0% | sentences with numbers 15.0% | we 5.5/1,000 | passive 20.0%
+  ! cite_per_k 0.0 outside the published range (< 3 flags; published median 11)
+  ! the discussion cites no earlier study (published: 76% of discussion points compare with 2-4 cited studies)
+
+[Implications, limitations, conclusion] 259 words, 3 paragraphs | sentence median 19.0, >40 words 0.0% | citations 0.0/1,000 words, cited sentences 0.0%, narrative 0.0%, 3+ works 0.0% | sentences with numbers 14.3% | we 0.0/1,000 | passive 7.1%
+
+[Argued sections together] 890 words | sentence median 18 (published 26), >40 words 0.0% (13.5) | paragraph median 90.0 words (135) | we 3.4/1,000 (4.9) | passive 18.4% (23.4) | abbreviations 2.2/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)

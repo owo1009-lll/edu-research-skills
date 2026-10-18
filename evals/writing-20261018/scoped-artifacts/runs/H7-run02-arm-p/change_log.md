@@ -1,0 +1,28 @@
+# Consequential change log
+
+All changes concern an attributed secondary exercise. No change is represented as approved by the original authors. Categories follow the supplied skill: **(a)** repair of a factual, logical or expression problem; **(b)** adjustment required by actual results; **(c)** unresolved source/material issue. No new analyses were performed, so no edit claims category (b) on the basis of new results.
+
+| Original location and claim | Final location and treatment | Category and reason |
+|---|---|---|
+| Discussion 1: students pass specific milestones that empower them, increase appreciation/engagement and improve performance | Discussion 1 and 3: all eight model labels retained as a proposed process; overlap and iteration stated; integration is at curriculum level | (a) The sequence is a conceptual reconstruction, not within-person longitudinal proof or an identified causal chain. |
+| Discussion 1 and 4: Articulate–Affect leads to constructive change; healthcare value and lower costs expected | Discussion 2 defines Affect as intended wider contribution; Discussion 6 treats clinical/cost effects as unmeasured future outcomes | (a) Preserve the model's aspirational endpoint without reporting unobserved effects. |
+| Discussion 1: male/female experiences and performance are effectively similar; admissions standardization explains this | Omitted from shortened body; source query retained in rationale.md | (c) No adequate supplied gender estimates/tests; (a) no measured admissions mechanism. Omission does not assert that gender differences exist. |
+| Discussion 2: an early/later learning curve with Apply as the turning point | Discussion 3 retains the reported grade contrast and oldest-cohort pattern, adds the exact Figure 2 means and scale, and identifies changing assessments/cohorts | (a) Course grades measure different tasks and are not a common competence test. The contrast remains a meaningful part of the evidence, but not proof of an individual learning curve. |
+| Discussion 3: appreciation is reflected in enhanced performance | Discussion 3 separates the two evidence strands and rejects the specific appreciation-causes-grades inference | (a) Joint display lacks interviewee-level grade linkage and mediation identification. |
+| Discussion 2: situated learning, community of practice, mentorship, analogical reasoning and reflection justify experiential modules | Discussion 2 and 5 preserve these concepts and the strong “should” recommendation, with implementation conditions | Author-position preservation; reorganization explicitly authorized. Evidence calibration does not require weakening a reasoned educational judgment. |
+| Discussion 3: contrast with Kirkpatrick/learning-transfer models | Discussion 4 explicitly attributes that reading to Otaki et al. (2023) | (c) The theoretical originals were not supplied or independently read. Retain the authors' conceptual comparison without independently judging those models. |
+| Discussion 4: lower grade fluctuation than all-course GPA indicates curriculum integration | Omitted; detailed reason retained in rationale.md and review.md | (a) All-course GPA includes research grades, so it is not independent; fluctuation alone does not identify integration. This inference is unnecessary to the central contribution. |
+| Discussion 4: diagrammatic linearity versus iterative/spiral learning | Discussion 1 carries iteration and revisiting knowledge beside the model's labels | Reorganization authorized; retain the conceptual qualifier where readers first encounter the model. |
+| Discussion 5: generalizability and causality limits, longitudinal/experimental follow-up, professional and patient outcomes | Discussion 6 combines setting, cohort reconstruction, member feedback and lack of comparator; recommends individual follow-up and testing across programs | (a) Specify what each design feature restricts and what follow-up would resolve. No invented discrepancy reconciliation or prospective validation. |
+| Conclusion: appreciation follows implementation, module should be integral, short-/long-term improvements expected | Conclusion answers with participants' accounts and a framework contribution; preserves supervised experiential research recommendation; leaves later benefits for investigation | (a) Remove guaranteed outcome language while retaining the substantive educational position. |
+| Original numbered citations | Source attribution and one complete source reference replace orphaned reference numbers in this shortened exercise | Scope adaptation and (c) pending verification. The packet contains no independently read reference library. No original citation is declared invalid or independently verified. |
+
+## First-to-final revisions
+
+- Changed “the model explains how” in the conclusion to an account-based claim matching the Discussion's evidence level.
+- Made the opening explicitly about accounts across cohorts and added source participant codes to the early confusion/later relevance contrast.
+- Replaced an undocumented “supported refinement” claim with the actual member-checking procedure and its limits.
+- Explicitly stated the lack of a comparison program and connected it to the unresolved contribution of project work.
+- Added the source year to the theoretical-comparison attribution and used GPA consistently as a singular defined term.
+- Defined Affect in the conceptual paragraph and consolidated unmeasured downstream outcomes with future work.
+- Preserved the direct recommendation, all paired labels, situated learning/community of practice, analogical reasoning and reflection.

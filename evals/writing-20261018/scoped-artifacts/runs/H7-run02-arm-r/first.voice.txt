@@ -1,0 +1,28 @@
+COMMAND: ['C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-X', 'utf8', 'C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_voice.py', '--draft', 'C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run02-arm-r\\first.md', '--source', 'C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H7-materials.md']
+EXIT CODE: 0
+
+Language: en | discussion/conclusion sentences: 37 | paragraphs: 7
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 2.7  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): 0.0  (published median 66.7; outside typical range)
+
+Disclaimer sentences in the discussion body: 1
+  (keep those that state a condition the claim needs)
+  [para 3] The findings therefore support a curriculum-level interpretation of the transition to research participation; they do not establish that appreciation caused hig
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 1
+  (one accurate qualifier is fine; check that each one is needed)
+  [para 4] Their entry into medical education directly after secondary school offers one possible explanation: unfamiliar research content may acquire meaning gradually th
+
+Limitation sentences outside the limitations unit: 2
+  (a specific problem may belong next to its result)
+  [para 2] They also show why conducting research adds a dimension that instruction about research alone cannot provide.
+  [para 6] Future studies should follow individuals with comparable assessments, investigate the framework in other programs and examine actual research practice and caree
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

@@ -1,0 +1,17 @@
+COMMAND: C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python.exe -X utf8 -B C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_prose.py --draft C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-r/final.md
+EXIT CODE: 0
+
+STDOUT
+Sections found: Introduction, Discussion, Implications, limitations, conclusion | prompts: 2
+
+[Introduction] 163 words, 2 paragraphs | sentence median 18, >40 words 0.0% | citations 6.1/1,000 words (published 23), cited sentences 11.1% (published 57), narrative 100.0% (published 8), 3+ works 0.0% | sentences with numbers 0.0% | we 0.0/1,000 | passive 11.1%
+  ! cite_per_k 6.1 outside the published range (< 10 flags; published median 23)
+  ! cited_share 11.1 outside the published range (< 25 flags; published median 57)
+
+[Discussion] 414 words, 5 paragraphs | sentence median 18.0, >40 words 0.0% | citations 4.8/1,000 words (published 11), cited sentences 8.3% (published 30), narrative 50.0% (published 1 quantitative, 30 qualitative/mixed), 3+ works 0.0% | sentences with numbers 8.3% | we 0.0/1,000 | passive 20.8%
+
+[Implications, limitations, conclusion] 69 words, 1 paragraphs | sentence median 22, >40 words 0.0% | citations 0.0/1,000 words, cited sentences 0.0%, narrative 0.0%, 3+ works 0.0% | sentences with numbers 0.0% | we 0.0/1,000 | passive 0.0%
+
+[Argued sections together] 646 words | sentence median 18.0 (published 26), >40 words 0.0% (13.5) | paragraph median 82.5 words (135) | we 0.0/1,000 (4.9) | passive 16.7% (23.4) | abbreviations 6.2/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)
+
+STDERR

@@ -1,0 +1,34 @@
+{
+  "files_verified_as_nonempty_utf8": [
+    "first.md",
+    "final.md",
+    "review.md",
+    "rationale.md",
+    "change_log.md",
+    "loads.json",
+    "run_checks.py",
+    "record_loads.py",
+    "first_voice.txt",
+    "first_prose.txt",
+    "first_consistency.txt",
+    "final_voice.txt",
+    "final_prose.txt",
+    "final_consistency.txt",
+    "first_checks.json",
+    "final_checks.json"
+  ],
+  "external_resource_count": 15,
+  "required_deliverables_present": true,
+  "all_six_required_check_executions_returned_zero": true,
+  "final_word_counts": {
+    "method": "Whitespace-delimited tokens; headings and reference excluded; attribution also reported separately.",
+    "discussion": 605,
+    "conclusion": 73,
+    "total_body": 678,
+    "attribution": 26,
+    "body_plus_attribution": 704,
+    "within_650_800": true
+  },
+  "final_check_outputs_inspected": true,
+  "qualitative_status": "AI self-review and source-packet comparison; not expert review or new research analysis"
+}

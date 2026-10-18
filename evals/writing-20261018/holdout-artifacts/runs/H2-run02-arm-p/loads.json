@@ -1,0 +1,283 @@
+{
+  "task": "H2 independent attributed secondary revision",
+  "output_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p",
+  "date_context": "2026-10-18",
+  "resource_scope": "Only supplied H2 inputs, specified skill snapshot and its task-relevant referenced files; plus artifacts generated in this directory.",
+  "network_used": false,
+  "subagents_spawned": false,
+  "other_runs_or_repository_reports_read": false,
+  "model": {
+    "visible_role_label": "Codex, based on GPT-6 (developer-provided label)",
+    "exact_runtime_model_identifier": "unavailable",
+    "reasoning_effort_setting": "unavailable",
+    "temperature": "unavailable",
+    "seed": "unavailable"
+  },
+  "reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Identify revision workflow, required deliverables and applicable checks.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-request.md",
+      "purpose": "Read the requested scope, length, attribution, source limits and output files.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H2-materials.md",
+      "purpose": "Read original published passage and evidence packet; ground all empirical statements and source notes.",
+      "mode": "Full text read and read by check_voice.py for both drafts",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/foundation.md",
+      "purpose": "Preserve author argument and practical judgments; classify consequential changes.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Build the evidence-to-claim argument, assign qualification placement and cross-section verification.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Calibrate associations, odds ratios, intervals and cross-campus comparisons.",
+      "mode": "Full text read",
+      "encoding": "utf-8",
+      "details": "Initial combined tool output was truncated; reread completely in a separate batch."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Use direct supported English claims, precise qualifications and clear institutional recommendations.",
+      "mode": "Full text read",
+      "encoding": "utf-8",
+      "details": "Initial combined tool output was truncated; reread completely in a separate batch."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Organize quantitative findings and practical interpretation in Discussion.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Connect recommendations to evidence and integrate limits before a short substantive Conclusion.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/qualitative-narrative.md",
+      "purpose": "Preserve distinct survey accounts and avoid frequency claims or invented recoding.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Follow attribution, nonfabrication and AI self-review requirements.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect imports, input reads, CLI options and output behavior, then run the required local check on each draft.",
+      "mode": "UTF-8 rg-filtered source inspection; executed twice",
+      "encoding": "utf-8",
+      "details": "Only matching lines were inspected manually; each Python source was loaded by the interpreter for execution."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect imports, input reads, CLI options and output behavior, then run the required local check on each draft.",
+      "mode": "UTF-8 rg-filtered source inspection; executed twice",
+      "encoding": "utf-8",
+      "details": "Only matching lines were inspected manually; each Python source was loaded by the interpreter for execution."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect imports, input reads, CLI options and output behavior, then run the required local check on each draft.",
+      "mode": "UTF-8 rg-filtered source inspection; executed twice",
+      "encoding": "utf-8",
+      "details": "Only matching lines were inspected manually; each Python source was loaded by the interpreter for execution."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first.md",
+      "purpose": "Read by all three checkers and by the local word-count runner.",
+      "mode": "Automated full-text reads",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final.md",
+      "purpose": "Read by all three checkers and by the local word-count runner.",
+      "mode": "Automated full-text reads",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/run_checks.py",
+      "purpose": "Execute reproducible local checks, capture UTF-8 outputs and record word counts.",
+      "mode": "Loaded by Python interpreter twice",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first_voice.txt",
+      "purpose": "Inspect the saved checker output and decide each relevant cue in review.md.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first_prose.txt",
+      "purpose": "Inspect the saved checker output and decide each relevant cue in review.md.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first_consistency.txt",
+      "purpose": "Inspect the saved checker output and decide each relevant cue in review.md.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final_voice.txt",
+      "purpose": "Inspect the saved checker output and decide each relevant cue in review.md.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final_prose.txt",
+      "purpose": "Inspect the saved checker output and decide each relevant cue in review.md.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final_consistency.txt",
+      "purpose": "Inspect the saved checker output and decide each relevant cue in review.md.",
+      "mode": "Full text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first.md",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/review.md",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final.md",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/rationale.md",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/change_log.md",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/run_checks.py",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first_voice.txt",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first_prose.txt",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first_consistency.txt",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final_voice.txt",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final_prose.txt",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final_consistency.txt",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/first_checks.json",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/final_checks.json",
+      "purpose": "Final local artifact validation: verify UTF-8 decoding, nonempty contents and required structure/check metadata.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H2-run02-arm-p/loads.json",
+      "purpose": "Verify generated resource-read manifest is valid UTF-8 JSON.",
+      "mode": "Automated full-text read",
+      "encoding": "utf-8"
+    }
+  ],
+  "inventory_note": "Records actual task-content reads, including partial script inspection and automated draft/output validation. Standard-library/runtime internals are not research resources and are not inventoried. Repeated reads are explicit where known; the list does not claim filesystem tracing.",
+  "checks": {
+    "first_checks.json": {
+      "word_count": {
+        "discussion_and_conclusion_whitespace": 664,
+        "lexical": 670,
+        "target": [
+          650,
+          800
+        ],
+        "within_range": true
+      },
+      "all_script_exit_codes": 0
+    },
+    "final_checks.json": {
+      "word_count": {
+        "discussion_and_conclusion_whitespace": 678,
+        "lexical": 685,
+        "target": [
+          650,
+          800
+        ],
+        "within_range": true
+      },
+      "all_script_exit_codes": 0
+    }
+  },
+  "limits": [
+    "No raw-data reanalysis.",
+    "Original secondary literature and full source article were not independently fetched.",
+    "Model deployment identifier and sampling settings are not visible."
+  ]
+}

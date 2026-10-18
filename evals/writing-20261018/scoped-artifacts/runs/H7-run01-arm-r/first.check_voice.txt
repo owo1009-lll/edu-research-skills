@@ -1,0 +1,25 @@
+Language: en | discussion/conclusion sentences: 38 | paragraphs: 7
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 1.5  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 1
+  (arguments, not disclaimers)
+  [para 3] Higher project-course grades therefore do not establish an equivalent increase in research competence or show that appreciation caused performance gains.
+
+Sentences with two or more hedges: 2
+  (one accurate qualifier is fine; check that each one is needed)
+  [para 2] Early biostatistics and software exercises could seem disconnected from research; project work later provided a context in which students recognized their relev
+  [para 4] Appreciation emerging during application suggests that evaluating students’ responses only when content is introduced may miss its later significance.
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 1
+  (does a non-significant result become equivalence, an exclusive mechanism or a free choice?)
+  Higher project-course grades therefore do not establish an equivalent increase in research competence or show that appreciation caused performance gains.
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

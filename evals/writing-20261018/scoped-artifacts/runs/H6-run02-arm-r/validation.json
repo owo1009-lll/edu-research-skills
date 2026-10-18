@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "files_checked_as_utf8": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "loads.json",
+    "check_runs.json",
+    "word_counts.json",
+    "first_voice_check.txt",
+    "first_prose_check.txt",
+    "first_consistency_check.txt",
+    "final_voice_check.txt",
+    "final_prose_check.txt",
+    "final_consistency_check.txt"
+  ],
+  "check_executions": 6,
+  "all_check_exit_codes_zero": true,
+  "final_body_words": 621,
+  "final_words_with_notice_excluding_headings_and_references": 644,
+  "new_writing_task_change_log_required": false,
+  "validation_scope": "File completeness, valid JSON/UTF-8, recorded script execution, section presence, word limit and exercise attribution; substantive review is in review.md."
+}

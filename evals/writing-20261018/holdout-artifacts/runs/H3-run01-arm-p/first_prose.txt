@@ -1,0 +1,4 @@
+Sections found: 讨论 | prompts: 1
+
+[讨论] 525 chars, 3 paragraphs | sentence median 29, >100: 0.0% | citations 3.8/1,000, cited sentences 11.8%, author-led 100.0% | statistics 0.0/1,000, decimals 0.0/1,000 | paragraph-final value sentences 0.0%
+  ! sentence_median 29 below the published range (>= 30)

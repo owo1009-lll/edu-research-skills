@@ -1,0 +1,21 @@
+COMMAND: ['python', '-X', 'utf8', 'C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py', '--draft', 'C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/final.md', '--source', 'C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-materials.md']
+EXIT CODE: 0
+
+Language: en | discussion/conclusion sentences: 27 | paragraphs: 7
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

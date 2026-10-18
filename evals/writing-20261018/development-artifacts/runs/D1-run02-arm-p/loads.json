@@ -1,0 +1,316 @@
+{
+  "scope": "All model-visible task, evidence and instruction reads are listed in submission order. Reads submitted in the same parallel batch ran concurrently; exact completion order is not asserted. Check executions and their known task-file inputs, plus generated-file validation reads, are separately recorded. Python standard-library/runtime imports are not file-access traced.",
+  "source_and_instruction_reads": [
+    {
+      "order": 1,
+      "path": "@baseline/skills/edu-writing/SKILL.md",
+      "reason": "Read the only authorised writing skill; initial PowerShell default-encoding read displayed corrupted non-ASCII characters",
+      "parallel_batch": 1
+    },
+    {
+      "order": 2,
+      "path": "@repo/evals/writing-20261018/inputs/D1-request.md",
+      "reason": "Read the section, length, format and records requirements; initial PowerShell default-encoding read displayed corrupted non-ASCII characters",
+      "parallel_batch": 1
+    },
+    {
+      "order": 3,
+      "path": "@repo/evals/writing-20261018/inputs/D1-materials.md",
+      "reason": "Read the closed study evidence and fictional comparison cards; initial PowerShell default-encoding read displayed corrupted non-ASCII characters",
+      "parallel_batch": 1
+    },
+    {
+      "order": 4,
+      "path": "@baseline/skills/edu-writing/SKILL.md",
+      "reason": "Reread in explicit UTF-8 to recover the skill instructions accurately",
+      "parallel_batch": 2
+    },
+    {
+      "order": 5,
+      "path": "@repo/evals/writing-20261018/inputs/D1-request.md",
+      "reason": "Reread in explicit UTF-8 to confirm the 800?1,000-word requirement",
+      "parallel_batch": 2
+    },
+    {
+      "order": 6,
+      "path": "@repo/evals/writing-20261018/inputs/D1-materials.md",
+      "reason": "Reread in explicit UTF-8 to confirm the fictional-source notice and exact materials",
+      "parallel_batch": 2
+    },
+    {
+      "order": 7,
+      "path": "@baseline/skills/edu-writing/references/argument.md",
+      "reason": "Plan the educational argument, evidence types, scope and cross-section consistency",
+      "parallel_batch": 3
+    },
+    {
+      "order": 8,
+      "path": "@baseline/skills/edu-writing/references/framing-results.md",
+      "reason": "Interpret uncertain primary effects, secondary effects and practical claims",
+      "parallel_batch": 3
+    },
+    {
+      "order": 9,
+      "path": "@baseline/skills/edu-writing/references/voice-en.md",
+      "reason": "Apply the English stance and qualification rules",
+      "parallel_batch": 3
+    },
+    {
+      "order": 10,
+      "path": "@baseline/skills/edu-writing/references/introduction.md",
+      "reason": "Follow the requested introduction route",
+      "parallel_batch": 3
+    },
+    {
+      "order": 11,
+      "path": "@baseline/skills/edu-writing/references/quantitative-discussion.md",
+      "reason": "Follow the requested quantitative discussion route",
+      "parallel_batch": 3
+    },
+    {
+      "order": 12,
+      "path": "@baseline/skills/edu-writing/references/conclusion-implications.md",
+      "reason": "Follow the conclusion, implications and limitations route",
+      "parallel_batch": 3
+    },
+    {
+      "order": 13,
+      "path": "@baseline/skills/edu-shared/references/integrity.md",
+      "reason": "Apply the supplied skill?s required relative integrity rules",
+      "parallel_batch": 3
+    },
+    {
+      "order": 14,
+      "path": "@baseline/skills/edu-writing/references/voice-en.md",
+      "reason": "Recover the complete text after the combined preceding output was truncated",
+      "parallel_batch": 4
+    },
+    {
+      "order": 15,
+      "path": "@baseline/skills/edu-writing/references/framing-results.md",
+      "reason": "Recover the complete ending after the combined preceding output was truncated",
+      "parallel_batch": 4
+    },
+    {
+      "order": 16,
+      "path": "@baseline/skills/edu-writing/references/prose-en.md",
+      "reason": "Read the English prose reference required by the introduction route; use descriptive norms only",
+      "parallel_batch": 4
+    }
+  ],
+  "check_executions": [
+    {
+      "order": 1,
+      "phase": "help",
+      "parallel_batch": 5,
+      "script": "@baseline/skills/edu-writing/scripts/check_voice.py",
+      "inputs": [],
+      "reason": "Execute --help to inspect supported check arguments; script source was not inspected"
+    },
+    {
+      "order": 2,
+      "phase": "help",
+      "parallel_batch": 5,
+      "script": "@baseline/skills/edu-writing/scripts/check_prose.py",
+      "inputs": [],
+      "reason": "Execute --help to inspect supported check arguments; script source was not inspected"
+    },
+    {
+      "order": 3,
+      "phase": "help",
+      "parallel_batch": 5,
+      "script": "@baseline/skills/edu-writing/scripts/check_consistency.py",
+      "inputs": [],
+      "reason": "Execute --help to inspect supported check arguments; script source was not inspected"
+    },
+    {
+      "order": 4,
+      "phase": "first",
+      "parallel_batch": 6,
+      "script": "@baseline/skills/edu-writing/scripts/check_voice.py",
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/first.md",
+        "@repo/evals/writing-20261018/inputs/D1-materials.md"
+      ],
+      "reason": "Run the supplied check and save its complete output; these task files are read by the check process",
+      "exit_code": 0
+    },
+    {
+      "order": 5,
+      "phase": "first",
+      "parallel_batch": 6,
+      "script": "@baseline/skills/edu-writing/scripts/check_prose.py",
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/first.md"
+      ],
+      "reason": "Run the supplied check and save its complete output; these task files are read by the check process",
+      "exit_code": 0
+    },
+    {
+      "order": 6,
+      "phase": "first",
+      "parallel_batch": 6,
+      "script": "@baseline/skills/edu-writing/scripts/check_consistency.py",
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/first.md"
+      ],
+      "reason": "Run the supplied check and save its complete output; these task files are read by the check process",
+      "exit_code": 0
+    },
+    {
+      "order": 7,
+      "phase": "final",
+      "parallel_batch": 8,
+      "script": "@baseline/skills/edu-writing/scripts/check_voice.py",
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/final.md",
+        "@repo/evals/writing-20261018/inputs/D1-materials.md"
+      ],
+      "reason": "Run the supplied check and save its complete output; these task files are read by the check process",
+      "exit_code": 0
+    },
+    {
+      "order": 8,
+      "phase": "final",
+      "parallel_batch": 8,
+      "script": "@baseline/skills/edu-writing/scripts/check_prose.py",
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/final.md"
+      ],
+      "reason": "Run the supplied check and save its complete output; these task files are read by the check process",
+      "exit_code": 0
+    },
+    {
+      "order": 9,
+      "phase": "final",
+      "parallel_batch": 8,
+      "script": "@baseline/skills/edu-writing/scripts/check_consistency.py",
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/final.md"
+      ],
+      "reason": "Run the supplied check and save its complete output; these task files are read by the check process",
+      "exit_code": 0
+    }
+  ],
+  "generated_file_reads": [
+    {
+      "order": 1,
+      "stage": "after first checks, before review",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/first.md",
+      "reason": "Count body words excluding notice and headings"
+    },
+    {
+      "order": 2,
+      "stage": "after final checks",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/first.md",
+      "reason": "Save paired word counts, card-label counts and notice verification"
+    },
+    {
+      "order": 3,
+      "stage": "after final checks",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/final.md",
+      "reason": "Save paired word counts, card-label counts and notice verification"
+    },
+    {
+      "order": 4,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/first.md",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 5,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/review.md",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 6,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/final.md",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 7,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/rationale.md",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 8,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/loads.json",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 9,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/checks/first-voice.txt",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 10,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/checks/first-prose.txt",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 11,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/checks/first-consistency.txt",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 12,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/checks/final-voice.txt",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 13,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/checks/final-prose.txt",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 14,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/checks/final-consistency.txt",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    },
+    {
+      "order": 15,
+      "stage": "final delivery validation after writing this log",
+      "path": "@repo/edu_output/writing-20261018/runs/D1-run02-arm-p/checks/verification.json",
+      "reason": "Verify the saved task deliverable is present, nonempty, readable as UTF-8, and JSON parses where applicable"
+    }
+  ],
+  "execution_chronology": [
+    "Source batches 1?4",
+    "Write rationale.md before drafting",
+    "Write first.md",
+    "Help batch 5",
+    "First-check batch 6",
+    "Count first.md",
+    "Write review.md",
+    "Write final.md",
+    "Final-check batch 8",
+    "Count first.md and final.md",
+    "Append final review and rationale records",
+    "Write loads.json",
+    "Validate all listed deliverables"
+  ],
+  "constraints": {
+    "network_used": false,
+    "subagents_used": false,
+    "unrelated_skills_read": false,
+    "other_run_outputs_read": false,
+    "evaluation_reports_read": false,
+    "git_or_version_metadata_inspected": false,
+    "supplied_skill_modified": false
+  },
+  "notes": [
+    "No real bibliography is constructed from fictional [R1]/[R2] cards.",
+    "Only the supplied skill and needed relative references were used as writing instructions.",
+    "Check output was inspected through captured process output before saving; checks do not substitute for the recorded source-based semantic review."
+  ]
+}

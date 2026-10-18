@@ -1,0 +1,357 @@
+{
+  "task": "H1 new English Introduction, Discussion and Conclusion; bounded secondary writing exercise",
+  "output_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p",
+  "source_scope": "Only supplied H1 request/materials and the specified edu-writing snapshot with relevant referenced resources. No network, other runs, evaluation/development reports, other installed skills or subagents used.",
+  "encoding": "UTF-8 for file reads and writes; python -X utf8 used for all Python checks.",
+  "model": {
+    "runtime_model_identity": "unavailable",
+    "runtime_reasoning_setting": "unavailable",
+    "temperature": "unavailable",
+    "note": "Generic role instructions describe Codex based on GPT-6, but no runtime model identifier or sampling settings are independently exposed."
+  },
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Task-specific writing instructions; read before composing.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-request.md",
+      "purpose": "Task scope, word limit and required artifacts.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-materials.md",
+      "purpose": "Only supplied research evidence and source information.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Plan evidence-grounded contribution, claim boundaries and cross-section alignment.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Use connected English academic prose.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/introduction.md",
+      "purpose": "Structure the new Introduction.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Interpret reported quantitative results and compare evidence.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Write bounded conclusions and actionable educational implications.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Apply secondary-writing and source-integrity rules.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Interpret effect magnitude, null tests, mechanisms, and observational comparisons.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/prose-en.md",
+      "purpose": "Required English introduction prose guidance and non-prescriptive benchmarks.",
+      "access": "Get-Content -Encoding UTF8"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect required checker interface, behavior, and runtime dependencies before running.",
+      "access": "Get-Content -Encoding UTF8",
+      "inspection_note": "Source loaded as UTF-8; batched display was truncated. Imports, filesystem reads and CLI arguments were separately inspected with rg. Script then executed for both drafts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect required checker interface, behavior, and runtime dependencies before running.",
+      "access": "Get-Content -Encoding UTF8",
+      "inspection_note": "Source loaded as UTF-8; batched display was truncated. Imports, filesystem reads and CLI arguments were separately inspected with rg. Script then executed for both drafts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect required multi-section checker interface, behavior, and runtime dependencies before running.",
+      "access": "Get-Content -Encoding UTF8",
+      "inspection_note": "Source loaded as UTF-8; batched display was truncated. Imports, filesystem reads and CLI arguments were separately inspected with rg. Script then executed for both drafts."
+    }
+  ],
+  "additional_resource_read_events": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/prose-en.md",
+      "purpose": "Read remaining lines after batched output truncation.",
+      "scope": "lines 136 onward",
+      "result": "The full file was read by Get-Content; Select-Object returned no lines because the file was shorter than the skip."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect imports, filesystem reads, and CLI arguments after batched output truncation.",
+      "scope": "matched lines"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect imports, filesystem reads, and CLI arguments after batched output truncation.",
+      "scope": "matched lines"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect imports, filesystem reads, and CLI arguments after batched output truncation.",
+      "scope": "matched lines"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/prose-en.md",
+      "purpose": "Inspect remaining English prose guidance omitted in truncated initial output.",
+      "scope": "lines 89 onward"
+    }
+  ],
+  "checker_execution_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Execute required voice check for first.md; standalone standard-library script."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+      "purpose": "Checker input: voice."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-materials.md",
+      "purpose": "Numeric source-presence check for first.md."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Execute required prose check for first.md; standalone standard-library script."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+      "purpose": "Checker input: prose."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Execute required consistency check for first.md; standalone standard-library script."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+      "purpose": "Checker input: consistency."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Execute required voice check for final.md; standalone standard-library script."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md",
+      "purpose": "Checker input: voice."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-materials.md",
+      "purpose": "Numeric source-presence check for final.md."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Execute required prose check for final.md; standalone standard-library script."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md",
+      "purpose": "Checker input: prose."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Execute required consistency check for final.md; standalone standard-library script."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md",
+      "purpose": "Checker input: consistency."
+    }
+  ],
+  "supplemental_validation_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+      "purpose": "Initial supplementary word count and placeholder helper; helper stopped on malformed regex."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+      "purpose": "Successful section-word-count and exercise-attribution validation."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md",
+      "purpose": "Successful section-word-count and exercise-attribution validation."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-first-voice.txt",
+      "purpose": "Read saved checker output and verify successful exit and empty stderr."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-first-prose.txt",
+      "purpose": "Read saved checker output and verify successful exit and empty stderr."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-first-consistency.txt",
+      "purpose": "Read saved checker output and verify successful exit and empty stderr."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-final-voice.txt",
+      "purpose": "Read saved checker output and verify successful exit and empty stderr."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-final-prose.txt",
+      "purpose": "Read saved checker output and verify successful exit and empty stderr."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-final-consistency.txt",
+      "purpose": "Read saved checker output and verify successful exit and empty stderr."
+    }
+  ],
+  "delivery_validation_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/review.md",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/rationale.md",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/loads.json",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-first-voice.txt",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-first-prose.txt",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-first-consistency.txt",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-final-voice.txt",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-final-prose.txt",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/checks-final-consistency.txt",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/verification.json",
+      "purpose": "Final delivery validation: decode as UTF-8, ensure nonempty; parse JSON records; confirm expected artifacts."
+    }
+  ],
+  "check_commands": {
+    "first": [
+      [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+        "--draft",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+        "--source",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-materials.md"
+      ],
+      [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+        "--draft",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md"
+      ],
+      [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+        "--draft",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/first.md",
+        "--term-group",
+        "sleep=school-night sleep|school night sleep",
+        "--term-group",
+        "attendance=first-period attendance|first period attendance"
+      ]
+    ],
+    "final": [
+      [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+        "--draft",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md",
+        "--source",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H1-materials.md"
+      ],
+      [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+        "--draft",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md"
+      ],
+      [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+        "--draft",
+        "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/holdout-runs/H1-run02-arm-p/final.md",
+        "--term-group",
+        "sleep=school-night sleep|school night sleep",
+        "--term-group",
+        "attendance=first-period attendance|first period attendance"
+      ]
+    ]
+  },
+  "check_output_inspection": "All six check stdout outputs were inspected after execution, then saved outputs were read by the supplemental validator. review.md records substantive decisions on flagged sentences and limits of the scripts.",
+  "excluded_from_resource_inventory": "Python standard-library runtime imports and interpreter internals are not enumerated; no additional research or skill resource files were loaded by the standalone check scripts.",
+  "task_mode": "New writing; no change_log.md required for revision of an existing user draft. First-to-final changes are documented in review.md.",
+  "reference_status": "Supplied bibliographic metadata only. No independent DOI lookup, full-article reading, supplement/raw-data access or original-comparison-study reading.",
+  "word_counts": {
+    "first_section_words": 621,
+    "final_section_words": 628,
+    "final_all_words_before_references": 662,
+    "method": "Whitespace-delimited; section count excludes headings, title, exercise notice and references."
+  },
+  "outputs": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "loads.json",
+    "checks-first-voice.txt",
+    "checks-first-prose.txt",
+    "checks-first-consistency.txt",
+    "checks-final-voice.txt",
+    "checks-final-prose.txt",
+    "checks-final-consistency.txt",
+    "verification.json"
+  ]
+}

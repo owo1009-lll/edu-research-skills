@@ -1,0 +1,20 @@
+{
+  "stage": "scoped candidate frozen before new source selection",
+  "frozen_utc": "2026-10-18T04:50:31.502350+00:00",
+  "baseline_commit": "a4020c41a4f3d8ab180a4e2818955d90e40f6f3b",
+  "baseline_snapshot": "snapshots/dev-p01.json",
+  "candidate_manifest": "snapshots/scoped-r01.json",
+  "candidate_tree_sha256": "89dd6874c631005355e0b17068c550c886cb36f3bfeae5fc0081d3d8b2d438ba",
+  "candidate_archive": "development-artifacts/scoped-r01-skills.zip",
+  "candidate_archive_sha256": "d9b91359e3e696a9f4d32635281e9dfc3c4632a8abe5378d8e87fcd2cf6c7a8f",
+  "selection": "M3 quantitative comparisons and evidence-supported explanations; M4 mixed-evidence integration, with directly necessary routing and adjacent conflict fixes. Other q01 additions are not carried into runtime.",
+  "selection_evidence": "H1/H2 repeated local preferences; H3-H5 single-task limitations. The smaller combination is not yet behaviorally tested.",
+  "earlier_material_status": "D1/D2 and H1-H5 are now development/selection evidence for r01; their historical q01 comparisons remain intact.",
+  "new_sources_selected": [],
+  "planned_final_tasks": {
+    "H6": "new real quantitative source, English new writing, p/r each twice",
+    "H7": "new real mixed source, English revision/compression, p/r each twice"
+  },
+  "stopping_rule": "One scoped validation round; no extra generations chosen by results. If repeated advantage is absent or substantive regressions appear, retain candidate rather than force formal adoption. No rule edits during this round.",
+  "note": "snapshot.py metadata calls inventories development; this record establishes the later candidate freeze."
+}

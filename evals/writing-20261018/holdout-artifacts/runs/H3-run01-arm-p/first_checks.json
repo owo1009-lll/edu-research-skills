@@ -1,0 +1,36 @@
+{
+  "stage": "first",
+  "body_han_chars": 517,
+  "body_nonwhitespace_chars": 573,
+  "body_paragraphs": 3,
+  "checks": [
+    {
+      "check": "voice",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H3-run01-arm-p\\first.md",
+        "--source",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H3-materials.md"
+      ],
+      "exit_code": 0,
+      "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H3-run01-arm-p\\first_voice.txt"
+    },
+    {
+      "check": "prose",
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H3-run01-arm-p\\first.md"
+      ],
+      "exit_code": 0,
+      "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H3-run01-arm-p\\first_prose.txt"
+    }
+  ]
+}

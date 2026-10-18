@@ -1,0 +1,174 @@
+{
+  "task": "H6 independent secondary writing exercise",
+  "output_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p",
+  "encoding": "UTF-8",
+  "python_invocation": "python -X utf8",
+  "model": {
+    "visible_role_description": "Codex, based on GPT-6 (instruction-provided description)",
+    "runtime_identifier": null,
+    "runtime_identifier_status": "Unavailable for independent verification",
+    "reasoning_setting": null,
+    "temperature": null,
+    "seed": null
+  },
+  "read_scope": "Records explicitly accessed task files and checker inputs/outputs. Standard-library and interpreter-internal loads are not enumerated. Repeated reads are described in access fields, not inferred as exact low-level counts.",
+  "actual_file_reads": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Determine new-writing route, evidence table, three-draft workflow, check requirements and requested Markdown delivery.",
+      "access": "UTF-8 full-text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-request.md",
+      "purpose": "Read the bounded exercise, audience, length, output and no-network constraints.",
+      "access": "UTF-8 full-text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H6-materials.md",
+      "purpose": "Sole factual and bibliographic evidence; subsequently read by both voice checks for numeric comparison.",
+      "access": "UTF-8 full-text read and checker source input"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Build the question -> evidence -> contribution -> scope chain; plan support, competing explanations, implications and cross-section alignment.",
+      "access": "UTF-8 full-text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Calibrate English findings, mechanism explanations, scope and recommendations; retain third-person attribution for this secondary exercise.",
+      "access": "UTF-8 full-text read; reread after aggregate output truncation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/introduction.md",
+      "purpose": "Organize the introduction around a consequential teaching decision and a precise research question.",
+      "access": "UTF-8 full-text read; reread after aggregate output truncation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Answer the primary question, interpret positive and null findings, compare supplied prior work and justify implications.",
+      "access": "UTF-8 full-text read; reread after aggregate output truncation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Keep the conclusion responsive to the question, identify implementation conditions and concentrate overall limits.",
+      "access": "UTF-8 full-text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Preserve coefficient identity and null-result meaning; avoid generic effect-size labels, false ratios and exclusive mechanisms.",
+      "access": "UTF-8 full-text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Apply non-fabrication, secondary-writing attribution and AI-self-review identity requirements.",
+      "access": "UTF-8 full-text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/prose-en.md",
+      "purpose": "Apply the Introduction route reference for readable paragraphs and source-bounded citation practice; corpus statistics used only as reference.",
+      "access": "UTF-8 full-text read"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect UTF-8 reading behavior, dependencies and command-line arguments, then execute the required check on first and final drafts.",
+      "access": "Full file retrieved as UTF-8; imports, file-read operations and CLI excerpts inspected; script executed twice"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect UTF-8 reading behavior, dependencies and command-line arguments, then execute the required check on first and final drafts.",
+      "access": "Full file retrieved as UTF-8; imports, file-read operations and CLI excerpts inspected; script executed twice"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect UTF-8 reading behavior, dependencies and command-line arguments, then execute the required check on first and final drafts.",
+      "access": "Full file retrieved as UTF-8; imports, file-read operations and CLI excerpts inspected; script executed twice"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/first.md",
+      "purpose": "Input to voice, prose and consistency scripts, then final UTF-8 and length verification; final.md also read for a small sentence edit.",
+      "access": "UTF-8 programmatic reads; manuscript content and checker excerpts inspected"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/final.md",
+      "purpose": "Input to voice, prose and consistency scripts, then final UTF-8 and length verification; final.md also read for a small sentence edit.",
+      "access": "UTF-8 programmatic reads; manuscript content and checker excerpts inspected"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/first.voice.txt",
+      "purpose": "Inspect the complete saved check output and decide each prompt; verify the recorded exit status.",
+      "access": "UTF-8 full-text read and model inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/first.prose.txt",
+      "purpose": "Inspect the complete saved check output and decide each prompt; verify the recorded exit status.",
+      "access": "UTF-8 full-text read and model inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/first.consistency.txt",
+      "purpose": "Inspect the complete saved check output and decide each prompt; verify the recorded exit status.",
+      "access": "UTF-8 full-text read and model inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/final.voice.txt",
+      "purpose": "Inspect the complete saved check output and decide each prompt; verify the recorded exit status.",
+      "access": "UTF-8 full-text read and model inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/final.prose.txt",
+      "purpose": "Inspect the complete saved check output and decide each prompt; verify the recorded exit status.",
+      "access": "UTF-8 full-text read and model inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/final.consistency.txt",
+      "purpose": "Inspect the complete saved check output and decide each prompt; verify the recorded exit status.",
+      "access": "UTF-8 full-text read and model inspection"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/rationale.md",
+      "purpose": "Final UTF-8 and completeness validation of the writing basis and substantive review.",
+      "access": "UTF-8 programmatic read; read again to verify and normalize shell-altered punctuation in work records"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/review.md",
+      "purpose": "Final UTF-8 and completeness validation of the writing basis and substantive review.",
+      "access": "UTF-8 programmatic read; read again to verify and normalize shell-altered punctuation in work records"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/loads.json",
+      "purpose": "Validate this resource-read record as UTF-8 JSON.",
+      "access": "UTF-8 programmatic read; read again to verify and normalize shell-altered punctuation in work records"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H6-run01-arm-p/verification.txt",
+      "purpose": "Inspect final file-completeness, length and saved-check status verification.",
+      "access": "UTF-8 full-text read; read again to verify and normalize shell-altered punctuation in work records"
+    }
+  ],
+  "network_used": false,
+  "subagents_used": false,
+  "original_article_or_supplement_opened": false,
+  "other_runs_or_evaluation_reports_read": false,
+  "inputs_or_skill_files_modified": false,
+  "omitted_resources": "Optional cards and unrelated routes were unnecessary; no other installed skill or corpus/evaluation report was read.",
+  "revision_task": false,
+  "change_log": "Not applicable: new sections were requested; first-to-final revision is documented in review.md.",
+  "source_limitations": [
+    "Evidence and bibliographic information taken solely from the supplied paraphrased packet.",
+    "Original article, supplements and earlier cited studies were not independently read or verified.",
+    "No raw-data reanalysis, interval reconstruction or test correction performed."
+  ],
+  "checks": {
+    "first": [
+      "first.voice.txt",
+      "first.prose.txt",
+      "first.consistency.txt"
+    ],
+    "final": [
+      "final.voice.txt",
+      "final.prose.txt",
+      "final.consistency.txt"
+    ],
+    "all_outputs_inspected": true,
+    "all_exit_codes": 0
+  }
+}

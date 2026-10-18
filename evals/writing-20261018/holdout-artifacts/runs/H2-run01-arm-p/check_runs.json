@@ -1,0 +1,146 @@
+[
+  {
+    "stage": "first",
+    "check": "voice",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\first.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H2-materials.md"
+    ],
+    "returncode": 0,
+    "report": "first_voice.txt"
+  },
+  {
+    "stage": "first",
+    "check": "prose",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\first.md"
+    ],
+    "returncode": 0,
+    "report": "first_prose.txt"
+  },
+  {
+    "stage": "first",
+    "check": "consistency",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\first.md",
+      "--term-group",
+      "respondent_text=written accounts|written responses|interviews",
+      "--term-group",
+      "food_access=food access|food insecurity|food security"
+    ],
+    "returncode": 0,
+    "report": "first_consistency.txt"
+  },
+  {
+    "stage": "final_before_clarity_edit",
+    "check": "voice",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\final.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H2-materials.md"
+    ],
+    "returncode": 0,
+    "report": "final_before_clarity_edit_voice.txt"
+  },
+  {
+    "stage": "final_before_clarity_edit",
+    "check": "prose",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\final.md"
+    ],
+    "returncode": 0,
+    "report": "final_before_clarity_edit_prose.txt"
+  },
+  {
+    "stage": "final_before_clarity_edit",
+    "check": "consistency",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\final.md",
+      "--term-group",
+      "respondent_text=written accounts|written responses|interviews",
+      "--term-group",
+      "food_access=food access|food insecurity|food security"
+    ],
+    "returncode": 0,
+    "report": "final_before_clarity_edit_consistency.txt"
+  },
+  {
+    "stage": "final",
+    "check": "voice",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\final.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H2-materials.md"
+    ],
+    "returncode": 0,
+    "report": "final_voice.txt"
+  },
+  {
+    "stage": "final",
+    "check": "prose",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\final.md"
+    ],
+    "returncode": 0,
+    "report": "final_prose.txt"
+  },
+  {
+    "stage": "final",
+    "check": "consistency",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H2-run01-arm-p\\final.md",
+      "--term-group",
+      "respondent_text=written accounts|written responses|interviews",
+      "--term-group",
+      "food_access=food access|food insecurity|food security"
+    ],
+    "returncode": 0,
+    "report": "final_consistency.txt"
+  }
+]

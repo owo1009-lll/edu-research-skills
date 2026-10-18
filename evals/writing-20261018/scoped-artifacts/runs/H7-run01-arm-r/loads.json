@@ -1,0 +1,157 @@
+{
+  "task": "H7 attributed secondary revision",
+  "date": "2026-10-18",
+  "source_boundary": "Only explicitly supplied skill, task-relevant referenced resources and H7 inputs; generated artifacts were also reread. No other runs, repository reports, installed skills or web resources were read.",
+  "model_metadata": {
+    "visible_role_description": "Codex, described in developer instructions as an agent based on GPT-6",
+    "actual_runtime_model_identifier": "unavailable",
+    "sampling_settings": "unavailable",
+    "reasoning_setting": "unavailable"
+  },
+  "resource_reads": [
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\SKILL.md",
+      "purpose": "Select revision workflow, required records and applicable checks.",
+      "read_method": "Full UTF-8 text displayed."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H7-request.md",
+      "purpose": "Read deliverables, word limit, audience and supplied-source-only constraints.",
+      "read_method": "Full UTF-8 text displayed."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H7-materials.md",
+      "purpose": "Read source evidence packet and original excerpt; check facts and attribution; source input to voice checks.",
+      "read_method": "Full UTF-8 text displayed; read by check_voice.py for both versions and first rerun."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\references\\foundation.md",
+      "purpose": "Preserve original author argument and classify consequential changes.",
+      "read_method": "Full UTF-8 text displayed (framing-results reread after truncated combined output)."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\references\\argument.md",
+      "purpose": "Reconstruct contribution, distinguish evidence/interpretation and map cross-section qualifications.",
+      "read_method": "Full UTF-8 text displayed (framing-results reread after truncated combined output)."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\references\\framing-results.md",
+      "purpose": "Interpret grade comparisons, nondifferences and potential mechanism claims; reread in full after combined output truncation.",
+      "read_method": "Full UTF-8 text displayed (framing-results reread after truncated combined output)."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\references\\voice-en.md",
+      "purpose": "Calibrate English stance and keep supported recommendations strong.",
+      "read_method": "Full UTF-8 text displayed (framing-results reread after truncated combined output)."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\references\\mixed-methods.md",
+      "purpose": "Identify curriculum-level integration rather than individual linkage or mediation.",
+      "read_method": "Full UTF-8 text displayed (framing-results reread after truncated combined output)."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\references\\conclusion-implications.md",
+      "purpose": "Build short conclusion and evidence-grounded practical recommendations.",
+      "read_method": "Full UTF-8 text displayed (framing-results reread after truncated combined output)."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-shared\\references\\integrity.md",
+      "purpose": "Confirm attribution, no fabrication and AI self-review requirements.",
+      "read_method": "Full UTF-8 text displayed."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "purpose": "Check stance, semantic flags and unmatched numbers.",
+      "read_method": "UTF-8 source read to display imports and file/CLI access lines; executed with python -X utf8 on first and final. First checks repeated after punctuation encoding repair."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "purpose": "Inspect section prose statistics without treating medians as quality targets.",
+      "read_method": "UTF-8 source read to display imports and file/CLI access lines; executed with python -X utf8 on first and final. First checks repeated after punctuation encoding repair."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "purpose": "Check terms, abbreviations and citation sequence.",
+      "read_method": "UTF-8 source read to display imports and file/CLI access lines; executed with python -X utf8 on first and final. First checks repeated after punctuation encoding repair."
+    }
+  ],
+  "generated_artifact_reads": [
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.md",
+      "purpose": "Repair shell-pipe punctuation; run/inspect checks; reuse unchanged attribution/source; verify body count and paired labels."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\final.md",
+      "purpose": "Run/inspect all checks; verify body count, source-to-claim meaning and paired labels."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\rationale.md",
+      "purpose": "Repair punctuation and append final reconciliation."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\review.md",
+      "purpose": "Append final-check interpretation after the substantive revision."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\change_log.md",
+      "purpose": "Delivery verification of completed change record."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\word_counts.json",
+      "purpose": "Delivery verification of body-count scope and results."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.checks.json",
+      "purpose": "Delivery verification of command, exit-code and captured-output record."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\final.checks.json",
+      "purpose": "Delivery verification of command, exit-code and captured-output record."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.check_voice.txt",
+      "purpose": "Inspect saved check output and verify UTF-8 readability; decisions recorded in review.md."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.check_prose.txt",
+      "purpose": "Inspect saved check output and verify UTF-8 readability; decisions recorded in review.md."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\first.check_consistency.txt",
+      "purpose": "Inspect saved check output and verify UTF-8 readability; decisions recorded in review.md."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\final.check_voice.txt",
+      "purpose": "Inspect saved check output and verify UTF-8 readability; decisions recorded in review.md."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\final.check_prose.txt",
+      "purpose": "Inspect saved check output and verify UTF-8 readability; decisions recorded in review.md."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\final.check_consistency.txt",
+      "purpose": "Inspect saved check output and verify UTF-8 readability; decisions recorded in review.md."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H7-run01-arm-r\\loads.json",
+      "purpose": "Final UTF-8 JSON/delivery validation of this resource log."
+    }
+  ],
+  "execution": {
+    "python_mode": "python -X utf8",
+    "file_encoding": "UTF-8",
+    "network_used": false,
+    "subagents_used": false,
+    "new_analyses_performed": false,
+    "input_or_skill_edits": false,
+    "first_check_runs": 2,
+    "final_check_runs": 1,
+    "reason_for_first_rerun": "Corrected shell-pipe typographic punctuation conversion; no substantive first-draft change."
+  },
+  "limitations": [
+    "Source article not independently retrieved.",
+    "Theoretical originals and inherited numbered references not independently verified.",
+    "Raw data not analyzed; no reconciliation of the supplied course-availability discrepancy.",
+    "Review is AI self-review, not author approval or expert peer review."
+  ]
+}

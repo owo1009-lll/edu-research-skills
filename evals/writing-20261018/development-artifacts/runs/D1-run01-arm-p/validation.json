@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "manuscripts": {
+    "first": {
+      "word_count_excluding_notice_and_headings": 865,
+      "word_count_method": "whitespace-delimited tokens",
+      "teaching_notice_present": true,
+      "sections": [
+        "Introduction",
+        "Discussion",
+        "Conclusion"
+      ],
+      "citations": {
+        "R1": 2,
+        "R2": 3
+      },
+      "key_source_values_preserved": true
+    },
+    "final": {
+      "word_count_excluding_notice_and_headings": 850,
+      "word_count_method": "whitespace-delimited tokens",
+      "teaching_notice_present": true,
+      "sections": [
+        "Introduction",
+        "Discussion",
+        "Conclusion"
+      ],
+      "citations": {
+        "R1": 2,
+        "R2": 3
+      },
+      "key_source_values_preserved": true
+    }
+  },
+  "required_outputs_present_and_nonempty": [
+    "first.md",
+    "review.md",
+    "final.md",
+    "rationale.md",
+    "loads.json",
+    "first.voice.txt",
+    "first.prose.txt",
+    "first.consistency.txt",
+    "final.voice.txt",
+    "final.prose.txt",
+    "final.consistency.txt"
+  ],
+  "supplied_script_exit_codes": {
+    "first.voice": 0,
+    "first.prose": 0,
+    "first.consistency": 0,
+    "final.voice": 0,
+    "final.prose": 0,
+    "final.consistency": 0
+  },
+  "manual_review": "review.md records numerical identities, claim alignment, citation support and decisions on script cues. Passing mechanical checks does not certify research truth or expert-reviewed writing quality.",
+  "limits": [
+    "All research facts and comparison cards are fictional teaching materials.",
+    "No empirical reanalysis or external source verification was performed.",
+    "The prose checker does not recognize [R1]/[R2]; all five uses were checked manually.",
+    "The consistency checker does not detect the prose sample statements; they were checked manually."
+  ]
+}

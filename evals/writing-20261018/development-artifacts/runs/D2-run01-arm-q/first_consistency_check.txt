@@ -1,0 +1,22 @@
+Command result: exit code 0
+
+Language: en | abstract found: False | findings to inspect: 1
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (3 distinct values; check each is a named subsample):
+  214: …institution, 126 of 214 students chose automated com…
+  88: …for 117/126 and 82/88 students, respectively, rath…
+  16: …ary interviews with 16 students, nine from the auto…
+
+Same value at different precision: 0
+
+Term variants: 0
+  self-reference: this study 1
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 0
+

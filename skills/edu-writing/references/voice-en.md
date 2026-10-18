@@ -20,8 +20,7 @@ Restate results as plain declaratives with the statistic or theme: "Teacher supp
 
 When you propose why a result occurred, qualify the reason by the strength of its support: "One possible explanation is that…", "This may partly reflect…". In the corpus 69% of the authors' own explanations are qualified, against 16% of findings.
 - "May partly reflect" is accurate when the evidence partly supports an explanation. It is not defensive.
-- Agreement with prior work is stated without qualifiers: "This is consistent with studies of [population] (Lee & Kim, 2023; …)".
-- When a result contradicts prior work, name the difference in sample, setting or measure that could account for it.
+- Make the comparison specific: which claim, population, operation, measure and time point align? State supported agreement directly. Different significance labels do not establish a conflict, and a design difference does not itself explain a discrepancy. Give a possible reason only when the materials support it; otherwise keep the disagreement unresolved.
 
 ## Qualifications and limitations: classify them
 
@@ -37,7 +36,7 @@ A distinction that makes a substantive point is an argument, not a disclaimer: "
 
 ## Null and unexpected results
 
-State a non-significant or contrary result directly ("Contrary to H2…"), offer reasons, and say what design could separate them. 13 of 15 papers do this; none treats a null result only as a limitation. A non-significant result does not by itself mean equivalence, interchangeability, no effect or an identified boundary condition (see [framing-results](framing-results.md) §4).
+State a non-significant or contrary result and what its estimate and precision leave open. Explain a supported pattern or compare candidate explanations when the materials permit; do not invent a reason to complete a paragraph. In the corpus, 13 of 15 papers offered reasons and none treated a null result only as a limitation. This is an observation, not an explanation quota. A non-significant result does not by itself mean equivalence, interchangeability, no effect or an identified boundary condition (see [framing-results](framing-results.md) §4).
 
 ## Taking a position
 

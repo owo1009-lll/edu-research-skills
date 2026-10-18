@@ -1,0 +1,27 @@
+Command: ['C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-X', 'utf8', 'C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_voice.py', '--draft', 'C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\runs\\D1-run02-arm-q\\final.md', '--source', '@repo/evals/writing-20261018/inputs/D1-materials.md']
+Exit code: 0
+
+Language: en | discussion/conclusion sentences: 37 | paragraphs: 7
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 1.7  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): 0.0  (published median 66.7; outside typical range)
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 1
+  (arguments, not disclaimers)
+  [para 2] The immediate and delayed effects were not directly compared, so their numerical ordering does not demonstrate that an effect declined.
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 1
+  (a specific problem may belong next to its result)
+  [para 3] It cannot serve as a direct benchmark for delayed conceptual transfer or establish that retrieval works differently by pupil age.
+
+Sentences for a semantic check: 1
+  (does a non-significant result become equivalence, an exclusive mechanism or a free choice?)
+  With no prespecified equivalence margin, the findings provide no basis for treating the routines as equivalent.
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

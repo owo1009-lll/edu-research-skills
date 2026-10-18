@@ -1,0 +1,165 @@
+{
+  "task": "H7 independent secondary revision",
+  "output_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p",
+  "encoding": "UTF-8; Python checks invoked with -X utf8",
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Apply the specifically supplied revision workflow, resource routing, required artifacts and checks.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H7-request.md",
+      "purpose": "Establish revision scope, audience, 650?800-word limit, attribution and required deliverables.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H7-materials.md",
+      "purpose": "Read original published prose as the base text and use the supplied factual packet to check every consequential claim.",
+      "access": "UTF-8 content read once; read again by check_voice.py for each draft."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/foundation.md",
+      "purpose": "Reconstruct and preserve the authors' argument; distinguish supported professional judgments from overreach and record consequential edits.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Build evidence-to-claim reasoning, classify qualifications and align Discussion and Conclusion.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Calibrate English findings, explanations and recommendation strength without optimizing corpus averages.",
+      "access": "UTF-8 content read twice because the first combined tool display was truncated."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Interpret changing grade measures, reported significance, null findings and unsupported mediation.",
+      "access": "UTF-8 content read twice because the first combined tool display was truncated."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Organize mixed-methods discussion of grade patterns and competing interpretations.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/qualitative-narrative.md",
+      "purpose": "Keep participant accounts distinct from observations and avoid claiming independent recoding.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Preserve evidence-grounded recommendations and write a short Conclusion with appropriate scope.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Apply shared attribution, nonfabrication, local-output and AI-self-review rules referenced by the supplied skill.",
+      "access": "UTF-8 content read once."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect supported CLI and file dependencies; execute the required check on first and final drafts.",
+      "access": "Script text loaded as UTF-8; dependency/CLI/read lines inspected after combined display truncation; executed twice with python -X utf8. No additional corpus files are loaded by these scripts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect supported CLI and file dependencies; execute the required check on first and final drafts.",
+      "access": "Script text loaded as UTF-8; dependency/CLI/read lines inspected after combined display truncation; executed twice with python -X utf8. No additional corpus files are loaded by these scripts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-p01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect supported CLI and file dependencies; execute the required check on first and final drafts.",
+      "access": "Script text loaded as UTF-8; dependency/CLI/read lines inspected after combined display truncation; executed twice with python -X utf8. No additional corpus files are loaded by these scripts."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/first.md",
+      "purpose": "Count words, run all three skill checks and verify the saved deliverable.",
+      "access": "Read by UTF-8 check commands and final artifact verification."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/final.md",
+      "purpose": "Count words, run all three skill checks and verify the saved deliverable.",
+      "access": "Read by UTF-8 check commands and final artifact verification."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/first_check_voice.txt",
+      "purpose": "Inspect actual saved check output and resolve each substantive cue in review.md.",
+      "access": "Saved and read as UTF-8; displayed to the writing agent and verified at completion."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/first_check_prose.txt",
+      "purpose": "Inspect actual saved check output and resolve each substantive cue in review.md.",
+      "access": "Saved and read as UTF-8; displayed to the writing agent and verified at completion."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/first_check_consistency.txt",
+      "purpose": "Inspect actual saved check output and resolve each substantive cue in review.md.",
+      "access": "Saved and read as UTF-8; displayed to the writing agent and verified at completion."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/first_checks.json",
+      "purpose": "Verify saved commands, exit codes and independent body word counts.",
+      "access": "Read as UTF-8 in final artifact verification."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/final_check_voice.txt",
+      "purpose": "Inspect actual saved check output and resolve each substantive cue in review.md.",
+      "access": "Saved and read as UTF-8; displayed to the writing agent and verified at completion."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/final_check_prose.txt",
+      "purpose": "Inspect actual saved check output and resolve each substantive cue in review.md.",
+      "access": "Saved and read as UTF-8; displayed to the writing agent and verified at completion."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/final_check_consistency.txt",
+      "purpose": "Inspect actual saved check output and resolve each substantive cue in review.md.",
+      "access": "Saved and read as UTF-8; displayed to the writing agent and verified at completion."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/final_checks.json",
+      "purpose": "Verify saved commands, exit codes and independent body word counts.",
+      "access": "Read as UTF-8 in final artifact verification."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/rationale.md",
+      "purpose": "Verify required work records exist, contain UTF-8 text and remain within this output directory.",
+      "access": "Final artifact verification; loads.json parsed as JSON."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/review.md",
+      "purpose": "Verify required work records exist, contain UTF-8 text and remain within this output directory.",
+      "access": "Final artifact verification; loads.json parsed as JSON."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/change_log.md",
+      "purpose": "Verify required work records exist, contain UTF-8 text and remain within this output directory.",
+      "access": "Final artifact verification; loads.json parsed as JSON."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run01-arm-p/loads.json",
+      "purpose": "Verify required work records exist, contain UTF-8 text and remain within this output directory.",
+      "access": "Final artifact verification; loads.json parsed as JSON."
+    }
+  ],
+  "read_log_scope": "Task/source/skill/generated-file reads; Python standard-library imports and operating-system internals are not research-resource reads.",
+  "network_used": false,
+  "subagents_used": false,
+  "other_runs_or_repository_evaluation_reports_read": false,
+  "skills_or_inputs_edited": false,
+  "model_information": {
+    "visible_instruction_identity": "Codex, an agent based on GPT-6",
+    "exact_serving_model_id": "unavailable",
+    "reasoning_setting": "unavailable",
+    "sampling_settings": "unavailable",
+    "seed": "unavailable"
+  },
+  "limits": [
+    "Only the supplied excerpt and evidence packet were used as research evidence.",
+    "No theoretical originals, full outside bibliography, raw data or external webpages were read.",
+    "Inherited reference numbering remains intentional; gender estimates and the course-availability discrepancy remain unresolved.",
+    "Script checks supply cues and are not expert review or independent empirical validation."
+  ]
+}

@@ -1,0 +1,22 @@
+Language: en | discussion/conclusion sentences: 40 | paragraphs: 7
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 3.0  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 1.6  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): 50.0  (published median 66.7; within typical range)
+
+Disclaimer sentences in the discussion body: 1
+  (keep those that state a condition the claim needs)
+  [para 4] These accounts identify experienced benefits, but the relatively low prevalence compared with other institutions cannot be attributed to these services: the stu
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 1
+  (a specific problem may belong next to its result)
+  [para 4] These accounts identify experienced benefits, but the relatively low prevalence compared with other institutions cannot be attributed to these services: the stu
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

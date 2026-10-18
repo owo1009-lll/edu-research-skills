@@ -1,0 +1,26 @@
+Command: ['C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-X', 'utf8', 'C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-q01-20261018\\skills\\edu-writing\\scripts\\check_voice.py', '--draft', 'C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-q\\first.md', '--source', 'C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H5-materials.md']
+Exit code: 0
+
+Language: en | discussion/conclusion sentences: 30 | paragraphs: 6
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 6.7  (published median 0.9; outside typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): 0.0  (published median 66.7; outside typical range)
+
+Disclaimer sentences in the discussion body: 2
+  (keep those that state a condition the claim needs)
+  [para 1] This supports homework as a supplement to instruction, but does not establish that longer assignments yield greater gains.
+  [para 2] These separate estimates do not establish that homework works better for one domain than another, because the review supplies no formal comparison between them.
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 1
+  (a specific problem may belong next to its result)
+  [para 2] They nevertheless make the learning objective consequential: a general achievement average cannot specify what conceptual learning a particular assignment will 
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

@@ -1,0 +1,17 @@
+Language: en | abstract found: False | findings to inspect: 1
+
+Abstract numbers not found in the body: 0
+
+Sample-size statements (2 distinct values; check each is a named subsample):
+  214: …institution, 126 of 214 students chose automated dra…
+  88: …for 117/126 and 82/88 students respectively; these…
+
+Same value at different precision: 0
+
+Term variants: 0
+
+Abbreviations: 0
+
+Tables and figures: 0
+
+Numbered citations: 0

@@ -1,0 +1,50 @@
+[
+  {
+    "draft": "final.md",
+    "check": "voice",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\final.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H5-materials.md"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_voice.txt"
+  },
+  {
+    "draft": "final.md",
+    "check": "prose",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\final.md"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_prose.txt"
+  },
+  {
+    "draft": "final.md",
+    "check": "consistency",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\final.md",
+      "--term-group",
+      "problem_solving=arithmetic problem-solving|arithmetic problem solving",
+      "--term-group",
+      "concepts=arithmetic concepts|arithmetic-concepts"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_consistency.txt"
+  }
+]

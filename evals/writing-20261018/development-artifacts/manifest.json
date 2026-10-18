@@ -1,0 +1,611 @@
+{
+  "purpose": "synthetic development tasks only, not holdout",
+  "aliases": {
+    "@repo": "repository at the public evaluation record",
+    "@baseline": "baseline checkout a4020c4",
+    "@baseline_snapshot": "dev-p01 frozen skills",
+    "@candidate": "dev-q01 frozen skills"
+  },
+  "files": [
+    {
+      "path": "runs/D1-run01-arm-p/final.consistency.txt",
+      "original_sha256": "46ce172261086c169777a98eea4725ec43afceee65748fabb8d832dbc86d2eb8",
+      "published_sha256": "4ee14400986d47b048973ddda44f9d5aa757d7830a7bf6638779425aa9ba878c",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/final.md",
+      "original_sha256": "065016fa2b114cf3a1519f56bbd6c6d90aa9f038dc2537633c4c9cd492658d49",
+      "published_sha256": "5c14017d8405b16ff4d79c13c046b73641f034e4eaeac34e89b538ecf1a68b64",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/final.prose.txt",
+      "original_sha256": "3547b212f38339e6bc60d8ef6d01d59ddb7b12bcc96a11b0688a838beb82fa45",
+      "published_sha256": "8f9505b318f9b3bc996d61217c69c99830afc8101d4d9e8c72b85ae0f88a4187",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/final.voice.txt",
+      "original_sha256": "0740f21be5757cac445d4f1da8aac3af31e0e789e6b37b59e8d3296ba2cd28a6",
+      "published_sha256": "98ce53cd5792266a68bc6bb7e7642ee20f9971be5d77ecc5b0904090f133a28a",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/first.consistency.txt",
+      "original_sha256": "0a9417991b36443383d8c95810bd9986c2612105fc197bb69e94145d9e2b1b72",
+      "published_sha256": "8e4ceba00b48291227e9b4a476b6c1e233e06d8a6c17eb286d76d488114f6ef3",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/first.md",
+      "original_sha256": "bfd21409e6c536759fb2d974a36a1b5b9fb5c18d20df8cee09cff1a87be4b0e1",
+      "published_sha256": "52ef3258473daebb07f872152b7c8cf917c491ecea66e27d2b2d6e065625e31c",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/first.prose.txt",
+      "original_sha256": "07a8a8c666651fba6d1e7878c48d7e716c3d50e8756d3ba01168012ca86cec04",
+      "published_sha256": "3344bc4e9046f00a756c05ef2105f9fd9bc63473b27d9b2a2e53e5221ad6cfc6",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/first.voice.txt",
+      "original_sha256": "b6009cad15a07cdb259157da8ffab34eb566d60415d63e9548b98655029b9473",
+      "published_sha256": "4dab8f9ab3d1b07c515c5152323ce6d914cc7ccfece5bd804435fd55839e33a5",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/loads.json",
+      "original_sha256": "e2a354e975e12aa9ffa8e313aec5906ccfea5933d0bf8ab885f3dd16aa8f9ef4",
+      "published_sha256": "60bc023f180f6e0f0e3dd51b2b065a586f82f6472d56e0dbece487929616d9f8",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/rationale.md",
+      "original_sha256": "2808b3ed79ca3ff7752955100f2920075e41604210542d20d2515f2926009615",
+      "published_sha256": "ef4c223678988b9b4fdf101df4766998d121efad09a5eeca75966b52232eddd9",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/review.md",
+      "original_sha256": "f1bb6dbe87d288c04241a6a25f2b2cfd524301683afaea5c02a36cc5f99b2223",
+      "published_sha256": "b5683a975c59d595bf88807560435b154d0b7f4251ed2b8412392d633dc41385",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-p/validation.json",
+      "original_sha256": "35e22258af6b2a7e11a04eac655afc14b47aafa122bb6c5a629098c3f3f0fcd1",
+      "published_sha256": "8f50c50df5b8d022babab14dea1633355496229b7097b6e4c356705e0975a2a7",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/final-check_consistency.txt",
+      "original_sha256": "f977ed7daf8d66c191828efc6aaaf2c0d1b54f9883a7b1c2c640d45f6b40a9d9",
+      "published_sha256": "4a296f672d121a1603614fafcbfa2344bea7a57133e09d7a4d88cf4725c1cac8",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/final-check_prose.txt",
+      "original_sha256": "efdf910a41ae2aed13a170be1ab535a2fcede5646bb90c73f6db18e8abcdc4bb",
+      "published_sha256": "8a3bde9d82db2b3171e8ec066c27867663eeb3d76b8f5c86ce0f8a9cd6e69dd3",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/final-check_voice.txt",
+      "original_sha256": "1756fa91683090c6a5bc4d4a7c33957271656747225af3fa2b230ebfa5494580",
+      "published_sha256": "d9a2de45b2ae69212bf60f7827e15c4a62f01131ba46479e04a4bd90485a4f6d",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/final.md",
+      "original_sha256": "9ab102110431e190c830bef5b82c0972c0138b225347e4eed87640832d558665",
+      "published_sha256": "9ab102110431e190c830bef5b82c0972c0138b225347e4eed87640832d558665",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/first-check_consistency.txt",
+      "original_sha256": "6668f9259844a8d8f98dabe2b245013cec690426cb72aeda79a27656824fda59",
+      "published_sha256": "8e6d5a29b630bc30715d7e1db5888198545a128e2f4fcf2f59be3434304a550a",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/first-check_prose.txt",
+      "original_sha256": "1180e192d62b15b268d4aec177a4a574b58b402a63cd803938c7c59dd4c987f9",
+      "published_sha256": "cf81524dcfa018b9cd212688099c1d5520594e400e7420121d8e8b3052070b30",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/first-check_voice.txt",
+      "original_sha256": "e11059f4d3b1c2e5c0b2587b563ea92f7c68df8ce3ecc8567d99a20550e48618",
+      "published_sha256": "fa1bd45a493f22fd3ff5408a20e64c5bb5eb666c5bc7c71ce2bbf69fbc861017",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/first.md",
+      "original_sha256": "335203fc19fbe31444db2dda090f53ba134e7e42de61340be9ef3f65bb9aa8f1",
+      "published_sha256": "335203fc19fbe31444db2dda090f53ba134e7e42de61340be9ef3f65bb9aa8f1",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/loads.json",
+      "original_sha256": "a7631151d6607c9c25eb590c4a750483e0a6572b510d19517d1a86fd0295e0bb",
+      "published_sha256": "c27ea12c3cc8b92507d1f712d536faf7bfa6f202e3ab243fb5ea9f4b4875f2e1",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/rationale.md",
+      "original_sha256": "800e903401c6f0243bdff8bf547bc4acc2c5a56fac5627876dd873f263b301cc",
+      "published_sha256": "800e903401c6f0243bdff8bf547bc4acc2c5a56fac5627876dd873f263b301cc",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run01-arm-q/review.md",
+      "original_sha256": "da50c8387f4253b2d62c36b80466f872f85bdcfa6ba6e96cb39b81fbda1dc3f3",
+      "published_sha256": "da50c8387f4253b2d62c36b80466f872f85bdcfa6ba6e96cb39b81fbda1dc3f3",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/checks/final-consistency.txt",
+      "original_sha256": "c37b50e10fe47e097f176157f448df783a6cd1fb0e31fecbe1116d442f7c85e2",
+      "published_sha256": "c37b50e10fe47e097f176157f448df783a6cd1fb0e31fecbe1116d442f7c85e2",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/checks/final-prose.txt",
+      "original_sha256": "73cb0987efb7064c4562748777d575ccbc82378191e9994c468bf9a114aa6bd7",
+      "published_sha256": "73cb0987efb7064c4562748777d575ccbc82378191e9994c468bf9a114aa6bd7",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/checks/final-voice.txt",
+      "original_sha256": "5ba1e225321c95c96ef369bbdfb118803af798dacd57f84cf83f1e465f25bfb9",
+      "published_sha256": "5ba1e225321c95c96ef369bbdfb118803af798dacd57f84cf83f1e465f25bfb9",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/checks/first-consistency.txt",
+      "original_sha256": "4ee14400986d47b048973ddda44f9d5aa757d7830a7bf6638779425aa9ba878c",
+      "published_sha256": "4ee14400986d47b048973ddda44f9d5aa757d7830a7bf6638779425aa9ba878c",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/checks/first-prose.txt",
+      "original_sha256": "d82066d5f08a3e51361a951a0dd2ae1e7f5f7d0c8ca1776f317a4786a980708a",
+      "published_sha256": "d82066d5f08a3e51361a951a0dd2ae1e7f5f7d0c8ca1776f317a4786a980708a",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/checks/first-voice.txt",
+      "original_sha256": "e7f8d467a0888e78a6103604380abcece720d1022804c13a12a30447613e7c4e",
+      "published_sha256": "e7f8d467a0888e78a6103604380abcece720d1022804c13a12a30447613e7c4e",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/checks/verification.json",
+      "original_sha256": "a25265595267b77b083263ad87d805c8513ea8d4e7f5531ad7a0bd46d51453f3",
+      "published_sha256": "a05bd3136516ab3ca18ba70c52f8ea7408b2b3c78e31fe85ce64257bf2207c9f",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/final.md",
+      "original_sha256": "e72707e0c99b2791586190aa6b4e155e76efbd2e2d9cc598cd7b655dd05b222d",
+      "published_sha256": "e72707e0c99b2791586190aa6b4e155e76efbd2e2d9cc598cd7b655dd05b222d",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/first.md",
+      "original_sha256": "cfa833bcf42ae9bf6851f08a4b70ca926319fe6ce9fd51df5aafe4584d288da6",
+      "published_sha256": "cfa833bcf42ae9bf6851f08a4b70ca926319fe6ce9fd51df5aafe4584d288da6",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/loads.json",
+      "original_sha256": "3c43a17c25aec2b399badb6b042d1b823b0e6a83b93722a35f05b442e57ca099",
+      "published_sha256": "c400e84c7dcbab01fa173f0bc38fc8d028a98724f8e106b33ba8b3faaa7a8de3",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/rationale.md",
+      "original_sha256": "5cef52001ae9adc89ab0a4e8e5b3fdec857a4700cb155257b0e9aedd60a1422c",
+      "published_sha256": "76d5cbfc8f20792b2b814a0926c3ccd7906081f5f27afc45540b94ca9f29d201",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-p/review.md",
+      "original_sha256": "21fbfd09a168848a22c965775eb49284f3fa84c5076aafdf947a87c25a15a3cc",
+      "published_sha256": "21fbfd09a168848a22c965775eb49284f3fa84c5076aafdf947a87c25a15a3cc",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/final-check_consistency.txt",
+      "original_sha256": "783032dfb146dfacead2fa51c51b963ac7147cc4e49eae75758fcef57581b027",
+      "published_sha256": "783032dfb146dfacead2fa51c51b963ac7147cc4e49eae75758fcef57581b027",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/final-check_prose.txt",
+      "original_sha256": "813c9f1c747b3973b1a0018b3ac74d6df780b1b4921bd9dc080661d6650b8db2",
+      "published_sha256": "813c9f1c747b3973b1a0018b3ac74d6df780b1b4921bd9dc080661d6650b8db2",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/final-check_voice.txt",
+      "original_sha256": "b5903334dc01c9e6e33cb86d3a649d7cae3c5df6501f968a5d94414da2941362",
+      "published_sha256": "2163b779f210fae4549da15e71415bda73a09eba2752015d051da7408d2e5a78",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/final.md",
+      "original_sha256": "4083f581f9aa4b56970d5db097c248b822e4f6cca93699661d5ab560b8c4bc98",
+      "published_sha256": "4083f581f9aa4b56970d5db097c248b822e4f6cca93699661d5ab560b8c4bc98",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/first-check_consistency.txt",
+      "original_sha256": "b0d3425dd18494894dd4f1fa1b002120ea073e02395cd4786923faddf39b8cb3",
+      "published_sha256": "b0d3425dd18494894dd4f1fa1b002120ea073e02395cd4786923faddf39b8cb3",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/first-check_prose.txt",
+      "original_sha256": "aba7013cfbab6ab5043cf346c30cee0df80f55008decad68a287a911cd97cc2f",
+      "published_sha256": "aba7013cfbab6ab5043cf346c30cee0df80f55008decad68a287a911cd97cc2f",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/first-check_voice.txt",
+      "original_sha256": "848c5a70fe7a5cebb83314e2b6f67e29b3d406d4b797b64d323a2df41d429e01",
+      "published_sha256": "d9e329d189e1ff7ed528697b13b9dd143d5db988159111063c02f4d2beeb1fd7",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/first.md",
+      "original_sha256": "4e531d6422585a7e329a378e284be4e821bf8f2e8d59d4433b55e7557212b3f8",
+      "published_sha256": "4e531d6422585a7e329a378e284be4e821bf8f2e8d59d4433b55e7557212b3f8",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/loads.json",
+      "original_sha256": "e7624f953906a08c4c3b7002bfe732dc3318070dd7a8dd421df962585b6ebcff",
+      "published_sha256": "8c0b3c6f382a55715065cab2719a448fe4ef2b3dde0dc1ed6cd79a2bede5a906",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/rationale.md",
+      "original_sha256": "e2912df13efae8896e5de45e965ee379bc9ede28b5bd4c990ddbf3737cad00e2",
+      "published_sha256": "e2912df13efae8896e5de45e965ee379bc9ede28b5bd4c990ddbf3737cad00e2",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D1-run02-arm-q/review.md",
+      "original_sha256": "34807d775dd4cd9c4f1bf3a04805cda7269437c331879f4239693a315503a98c",
+      "published_sha256": "34807d775dd4cd9c4f1bf3a04805cda7269437c331879f4239693a315503a98c",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/change_log.md",
+      "original_sha256": "cf8d07207cf0e13ab50ffa68d279b39ee9c2ac77225eb2fa7de58ae4518aeda6",
+      "published_sha256": "cf8d07207cf0e13ab50ffa68d279b39ee9c2ac77225eb2fa7de58ae4518aeda6",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/check_consistency_final.txt",
+      "original_sha256": "c84f51d06f04c01b6c204b3a013593d9c2fdfceb980363d9c14d4394afe6e8d7",
+      "published_sha256": "6d151553e68df85cb81600fa355014c1df849bf8c3a7498fb53d7d781e8d605e",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/check_consistency_first.txt",
+      "original_sha256": "c84f51d06f04c01b6c204b3a013593d9c2fdfceb980363d9c14d4394afe6e8d7",
+      "published_sha256": "6d151553e68df85cb81600fa355014c1df849bf8c3a7498fb53d7d781e8d605e",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/check_prose_final.txt",
+      "original_sha256": "83caaeceefe69cf5979483cacffa4bef6911da44fdd4304cc0138495de5c393c",
+      "published_sha256": "0bc7347831f31e5884882dbd24bc3cb4ed6b74467f2efa0aca856c25b0f35f0a",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/check_prose_first.txt",
+      "original_sha256": "2c6a3b7e01dbfc02ebb8af35b72f0a784c7498969b91b7846bc6fbf7ea747a1d",
+      "published_sha256": "6b87d3aee31901ac898f3ddbcf551d365a21588a1734c7d297512119990b364f",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/check_voice_final.txt",
+      "original_sha256": "5f3e2be8105003f2efcccce239d663a6e234ecdd3e938fda8ee2fef4f6099336",
+      "published_sha256": "030269f936d712583d99928e8a427e8ca6ff2c109f4f0a0b839660e0226f9a33",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/check_voice_first.txt",
+      "original_sha256": "68ed910b3634a8751208980e41c6a69da1f11dd7c809a4b86cc44a3e6ee8dacd",
+      "published_sha256": "7b732f95f6c71ec0d77428766208dc585b8d874fc967f0879bea99acb2b3ba3c",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/final.md",
+      "original_sha256": "f001b99390492e1d91649b2d44f4a1aba7dfe9414de2ef5aafedc215d36d1b36",
+      "published_sha256": "f001b99390492e1d91649b2d44f4a1aba7dfe9414de2ef5aafedc215d36d1b36",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/first.md",
+      "original_sha256": "6d6dd8d36b3c2312825a1eadc6096ffb74a5525bdd27087cfb2cbe2c5c09afc9",
+      "published_sha256": "6d6dd8d36b3c2312825a1eadc6096ffb74a5525bdd27087cfb2cbe2c5c09afc9",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/loads.json",
+      "original_sha256": "c6598c40e3fb1f66722d43cfefa6d336a93cadba5367fd4b48672d61ef0440b3",
+      "published_sha256": "b516b344b9fa81c39cb6536d24d126333b9691deab937e4477258db041ffb1be",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/rationale.md",
+      "original_sha256": "1da51543d661fcd45933046ebe89a8be446d209de92870dd0c4c817371681a57",
+      "published_sha256": "b70597d79be7d40ec0377c311070753580f3639b010144ae693f1f0111f5cae9",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/review.md",
+      "original_sha256": "5a31d1f7825b83c05d68c615a779964973c663c462753331eb79ff1d4dc7fb4d",
+      "published_sha256": "5a31d1f7825b83c05d68c615a779964973c663c462753331eb79ff1d4dc7fb4d",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/validation.md",
+      "original_sha256": "c59fc4f6ee809ec6baab3fb811c3aac7784a414c0b3e87afdb83d446c2e0e993",
+      "published_sha256": "c59fc4f6ee809ec6baab3fb811c3aac7784a414c0b3e87afdb83d446c2e0e993",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-p/word_count.json",
+      "original_sha256": "1c3c2bd273e5eade6df39717071e5040afa648c99663f3ed86c9957c7896b522",
+      "published_sha256": "69786426f332ecfcaa29425d73f83019256d0908096f36d25ab000f93f9ab754",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/change_log.md",
+      "original_sha256": "39f97f74d752c2a4b8c05d5ffb89452a0c621adc6cc95c159ef180df9ffbcef7",
+      "published_sha256": "39f97f74d752c2a4b8c05d5ffb89452a0c621adc6cc95c159ef180df9ffbcef7",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/final.md",
+      "original_sha256": "957e6a9bbb16ebc2fc6cb7ae08b6279a2c336ddcb5c54e1f4b803e25cfed09db",
+      "published_sha256": "957e6a9bbb16ebc2fc6cb7ae08b6279a2c336ddcb5c54e1f4b803e25cfed09db",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/final_consistency_check.txt",
+      "original_sha256": "0c05d385d47b1241495bb50099b5c5e988d32d80fc0499e618fea76ba2fbc747",
+      "published_sha256": "0c05d385d47b1241495bb50099b5c5e988d32d80fc0499e618fea76ba2fbc747",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/final_prose_check.txt",
+      "original_sha256": "74e105bbcf85190971e42b78c9a0056091c830a02928133eaf6211ca4f06c1b7",
+      "published_sha256": "74e105bbcf85190971e42b78c9a0056091c830a02928133eaf6211ca4f06c1b7",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/final_voice_check.txt",
+      "original_sha256": "7d56cc345f85295daf030fc7467b0dd36d9a63ec79f4e6814608c2992166eef3",
+      "published_sha256": "7d56cc345f85295daf030fc7467b0dd36d9a63ec79f4e6814608c2992166eef3",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/first.md",
+      "original_sha256": "a4a601cf3c31eb0d8f3a7ae6b3780e24f4b832d0f43be1474052ff0b5de21e34",
+      "published_sha256": "a4a601cf3c31eb0d8f3a7ae6b3780e24f4b832d0f43be1474052ff0b5de21e34",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/first_consistency_check.txt",
+      "original_sha256": "0c05d385d47b1241495bb50099b5c5e988d32d80fc0499e618fea76ba2fbc747",
+      "published_sha256": "0c05d385d47b1241495bb50099b5c5e988d32d80fc0499e618fea76ba2fbc747",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/first_prose_check.txt",
+      "original_sha256": "ed970745fc0dcbf635c38ab79f603c21139ffa78ead2a8a1c499be60925229b5",
+      "published_sha256": "ed970745fc0dcbf635c38ab79f603c21139ffa78ead2a8a1c499be60925229b5",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/first_voice_check.txt",
+      "original_sha256": "96458ba0e496b2fd79f2d7c0990f94438d6811a208a71873482cb45ac539f385",
+      "published_sha256": "96458ba0e496b2fd79f2d7c0990f94438d6811a208a71873482cb45ac539f385",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/loads.json",
+      "original_sha256": "457566b7bcb1351e88413c758f91e42cd6ed7ef28291577cb9430658e9c86d2c",
+      "published_sha256": "1440a5bbcebe5434a6cb3820c6af66ebde810d4903c36ffc7889a2ca21f744db",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/rationale.md",
+      "original_sha256": "9290e7f5e51dcbc17243ec6dc945185b26c74f157f05b7636aa907c797725d40",
+      "published_sha256": "9290e7f5e51dcbc17243ec6dc945185b26c74f157f05b7636aa907c797725d40",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run01-arm-q/review.md",
+      "original_sha256": "617a9438a8699f5e052f41a94001bdd11f0e1a5cc44fe1ed84beacf76a6a5c73",
+      "published_sha256": "617a9438a8699f5e052f41a94001bdd11f0e1a5cc44fe1ed84beacf76a6a5c73",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/change_log.md",
+      "original_sha256": "dcb9ef0d5ac7529ebcb3e879a7fc5b0acd420040b59233af0f84fda17566986b",
+      "published_sha256": "dcb9ef0d5ac7529ebcb3e879a7fc5b0acd420040b59233af0f84fda17566986b",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/final.consistency.txt",
+      "original_sha256": "2ca4958642b8186e7516d944c716a58b9d59cc941330269e48e12aed70cd452c",
+      "published_sha256": "2ca4958642b8186e7516d944c716a58b9d59cc941330269e48e12aed70cd452c",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/final.md",
+      "original_sha256": "a203136f37e4c1ea5493c3fb86ee92fd08158801195622f58318f2e51e697d37",
+      "published_sha256": "a203136f37e4c1ea5493c3fb86ee92fd08158801195622f58318f2e51e697d37",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/final.prose.txt",
+      "original_sha256": "ee68901c1609d66c56e15f9e0b9d2b62eb77d6544f620d0e5882ec2095f3420f",
+      "published_sha256": "ee68901c1609d66c56e15f9e0b9d2b62eb77d6544f620d0e5882ec2095f3420f",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/final.voice.txt",
+      "original_sha256": "497ced8afc271fb3bbc2400b140a252e4fe786c58ee0847e014da1396a0bca91",
+      "published_sha256": "497ced8afc271fb3bbc2400b140a252e4fe786c58ee0847e014da1396a0bca91",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/first.consistency.txt",
+      "original_sha256": "2ca4958642b8186e7516d944c716a58b9d59cc941330269e48e12aed70cd452c",
+      "published_sha256": "2ca4958642b8186e7516d944c716a58b9d59cc941330269e48e12aed70cd452c",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/first.md",
+      "original_sha256": "d09a5423d9c6a41dc2338347d3c20fe0495dc4863a2d215614a45583811513e6",
+      "published_sha256": "d09a5423d9c6a41dc2338347d3c20fe0495dc4863a2d215614a45583811513e6",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/first.prose.txt",
+      "original_sha256": "6d8e1a36db26446d39f54cf43bc27c2ea51db7993531b2733f270228dba5a9c6",
+      "published_sha256": "6d8e1a36db26446d39f54cf43bc27c2ea51db7993531b2733f270228dba5a9c6",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/first.voice.txt",
+      "original_sha256": "265288db6fa3b659e739c330049974b8ffea58e2758458cc6bd98fdb3a669f25",
+      "published_sha256": "265288db6fa3b659e739c330049974b8ffea58e2758458cc6bd98fdb3a669f25",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/loads.json",
+      "original_sha256": "6c4c65e747d124cba9dc1270c5c62c9f5c4968f5277a98e21a3d13dce8257a81",
+      "published_sha256": "2f73427cb63be9a3055eb086c89c09ecdb8f75b40aa2ff0f329a94db0b33c549",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/rationale.md",
+      "original_sha256": "5cf2d465fe7e965cb9677c2b2847bcce175000fe16928359293dbc924ea6787f",
+      "published_sha256": "5cf2d465fe7e965cb9677c2b2847bcce175000fe16928359293dbc924ea6787f",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/review.md",
+      "original_sha256": "561393344142c71f465a70fd52e23fbdcb005fdcc4d07de1b5a87d6d4aac2a54",
+      "published_sha256": "561393344142c71f465a70fd52e23fbdcb005fdcc4d07de1b5a87d6d4aac2a54",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-p/word_counts.json",
+      "original_sha256": "0f3fa78d7e571ff48cc5773c4f5c3015beabbd2433f6f33de5822160075cc49e",
+      "published_sha256": "825399fe3f19419389ebb16605760dd85d74a67e12b0ea33f64e0b9e79a48cfc",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/change_log.md",
+      "original_sha256": "66c9e9b56611232d42821b3c1be63b7e72ebd0ff47d26105b97f5cdbd3d59d40",
+      "published_sha256": "66c9e9b56611232d42821b3c1be63b7e72ebd0ff47d26105b97f5cdbd3d59d40",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/final.md",
+      "original_sha256": "8a0e5c74b321807f2ac6430e41ce4a7cfa9e5db44788975aecdf6dae80faff79",
+      "published_sha256": "8a0e5c74b321807f2ac6430e41ce4a7cfa9e5db44788975aecdf6dae80faff79",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/final_consistency_check.txt",
+      "original_sha256": "47c6d033e753de8841ffb6746243b226e38a6e611756cef9f8470086b206a22b",
+      "published_sha256": "47c6d033e753de8841ffb6746243b226e38a6e611756cef9f8470086b206a22b",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/final_prose_check.txt",
+      "original_sha256": "f196580cdebe8d7d5efa33aa903ec42962d176926ac2d85623e8324958e46846",
+      "published_sha256": "f196580cdebe8d7d5efa33aa903ec42962d176926ac2d85623e8324958e46846",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/final_voice_check.txt",
+      "original_sha256": "0a5d38bd6888b118e6691c0b90857e967a1038abcc23e5df45b72da073efc13b",
+      "published_sha256": "0a5d38bd6888b118e6691c0b90857e967a1038abcc23e5df45b72da073efc13b",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/first.md",
+      "original_sha256": "ae9002a35bce6a3d8e7c7bd22fe239166d39ce059fcc2e06f453919fc4735ff9",
+      "published_sha256": "ae9002a35bce6a3d8e7c7bd22fe239166d39ce059fcc2e06f453919fc4735ff9",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/first_consistency_check.txt",
+      "original_sha256": "24ea312e38c702167bd17b46810c4eab9f5a429f97cec28762f1e693003c1f20",
+      "published_sha256": "24ea312e38c702167bd17b46810c4eab9f5a429f97cec28762f1e693003c1f20",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/first_prose_check.txt",
+      "original_sha256": "ad5019abb45326ef225b4556b6694f6e351e6ec447a51f740df878159aa1d9bc",
+      "published_sha256": "ad5019abb45326ef225b4556b6694f6e351e6ec447a51f740df878159aa1d9bc",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/first_voice_check.txt",
+      "original_sha256": "2488e75312814daae0a5179abbcc675aa3c5b05b54b589628abf56846e0dea3e",
+      "published_sha256": "2488e75312814daae0a5179abbcc675aa3c5b05b54b589628abf56846e0dea3e",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/loads.json",
+      "original_sha256": "60f70d52944ee4251322bcf9887e1c48994c6ebbb75de2ab1454de12278610fa",
+      "published_sha256": "27c50db98d71d8c953e359a2f743126f4438bd899a2dc0ab8f4b4129266c31e5",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/rationale.md",
+      "original_sha256": "1350f77275cc05c078cc6f076afcb39e71343f2c40d67b37f60ab4f061669562",
+      "published_sha256": "1350f77275cc05c078cc6f076afcb39e71343f2c40d67b37f60ab4f061669562",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/review.md",
+      "original_sha256": "abccfc6fb9f66b3be4954b3f22002b77c26f113fae37c468893b77f56ae9c65f",
+      "published_sha256": "abccfc6fb9f66b3be4954b3f22002b77c26f113fae37c468893b77f56ae9c65f",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "runs/D2-run02-arm-q/verification.json",
+      "original_sha256": "cb5906950d69e231820a0e587da774deb7f7d2ea52095d4926c527a45121a7d9",
+      "published_sha256": "cef0271dde39fa8ea37dd7a626866c4956a103d1289a50df559b4281a1efa5e4",
+      "transformation": "local path aliases; JSON reserialization if applicable; UTF-8 without BOM"
+    },
+    {
+      "path": "dev-p01-skills.zip",
+      "published_sha256": "e9aeaea618f3c9993882c2845dcd9cb35113d2d6843ce306b25518a3677d32d1",
+      "bytes": 581861,
+      "transformation": "ZIP of exact frozen skill bytes; deterministic entry timestamps"
+    },
+    {
+      "path": "dev-q01-skills.zip",
+      "published_sha256": "22f9b666c59b77995ff92b814d7783dc1395412c025e3cdde287641de5ddd815",
+      "bytes": 592542,
+      "transformation": "ZIP of exact frozen skill bytes; deterministic entry timestamps"
+    }
+  ]
+}

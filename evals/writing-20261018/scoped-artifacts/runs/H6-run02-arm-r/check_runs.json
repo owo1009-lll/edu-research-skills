@@ -1,0 +1,106 @@
+[
+  {
+    "draft": "first.md",
+    "check": "voice",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\first.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H6-materials.md",
+      "--lang",
+      "en"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\first_voice_check.txt"
+  },
+  {
+    "draft": "first.md",
+    "check": "prose",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\first.md"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\first_prose_check.txt"
+  },
+  {
+    "draft": "first.md",
+    "check": "consistency",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\first.md",
+      "--lang",
+      "en",
+      "--term-group",
+      "tutor=structured AI tutor|intelligent tutor|automated tutor",
+      "--term-group",
+      "outcome=immediate topic learning|long-term learning gains"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\first_consistency_check.txt"
+  },
+  {
+    "draft": "final.md",
+    "check": "voice",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\final.md",
+      "--source",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H6-materials.md",
+      "--lang",
+      "en"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\final_voice_check.txt"
+  },
+  {
+    "draft": "final.md",
+    "check": "prose",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\final.md"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\final_prose_check.txt"
+  },
+  {
+    "draft": "final.md",
+    "check": "consistency",
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-r01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "--draft",
+      "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\final.md",
+      "--lang",
+      "en",
+      "--term-group",
+      "tutor=structured AI tutor|intelligent tutor|automated tutor",
+      "--term-group",
+      "outcome=immediate topic learning|long-term learning gains"
+    ],
+    "exit_code": 0,
+    "output": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\scoped-runs\\H6-run02-arm-r\\final_consistency_check.txt"
+  }
+]

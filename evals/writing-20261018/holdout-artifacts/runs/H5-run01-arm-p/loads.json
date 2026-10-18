@@ -1,0 +1,176 @@
+{
+  "task": "H5 independent secondary synthesis writing",
+  "run_directory": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p",
+  "date": "2026-10-18",
+  "encoding": "UTF-8; checks executed with python -X utf8",
+  "resource_reads": [
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\SKILL.md",
+      "purpose": "Full text read to determine the writing workflow, relevant routes, checks, and required deliverables."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H5-request.md",
+      "purpose": "Full text read for the 500?650-word English Discussion and Conclusion request, source restriction, and output requirements."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\evals\\writing-20261018\\inputs\\H5-materials.md",
+      "purpose": "Full text read as the exclusive empirical and bibliographic evidence packet; reread by check_voice on each run."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\argument.md",
+      "purpose": "Full text read to establish the contribution, map claims to evidence, locate qualifications, and derive research/practice implications."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\voice-en.md",
+      "purpose": "Full text read for English stance, design-matched findings, limits, and secondary-writing adaptation of authorial presence."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "purpose": "Full text read for quantitative discussion, direct-comparison logic, unexpected/null findings, and evidence-based interpretation."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\conclusion-implications.md",
+      "purpose": "Full text read for a concise conclusion, bounded practical actions, and cross-section consistency."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-shared\\references\\integrity.md",
+      "purpose": "Full text read for secondary-writing attribution, nonfabrication, local outputs, and AI self-review labeling."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\references\\framing-results.md",
+      "purpose": "Full text read for effect/interval interpretation, non-significance, comparator identity, and avoiding unsupported superiority or optimum claims."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_voice.py",
+      "purpose": "Loaded for script inspection; aggregate display was truncated. Relevant reading, CLI and output logic were inspected with subsequent targeted reads and rg; executed on first and final drafts."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_prose.py",
+      "purpose": "Loaded for script inspection; aggregate display was truncated. Its first 95 lines plus import/file-access/CLI matches were subsequently inspected; executed on first and final drafts."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-writing-snapshot-p01-20261018\\skills\\edu-writing\\scripts\\check_consistency.py",
+      "purpose": "Loaded and inspected for consistency checks, input handling and CLI. Executed with term groups on first and final drafts."
+    }
+  ],
+  "generated_artifact_reads": [
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\first.md",
+      "purpose": "Read by all three checks and by the independent word-count check; author also reviewed visible drafting text."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\final.md",
+      "purpose": "Read by all three checks and word-count checks; final checks repeated after a local wording correction."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_commands.json",
+      "purpose": "Read to preserve the first final-check command record before replacing it with delivered-wording commands."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_before_wording_commands.json",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_before_wording_consistency.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_before_wording_prose.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_before_wording_voice.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_commands.json",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_consistency.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_prose.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_voice.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\final_word_count.json",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\first_commands.json",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\first_consistency.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\first_prose.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\first_voice.txt",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\checks\\first_word_count.json",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect saved checking records against the delivered draft."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\final.md",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\first.md",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\loads.json",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\rationale.md",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect completed rationale, source boundaries, author queries and checking decisions."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads\\edu-research-skills-work\\edu_output\\writing-20261018\\holdout-runs\\H5-run01-arm-p\\review.md",
+      "purpose": "Final delivery audit: verify UTF-8 readability, file completeness, and parse JSON where applicable. Inspect completed rationale, source boundaries, author queries and checking decisions."
+    }
+  ],
+  "check_passes": {
+    "first": 1,
+    "final": 2,
+    "final_repeat_reason": "Local precision edit confines interval interpretation to higher/lower achievement."
+  },
+  "inspection_note": "First and initial final script outputs were saved and inspected from returned stdout. Delivered final outputs were saved, explicitly reread as UTF-8, and inspected. Source/script content display truncation is disclosed above. The final audit below records additional generated-artifact reads individually.",
+  "model": {
+    "runtime_model_identity": "unavailable",
+    "runtime_model_settings": "unavailable",
+    "visible_developer_description": "Codex, an agent based on GPT-6; no independently exposed runtime model identifier or sampling settings."
+  },
+  "scope_limits": [
+    "No network access used.",
+    "No other runs, repository evaluation/development reports, installed skills, or unrelated resources inspected.",
+    "No subagents spawned.",
+    "No primary article, raw data, protocol, or full published review independently read.",
+    "Research evidence restricted to H5-materials.md.",
+    "Only requested output directory modified.",
+    "No change_log.md: this is new synthesis writing; first-to-final revisions are documented in review.md."
+  ],
+  "read_log_scope": "Application-level task file reads; Python standard-library and interpreter runtime loading are not treated as research-resource reads.",
+  "final_audit": {
+    "required_files_present": true,
+    "all_outputs_utf8_readable": true,
+    "all_json_valid": true,
+    "all_recorded_script_exit_codes_zero": true,
+    "final_body_words": 565,
+    "before_references_including_notice_and_headings": 583,
+    "artifact_files_audited": 19
+  }
+}

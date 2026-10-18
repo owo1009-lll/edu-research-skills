@@ -1,0 +1,10 @@
+{
+  "first": {
+    "body_whitespace_words": 472,
+    "with_headings_whitespace_words": 488
+  },
+  "final": {
+    "body_whitespace_words": 462,
+    "with_headings_whitespace_words": 478
+  }
+}

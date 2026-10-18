@@ -1,0 +1,24 @@
+Command result: exit code 0
+
+Language: en | discussion/conclusion sentences: 20 | paragraphs: 5
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 3.1  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 2
+  (arguments, not disclaimers)
+  [para 1] The revision records do not identify which comments, if any, prompted those changes.
+  [para 1] They also do not show whether students understood a comment or could defend retaining their original text.
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)
+

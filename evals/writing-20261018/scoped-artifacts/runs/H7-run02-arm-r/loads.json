@@ -1,0 +1,158 @@
+{
+  "task": "H7 revision",
+  "output_directory": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r",
+  "resources_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/SKILL.md",
+      "purpose": "Required writing workflow, route selection, revision records and applicable checks",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H7-request.md",
+      "purpose": "Task scope, language, word limit, output files and source restrictions",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/inputs/H7-materials.md",
+      "purpose": "Original published excerpt, source attribution, factual packet and unresolved reporting issues; source input for voice checks",
+      "read_type": "full UTF-8 text; reread by checks"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/foundation.md",
+      "purpose": "Recover the original argument and retain supported author positions while categorizing substantive revisions",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/argument.md",
+      "purpose": "Construct evidence-to-claim map, classify limitations and compare Discussion with Conclusion",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/framing-results.md",
+      "purpose": "Interpret course grades, non-significant comparisons, nonexperimental evidence and mechanism claims",
+      "read_type": "full UTF-8 text",
+      "read_note": "Read again separately because the first combined tool response was truncated."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/voice-en.md",
+      "purpose": "Calibrate English stance, preserve justified recommendations and avoid stacked qualification",
+      "read_type": "full UTF-8 text",
+      "read_note": "Read again separately because the first combined tool response was truncated."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/mixed-methods.md",
+      "purpose": "Respect curriculum/cohort-level integration and distinguish accounts from individually linked outcomes",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/quantitative-discussion.md",
+      "purpose": "Retain the educational question, reported grade pattern and its competing interpretation",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/references/conclusion-implications.md",
+      "purpose": "Write a short supported conclusion and conditional practical recommendation",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-shared/references/integrity.md",
+      "purpose": "Required shared integrity rules: attributed secondary revision, no invented data or references, source-bounded work",
+      "read_type": "full UTF-8 text"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_voice.py",
+      "purpose": "Inspect CLI/import/file-read lines and run evidence/voice cues on first and final",
+      "read_type": "UTF-8 script source loaded; relevant CLI/dependency lines inspected; executed with python -X utf8",
+      "execution_note": "Initial checks and rechecks after Unicode formatting repair; no extra project dependency reads indicated by inspected script code."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_prose.py",
+      "purpose": "Inspect CLI/import/file-read lines and run descriptive prose checks on first and final",
+      "read_type": "UTF-8 script source loaded; relevant CLI/dependency lines inspected; executed with python -X utf8",
+      "execution_note": "Initial checks and rechecks after Unicode formatting repair; no extra project dependency reads indicated by inspected script code."
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-writing-snapshot-r01-20261018/skills/edu-writing/scripts/check_consistency.py",
+      "purpose": "Inspect CLI/import/file-read lines and run terminology, abbreviation and citation checks on both drafts",
+      "read_type": "UTF-8 script source loaded; relevant CLI/dependency lines inspected; executed with python -X utf8",
+      "execution_note": "Initial checks and rechecks after Unicode formatting repair; no extra project dependency reads indicated by inspected script code."
+    }
+  ],
+  "generated_artifacts_read": [
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/first.md",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/review.md",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/final.md",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/rationale.md",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/change_log.md",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/first.voice.txt",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/first.prose.txt",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/first.consistency.txt",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/final.voice.txt",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/final.prose.txt",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/final.consistency.txt",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/word_counts.json",
+      "purpose": "Read back own generated artifact for completeness, UTF-8 integrity, evidence/check review or required word-count validation"
+    },
+    {
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/edu_output/writing-20261018/scoped-runs/H7-run02-arm-r/loads.json",
+      "purpose": "JSON parse and manifest validation after writing"
+    }
+  ],
+  "model_identity": "unavailable: exact runtime model identifier not exposed",
+  "model_settings": "unavailable: sampling and reasoning settings not exposed",
+  "execution": {
+    "python_mode": "python -X utf8",
+    "file_encoding": "UTF-8",
+    "powershell_pipe_encoding": "Explicit UTF8Encoding set after readback detected initial punctuation loss; affected artifacts repaired and all checks rerun",
+    "network_used": false,
+    "subagents_spawned": false,
+    "other_runs_read": false,
+    "other_installed_skills_read": false,
+    "source_or_skill_files_modified": false
+  },
+  "scope_notes": [
+    "Source article and license URLs were supplied and repeated for attribution; links were not opened.",
+    "No outside literature, theoretical original, raw data or original figure was independently read.",
+    "Script reference medians were considered only as descriptive guidance.",
+    "Only the requested output directory contains writes from this task."
+  ],
+  "limitations": [
+    "Author queries remain for conflicting semester record availability and inadequately documented gender comparisons.",
+    "Original numbered citations were inherited from the excerpt and not independently verified.",
+    "No new empirical analysis or external peer review was performed."
+  ]
+}

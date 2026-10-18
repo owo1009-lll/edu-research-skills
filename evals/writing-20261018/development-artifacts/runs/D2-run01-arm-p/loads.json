@@ -1,0 +1,224 @@
+{
+  "scope": "Explicit file-content reads and named check-script executions for this run. Interpreter/library dependency loading is not an independently inspected source and is not enumerated.",
+  "ordering": "Entries are ordered by tool-call and submitted read order. Within parallel batches 2, 4, 5, 7 and 8, exact completion order is not asserted.",
+  "constraints": {
+    "network_used": false,
+    "subagents_used": false,
+    "other_runs_read": false,
+    "skill_modified": false
+  },
+  "reads": [
+    {
+      "order": 1,
+      "path": "@baseline/skills/edu-writing/SKILL.md",
+      "why": "Read the only authorised skill; default PowerShell decoding displayed Chinese incorrectly.",
+      "batch": 1
+    },
+    {
+      "order": 2,
+      "path": "@repo/evals/writing-20261018/inputs/D2-request.md",
+      "why": "Read task scope and required outputs; initial default decoding.",
+      "batch": 2
+    },
+    {
+      "order": 3,
+      "path": "@repo/evals/writing-20261018/inputs/D2-materials.md",
+      "why": "Read author intent, original draft and fictional study record; initial default decoding.",
+      "batch": 2
+    },
+    {
+      "order": 4,
+      "path": "@baseline/skills/edu-writing/SKILL.md",
+      "why": "Re-read explicitly as UTF-8 to recover all instructions.",
+      "batch": 3
+    },
+    {
+      "order": 5,
+      "path": "@repo/evals/writing-20261018/inputs/D2-request.md",
+      "why": "Re-read UTF-8 to confirm the 450–550-word range and direct-execution instruction.",
+      "batch": 3
+    },
+    {
+      "order": 6,
+      "path": "@repo/evals/writing-20261018/inputs/D2-materials.md",
+      "why": "Re-read UTF-8 to confirm author wording and evidence.",
+      "batch": 3
+    },
+    {
+      "order": 7,
+      "path": "@baseline/skills/edu-writing/references/foundation.md",
+      "why": "Read revision preservation principles; combined output was truncated.",
+      "batch": 3
+    },
+    {
+      "order": 8,
+      "path": "@baseline/skills/edu-writing/references/argument.md",
+      "why": "Read argument, warrant and limitation rules; combined output was truncated.",
+      "batch": 3
+    },
+    {
+      "order": 9,
+      "path": "@baseline/skills/edu-writing/references/voice-en.md",
+      "why": "Apply English stance rules, including preservation of justified should.",
+      "batch": 3
+    },
+    {
+      "order": 10,
+      "path": "@baseline/skills/edu-writing/references/framing-results.md",
+      "why": "Calibrate descriptive counts and avoid causal or equivalence claims.",
+      "batch": 3
+    },
+    {
+      "order": 11,
+      "path": "@baseline/skills/edu-writing/references/foundation.md",
+      "why": "Re-read the complete revision principles after display truncation.",
+      "batch": 4
+    },
+    {
+      "order": 12,
+      "path": "@baseline/skills/edu-writing/references/argument.md",
+      "why": "Re-read the complete argument guidance after display truncation.",
+      "batch": 4
+    },
+    {
+      "order": 13,
+      "path": "@baseline/skills/edu-writing/references/introduction.md",
+      "why": "Revise the existing introduction without imposing a new structure.",
+      "batch": 4
+    },
+    {
+      "order": 14,
+      "path": "@baseline/skills/edu-writing/references/quantitative-discussion.md",
+      "why": "Handle descriptive counts and learning-inference boundaries.",
+      "batch": 4
+    },
+    {
+      "order": 15,
+      "path": "@baseline/skills/edu-writing/references/qualitative-narrative.md",
+      "why": "Preserve case differences, report scope and adverse interview evidence.",
+      "batch": 4
+    },
+    {
+      "order": 16,
+      "path": "@baseline/skills/edu-writing/references/conclusion-implications.md",
+      "why": "Retain a warranted institutional recommendation and accurate scope.",
+      "batch": 4
+    },
+    {
+      "order": 17,
+      "path": "@baseline/skills/edu-shared/references/integrity.md",
+      "why": "Read the shared integrity reference linked by the supplied skill.",
+      "batch": 4
+    },
+    {
+      "order": 18,
+      "path": "@baseline/skills/edu-writing/references/prose-en.md",
+      "why": "Read the English prose reference required by the introduction route; medians are descriptive.",
+      "batch": 5
+    },
+    {
+      "order": 19,
+      "path": "@baseline/skills/edu-writing/references/methods/cases-develop-explanations.md",
+      "why": "Keep two distinct students and cross-channel case differences visible.",
+      "batch": 5
+    },
+    {
+      "order": 20,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/first.md",
+      "why": "Count first-draft body words before review.",
+      "batch": 6
+    },
+    {
+      "order": 21,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/check_voice_first.txt",
+      "why": "Inspect saved first-draft voice cues.",
+      "batch": 7
+    },
+    {
+      "order": 22,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/check_prose_first.txt",
+      "why": "Inspect saved first-draft prose cues.",
+      "batch": 7
+    },
+    {
+      "order": 23,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/check_consistency_first.txt",
+      "why": "Inspect saved first-draft consistency cues.",
+      "batch": 7
+    },
+    {
+      "order": 24,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/check_voice_final.txt",
+      "why": "Inspect final voice cues after one focused revision.",
+      "batch": 8
+    },
+    {
+      "order": 25,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/check_prose_final.txt",
+      "why": "Inspect final prose cues and retain the source restriction.",
+      "batch": 8
+    },
+    {
+      "order": 26,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/check_consistency_final.txt",
+      "why": "Inspect final sample-denominator and terminology cues.",
+      "batch": 8
+    },
+    {
+      "order": 27,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/first.md",
+      "why": "Compute reproducible body/heading word counts and confirm the notice.",
+      "batch": 9
+    },
+    {
+      "order": 28,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/final.md",
+      "why": "Compute final body/heading word counts and confirm headings and notice.",
+      "batch": 9
+    },
+    {
+      "order": 29,
+      "path": "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/word_count.json",
+      "why": "Read back the saved counts and heading report.",
+      "batch": 9
+    }
+  ],
+  "check_script_executions": [
+    {
+      "stage": "CLI discovery",
+      "files": [
+        "@baseline/skills/edu-writing/scripts/check_voice.py",
+        "@baseline/skills/edu-writing/scripts/check_prose.py",
+        "@baseline/skills/edu-writing/scripts/check_consistency.py"
+      ],
+      "arguments": "--help",
+      "why": "Determine supported check flags without reading unrelated files."
+    },
+    {
+      "stage": "First-draft checks",
+      "files": [
+        "@baseline/skills/edu-writing/scripts/check_voice.py",
+        "@baseline/skills/edu-writing/scripts/check_prose.py",
+        "@baseline/skills/edu-writing/scripts/check_consistency.py"
+      ],
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/first.md",
+        "@repo/evals/writing-20261018/inputs/D2-materials.md"
+      ],
+      "why": "Scripts read first.md; voice also reads the supplied materials. Results were saved and inspected."
+    },
+    {
+      "stage": "Final checks",
+      "files": [
+        "@baseline/skills/edu-writing/scripts/check_voice.py",
+        "@baseline/skills/edu-writing/scripts/check_prose.py",
+        "@baseline/skills/edu-writing/scripts/check_consistency.py"
+      ],
+      "inputs": [
+        "@repo/edu_output/writing-20261018/runs/D2-run01-arm-p/final.md",
+        "@repo/evals/writing-20261018/inputs/D2-materials.md"
+      ],
+      "why": "Repeat relevant checks on the revised manuscript; results were saved and inspected."
+    }
+  ]
+}

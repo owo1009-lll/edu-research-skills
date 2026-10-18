@@ -1,0 +1,117 @@
+{
+  "task": "D1-pair01 anonymous text review",
+  "encoding": "UTF-8",
+  "read_scope": "Only judge-request.md and request.md, materials.md, A.md, B.md from the assigned pair were read as source material.",
+  "reads": [
+    {
+      "sequence": 1,
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judge-request.md",
+      "purpose": "Read evaluation dimensions, anonymity restrictions and output requirements.",
+      "method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "max_output_tokens": 12000,
+      "truncated": false
+    },
+    {
+      "sequence": 2,
+      "parallel_batch": 1,
+      "dispatch_order_in_batch": 1,
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/D1/D1-pair01/request.md",
+      "purpose": "Identify intended audience, sections, length and evidence restrictions.",
+      "method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "max_output_tokens": 22000,
+      "truncated": false
+    },
+    {
+      "sequence": 3,
+      "parallel_batch": 1,
+      "dispatch_order_in_batch": 2,
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/D1/D1-pair01/materials.md",
+      "purpose": "Read complete study record, author position and two fictional comparison cards.",
+      "method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "max_output_tokens": 22000,
+      "truncated": false
+    },
+    {
+      "sequence": 4,
+      "parallel_batch": 1,
+      "dispatch_order_in_batch": 3,
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/D1/D1-pair01/A.md",
+      "purpose": "Read the full anonymous draft for evidence-grounded assessment.",
+      "method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "max_output_tokens": 22000,
+      "truncated": false
+    },
+    {
+      "sequence": 5,
+      "parallel_batch": 1,
+      "dispatch_order_in_batch": 4,
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/D1/D1-pair01/B.md",
+      "purpose": "Read the full anonymous draft for evidence-grounded assessment.",
+      "method": "PowerShell Get-Content -Raw -Encoding UTF8",
+      "max_output_tokens": 22000,
+      "truncated": false
+    },
+    {
+      "sequence": 6,
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/D1/D1-pair01/A.md",
+      "purpose": "Compute transparent approximate word counts for compliance only.",
+      "method": "PowerShell Get-Content -Raw -Encoding UTF8, followed by local regular-expression counts",
+      "max_output_tokens": 1500,
+      "truncated": false
+    },
+    {
+      "sequence": 7,
+      "path": "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/blind/D1/D1-pair01/B.md",
+      "purpose": "Compute transparent approximate word counts for compliance only.",
+      "method": "PowerShell Get-Content -Raw -Encoding UTF8, followed by local regular-expression counts",
+      "max_output_tokens": 1500,
+      "truncated": false
+    }
+  ],
+  "read_order_note": "Sequence 1 was read first. Sequences 2–5 were dispatched in one parallel batch and displayed in listed order; exact operating-system completion order was not observed. Sequences 6 and 7 were sequential rereads for counts. An earlier count command failed at PowerShell parsing before any file read or execution; it is not listed as a completed read.",
+  "output_limits": {
+    "orchestrator_default_max_output_tokens": 10000,
+    "full_source_outputs_observed": true,
+    "truncation_observed": false,
+    "chunked_rereading_needed": false,
+    "note": "All four supplied source files and the judging instructions were visible in full; no long-output truncation was reported. Counts were returned as short JSON."
+  },
+  "word_counts": {
+    "A": {
+      "whitespace_tokens_excluding_notice": 856,
+      "whitespace_tokens_body_excluding_headings_and_references": 850,
+      "alphanumeric_word_units_body": 854
+    },
+    "B": {
+      "whitespace_tokens_excluding_notice": 947,
+      "whitespace_tokens_body_excluding_headings_and_references": 910,
+      "alphanumeric_word_units_body": 914
+    },
+    "used_as_quality_proxy": false
+  },
+  "model_information": {
+    "host_visible_identity": "Codex; developer context describes the agent as based on GPT-6.",
+    "exact_model_version": "不可获取",
+    "temperature": "不可获取",
+    "random_seed": "不可获取",
+    "reasoning_effort": "不可获取"
+  },
+  "restrictions_observed": {
+    "network_used": false,
+    "subagents_used": false,
+    "skills_read": false,
+    "other_pairs_or_runs_read": false,
+    "assignment_keys_or_developer_analyses_read": false,
+    "version_identity_inferred": false
+  },
+  "outputs": [
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/D1-pair01/review.md",
+    "C:/Users/Administrator/Downloads/edu-research-skills-work/evals/writing-20261018/judges/D1-pair01/loads.json"
+  ],
+  "limitations": [
+    "Closed fictional evidence set only; no independent verification of real research or raw-data analysis.",
+    "Original writing-process artifacts were not provided and were not inspected.",
+    "Editorial burden identifies locations and reasons, not measured human editing time.",
+    "Exact runtime model version, temperature and random seed were not exposed."
+  ]
+}
