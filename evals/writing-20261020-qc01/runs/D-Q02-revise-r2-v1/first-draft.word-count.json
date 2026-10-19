@@ -1,0 +1,15 @@
+{
+  "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v1\\first-draft.md",
+  "sha256": "923f182d5f3109ffa5b754a09c2d2c2d5b7d36387e2c05f626970e89a2db2236",
+  "rule": "Unicode word tokens; internal straight/curly apostrophes and hyphens remain in a word; citation names and years count. Markdown heading markers and standalone punctuation do not count.",
+  "manuscript_body_words": 161,
+  "attribution_heading_words": 7,
+  "body_plus_attribution_words": 168,
+  "body_whitespace_words": 161,
+  "body_paragraphs": 1,
+  "requested_range": [
+    140,
+    170
+  ],
+  "body_in_range": true
+}

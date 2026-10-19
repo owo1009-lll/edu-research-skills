@@ -1,0 +1,79 @@
+{
+  "manuscript_body_words": 160,
+  "attribution_heading_words": 7,
+  "count_method": "Whitespace-delimited words; hyphenated forms count as one word.",
+  "manuscript_paragraphs": 1,
+  "within_target": true,
+  "final_matches_draft_2": true,
+  "final_sha256": "b5d5345dac4b2b08284cfc5fed0fcdb4df3a7c1d3085ee129f27ab14298a2cb1",
+  "citations_preserved": true,
+  "unicode_preserved": true,
+  "replacement_characters": 0,
+  "resource_and_input_hash_checks": [
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/SKILL.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/foundation.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/argument.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/voice-en.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/quantitative-discussion.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-shared/references/integrity.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/framing-results.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_voice.py",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_prose.py",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/inputs/D-Q02/revise-request.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/inputs/D-Q02/source-pack.md",
+      "hash_matches": true
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>/inputs/D-Q02/original.md",
+      "hash_matches": true
+    }
+  ],
+  "files_present": [
+    "changes.md",
+    "draft-1.check-prose.txt",
+    "draft-1.check-voice.txt",
+    "draft-1.md",
+    "draft-1.word-count.json",
+    "draft-2.check-prose.txt",
+    "draft-2.check-voice.txt",
+    "draft-2.md",
+    "draft-2.word-count.json",
+    "executed-commands.json",
+    "final.md",
+    "input-files.json",
+    "loaded-resources.json",
+    "rationale.md",
+    "self-review.md"
+  ]
+}

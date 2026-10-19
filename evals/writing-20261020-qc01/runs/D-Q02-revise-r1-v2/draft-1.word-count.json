@@ -1,0 +1,12 @@
+{
+  "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v2\\draft-1.md",
+  "count_method": "Whitespace-delimited words; hyphenated forms count as one word.",
+  "manuscript_body_words": 156,
+  "attribution_heading_words": 7,
+  "manuscript_paragraphs": 1,
+  "target_words": [
+    140,
+    170
+  ],
+  "within_target": true
+}

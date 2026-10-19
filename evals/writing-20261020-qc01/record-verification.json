@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-19T21:14:19.465545+00:00",
+  "comparison_commit": "cec4bc78fe9c240900e3c79a3097b1b96577d8fa",
+  "status": "passed",
+  "purpose": "Record integrity, not a writing-quality score or a factual audit of the original studies.",
+  "json_files_parsed": {
+    "20261019": 51,
+    "writing-20261020-qc01": 67
+  },
+  "authored_relative_links_checked": 264,
+  "archived_artifacts_verified": 221,
+  "byte_identical_artifacts": 161,
+  "root_alias_only_artifacts": 60,
+  "frozen_snapshot_files_per_variant": {
+    "v1": 203,
+    "v2": 203
+  },
+  "single_changed_resource": [
+    "skills/edu-writing/references/quantitative-discussion.md"
+  ],
+  "runtime_resources_match_control": true,
+  "frozen_inputs_verified": 4,
+  "reported_resource_entries_verified": 84,
+  "reported_input_entries_verified": 20,
+  "review_input_hashes_verified": 13,
+  "blind_final_pairs_verified": 8,
+  "review_dimensions_per_manuscript": 9,
+  "independent_studies": 1,
+  "operations": 2,
+  "repetitions_per_operation_per_variant": 2,
+  "candidate_adopted": false,
+  "human_review": false,
+  "cross_model_review": false,
+  "negative_record": "Archive parser initially rejected UTF-8 BOM in a JSON file; optional-BOM parsing fixed the helper, with raw bytes preserved.",
+  "scope": "English manuscripts and public source material only. No new PPT/statistics/journal-search runtime changes; unrelated tests not rerun.",
+  "staged_whitespace_check": {
+    "authored_files": "passed",
+    "raw_archive": "five preserved whitespace warnings in three checker stdout files and two review files; no content normalization performed",
+    "reason": "Preserve actual run/review bytes and recorded hashes"
+  }
+}

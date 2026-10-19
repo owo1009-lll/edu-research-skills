@@ -1,0 +1,25 @@
+{
+  "description": "Hashes recorded after final manuscript checks. Earlier drafts were not overwritten.",
+  "files": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01.md",
+      "sha256": "88A100D5F06F20BC81D7FE24D6D2913D3110231FAB206B79F248E852C76441BF"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02.md",
+      "sha256": "5F5122A36DC0931998B3231C55A10872A3694B94B78E7C9B814AC09CAFBA0CBB"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-03.md",
+      "sha256": "B6D2E68D59891E05A8F15242661E652AA0075621FA7C66DD9AC7E89F702E1271"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final.md",
+      "sha256": "B6D2E68D59891E05A8F15242661E652AA0075621FA7C66DD9AC7E89F702E1271"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\word-count.py",
+      "sha256": "825CB63D0324DEAAAE50DD81BFA9AA974E2DFF791090D4A4F509129BE233ADFC"
+    }
+  ]
+}

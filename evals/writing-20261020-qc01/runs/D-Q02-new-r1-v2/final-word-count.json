@@ -1,0 +1,10 @@
+{
+  "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r1-v2\\final.md",
+  "method": "Letter/number tokens; internal apostrophes, commas, periods, hyphens and en dashes stay within a word.",
+  "body_words": 502,
+  "attribution_heading_words": 7,
+  "body_whitespace_tokens": 500,
+  "attribution_heading_whitespace_tokens": 7,
+  "body_paragraphs": 5,
+  "body_within_450_550": true
+}

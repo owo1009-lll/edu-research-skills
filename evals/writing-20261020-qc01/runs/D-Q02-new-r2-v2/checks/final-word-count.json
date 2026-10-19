@@ -1,0 +1,11 @@
+{
+  "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2\\final.md",
+  "sha256": "ced44d7bdafcac07d3434e020cf349463522f4267a93e45602eea1daed59597a",
+  "convention": "Whitespace-delimited tokens containing a Unicode letter or number; hyphenated words and numerals count once.",
+  "body_words": 483,
+  "attribution_heading_words": 9,
+  "body_plus_attribution_words": 492,
+  "body_paragraphs": 5,
+  "body_within_450_550": true,
+  "unicode_replacement_character_present": false
+}

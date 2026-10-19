@@ -1,0 +1,34 @@
+{
+  "operation": "revise",
+  "records": [
+    {
+      "label": "A",
+      "run": "D-Q02-revise-r1-v2",
+      "original_sha256": "b5d5345dac4b2b08284cfc5fed0fcdb4df3a7c1d3085ee129f27ab14298a2cb1",
+      "anonymous_sha256": "0f3524222fecbe7b85cb560a9befe6bb536c8477609fc1ae4f36b922e85f052e",
+      "body_whitespace_words": 160
+    },
+    {
+      "label": "B",
+      "run": "D-Q02-revise-r2-v2",
+      "original_sha256": "3875ed615cef6f24c4ecd39e8a5300f19637ebda1be21dcfbfc7510df11c952f",
+      "anonymous_sha256": "29c46492db6ca8e55dba863fd838c46669100dcf8b6b3366c4c3ae6aedb0f838",
+      "body_whitespace_words": 153
+    },
+    {
+      "label": "C",
+      "run": "D-Q02-revise-r2-v1",
+      "original_sha256": "1c4aeaeda5e600bd1d9ae060c9be9e370137b53fbf0989988d8efdc5014cfee3",
+      "anonymous_sha256": "58fb26d48d6f09cf71bc918307541e4ec682eb1d593e603ef2cb726b9cc1910a",
+      "body_whitespace_words": 153
+    },
+    {
+      "label": "D",
+      "run": "D-Q02-revise-r1-v1",
+      "original_sha256": "b6d2e68d59891e05a8f15242661e652aa0075621fa7c66dd9ac7e89f702e1271",
+      "anonymous_sha256": "99029e2f722e9c2fab0a041cf796ce08e8d21c63758cf0d7811c326e3d6b04a3",
+      "body_whitespace_words": 146
+    }
+  ],
+  "transformation": "Separate attribution heading removed; body wording unchanged; line endings normalized to LF."
+}

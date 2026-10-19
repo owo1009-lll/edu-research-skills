@@ -1,0 +1,107 @@
+{
+  "description": "Actual shell commands in submission order. Independent checker/count jobs were submitted concurrently; this list does not assert completion order. No browsing, external references or repository writes were used.",
+  "commands": [
+    {
+      "submission_index": 1,
+      "stage": "Read specified skill and task inputs",
+      "cmd": "$paths = @('<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md', '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\revise-request.md', '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md', '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\original.md'); foreach ($path in $paths) { [pscustomobject]@{ path=$path; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash; content=[System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8) } | ConvertTo-Json -Depth 5 -Compress }"
+    },
+    {
+      "submission_index": 2,
+      "stage": "Read applicable skill support and checker implementations",
+      "cmd": "$paths = @('<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'); foreach ($path in $paths) { [pscustomobject]@{ path=$path; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash; content=[System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8) } | ConvertTo-Json -Depth 5 -Compress }"
+    },
+    {
+      "submission_index": 3,
+      "stage": "Read full language, discussion and integrity support after display truncation",
+      "cmd": "$paths = @('<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md', '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md'); foreach ($path in $paths) { [pscustomobject]@{ path=$path; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash; content=[System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8) } | ConvertTo-Json -Depth 5 -Compress }"
+    },
+    {
+      "submission_index": 4,
+      "stage": "Read required result framing support",
+      "cmd": "$path = '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md'; [pscustomobject]@{ path=$path; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash; content=[System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8) } | ConvertTo-Json -Depth 5 -Compress"
+    },
+    {
+      "submission_index": 5,
+      "stage": "Inspect checker dependencies and CLI",
+      "cmd": "rg -n '^(import |from )|read_text|read_bytes|open\\(|add_argument|def en_words' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'"
+    },
+    {
+      "submission_index": 6,
+      "stage": "Collect hashes for actually loaded skill resources",
+      "cmd": "$base = '<EXPERIMENT_ROOT>\\variants\\v1\\skills'; $relativePaths = @('edu-writing\\SKILL.md','edu-writing\\references\\foundation.md','edu-writing\\references\\argument.md','edu-writing\\references\\voice-en.md','edu-writing\\references\\quantitative-discussion.md','edu-writing\\references\\framing-results.md','edu-shared\\references\\integrity.md','edu-writing\\scripts\\check_voice.py','edu-writing\\scripts\\check_prose.py'); foreach ($relativePath in $relativePaths) { $path = Join-Path $base $relativePath; [pscustomobject]@{ path=$path; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash } | ConvertTo-Json -Compress }"
+    },
+    {
+      "submission_index": 7,
+      "stage": "Run first-draft voice checker",
+      "cmd": "$env:PYTHONUTF8 = '1'; $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\original.md' '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01-check-voice.txt', ($checkOutput -join [Environment]::NewLine) + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $checkOutput; if ($checkExit -ne 0) { exit $checkExit }",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 8,
+      "stage": "Run first-draft prose checker",
+      "cmd": "$env:PYTHONUTF8 = '1'; $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01-check-prose.txt', ($checkOutput -join [Environment]::NewLine) + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $checkOutput; if ($checkExit -ne 0) { exit $checkExit }",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 9,
+      "stage": "Count first-draft body separately from attribution heading",
+      "cmd": "$path = '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01.md'; $content = [System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8); $lines = $content -split '\\r?\\n'; $heading = ($lines | Where-Object { $_ -match '^# ' }) -join ' '; $body = (($lines | Where-Object { $_ -notmatch '^# ' }) -join \"`n\").Trim(); $pattern = '\\p{L}+(?:[’''-]\\p{L}+)*|\\d+(?:\\.\\d+)?'; $report = [pscustomobject]@{ file=$path; method='Unicode words; internal hyphens/apostrophes retained; em dashes split; numeric citation years counted'; body_words=[regex]::Matches($body,$pattern).Count; attribution_heading_words=[regex]::Matches($heading,$pattern).Count; body_whitespace_tokens=($body -split '\\s+').Count; body_paragraphs=($body -split '\\r?\\n\\s*\\r?\\n').Count; min_body_words=140; max_body_words=170 }; $json = $report | ConvertTo-Json; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01-word-count.json', $json+[Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $json",
+      "exit_code": 1
+    },
+    {
+      "submission_index": 10,
+      "stage": "Retry separate body and attribution word counts with Unicode-safe Python helper",
+      "cmd": "$env:PYTHONUTF8 = '1'; python '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\word-count.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01.md' --output '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01-word-count.json'",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 11,
+      "stage": "Run revised-draft voice checker",
+      "cmd": "$env:PYTHONUTF8 = '1'; $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\original.md' '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02-check-voice.txt', ($checkOutput -join [Environment]::NewLine) + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $checkOutput; if ($checkExit -ne 0) { exit $checkExit }",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 12,
+      "stage": "Run revised-draft prose checker",
+      "cmd": "$env:PYTHONUTF8 = '1'; $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02-check-prose.txt', ($checkOutput -join [Environment]::NewLine) + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $checkOutput; if ($checkExit -ne 0) { exit $checkExit }",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 13,
+      "stage": "Enforce revised-draft body length and paragraph count",
+      "cmd": "$env:PYTHONUTF8 = '1'; python '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\word-count.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02.md' --output '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02-word-count.json' --enforce",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 14,
+      "stage": "Run final voice check after copy edit",
+      "cmd": "$env:PYTHONUTF8 = '1'; $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\original.md' '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final-check-voice.txt', ($checkOutput -join [Environment]::NewLine) + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $checkOutput; if ($checkExit -ne 0) { exit $checkExit }",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 15,
+      "stage": "Run final prose check after copy edit",
+      "cmd": "$env:PYTHONUTF8 = '1'; $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final-check-prose.txt', ($checkOutput -join [Environment]::NewLine) + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $checkOutput; if ($checkExit -ne 0) { exit $checkExit }",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 16,
+      "stage": "Enforce final manuscript-body length and paragraph count",
+      "cmd": "$env:PYTHONUTF8 = '1'; python '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\word-count.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final.md' --output '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final-word-count.json' --enforce",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 17,
+      "stage": "Hash saved draft stages, final and executed count helper",
+      "cmd": "$paths = @('<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01.md','<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-02.md','<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-03.md','<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\final.md','<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\word-count.py'); foreach ($path in $paths) { [pscustomobject]@{ path=$path; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash } | ConvertTo-Json -Compress }",
+      "exit_code": 0
+    },
+    {
+      "submission_index": 18,
+      "stage": "Verify required delivery files, strict UTF-8, JSON parse, final draft identity and separate word-count result",
+      "cmd": "$outDir = '<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1'; $expectedFiles = @('draft-01.md','draft-02.md','draft-03.md','final.md','rationale.md','self-review.md','changes-and-source-checks.md','draft-01-check-voice.txt','draft-01-check-prose.txt','draft-02-check-voice.txt','draft-02-check-prose.txt','final-check-voice.txt','final-check-prose.txt','draft-01-word-count.json','draft-02-word-count.json','final-word-count.json','word-count.py','loaded-resources.json','input-file-hashes.json','executed-commands.json','failed-word-count-command.json','artifact-hashes.json','artifact-write-events.json'); $utf8 = [System.Text.UTF8Encoding]::new($false, $true); foreach ($name in $expectedFiles) { $path = Join-Path $outDir $name; if (-not (Test-Path -LiteralPath $path -PathType Leaf)) { throw \"Missing required artifact: $name\" }; $content = $utf8.GetString([System.IO.File]::ReadAllBytes($path)); if ($name.EndsWith('.json')) { $null = $content | ConvertFrom-Json } }; $finalHash = (Get-FileHash -LiteralPath (Join-Path $outDir 'final.md') -Algorithm SHA256).Hash; $draftHash = (Get-FileHash -LiteralPath (Join-Path $outDir 'draft-03.md') -Algorithm SHA256).Hash; if ($finalHash -ne $draftHash) { throw 'Final does not match preserved draft 03' }; $counts = [System.IO.File]::ReadAllText((Join-Path $outDir 'final-word-count.json'), $utf8) | ConvertFrom-Json; if (-not ($counts.body_in_range -and $counts.one_body_paragraph)) { throw 'Final count failed' }; $report = [pscustomobject]@{ required_files_present=$expectedFiles.Count; strict_utf8_decode='passed'; json_parse='passed'; final_matches_draft_03=$true; final_sha256=$finalHash; body_words=$counts.body_words; attribution_heading_words=$counts.attribution_heading_words; body_paragraphs=$counts.body_paragraphs }; $json = $report | ConvertTo-Json; [System.IO.File]::WriteAllText((Join-Path $outDir 'completion-verification.json'), $json+[Environment]::NewLine, [System.Text.UTF8Encoding]::new($false)); $json",
+      "exit_code": 0
+    }
+  ]
+}

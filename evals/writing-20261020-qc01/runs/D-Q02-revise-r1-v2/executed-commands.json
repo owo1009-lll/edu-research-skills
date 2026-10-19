@@ -1,0 +1,99 @@
+[
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/SKILL.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=(Get-Content -LiteralPath $p -Raw -Encoding UTF8)} | ConvertTo-Json -Depth 4",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/inputs/D-Q02/revise-request.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=(Get-Content -LiteralPath $p -Raw -Encoding UTF8)} | ConvertTo-Json -Depth 4",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/inputs/D-Q02/source-pack.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=(Get-Content -LiteralPath $p -Raw -Encoding UTF8)} | ConvertTo-Json -Depth 4",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/inputs/D-Q02/original.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=(Get-Content -LiteralPath $p -Raw -Encoding UTF8)} | ConvertTo-Json -Depth 4",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/SKILL.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/inputs/D-Q02/revise-request.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/inputs/D-Q02/source-pack.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/inputs/D-Q02/original.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/foundation.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/argument.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/voice-en.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/quantitative-discussion.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-shared/references/integrity.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "$p = '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/references/framing-results.md'; [pscustomobject]@{Path=$p; Sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash; Content=[System.IO.File]::ReadAllText($p,[Text.Encoding]::UTF8)} | ConvertTo-Json -Depth 3",
+    "exit_code": 0
+  },
+  {
+    "command": "rg -n '^(import |from )|read_text|read_json|open\\(|\\.json|Path\\(' '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_voice.py' '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_prose.py'; Get-FileHash -LiteralPath '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_voice.py','<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_prose.py' -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json",
+    "exit_code": 0
+  },
+  {
+    "command": "rg -n 'add_argument|sources|source|read\\(' '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_voice.py'",
+    "exit_code": 0
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; $checkerOutput = & python '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_voice.py' --draft '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-1.md' --source '<EXPERIMENT_ROOT>/inputs/D-Q02/source-pack.md' '<EXPERIMENT_ROOT>/inputs/D-Q02/original.md' 2>&1; $checkerExit = $LASTEXITCODE; $checkerOutput | Out-File -LiteralPath '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-1.check-voice.txt' -Encoding utf8; $checkerOutput; exit $checkerExit",
+    "exit_code": 0
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; $checkerOutput = & python '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_prose.py' --draft '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-1.md' 2>&1; $checkerExit = $LASTEXITCODE; $checkerOutput | Out-File -LiteralPath '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-1.check-prose.txt' -Encoding utf8; $checkerOutput; exit $checkerExit",
+    "exit_code": 0
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; @'\nfrom pathlib import Path\nimport json\np = Path(r'<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-1.md')\nt = p.read_text(encoding='utf-8')\nheading, body = t.split('\\n', 1)\nbody = body.strip()\nreport = {'file': str(p), 'count_method': 'Whitespace-delimited words; hyphenated forms count as one word.', 'manuscript_body_words': len(body.split()), 'attribution_heading_words': len(heading.lstrip('# ').split()), 'manuscript_paragraphs': len(body.split('\\n\\n')), 'target_words': [140, 170], 'within_target': 140 <= len(body.split()) <= 170}\nresult = json.dumps(report, ensure_ascii=False, indent=2)\n(p.parent / 'draft-1.word-count.json').write_text(result + '\\n', encoding='utf-8')\nprint(result)\n'@ | python -",
+    "exit_code": 0
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; $checkerOutput = & python '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_voice.py' --draft '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-2.md' --source '<EXPERIMENT_ROOT>/inputs/D-Q02/source-pack.md' '<EXPERIMENT_ROOT>/inputs/D-Q02/original.md' 2>&1; $checkerExit = $LASTEXITCODE; $checkerOutput | Out-File -LiteralPath '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-2.check-voice.txt' -Encoding utf8; $checkerOutput; exit $checkerExit",
+    "exit_code": 0
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; $checkerOutput = & python '<EXPERIMENT_ROOT>/variants/v2/skills/edu-writing/scripts/check_prose.py' --draft '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-2.md' 2>&1; $checkerExit = $LASTEXITCODE; $checkerOutput | Out-File -LiteralPath '<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-2.check-prose.txt' -Encoding utf8; $checkerOutput; exit $checkerExit",
+    "exit_code": 0
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; @'\nfrom pathlib import Path\nimport json\np = Path(r'<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2/draft-2.md')\nt = p.read_text(encoding='utf-8')\nheading, body = t.split('\\n', 1)\nbody = body.strip()\nreport = {'file': str(p), 'count_method': 'Whitespace-delimited words; hyphenated forms count as one word.', 'manuscript_body_words': len(body.split()), 'attribution_heading_words': len(heading.lstrip('# ').split()), 'manuscript_paragraphs': len(body.split('\\n\\n')), 'target_words': [140, 170], 'within_target': 140 <= len(body.split()) <= 170}\nresult = json.dumps(report, ensure_ascii=False, indent=2)\n(p.parent / 'draft-2.word-count.json').write_text(result + '\\n', encoding='utf-8')\nprint(result)\n'@ | python -",
+    "exit_code": 0
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; @'\nfrom pathlib import Path\nimport hashlib, json\nout = Path(r'<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2')\nfinal = (out / 'final.md').read_text(encoding='utf-8')\nheading, body = final.split('\\n', 1)\nbody = body.strip()\nresources = json.loads((out / 'loaded-resources.json').read_text(encoding='utf-8'))\ninputs = json.loads((out / 'input-files.json').read_text(encoding='utf-8'))\nchecks = []\nfor item in resources + inputs:\n    actual = hashlib.sha256(Path(item['path']).read_bytes()).hexdigest().upper()\n    checks.append({'path': item['path'], 'hash_matches': actual == item['sha256'].upper()})\nreport = {'manuscript_body_words': len(body.split()), 'attribution_heading_words': len(heading.lstrip('# ').split()), 'count_method': 'Whitespace-delimited words; hyphenated forms count as one word.', 'manuscript_paragraphs': len(body.split('\\n\\n')), 'within_target': 140 <= len(body.split()) <= 170, 'final_matches_draft_2': (out / 'final.md').read_bytes() == (out / 'draft-2.md').read_bytes(), 'final_sha256': hashlib.sha256((out / 'final.md').read_bytes()).hexdigest(), 'citations_preserved': all(s in body for s in ['Orth et al., 2021', 'Voelkle et al. (2014)']), 'unicode_preserved': all(s in final for s in ['Lüdtke', 'students’', 'student’s']), 'replacement_characters': final.count(chr(65533)), 'resource_and_input_hash_checks': checks, 'files_present': sorted(p.name for p in out.iterdir() if p.is_file())}\nassert report['within_target'] and report['manuscript_paragraphs'] == 1\nassert report['final_matches_draft_2'] and report['citations_preserved'] and report['unicode_preserved'] and report['replacement_characters'] == 0\nassert all(x['hash_matches'] for x in checks)\nresult = json.dumps(report, ensure_ascii=False, indent=2)\n(out / 'verification.json').write_text(result + '\\n', encoding='utf-8')\nprint(result)\n'@ | python -",
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 15, in <module>\nAssertionError\n"
+  },
+  {
+    "command": "$env:PYTHONIOENCODING = 'utf-8'; @'\nfrom pathlib import Path\nimport hashlib, json\nout = Path(r'<EXPERIMENT_ROOT>/runs/D-Q02-revise-r1-v2')\nfinal = (out / 'final.md').read_text(encoding='utf-8')\nheading, body = final.split('\\n', 1)\nbody = body.strip()\nresources = json.loads((out / 'loaded-resources.json').read_text(encoding='utf-8'))\ninputs = json.loads((out / 'input-files.json').read_text(encoding='utf-8'))\nchecks = []\nfor item in resources + inputs:\n    actual = hashlib.sha256(Path(item['path']).read_bytes()).hexdigest().upper()\n    checks.append({'path': item['path'], 'hash_matches': actual == item['sha256'].upper()})\nreport = {'manuscript_body_words': len(body.split()), 'attribution_heading_words': len(heading.lstrip('# ').split()), 'count_method': 'Whitespace-delimited words; hyphenated forms count as one word.', 'manuscript_paragraphs': len(body.split('\\n\\n')), 'within_target': 140 <= len(body.split()) <= 170, 'final_matches_draft_2': (out / 'final.md').read_bytes() == (out / 'draft-2.md').read_bytes(), 'final_sha256': hashlib.sha256((out / 'final.md').read_bytes()).hexdigest(), 'citations_preserved': all(s in body for s in ['Orth et al., 2021', 'Voelkle et al. (2014)']), 'unicode_preserved': all(s in final for s in ['L\\u00fcdtke', 'students\\u2019', 'student\\u2019s']), 'replacement_characters': final.count(chr(65533)), 'resource_and_input_hash_checks': checks, 'files_present': sorted(p.name for p in out.iterdir() if p.is_file())}\nresult = json.dumps(report, ensure_ascii=False, indent=2)\n(out / 'verification.json').write_text(result + '\\n', encoding='utf-8')\nprint(result)\nassert report['within_target'] and report['manuscript_paragraphs'] == 1\nassert report['final_matches_draft_2'] and report['citations_preserved'] and report['unicode_preserved'] and report['replacement_characters'] == 0\nassert all(x['hash_matches'] for x in checks)\n'@ | python -",
+    "exit_code": 0
+  }
+]

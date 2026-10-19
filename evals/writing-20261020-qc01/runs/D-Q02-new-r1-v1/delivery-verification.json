@@ -1,0 +1,37 @@
+{
+  "checks": [
+    "All loaded snapshot resource hashes match their recorded values.",
+    "Both input-file hashes match the separate input manifest.",
+    "The saved first draft and final manuscript match the versions actually checked; both body counts are in range.",
+    "Deliverables and checker stdout are nonempty valid UTF-8 without replacement characters; Lüdtke is preserved.",
+    "Four actual checker executions are recorded, each with exit code 0 and separate stdout/stderr files."
+  ],
+  "scope": "Single discussion passage, one preserved first draft, one full revision; AI self-review; no browsing or statistical rerun.",
+  "final_body_words": 478,
+  "final_attribution_heading_words": 8,
+  "skill_support_resources": 8,
+  "generated_support_scripts": 3,
+  "files": [
+    "draft-01-check_prose.stderr.txt",
+    "draft-01-check_prose.txt",
+    "draft-01-check_voice.stderr.txt",
+    "draft-01-check_voice.txt",
+    "draft-01-word-count.json",
+    "draft-01.md",
+    "executed-commands.json",
+    "final-check_prose.stderr.txt",
+    "final-check_prose.txt",
+    "final-check_voice.stderr.txt",
+    "final-check_voice.txt",
+    "final-word-count.json",
+    "final.md",
+    "input-file-hashes.json",
+    "loaded-resources.json",
+    "provenance.py",
+    "rationale.md",
+    "run-checks.py",
+    "self-review.md",
+    "verify-delivery.py",
+    "writing-note.md"
+  ]
+}

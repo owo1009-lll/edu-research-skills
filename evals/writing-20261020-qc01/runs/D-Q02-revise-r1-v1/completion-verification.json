@@ -1,0 +1,10 @@
+{
+    "required_files_present":  23,
+    "strict_utf8_decode":  "passed",
+    "json_parse":  "passed",
+    "final_matches_draft_03":  true,
+    "final_sha256":  "B6D2E68D59891E05A8F15242661E652AA0075621FA7C66DD9AC7E89F702E1271",
+    "body_words":  148,
+    "attribution_heading_words":  12,
+    "body_paragraphs":  1
+}

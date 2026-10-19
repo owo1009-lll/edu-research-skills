@@ -1,0 +1,462 @@
+[
+  {
+    "id": "Q-N14",
+    "doi": "10.1111/desc.70261",
+    "retrieved_utc": "2026-10-19T20:52:56.390994+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13442964/fullTextXML",
+        "status": 500,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13442964/fullTextXML",
+        "content_type": "application/json",
+        "bytes": 151,
+        "outcome": "failed",
+        "error": "500 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13442964/fullTextXML"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1111/desc.70261",
+      "title": [
+        "Relations Between Parents’ Math Anxiety and Children's Math Learning: The Role of Homework Help"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-8161-6961",
+          "authenticated-orcid": false,
+          "given": "Madison B.",
+          "family": "Poisall",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Florida State University  Tallahassee Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8460-5319",
+          "authenticated-orcid": false,
+          "given": "Olivia K.",
+          "family": "Cook",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Florida State University  Tallahassee Florida USA"
+            },
+            {
+              "name": "Florida Center for Research in Science Technology, Engineering, and Mathematics, Learning Systems Institute  Tallahassee Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9793-0420",
+          "authenticated-orcid": false,
+          "given": "Sara A.",
+          "family": "Hart",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology University of Waterloo  Waterloo ON Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9573-6114",
+          "authenticated-orcid": false,
+          "given": "Rachel A.",
+          "family": "Conlon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Evidence Based Education  Sunderland UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0066-1602",
+          "authenticated-orcid": false,
+          "given": "Connie",
+          "family": "Barroso",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Educational Psychology Texas A&amp;M University, College Station  TX USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0238-4899",
+          "authenticated-orcid": false,
+          "given": "Elyssa A.",
+          "family": "Geer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Special Education, School Psychology, and Early Childhood Studies University of Florida  Gainesville Florida USA"
+            },
+            {
+              "name": "Anita Zucker Center for Excellence in Early Childhood Studies  Gainesville Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8902-9189",
+          "authenticated-orcid": false,
+          "given": "Colleen M.",
+          "family": "Ganley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Florida State University  Tallahassee Florida USA"
+            },
+            {
+              "name": "Florida Center for Research in Science Technology, Engineering, and Mathematics, Learning Systems Institute  Tallahassee Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ]
+      },
+      "container-title": [
+        "Developmental Science"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T00:00:00Z",
+            "timestamp": 1785369600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T00:00:00Z",
+            "timestamp": 1785369600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ]
+    },
+    "metadata_sha256": "d2e439e021a80cea5164f0129eece1109655e416684d6c062232b788ddfdf977",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N15",
+    "doi": "10.1186/s40594-018-0136-1",
+    "retrieved_utc": "2026-10-19T20:52:56.390994+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1186/s40594-018-0136-1",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1186/s40594-018-0136-1",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 475413,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1186/s40594-018-0136-1",
+      "title": [
+        "Developing identities of STEM teachers at emerging STEM schools"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7787-0870",
+          "authenticated-orcid": false,
+          "given": "Mohamed",
+          "family": "El Nagdi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Felicia",
+          "family": "Leammukda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gillian",
+          "family": "Roehrig",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            9,
+            25
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of STEM Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                9,
+                25
+              ]
+            ],
+            "date-time": "2018-09-25T00:00:00Z",
+            "timestamp": 1537833600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "eb71cdababf12d2192102201058ee96f5e1e6d582d9aa8fbb7648845edd885e5",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1186/s40594-018-0136-1",
+    "format": "html",
+    "raw_sha256": "dcd443a80949fabcc8dc18ee838426df85a913ec72aa989849f6a7e5cf0a1e9f",
+    "text_sha256": "3050b9ec42a2a515ce00aaa6501b25bdea72f349b3c7cb7d0c7a9686ef97dd15",
+    "text_characters": 68858,
+    "extraction": {
+      "sections": 17,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading"
+  },
+  {
+    "id": "M-N16",
+    "doi": "10.1016/j.metip.2024.100170",
+    "retrieved_utc": "2026-10-19T20:52:56.390994+00:00",
+    "attempts": [
+      {
+        "url": "https://ddd.uab.cat/pub/artpub/2024/307178/metpsy_a2024v11a100170iENG.pdf",
+        "status": 200,
+        "final_url": "https://ddd.uab.cat/pub/artpub/2024/307178/metpsy_a2024v11a100170iENG.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1845454,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1016/j.metip.2024.100170",
+      "title": [
+        "Digging and building: How transformative mixed-methods research contributes to explaining and responding to educational exclusion and school dropout"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6579-9269",
+          "authenticated-orcid": false,
+          "given": "Tabata",
+          "family": "Contreras-Villalobos",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2899-6316",
+          "authenticated-orcid": false,
+          "given": "Enrique",
+          "family": "Baleriola Escudero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7405-3859",
+          "authenticated-orcid": false,
+          "given": "Verónica",
+          "family": "López Leiva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Methods in Psychology"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2024-12-01T00:00:00Z",
+            "timestamp": 1733011200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2024-12-01T00:00:00Z",
+            "timestamp": 1733011200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                2
+              ]
+            ],
+            "date-time": "2024-12-02T00:00:00Z",
+            "timestamp": 1733097600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 1,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "9e3ad1788f3825f5e3393ea85e4609c00d7792eba40bcccadbc6670da24bf9fb",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://ddd.uab.cat/pub/artpub/2024/307178/metpsy_a2024v11a100170iENG.pdf",
+    "format": "pdf",
+    "raw_sha256": "6d60a7f46a9f8554ad688a6240e8bcb93648ab2320782e371a5ab7b7eb7fd197",
+    "text_sha256": "d821dd21cd4de762e79d6c889d72fc60370d53b20b361f3e8d7216e287de9334",
+    "text_characters": 84734,
+    "extraction": {
+      "pages": 11,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading"
+  }
+]

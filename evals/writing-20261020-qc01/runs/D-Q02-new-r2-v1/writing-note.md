@@ -1,0 +1,5 @@
+# Writing choices and unresolved source questions
+
+The passage moves from the reciprocal finding to the models' different comparisons, then develops model-selection, teaching, and experimental implications. Both achievement indicators remain visible because classroom grades and standardized tests serve different purposes. Third-person attribution identifies this as secondary writing. The proposed feedback process and combined intervention are presented as questions for further research.
+
+Only the supplied pack was used. Exact coefficient vectors, duplicated model labels, and a covariance/correlation table's row placement remain unresolved, so the passage gives no effect sizes or benefit magnitudes. The original article, earlier cited studies, and supplemental Mplus document were not independently read or rerun. The source study is [Marsh, Pekrun, and Lüdtke (2022)](https://link.springer.com/article/10.1007/s10648-022-09662-9), identified in the pack as CC BY 4.0. This link is supplied for attribution and was not opened during this run.

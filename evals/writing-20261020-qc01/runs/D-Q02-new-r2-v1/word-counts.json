@@ -1,0 +1,26 @@
+﻿[
+  {
+    "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.md",
+    "attribution_heading_words": 9,
+    "manuscript_body_words": 487,
+    "total_words": 496,
+    "body_within_450_550": true,
+    "method": "Unicode word tokens; internal apostrophes, hyphens, and numeral commas stay joined"
+  },
+  {
+    "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.md",
+    "attribution_heading_words": 9,
+    "manuscript_body_words": 482,
+    "total_words": 491,
+    "body_within_450_550": true,
+    "method": "Unicode word tokens; internal apostrophes, hyphens, and numeral commas stay joined"
+  },
+  {
+    "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\final.md",
+    "attribution_heading_words": 9,
+    "manuscript_body_words": 484,
+    "total_words": 493,
+    "body_within_450_550": true,
+    "method": "Unicode word tokens; internal apostrophes, hyphens, and numeral commas stay joined"
+  }
+]

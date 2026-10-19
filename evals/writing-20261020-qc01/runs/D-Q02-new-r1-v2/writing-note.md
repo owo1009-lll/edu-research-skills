@@ -1,0 +1,5 @@
+# Writing choices and unresolved source questions
+
+The passage moves from reciprocal prediction to the concrete comparisons made by the two models, then from specification checks to educational and research implications. It retains the authors' complementary-model position and attention to both self-beliefs and performance. A teacher implication follows from the role of competence beliefs and classroom feedback; the proposed trial remains a test of benefits rather than evidence that they have occurred. The explicit attribution and third-person voice identify this as a secondary-writing demonstration.
+
+Only the supplied source pack was read as study evidence. Exact coefficient correspondences, duplicated model labels, and covariance/correlation row labels remain unresolved, so effect sizes and benefit magnitudes are omitted. The original Haney and Durlak meta-analysis and the supplemental Mplus document were not read or independently verified; no analysis was rerun. These gaps limit numerical and causal claims, while the pack consistently supports the directional pattern and model-comparison argument used here.

@@ -1,0 +1,102 @@
+[
+  {
+    "sequence": 1,
+    "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\new-request.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 2,
+    "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 3,
+    "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 4,
+    "command": "$out = '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1'\nNew-Item -ItemType Directory -Path $out -Force | Out-Null\n$root = '<EXPERIMENT_ROOT>\\variants\\v1\\skills'\n$loaded = @([pscustomobject]@{path=\"$root\\edu-writing\\SKILL.md\"; use='read'; sha256=(Get-FileHash -LiteralPath \"$root\\edu-writing\\SKILL.md\" -Algorithm SHA256).Hash})\n$resources = @('edu-writing\\references\\argument.md','edu-writing\\references\\framing-results.md','edu-writing\\references\\voice-en.md','edu-writing\\references\\quantitative-discussion.md','edu-writing\\references\\conclusion-implications.md','edu-shared\\references\\integrity.md')\nforeach ($relative in $resources) {\n  $path = Join-Path $root $relative\n  $content = Get-Content -LiteralPath $path -Raw -Encoding UTF8\n  $loaded += [pscustomobject]@{path=$path; use='read'; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash}\n  Write-Output \"RESOURCE: $relative\"\n  Write-Output $content\n}\n$loaded | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath \"$out\\loaded-resources.json\" -Encoding UTF8\n$inputs = foreach ($name in @('new-request.md','source-pack.md')) { $path = \"<EXPERIMENT_ROOT>\\inputs\\D-Q02\\$name\"; [pscustomobject]@{path=$path; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash} }\n$inputs | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath \"$out\\input-file-hashes.json\" -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 5,
+    "command": "$out = '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1'\n$root = '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing'\nGet-Content -LiteralPath \"$root\\references\\framing-results.md\" -Encoding UTF8 | Select-Object -Last 12\nGet-Content -LiteralPath \"$root\\references\\voice-en.md\" -Encoding UTF8 | Select-Object -First 16\n$loaded = @(Get-Content -LiteralPath \"$out\\loaded-resources.json\" -Raw -Encoding UTF8 | ConvertFrom-Json)\nforeach ($name in @('check_voice.py','check_prose.py')) {\n  $path = \"$root\\scripts\\$name\"\n  Write-Output \"SCRIPT DEPENDENCIES: $name\"\n  rg -n 'import|read_text|open\\(|Path\\(|\\.json|\\.csv|BASE|CORPUS|sys\\.path' -- $path\n  $loaded += [pscustomobject]@{path=$path; use='read dependency-related lines; execution pending'; sha256=(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash}\n}\n$loaded | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath \"$out\\loaded-resources.json\" -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 6,
+    "command": "$checkerOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' 2>&1\n$checkerExit = $LASTEXITCODE\n$checkerOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.voice-check.txt' -Encoding UTF8\n$checkerOutput\nexit $checkerExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 7,
+    "command": "$checkerOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.md' 2>&1\n$checkerExit = $LASTEXITCODE\n$checkerOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.prose-check.txt' -Encoding UTF8\n$checkerOutput\nexit $checkerExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 8,
+    "command": "$countOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\count_words.py' '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.md' 2>&1\n$countExit = $LASTEXITCODE\n$countOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.word-count.json' -Encoding UTF8\n$countOutput\nexit $countExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 9,
+    "command": "$checkerOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' 2>&1\n$checkerExit = $LASTEXITCODE\n$checkerOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.voice-check.txt' -Encoding UTF8\n$checkerOutput\nexit $checkerExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 10,
+    "command": "$checkerOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.md' 2>&1\n$checkerExit = $LASTEXITCODE\n$checkerOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.prose-check.txt' -Encoding UTF8\n$checkerOutput\nexit $checkerExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 11,
+    "command": "$countOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\count_words.py' '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.md' 2>&1\n$countExit = $LASTEXITCODE\n$countOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.word-count.json' -Encoding UTF8\n$countOutput\nexit $countExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 12,
+    "command": "$out = '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1'\n$loaded = @(Get-Content -LiteralPath \"$out\\loaded-resources.json\" -Raw -Encoding UTF8 | ConvertFrom-Json)\nforeach ($resource in $loaded) { if ($resource.path -match 'check_(voice|prose)\\.py$') { $resource.use = 'read dependency-related lines; executed on first and revised drafts' } }\n$counter = \"$out\\count_words.py\"\n$loaded += [pscustomobject]@{path=$counter; use='authored local support script; executed on first and revised drafts'; sha256=(Get-FileHash -LiteralPath $counter -Algorithm SHA256).Hash}\n$loaded | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath \"$out\\loaded-resources.json\" -Encoding UTF8",
+    "exit_code": 0,
+    "nonterminating_error": "PowerShell reported: 在此对象上找不到属性“use”。请确认该属性存在并且可设置。 Process exit code remained 0. Nested manifest wrappers were subsequently flattened and hashes verified."
+  },
+  {
+    "sequence": 13,
+    "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\loaded-resources.json' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 14,
+    "command": "@'\nimport hashlib, json\nfrom pathlib import Path\nout = Path(r'<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1')\nmanifest_path = out / 'loaded-resources.json'\ndef flatten(item):\n    if isinstance(item, list):\n        return [entry for child in item for entry in flatten(child)]\n    if isinstance(item, dict) and 'path' in item:\n        return [item]\n    if isinstance(item, dict) and 'value' in item:\n        return flatten(item['value'])\n    raise ValueError(item)\nmanifest = flatten(json.loads(manifest_path.read_text(encoding='utf-8-sig')))\nfor entry in manifest:\n    if Path(entry['path']).name in ('check_voice.py', 'check_prose.py'):\n        entry['use'] = 'read dependency-related lines; executed on first and revised drafts'\n    digest = hashlib.sha256(Path(entry['path']).read_bytes()).hexdigest()\n    assert digest.upper() == entry['sha256'].upper(), entry['path']\n    entry['sha256'] = digest\nmanifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\ninputs_path = out / 'input-file-hashes.json'\ninputs = flatten(json.loads(inputs_path.read_text(encoding='utf-8-sig')))\nfor entry in inputs:\n    digest = hashlib.sha256(Path(entry['path']).read_bytes()).hexdigest()\n    assert digest.upper() == entry['sha256'].upper(), entry['path']\n    entry['sha256'] = digest\ninputs_path.write_text(json.dumps(inputs, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps({'resource_entries': len(manifest), 'input_entries': len(inputs), 'all_hashes_verified': True}))\n'@ | python -X utf8 -",
+    "exit_code": 0
+  },
+  {
+    "sequence": 15,
+    "command": "$checkerOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\final.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' 2>&1\n$checkerExit = $LASTEXITCODE\n$checkerOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\final.voice-check.txt' -Encoding UTF8\n$checkerOutput\nexit $checkerExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 16,
+    "command": "$checkerOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\final.md' 2>&1\n$checkerExit = $LASTEXITCODE\n$checkerOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\final.prose-check.txt' -Encoding UTF8\n$checkerOutput\nexit $checkerExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 17,
+    "command": "$countOutput = & python -X utf8 '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\count_words.py' '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\first-draft.md' '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\revised-draft.md' '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\final.md' 2>&1\n$countExit = $LASTEXITCODE\n$countOutput | Set-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1\\word-counts.json' -Encoding UTF8\n$countOutput\nexit $countExit",
+    "exit_code": 0,
+    "status": "fulfilled"
+  },
+  {
+    "sequence": 18,
+    "command": "@'\nimport hashlib, json\nfrom pathlib import Path\nout = Path(r'<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v1')\nmanifest_path = out / 'loaded-resources.json'\nmanifest = json.loads(manifest_path.read_text(encoding='utf-8-sig'))\nfor entry in manifest:\n    name = Path(entry['path']).name\n    if name in ('check_voice.py', 'check_prose.py'):\n        entry['use'] = 'read dependency-related lines; executed on first draft, revised draft, and final manuscript'\n    elif name == 'count_words.py':\n        entry['use'] = 'authored local support script; executed on first draft, revised draft, and final manuscript'\n    assert hashlib.sha256(Path(entry['path']).read_bytes()).hexdigest() == entry['sha256']\nmanifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nexpected = ['first-draft.md','revised-draft.md','self-review.md','final.md','rationale.md','writing-note.md','loaded-resources.json','input-file-hashes.json','executed-commands.json','first-draft.voice-check.txt','first-draft.prose-check.txt','revised-draft.voice-check.txt','revised-draft.prose-check.txt','final.voice-check.txt','final.prose-check.txt','word-counts.json']\nfor name in expected:\n    text = (out / name).read_text(encoding='utf-8-sig')\n    assert text.strip(), name\n    assert '\\ufffd' not in text, name\ncounts = json.loads((out / 'word-counts.json').read_text(encoding='utf-8-sig'))\nassert all(item['body_within_450_550'] for item in counts)\nreport = {'expected_files_verified':len(expected),'resource_hashes_verified':len(manifest),'final_body_words':counts[-1]['manuscript_body_words'],'attribution_heading_words':counts[-1]['attribution_heading_words'],'utf8_decode_ok':True}\n(out / 'delivery-verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps(report))\n'@ | python -X utf8 -",
+    "exit_code": 0
+  }
+]

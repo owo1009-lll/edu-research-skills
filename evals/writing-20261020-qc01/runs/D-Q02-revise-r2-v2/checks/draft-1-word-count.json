@@ -1,0 +1,14 @@
+{
+  "stage": "draft-1",
+  "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v2\\draft-1.md",
+  "sha256": "3a51e9251f67bb1f176c9e2a2b792df70c4559874f13d6a347f53209779425a5",
+  "convention": "Whitespace-delimited words; hyphenated words and contractions count as one. In-text citations count; the attribution heading and Markdown marker do not count toward the manuscript limit.",
+  "body_words": 157,
+  "attribution_heading_words": 8,
+  "total_words_without_markdown_marker": 165,
+  "body_paragraphs": 1,
+  "within_140_170_words": true,
+  "replacement_characters": 0,
+  "contains_cjk": false,
+  "both_original_citations_present": true
+}

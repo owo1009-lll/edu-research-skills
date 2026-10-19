@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "body_words": 153,
+  "attribution_heading_words": 8,
+  "body_paragraphs": 1,
+  "final_equals_checked_draft_2": true,
+  "first_draft_unchanged": true,
+  "input_and_resource_hashes_verified": true,
+  "required_artifacts": [
+    "draft-1.md",
+    "draft-2.md",
+    "self-review.md",
+    "final.md",
+    "rationale.md",
+    "changes-and-source-checks.md",
+    "loaded-resources.json",
+    "input-hashes.json",
+    "executed-commands.jsonl",
+    "execution-record.md"
+  ],
+  "final_sha256": "3875ed615cef6f24c4ecd39e8a5300f19637ebda1be21dcfbfc7510df11c952f"
+}

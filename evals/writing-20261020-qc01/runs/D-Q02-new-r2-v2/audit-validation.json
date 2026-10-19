@@ -1,0 +1,10 @@
+{
+  "required_artifacts_present": true,
+  "final_equals_draft_03": true,
+  "body_words": 483,
+  "attribution_heading_words": 9,
+  "all_nine_checker_invocations_exit_zero": true,
+  "utf8_validation": "passed",
+  "loaded_resource_count": 11,
+  "final_sha256": "ced44d7bdafcac07d3434e020cf349463522f4267a93e45602eea1daed59597a"
+}

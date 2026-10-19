@@ -1,0 +1,11 @@
+{
+  "stage": "Initial PowerShell word count",
+  "actual_tool_result": {
+    "chunk_id": "ff450d",
+    "wall_time_seconds": 0.0027135,
+    "exit_code": 1,
+    "original_token_count": 249,
+    "output": "����λ�� ��:2 �ַ�: 388\r\n+ ... match '^# ' }) -join \"`n\").Trim(); $pattern = '\\p{L}+(?:[��''-]\\p{L}+) ...\r\n+                                                                  ~\r\n�����ڡ�-������������ṩһ��ֵ����ʽ��\r\n����λ�� ��:2 �ַ�: 388\r\n+ ... atch '^# ' }) -join \"`n\").Trim(); $pattern = '\\p{L}+(?:[��''-]\\p{L}+)* ...\r\n+                                                                 ~\r\n����ʽ������а�������ı�ǡ�]����\r\n����λ�� ��:2 �ַ�: 395\r\n+ ... # ' }) -join \"`n\").Trim(); $pattern = '\\p{L}+(?:[��''-]\\p{L}+)*|\\d+(?: ...\r\n+                                                                 ~\r\n����ʽ������а�������ı�ǡ�)����\r\n����λ�� ��:2 �ַ�: 1007\r\n+ ... d-count.json', $json+[Environment]::NewLine, [System.Text.UTF8Encodin ...\r\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n�ַ���ȱ����ֹ��: '��\r\n    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException\r\n    + FullyQualifiedErrorId : ExpectedValueExpression\r\n \r\n"
+  },
+  "note": "The command did not execute because of a parser error. The raw tool-returned output is preserved, including its console decoding artifacts. A Python helper subsequently produced the actual counts."
+}

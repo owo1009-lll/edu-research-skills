@@ -747,6 +747,47 @@
       "confirmed_group": "quantitative",
       "not_read": "Supplement DOC unavailable (web unsupported content type, direct request 403); raw data, original measures and cited originals not read; no model reanalysis",
       "classification_note": "Two-wave child observational study with midyear parent report; conditional associations and same-wave end-of-year mediator/outcome, not a randomized homework intervention."
+    },
+    {
+      "id": "Q-N14",
+      "doi": "10.1111/desc.70261",
+      "exposure": "new_development",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "access_failed",
+      "reading_status": "identity_and_opening_screened_only",
+      "read_scope": "Public article identity and opening screened; no full-text distillation completed.",
+      "use_status": "pending_full_reading_and_classification"
+    },
+    {
+      "id": "L-N15",
+      "doi": "10.1186/s40594-018-0136-1",
+      "exposure": "new_development",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "identity_and_opening_screened_only",
+      "read_scope": "Public article identity and opening screened; no full-text distillation completed.",
+      "use_status": "pending_full_reading_and_classification"
+    },
+    {
+      "id": "M-N16",
+      "doi": "10.1016/j.metip.2024.100170",
+      "exposure": "new_development",
+      "candidate_group": "mixed",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "methodological_application_read_and_analysis_written",
+      "analysis": "papers/M-N16.md",
+      "confirmed_group": "mixed_methodological_application",
+      "reading_sha256": "d821dd21cd4de762e79d6c889d72fc60370d53b20b361f3e8d7216e287de9334",
+      "read_scope": "All 11 PDF pages of text including main text through p. 8, Table 1, Figure 1, disclosures and reference list; rendered pp. 1,4,5,6,7,8,9 visually read.",
+      "use_status": "selected_local_argument_moves_and_contrast_source; separate_from_empirical_exemplar_count",
+      "classification_note": "Methodological account of an actual multiphase mixed-methods programme drawing on component publications; not a stand-alone detailed empirical report or an additional independent project.",
+      "not_read": "Cited originals, raw quantitative/qualitative data and online seminar; no statistical reanalysis"
     }
   ],
   "current_scope": {

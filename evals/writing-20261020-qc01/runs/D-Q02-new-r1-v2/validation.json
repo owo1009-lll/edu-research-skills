@@ -1,0 +1,10 @@
+{
+  "resource_hashes_verified": 11,
+  "input_hashes_verified": 2,
+  "required_files_present": 15,
+  "checker_view_bodies_identical": true,
+  "final_body_words": 502,
+  "attribution_heading_words": 7,
+  "recorded_process_exit_codes_all_zero": true,
+  "note": "Manifest-orchestration warnings were repaired and documented in self-review.md; checker stdout was retained."
+}

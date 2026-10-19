@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-10-19T21:14:19.465545+00:00",
+  "comparison_commit": "cec4bc78fe9c240900e3c79a3097b1b96577d8fa",
+  "status": "passed",
+  "english_new_candidates": 46,
+  "english_acquired_fulltexts": 33,
+  "english_new_empirical_or_boundary_analyses": 30,
+  "confirmed_empirical_groups": {
+    "quantitative": 10,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 10,
+    "mixed": 9
+  },
+  "english_methodological_application_analyses": 1,
+  "english_reread_analyses": 2,
+  "all_previous_reading_records_unchanged": 49,
+  "historical_chinese_records_unchanged": 4,
+  "analysis_note_hash_references": 33,
+  "new_source_and_extracted_hashes_verified": [
+    "L-N15",
+    "M-N16"
+  ],
+  "M_N16_previews_rendered_and_visually_read": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "failed_source": "Q-N14 Europe PMC XML HTTP 500; identity/opening only screened via public PMC",
+  "runtime_rules_unchanged": true,
+  "note": "M-N16 is a methodological application and contrast source, not counted as an additional empirical exemplar. Editorial examples are not model-run evidence."
+}

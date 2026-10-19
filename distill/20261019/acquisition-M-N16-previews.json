@@ -1,0 +1,45 @@
+{
+  "id": "M-N16",
+  "source_sha256": "6d60a7f46a9f8554ad688a6240e8bcb93648ab2320782e371a5ab7b7eb7fd197",
+  "reading_sha256": "d821dd21cd4de762e79d6c889d72fc60370d53b20b361f3e8d7216e287de9334",
+  "renderer": "PyMuPDF, matrix 1.4 x 1.4",
+  "render_warning": "MuPDF reported No common ancestor in structure tree three times; requested images were produced and visually read.",
+  "previews": [
+    {
+      "page": 1,
+      "sha256": "d1307b7d7b5560ec55666f685436e78fc9068eced50d36905f66c6fea9e8182c",
+      "visually_read": true
+    },
+    {
+      "page": 4,
+      "sha256": "9a2738b4357518e2fcc9ff39edf7d8f68d00904babcb49d2ef68a90e6f0be99f",
+      "visually_read": true
+    },
+    {
+      "page": 5,
+      "sha256": "ee3ac3d9a6e95643167ecba03955415b77d59a87a09dbf94315a4227f259f94c",
+      "visually_read": true
+    },
+    {
+      "page": 6,
+      "sha256": "eab6198e688c3a9915ff5d84df3beabd5793ea36fe255963f4eb2e4ab62d1f03",
+      "visually_read": true
+    },
+    {
+      "page": 7,
+      "sha256": "8bcfa28764fa1ae9dbc980030d3bbc062333996c1801416289d1331711552a71",
+      "visually_read": true
+    },
+    {
+      "page": 8,
+      "sha256": "77070b0ea5b28cd40c3a6b613925f9e2e7c49b6927d582620c0bd670fd4791e9",
+      "visually_read": true
+    },
+    {
+      "page": 9,
+      "sha256": "b8c9d2c3e368a3e3cb4ceca1c67b57c10b8710967cca35d27ab83995659054af",
+      "visually_read": true
+    }
+  ],
+  "source_assets_location": "External source cache; original article and page images are not committed."
+}

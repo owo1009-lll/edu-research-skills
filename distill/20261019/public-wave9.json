@@ -1,0 +1,46 @@
+{
+  "purpose": "English-only public development candidates: replication of a conditional family-learning finding, STEM teacher identity, and transformative mixed-methods integration. Acquisition is not completed reading.",
+  "sources": [
+    {
+      "id": "Q-N14",
+      "doi": "10.1111/desc.70261",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Relations Between Parents’ Math Anxiety and Children's Math Learning: The Role of Homework Help",
+      "selection_question": "How does a replication explain agreement and disagreement with an earlier conditional association without treating different significance decisions as a direct difference test?",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13442964/fullTextXML"],
+      "publisher_record": "https://doi.org/10.1111/desc.70261",
+      "repository_record": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13442964/",
+      "version_note": "Public PMC article; copyright retained by Wiley. Publish original analysis and links only, not source text. Identity and main text require separate verification.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N15",
+      "doi": "10.1186/s40594-018-0136-1",
+      "candidate_group": "qualitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Developing identities of STEM teachers at emerging STEM schools",
+      "selection_question": "How are teachers' roles and reported characteristics connected to a developing professional identity across two schools? Check whether quotations support analysis rather than only list themes.",
+      "urls": ["https://link.springer.com/article/10.1186/s40594-018-0136-1", "https://link.springer.com/content/pdf/10.1186/s40594-018-0136-1.pdf"],
+      "publisher_record": "https://doi.org/10.1186/s40594-018-0136-1",
+      "version_note": "Publisher open-access article, CC BY 4.0. Main text, tables and interpretive scope still require reading.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N16",
+      "doi": "10.1016/j.metip.2024.100170",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Digging and building: How transformative mixed-methods research contributes to explaining and responding to educational exclusion and school dropout",
+      "selection_question": "How does integration change the interpretation of school exclusion and feed collaborative responses? Verify the actual empirical integration and distinguish action commitments from demonstrated effects.",
+      "urls": ["https://ddd.uab.cat/pub/artpub/2024/307178/metpsy_a2024v11a100170iENG.pdf"],
+      "publisher_record": "https://doi.org/10.1016/j.metip.2024.100170",
+      "repository_record": "https://ddd.uab.cat/record/307178",
+      "version_note": "Public university-repository publisher PDF, CC BY 4.0. Methodological illustration with an empirical application; final classification awaits full reading.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

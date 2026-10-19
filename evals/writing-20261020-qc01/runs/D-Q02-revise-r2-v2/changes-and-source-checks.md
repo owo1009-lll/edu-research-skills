@@ -1,0 +1,5 @@
+This 153-word paragraph is an adaptation of Marsh, Pekrun, and Lüdtke (2022), Discussion, “The Juxtaposition of Results Based On CLPMs and RI-CLPMs,” opening paragraph. [Original article](https://link.springer.com/article/10.1007/s10648-022-09662-9); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The attribution heading is excluded from the word count.
+
+The revision compresses repeated statements of complementarity, defines both model names and academic self-concept, and uses the supplied context to clarify relative-standing comparisons versus deviations from usual levels. It preserves the authors' position, causal-inference concern, restrictive equivalence conditions, and both citations.
+
+Orth et al. (2021) and Voelkle et al. (2014) are retained from the original; their texts and the precise scope of their support remain independently unchecked. No browsing or reanalysis was performed. The source pack's unresolved coefficient and table-label discrepancies remain open but do not affect any numerical claim here, because none is made.

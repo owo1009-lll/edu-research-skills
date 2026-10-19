@@ -1,0 +1,51 @@
+{
+  "description": "Actual apply_patch operations in submission order. The rationale preceded drafting; draft 01 preceded first checks and self-review; the full revision followed the saved self-review.",
+  "actions": [
+    {
+      "stage": "Pre-draft argument map and rationale",
+      "tool": "apply_patch",
+      "files": [
+        "rationale.md"
+      ]
+    },
+    {
+      "stage": "Save complete real first draft before checking",
+      "tool": "apply_patch",
+      "files": [
+        "draft-01.md"
+      ]
+    },
+    {
+      "stage": "Create Unicode word-count helper after PowerShell quoting failure",
+      "tool": "apply_patch",
+      "files": [
+        "word-count.py"
+      ]
+    },
+    {
+      "stage": "Save focused AI self-review before revision",
+      "tool": "apply_patch",
+      "files": [
+        "self-review.md"
+      ]
+    },
+    {
+      "stage": "Save complete revision made in response to self-review",
+      "tool": "apply_patch",
+      "files": [
+        "draft-02.md"
+      ]
+    },
+    {
+      "stage": "Save final copy edit, final manuscript and separate change/source note; append actual revision record",
+      "tool": "apply_patch",
+      "files": [
+        "draft-03.md",
+        "final.md",
+        "changes-and-source-checks.md",
+        "self-review.md",
+        "rationale.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "sequence": 1,
+    "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md' -Raw",
+    "exit_code": 0,
+    "note": "Initial read used the PowerShell default encoding; repeated below with explicit UTF-8 because the returned output was garbled."
+  },
+  {
+    "sequence": 2,
+    "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\new-request.md' -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md' -Raw",
+    "exit_code": 0,
+    "note": "Initial read used the PowerShell default encoding; repeated below with explicit UTF-8 because the returned output was garbled."
+  },
+  {
+    "sequence": 3,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\n$writingFiles = @('<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md','<EXPERIMENT_ROOT>\\inputs\\D-Q02\\new-request.md','<EXPERIMENT_ROOT>\\inputs\\D-Q02\\source-pack.md')\nforeach ($writingFile in $writingFiles) { Get-Content -LiteralPath $writingFile -Raw -Encoding UTF8 }\nNew-Item -ItemType Directory -Path '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2' -Force | Out-Null",
+    "exit_code": 0
+  },
+  {
+    "sequence": 4,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 5,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 6,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 7,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 8,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 9,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 10,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md' -Raw -Encoding UTF8\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md' -Raw -Encoding UTF8",
+    "exit_code": 0,
+    "note": "Re-read because the previous batched output truncated part of these files."
+  },
+  {
+    "sequence": 11,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 12,
+    "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -Raw -Encoding UTF8",
+    "exit_code": 0
+  },
+  {
+    "sequence": 13,
+    "command": "python -X utf8 '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2\\run-checks.py' draft-01",
+    "exit_code": 0,
+    "child_command_log": "checks/draft-01-executed-commands.json"
+  },
+  {
+    "sequence": 14,
+    "command": "python -X utf8 '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2\\run-checks.py' draft-02",
+    "exit_code": 0,
+    "child_command_log": "checks/draft-02-executed-commands.json"
+  },
+  {
+    "sequence": 15,
+    "command": "Copy-Item -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2\\draft-03.md' -Destination '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2\\final.md'\npython -X utf8 '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2\\run-checks.py' final",
+    "exit_code": 0,
+    "child_command_log": "checks/final-executed-commands.json"
+  },
+  {
+    "sequence": 16,
+    "command": "python -X utf8 '<EXPERIMENT_ROOT>\\runs\\D-Q02-new-r2-v2\\finalize-audit.py'",
+    "exit_code": 0
+  }
+]

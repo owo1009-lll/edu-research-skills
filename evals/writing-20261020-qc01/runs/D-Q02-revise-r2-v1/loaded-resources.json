@@ -1,0 +1,61 @@
+{
+  "snapshot": "v1",
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md",
+      "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+      "use": "read"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md",
+      "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+      "use": "read"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+      "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+      "use": "read"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+      "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+      "use": "read"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "sha256": "0d2024ff3cf66029f1d37a5a6a9b00c53744c175c2d148ead6f368d61a51a814",
+      "use": "read"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md",
+      "sha256": "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8",
+      "use": "read"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+      "use": "read"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "use": "read and executed"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "use": "read and executed"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v1\\audit_run.py",
+      "sha256": "47390f827dd469f69f5d2ae8ca4fc6fb757cb3addf3d3cee2643f59d3f89936a",
+      "use": "task-local audit support, executed"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v1\\finalize_run.py",
+      "sha256": "2ba3c6116ef77c70044e420112173fd4c0c7c4653d34e30a01e4a175b9f2e51c",
+      "use": "task-local finalization support, executed"
+    }
+  ],
+  "note": "Only this snapshot was used. Initial bulk reads had truncated display; applicable instruction files were reread in smaller batches. Checker scripts were executed in full. No linked article or external reference was opened."
+}

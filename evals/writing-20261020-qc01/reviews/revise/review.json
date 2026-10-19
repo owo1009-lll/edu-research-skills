@@ -1,0 +1,634 @@
+{
+  "review_type": "Independent blinded comparison of attributed paragraph revisions",
+  "review_date": "2026-10-20",
+  "input_scope": {
+    "directory": "<EXPERIMENT_ROOT>/blind/revise",
+    "permitted_files_read": [
+      "revise-request.md",
+      "source-pack.md",
+      "original.md",
+      "A.md",
+      "B.md",
+      "C.md",
+      "D.md"
+    ],
+    "additional_files_read": [],
+    "browsing_used": false,
+    "writing_skills_loaded": false,
+    "other_runs_keys_or_reviews_consulted": false,
+    "subagents_used": false,
+    "manuscripts_edited": false
+  },
+  "input_sha256": {
+    "revise-request.md": "4BEEA24411BFE84573BF520965105C3FC6DD0C574BA137EC2AE6B99E20062F6A",
+    "source-pack.md": "02A8C38F2BF09F9DE747ECE418F73D0CF5F65CD5FEB9EFC7B182E598B76A3D60",
+    "original.md": "7DB90F9563500C1CD7E41CC82D01755E6A62A7C897381B934297B00894355C32",
+    "A.md": "0F3524222FECBE7B85CB560A9BEFE6BB536C8477609FC1AE4F36B922E85F052E",
+    "B.md": "29C46492DB6CA8E55DBA863FD838C46669100DCF8B6B3366C4C3AE6AEDB0F838",
+    "C.md": "58FB26D48D6F09CF71BC918307541E4EC682EB1D593E603EF2CB726B9CC1910A",
+    "D.md": "99029E2F722E9C2FAB0A041CF796CE08E8D21C63758CF0D7811C326E3D6B04A3"
+  },
+  "evaluation_basis": {
+    "request": "140–170 words, one paragraph, natural academic English; preserve the authors' position, conceptual distinctions and citations; explain for education researchers unfamiliar with the models; provide a short separate change/source-check account.",
+    "word_count_method": "Whitespace-delimited count including citations and counting hyphenated compounds as one. D also has 148 words if its two em dashes are treated as separators. Counts are compliance checks, not prose-quality scores.",
+    "source_limits": "Review checks the supplied original and source pack only. It does not independently verify cited literature or infer exact model coefficients.",
+    "dimension_names": [
+      "Factual and author-intent fidelity",
+      "Problem and central judgment",
+      "Reasoning and evidence organization",
+      "Theory and literature use",
+      "Explanation and contribution",
+      "Natural, concrete prose and rhythm",
+      "Author voice",
+      "Necessary qualification and redundant disclaimers",
+      "Concrete corrections the author would need to make"
+    ]
+  },
+  "shared_findings": {
+    "all_meet_word_and_paragraph_limits": true,
+    "both_citations_retained_by_all": true,
+    "substantive_error_demonstrated_in_any_paragraph": false,
+    "core_argument": "All preserve complementary model perspectives, the undecomposed/decomposed distinction, limits on causal and cross-level interpretation, restrictive equivalence conditions, and the commonalities/differences conclusion.",
+    "common_deliverable_omission": "Each supplied file contains only a paragraph. None contains the requested separate change account, unresolved source checks or adaptation attribution. This finding is limited to the submitted files; unseen records were not inspected.",
+    "required_corrections": [
+      "Add the requested short, separate account of substantive changes.",
+      "Identify the text as an adaptation of Marsh, Pekrun, and Lüdtke (2022) in the accompanying record, retaining attribution.",
+      "Add a separate account of unresolved source checks. State that the cited Orth et al. (2021) and Voelkle et al. (2014) originals were not independently checked in this supplied-material exercise; do not claim independent verification."
+    ],
+    "no_required_additions": "Sample size, coefficients, missing-data details, model fit, interventions, a reference list and a methods tutorial are not required for this paragraph. Adding them could distract from the requested revision.",
+    "inherited_claims": "Inherited broad claims about the field are source-verification matters, not demonstrated new factual errors.",
+    "original_strength": "The original already has a clear central position, useful citations and a coherent conclusion. Its main revision need is accessible explanation and compression, not replacement of its argument."
+  },
+  "manuscripts": [
+    {
+      "id": "A",
+      "compliance": {
+        "whitespace_word_count": 160,
+        "paragraph_count": 1,
+        "within_140_170_words": true,
+        "both_original_citations_retained": true,
+        "supplied_material_only": "No unsupported external additions identified.",
+        "separate_change_account_present": false,
+        "separate_source_checks_present": false,
+        "adaptation_attribution_present": false
+      },
+      "overall": "A faithful, accessible revision with no demonstrated substantive factual error. It preserves the original argument's sequence particularly closely.",
+      "strengths_relative_to_original": [
+        "Expands the model names and replaces an unexplained level-of-analysis distinction with concrete descriptions of relative standing and departures from a student's usual level.",
+        "Uses plain-language equivalents for cross-sectional research, stationarity and homogeneity.",
+        "Retains the original's explicit acknowledgment of different strengths and weaknesses."
+      ],
+      "regressions_or_tradeoffs_relative_to_original": [
+        "The added model explanation costs words, while the following 'useful substantive information' sentence repeats a claim already made by 'complementary perspectives.'",
+        "Academic self-concept is expanded from ASC but remains undefined, and the RI-CLPM sentence does not explicitly connect self-concept to later achievement."
+      ],
+      "dimensions": [
+        {
+          "id": 1,
+          "dimension": "Factual and author-intent fidelity",
+          "status": "acceptable",
+          "judgment": "Preserves the substantive position and the required comparison-level distinction.",
+          "passages": [
+            "without separating stable differences between students from variation within students",
+            "RI-CLPMs relate successive departures from each student’s usual level"
+          ],
+          "reasoning": "This matches the source pack and avoids turning the CLPM into an isolated stable-person process. The stationarity/homogeneity condition and the warning against unsupported causal interpretation remain. No estimates, results or intervention claims are invented."
+        },
+        {
+          "id": 2,
+          "dimension": "Problem and central judgment",
+          "status": "acceptable",
+          "judgment": "States the dispute and the authors' central judgment early.",
+          "passages": [
+            "with RI-CLPMs assumed to be inherently preferable",
+            "We see these models as complementary perspectives"
+          ],
+          "reasoning": "The opening identifies the issue as automatic model preference; the response preserves complementarity without implying identical estimands or equal performance on every criterion."
+        },
+        {
+          "id": 3,
+          "dimension": "Reasoning and evidence organization",
+          "status": "acceptable",
+          "judgment": "Builds a coherent case, with a small repetition.",
+          "passages": [
+            "These distinct comparisons provide useful substantive information, with different strengths and weaknesses",
+            "Relationships between people need not describe relationships within a person"
+          ],
+          "reasoning": "The movement from dispute to definitions to mistaken interpretation to restrictive equivalence to conclusion is easy to follow. The first quoted sentence contributes the strengths/weaknesses point but partly repeats the preceding claim."
+        },
+        {
+          "id": 4,
+          "dimension": "Theory and literature use",
+          "status": "acceptable",
+          "judgment": "Keeps both citations in their original argumentative roles.",
+          "passages": [
+            "but see Orth et al., 2021",
+            "Following Voelkle et al. (2014)"
+          ],
+          "reasoning": "Orth remains attached to the model-preference debate and Voelkle to the recommendation to consider commonalities with differences. There is no unrelated literature or theory insertion. Their original texts are not available for independent verification here."
+        },
+        {
+          "id": 5,
+          "dimension": "Explanation and contribution",
+          "status": "acceptable",
+          "judgment": "Makes the principal conceptual distinction understandable, with room for a more specific example.",
+          "passages": [
+            "CLPMs compare students’ relative standing, conditional on earlier measurements",
+            "successive departures from each student’s usual level"
+          ],
+          "reasoning": "These explanations clarify the original instead of substituting study findings or a methods tutorial. Naming which variable departs first and which follows would make the cross-variable relationship more concrete; the current wording is not false."
+        },
+        {
+          "id": 6,
+          "dimension": "Natural, concrete prose and rhythm",
+          "status": "acceptable",
+          "judgment": "Generally natural and unusually plain on technical conditions.",
+          "passages": [
+            "compares people at one time point",
+            "relationships that remain stable over time and similar across individuals"
+          ],
+          "reasoning": "These phrases unpack technical vocabulary. The shorter sentence on relationships between and within people gives the dense model explanation breathing space. The model-comparison sentence is long but its parallel clauses help readers."
+        },
+        {
+          "id": 7,
+          "dimension": "Author voice",
+          "status": "acceptable",
+          "judgment": "Preserves the authors' collective, argumentative voice.",
+          "passages": [
+            "We see these models as complementary",
+            "we therefore argue"
+          ],
+          "reasoning": "The adaptation reads as an edited author paragraph rather than a third-person report or an external critique. Its definition additions are consistent with the authors' position."
+        },
+        {
+          "id": 8,
+          "dimension": "Necessary qualification and redundant disclaimers",
+          "status": "acceptable",
+          "judgment": "Retains relevant qualification without disclaimer accumulation.",
+          "passages": [
+            "causal interpretations often exceed what designs or analyses support",
+            "only under restrictive conditions that are unlikely to hold"
+          ],
+          "reasoning": "The first limits causal inference and the second limits equivalence across comparison levels; these are distinct necessary functions. The broad 'Most educational and psychological research' claim comes from the original and is not independently verified by this exercise."
+        },
+        {
+          "id": 9,
+          "dimension": "Concrete corrections the author would need to make",
+          "status": "required_deliverable_completion",
+          "judgment": "Required work concerns the accompanying record, not a demonstrated factual repair to the paragraph.",
+          "passages": [
+            "These distinct comparisons provide useful substantive information"
+          ],
+          "reasoning": "Add the common missing change/source-check/adaptation record. Defining self-concept and replacing some repetition with an explicit cross-variable example are optional improvements, not conditions for factual acceptability."
+        }
+      ],
+      "required_corrections": [
+        "Add the requested short, separate account of substantive changes.",
+        "Identify the text as an adaptation of Marsh, Pekrun, and Lüdtke (2022) in the accompanying record, retaining attribution.",
+        "Add a separate account of unresolved source checks. State that the cited Orth et al. (2021) and Voelkle et al. (2014) originals were not independently checked in this supplied-material exercise; do not claim independent verification."
+      ],
+      "optional_preferences": [
+        "Define academic self-concept briefly for readers outside this literature.",
+        "Use space from the partly repetitive strengths/weaknesses sentence to name self-concept and achievement in the RI-CLPM comparison."
+      ],
+      "source_verification_questions": [
+        "The field-wide 'Most educational and psychological research' claim is inherited from the original; its empirical basis was not independently supplied.",
+        "Orth et al. (2021) and Voelkle et al. (2014) are retained attributions, not independently verified sources."
+      ],
+      "demonstrated_substantive_errors": []
+    },
+    {
+      "id": "B",
+      "compliance": {
+        "whitespace_word_count": 153,
+        "paragraph_count": 1,
+        "within_140_170_words": true,
+        "both_original_citations_retained": true,
+        "supplied_material_only": "No demonstrated unsupported external factual addition; one interpretive sharpening is noted separately.",
+        "separate_change_account_present": false,
+        "separate_source_checks_present": false,
+        "adaptation_attribution_present": false
+      },
+      "overall": "A narrow paragraph-level preference for the requested audience because it defines self-concept and makes the reciprocal within-person comparison explicit. The preference is not based on stronger or more cautious language.",
+      "strengths_relative_to_original": [
+        "Defines self-concept as students' competence beliefs.",
+        "Explains the RI-CLPM through the substantive pair of constructs and both directions of prediction.",
+        "Preserves the original argument while replacing much of its technical abstraction with a study-relevant comparison."
+      ],
+      "regressions_or_tradeoffs_relative_to_original": [
+        "The claim that cross-student associations are interpreted as 'causal processes within students' makes the original's general causal-inference warning more specifically a cross-level interpretation claim.",
+        "The explicit statement that each model has strengths and weaknesses is compressed into complementarity rather than separately retained."
+      ],
+      "dimensions": [
+        {
+          "id": 1,
+          "dimension": "Factual and author-intent fidelity",
+          "status": "acceptable",
+          "judgment": "Faithful overall; a sharpened causal-interpretation sentence merits editorial attention, not an error finding.",
+          "passages": [
+            "leaving stable differences and within-person fluctuations intertwined",
+            "causal processes within students"
+          ],
+          "reasoning": "The model descriptions match the source pack. The original warns about unsupported causal interpretations and separately about cross-level equivalence; B combines them into a specific account of within-student causal interpretation. That is a plausible reading, but its frequency is not independently established in the supplied sources."
+        },
+        {
+          "id": 2,
+          "dimension": "Problem and central judgment",
+          "status": "acceptable",
+          "judgment": "The central judgment is clear and tied to the substantive question.",
+          "passages": [
+            "universally preferable",
+            "complementary perspectives on how academic self-concept (students’ competence beliefs) and achievement relate over time"
+          ],
+          "reasoning": "The paragraph counters an automatic preference rule while making clear what the models are being used to understand. It does not declare either model causally identifying or universally superior."
+        },
+        {
+          "id": 3,
+          "dimension": "Reasoning and evidence organization",
+          "status": "acceptable",
+          "judgment": "Offers the clearest explanatory sequence for a newcomer.",
+          "passages": [
+            "whether deviations from a student’s usual self-concept predict later deviations in achievement, and vice versa",
+            "Between-person and within-person relationships are likely to coincide only under restrictive conditions"
+          ],
+          "reasoning": "The concrete example prepares the reader for the distinction in the next two sentences, so the final recommendation follows from an explained problem. Study results are not needed for this conceptual paragraph and their omission is appropriate."
+        },
+        {
+          "id": 4,
+          "dimension": "Theory and literature use",
+          "status": "acceptable",
+          "judgment": "Preserves the relevant literature and conceptual frame.",
+          "passages": [
+            "but see Orth et al., 2021",
+            "Following Voelkle et al. (2014)"
+          ],
+          "reasoning": "Both citations remain appropriately located. The reciprocal prediction example illustrates the model's substantive use; it does not introduce an unsupported mechanism or pretend that observational prediction establishes a causal theory."
+        },
+        {
+          "id": 5,
+          "dimension": "Explanation and contribution",
+          "status": "acceptable",
+          "judgment": "Most directly satisfies the request to help readers unfamiliar with the model families.",
+          "passages": [
+            "students’ competence beliefs",
+            "deviations from a student’s usual self-concept predict later deviations in achievement, and vice versa"
+          ],
+          "reasoning": "The first phrase explains the construct, and the second specifies both the reference level and the variables connected across time. This is added explanation of the existing argument, not an alternative argument or a tutorial."
+        },
+        {
+          "id": 6,
+          "dimension": "Natural, concrete prose and rhythm",
+          "status": "acceptable",
+          "judgment": "Concrete and readable, with moderate density at the opening and equivalence condition.",
+          "passages": [
+            "accounting for earlier measurements",
+            "stable parameters over time and similar relationships across individuals"
+          ],
+          "reasoning": "The model names take space but establish the abbreviations clearly. 'Parameters' is more technical than A's plain-language version, yet the time/individual distinction provides context. No phrase-level stylistic issue justifies a required rewrite."
+        },
+        {
+          "id": 7,
+          "dimension": "Author voice",
+          "status": "acceptable",
+          "judgment": "Preserves first-person authorial commitment.",
+          "passages": [
+            "We regard them as complementary",
+            "we therefore argue"
+          ],
+          "reasoning": "The voice is calm and affirmative. The causal-process sentence is slightly more interpretive than the original, but the paragraph remains recognizably the same authors' position."
+        },
+        {
+          "id": 8,
+          "dimension": "Necessary qualification and redundant disclaimers",
+          "status": "acceptable",
+          "judgment": "Qualification is relevant and proportionate.",
+          "passages": [
+            "without a supporting design or analysis",
+            "only under restrictive conditions"
+          ],
+          "reasoning": "These protect different claims and are not redundant. 'Predict' in the model explanation is appropriately associational in this context. The sentence about causal processes should not be treated as independently verified evidence about research practice."
+        },
+        {
+          "id": 9,
+          "dimension": "Concrete corrections the author would need to make",
+          "status": "required_deliverable_completion",
+          "judgment": "Complete the missing accompanying record; no proven substantive error requires correction.",
+          "passages": [
+            "causal processes within students"
+          ],
+          "reasoning": "Add the common change/source-check/adaptation record. Optionally align the causal-warning sentence more closely with the original's broader formulation, or identify the within-student reading as a substantive editorial clarification in the change account."
+        }
+      ],
+      "required_corrections": [
+        "Add the requested short, separate account of substantive changes.",
+        "Identify the text as an adaptation of Marsh, Pekrun, and Lüdtke (2022) in the accompanying record, retaining attribution.",
+        "Add a separate account of unresolved source checks. State that the cited Orth et al. (2021) and Voelkle et al. (2014) originals were not independently checked in this supplied-material exercise; do not claim independent verification."
+      ],
+      "optional_preferences": [
+        "Align the causal-warning sentence with the original's broader warning if exact rhetorical fidelity is the priority; alternatively document the interpretive sharpening.",
+        "Use 'relationships that remain stable over time' instead of 'stable parameters over time' if minimizing technical vocabulary is a priority."
+      ],
+      "source_verification_questions": [
+        "The supplied original does not separately establish how frequently researchers interpret cross-student associations specifically as within-student causal processes.",
+        "Orth et al. (2021) and Voelkle et al. (2014) are retained attributions, not independently verified sources."
+      ],
+      "demonstrated_substantive_errors": []
+    },
+    {
+      "id": "C",
+      "compliance": {
+        "whitespace_word_count": 153,
+        "paragraph_count": 1,
+        "within_140_170_words": true,
+        "both_original_citations_retained": true,
+        "supplied_material_only": "No unsupported external additions identified.",
+        "separate_change_account_present": false,
+        "separate_source_checks_present": false,
+        "adaptation_attribution_present": false
+      },
+      "overall": "A substantively sound compression that preserves the logic closely, but offers less help to readers unfamiliar with the constructs and technical conditions than B.",
+      "strengths_relative_to_original": [
+        "Defines what the two model families compare.",
+        "Explains complementarity through the statement that the comparisons answer different questions.",
+        "Keeps the general causal-inference warning and the commonalities/differences conclusion."
+      ],
+      "regressions_or_tradeoffs_relative_to_original": [
+        "Uses the limited word budget for a generic statement about later deviations rather than naming the variables connected across time.",
+        "Retains 'stable parameters' and 'homogeneous relations' without explanation, leaving part of the original's accessibility problem unresolved.",
+        "Omits 'statistical analyses' from the explicit causal-warning sentence, though design is still a reasonable umbrella and the paragraph remains about analysis."
+      ],
+      "dimensions": [
+        {
+          "id": 1,
+          "dimension": "Factual and author-intent fidelity",
+          "status": "acceptable",
+          "judgment": "Preserves the supplied position without a demonstrated factual error.",
+          "passages": [
+            "leaving stable differences between students and within-student variation combined",
+            "These comparisons answer different questions about longitudinal relations"
+          ],
+          "reasoning": "The conventional CLPM remains undecomposed; the RI-CLPM concerns deviations from usual levels. Distinct questions do not imply contradictory results or identical estimands. The equivalence conditions are retained."
+        },
+        {
+          "id": 2,
+          "dimension": "Problem and central judgment",
+          "status": "acceptable",
+          "judgment": "Clearly identifies the dispute and rejects automatic model ranking.",
+          "passages": [
+            "sometimes presented as rivals",
+            "We regard both as complementary perspectives"
+          ],
+          "reasoning": "The position is explicit near the start and is reiterated coherently in the concluding reference to competing paradigms."
+        },
+        {
+          "id": 3,
+          "dimension": "Reasoning and evidence organization",
+          "status": "acceptable",
+          "judgment": "Organizes the argument coherently but leaves one explanation abstract.",
+          "passages": [
+            "whether deviations from students’ usual levels predict later deviations",
+            "These comparisons answer different questions"
+          ],
+          "reasoning": "The sentence order connects definitions to interpretive limits and then to the conclusion. However, readers must infer which deviation predicts which outcome; the next sentence labels the difference without illustrating it further."
+        },
+        {
+          "id": 4,
+          "dimension": "Theory and literature use",
+          "status": "acceptable",
+          "judgment": "Keeps the original citations and conceptual distinctions.",
+          "passages": [
+            "Orth et al., 2021",
+            "Voelkle et al. (2014)",
+            "homogeneous relations across individuals"
+          ],
+          "reasoning": "The citations retain their original functions. The technical phrasing does not introduce a new theory, but it assumes readers know what homogeneity means. No independent citation verification is represented."
+        },
+        {
+          "id": 5,
+          "dimension": "Explanation and contribution",
+          "status": "acceptable",
+          "judgment": "Improves on the original, with a remaining accessibility opportunity.",
+          "passages": [
+            "CLPMs compare students’ relative standing conditional on preceding measurements",
+            "RI-CLPMs separate these components"
+          ],
+          "reasoning": "The comparison-level distinction is substantially clearer than the original's labels alone. Self-concept remains undefined, and neither the within-person variable pair nor homogeneity is translated into a concrete example. These are opportunities, not inaccuracies."
+        },
+        {
+          "id": 6,
+          "dimension": "Natural, concrete prose and rhythm",
+          "status": "acceptable",
+          "judgment": "Controlled academic prose, somewhat more abstract than necessary for the stated audience.",
+          "passages": [
+            "stable parameters over time and homogeneous relations across individuals",
+            "examining the perspectives’ commonalities alongside their differences"
+          ],
+          "reasoning": "These formulations are grammatical and concise but place more interpretive work on the reader than A's plain-language conditions or B's concrete prediction example. The judgment concerns the task audience, not an assumption that technical terms are always undesirable."
+        },
+        {
+          "id": 7,
+          "dimension": "Author voice",
+          "status": "acceptable",
+          "judgment": "Retains the authors' explicit stance and disciplinary register.",
+          "passages": [
+            "We regard both as complementary",
+            "we therefore argue"
+          ],
+          "reasoning": "It reads as author prose and preserves the original's concluding recommendation. There is no switch to an auditor's or generic assistant's voice."
+        },
+        {
+          "id": 8,
+          "dimension": "Necessary qualification and redundant disclaimers",
+          "status": "acceptable",
+          "judgment": "Retains appropriate caveats without adding irrelevant warnings.",
+          "passages": [
+            "interpreted causally beyond what the design supports",
+            "these conditions are unlikely to hold"
+          ],
+          "reasoning": "Causal inference and equality across comparison levels require separate limits. The original also names statistical analyses; restoring those words would be a fidelity refinement, not a necessary correction to an otherwise false statement."
+        },
+        {
+          "id": 9,
+          "dimension": "Concrete corrections the author would need to make",
+          "status": "required_deliverable_completion",
+          "judgment": "The required repairs are the missing supporting deliverables.",
+          "passages": [
+            "homogeneous relations across individuals"
+          ],
+          "reasoning": "Add the common change/source-check/adaptation record. Optional improvements are to explain homogeneity as similar relationships across individuals, define self-concept, and name the variables in the RI-CLPM example."
+        }
+      ],
+      "required_corrections": [
+        "Add the requested short, separate account of substantive changes.",
+        "Identify the text as an adaptation of Marsh, Pekrun, and Lüdtke (2022) in the accompanying record, retaining attribution.",
+        "Add a separate account of unresolved source checks. State that the cited Orth et al. (2021) and Voelkle et al. (2014) originals were not independently checked in this supplied-material exercise; do not claim independent verification."
+      ],
+      "optional_preferences": [
+        "Replace 'homogeneous relations' with a plain-language equivalent.",
+        "Define self-concept and make the cross-variable lagged comparison explicit.",
+        "Restore 'or analysis' to the causal-warning sentence if close preservation of the original wording's scope is desired."
+      ],
+      "source_verification_questions": [
+        "The field-wide claim that most educational and psychological research is cross-sectional is inherited from the original, not independently established here.",
+        "Orth et al. (2021) and Voelkle et al. (2014) are retained attributions, not independently verified sources."
+      ],
+      "demonstrated_substantive_errors": []
+    },
+    {
+      "id": "D",
+      "compliance": {
+        "whitespace_word_count": 146,
+        "word_count_if_em_dashes_are_separators": 148,
+        "paragraph_count": 1,
+        "within_140_170_words": true,
+        "both_original_citations_retained": true,
+        "supplied_material_only": "No unsupported external additions identified.",
+        "separate_change_account_present": false,
+        "separate_source_checks_present": false,
+        "adaptation_attribution_present": false
+      },
+      "overall": "A close alternative to B: concise, faithful, and usefully situated in mathematics. Its within-person explanation is technically sound but less explicit about the substantive reciprocal comparison.",
+      "strengths_relative_to_original": [
+        "Defines academic self-concept and grounds the model explanation in the mathematics study.",
+        "Separates the questions of within-person interpretation and causal inference succinctly.",
+        "Expresses the purpose of distinct comparison levels without importing results or methodological detail irrelevant to the paragraph."
+      ],
+      "regressions_or_tradeoffs_relative_to_original": [
+        "The original's criticism that causal interpretations often exceed designs or analyses becomes a general inferential rule, slightly reducing its critique of actual research practice.",
+        "The RI-CLPM sentence remains abstract about which constructs are connected across time.",
+        "The closing 'what each reveals differently' is less precise in isolation than explicitly naming commonalities and differences, although the preceding explanation gives it adequate content."
+      ],
+      "dimensions": [
+        {
+          "id": 1,
+          "dimension": "Factual and author-intent fidelity",
+          "status": "acceptable",
+          "judgment": "Maintains factual and author-intent fidelity.",
+          "passages": [
+            "In this mathematics study",
+            "without separating stable differences from within-student variation",
+            "lagged relationships between deviations from each student’s usual level"
+          ],
+          "reasoning": "The added study context is supplied, and the comparison-level descriptions are accurate at the requested level of detail. No causal effects, model superiority, intervention benefits or coefficient values are fabricated."
+        },
+        {
+          "id": 2,
+          "dimension": "Problem and central judgment",
+          "status": "acceptable",
+          "judgment": "Makes the central claim clear and gives it a substantive reason.",
+          "passages": [
+            "We regard them as complementary perspectives",
+            "The different comparison levels make both models substantively informative"
+          ],
+          "reasoning": "Complementarity follows from differing comparisons, not from a claim that one model fixes every weakness of the other. The opening preserves the dispute about uniform preference."
+        },
+        {
+          "id": 3,
+          "dimension": "Reasoning and evidence organization",
+          "status": "acceptable",
+          "judgment": "Uses a compact, coherent progression.",
+          "passages": [
+            "The different comparison levels make both models substantively informative",
+            "do not automatically describe within-person processes or establish causality"
+          ],
+          "reasoning": "Definition leads to the value of using both perspectives, then to two limits on interpretation and the restrictive equivalence condition. The general inferential rule is slightly less directly tied to the original's complaint about research practice, but it supports the same conclusion."
+        },
+        {
+          "id": 4,
+          "dimension": "Theory and literature use",
+          "status": "acceptable",
+          "judgment": "Retains the original literature anchors without embellishment.",
+          "passages": [
+            "but see Orth et al., 2021",
+            "Following Voelkle et al. (2014)"
+          ],
+          "reasoning": "The two citations keep their roles in the debate and final recommendation. Defining academic competence beliefs and naming mathematics supplies context rather than adding a new theoretical account."
+        },
+        {
+          "id": 5,
+          "dimension": "Explanation and contribution",
+          "status": "acceptable",
+          "judgment": "Provides useful orientation while remaining within the original argument.",
+          "passages": [
+            "students’ beliefs about their academic competence",
+            "In this mathematics study"
+          ],
+          "reasoning": "The construct definition and domain cue help education researchers understand why the abstract model distinction matters. A self-concept-to-achievement example, as in B, would make the within-person relation still clearer; D is already an acceptable explanation."
+        },
+        {
+          "id": 6,
+          "dimension": "Natural, concrete prose and rhythm",
+          "status": "acceptable",
+          "judgment": "Mostly natural and concise, with one dense model sentence.",
+          "passages": [
+            "compare students’ relative standing, conditional on prior measurements",
+            "what these approaches share alongside what each reveals differently"
+          ],
+          "reasoning": "The model sentence has several qualifications but a parallel semicolon structure. The ending is less formal than the original and readable, although 'reveals differently' is slightly vague. Neither point requires correction."
+        },
+        {
+          "id": 7,
+          "dimension": "Author voice",
+          "status": "acceptable",
+          "judgment": "Preserves the collective author voice, while softening one rhetorical criticism.",
+          "passages": [
+            "We regard them",
+            "we therefore argue",
+            "do not automatically describe"
+          ],
+          "reasoning": "The first-person position is retained. Replacing claims about frequent misuse with an inferential limit modestly changes emphasis; it does not reverse or replace the authors' judgment."
+        },
+        {
+          "id": 8,
+          "dimension": "Necessary qualification and redundant disclaimers",
+          "status": "acceptable",
+          "judgment": "Separates necessary qualifications efficiently.",
+          "passages": [
+            "do not automatically describe within-person processes or establish causality",
+            "only under restrictive conditions"
+          ],
+          "reasoning": "The first clause distinguishes cross-level interpretation from causality; the next sentence states when the relationships might coincide. This is appropriate precision, not a reason to reward caution in itself. No irrelevant observational-data disclaimer has been added."
+        },
+        {
+          "id": 9,
+          "dimension": "Concrete corrections the author would need to make",
+          "status": "required_deliverable_completion",
+          "judgment": "Complete the accompanying record; substantive changes to the paragraph are optional.",
+          "passages": [
+            "lagged relationships between deviations"
+          ],
+          "reasoning": "Add the common change/source-check/adaptation record. Optionally name the substantive variables in this phrase, use 'similar relationships across individuals' for sharper homogeneity wording, or restore the original's research-practice criticism if preserving rhetorical emphasis is important."
+        }
+      ],
+      "required_corrections": [
+        "Add the requested short, separate account of substantive changes.",
+        "Identify the text as an adaptation of Marsh, Pekrun, and Lüdtke (2022) in the accompanying record, retaining attribution.",
+        "Add a separate account of unresolved source checks. State that the cited Orth et al. (2021) and Voelkle et al. (2014) originals were not independently checked in this supplied-material exercise; do not claim independent verification."
+      ],
+      "optional_preferences": [
+        "Specify the self-concept-to-achievement and reverse comparisons within the RI-CLPM explanation.",
+        "Use 'similar relationships across individuals' in place of 'consistent relationships across individuals' for a slightly clearer homogeneity statement.",
+        "Restore a brief reference to unsupported causal interpretations in actual research if preserving the original's critical emphasis matters."
+      ],
+      "source_verification_questions": [
+        "Orth et al. (2021) and Voelkle et al. (2014) are retained attributions, not independently verified sources.",
+        "The supplied original supports the general debate and equivalence claim, but the cited originals are needed for independent verification of their precise scope."
+      ],
+      "demonstrated_substantive_errors": []
+    }
+  ],
+  "comparison": {
+    "categorical_correctness_and_length_result": "Tie: all four are substantively acceptable and satisfy paragraph/length constraints.",
+    "deliverable_completion_result": "Tie: all four require the same accompanying record.",
+    "narrow_audience_preference": "B",
+    "close_alternative": "D",
+    "other_acceptable_versions": [
+      "A",
+      "C"
+    ],
+    "rationale": "B defines self-concept and explicitly links a student's above-usual self-concept to later achievement deviations and the reverse direction. D defines self-concept and adds the mathematics context but leaves that cross-variable relationship implicit. A is particularly plain about technical conditions and faithful to the original sequence; C remains more abstract about homogeneity and deviations. These are limited editorial differences, not a decisive scientific quality ranking.",
+    "tradeoff_affecting_preference": "B makes the original's causal-warning sentence more specifically about within-student causal interpretation; D turns the criticism of research practice into a general inferential rule. A is a reasonable choice when preserving original rhetorical emphasis is the main priority.",
+    "confidence": "High for compliance and core fidelity; moderate for the narrow stylistic preference. No overall winner is required by the evidence."
+  }
+}
+

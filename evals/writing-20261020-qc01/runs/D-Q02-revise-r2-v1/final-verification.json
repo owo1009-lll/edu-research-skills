@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-10-19T21:01:53.431135+00:00",
+  "kind": "final promotion and verification",
+  "argv": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v1\\finalize_run.py"
+  ],
+  "source": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v1\\revised-draft.md",
+  "destination": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v1\\final.md",
+  "final_sha256": "1c4aeaeda5e600bd1d9ae060c9be9e370137b53fbf0989988d8efdc5014cfee3",
+  "body_words": 153,
+  "heading_words": 7,
+  "checks_executed_successfully": 4,
+  "resource_hashes_verified": 11,
+  "input_hashes_verified": 3
+}

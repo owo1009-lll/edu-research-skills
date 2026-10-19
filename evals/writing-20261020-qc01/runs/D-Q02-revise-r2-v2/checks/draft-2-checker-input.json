@@ -1,0 +1,8 @@
+{
+  "source_draft": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v2\\draft-2.md",
+  "source_sha256": "3875ed615cef6f24c4ecd39e8a5300f19637ebda1be21dcfbfc7510df11c952f",
+  "checker_input": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v2\\checks\\draft-2-body.md",
+  "checker_input_sha256": "9def59412bc37fc392281345e841b5e42722deaf845a29d3059c0ad7700f7cd5",
+  "transformation": "Replace only the attribution heading with Discussion so section recognition and prose metrics describe the manuscript body.",
+  "body_identical": true
+}

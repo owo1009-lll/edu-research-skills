@@ -1,0 +1,14 @@
+{
+  "file": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r1-v1\\draft-01.md",
+  "method": "Unicode alphanumeric words; internal hyphens/apostrophes retained; em dashes split; citation years counted",
+  "body_words": 138,
+  "attribution_heading_words": 12,
+  "body_whitespace_tokens": 136,
+  "body_paragraphs": 1,
+  "required_body_range": [
+    140,
+    170
+  ],
+  "body_in_range": false,
+  "one_body_paragraph": true
+}

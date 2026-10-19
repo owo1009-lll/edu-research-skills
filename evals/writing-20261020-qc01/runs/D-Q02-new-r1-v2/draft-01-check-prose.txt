@@ -1,0 +1,10 @@
+Sections found: Introduction | prompts: 2
+
+[Introduction] 514 words, 5 paragraphs | sentence median 19, >40 words 0.0% | citations 1.9/1,000 words (published 23), cited sentences 3.7% (published 57), narrative 100.0% (published 8), 3+ works 0.0% | sentences with numbers 3.7% | we 0.0/1,000 | passive 3.7%
+  ! cite_per_k 1.9 outside the published range (< 10 flags; published median 23)
+  ! cited_share 3.7 outside the published range (< 25 flags; published median 57)
+
+[Argued sections together] 514 words | sentence median 19 (published 26), >40 words 0.0% (13.5) | paragraph median 104 words (135) | we 0.0/1,000 (4.9) | passive 3.7% (23.4) | abbreviations 7.8/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)
+
+[Review cues] sentences that evaluate this study's results as small, limited or failed. Check that each is accurate (framing-results.md): an accurate description can stay; a verdict the estimates do not support should change.
+    The limited influence of measured covariates offered only a weak test of confounding, and both approaches remain vulnerable to unmeasured factors that vary over

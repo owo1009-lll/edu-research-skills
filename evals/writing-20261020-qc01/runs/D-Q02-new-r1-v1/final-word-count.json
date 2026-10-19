@@ -1,0 +1,10 @@
+{
+  "file": "final.md",
+  "count_method": "Unicode word tokens; internal apostrophes, decimals, hyphens, and en dashes remain within a token",
+  "manuscript_body_words": 478,
+  "attribution_heading_words": 8,
+  "total_words": 486,
+  "body_within_450_550": true,
+  "paragraphs": 5,
+  "draft_sha256": "f73a5f105d6d4867b576e5864418c40e826d39cf8977efcf768932ab3a961e44"
+}

@@ -1,0 +1,88 @@
+{
+  "hash_algorithm": "SHA-256",
+  "scope": "Only specified v2 skill snapshot and this output directory; no installed skill copies.",
+  "note": "Read means opened by the tool. Long script displays were truncated; imports and external reads were separately inspected with rg. Both checkers use standard-library modules and embedded reference data for Markdown input.",
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+      "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\foundation.md",
+      "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+      "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+      "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "sha256": "603c5d8ccae164a193cf97b6259d0e84b0a2856e37fe476a818ec275f3f41c7e",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md",
+      "sha256": "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md",
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "actions": [
+        "read",
+        "executed"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "actions": [
+        "read",
+        "executed"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v2\\run-checks.py",
+      "sha256": "d2f73e04e74dd38d27c4a73eeb9ea3b6783828217f638e1b83bb4c98602ce225",
+      "actions": [
+        "executed"
+      ],
+      "role": "run-local logging and validation helper"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-Q02-revise-r2-v2\\verify-delivery.py",
+      "sha256": "086a2c049462bc0addecc6bb5282a2d5032eceaab5c4208f7837ec27f4c20740",
+      "actions": [
+        "executed"
+      ],
+      "role": "run-local final delivery verification helper"
+    }
+  ]
+}

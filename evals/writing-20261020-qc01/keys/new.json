@@ -1,0 +1,34 @@
+{
+  "operation": "new",
+  "records": [
+    {
+      "label": "A",
+      "run": "D-Q02-new-r2-v2",
+      "original_sha256": "ced44d7bdafcac07d3434e020cf349463522f4267a93e45602eea1daed59597a",
+      "anonymous_sha256": "960536f68223fc342a844bf9114499864738ee5bdffb438c031258c213ce5b97",
+      "body_whitespace_words": 483
+    },
+    {
+      "label": "B",
+      "run": "D-Q02-new-r1-v1",
+      "original_sha256": "f73a5f105d6d4867b576e5864418c40e826d39cf8977efcf768932ab3a961e44",
+      "anonymous_sha256": "9c84a25464c9f687e0ed78aaf594bac4d969c3b84c2ac92371f936eca69093c7",
+      "body_whitespace_words": 478
+    },
+    {
+      "label": "C",
+      "run": "D-Q02-new-r1-v2",
+      "original_sha256": "bce6a5b222a189e23b009d9a0736db22687446777b794ec444b41f2bdafde72a",
+      "anonymous_sha256": "5b83f1031ddb08de471b531acac21894a38b9169006bf79102b0211aa33c1d1d",
+      "body_whitespace_words": 500
+    },
+    {
+      "label": "D",
+      "run": "D-Q02-new-r2-v1",
+      "original_sha256": "11a6ae940ed626482ffd0f7a9195d772d5a17abc4308fea3e72990decdcace33",
+      "anonymous_sha256": "14a1990025c50ef0be75d102fcfebd965d015f991c0c16e3efbeb674674923f0",
+      "body_whitespace_words": 484
+    }
+  ],
+  "transformation": "Separate attribution heading removed; body wording unchanged; line endings normalized to LF."
+}

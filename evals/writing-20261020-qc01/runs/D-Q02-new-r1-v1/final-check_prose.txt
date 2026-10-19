@@ -1,0 +1,9 @@
+Sections found: Discussion | prompts: 1
+
+[Discussion] 480 words, 5 paragraphs | sentence median 19.0, >40 words 3.8% | citations 2.1/1,000 words (published 11), cited sentences 3.8% (published 30), narrative 100.0% (published 1 quantitative, 30 qualitative/mixed), 3+ works 0.0% | sentences with numbers 7.7% | we 0.0/1,000 | passive 7.7%
+  ! cite_per_k 2.1 outside the published range (< 3 flags; published median 11)
+
+[Argued sections together] 480 words | sentence median 19.0 (published 26), >40 words 3.8% (13.5) | paragraph median 96 words (135) | we 0.0/1,000 (4.9) | passive 7.7% (23.4) | abbreviations 8.3/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)
+
+[Review cues] sentences that evaluate this study's results as small, limited or failed. Check that each is accurate (framing-results.md): an accurate description can stay; a verdict the estimates do not support should change.
+    The measured covariates' limited influence on focal paths also makes their inclusion a weak test of resistance to confounding.

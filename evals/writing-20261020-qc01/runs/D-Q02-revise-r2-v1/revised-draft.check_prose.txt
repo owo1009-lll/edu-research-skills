@@ -1,0 +1,5 @@
+Sections found: Discussion | prompts: 0
+
+[Discussion] 153 words, 1 paragraphs | sentence median 19.0, >40 words 0.0% | citations 13.1/1,000 words (published 11), cited sentences 25.0% (published 30), narrative 50.0% (published 1 quantitative, 30 qualitative/mixed), 3+ works 0.0% | sentences with numbers 0.0% | we 13.1/1,000 | passive 0.0%
+
+[Argued sections together] 153 words | sentence median 19.0 (published 26), >40 words 0.0% (13.5) | paragraph median 153 words (135) | we 13.1/1,000 (4.9) | passive 0.0% (23.4) | abbreviations 32.7/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)
