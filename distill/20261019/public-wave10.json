@@ -1,0 +1,70 @@
+{
+  "purpose": "English-only public development candidates extending experimental explanation, school exclusion, vocational graph literacy and inclusive classroom experience. Identity, acquisition, full reading and writing value remain separate checks.",
+  "sources": [
+    {
+      "id": "Q-N15",
+      "doi": "10.1371/journal.pone.0152423",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "London Education and Inclusion Project (LEIP): Exploring Negative and Null Effects of a Cluster-Randomised School-Intervention to Reduce School Exclusion—Findings from Protocol-Based Subgroup Analyses",
+      "selection_question": "How are prespecified subgroup expectations and unexpected intervention results used to advance an educational explanation without treating untested reasons as demonstrated mechanisms?",
+      "urls": ["https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0152423&type=printable"],
+      "publisher_record": "https://doi.org/10.1371/journal.pone.0152423",
+      "version_note": "Publisher open-access PDF. Subgroup report from an existing trial: do not count its main report as an independent intervention if later read. Confirm license and evidence before analysis.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "Q-N16",
+      "doi": "10.1371/journal.pone.0250406",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Does increasing social presence enhance the effectiveness of writing explanations?",
+      "selection_question": "How does a theory-driven experimental comparison distinguish an intended manipulation, experienced social presence and learning outcomes when the predicted pattern is not obtained?",
+      "urls": ["https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0250406&type=printable"],
+      "publisher_record": "https://doi.org/10.1371/journal.pone.0250406",
+      "version_note": "Publisher open-access PDF. Verify authors, design, primary outcomes, figures and access to any preregistration separately.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N17",
+      "doi": "10.1371/journal.pone.0340100",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Debunking misleading graphs effectively: How vocationally educated young adults perceive graphs",
+      "selection_question": "Do think-aloud accounts and the quantitative design comparison jointly explain graph interpretation, and what does the integration add beyond two parallel results sections?",
+      "urls": ["https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100&type=printable"],
+      "publisher_record": "https://doi.org/10.1371/journal.pone.0340100",
+      "version_note": "Publisher open-access English article. Actual integration and classification must be checked in the full text; a mixed-methods label is not sufficient.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N18",
+      "doi": "10.1111/1471-3802.70087",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "How do autistic students experience need-supportive teaching in mainstream secondary schools? A joint display analysis",
+      "selection_question": "How do matched classroom observations, student questionnaires and video-stimulated accounts change the interpretation of need-supportive teaching? Check whether student perspectives alter the meaning of observed utterances.",
+      "urls": ["https://nasenjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1471-3802.70087"],
+      "publisher_record": "https://doi.org/10.1111/1471-3802.70087",
+      "version_note": "Publisher labels this English article open access. License, authors and accessible full text require verification; abstract information is not completed reading.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N19",
+      "doi": "10.3389/feduc.2022.1005887",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Developing empathy and support for students with the ‘most challenging behaviors:’ Mixed-methods outcomes of professional development in trauma-informed teaching practices",
+      "selection_question": "How are changed teacher reports and qualitative accounts integrated to explain professional learning while distinguishing perceptions, classroom practice and student outcomes?",
+      "urls": ["https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1005887/pdf"],
+      "publisher_record": "https://doi.org/10.3389/feduc.2022.1005887",
+      "version_note": "Publisher English full text. Confirm the study's integration and license; selection is a writing question, not an endorsement of its causal claims.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

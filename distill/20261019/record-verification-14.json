@@ -1,0 +1,37 @@
+{
+  "checked_utc": "2026-10-19T22:48:41.819117+00:00",
+  "comparison_commit": "4398fffa278d9f9baa4b5007827e22b05d8cd43b",
+  "status": "passed",
+  "english_new_candidates": 51,
+  "english_acquired_fulltexts": 37,
+  "english_new_empirical_or_boundary_analyses": 33,
+  "confirmed_empirical_groups": {
+    "quantitative": 11,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 11,
+    "mixed": 10
+  },
+  "english_methodological_application_analyses": 1,
+  "english_rereads_separate": 2,
+  "unchanged_previous_reading_records": 52,
+  "historical_chinese_records_unchanged": 4,
+  "new_reading_records": 5,
+  "new_full_analyses": [
+    "Q-N16",
+    "M-N17"
+  ],
+  "runtime_files_verified_unchanged": 203,
+  "runtime_tree_sha256": "2ac357f06b434ea2d36bf021e70ea3371dea47c5cfb90ed053164c440f04c147",
+  "new_acquisition_file_hashes_verified": 17,
+  "supplement_pdfs_and_page_counts_verified": 5,
+  "supplement_text_hashes_verified": 5,
+  "actually_viewed_page_image_hashes_verified": 20,
+  "analysis_note_reading_hash_references_verified": 36,
+  "development_json_files_parsed_excluding_this_record": 59,
+  "existing_relative_markdown_links_checked_excluding_this_record": 263,
+  "new_analysis_and_example_language": "English",
+  "render_warning": "Six MuPDF structure-tree warnings; all six supplement output images inspected and relevant content legible.",
+  "new_behavior_tests": 0,
+  "note": "Record consistency is not writing quality. Only original development analysis and records changed. No private materials, no new runtime method, no final independent holdout claim. Whole objective remains incomplete.",
+  "authored_whitespace_warnings": 0
+}

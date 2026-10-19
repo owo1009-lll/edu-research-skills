@@ -1,6 +1,6 @@
 # 组内比较形成的第一批候选动作
 
-状态：开发候选，尚未加载到正式 skill。Q-C01 已有一项英文研究上的新写／压缩对照，详见该节；L-C01、M-C01 尚无本轮候选对照结果。下列旧样稿提供具体编辑问题及基线已有能力的线索，不代表这些问题在当前版本普遍存在。它们来自上一轮 p/q/r 的相应快照；本轮基线仍是 `684f5e435b76daf8d0109c9c6a93297542c59889`，不能互相替换。
+状态：开发候选，尚未加载到正式 skill。Q-C01、L-C01、M-C01 均已完成各一项英文研究上的新写／压缩对照，具体结果及限度见各节；三项候选均未进入运行规则。下列旧样稿提供具体编辑问题及基线已有能力的线索，不代表这些问题在当前版本普遍存在。它们来自上一轮 p/q/r 的相应快照；本轮基线仍是 `684f5e435b76daf8d0109c9c6a93297542c59889`，不能互相替换。
 
 本轮目前完成 30 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，远未完成语料规模和覆盖。这里先做类型内部的局部比较，不据此宣布跨类型共性或最终选择。每项都可能因当前基线已能完成、加载收益不足或带来退步而不进入运行规则。
 
@@ -124,6 +124,14 @@ M-N09 的教师重视低要求问题与观察到的群体提问比例，也须�
 **后续适用验证。** 先选择一类设计的小批新写与真实压缩，再用另一种设计看迁移；同文两次是波动检查，不算两种情境。优先核对整合增加的认识、来源对应、构念与作者立场，保留反例，最后再看自然性及简洁度。结果属于实际加载的完整组合，不能归功于没有单独测试的一句话。
 
 The [M-C01 comparison](../../evals/writing-20261020-mc01/README.md) has now completed English new writing and actual-paragraph compression for M-N07, twice per arm. The only addition is a positive M-N15 illustration in analysis-bridge.md. Anonymous review ties all new discussions substantively and slightly favors both candidate compressions; all controls also repair the central unsupported inference. Candidate compression retains an ambiguity between implementation ratings and self-ratings, while the strength assigned to an explicit training/knowledge qualification is partly an editorial judgment. The example remains outside the runtime skill pending transfer evidence. One study, same-model reviews and the recorded input/helper limitations do not establish stable cross-design benefit.
+
+## Further English source comparison: Q-N16 and M-N17
+
+[Q-N16](papers/Q-N16.md), pp. 2–4, 10–15, adds to Q-N07 and Q-N12 by following a theoretical process through a concrete manipulation, reported experience and knowledge outcomes. Its positive move is to preserve a substantive comparison when the predicted learning advantage is absent. The same source illustrates why more personal references cannot simply substitute for a demonstrated increase in self-rated presence. Its reported Bayesian evidence must also survive a summary; the article is not a case of relying solely on a nonsignificant p value. This supports a conditional editing action, not an instruction to weaken every null-result discussion.
+
+[M-N17](papers/M-N17.md), pp. 5, 11 and 16 plus S1 File, extends M-N04 and M-N15's instrument-development examples. Interviews produce specific changes to icons and questions and reveal that an evaluation score can incorporate topic severity or credibility. The discussion connects that interpretation to a context-specific survey pattern. This supplies a narrative form of integration without a joint display or matched individual records. It also retains the unresolved quantitative reporting issues, so the positive integration example does not endorse all of the article's conclusions.
+
+Both notes contain original English same-fact edits. They remain development illustrations, not evidence that the current skill fails or that either previously tested candidate should now be adopted. The existing guidance already allows these actions; new tests need an actual unresolved output problem and an appropriate transfer task.
 
 ## 此阶段不作出的归纳
 

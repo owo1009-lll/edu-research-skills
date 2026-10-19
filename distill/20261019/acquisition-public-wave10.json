@@ -1,0 +1,612 @@
+[
+  {
+    "id": "Q-N15",
+    "doi": "10.1371/journal.pone.0152423",
+    "retrieved_utc": "2026-10-19T22:27:46.377423+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0152423&type=printable",
+        "status": 200,
+        "final_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0152423&type=printable",
+        "content_type": "application/pdf",
+        "bytes": 804824,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1371/journal.pone.0152423",
+      "title": [
+        "London Education and Inclusion Project (LEIP): Exploring Negative and Null Effects of a Cluster-Randomised School-Intervention to Reduce School Exclusion—Findings from Protocol-Based Subgroup Analyses"
+      ],
+      "author": [
+        {
+          "given": "Ingrid",
+          "family": "Obsuth",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aiden",
+          "family": "Cope",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "Sutherland",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Liv",
+          "family": "Pilbeam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aja Louise",
+          "family": "Murray",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Manuel",
+          "family": "Eisner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            4,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "PLOS ONE"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                5
+              ]
+            ],
+            "date-time": "2016-04-05T00:00:00Z",
+            "timestamp": 1459814400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "423c0585d6e3c40f882aed51e57372a340f07c2aad16af75e541fb9b4f2621c5",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0152423&type=printable",
+    "format": "pdf",
+    "raw_sha256": "1190bb0335a594b2b0a3db2fdd5d26c28a5ef1205a3299cc61c90491d951e131",
+    "text_sha256": "b2ad6c702c44ecf8a81566a6b90e41c006cf8e24026f05e9e851f2f59ecf548a",
+    "text_characters": 77512,
+    "extraction": {
+      "pages": 21,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "30d5df1a3e0872ee1f05bc936b0be3d5102dc329819823a889877d05cdb517fe",
+    "reading_blocks": 21,
+    "reading_characters": 78752,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N16",
+    "doi": "10.1371/journal.pone.0250406",
+    "retrieved_utc": "2026-10-19T22:27:46.377423+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0250406&type=printable",
+        "status": 200,
+        "final_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0250406&type=printable",
+        "content_type": "application/pdf",
+        "bytes": 1029567,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1371/journal.pone.0250406",
+      "title": [
+        "Does increasing social presence enhance the effectiveness of writing explanations?"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2482-5528",
+          "authenticated-orcid": true,
+          "given": "Leonie",
+          "family": "Jacob",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Lachner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katharina",
+          "family": "Scheiter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            22
+          ]
+        ]
+      },
+      "container-title": [
+        "PLOS ONE"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                22
+              ]
+            ],
+            "date-time": "2021-04-22T00:00:00Z",
+            "timestamp": 1619049600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "b46967ba4c3070c7236794c92a6c7f95097b49cb829d76b4d892733358fb1311",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0250406&type=printable",
+    "format": "pdf",
+    "raw_sha256": "f8257571746a4e8f316abe262119869e0e45425a624e2b983fd62489cb63d9bc",
+    "text_sha256": "3a80dab8858f097a3828a521ab159393045012be0085373dcbeda69921c6d7ec",
+    "text_characters": 75548,
+    "extraction": {
+      "pages": 20,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "ee14f58a61e575f66982c605228219df5b32b56aedd998d0b91129154d6b5b95",
+    "reading_blocks": 20,
+    "reading_characters": 76729,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N17",
+    "doi": "10.1371/journal.pone.0340100",
+    "retrieved_utc": "2026-10-19T22:27:46.377423+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100&type=printable",
+        "status": 200,
+        "final_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100&type=printable",
+        "content_type": "application/pdf",
+        "bytes": 1307971,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1371/journal.pone.0340100",
+      "title": [
+        "Debunking misleading graphs effectively: How vocationally educated young adults perceive graphs"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5714-7981",
+          "authenticated-orcid": true,
+          "given": "Winnifred",
+          "family": "Wijnker",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Peter",
+          "family": "Burger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1743-9493",
+          "authenticated-orcid": true,
+          "given": "Ionica",
+          "family": "Smeets",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0000-6387",
+          "authenticated-orcid": true,
+          "given": "Sanne",
+          "family": "Willems",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            9
+          ]
+        ]
+      },
+      "container-title": [
+        "PLOS One"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                9
+              ]
+            ],
+            "date-time": "2026-02-09T00:00:00Z",
+            "timestamp": 1770595200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "8b57954eef87c33bfc34c86773c5ec6ffb1fa22059629aba9fc371b268ad1917",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100&type=printable",
+    "format": "pdf",
+    "raw_sha256": "a45f6fdfc3eb3e51cd3b896c5ad61be401bb76976060d113d51820ac675c2df1",
+    "text_sha256": "f314614398e1d2a0dfcad594cd098e0cc6ff1518b68d644d4419ae1ed5273890",
+    "text_characters": 63544,
+    "extraction": {
+      "pages": 19,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "2f934af0cbfa392e43b805d33d721225664ab02ec31109ca6049f2f59da64a44",
+    "reading_blocks": 19,
+    "reading_characters": 64664,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N18",
+    "doi": "10.1111/1471-3802.70087",
+    "retrieved_utc": "2026-10-19T22:27:49.691909+00:00",
+    "attempts": [
+      {
+        "url": "https://nasenjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1471-3802.70087",
+        "outcome": "failed",
+        "error": "HTTPSConnectionPool(host='nasenjournals.onlinelibrary.wiley.com', port=443): Max retries exceeded with url: /doi/pdfdirect/10.1111/1471-3802.70087 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1111/1471-3802.70087",
+      "title": [
+        "How do autistic students experience need‐supportive teaching in mainstream secondary schools? A joint display analysis"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7300-5123",
+          "authenticated-orcid": false,
+          "given": "Fernanda",
+          "family": "Esqueda Villegas",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Education and Social Work Faculty of Humanities, Education and Social Sciences, University of Luxembourg  Esch Luxembourg"
+            },
+            {
+              "name": "Department of Inclusive and Special Needs Education, Faculty of Behavioural and Social Sciences University of Groningen  Groningen The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Esmee",
+          "family": "Berlang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Inclusive and Special Needs Education, Faculty of Behavioural and Social Sciences University of Groningen  Groningen The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7827-4525",
+          "authenticated-orcid": false,
+          "given": "Steffie",
+          "family": "van der Steen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Inclusive and Special Needs Education, Faculty of Behavioural and Social Sciences University of Groningen  Groningen The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Minnaert",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Inclusive and Special Needs Education, Faculty of Behavioural and Social Sciences University of Groningen  Groningen The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of Research in Special Educational Needs"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                8
+              ]
+            ],
+            "date-time": "2026-04-08T00:00:00Z",
+            "timestamp": 1775606400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 7,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ]
+    },
+    "metadata_sha256": "152bcf6f18e74d19b76368b02df63374ee5fe4f7a8a330d586f3de0854017418",
+    "status": "access_failed"
+  },
+  {
+    "id": "M-N19",
+    "doi": "10.3389/feduc.2022.1005887",
+    "retrieved_utc": "2026-10-19T22:27:49.762996+00:00",
+    "attempts": [
+      {
+        "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1005887/pdf",
+        "status": 200,
+        "final_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1005887/pdf",
+        "content_type": "application/pdf",
+        "bytes": 946629,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.3389/feduc.2022.1005887",
+      "title": [
+        "Developing empathy and support for students with the “most challenging behaviors:” Mixed-methods outcomes of professional development in trauma-informed teaching practices"
+      ],
+      "author": [
+        {
+          "given": "Jessica B.",
+          "family": "Koslouski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            15
+          ]
+        ]
+      },
+      "container-title": [
+        "Frontiers in Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                15
+              ]
+            ],
+            "date-time": "2022-09-15T00:00:00Z",
+            "timestamp": 1663200000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "7ab3b7907d4932a75eceb44f2866de6b3a503ded9edd15694b789a423650907b",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1005887/pdf",
+    "format": "pdf",
+    "raw_sha256": "e3b168aed0d242b9e062e88bd44c8999fc673b8969417e929edee3ea0547970b",
+    "text_sha256": "1100b6b95440905d4010096f65bf273266a095d6fd51907af2230a2ac184287c",
+    "text_characters": 88290,
+    "extraction": {
+      "pages": 16,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "f8e35c7533c98b8c89c9a2a92e899c9831a1294b2009e8704b390092bb524546",
+    "reading_blocks": 16,
+    "reading_characters": 89235,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

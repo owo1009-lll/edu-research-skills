@@ -129,3 +129,19 @@ L-N15 has now been read in full in English, including both linked tables and the
 ### Q-N14 public HTML retry
 
 A later direct request to the public PMC article URL returned HTTP 200 but no article element; the 21,315-byte response was not accepted as full text. The original Europe PMC XML HTTP 500 remains recorded. Browser access verified identity and opening material, not a completed source analysis. The new [retry record](acquisition-Q-N14-retry-01.json) preserves status, size and response hash. No acquisition or full-reading count changes; no source text is republished.
+
+## Wave 10: English experimental and mixed-methods sources
+
+The [new manifest](public-wave10.json) contains five English development candidates found through public search and checked against publisher and Crossref identities. Their DOIs were not found in the earlier indexed source records; the historical incomplete W identities still limit deduplication beyond known records. All five remain development material. Sources were selected for specific writing questions, not on the assumption that published papers are uniformly excellent.
+
+| ID | Acquisition and actual reading | Selection and classification |
+|---|---|---|
+| Q-N15 | Publisher PDF acquired; identity and first page only | LEIP cluster-trial subgroup report on negative/null findings. A later reading of the main trial report would not create an independent intervention. |
+| Q-N16 | Publisher PDF acquired; all 20 pages read; four page images checked | Randomized comparison of explanation activities. Positive theory-to-comparison moves, the distinction between learning experience and knowledge outcomes, and limitations of a presence indicator. [Complete English analysis](papers/Q-N16.md). |
+| M-N17 | Publisher PDF acquired; all 19 pages and 16 supplement pages read; ten main and six supplement images checked | Interviews demonstrably inform the final survey and change how scores are interpreted. Counted as empirical mixed methods, with separate samples and no formal joint display. [Complete English analysis](papers/M-N17.md). |
+| M-N18 | Publisher identity/abstract only; attempted PDF failed with SSL EOF | Candidate joint-display study of autistic students' classroom experience. Full-text acquisition, license and actual integration remain to be verified. Not counted as acquired or analyzed. |
+| M-N19 | Publisher PDF acquired; identity and first page only | Candidate study of trauma-informed teacher development. Its mixed-methods label and causal scope await full reading. |
+
+Q-N16's SAV and preregistration were not read. For M-N17, all five PDF supplements were acquired and read; S1 Fig, the preregistration, raw data and original cited works were not read. Six supplement renderings emitted MuPDF structure-tree warnings, but their actual images were inspected and the relevant content was legible. Source tables preserve unresolved coefficient-scope and interaction-reporting issues; these have not been silently corrected. Full texts, figures and interview extracts are not republished in the repository.
+
+Current English totals: 51 candidates, 37 acquired full texts, 33 empirical/boundary analyses (quantitative 11, qualitative 11, mixed 10, same-source boundary 1), one methodological application and two separate rereads. [Record verification](record-verification-14.json) checks the source/asset hashes, all 52 unchanged prior reading entries, four unchanged historical Chinese entries and the unchanged runtime tree. These checks establish record consistency, not writing quality. This batch contains original English editing illustrations but no new model comparison or final holdout result. [Reproduction instructions](wave10-reproduction.md) use public URLs and a reader-chosen cache.

@@ -1,0 +1,205 @@
+{
+  "recorded_utc": "2026-10-19T22:44:24.654573+00:00",
+  "cache_layout": "<cache>/<source-id>/{source.pdf,body.txt,reading.txt,previews/}; M-N17/supplements/",
+  "rights_note": "Source PDFs, extracted full text and preview images remain outside the repository. Public notes are original analysis.",
+  "rendering": {
+    "engine": "PyMuPDF",
+    "matrix": [
+      1.5,
+      1.5
+    ],
+    "default_colorspace": "RGB",
+    "alpha": false,
+    "version": "1.27.2.2"
+  },
+  "sources": [
+    {
+      "id": "Q-N16",
+      "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0250406&type=printable",
+      "source_sha256": "f8257571746a4e8f316abe262119869e0e45425a624e2b983fd62489cb63d9bc",
+      "reading_sha256": "ee14f58a61e575f66982c605228219df5b32b56aedd998d0b91129154d6b5b95",
+      "rendered_and_visually_read": [
+        {
+          "page": 5,
+          "file": "previews/page-05.png",
+          "sha256": "fcea7150005adb4cbf1408ac73dd16c5a4d669a9d66802029d3e93ef085df2d8"
+        },
+        {
+          "page": 11,
+          "file": "previews/page-11.png",
+          "sha256": "1aadc4eaaef6e76c3478d29e849fa654cd3c8fdb449a9ce4df38db5e7b9ee797"
+        },
+        {
+          "page": 12,
+          "file": "previews/page-12.png",
+          "sha256": "df31973be93f51ff345521854fe70050dd4a582c7b1018b371d4952ca9fe56a3"
+        },
+        {
+          "page": 13,
+          "file": "previews/page-13.png",
+          "sha256": "fde3e908661045cf0ef6c5c90847e9a4ce5c7b080fe92eec58b7df2ef0a62739"
+        }
+      ]
+    },
+    {
+      "id": "M-N17",
+      "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100&type=printable",
+      "source_sha256": "a45f6fdfc3eb3e51cd3b896c5ad61be401bb76976060d113d51820ac675c2df1",
+      "reading_sha256": "2f934af0cbfa392e43b805d33d721225664ab02ec31109ca6049f2f59da64a44",
+      "rendered_and_visually_read": [
+        {
+          "page": 3,
+          "file": "previews/page-03.png",
+          "sha256": "cf1c63285c833225b3f6b01b0b85b25e1c3579c2dd92efc5ea7a3957d43b0f9f"
+        },
+        {
+          "page": 6,
+          "file": "previews/page-06.png",
+          "sha256": "2e53619b1a813bdeaf721f47a823901df847dfd951ba837938ce64dd441ddaf2"
+        },
+        {
+          "page": 7,
+          "file": "previews/page-07.png",
+          "sha256": "898e19aa29b93e469834a019dd49cede00ae82b38d63c44c8ab5cf9bd04ec721"
+        },
+        {
+          "page": 8,
+          "file": "previews/page-08.png",
+          "sha256": "4fbef3bf2262e63f8fa57e43a254c20bbf8c57b42bfe707969a92291d992dc18"
+        },
+        {
+          "page": 9,
+          "file": "previews/page-09.png",
+          "sha256": "97148d58d14090031ed7bdccd5a99cf034491796b4a5753f74c4b02a459c148d"
+        },
+        {
+          "page": 10,
+          "file": "previews/page-10.png",
+          "sha256": "c9074b6793bdb93e406c89684bc2979dbadff2140eb9a02470a86e40831e8521"
+        },
+        {
+          "page": 12,
+          "file": "previews/page-12.png",
+          "sha256": "d1d1b8ab0f11205412d1418bba747f361a7e3f5916e639555d151e9660859a54"
+        },
+        {
+          "page": 13,
+          "file": "previews/page-13.png",
+          "sha256": "8ba6554acf67ed836824944e3f8715de63fa070d0fb7b55e3b3f11d09c2b28fa"
+        },
+        {
+          "page": 14,
+          "file": "previews/page-14.png",
+          "sha256": "d59e9bc74412d76e335ba8b01e2feeae4da0a62539836d1359d0d5f8aef5e5d2"
+        },
+        {
+          "page": 15,
+          "file": "previews/page-15.png",
+          "sha256": "958d1586e474ac14aff5da149bb376ca501cad3e2c9cf16b0fc9369031543fb6"
+        }
+      ],
+      "supplements": [
+        {
+          "label": "S1-File",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100.s002&type=supplementary",
+          "http_status": 200,
+          "bytes": 239076,
+          "sha256": "afc06176554dc62ccd1eb4f7e658f472b113c12dbc35cf3bedbc43b25439766c",
+          "pages": 2,
+          "text_sha256": "a3cf240a15ab36ce2ac5f06f9cf01f813c614858e7ada7fd4a63c82b39625a9a",
+          "file": "supplements/S1-File.pdf",
+          "text_file": "supplements/S1-File.txt",
+          "read_scope": "All pages of extracted text and all table entries read.",
+          "rendered_and_visually_read": [
+            {
+              "page": 2,
+              "file": "supplements/S1-File-p2.png",
+              "sha256": "a11c634a6a80acd2883696b94dca60daf4edb4db46b22e72772133323bfb246b"
+            }
+          ]
+        },
+        {
+          "label": "S2-File",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100.s003&type=supplementary",
+          "http_status": 200,
+          "bytes": 156124,
+          "sha256": "5779860bdd051d201781b273c5b048e191488233800ff82b91424d6b8f44b2f6",
+          "pages": 4,
+          "text_sha256": "b840d496759c5e52bdaf3bcc8e52e49708a04dd0a69cc93e67b656872b5275c0",
+          "file": "supplements/S2-File.pdf",
+          "text_file": "supplements/S2-File.txt",
+          "read_scope": "All pages of extracted text and all table entries read.",
+          "rendered_and_visually_read": []
+        },
+        {
+          "label": "S3-File",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100.s004&type=supplementary",
+          "http_status": 200,
+          "bytes": 147368,
+          "sha256": "0550b8b8cb691bc91e74ee4ac3a59f54235c6375e47d7c1aafa756c9f617817f",
+          "pages": 3,
+          "text_sha256": "fc656d0d2c54bed68c3ee27efe120031be7322da1aa78c85c2f466f13ea9612d",
+          "file": "supplements/S3-File.pdf",
+          "text_file": "supplements/S3-File.txt",
+          "read_scope": "All pages of extracted text and all table entries read.",
+          "rendered_and_visually_read": [
+            {
+              "page": 2,
+              "file": "supplements/S3-File-p2.png",
+              "sha256": "2b4017da9cb18c07f7c4fda0524f1c4951b77d40667a731c7cf347fd5bf45386"
+            }
+          ]
+        },
+        {
+          "label": "S4-File",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100.s005&type=supplementary",
+          "http_status": 200,
+          "bytes": 236889,
+          "sha256": "a35255497c545f4d33123290761b1dcde37bf6bc185504bda708a00adc983907",
+          "pages": 5,
+          "text_sha256": "481b5e4b079d82443a8005190fd4b75c1b0ab6a35e004354be82eb010e6ac194",
+          "file": "supplements/S4-File.pdf",
+          "text_file": "supplements/S4-File.txt",
+          "read_scope": "All pages of extracted text and all table entries read.",
+          "rendered_and_visually_read": [
+            {
+              "page": 2,
+              "file": "supplements/S4-File-p2.png",
+              "sha256": "5293d3a66fb69f02d6a1030fa946882505a0618ce3adcf00c135ded680a154ee"
+            },
+            {
+              "page": 4,
+              "file": "supplements/S4-File-p4.png",
+              "sha256": "e95aabcff99ef250aa0b7dff6dec50289b3cafadc4cc5bce3e4e7b9e52e95a2b"
+            }
+          ]
+        },
+        {
+          "label": "S1-Table",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340100.s006&type=supplementary",
+          "http_status": 200,
+          "bytes": 128361,
+          "sha256": "6170506d4a72ce650db8ae4f07f90a5088fb2a72a90d0a464af4c6361b38cf44",
+          "pages": 2,
+          "text_sha256": "1590325ca19a270dfb6c312ffe2c249fd2ca2ccb6b27cbed5008ecd4f1929569",
+          "file": "supplements/S1-Table.pdf",
+          "text_file": "supplements/S1-Table.txt",
+          "read_scope": "All pages of extracted text and all table entries read.",
+          "rendered_and_visually_read": [
+            {
+              "page": 1,
+              "file": "supplements/S1-Table-p1.png",
+              "sha256": "4862f1a743ac6169010414e306b8e02d7337bac037dcb08370f790e9bc91ad87"
+            },
+            {
+              "page": 2,
+              "file": "supplements/S1-Table-p2.png",
+              "sha256": "c535e3d292823c44da28cf6130c5b6a9cac0524b4d4ac076df699d84706cea5c"
+            }
+          ]
+        }
+      ],
+      "render_warning": "MuPDF: format error: No common ancestor in structure tree, emitted six times during selected supplement rendering; all six images inspected and relevant content legible."
+    }
+  ]
+}
