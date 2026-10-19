@@ -1,0 +1,42 @@
+{
+  "purpose": "第三批公网开发候选：补充纵向观察、准实验、学校民族志、原住民教育及汇聚型混合研究。Q-N03 是既有候选的公开来源重试，不另计一篇。",
+  "sources": [
+    {
+      "id": "Q-N03", "doi": "10.1257/aer.104.9.2633", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood",
+      "selection_question": "教师增值怎样连接成年结局，如何说明不同识别设计之间的关系与政策推算的条件。",
+      "urls": ["https://rajchetty.com/wp-content/uploads/2021/04/w19424.pdf", "https://www.nber.org/papers/w19424.pdf"],
+      "version_note": "作者网站及 NBER 公开稿；文件名不决定版本，须核对首页与正文。重试保留 wave2 的失败记录，不覆盖。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "Q-N04", "doi": "10.1177/23328584211071115", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "School Absenteeism and Academic Achievement: Does the Reason for Absence Matter?",
+      "selection_question": "纵向资料怎样区分缺席原因、教育阶段和成绩关系；不把不同缺席原因压成统一惩戒建议。",
+      "urls": ["https://researchonline.gcu.ac.uk/files/66034715/23328584211071115.pdf"],
+      "version_note": "Glasgow Caledonian University 机构库标注为出版社正式 PDF，CC BY；仍需核对文档身份和栏序。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N07", "doi": "10.1177/23328584221078328", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "Policy Enactment During a Pandemic: How One School Responded to COVID-19 in Negotiation With a Nonprofit Partner",
+      "selection_question": "如何通过过程与互动解释政策落实，如何把学校、合作组织和学区约束同时写入论证，而不简化为领导者个人能力。",
+      "urls": ["https://files.eric.ed.gov/fulltext/EJ1360338.pdf"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N08", "doi": "10.1177/23328584211062587", "candidate_group": "qualitative_pending_article_type_screen", "exposure": "new_development", "language": "en",
+      "title": "When Learning Is Life Giving: Redesigning Schools With Indigenous Systems of Relationality",
+      "selection_question": "核实原住民关系观怎样通过实际材料发展教育判断；区分实证分析、理论综合与既有案例重述，不因题目匹配就计入新实证数量。",
+      "urls": ["https://files.eric.ed.gov/fulltext/EJ1360115.pdf"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N06", "doi": "10.1186/s41239-018-0107-0", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "Online learning readiness and attitudes towards gaming in gamified online learning – a mixed methods case study",
+      "selection_question": "核实汇聚型平行设计是否真正整合在线学习准备度、游戏态度及经历解释；关注不一致与反例，而非只引用综合图景的自述。",
+      "urls": ["https://link.springer.com/article/10.1186/s41239-018-0107-0"],
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

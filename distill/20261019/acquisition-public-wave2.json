@@ -1,0 +1,775 @@
+[
+  {
+    "id": "Q-N03",
+    "doi": "10.1257/aer.104.9.2633",
+    "retrieved_utc": "2026-10-19T14:14:47.231151+00:00",
+    "attempts": [
+      {
+        "url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/aer.104.9.2633",
+        "status": 403,
+        "final_url": "https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.104.9.2633",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5582,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.104.9.2633"
+      },
+      {
+        "url": "https://dash.harvard.edu/bitstreams/7312037d-dfcf-6bd4-e053-0100007fdf3b/download",
+        "status": 429,
+        "final_url": "https://dash.harvard.edu/bitstreams/7312037d-dfcf-6bd4-e053-0100007fdf3b/download",
+        "content_type": null,
+        "bytes": 0,
+        "outcome": "failed",
+        "error": "429 Client Error: Too Many Requests for url: https://dash.harvard.edu/bitstreams/7312037d-dfcf-6bd4-e053-0100007fdf3b/download"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1257/aer.104.9.2633",
+      "title": [
+        "Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood"
+      ],
+      "author": [
+        {
+          "given": "Raj",
+          "family": "Chetty",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Harvard University, Littauer Center 226, Cambridge, MA 02138 (e-mail: )"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John N.",
+          "family": "Friedman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harvard University, Taubman Center 356, Cambridge, MA 02138 (e-mail: )"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonah E.",
+          "family": "Rockoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Columbia University, Uris 603, New York, NY 10027 (e-mail: )"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            9,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "American Economic Review"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "59b69f7be17e31149d97266f37a9e96cad2a3f7a55e2c84d68f832259e58dd9a",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N04",
+    "doi": "10.3389/feduc.2022.948202",
+    "retrieved_utc": "2026-10-19T14:14:47.232156+00:00",
+    "attempts": [
+      {
+        "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.948202/xml/nlm",
+        "status": 200,
+        "final_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.948202/xml/nlm",
+        "content_type": "text/xml",
+        "bytes": 107367,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.3389/feduc.2022.948202",
+      "title": [
+        "Interactions and social identity of support teachers: An ethnographic study of the marginalisation in the inclusive school"
+      ],
+      "author": [
+        {
+          "given": "Laura Emma",
+          "family": "Milani Marin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alessandra Cecilia",
+          "family": "Jacomuzzi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            15
+          ]
+        ]
+      },
+      "container-title": [
+        "Frontiers in Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                15
+              ]
+            ],
+            "date-time": "2022-12-15T00:00:00Z",
+            "timestamp": 1671062400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "eaab723a1978d5112930e6a1934c902fdf18810651e929a7993aac8cb14f7b53",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.948202/xml/nlm",
+    "format": "xml",
+    "raw_sha256": "5c503ab1b747b6b8b655e4d003d8f97fb16ff836a08da1de8e5886497029258e",
+    "text_sha256": "d5f3fe903bbad92f859c6bd16bd97551ca357171e60e262312914b1ccaff15c2",
+    "text_characters": 72160,
+    "extraction": {
+      "sections": 16,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "dc05e5d4ce0cc37326f9546701b399abf065800343d6d9324cb32aa4e4f5ea64",
+    "reading_blocks": 95,
+    "reading_characters": 60580,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N05",
+    "doi": "10.1002/sce.21542",
+    "retrieved_utc": "2026-10-19T14:14:47.233157+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10588766/fullTextXML",
+        "status": 500,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10588766/fullTextXML",
+        "content_type": "application/json",
+        "bytes": 151,
+        "outcome": "failed",
+        "error": "500 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10588766/fullTextXML"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/sce.21542",
+        "status": 403,
+        "final_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/sce.21542",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5584,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdf/10.1002/sce.21542"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1002/sce.21542",
+      "title": [
+        "Illuminating political clarity in culturally relevant science instruction"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2555-9025",
+          "authenticated-orcid": false,
+          "given": "Tia C.",
+          "family": "Madkins",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Curriculum and Instruction, College of Education The University of Texas at Austin Austin Texas"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7046-800X",
+          "authenticated-orcid": false,
+          "given": "Maxine",
+          "family": "McKinney de Royston",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Curriculum and Instruction, School of Education University of Wisconsin‐Madison Madison Wisconsin"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            7,
+            31
+          ]
+        ]
+      },
+      "container-title": [
+        "Science Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2019-07-31T00:00:00Z",
+            "timestamp": 1564531200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ]
+    },
+    "metadata_sha256": "6924503cdb49413ee85ace1e4eac67ec6b30340f9db48b88c2b6b96e7f707a46",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N06",
+    "doi": "10.1177/23328584241258449",
+    "retrieved_utc": "2026-10-19T14:14:51.609393+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.sagepub.com/doi/full-xml/10.1177/23328584241258449",
+        "status": 403,
+        "final_url": "https://journals.sagepub.com/doi/full-xml/10.1177/23328584241258449",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5642,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/full-xml/10.1177/23328584241258449"
+      },
+      {
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/23328584241258449",
+        "status": 403,
+        "final_url": "https://journals.sagepub.com/doi/pdf/10.1177/23328584241258449",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5627,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/pdf/10.1177/23328584241258449"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/23328584241258449",
+      "title": [
+        "Policy and Place: Immigration, Schooling, and the Local Context"
+      ],
+      "author": [
+        {
+          "given": "Roberto G.",
+          "family": "Gonzales",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Pennsylvania"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "AERA Open"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "1425651aec42185556cd49921266ddd7c7b44940ef9b6e2939ee5bea00141e11",
+    "status": "access_failed"
+  },
+  {
+    "id": "M-N04",
+    "doi": "10.1186/s43031-023-00080-7",
+    "retrieved_utc": "2026-10-19T14:14:51.697884+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1186/s43031-023-00080-7",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1186/s43031-023-00080-7",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 467809,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1186/s43031-023-00080-7",
+      "title": [
+        "Refinement of an instrument measuring science teachers’ knowledge of language through mixed method"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2627-3712",
+          "authenticated-orcid": false,
+          "given": "Chenchen",
+          "family": "Ding",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Catherine",
+          "family": "Lammert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gavin W.",
+          "family": "Fulmer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Hand",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jee K.",
+          "family": "Suh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            21
+          ]
+        ]
+      },
+      "container-title": [
+        "Disciplinary and Interdisciplinary Science Education Research"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2023-08-21T00:00:00Z",
+            "timestamp": 1692576000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2023-08-21T00:00:00Z",
+            "timestamp": 1692576000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "32cdec4742ef9e4a1904a06afe86ee7e34883b2466fede2c18126ac8709c0bf0",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1186/s43031-023-00080-7",
+    "format": "html",
+    "raw_sha256": "70b81218031aee1c8daeab4566d12fcb90fa9270b78edc54853a62b94ffa154f",
+    "text_sha256": "a5e7282f48db883ff61fa8a1354d19d1563acfe1c785cfa5ced7219532a9abb4",
+    "text_characters": 72921,
+    "extraction": {
+      "sections": 20,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "48a7fdccb4245f974eabbdbb2d4e993faf4a38bf7cfde5ec463313e621f56ec1",
+    "reading_blocks": 317,
+    "reading_characters": 91922,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N05",
+    "doi": "10.1177/15586898231179508",
+    "retrieved_utc": "2026-10-19T14:14:51.956671+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.sagepub.com/doi/full-xml/10.1177/15586898231179508",
+        "status": 403,
+        "final_url": "https://journals.sagepub.com/doi/full-xml/10.1177/15586898231179508",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5642,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/full-xml/10.1177/15586898231179508"
+      },
+      {
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/15586898231179508",
+        "status": 403,
+        "final_url": "https://journals.sagepub.com/doi/pdf/10.1177/15586898231179508",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5627,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/pdf/10.1177/15586898231179508"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/15586898231179508",
+      "title": [
+        "Theorizing With Joint Displays: Salient Contributors to Improving Preservice Teachers’ Practice"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0290-1788",
+          "authenticated-orcid": false,
+          "given": "Allison R.",
+          "family": "Firestone",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Berkeley School of Education, University of California, Berkeley, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9163-1312",
+          "authenticated-orcid": false,
+          "given": "Rebecca A.",
+          "family": "Cruz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Innovative Teaching and Leadership, Johns Hopkins University, Baltimore, MD, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Darcie",
+          "family": "Massey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Berkeley School of Education, University of California, Berkeley, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of Mixed Methods Research"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                5
+              ]
+            ],
+            "date-time": "2023-06-05T00:00:00Z",
+            "timestamp": 1685923200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ]
+    },
+    "metadata_sha256": "0945fccf2cf247ff25cdff093fce48fa6d897652492f6152d7ecdb7db90e8206",
+    "status": "access_failed"
+  },
+  {
+    "id": "X-N01",
+    "doi": "10.1007/s11423-023-10234-z",
+    "retrieved_utc": "2026-10-19T14:14:54.538162+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s11423-023-10234-z",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s11423-023-10234-z",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 453521,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s11423-023-10234-z",
+      "title": [
+        "Missed opportunities in mixed methods EdTech research? Visual joint display development as an analytical strategy for achieving integration in mixed methods studies"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9186-9240",
+          "authenticated-orcid": false,
+          "given": "Mitchell",
+          "family": "Peters",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sergi",
+          "family": "Fàbregues",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            11
+          ]
+        ]
+      },
+      "container-title": [
+        "Educational technology research and development"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                11
+              ]
+            ],
+            "date-time": "2023-05-11T00:00:00Z",
+            "timestamp": 1683763200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                11
+              ]
+            ],
+            "date-time": "2023-05-11T00:00:00Z",
+            "timestamp": 1683763200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "c703a54d0388b380d41e16583c0f0878b86b06ea2c0ccd02ba41f207ea868e76",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s11423-023-10234-z",
+    "format": "html",
+    "raw_sha256": "ad36cd0af155d89d875af28d2f94114ee2d91869ff4367c075d17282e16f9acf",
+    "text_sha256": "8871062f15f5341126cb13222fc9e9f6e5436c890ab8e5c678870b8f98dad93d",
+    "text_characters": 60441,
+    "extraction": {
+      "sections": 14,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "864e14ee707cf15a08c678652d0abac48869fe394278f19bab487face1b61d28",
+    "reading_blocks": 183,
+    "reading_characters": 71408,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

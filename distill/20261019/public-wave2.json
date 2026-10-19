@@ -1,0 +1,62 @@
+{
+  "purpose": "第二批公网开发候选：扩大作者、研究设计和教育情境；获取成功不计为精读。",
+  "sources": [
+    {
+      "id": "Q-N03", "doi": "10.1257/aer.104.9.2633", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood",
+      "selection_question": "教师增值如何连接成年结局，如何组织识别依据、效应含义与政策判断；补充不同于短期心理干预的设计。",
+      "urls": ["https://www.aeaweb.org/articles/pdf/doi/10.1257/aer.104.9.2633", "https://dash.harvard.edu/bitstreams/7312037d-dfcf-6bd4-e053-0100007fdf3b/download"],
+      "version_note": "大学库可能提供工作论文；须读取首页核实版本，不将其直接当作期刊定稿。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N04", "doi": "10.3389/feduc.2022.948202", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "Interactions and social identity of support teachers: An ethnographic study of the marginalisation in the inclusive school",
+      "selection_question": "融合教育中的互动与身份怎样形成过程解释；核实民族志材料是否真的推动概念，而非只罗列访谈主题。",
+      "urls": ["https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.948202/xml/nlm", "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.948202/pdf"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N05", "doi": "10.1002/sce.21542", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "Illuminating political clarity in culturally relevant science instruction",
+      "selection_question": "文化相关科学教学如何从课堂实践形成有立场的解释；区分教师意图、实际互动与研究者的理论判断。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10588766/fullTextXML", "https://onlinelibrary.wiley.com/doi/pdf/10.1002/sce.21542"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N06", "doi": "10.1177/23328584241258449", "candidate_group": "qualitative_pending_article_type_screen", "exposure": "new_development", "language": "en",
+      "title": "Policy and Place: Immigration, Schooling, and the Local Context",
+      "selection_question": "地方情境与学校政策如何形成跨案例解释；需核实是否为新的实证分析，不能把研究回顾算作新实证来源。",
+      "urls": ["https://journals.sagepub.com/doi/full-xml/10.1177/23328584241258449", "https://journals.sagepub.com/doi/pdf/10.1177/23328584241258449"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N04", "doi": "10.1186/s43031-023-00080-7", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "Refinement of an instrument measuring science teachers’ knowledge of language through mixed method",
+      "selection_question": "测量修订中不同资料如何改变构念与题目的理解；核实整合阶段，不把量表检验加引语自动视为探索型整合。",
+      "urls": ["https://link.springer.com/article/10.1186/s43031-023-00080-7"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N05", "doi": "10.1177/15586898231179508", "candidate_group": "mixed_pending_article_type_screen", "exposure": "new_development", "language": "en",
+      "title": "Theorizing With Joint Displays: Salient Contributors to Improving Preservice Teachers’ Practice",
+      "selection_question": "联合展示是否帮助构成职前教师实践的理论解释；区分实证案例本身与方法示范，核实后再归组。",
+      "urls": ["https://journals.sagepub.com/doi/full-xml/10.1177/15586898231179508", "https://journals.sagepub.com/doi/pdf/10.1177/15586898231179508"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "X-N01", "doi": "10.1007/s11423-023-10234-z", "candidate_group": "methods_background", "exposure": "new_development", "language": "en",
+      "title": "Missed opportunities in mixed methods EdTech research? Visual joint display development as an analytical strategy for achieving integration in mixed methods studies",
+      "selection_question": "用作整合方法和原研究发现线索；方法论示范不凑入三类实证篇数。",
+      "urls": ["https://link.springer.com/article/10.1007/s11423-023-10234-z"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "X-ZH01", "doi": "10.16382/j.cnki.1000-5560.2020.09.007", "candidate_group": "review_background", "exposure": "new_development", "language": "zh",
+      "title": "从思辨到实证：教育公平研究范式的转型",
+      "selection_question": "检索命中后首页核读确认为文献计量研究，不能按检索中的混合研究词语归类。仅保留背景线索，尚未精读。",
+      "urls": ["https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=9373"],
+      "reading_status": "first_page_screened_only"
+    }
+  ]
+}

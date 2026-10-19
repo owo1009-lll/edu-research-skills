@@ -1,0 +1,62 @@
+[
+  {
+    "asset": "Fig1_HTML",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig1_HTML.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig1_HTML.jpg"
+  },
+  {
+    "asset": "Fig2_HTML",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig2_HTML.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig2_HTML.jpg"
+  },
+  {
+    "asset": "Fig3_ESM",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig3_ESM.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig3_ESM.jpg"
+  },
+  {
+    "asset": "Fig4_ESM",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig4_ESM.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig4_ESM.jpg"
+  },
+  {
+    "asset": "Fig5_ESM",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig5_ESM.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig5_ESM.jpg"
+  },
+  {
+    "asset": "Tab1_ESM",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Tab1_ESM.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Tab1_ESM.jpg"
+  },
+  {
+    "asset": "Tab2_ESM",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Tab2_ESM.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Tab2_ESM.jpg"
+  },
+  {
+    "asset": "Tab3_ESM",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Tab3_ESM.jpg",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Tab3_ESM.jpg"
+  },
+  {
+    "asset": "41586_2019_1466_Fig1_HTML.png",
+    "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig1_HTML.png",
+    "status": "downloaded",
+    "sha256": "9c0a7d91bd032d22e6c435f909868b5a6498725cca9e59fd11aa50dee080aa76"
+  },
+  {
+    "asset": "41586_2019_1466_Fig2_HTML.png",
+    "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-019-1466-y/MediaObjects/41586_2019_1466_Fig2_HTML.png",
+    "status": "downloaded",
+    "sha256": "36bea1bb5c3921a87fc48ed13118d9b3dc2ad370e84b1be671d68e02b3703bb1"
+  }
+]

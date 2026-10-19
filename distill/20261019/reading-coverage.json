@@ -1,7 +1,7 @@
 {
   "stage": "development_in_progress",
   "date": "2026-10-19",
-  "note": "Acquisition records retain acquisition-time statuses. This ledger records actual later reading. No item is an independent holdout. Main-text analysis does not imply all supplements or cited sources were read.",
+  "note": "Acquisition records retain acquisition-time statuses. This ledger records actual later reading. No item is an independent holdout. Stable IDs are not final design classifications. Main-text analysis does not imply all supplements or cited sources were read.",
   "records": [
     {
       "id": "Q-N01",
@@ -13,7 +13,10 @@
       "read_scope": "B001-B047; Table 1; Figures 1-2",
       "analysis": "papers/Q-N01.md",
       "use_status": "selected_writing_moves_only; numerical discrepancies remain unresolved",
-      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+      "not_read": "Supplementary documents and cited originals, unless separately recorded",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "confirmed_group": "quantitative"
     },
     {
       "id": "Q-N02",
@@ -21,9 +24,14 @@
       "exposure": "new_development",
       "acquisition_status": "downloaded_for_reading",
       "reading_sha256": "63bc083550fb087c9e1ffe91dbda2d2d79e1d465bdddd9af4bd467a7933390e0",
-      "reading_status": "downloaded_not_read",
-      "analysis": null,
-      "use_status": "await_fulltext_screening"
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/Q-N02.md",
+      "use_status": "selected_writing_moves_only; numerical reporting discrepancies recorded",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "confirmed_group": "quantitative",
+      "read_scope": "B001-B143; main Figures 1-2",
+      "not_read": "Supplementary PDF, source data and extended-data figure/table images; captions in XML read"
     },
     {
       "id": "L-N01",
@@ -31,9 +39,15 @@
       "exposure": "new_development",
       "acquisition_status": "downloaded_for_reading",
       "reading_sha256": "4dcadaebf1164115fbe7b56cef5dac13f9e481c47d76956b9b81cfe98d14208e",
-      "reading_status": "downloaded_not_read",
-      "analysis": null,
-      "use_status": "await_fulltext_screening"
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/L-N01.md",
+      "use_status": "limited_use; coded proportions and narratives from the same interviews, not independent strands",
+      "candidate_group": "qualitative_pending_design_screen",
+      "language": "en",
+      "confirmed_group": "mixed_data_transformation_boundary_case",
+      "read_scope": "B001-B170; Table 1; Figures 1-7",
+      "not_read": "Original interview records and cited originals unless separately recorded",
+      "classification_note": "Stable initial L-N01 ID retained; main-text Methods explicitly uses mixed-methods analysis; does not fill standard sequential/convergent design coverage"
     },
     {
       "id": "L-N02",
@@ -45,7 +59,10 @@
       "read_scope": "B001-B109; Tables 1-2; Figure 1",
       "analysis": "papers/L-N02.md",
       "use_status": "limited_use; participant/analyst attribution and reporting issues recorded",
-      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+      "not_read": "Supplementary documents and cited originals, unless separately recorded",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "confirmed_group": "qualitative"
     },
     {
       "id": "M-N01",
@@ -57,7 +74,10 @@
       "read_scope": "B001-B129; Tables 1-11; Figure 1",
       "analysis": "papers/M-N01.md",
       "use_status": "selected_integration_moves; reporting issues recorded",
-      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+      "not_read": "Supplementary documents and cited originals, unless separately recorded",
+      "candidate_group": "mixed",
+      "language": "en",
+      "confirmed_group": "mixed"
     },
     {
       "id": "Q-R01",
@@ -69,7 +89,8 @@
       "reading_sha256": "72fba8feda822364c5050867ee31a11dede588284a8af5afa4efabf562e44e6a",
       "analysis": "papers/Q-R01.md",
       "use_status": "selected_writing_moves_only",
-      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+      "not_read": "Supplementary documents and cited originals, unless separately recorded",
+      "confirmed_group": "quantitative"
     },
     {
       "id": "M-R01",
@@ -81,7 +102,192 @@
       "reading_sha256": "1526a93f3aaf8571cd2d5924b45d16b16c14ed17728d2f7df896197710f5426c",
       "analysis": "papers/M-R01.md",
       "use_status": "selected_writing_moves_only",
-      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+      "not_read": "Supplementary documents and cited originals, unless separately recorded",
+      "confirmed_group": "mixed"
+    },
+    {
+      "id": "M-N02",
+      "doi": "10.1016/j.cedpsych.2018.10.005",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "mixed",
+      "language": "en",
+      "acquisition_status": "public_fulltext_not_yet_confirmed",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "M-N03",
+      "doi": "10.1037/edu0000410",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "mixed",
+      "language": "en",
+      "acquisition_status": "seeking_public_author_or_institution_fulltext",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "L-N03",
+      "doi": "10.1177/0003122414546931",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "acquisition_status": "seeking_public_author_or_institution_fulltext",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "Q-N03",
+      "doi": "10.1257/aer.104.9.2633",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "81e1cfa9f03aa3108ec0f25e456c5973b350a87917cbd1564a8e0f585a8673e5",
+      "reading_status": "downloaded_not_read",
+      "version_note": "Author public PDF acquired after publisher/institution failures; full-text identity/version and PDF order still require visual check; one article across retry records"
+    },
+    {
+      "id": "L-N04",
+      "doi": "10.3389/feduc.2022.948202",
+      "exposure": "new_development",
+      "analysis": "papers/L-N04.md",
+      "use_status": "selected_interaction_and_identity_writing_moves; overgeneralizations and reporting conflicts recorded",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "dc05e5d4ce0cc37326f9546701b399abf065800343d6d9324cb32aa4e4f5ea64",
+      "reading_status": "main_text_read_and_analysis_written",
+      "confirmed_group": "qualitative",
+      "read_scope": "B001-B095; main text through B087; source XML has no figure/table/supplement nodes",
+      "not_read": "Original interview/field records and cited originals"
+    },
+    {
+      "id": "L-N05",
+      "doi": "10.1002/sce.21542",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "acquisition_status": "access_failed",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "L-N06",
+      "doi": "10.1177/23328584241258449",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "qualitative_pending_article_type_screen",
+      "language": "en",
+      "acquisition_status": "access_failed",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "M-N04",
+      "doi": "10.1186/s43031-023-00080-7",
+      "exposure": "new_development",
+      "analysis": "papers/M-N04.md",
+      "use_status": "selected_item_level_integration_moves; dimensionality and reporting concerns recorded",
+      "candidate_group": "mixed",
+      "language": "en",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "48a7fdccb4245f974eabbdbb2d4e993faf4a38bf7cfde5ec463313e621f56ec1",
+      "reading_status": "main_text_read_and_analysis_written",
+      "confirmed_group": "mixed",
+      "read_scope": "B001-B134; main text through B124; Tables 1-5 and footnotes; Figures 1-3; supplemental questionnaire DOCX paragraphs and table",
+      "not_read": "Raw survey/interview data and cited original instrument paper"
+    },
+    {
+      "id": "M-N05",
+      "doi": "10.1177/15586898231179508",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "mixed_pending_article_type_screen",
+      "language": "en",
+      "acquisition_status": "access_failed",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "X-N01",
+      "doi": "10.1007/s11423-023-10234-z",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "methods_background_not_primary_empirical_count; downloaded_not_read",
+      "candidate_group": "methods_background",
+      "language": "en",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "864e14ee707cf15a08c678652d0abac48869fe394278f19bab487face1b61d28",
+      "reading_status": "downloaded_not_read"
+    },
+    {
+      "id": "X-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2020.09.007",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "background_only_not_primary_empirical_count",
+      "candidate_group": "review_background",
+      "language": "zh",
+      "acquisition_status": "not_in_registered_acquisition_run",
+      "reading_status": "first_page_screened_only",
+      "read_scope": "PDF page 1 only; not a full-text writing analysis",
+      "confirmed_group": "review_background"
+    },
+    {
+      "id": "Q-N04",
+      "doi": "10.1177/23328584211071115",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "acquisition_status": "access_failed",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "L-N07",
+      "doi": "10.1177/23328584221078328",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "be36fcb5970916f32d876db0905271d79fabaddb9531efc45ce226d47da65c40",
+      "reading_status": "downloaded_not_read"
+    },
+    {
+      "id": "L-N08",
+      "doi": "10.1177/23328584211062587",
+      "exposure": "new_development",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "candidate_group": "qualitative_pending_article_type_screen",
+      "language": "en",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "6120791492e9a0a9d1241aab3f0bb41c07b10807903bd0b794478ae52485cb4c",
+      "reading_status": "downloaded_not_read"
+    },
+    {
+      "id": "M-N06",
+      "doi": "10.1186/s41239-018-0107-0",
+      "exposure": "new_development",
+      "analysis": "papers/M-N06.md",
+      "use_status": "limited_use; functional interpretation and counterexamples; statistical and attribution conflicts recorded",
+      "candidate_group": "mixed",
+      "language": "en",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "07d29c3d28498f8322959efcdd784cb4facb3c4d9731b38deba6e4e7fb0a8b78",
+      "reading_status": "main_text_read_and_analysis_written",
+      "confirmed_group": "mixed",
+      "read_scope": "B001-B071; main text through B067; Tables 1-6 and footnotes; Figures 1-3",
+      "not_read": "Original survey/interview records and cited originals"
     }
   ]
 }

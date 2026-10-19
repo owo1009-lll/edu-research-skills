@@ -1,0 +1,126 @@
+{
+  "scope": "Tracked/development distill and evals Markdown/JSON excluding this 20261019 directory; DOI and exact title literal case-insensitive search",
+  "limitations": "Historical W identities incomplete; exact-title search can miss punctuation/title variants; this is not an exhaustive deduplication claim",
+  "records": [
+    {
+      "id": "Q-N01",
+      "doi": "10.1126/sciadv.aba4677",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "Q-N02",
+      "doi": "10.1038/s41586-019-1466-y",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N01",
+      "doi": "10.1186/s40594-018-0115-6",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N02",
+      "doi": "10.1186/s41239-020-0180-z",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N01",
+      "doi": "10.1007/s12186-019-09238-9",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N02",
+      "doi": "10.1016/j.cedpsych.2018.10.005",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N03",
+      "doi": "10.1037/edu0000410",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N03",
+      "doi": "10.1177/0003122414546931",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "Q-N03",
+      "doi": "10.1257/aer.104.9.2633",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N04",
+      "doi": "10.3389/feduc.2022.948202",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N05",
+      "doi": "10.1002/sce.21542",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N06",
+      "doi": "10.1177/23328584241258449",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N04",
+      "doi": "10.1186/s43031-023-00080-7",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N05",
+      "doi": "10.1177/15586898231179508",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "X-N01",
+      "doi": "10.1007/s11423-023-10234-z",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "X-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2020.09.007",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "Q-N04",
+      "doi": "10.1177/23328584211071115",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N07",
+      "doi": "10.1177/23328584221078328",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-N08",
+      "doi": "10.1177/23328584211062587",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N06",
+      "doi": "10.1186/s41239-018-0107-0",
+      "doi_matches": [],
+      "exact_title_matches": []
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+[
+  {
+    "id": "Q-N03",
+    "doi": "10.1257/aer.104.9.2633",
+    "retrieved_utc": "2026-10-19T14:31:56.019424+00:00",
+    "attempts": [
+      {
+        "url": "https://rajchetty.com/wp-content/uploads/2021/04/w19424.pdf",
+        "status": 200,
+        "final_url": "https://rajchetty.com/wp-content/uploads/2021/04/w19424.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1007570,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1257/aer.104.9.2633",
+      "title": [
+        "Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood"
+      ],
+      "author": [
+        {
+          "given": "Raj",
+          "family": "Chetty",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Harvard University, Littauer Center 226, Cambridge, MA 02138 (e-mail: )"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John N.",
+          "family": "Friedman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harvard University, Taubman Center 356, Cambridge, MA 02138 (e-mail: )"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonah E.",
+          "family": "Rockoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Columbia University, Uris 603, New York, NY 10027 (e-mail: )"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            9,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "American Economic Review"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "59b69f7be17e31149d97266f37a9e96cad2a3f7a55e2c84d68f832259e58dd9a",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://rajchetty.com/wp-content/uploads/2021/04/w19424.pdf",
+    "format": "pdf",
+    "raw_sha256": "9b089cdeb56ec790e34c3c64a0c4327889f1bbbc3a2d8c31c3aa6bcc6324b2fb",
+    "text_sha256": "278fb403404c25d244fed7a853d3eb2be05c23a22607bc0e2fabf0f9fb0076a2",
+    "text_characters": 209103,
+    "extraction": {
+      "pages": 77,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "Manual title/author/version verification required: DOI absent",
+    "reading_sha256": "81e1cfa9f03aa3108ec0f25e456c5973b350a87917cbd1564a8e0f585a8673e5",
+    "reading_blocks": 77,
+    "reading_characters": 213644,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N04",
+    "doi": "10.1177/23328584211071115",
+    "retrieved_utc": "2026-10-19T14:31:56.019424+00:00",
+    "attempts": [
+      {
+        "url": "https://researchonline.gcu.ac.uk/files/66034715/23328584211071115.pdf",
+        "status": 403,
+        "final_url": "https://researchonline.gcu.ac.uk/files/66034715/23328584211071115.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5704,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://researchonline.gcu.ac.uk/files/66034715/23328584211071115.pdf"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/23328584211071115",
+      "title": [
+        "School Absenteeism and Academic Achievement: Does the Reason for Absence Matter?"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1195-8938",
+          "authenticated-orcid": false,
+          "given": "Markus",
+          "family": "Klein",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Edward M.",
+          "family": "Sosu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Strathclyde"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shadrach",
+          "family": "Dare",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Dundee"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "AERA Open"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2022-01-01T00:00:00Z",
+            "timestamp": 1640995200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "55864be7f01f8f0725ff68922110b3e1d682eae06e1e9b0a425d97b548cbeb31",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N07",
+    "doi": "10.1177/23328584221078328",
+    "retrieved_utc": "2026-10-19T14:31:56.020428+00:00",
+    "attempts": [
+      {
+        "url": "https://files.eric.ed.gov/fulltext/EJ1360338.pdf",
+        "status": 200,
+        "final_url": "https://files.eric.ed.gov/fulltext/EJ1360338.pdf",
+        "content_type": "application/pdf",
+        "bytes": 625552,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/23328584221078328",
+      "title": [
+        "Policy Enactment During a Pandemic: How One School Responded to COVID-19 in Negotiation With a Nonprofit Partner"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4314-6064",
+          "authenticated-orcid": false,
+          "given": "Lisa M.",
+          "family": "Dorner",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Missouri–Columbia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5282-4226",
+          "authenticated-orcid": false,
+          "given": "Kelly",
+          "family": "Harris",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Washington University in St. Louis"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Blake",
+          "family": "Willoughby",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Missouri–Columbia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "AERA Open"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2022-01-01T00:00:00Z",
+            "timestamp": 1640995200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "671bbfeced19b51b9b1aba0a83148cbb661a312552dfabee372512fa58a38d5a",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://files.eric.ed.gov/fulltext/EJ1360338.pdf",
+    "format": "pdf",
+    "raw_sha256": "0bf072101daea42d422a531a64a38657b6dc3bcd43dc7a39be7ca0d43da32a18",
+    "text_sha256": "00c75614d8f1087c1886c20c26f8450f1244d169ab3d1688e3868d45d3bb7050",
+    "text_characters": 86391,
+    "extraction": {
+      "pages": 16,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "be36fcb5970916f32d876db0905271d79fabaddb9531efc45ce226d47da65c40",
+    "reading_blocks": 16,
+    "reading_characters": 87331,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N08",
+    "doi": "10.1177/23328584211062587",
+    "retrieved_utc": "2026-10-19T14:32:00.410987+00:00",
+    "attempts": [
+      {
+        "url": "https://files.eric.ed.gov/fulltext/EJ1360115.pdf",
+        "status": 200,
+        "final_url": "https://files.eric.ed.gov/fulltext/EJ1360115.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1860527,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/23328584211062587",
+      "title": [
+        "When Learning Is Life Giving: Redesigning Schools With Indigenous Systems of Relationality"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6995-9514",
+          "authenticated-orcid": false,
+          "family": "Meixi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Minnesota"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0604-084X",
+          "authenticated-orcid": false,
+          "given": "Fernando",
+          "family": "Moreno-Dulcey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidad Icesi"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lucia",
+          "family": "Alcalá",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "California State University, Fullerton"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7292-3547",
+          "authenticated-orcid": false,
+          "given": "Ulrike",
+          "family": "Keyser",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidad Pedagógica Nacional"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emma",
+          "family": "Elliott-Groves",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Washington"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "AERA Open"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2022-01-01T00:00:00Z",
+            "timestamp": 1640995200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "555719bd23adea98cd0f743903474be57f8c5e328e28965b8cd524a9f0e61da3",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://files.eric.ed.gov/fulltext/EJ1360115.pdf",
+    "format": "pdf",
+    "raw_sha256": "47a54564905d3627641ac5c34713ded6cfbe09fbea705e6c4ec030785c0654f1",
+    "text_sha256": "6280642c9bc4746856bf29918093274fbfacdac6b09f5cf6ed11d0b758a093ab",
+    "text_characters": 75029,
+    "extraction": {
+      "pages": 16,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "6120791492e9a0a9d1241aab3f0bb41c07b10807903bd0b794478ae52485cb4c",
+    "reading_blocks": 16,
+    "reading_characters": 75969,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N06",
+    "doi": "10.1186/s41239-018-0107-0",
+    "retrieved_utc": "2026-10-19T14:32:02.833195+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1186/s41239-018-0107-0",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1186/s41239-018-0107-0",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 426497,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1186/s41239-018-0107-0",
+      "title": [
+        "Online learning readiness and attitudes towards gaming in gamified online learning – a mixed methods case study"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6030-3247",
+          "authenticated-orcid": false,
+          "given": "Klaudia",
+          "family": "Bovermann",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joshua",
+          "family": "Weidlich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Theo",
+          "family": "Bastiaens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            17
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Educational Technology in Higher Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2018-07-17T00:00:00Z",
+            "timestamp": 1531785600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "4c8a6d17cf220d1b1e7c103a2dfbeb97f4c12cb537108a13a776350e38b752f5",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1186/s41239-018-0107-0",
+    "format": "html",
+    "raw_sha256": "c42658ad627a427a4cf22dc788f4d889e272ad2220b6b1591161d18d936877d4",
+    "text_sha256": "8b375c02aec8ce78e076b85fd10a59f2b8ef24d34f1bdecd01a5296d63b6cc62",
+    "text_characters": 55222,
+    "extraction": {
+      "sections": 10,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "07d29c3d28498f8322959efcdd784cb4facb3c4d9731b38deba6e4e7fb0a8b78",
+    "reading_blocks": 208,
+    "reading_characters": 67693,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]
