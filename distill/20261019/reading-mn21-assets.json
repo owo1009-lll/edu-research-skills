@@ -1,0 +1,52 @@
+{
+  "source_id": "M-N21",
+  "source_url": "https://link.springer.com/content/pdf/10.1186/s43058-025-00810-0.pdf",
+  "renderer": "PyMuPDF 1.27.2.2",
+  "scale": 1.5,
+  "source_sha256": "ec55c38689536902b82c44099041d2cf03a580419913ee73199c87a49731b442",
+  "reading_sha256": "d8e8df5d86604547fbbc2eb380f93e83ec5889b27bdcb678986d2bab947a3175",
+  "images": [
+    {
+      "page": 4,
+      "file": "page-04.png",
+      "sha256": "d135806ac568eed879c866ed6afc468a06bf294c307c87d25350019cf7ea9ea5"
+    },
+    {
+      "page": 5,
+      "file": "page-05.png",
+      "sha256": "401e394c330ae4d7162c826050007cb2cd9869696e62655cc3859312686dbaa1"
+    },
+    {
+      "page": 7,
+      "file": "page-07.png",
+      "sha256": "a84b62562eb53ed2c3df33bc2fbf67e1dfd85ca39131979312ca946408d9d802"
+    },
+    {
+      "page": 8,
+      "file": "page-08.png",
+      "sha256": "75f5fe36d6e59769f11612463aa49bcf873435eac5df6530e4eddebd3a53273a"
+    },
+    {
+      "page": 9,
+      "file": "page-09.png",
+      "sha256": "424fbedf31ede59817589c338ac2ed461a950e64cfddf154242c1e9b64e206a6"
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "sha256": "7fb91fad369fa9d89745bb12c121248eb8b30e91913308f3dad83eaff66271cc"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "6c24ae9e532b21bb0f9dc5caefb9570259c40917040070856d1193da43617ab1"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "4423ffe74f3374887d9dd2697e6ceb229ebe1603d0b9222d49179b21cf4bcfb2"
+    }
+  ],
+  "reading_scope": "All images listed were actually viewed after rendering. PDF and previews remain outside the public repository.",
+  "reproduction": "Acquire the registered M-N21 PDF with fetch_sources.py, then render the listed 1-based pages using page.get_pixmap(matrix=fitz.Matrix(1.5,1.5)).save(path). The four Table 3 pages retain their printed sideways orientation."
+}

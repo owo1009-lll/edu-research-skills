@@ -149,3 +149,24 @@ Current English totals: 51 candidates, 37 acquired full texts, 33 empirical/boun
 M-N19 subsequently completed full English reading and analysis. The family-interaction paragraph explains three unchanged responses through role and established practice; the note retains two interview counterexamples, the unlinked-strand boundary and two table/text reporting conflicts. The [reading manifest](reading-mn19-assets.json) records eight actually inspected PDF pages. Current totals are 34 new empirical/boundary analyses: quantitative 11, qualitative 11, mixed 11 and boundary 1; candidate/acquisition counts remain 51/37. One methodological application and two rereads stay separate. This is source analysis, not a behavioral writing-effect finding.
 
 [Verification 15](record-verification-15.json) checks the M-N19 record, the other 56 unchanged records, four unchanged historical Chinese records and the actual runtime freeze. The only runtime changes are the review annotation script and language-field instructions. Separate public English synthetic review tasks validate that workflow's default delivery, not the broader writing-distillation objective.
+
+## Wave 11: English organizational and practitioner perspectives
+
+The three DOIs in [this manifest](public-wave11.json) were not found in earlier registered source records. Selection targets collaborative autoethnography, early-childhood professional learning and implementation in inclusive elementary classrooms. All are development candidates. A search also returned Lareau's *Invisible Inequality*, already registered as E10 in the previous corpus; it was not counted again. Historical entries with incomplete identities still limit deduplication.
+
+| ID | Acquisition and actual reading | Current use |
+|---|---|---|
+| L-N16 | Crossref identity and indexed excerpts checked; publisher PDF returned 403 | Collaborative-autoethnography candidate. No full reading or analysis claim. |
+| M-N20 | Crossref and PMC identity checked; PDF endpoint returned HTML challenge content; accessible HTML was only partly screened | Head Start professional-learning candidate. Complete extraction and full reading remain pending. An accessible page is not counted as acquired-and-read full text. |
+| M-N21 | Publisher PDF acquired and all 15 pages read; Tables 1–4 and eight page images inspected | Sequential explanatory mixed-methods analysis. Availability, preferences and specific work arrangements contribute different information; the table's convergence labels are examined rather than automatically adopted. |
+
+M-N21's Crossref request returned 429; the publisher record and PDF establish the identity used here. Its references identify a larger research programme and related reports. Those reports were not read or counted as additional independent studies. Both supplementary files remain unread. The [English analysis](papers/M-N21.md) includes sentence, paragraph and whole-article work, a newly composed before/after/compressed example, and unresolved source discrepancies. Source text and images stay outside the repository.
+
+To reproduce acquisition with a new reader-chosen external cache, use the existing tools:
+
+```powershell
+python -X utf8 distill/20261018/fetch_sources.py --manifest distill/20261019/public-wave11.json --out <cache>
+python -X utf8 distill/20261018/prepare_reading.py --manifest distill/20261019/public-wave11.json --cache <cache> --digest <new-digest.json>
+```
+
+The [original acquisition digest](acquisition-public-wave11.json) retains the two failures; a future successful retry should preserve them. [Reading assets](reading-mn21-assets.json) list the exact M-N21 pages and rendering scale. [Verification 16](record-verification-16.json) checks this increment against `fac7429c426696ff3deeb4baf1122497cda4c6fd`: 57 previous reading records, including four excluded historical Chinese records, remain unchanged. The 203 runtime files are unchanged. Source analysis is not a behavioral improvement result, and the overall objective remains unfinished.

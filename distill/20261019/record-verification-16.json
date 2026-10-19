@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-10-19T23:44:59.462090+00:00",
+  "comparison_commit": "fac7429c426696ff3deeb4baf1122497cda4c6fd",
+  "status": "passed",
+  "english_new_candidates": 54,
+  "english_acquired_fulltexts": 38,
+  "english_new_empirical_or_boundary_analyses": 35,
+  "confirmed_empirical_groups": {
+    "quantitative": 11,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 11,
+    "mixed": 12
+  },
+  "english_methodological_application_analyses": 1,
+  "english_rereads_separate": 2,
+  "unchanged_previous_reading_records": 57,
+  "historical_chinese_records_unchanged": 4,
+  "new_reading_records": [
+    "L-N16",
+    "M-N20",
+    "M-N21"
+  ],
+  "new_full_analyses": [
+    "M-N21"
+  ],
+  "source_pdf_pages": 15,
+  "actually_viewed_page_image_hashes_verified": 8,
+  "analysis_note_reading_hash_references_verified": 38,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 65,
+  "note": "English-only public development sources. Other wave 11 candidates remain incomplete; no new Chinese task, final holdout or whole-goal completion claim. No functional changes; unrelated tests were not rerun.",
+  "authored_relative_markdown_links_checked": 290
+}

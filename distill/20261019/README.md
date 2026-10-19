@@ -36,7 +36,7 @@
 
 ## 分批推进记录
 
-以下按发生顺序保留各批当时的数量与状态，早期中文条目只反映历史接触。最新有效进度为 34 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，详见[当前语料表](corpus.md)。写作与压缩评测也均使用英文。中文开发笔记不等于中文语料；没有继续中文文献或中文写作测试。
+以下按发生顺序保留各批当时的数量与状态，早期中文条目只反映历史接触。最新有效进度为 35 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，详见[当前语料表](corpus.md)。写作与压缩评测也均使用英文。中文开发笔记不等于中文语料；没有继续中文文献或中文写作测试。
 
 - 已修改八个写作文件：入口与 `argument.md` 补列混合路线；`analysis-bridge.md`、`prose-en.md`、`qualitative-narrative.md`、`voice-en.md`、`voice-zh.md` 及 `conclusion-implications.md` 修复上表中的直接冲突。相邻建议要求同步允许有明确文献或规范依据的推导，避免一处允许、另一处仍强求本研究发现。没有恢复上一轮整套混合候选；没有修改 PPT、统计或期刊检索实现。
 - 已完成两篇旧文复读：[定量 Q-R01](papers/Q-R01.md)、[混合 M-R01](papers/M-R01.md)。它们不计入新增或独立评测。
@@ -100,3 +100,5 @@ The [L-C01 English qualitative comparison](../../evals/writing-20261020-lc01/REA
 Subsequently, [M-N19](papers/M-N19.md) was read in full, including its joint display and eight rendered pages. Its English sentence/paragraph/article analysis and same-fact edits show how open responses change the meaning of an unchanged survey category. Counterexamples, unmatched participants and source reporting conflicts remain visible. Current English totals are 51 candidates, 37 acquired and 34 empirical/boundary analyses (quantitative 11, qualitative 11, mixed 11, boundary 1), plus one methodological application and two rereads. All four historical Chinese reading records remain unchanged.
 
 The review generator's fixed Chinese labels conflicted with its manuscript-language rule. A small explicit-language patch now produces English labels for English plans; 37 review test methods pass. Three new independent English excerpt tasks also delivered native annotations without rewriting or separate reports; see [public inputs, actual outputs, failures and inspection limits](../../evals/review-forward-20261020/README.md). The frozen runtime differs in only two review files; writing, PPT, statistics and journal-search bytes are unchanged. These synthetic review tasks are separate from expert-paper distillation and final writing evaluation. [Record verification](record-verification-15.json) documents this increment; the broader objective remains active.
+
+[Wave 11](public-wave11.json) adds three English public-source candidates. [M-N21](papers/M-N21.md) has now been read through all 15 pages and four tables, with eight rendered pages inspected. Its English analysis and same-fact edits examine how accounts make organizational ratings actionable while retaining the authors' practical position and source reporting conflicts. The other two candidates remain incompletely acquired/read. Current totals are 54 English candidates, 38 acquired full texts and 35 empirical/boundary analyses (quantitative 11, qualitative 11, mixed 12, boundary 1), plus one methodological application and two rereads. [Verification 16](record-verification-16.json) checks the unchanged historical Chinese records and runtime. No new Chinese task or behavioral writing comparison was run.

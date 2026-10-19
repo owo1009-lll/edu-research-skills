@@ -869,6 +869,47 @@
       "analysis": "papers/M-N19.md",
       "not_read": "Raw data, complete instruments, full transcripts, linked policy materials and cited originals",
       "classification_note": "Convergent design; joint display plus open responses interpreting quantitative categories; anonymous strands cannot be individually matched"
+    },
+    {
+      "id": "L-N16",
+      "doi": "10.1080/1359866X.2024.2330081",
+      "exposure": "new_development",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "access_failed",
+      "reading_status": "identity_and_search_excerpts_screened_only",
+      "read_scope": "Crossref identity, publisher metadata and indexed excerpts; publisher PDF request returned 403. No full text read.",
+      "use_status": "pending_public_full_text_and_classification"
+    },
+    {
+      "id": "M-N20",
+      "doi": "10.1080/09669760.2025.2522894",
+      "exposure": "new_development",
+      "candidate_group": "mixed",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "access_failed",
+      "reading_status": "partial_html_screening_only",
+      "read_scope": "PMC identity, abstract, methods and opening results screened incompletely. PDF endpoint returned a challenge page rather than a PDF. Public HTML is accessible, but full reading and a complete local extraction remain pending.",
+      "use_status": "pending_complete_acquisition_reading_and_classification"
+    },
+    {
+      "id": "M-N21",
+      "doi": "10.1186/s43058-025-00810-0",
+      "exposure": "new_development",
+      "candidate_group": "mixed",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "main_text_read_and_analysis_written",
+      "reading_sha256": "d8e8df5d86604547fbbc2eb380f93e83ec5889b27bdcb678986d2bab947a3175",
+      "confirmed_group": "mixed",
+      "analysis": "papers/M-N21.md",
+      "read_scope": "B001-B015; all 15 PDF pages, Tables 1-4, declarations and reference list; rendered pages 4,5,7,8,9,10,11,12 actually inspected",
+      "not_read": "Both supplementary files, complete transcripts, survey responses, cited originals and linked study protocol",
+      "use_status": "selected_local_writing_moves_and_contrast_source; reporting conflicts retained; no runtime adoption",
+      "classification_note": "Sequential explanatory design; interviews drawn from surveyed educators using practice-use categories, with aggregate construct-level integration rather than displayed individual rating/account matches"
     }
   ],
   "current_scope": {

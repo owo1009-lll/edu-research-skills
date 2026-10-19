@@ -2,7 +2,7 @@
 
 状态：开发候选，尚未加载到正式 skill。Q-C01、L-C01、M-C01 均已完成各一项英文研究上的新写／压缩对照，具体结果及限度见各节；三项候选均未进入运行规则。下列旧样稿提供具体编辑问题及基线已有能力的线索，不代表这些问题在当前版本普遍存在。它们来自上一轮 p/q/r 的相应快照；本轮基线仍是 `684f5e435b76daf8d0109c9c6a93297542c59889`，不能互相替换。
 
-本轮目前完成 30 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，远未完成语料规模和覆盖。这里先做类型内部的局部比较，不据此宣布跨类型共性或最终选择。每项都可能因当前基线已能完成、加载收益不足或带来退步而不进入运行规则。
+本轮目前完成 35 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，远未完成语料规模和覆盖。这里先做类型内部的局部比较，不据此宣布跨类型共性或最终选择。每项都可能因当前基线已能完成、加载收益不足或带来退步而不进入运行规则。
 
 ## Q-C01：解释一个指标或比较为什么承担当前判断
 
@@ -134,6 +134,8 @@ The [M-C01 comparison](../../evals/writing-20261020-mc01/README.md) has now comp
 Both notes contain original English same-fact edits. They remain development illustrations, not evidence that the current skill fails or that either previously tested candidate should now be adopted. The existing guidance already allows these actions; new tests need an actual unresolved output problem and an appropriate transfer task.
 
 [M-N19](papers/M-N19.md), pp. 8–12, extends this comparison with the meaning of an unchanged response. Open responses distinguish no opportunity for parent contact from an established practice, so the same survey category no longer implies one shared experience. The English edit gives that distinction the main sentence while retaining the three-response scope. The joint display's broad practice item is not treated as a separate quantitative measure of each qualitative theme. This provides a positive development example alongside M-N15 and M-N17; it does not justify adopting the previously inconclusive M-C01 addition without new transfer evidence.
+
+[M-N21](papers/M-N21.md), Tables 3–4 and pp. 11–12, adds a distinction between the availability of a resource and educators' desire for it. A low rewards score alone does not select the action to recommend; accounts about professional responsibility and preparation time change its practical meaning. The positive paragraph moves from non-overlapping schedules to coordination and relevant training, retaining the authors' position that schools should support general educators while locating workload and untested effects with the proposal. This is a different action from treating all low scores as deficits to reverse. The source's broad convergence labels and recognition-rating conflict are retained as counterexamples. This remains a development comparison; no additional runtime rule or stable writing gain follows from reading it.
 
 ## 此阶段不作出的归纳
 
