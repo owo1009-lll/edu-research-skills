@@ -1,0 +1,40 @@
+test_empty_plan_passes_and_never_overwrites (test_review_annotations.Annotations.test_empty_plan_passes_and_never_overwrites) ... ok
+test_overlap_and_unsupported_field_anchor_rejected (test_review_annotations.Annotations.test_overlap_and_unsupported_field_anchor_rejected) ... ok
+test_pdf_modified_comment_or_page_content_fails (test_review_annotations.Annotations.test_pdf_modified_comment_or_page_content_fails) ... ok
+test_pdf_native_comments_existing_note_and_exact_repeated_number (test_review_annotations.Annotations.test_pdf_native_comments_existing_note_and_exact_repeated_number) ... ok
+test_pdf_rotated_and_multiline_anchors (test_review_annotations.Annotations.test_pdf_rotated_and_multiline_anchors) ... ok
+test_word_preserves_text_tables_images_fields_comments_and_revisions (test_review_annotations.Annotations.test_word_preserves_text_tables_images_fields_comments_and_revisions) ... ok
+test_word_tampering_with_text_comment_revision_or_image_fails (test_review_annotations.Annotations.test_word_tampering_with_text_comment_revision_or_image_fails) ... ok
+test_word_without_comment_part_and_partial_multirun_anchor (test_review_annotations.Annotations.test_word_without_comment_part_and_partial_multirun_anchor) ... ok
+test_wrong_anchor_and_changed_source_rejected_without_output (test_review_annotations.Annotations.test_wrong_anchor_and_changed_source_rejected_without_output) ... ok
+test_consistent_english_manuscript_passes (test_review_response.Consistency.test_consistent_english_manuscript_passes) ... ok
+test_keyword_variants_found_without_term_group (test_review_response.Consistency.test_keyword_variants_found_without_term_group) ... ok
+test_seeded_chinese_manuscript (test_review_response.Consistency.test_seeded_chinese_manuscript) ... ok
+test_evaluative_wording_is_a_review_cue_not_a_fault (test_review_response.Prose.test_evaluative_wording_is_a_review_cue_not_a_fault) ... ok
+test_no_chinese_references (test_review_response.Prose.test_no_chinese_references) ... ok
+test_published_style_passes (test_review_response.Prose.test_published_style_passes) ... ok
+test_weak_discussion_is_flagged (test_review_response.Prose.test_weak_discussion_is_flagged) ... ok
+test_evaluative_wording_is_a_review_cue_not_a_fault (test_review_response.ProseEnglish.test_evaluative_wording_is_a_review_cue_not_a_fault) ... ok
+test_narrative_discussion_flagged_only_for_hypothesis_testing (test_review_response.ProseEnglish.test_narrative_discussion_flagged_only_for_hypothesis_testing) ... ok
+test_published_style_passes (test_review_response.ProseEnglish.test_published_style_passes) ... ok
+test_sections_found_from_topic_headings (test_review_response.ProseEnglish.test_sections_found_from_topic_headings) ... ok
+test_weak_prose_is_flagged (test_review_response.ProseEnglish.test_weak_prose_is_flagged) ... ok
+test_fullwidth_signs_table_mentions_and_numbering (test_review_response.RealManuscriptConventions.test_fullwidth_signs_table_mentions_and_numbering) ... ok
+test_voice_check_stops_at_back_matter_in_word (test_review_response.RealManuscriptConventions.test_voice_check_stops_at_back_matter_in_word) ... ok
+test_seeded_statements (test_review_response.Reporting.test_seeded_statements) ... ok
+test_placeholders_deleted_quotes_and_procedural_items (test_review_response.Response.test_placeholders_deleted_quotes_and_procedural_items) ... ok
+test_redline_keeps_tables_in_place_and_whole_numbers (test_review_response.Response.test_redline_keeps_tables_in_place_and_whole_numbers) ... ok
+test_reference_list_labels_not_superscript (test_review_response.Response.test_reference_list_labels_not_superscript) ... ok
+test_response_checks_and_redline (test_review_response.Response.test_response_checks_and_redline) ... ok
+test_empty_field_negated_probability_and_multiline_values (test_review_response.Review.test_empty_field_negated_probability_and_multiline_values) ... ok
+test_numbered_sections_back_matter_and_evidence_pointing_to_concern (test_review_response.Review.test_numbered_sections_back_matter_and_evidence_pointing_to_concern) ... ok
+test_structure_checks (test_review_response.Review.test_structure_checks) ... ok
+test_conceptual_distinction_is_not_a_disclaimer (test_review_response.VoiceCues.test_conceptual_distinction_is_not_a_disclaimer) ... ok
+test_may_partly_is_one_qualifier (test_review_response.VoiceCues.test_may_partly_is_one_qualifier) ... ok
+test_null_turned_into_equivalence_or_exclusive_mechanism_needs_semantic_check (test_review_response.VoiceCues.test_null_turned_into_equivalence_or_exclusive_mechanism_needs_semantic_check) ... ok
+test_number_check_states_its_limits (test_review_response.VoiceCues.test_number_check_states_its_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 3.115s
+
+OK

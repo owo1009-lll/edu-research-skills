@@ -1,43 +1,34 @@
 ---
 name: edu-review
-description: Simulate peer review of an education research manuscript or grant application before submission - two or three independent reviewer reports (methods, field and theory, and optionally an editor's view) with numbered major and minor concerns, each tied to a location in the manuscript and a test for when it is resolved, then a synthesis of consensus problems and a prioritized revision list, for Chinese (CSSCI) or English (SSCI) journals. Use for 模拟审稿、投稿前自审、外审模拟、审稿人视角、预审、帮我挑毛病、论文哪里会被拒、申报书评审视角、mock peer review, pre-submission review, reviewer report.
+description: Review education research manuscripts or grant applications in Chinese or English. Return the original DOCX or PDF with precisely anchored native highlights and comments, preserving prose, figures, citations, existing comments and tracked changes. Distinguish definite errors, items needing verification and argument or expression suggestions. Do not rewrite the manuscript or attach separate reviewer reports unless the user explicitly requests that work. Use for 模拟审稿、审阅、检查论文、指出问题、投稿前自审、外审模拟、审稿人视角、预审、帮我挑毛病、论文哪里会被拒、申报书评审视角、mock peer review, manuscript review, pre-submission review.
 ---
 
-# 教育学论文外审模拟
+# 教育学原稿审阅
 
-用户提供稿件（或申报书）即可，目标期刊或基金类别有就一并说明。这是 AI 模拟的审稿，用来在投稿前找出问题；不是真实的专家评审，不预测录用概率。要写回复真实审稿意见时用 edu-response。
+默认交付**原稿对应位置高亮＋原生批注**，保留正文，不自动改写，不另生成审稿报告或意见单。这是 AI 模拟审稿，不是真实的专家评审，不预测录用概率。用户已明确要求改稿时按授权执行，转到 edu-writing 的原稿修改流程，不再次询问已经明确的事项；回复真实外审意见用 edu-response。
 
-## 步骤
+## 审阅与标注
 
-1. **读稿，定范围。**确认是全文还是部分章节、目标期刊（中文或英文）或基金类别、研究类型（定量、定性、混合、理论）。只给了部分章节时，审稿范围限于这部分，并写明哪些判断因缺少材料而无法做出。
-2. **先跑脚本，作为审稿材料。**在用户的项目文件夹中运行（`<本skill>` 是本 skill 所在的文件夹），输出存到任务文件夹的 `script_outputs/`，供各审稿人读取：
-   ```
-   python <本skill>/../edu-writing/scripts/check_consistency.py --draft 稿件.docx --term-group 学习投入=学习投入|学业投入
-   python <本skill>/../edu-audit/scripts/check_reporting.py --draft 稿件.docx
-   ```
-   前者查摘要与正文、样本量、数值精度、术语、图表和引用编号是否前后一致；它会自动比对关键词的一字之差写法，其他核心构念先通读稿件，把同一构念的不同写法用 `--term-group 名称=写法1|写法2` 传入。后者查统计报告是否完整。脚本输出只是线索（例如数值相同的两个量可能是不同的统计量），审稿人回到原文核实后才写进意见。
-3. **独立写审稿报告。**设两到三位审稿人，每人负责的维度见 [审稿维度](references/review-criteria.md) 的"审稿人分工"：
-   - R1 方法与数据；
-   - R2 领域与理论；
-   - R3（可选）编辑视角。
+1. **读原稿，确定可判断的范围。**根据全文或所给章节、研究类型、语言及已有目标期刊/基金要求审阅。按 [审阅维度](references/review-criteria.md) 同时看贡献、设计、证据、概念、文献、解释与表达，不把定量标准套到质性研究或把混合研究拆成互不相干的两份检查。
+2. **核实问题。**需要时运行 `../edu-writing/scripts/check_consistency.py`、`../edu-audit/scripts/check_reporting.py`；它们只提供线索，回到原文和实际材料判断。缺原始数据不能据此断言统计错误，未检索核实不能宣称没有创新或遗漏关键研究。保留有依据的强判断和有效表达，不机械替换动词或每段增加局限。
+3. **把意见锚定到必要文字。**一句有多类问题时用主要问题的颜色，在同一批注中分清各项；不要叠加高亮。同一问题在关键位置写主批注，其他位置简短关联。跨章节问题点明相关位置；全文层面的判断可在标题处写总评批注。没有问题的段落无需标注，不设数量配额。
 
-   先按"审稿人分工"为每人写一份审稿要求（负责的维度、目标期刊、语言、报告格式），存到任务文件夹的 `briefs/`。
+   | 高亮 | 批注性质 | 依据 |
+   |---|---|---|
+   | 黄色 | 论证、解释或表达建议 | 说明哪项理解或推理需要改善；可选风格偏好不能写成必须遵守的规范 |
+   | 红色 | 明确错误或实质矛盾 | 有可核查依据，指出来源及矛盾；稿内数字不一致不等于已确定哪个值真实 |
+   | 蓝色 | 待核实、需补材料 | 明确缺什么及它影响哪项判断，不把“未提供”写成“没有做” |
 
-   **独立性**：宿主支持子任务（如 Claude Code 的子代理、Codex 的子任务）时，每位审稿人在单独的子任务中审稿，只拿到稿件、`script_outputs/` 和自己的审稿要求，看不到其他人的报告。不支持时依次写，每份报告定稿后再写下一份，写后面的报告时不回头修改前面的。
-4. **按格式写意见。**格式见 [报告格式](references/report-format.md)。每条主要问题都有编号（R1-M1）、是否阻断、维度、论断位置、证据位置、问题、为什么重要、怎样算解决；次要问题（R1-m1）写位置和问题与建议。字段内容较长时可以在字段下分条缩进。语言与稿件一致。
-5. **综合。**所有报告定稿后再综合：共识的优点；阻断性问题（每条注明由哪几位审稿人提出，只有一位提出的也列入）；其他主要问题；审稿人之间的分歧（包括同一问题严重程度判断不同）；一致性和报告规范问题；最后给出按优先级排列的修改清单，每项注明对应的问题编号和由谁处理（重新分析交 edu-analysis，需要原始数据；改写交 edu-writing）。每条主要问题都要在综合中出现。
-6. **检查并交付。**在任务文件夹中运行
-   ```
-   python <本skill>/scripts/check_review.py --reports R1.md R2.md R3.md --synthesis synthesis.md
-   ```
-   它检查每条问题的必填字段、阻断标记、证据位置、编号是否重复、综合中引用的编号是否存在、主要问题是否都进入了综合，以及是否出现录用预测（说明"不预测录用概率"的句子不算）。交付 `synthesis.md` 和各审稿报告 `R1.md`……；用户要一个文件时，用 `<本skill>/../edu-writing/scripts/md_to_docx.py` 合成 Word，综合报告在前、各审稿报告在后。文件存在 `edu_output/review/<新任务文件夹>/`。用户要按清单修改时，转到 edu-writing（修改原稿流程）。
+   批注开头标明性质，必要时注明主要/次要；根据问题说明是什么、为何影响理解或结论、怎样处理。备选表达放在批注内，不替换正文。批注语言跟随稿件；新作者标识统一为 **AI 模拟审稿**。
+4. **生成原生标注。**读 [文件与锚点](references/annotations.md)，先用 `scripts/annotate_manuscript.py inventory` 建立原文位置，再根据已核实的问题整理内部标注计划，用 `apply` 输出新文件。Word 用原生文字高亮与批注；PDF 用高亮注释及其关联批注，不强行转换格式。已有正文、图表、引文、格式、批注和修订均保留；不在正文插入“【批注】”冒充原生功能。
+5. **检查实际文件后交付。**运行 `scripts/annotate_manuscript.py verify`，核对标注与原文对应、保留情况及计划外变动；实际用 Word/可用阅读器打开并检查。条件允许时渲染检查每页的高亮范围、批注、表格和图。结构通过不等于视觉验收。不能可靠定位或生成时，说明具体受限对象，不伪装完成。
 
-## 审稿立场
+仅交付 `原稿名_审稿标注版.docx` 或 `原稿名_审稿标注版.pdf` 与必要的简短说明；原上传文件保持不动。锚点清单、计划及检查日志留在用户项目 `edu_output/review/<新任务文件夹>/`，不作为独立审稿报告附送。没有实质问题时原样保留并如实说明，不制造批注。
 
-- **对稿件，不对人。**意见针对稿件中可以指出位置的内容；每条主要问题都给出原文位置和依据。
-- **具体可改。**"怎样算解决"写成可检验的标准（例如"报告 HTMT 且均低于 0.85"），不写"需要进一步完善"。
-- **分清严重程度。**阻断性问题是不解决就无法支持主要结论的问题；表述和格式问题归为次要。不为显得严格而罗列问题，也不为显得友好而略过致命问题。
-- **不越界。**不臆测作者身份，不要求引用与本文无关的文献，不预测录用概率，不称为专家评审。
-- **申报书模式**：评审维度换成选题价值、论证、研究设计与可行性、创新、研究基础与预期成果（见 [审稿维度](references/review-criteria.md) 的申报书部分），同时检查活页匿名要求；字数、身份信息和"首次""填补空白"等措辞用 `python <本skill>/../edu-proposal/scripts/check_proposal.py --draft 活页.docx --preset qgjk` 检查（其他基金用 `--limit` 和 `--section-limit` 按当年模板设置）。
+## 可选审阅范围
 
-诚信要求另见 [共同规则](../edu-shared/references/integrity.md)。
+- **独立性**：用户要求多位独立审阅时，使用可用的独立子任务；每位只读原稿、必要材料和自己的任务，内部记录合并去重后仍交付同一份原稿标注版。没有独立运行时不声称已完成独立评阅。
+- **申报书**：按 [审阅维度](references/review-criteria.md) 的申报书部分检查选题、论证、设计、基础和可行性；匿名及格式按当年实际模板核对，可调用 `../edu-proposal/scripts/check_proposal.py`。意见仍写入原稿批注。
+- **纯文本或无法原生标注的文件**：说明现有文件格式的具体限制。用户提供 DOCX/PDF 后可在原件副本标注；不把重排后的普通文字称为原稿原生批注。
+
+诚信要求见 [共同规则](../edu-shared/references/integrity.md)。只有用户明确要求修改才按其取舍改正文；不能为完成意见补造数据、分析、文献或研究过程。

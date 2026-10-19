@@ -1,0 +1,13 @@
+test_abstract_can_support_its_claim_but_metadata_cannot (test_journal_search.JournalSearchTest.test_abstract_can_support_its_claim_but_metadata_cannot) ... ok
+test_cross_journal_candidates_are_retained_but_not_certified (test_journal_search.JournalSearchTest.test_cross_journal_candidates_are_retained_but_not_certified) ... ok
+test_former_admin_unresolved_and_unselected_guest_are_not_editor_queries (test_journal_search.JournalSearchTest.test_former_admin_unresolved_and_unselected_guest_are_not_editor_queries) ... ok
+test_name_hit_alone_is_unresolved_but_relevant_paper_can_be_cited (test_journal_search.JournalSearchTest.test_name_hit_alone_is_unresolved_but_relevant_paper_can_be_cited) ... ok
+test_no_editor_citation_quota_and_network_failure_is_not_no_results (test_journal_search.JournalSearchTest.test_no_editor_citation_quota_and_network_failure_is_not_no_results) ... ok
+test_official_page_identifier_conflict_requires_resolution (test_journal_search.JournalSearchTest.test_official_page_identifier_conflict_requires_resolution) ... ok
+test_primary_record_does_not_silently_override_conflicting_deposit (test_journal_search.JournalSearchTest.test_primary_record_does_not_silently_override_conflicting_deposit) ... ok
+test_same_name_different_orcid_cannot_be_confirmed (test_journal_search.JournalSearchTest.test_same_name_different_orcid_cannot_be_confirmed) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

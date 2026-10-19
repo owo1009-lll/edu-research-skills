@@ -1,0 +1,3 @@
+-r ../../skills/edu-review/requirements.txt
+Pillow>=10,<13
+pywin32>=306; sys_platform == 'win32'

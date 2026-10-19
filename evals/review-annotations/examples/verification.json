@@ -1,0 +1,23 @@
+[
+  {
+    "format": "docx",
+    "annotations": 4,
+    "preserved_source": true,
+    "changed_parts": [
+      "word/document.xml",
+      "word/comments.xml"
+    ],
+    "comments_part": "word/comments.xml",
+    "scope": "Package, text/style, fields, tables, images, existing comments and revisions; opening/rendering is separate.",
+    "output": "synthetic_manuscript_审稿标注版.docx",
+    "output_sha256": "1651bce5071c87daa113a8feaadfe17652da86013899a5bb472351caf248c803"
+  },
+  {
+    "format": "pdf",
+    "annotations": 3,
+    "preserved_source": true,
+    "scope": "Every page rendered without annotations matches; exact anchors/comments/colors and existing annotations checked.",
+    "output": "synthetic_manuscript_审稿标注版.pdf",
+    "output_sha256": "a5be5fa458bd3bbf7355882381162857813a3f79a1a07301a3a18fd126437b39"
+  }
+]

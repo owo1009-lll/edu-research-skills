@@ -1,0 +1,15 @@
+test_contracts_present (test_contracts.RedLines.test_contracts_present) ... ok
+test_writing_language_follows_journal (test_contracts.RedLines.test_writing_language_follows_journal) ... ok
+test_codex_interface (test_contracts.Structure.test_codex_interface) ... ok
+test_frontmatter (test_contracts.Structure.test_frontmatter) ... ok
+test_packages_match_folders (test_contracts.Structure.test_packages_match_folders) ... ok
+test_plugin_manifests_match_release (test_contracts.Structure.test_plugin_manifests_match_release) ... ok
+test_readmes_mirror (test_contracts.Structure.test_readmes_mirror) ... ok
+test_relative_links_resolve (test_contracts.Structure.test_relative_links_resolve) ... ok
+test_root_document_links_resolve (test_contracts.Structure.test_root_document_links_resolve) ... ok
+test_scripts_named_in_skills_exist (test_contracts.Structure.test_scripts_named_in_skills_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.044s
+
+OK

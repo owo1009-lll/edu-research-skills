@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "source_sha256": "a8f379533de1d4a6bed6eb59188757c488cde8d84dde3e66b106b7ffa0800629",
+  "created_utc": "2026-10-19T13:20:10Z",
+  "annotations": [
+    {
+      "id": "C1",
+      "kind": "error",
+      "severity": "major",
+      "comment": "摘要写52，方法和表1合计48。请核对原始人数并统一；这里是稿内矛盾，尚未判定哪一数值真实。",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 2,
+          "text_sha256": "2efdd8656efeccd45c2316e54101abcd225cde77924bcf7d1564caffcd5be9cb",
+          "start": 21,
+          "end": 23,
+          "quote": "52"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "kind": "improvement",
+      "severity": "minor",
+      "comment": "请说明本文的反馈具体指什么，以及它与参与这一结局有什么关系；这会使研究问题更具体。",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 4,
+          "text_sha256": "f8587670f96ed13a566a742b87c023d4e274b85c9c9c7a8a3bbe51521fd0734b",
+          "start": 0,
+          "end": 45,
+          "quote": "Feedback supports learning in important ways."
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "kind": "verify",
+      "severity": "minor",
+      "comment": "请核实分析计划形成时间并补充依据；缺少记录不等于未事先制定。",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 5,
+          "text_sha256": "9a96673dab7471bf7619aa55cf2553c4bafded71a68e7bd9b0acc654a3e235df",
+          "start": 65,
+          "end": 97,
+          "quote": "when the analysis plan was fixed"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "kind": "verify",
+      "severity": "minor",
+      "comment": "表内总数与方法一致。请据原始记录核对摘要人数；参见摘要批注C1。",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 13,
+          "text_sha256": "98010bd9270f9b100b6214a21754fd33bdc8d41b2bc9f9dd16ff54d3c34ffd71",
+          "start": 0,
+          "end": 2,
+          "quote": "48"
+        }
+      ]
+    }
+  ]
+}

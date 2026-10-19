@@ -2,7 +2,7 @@
 
 [中文说明](README.md)
 
-Simulated peer review before submission: two or three independent reviewers give numbered concerns with resolution tests, synthesized into a revision list.
+Review the original manuscript with precisely anchored native highlights and comments, preserving its prose, existing comments and tracked changes.
 
 ## What To Use It For
 
@@ -20,20 +20,21 @@ Simulated peer review before submission: two or three independent reviewers give
 
 ## Outputs
 
-- Reviewer reports (major and minor concerns with locations, why they matter and resolution tests), a synthesis and a prioritized revision list
+- An annotated copy named `original-name_审稿标注版.docx` or `.pdf`: yellow for argument/expression suggestions, red for definite errors and blue for verification needs. Comments give grounds and next steps. No prose rewriting or separate review report by default.
 
 ## Runtime and Dependencies
 
-- Python 3.9 or later; uses the check scripts of edu-writing and edu-audit
+- Python 3.9 or later; dependencies in `requirements.txt`. Uses edu-writing and edu-audit checks when relevant; actual Word opening/rendering requires Word or a compatible reader.
 
 ## Boundaries
 
 - Simulated by AI, not expert review; no acceptance probabilities; no guessing at author identity
+- Automated anchors cover plain body/table text in Word and text-layer PDFs. Existing fields, links and revisions are preserved; internal anchors, scanned PDFs and signed files have documented limits in [file handling](references/annotations.md). Explicitly requested revision follows the user's authorization.
 
 ## Related Skills
 
-- edu-writing (revise from the list), edu-response (answer real reviews), edu-audit (reporting review)
+- edu-writing (revise from comments and author decisions), edu-response (answer real reviews), edu-audit (reporting review)
 
 ## Status
 
-- Stable: used by the author on real research material; check script tested on seeded examples; full workflow tried on one synthetic manuscript with reviewers in separate sub-agents
+- Beta: native annotations tested with public synthetic manuscripts and deliberate file mutations. Earlier report-workflow usage does not establish human validation of this annotation workflow.

@@ -1,0 +1,60 @@
+[
+  {
+    "file": "synthetic_manuscript.docx",
+    "word_version": "16.0",
+    "comments": [
+      {
+        "author": "Original Author",
+        "anchor": "keep this original comment and green highlight",
+        "text": "Original author comment: do not remove.",
+        "color": 4
+      }
+    ],
+    "revisions": 2,
+    "fields": 1,
+    "tables": 1,
+    "inline_shapes": 1,
+    "body_text": "Feedback and participation: synthetic review fixture\rThis is a public software test manuscript. It reports no real study or participant data.\rThe abstract reports 52 students. The methods and Table 1 report 48 students.\rMethods and findings\rFeedback supports learning in important ways. The intended meaning of participation is not specified here.\rThe study included 48 students. We have not supplied a record of when the analysis plan was fixed.\rGroup\r\u0007n\r\u0007\r\u0007A\r\u000724\r\u0007\r\u0007B\r\u000724\r\u0007\r\u0007Total\r\u000748\r\u0007\r\u0007Table 1. Synthetic participant counts. Total: 48.\rThe table provides counts only; the basis for selecting the groups needs verification.\r/\rFigure 1. Synthetic illustration; no measured effect is depicted.\rExisting author note: keep this original comment and green highlight\rExisting revision: revised wording\rCitation field: [1]\r[1] Demonstration placeholder, not a real bibliographic reference.\r"
+  },
+  {
+    "file": "synthetic_manuscript_审稿标注版.docx",
+    "word_version": "16.0",
+    "comments": [
+      {
+        "author": "AI 模拟审稿",
+        "anchor": "52",
+        "text": "[明确错误｜主要｜C1] 摘要写52，方法和表1合计48。请核对原始人数并统一；这里是稿内矛盾，尚未判定哪一数值真实。",
+        "color": 6
+      },
+      {
+        "author": "AI 模拟审稿",
+        "anchor": "Feedback supports learning in important ways.",
+        "text": "[论证/表达建议｜次要｜C2] 请说明本文的反馈具体指什么，以及它与参与这一结局有什么关系；这会使研究问题更具体。",
+        "color": 7
+      },
+      {
+        "author": "AI 模拟审稿",
+        "anchor": "when the analysis plan was fixed",
+        "text": "[待核实｜次要｜C3] 请核实分析计划形成时间并补充依据；缺少记录不等于未事先制定。",
+        "color": 2
+      },
+      {
+        "author": "AI 模拟审稿",
+        "anchor": "48",
+        "text": "[待核实｜次要｜C4] 表内总数与方法一致。请据原始记录核对摘要人数；参见摘要批注C1。",
+        "color": 2
+      },
+      {
+        "author": "Original Author",
+        "anchor": "keep this original comment and green highlight",
+        "text": "Original author comment: do not remove.",
+        "color": 4
+      }
+    ],
+    "revisions": 2,
+    "fields": 1,
+    "tables": 1,
+    "inline_shapes": 1,
+    "body_text": "Feedback and participation: synthetic review fixture\rThis is a public software test manuscript. It reports no real study or participant data.\rThe abstract reports 52 students. The methods and Table 1 report 48 students.\rMethods and findings\rFeedback supports learning in important ways. The intended meaning of participation is not specified here.\rThe study included 48 students. We have not supplied a record of when the analysis plan was fixed.\rGroup\r\u0007n\r\u0007\r\u0007A\r\u000724\r\u0007\r\u0007B\r\u000724\r\u0007\r\u0007Total\r\u000748\r\u0007\r\u0007Table 1. Synthetic participant counts. Total: 48.\rThe table provides counts only; the basis for selecting the groups needs verification.\r/\rFigure 1. Synthetic illustration; no measured effect is depicted.\rExisting author note: keep this original comment and green highlight\rExisting revision: revised wording\rCitation field: [1]\r[1] Demonstration placeholder, not a real bibliographic reference.\r"
+  }
+]
