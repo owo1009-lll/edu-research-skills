@@ -1,0 +1,14 @@
+{
+  "id": "Q-N14",
+  "doi": "10.1111/desc.70261",
+  "retrieved_utc": "2026-10-19T22:04:29.416467+00:00",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13442964/",
+  "status_code": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13442964/",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 21315,
+  "raw_sha256": "13b28cd76f9d4b6ed6854df56705aa676e7a3a6c5575a019c7acfd246989cb2d",
+  "prior_attempt": "acquisition-public-wave9.json: Europe PMC XML returned HTTP 500",
+  "reading_status": "identity_and_opening_only; not full-text analysis",
+  "status": "no_article_element"
+}

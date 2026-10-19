@@ -1,0 +1,16 @@
+{
+  "kind": "checker execution",
+  "argv": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "-B",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+    "--draft",
+    "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\draft-02.md"
+  ],
+  "exit_code": 0,
+  "draft_sha256": "2fbaeeb0f63331502d48b74bc2651161dda36bbeeacfc8aa2bef039e85b2cff7",
+  "script_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+  "stdout": "draft-02-check_prose.stdout.txt",
+  "stderr": "draft-02-check_prose.stderr.txt",
+  "recorded_utc": "2026-10-19T22:06:47.195894+00:00"
+}

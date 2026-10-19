@@ -1,0 +1,3 @@
+# Secondary-writing exercise after Ruth Unsworth (2023)
+
+In Highland School’s Google Classroom activities, literacy practices foregrounded typed communication: students largely entered their thoughts and ideas into shared documents, with little spoken interaction outside these spaces. Every student could contribute to online discussions, while communication was delegated to documents that set the parameters of discussion. This finding echoes Colton’s (2019, p. 432) account of technology opening participation while human and nonhuman elements guide learners’ actions. Classroom agency was thus balanced in favor of preplanned visuals: the documents through which students could have a say also framed what they could discuss.

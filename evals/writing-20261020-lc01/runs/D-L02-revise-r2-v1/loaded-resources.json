@@ -1,0 +1,90 @@
+{
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md",
+      "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+      "activity": [
+        "read"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md",
+      "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+      "activity": [
+        "read"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+      "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+      "activity": [
+        "read"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+      "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+      "activity": [
+        "read"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "sha256": "a4f3c908f5d2aa0c6ffc71a1df93fa94b011fc3bb6341c90379f8d9451f9cbc8",
+      "activity": [
+        "read"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+      "activity": [
+        "read"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "activity": [
+        "read",
+        "executed"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "activity": [
+        "read",
+        "executed"
+      ],
+      "resource_type": "assigned_skill_snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\check-draft-v1.py",
+      "sha256": "e87f097b634c1dfb54cd6ea1b821a7fd595323972b5a526f9f48e4625dc96ff6",
+      "activity": [
+        "created",
+        "executed"
+      ],
+      "resource_type": "preserved_generated_helper"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\record-provenance-v1.py",
+      "sha256": "420ad87c1a97aabd1e2c57ed8ff0edaf82280280eacd8e612764fc9dec14ff19",
+      "activity": [
+        "created",
+        "executed"
+      ],
+      "resource_type": "preserved_generated_helper"
+    }
+  ],
+  "input_hashes_file": "task-input-hashes.json",
+  "scope": "Only actual skill/support files read or executed; standard-library runtime dependencies are not skill resources."
+}

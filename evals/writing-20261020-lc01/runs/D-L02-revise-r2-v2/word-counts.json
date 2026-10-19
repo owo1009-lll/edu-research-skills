@@ -1,0 +1,21 @@
+{
+  "method": "Whitespace-delimited body words; initial attribution heading excluded; citations included.",
+  "original_body_words": 159,
+  "files": {
+    "draft-01.md": {
+      "body_words": 94,
+      "body_paragraphs": 1,
+      "sha256": "c9e8128846caa309fe1197f2d43c8160aed62aaa08ed8247b2e131070a28c452"
+    },
+    "draft-02.md": {
+      "body_words": 92,
+      "body_paragraphs": 1,
+      "sha256": "f6bf4e8b4b71158d514692d8efaf642f26d703b3b578112ae8e832de03f76bbc"
+    },
+    "final.md": {
+      "body_words": 92,
+      "body_paragraphs": 1,
+      "sha256": "f6bf4e8b4b71158d514692d8efaf642f26d703b3b578112ae8e832de03f76bbc"
+    }
+  }
+}

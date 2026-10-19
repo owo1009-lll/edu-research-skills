@@ -1,0 +1,12 @@
+{
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1\\draft-01.md",
+  "draft_sha256": "97650d7ee12104539d54f04d303a1201fd50649c61eebd98a740cdb1a1c99833",
+  "excluded": "Initial attribution heading only",
+  "word_definition": "Alphanumeric words; internal apostrophes and hyphens stay within a word",
+  "body_word_count": 412,
+  "required_range": [
+    350,
+    450
+  ],
+  "in_range": true
+}

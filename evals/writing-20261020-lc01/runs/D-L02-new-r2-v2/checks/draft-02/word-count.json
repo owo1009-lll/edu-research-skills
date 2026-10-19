@@ -1,0 +1,9 @@
+{
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\draft-02.md",
+  "sha256": "641f43b2f16eb00b3dccb5a02cdca495ed5acff1d232a7b9491c6b85bf2e4d27",
+  "excluded_initial_heading": "# Attributed secondary-writing exercise based on Ruth Unsworth's *Teaching through the cloud* (2023)",
+  "body_words": 391,
+  "whitespace_words": 391,
+  "method": "ASCII letters/digits with internal apostrophes or hyphens counted as one word; initial heading excluded",
+  "within_350_450": true
+}

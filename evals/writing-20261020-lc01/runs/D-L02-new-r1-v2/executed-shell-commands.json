@@ -1,0 +1,135 @@
+{
+  "commands": [
+    {
+      "sequence": 1,
+      "command": "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 2,
+      "command": "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md'; Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 3,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 4,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 5,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 6,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 7,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 8,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 9,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 10,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 11,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 12,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 13,
+      "command": "Get-Content -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -TotalCount 45",
+      "exit_code": 0
+    },
+    {
+      "sequence": 14,
+      "command": "rg -n -A 14 'KINDS_EN|def main|^from |^import |read_text|open\\(' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 15,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 16,
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\run_checks_v1.py' draft-01.md draft-01",
+      "exit_code": 0
+    },
+    {
+      "sequence": 17,
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\run_checks_v1.py' draft-02.md draft-02",
+      "exit_code": 0
+    },
+    {
+      "sequence": 18,
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\finalize_v1.py'",
+      "exit_code": 0
+    }
+  ],
+  "checker_subprocesses": "executed-commands.jsonl",
+  "patch_operations": [
+    {
+      "order": 1,
+      "purpose": "Create pre-draft rationale",
+      "paths": [
+        "rationale.md"
+      ]
+    },
+    {
+      "order": 2,
+      "purpose": "Save actual first draft before review",
+      "paths": [
+        "draft-01.md"
+      ]
+    },
+    {
+      "order": 3,
+      "purpose": "Save actual AI review after first-draft checker runs and before revision",
+      "paths": [
+        "self-review.md"
+      ]
+    },
+    {
+      "order": 4,
+      "purpose": "Save revised draft after AI self-review",
+      "paths": [
+        "draft-02.md"
+      ]
+    },
+    {
+      "order": 5,
+      "purpose": "Record completed revision rationale, final AI check and separate source/editorial notes",
+      "paths": [
+        "rationale.md",
+        "self-review.md",
+        "source-notes.md"
+      ]
+    }
+  ],
+  "helper_preservation": "prerun-record-v1.json and run_checks_v1.py were created after draft-01.md. finalize_v1.py and finalization-data-v1.json are created after the revision and its checks. No helper version was overwritten."
+}

@@ -1,0 +1,20 @@
+{
+  "final_path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\final.md",
+  "final_sha256": "2fbaeeb0f63331502d48b74bc2651161dda36bbeeacfc8aa2bef039e85b2cff7",
+  "checked_revision_sha256": "2fbaeeb0f63331502d48b74bc2651161dda36bbeeacfc8aa2bef039e85b2cff7",
+  "byte_identical_to_checked_revision": true,
+  "body_words_whitespace": 405,
+  "body_words_lexical": 406,
+  "attribution_heading_excluded": true,
+  "all_four_checker_executions_succeeded": true,
+  "input_hashes_unchanged": true,
+  "loaded_resource_hashes_verified": true,
+  "utf8_markdown_files": {
+    "draft-01.md": "9ca8b8f57e5918c6d099e8b9f76b42b481303161633c2948e6e94796e8865ed8",
+    "draft-02.md": "2fbaeeb0f63331502d48b74bc2651161dda36bbeeacfc8aa2bef039e85b2cff7",
+    "final.md": "2fbaeeb0f63331502d48b74bc2651161dda36bbeeacfc8aa2bef039e85b2cff7",
+    "rationale.md": "0327836298699ef1c2c7e5da98d2a675c7b06ac364958ee4122f504c99dd6c4f",
+    "self-review.md": "6aab16391ec83bd4e4c62d592411dd43e90ccbc22da23661d17477128eeb5a6b",
+    "source-notes.md": "ee7ea6204f968503a35e478643c63ea8d41bff35171e77d7fbb0537b3f1b1d6d"
+  }
+}

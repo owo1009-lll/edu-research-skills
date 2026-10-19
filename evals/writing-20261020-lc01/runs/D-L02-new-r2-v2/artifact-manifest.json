@@ -1,0 +1,94 @@
+[
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\draft-01.md",
+    "sha256": "4aa379be71ab1efd0b8ce14951bdc321c62856b4c41b11004a31940cae25bbb1"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\draft-02.md",
+    "sha256": "641f43b2f16eb00b3dccb5a02cdca495ed5acff1d232a7b9491c6b85bf2e4d27"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\self-review.md",
+    "sha256": "9fdcdf71acf259e796c0c4dc0bfdbe5536b77897be4a457ee22b8c483a593928"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\final.md",
+    "sha256": "641f43b2f16eb00b3dccb5a02cdca495ed5acff1d232a7b9491c6b85bf2e4d27"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\rationale.md",
+    "sha256": "ce5456a41c927b1661bb6d4618b7c9e2bed94cc27c9f8285554c5b93cfe8a589"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\editorial-source-notes.md",
+    "sha256": "add4f67c542554d723a374349680729607c67925bb5dfc56f44e42c939e1c50c"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\loaded-resources.json",
+    "sha256": "45cbfba0a2866a33dd82b963c5db08b59f5ff67f7ad8b74839c70af61d9fa8c3"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\input-hashes.json",
+    "sha256": "03a6e4a8e69e5d75e98642c1e5dd05909093c51c10eda10b3c840a674b452694"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\executed-commands.jsonl",
+    "sha256": "19438fa7217629eb5aa2d32628faea423c55d38f69b96404ce650034dea2b706"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\shell-commands.json",
+    "sha256": "71fa0f1d521be5feed0feefff601552232ac02bbcd7adaf3e8740ff58679e4da"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\run_checks_v1.py",
+    "sha256": "ac845c0d2f722f141b65100ff881e8c6c8beb0b4fcd32ab155c3a1fe6ce0d6f6"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\finalize_v1.py",
+    "sha256": "71afe0bdc3c65740674fbb776435f95913ea13e4dd7cd7f29f6b38c9f79fd493"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\final-word-count.json",
+    "sha256": "c4c929110a944b11f547d0a2558270bfc7256dc9f1078210522778e544f31f4b"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-01\\check_voice.stdout.txt",
+    "sha256": "e7d11b2a95895928ec84d4a8aeb62db34627f212c434d3b2f02cc504b920b967"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-01\\check_voice.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-01\\check_prose.stdout.txt",
+    "sha256": "7ae0250412e3da3743f068ee6ceab222d09479ab2d5605239e30ef4012836982"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-01\\check_prose.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-01\\word-count.json",
+    "sha256": "5bc5397a16200cdb3cc47d8214a68293ef6e78ee0c20018d58038e213621bc1f"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-02\\check_voice.stdout.txt",
+    "sha256": "e7d11b2a95895928ec84d4a8aeb62db34627f212c434d3b2f02cc504b920b967"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-02\\check_voice.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-02\\check_prose.stdout.txt",
+    "sha256": "eb9283a14c1d246004666e71187c71169e9a5ec365e39d36735fb977319859ba"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-02\\check_prose.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\checks\\draft-02\\word-count.json",
+    "sha256": "2f53a1bc4dc910eeb01e0f42d809cb1ae665f51e939f174a7957baf00c7af56c"
+  }
+]

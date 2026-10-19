@@ -1,0 +1,26 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\final.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md"
+    ],
+    "returncode": 0,
+    "stdout": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\final-check_voice.stdout.txt",
+    "stderr": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\final-check_voice.stderr.txt"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\final.md"
+    ],
+    "returncode": 0,
+    "stdout": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\final-check_prose.stdout.txt",
+    "stderr": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v1\\final-check_prose.stderr.txt"
+  }
+]

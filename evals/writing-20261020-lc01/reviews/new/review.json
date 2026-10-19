@@ -1,0 +1,464 @@
+{
+  "review_type": "Independent anonymous AI review",
+  "operation": "New writing: findings/discussion subsection",
+  "language": "English",
+  "scope": {
+    "inputs": [
+      "review-brief.md",
+      "new-request.md",
+      "source-pack.md",
+      "A.md",
+      "B.md",
+      "C.md",
+      "D.md"
+    ],
+    "constraints_observed": [
+      "Read only the assigned inputs and own outputs.",
+      "No browsing, manuscript editing, other reviews, keys, source repository, or other runs.",
+      "No agents spawned.",
+      "Attribution headings and editorial/source notes were intentionally withheld and were not treated as missing deliverables."
+    ],
+    "evidence_basis": "The supplied source pack is the evidentiary boundary. Neither the published article nor the works it cites were independently checked.",
+    "validation_limit": "This is an AI review, not human or cross-model validation."
+  },
+  "comparative_judgment": {
+    "overall": "A, B, C and D belong in the same strong quality tier. The evidence does not justify a decisive overall winner.",
+    "rank_groups": [
+      [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    ],
+    "rationale": "All four answer how documents help form practice, connect concrete episodes to ANT(LS), preserve teachers' active participation, and relate participation opportunities to the structuring authority of prepared material. A gives a successful broader account by including blackboxing; B develops the selected three episodes steadily; C is compact and makes the standardization claim precise; D provides especially clear local explanations of how proposals become revisable and how the role of prepared material differs across the selected encounters. These are small, partly preference-dependent differences, not a reliable overall hierarchy.",
+    "most_actionable_issue": "C has a minor ambiguity in its bridge from teachers' images to pupils' participation: its wording can imply that the same images were traced across separate episodes. A wording clarification would remove that implication. This is not a demonstrated factual contradiction or evidence of invented data.",
+    "coverage_judgment": "The omission of resource selection, resistance, workload, study sample details or Colton from a particular body is not itself a defect in this bounded subsection. Coverage is judged by explanatory function, not by the number of source-pack scenes included.",
+    "confidence": "High that all four satisfy the core task and avoid major evidence errors; moderate in the fine stylistic comparisons; limited confidence in reading C's image continuity as more than a wording ambiguity."
+  },
+  "length_check": {
+    "requirement": "350–450 body words",
+    "method": "Whitespace-delimited words; hyphenated items count as one. These are body-only files.",
+    "counts": {
+      "A": 405,
+      "B": 404,
+      "C": 391,
+      "D": 407
+    },
+    "all_within_range": true
+  },
+  "manuscripts": [
+    {
+      "id": "A",
+      "overall": "Strong, coherent and faithful; tied overall with B, C and D.",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "name": "Factual and authorial fidelity",
+          "judgment": "The fruit-edit sequence, Frances's positive account, resource selection, shared instructional language and different classroom pace match the supplied evidence. The pupil-participation interpretation is attributed to Unsworth. No learning gains, equal participation, autonomous technological causation or measured outcomes are asserted.",
+          "evidence": [
+            "Benny typed that children would cut it; Frances changed the actor to the teacher.",
+            "Standardized content coexisted with differences in classroom pace."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 2,
+          "name": "Research problem and central judgment",
+          "judgment": "The opening states a clear problem and answer: documents help constitute practice through their production and movement. The conclusion sharpens the answer by connecting collaboration to the continuing authority of prior planning.",
+          "evidence": [
+            "through their creation, circulation and use",
+            "The literacy practices that supported collaboration also gave prior planning a continuing authority in classroom activity."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 3,
+          "name": "Reasoning and evidence organization",
+          "judgment": "The movement from institutional expectations to negotiated planning, resource circulation, instruction and pupil contributions is intelligible. The resource-selection material serves the argument by showing how available options acquire apparent self-sufficiency. Its transition into delegation is relatively brisk, but not an unsupported claim that the fruit lesson and the number-line lesson were the same event.",
+          "evidence": [
+            "The shared material also connected resource selection with instruction.",
+            "Documents then carried planning agreements into lessons."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 4,
+          "name": "Theory and literature use, including secondary attribution",
+          "judgment": "ANT(LS), obligatory passage point, blackboxing and delegation are applied to evidence rather than merely named. Blackboxing preserves teachers' selection and discussion, which is important to the source's account. Colton is not used, so there is no unmarked secondary citation to correct.",
+          "evidence": [
+            "Teachers compared online resources and selected content, while its production circumstances generally remained outside their discussions.",
+            "Delegation explains how the deck sustained the organizing force of agreements beyond the planning meeting."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 5,
+          "name": "Explanation and concrete contribution",
+          "judgment": "The concrete contribution is the distinction between forming an agreement through editing and sustaining its authority through subsequent use. The resource discussion adds a third operation: obscuring production circumstances while resources circulate. The scope is broader than B–D without becoming a whole-paper summary.",
+          "evidence": [
+            "Talk, images and visible edits jointly settled the proposed activity and who would perform it.",
+            "teachers negotiated an activity through edits during planning, while classroom documents carried agreements forward and organized pupils' contributions."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 6,
+          "name": "Naturalness, specificity and rhythm",
+          "judgment": "The prose is fluent and specific, with concrete actors and actions supporting abstract claims. The short sentence about the document's participation gives the planning paragraph a clear point. The final paragraph recaps some ground already established; this is a modest rhythm preference, not an error.",
+          "evidence": [
+            "The document participated in forming the agreement.",
+            "These episodes give documentary agency different forms:"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 7,
+          "name": "Authorial voice, conceptual framework and justified strength",
+          "judgment": "The body maintains the author's relational account and supported critical position while retaining the participant's positive experience. Its confident synthesis remains tied to the named school and episodes rather than generalizing to all cloud technology.",
+          "evidence": [
+            "Her positive account and the spatial arrangement together show how collaboration was accomplished through relations among colleagues, images and documents.",
+            "Those roles depended on teachers continuing to enroll the technologies in their work."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 8,
+          "name": "Necessary qualification and avoidable repetition",
+          "judgment": "Attribution of the pupil interpretation and the acknowledgment of varied pace supply useful qualifications without generic caveats. Repetition of organizing, agreements and prior planning largely connects the argument; the last two sentences could be tightened if a leaner conclusion were desired.",
+          "evidence": [
+            "Unsworth interprets the foregrounding of typing",
+            "Their participation and the authority of planned content developed together."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 9,
+          "name": "Concrete corrections an author would still need to make",
+          "judgment": "No substantive correction is required by the supplied evidence. Optionally condense the closing recap or make the resource-selection-to-delegation transition more explicit. These are choices about emphasis and space, not missing requirements.",
+          "evidence": [
+            "These episodes give documentary agency different forms:"
+          ],
+          "classification": "optional editorial refinement"
+        }
+      ],
+      "substantive_errors": [],
+      "remaining_corrections": [],
+      "optional_editorial_choices": [
+        "Consider condensing the final recap.",
+        "Consider a slightly fuller transition between resource blackboxing and the carrying of agreements into lessons."
+      ]
+    },
+    {
+      "id": "B",
+      "overall": "Strong, focused and faithful; tied overall with A, C and D.",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "name": "Factual and authorial fidelity",
+          "judgment": "The planning sequence, the researcher's hearing of Meri, the different classroom pace and Laurie's actions are faithful to the pack. Specifying the observer's access is a useful evidentiary detail. The pupil-agency judgment is explicitly the author's account, not a newly measured effect.",
+          "evidence": [
+            "the researcher heard Meri through the connected classrooms conducting the same lesson with the same instructional language",
+            "Agency consequently favored the preplanned visuals in the author's account."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 2,
+          "name": "Research problem and central judgment",
+          "judgment": "The opening offers a clear relational answer organized around planning, instruction and pupil participation. The final synthesis identifies educational significance in three concrete document functions, rather than making a generic claim that technology changes education.",
+          "evidence": [
+            "the relations they established between planning, instruction and pupil participation",
+            "negotiating content, sustaining common instruction and structuring pupil contributions"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 3,
+          "name": "Reasoning and evidence organization",
+          "judgment": "The selected sequence is well connected: leadership expectations make shared work routine, editing develops agreement, the deck sustains agreements and documents organize contributions. The paragraph on delegation explains why the shared wording and varied pace matter. Excluding blackboxing permits greater attention to these mechanisms and is justified.",
+          "evidence": [
+            "This combination of common wording and varied pace shows agreements made outside the classroom continuing to organize instruction through the deck."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 4,
+          "name": "Theory and literature use, including secondary attribution",
+          "judgment": "The connection between ANT and literacy studies is explicit and operational: institutional organization is linked to creating, editing and reading texts. Delegation is attributed to Unsworth's analysis. Omitting Colton does not weaken secondary attribution because no claim is made about that literature.",
+          "evidence": [
+            "the everyday creation, editing and reading of texts through which teaching took shape",
+            "through what Unsworth calls delegation"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 5,
+          "name": "Explanation and concrete contribution",
+          "judgment": "The body explains how active teacher negotiation is compatible with documentary agency and how standardization can coexist with varied enactment. Its discussion of feedback and shared attention grounds the pupil-participation claim in what the teacher did.",
+          "evidence": [
+            "Teachers' active proposals and revisions were part of the relations through which the document acquired its instructional significance.",
+            "The same relations that made ideas available for feedback and shared attention also organized their expression."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 6,
+          "name": "Naturalness, specificity and rhythm",
+          "judgment": "The writing is natural, orderly and specific. Its more abstract sentences are usually supported by immediately preceding actions. The planning paragraph's final sentence partially restates the preceding account of speech and edits, and the last paragraph carries both evidence and synthesis; neither issue substantially impairs readability.",
+          "evidence": [
+            "Speech, images and visible edits jointly developed the activity.",
+            "The slide participated in the formation of agreement as teachers worked on it."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 7,
+          "name": "Authorial voice, conceptual framework and justified strength",
+          "judgment": "The text preserves a confident relational voice: documents participate, teachers propose and revise, and institutional expectations sustain use. It does not turn Frances's positive experience into proof that all collaboration improved or the discussion parameters into an assertion of technological domination.",
+          "evidence": [
+            "Frances's positive account of images helping colleagues show what they meant identifies a communicative benefit",
+            "Their influence was maintained through teachers' continued participation and the school's expectations for their use."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 8,
+          "name": "Necessary qualification and avoidable repetition",
+          "judgment": "The qualifications concerning varied pace and the author's interpretation are targeted and useful. Several sentences explain document significance in similar terms; a small reduction would be possible, but the repetitions also maintain the argument across episodes.",
+          "evidence": [
+            "where some variation in enactment remained",
+            "Unsworth interprets these literacy practices as foregrounding typing"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 9,
+          "name": "Concrete corrections an author would still need to make",
+          "judgment": "No substantive correction is required. An optional edit could shorten the final sentence of the planning paragraph, whose point is already evident in the preceding explanation. A separate concluding paragraph is not necessary.",
+          "evidence": [
+            "Teachers' active proposals and revisions were part of the relations through which the document acquired its instructional significance."
+          ],
+          "classification": "optional editorial refinement"
+        }
+      ],
+      "substantive_errors": [],
+      "remaining_corrections": [],
+      "optional_editorial_choices": [
+        "Optionally shorten the final planning-paragraph sentence to reduce conceptual restatement."
+      ]
+    },
+    {
+      "id": "C",
+      "overall": "Strong and economical, with one minor clarification recommended; tied overall with A, B and D.",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "name": "Factual and authorial fidelity",
+          "judgment": "Most factual details closely track the supplied evidence, and the early-years episode is explicitly distinguished from mathematics planning. The sentence connecting images used by teachers to pupils' ideas can nevertheless be read as tracing the same images across episodes, which the pack does not establish. The surrounding argument also permits the less problematic reading that images are being compared as a category.",
+          "evidence": [
+            "In a separate early-years episode",
+            "Images that helped teachers negotiate lesson content thus also framed the space in which pupils' ideas were expressed and discussed."
+          ],
+          "classification": "minor wording ambiguity"
+        },
+        {
+          "dimension": 2,
+          "name": "Research problem and central judgment",
+          "judgment": "The opening clearly identifies the relationship between lesson negotiation and the organization of classroom participation. Leadership's standardization aim is made explicit, and the concluding judgment connects collective work with the carrying forward of decisions.",
+          "evidence": [
+            "connected the negotiation of lessons with the organization of classroom participation",
+            "enabling collective work while carrying earlier decisions into what pupils were invited to do."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 3,
+          "name": "Reasoning and evidence organization",
+          "judgment": "The progression is concise and purposeful. The interpretation of common wording and different pacing explains the specific standardization observed. The last paragraph's image bridge needs clearer signaling that it is an analytical comparison across episodes, rather than evidence of a traced sequence.",
+          "evidence": [
+            "The combination of common wording and different pacing specifies the standardization at work",
+            "Images that helped teachers negotiate lesson content thus also framed"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 4,
+          "name": "Theory and literature use, including secondary attribution",
+          "judgment": "The account of ANT(LS) includes people, texts, technologies, places and institutional arrangements, and the literacy practices are identified directly. Delegation is intelligibly linked to the continuing operation of agreements. There is no unsupported direct claim about Colton or other unsupplied literature.",
+          "evidence": [
+            "Reading, editing and discussing shared documents were practices through which these relations took shape.",
+            "Unsworth's concept of delegation explains how the deck allowed agreements made outside the classroom to continue organizing instruction within it."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 5,
+          "name": "Explanation and concrete contribution",
+          "judgment": "The strongest explanatory sentence specifies a common instructional pattern sustained through situated enactment. This avoids treating standardization as identical behavior. The conclusion connects enabling collective work and structuring pupil activity, but its evidentiary bridge would be firmer if the distinct images/episodes were explicitly compared.",
+          "evidence": [
+            "the shared text sustained a common instructional pattern through teachers' situated enactment of the lesson."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 6,
+          "name": "Naturalness, specificity and rhythm",
+          "judgment": "The prose is compact, readable and concrete. Its length leaves the central episodes adequately developed rather than reduced to labels. The phrase connecting the teacher images to pupil participation is rhetorically smooth but a little too compressed for its evidentiary role.",
+          "evidence": [
+            "Spoken contributions and visible edits jointly developed the activity, giving the document a part in forming the agreement.",
+            "Her positive account complements the author's relational interpretation"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 7,
+          "name": "Authorial voice, conceptual framework and justified strength",
+          "judgment": "The body preserves the author's supported position and gives Frances's positive account a place in the relational explanation. Its synthesis about collaborative participation and standardization is justified within these episodes; it does not claim broader causal or learning effects.",
+          "evidence": [
+            "Across these episodes, collaborative participation and standardization were produced through connected literacy practices.",
+            "Documents gained influence through continued teacher participation"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 8,
+          "name": "Necessary qualification and avoidable repetition",
+          "judgment": "The references to a separate early-years episode, different pacing and Unsworth's interpretation supply appropriate qualification. The body has little avoidable repetition. One additional phrase marking comparison across the planning and pupil episodes would resolve the main uncertainty without adding broad disclaimers.",
+          "evidence": [
+            "Unsworth interprets the predominance of typing and the limited spoken interaction outside those spaces as placing agency in favor of the preplanned visuals."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 9,
+          "name": "Concrete corrections an author would still need to make",
+          "judgment": "Recommend clarifying the image bridge: for example, 'Images supported teachers' negotiation in the planning episode; in Laurie's lesson, preplanned visuals framed pupils' contributions.' This preserves the argument while avoiding an implication that the identical images were followed from planning into Laurie's classroom. This is a minor evidence-precision repair, not a confirmed fabricated observation.",
+          "evidence": [
+            "Images that helped teachers negotiate lesson content thus also framed the space in which pupils' ideas were expressed and discussed."
+          ],
+          "classification": "recommended minor clarification"
+        }
+      ],
+      "substantive_errors": [],
+      "remaining_corrections": [
+        {
+          "priority": "Minor",
+          "status": "Recommended clarification; not a confirmed factual contradiction",
+          "passage": "Images that helped teachers negotiate lesson content thus also framed the space in which pupils' ideas were expressed and discussed.",
+          "issue": "May imply continuity of the same images across separate episodes, which the source pack does not establish.",
+          "suggested_action": "Mark the connection as a comparison between the planning episode and Laurie's classroom rather than as a traced movement of identical images."
+        }
+      ],
+      "optional_editorial_choices": []
+    },
+    {
+      "id": "D",
+      "overall": "Strong, especially clear in its local explanations; tied overall with A, B and C.",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "name": "Factual and authorial fidelity",
+          "judgment": "The body accurately reproduces the fruit-edit episode, the shared early-years deck, the observer's hearing of Meri, varied pace and Laurie's actions. Frances's evidence is correctly identified as an interview account. The interpretation of pupil agency follows the source without introducing measured equality or outcomes.",
+          "evidence": [
+            "In her interview, Frances valued images because they helped colleagues show what they meant.",
+            "Both teachers used the shared deck, with their classes at slightly different points."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 2,
+          "name": "Research problem and central judgment",
+          "judgment": "The opening clearly frames documents' role across planning, teaching and participation. The concluding judgment identifies how continued use allows common instruction and the structuring role of prior content to persist.",
+          "evidence": [
+            "helped form classroom practice through connections between planning, teaching and pupil participation",
+            "shared documents coordinated instruction and gave preplanned content a structuring role in participation."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 3,
+          "name": "Reasoning and evidence organization",
+          "judgment": "Each episode supplies a distinct part of the explanation, and the final paragraph explicitly compares teacher negotiation with pupil participation. Calling the early-years episode separate helps avoid accidental conflation. The final comparison is plausible within the selected encounters, though it should not be read as an exhaustive distinction between all teacher and pupil uses.",
+          "evidence": [
+            "A separate early-years episode",
+            "The comparison with planning clarifies this relationship"
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 4,
+          "name": "Theory and literature use, including secondary attribution",
+          "judgment": "ANT(LS) is explained through associations and reading/editing practices; delegation is defined in connection with a concrete classroom episode. No additional named literature is needed, and there is no misleading claim to have consulted Colton directly.",
+          "evidence": [
+            "agreements made outside the classroom remained active in the lesson through the document.",
+            "From this perspective, editing and reading shared documents helped organize what teachers and pupils did."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 5,
+          "name": "Explanation and concrete contribution",
+          "judgment": "The explanation of proposals acquiring a visible, revisable form adds concrete mechanism beyond asserting that the document has agency. The contrast between making proposals negotiable and organizing pupil contributions also gives the subsection a useful interpretive payoff.",
+          "evidence": [
+            "The slide gave proposals a visible form that colleagues could encounter and revise as their agreement developed.",
+            "images helped teachers make proposals negotiable, whereas prepared slides organized the terms of pupils' contributions."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 6,
+          "name": "Naturalness, specificity and rhythm",
+          "judgment": "The writing has a clear rhythm and balances observed actions with interpretation. The visible-form sentence is especially precise. Repeated references to relations and organizing do some necessary conceptual work; the ending is slightly abstract but still connected to the preceding comparison.",
+          "evidence": [
+            "Pupil participation brought a different relationship with prepared material into view.",
+            "The documents' participation in classroom practice took shape through these changing associations."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 7,
+          "name": "Authorial voice, conceptual framework and justified strength",
+          "judgment": "The body confidently maintains the source's sociomaterial position while preserving teacher activity and the participant's positive appraisal. The teacher/pupil comparison is a defensible interpretation of the chosen episodes, not proof that pupils could never revise material; it is already substantially bounded by the paragraph context.",
+          "evidence": [
+            "Her positive account coexisted with the author's analysis of collaboration organized around separate screens.",
+            "The deck helped coordinate teaching across classrooms while remaining bound up with teachers' use of it."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 8,
+          "name": "Necessary qualification and avoidable repetition",
+          "judgment": "The treatment of pace, source interpretation and continued teacher use provides necessary qualification. The contrast introduced by 'whereas' is not inherently too strong, but 'in these episodes' would make its local scope unmistakable. This is optional because the surrounding paragraph already supplies that scope.",
+          "evidence": [
+            "The difference in pace shows how common content coexisted with variation in its enactment.",
+            "whereas prepared slides organized the terms of pupils' contributions."
+          ],
+          "classification": "assessment"
+        },
+        {
+          "dimension": 9,
+          "name": "Concrete corrections an author would still need to make",
+          "judgment": "No substantive correction is required. Optionally specify 'in these episodes' in the planning/pupil comparison so it cannot be mistaken for a general opposition between negotiable teacher activity and fixed pupil activity. The source pack also includes teacher and pupil annotation, so the contrast should remain a local analytical emphasis.",
+          "evidence": [
+            "The comparison with planning clarifies this relationship: images helped teachers make proposals negotiable, whereas prepared slides organized the terms of pupils' contributions."
+          ],
+          "classification": "optional scope clarification"
+        }
+      ],
+      "substantive_errors": [],
+      "remaining_corrections": [],
+      "optional_editorial_choices": [
+        "Optionally mark the teacher/pupil comparison explicitly as a comparison within the selected episodes."
+      ]
+    }
+  ],
+  "uncertainty": [
+    "The assessment verifies fidelity to the supplied pack, not to independently inspected fieldnotes, interviews or the published full text.",
+    "The body-only review cannot assess attribution headings, editorial/source notes or drafting/review records, whose integrity is checked separately.",
+    "C's image sentence admits a generic reading; its possible implication of identical images warrants clarification but does not justify a charge of invented evidence.",
+    "D's comparison is locally supported; an interpretation of it as a universal teacher/pupil distinction would be stronger than the actual context requires.",
+    "Fine differences in concision, breadth and paragraph rhythm are editorial preferences. They do not establish a robust overall ranking."
+  ]
+}
+

@@ -1,0 +1,9 @@
+# Workflow record
+
+The assigned skill and three task inputs were read first. The revision principles, argument guidance, English voice guidance, qualitative route and shared integrity rules were then read. The two required checkers were inspected; the combined script display was truncated, so a separate import/file-access search was used to check for additional support-file reads. Both scripts use the standard library for these Markdown inputs and do not load another local skill resource.
+
+`rationale.md` and `source-notes.md` were created before drafting. `draft-01.md` was then saved, followed by actual checker execution through the preserved `run_checks_v1.py`. `self-review.md` was written from the saved draft and actual outputs. One complete revision was saved as `draft-02.md`; the same unchanged helper ran the checks on that file. The subsequent review section evaluates those actual outputs. `finalize_v1.py` copies the checked revised draft to `final.md` and records its hash and word count. Neither helper is overwritten after execution.
+
+The assigned output directory takes precedence over the skill's generic `edu_output` location. Markdown-only delivery takes precedence over the skill's usual Word export. No full-manuscript confirmation or consistency script applies to this local paragraph. The wrapper's explicit saved-stage requirements take precedence over the abbreviated local-edit route.
+
+`executed-commands.json` records the shell commands used for reading, inspection and execution; checker subprocess argument arrays and exit statuses are preserved in each stage's execution JSON. The prose and helper files were authored with `apply_patch`. `loaded-resources.json` lists the actual skill/support files read or executed, including preserved local helpers; task input hashes are separate in `task-input-hashes.json`. Standard-library and interpreter internals are outside the skill-resource manifest.

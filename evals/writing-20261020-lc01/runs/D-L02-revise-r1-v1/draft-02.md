@@ -1,0 +1,4 @@
+# Attributed secondary-writing exercise based on Ruth Unsworth, *Teaching through the cloud* (2023 online-first), [doi:10.1111/aeq.12471](https://doi.org/10.1111/aeq.12471)
+
+At Highland School, literacy practices in Google Classroom foregrounded typing over speech: students largely entered their thoughts and ideas into online documents, with little spoken interaction outside those spaces. Every student could participate in online discussions, but communication was delegated to documents that set discussion parameters. This pattern echoes Colton's (2019, as cited in Unsworth, 2023, p. 14) account of participation opened through technology yet organized by human and nonhuman elements. Classroom agency was thus balanced in favor of the preplanned cloud-based visuals that structured students' participation.
+

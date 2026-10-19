@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-10-19T22:24:30.371566+00:00",
+  "comparison_commit": "331eccc73459770dedad8c1f5f747929f69312f5",
+  "status": "passed",
+  "english_new_candidates": 46,
+  "english_acquired_fulltexts": 33,
+  "english_new_empirical_or_boundary_analyses": 31,
+  "confirmed_empirical_groups": {
+    "quantitative": 10,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 11,
+    "mixed": 9
+  },
+  "english_methodological_application_analyses": 1,
+  "unchanged_previous_reading_records": 52,
+  "historical_chinese_records_unchanged": 4,
+  "runtime_files_verified_unchanged": 203,
+  "runtime_tree_sha256": "2ac357f06b434ea2d36bf021e70ea3371dea47c5cfb90ed053164c440f04c147",
+  "experiment": "../../evals/writing-20261020-lc01",
+  "snapshot_files_verified": {
+    "v1": 203,
+    "v2": 203
+  },
+  "frozen_inputs_verified": 4,
+  "agent_reported_resource_entries_verified": 83,
+  "agent_reported_input_entries_verified": 20,
+  "unverified_historical_helpers": 0,
+  "review_input_entries_verified": 15,
+  "anonymous_manuscript_pairs_verified": 8,
+  "archived_artifacts_verified": 249,
+  "byte_identical_artifacts": 168,
+  "root_prefix_only_alias_artifacts": 81,
+  "note": "Record integrity is not writing quality. Both independent same-family reviews tie all four bodies. Candidate not adopted; whole goal and final independent validation remain incomplete.",
+  "authored_whitespace_warnings": 0,
+  "raw_artifact_whitespace_warnings_preserved": 16
+}

@@ -1,0 +1,192 @@
+{
+  "scope": "Actual shell commands executed by this run. Mandatory checker subprocess argv, return codes and stdout/stderr locations are recorded in the stage-specific checker-command files.",
+  "shell_commands": [
+    {
+      "command": "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Initial read; encoding rendered punctuation and Chinese incorrectly."
+    },
+    {
+      "command": "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Initial read; encoding rendered punctuation and Chinese incorrectly."
+    },
+    {
+      "command": "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Initial read; encoding rendered punctuation and Chinese incorrectly."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "UTF-8 input or skill resource read."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "UTF-8 input or skill resource read."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "UTF-8 input or skill resource read."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "UTF-8 input or skill resource read."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "UTF-8 input or skill resource read."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "UTF-8 input or skill resource read."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "UTF-8 input or skill resource read."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read full untruncated content or applicable case-writing guidance."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read full untruncated content or applicable case-writing guidance."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read full untruncated content or applicable case-writing guidance."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\prose-en.md'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read qualitative prose guidance or inspect mandatory checker source and dependencies."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read qualitative prose guidance or inspect mandatory checker source and dependencies."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read qualitative prose guidance or inspect mandatory checker source and dependencies."
+    },
+    {
+      "command": "rg -n '^(import |from )|read_text|read_bytes|open\\(' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Inspect checker imports and file reads before execution; prior full display was truncated."
+    },
+    {
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\run_stage_v1.py' draft-01",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Execute immutable helper for actual draft 01; subprocess commands and outputs saved per stage."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\draft-01-check_voice.stdout.txt'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read actual first-draft checker output for focused self-review."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\draft-01-check_prose.stdout.txt'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Read actual first-draft checker output for focused self-review."
+    },
+    {
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\run_stage_v1.py' draft-02",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Execute unchanged helper for actual second draft; save separate checker outputs and commands."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\draft-02-check_voice.stdout.txt'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Inspect actual second-draft checker output and adjudicate prompts."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\draft-02-check_prose.stdout.txt'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Inspect actual second-draft checker output and adjudicate prompts."
+    },
+    {
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\finalize_v1.py'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Copy actual draft 02 to final, hash loaded resources and inputs separately, and verify body count and byte identity."
+    },
+    {
+      "command": "Get-ChildItem -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1' -File | Select-Object Name,Length | ConvertTo-Json",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Inspect completed artifacts and provenance manifest within this run only."
+    },
+    {
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\loaded-resources.json'",
+      "shell": "powershell",
+      "exit_code": 0,
+      "purpose": "Inspect completed artifacts and provenance manifest within this run only."
+    }
+  ],
+  "checker_command_records": [
+    "draft-01-checker-commands.json",
+    "draft-02-checker-commands.json"
+  ],
+  "apply_patch_events": [
+    {
+      "event": "Created rationale.md, notes.md and immutable run_stage_v1.py before draft 01",
+      "tool": "apply_patch"
+    },
+    {
+      "event": "Created actual draft-01.md after rationale and before checks",
+      "tool": "apply_patch"
+    },
+    {
+      "event": "Created self-review.md after actual first-draft checks and before draft 02",
+      "tool": "apply_patch"
+    },
+    {
+      "event": "Created actual draft-02.md, one full revision responding to saved self-review",
+      "tool": "apply_patch"
+    },
+    {
+      "event": "Appended actual revision/check results to self-review, rationale and notes; created immutable finalize_v1.py",
+      "tool": "apply_patch"
+    },
+    {
+      "event": "Saved this executed-commands.json journal after delivery inspection",
+      "tool": "apply_patch"
+    }
+  ],
+  "record_notes": "Commands from concurrent read batches are listed in requested order, not asserted completion order. First draft, self-review, second draft and final copy were created in that sequence. Helper source files were never overwritten."
+}

@@ -1,0 +1,47 @@
+{
+  "shell_commands_after_prerun_seed": [
+    "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\run_checks_v1.py' draft-01.md draft-01",
+    "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\run_checks_v1.py' draft-02.md draft-02",
+    "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\finalize_v1.py'"
+  ],
+  "patch_operations": [
+    {
+      "order": 1,
+      "purpose": "Create pre-draft rationale",
+      "paths": [
+        "rationale.md"
+      ]
+    },
+    {
+      "order": 2,
+      "purpose": "Save actual first draft before review",
+      "paths": [
+        "draft-01.md"
+      ]
+    },
+    {
+      "order": 3,
+      "purpose": "Save actual AI review after first-draft checker runs and before revision",
+      "paths": [
+        "self-review.md"
+      ]
+    },
+    {
+      "order": 4,
+      "purpose": "Save revised draft after AI self-review",
+      "paths": [
+        "draft-02.md"
+      ]
+    },
+    {
+      "order": 5,
+      "purpose": "Record completed revision rationale, final AI check and separate source/editorial notes",
+      "paths": [
+        "rationale.md",
+        "self-review.md",
+        "source-notes.md"
+      ]
+    }
+  ],
+  "support_creation": "prerun-record-v1.json and run_checks_v1.py were created after draft-01.md. finalize_v1.py and finalization-data-v1.json are created after the revision and its checks. No helper version was overwritten."
+}

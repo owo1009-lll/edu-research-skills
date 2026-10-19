@@ -1,0 +1,106 @@
+{
+  "record_type": "Exact shell commands already executed before the helper was created; timestamps were not captured.",
+  "notes": "The initial four PowerShell reads used the default encoding and produced mojibake; explicit UTF-8 reads followed. A large combined result was truncated, followed by focused rereads. These are command records, not reconstructed drafting stages.",
+  "commands": [
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md' -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\revise-request.md' -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md' -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\revise-request.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\foundation.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -Encoding UTF8 -TotalCount 90",
+      "exit_code": 0
+    },
+    {
+      "command": "rg -n '^(import|from)|read_text|read_bytes|open\\(|Path\\(|load\\(' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py'",
+      "exit_code": 0
+    }
+  ],
+  "edits_before_helper": [
+    {
+      "tool": "tools.apply_patch",
+      "created": [
+        "rationale.md",
+        "draft-01.md",
+        "notes.md"
+      ]
+    },
+    {
+      "tool": "tools.apply_patch",
+      "created": [
+        "audit-run-v1.py"
+      ]
+    }
+  ]
+}

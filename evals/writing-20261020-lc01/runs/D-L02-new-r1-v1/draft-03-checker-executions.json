@@ -1,0 +1,32 @@
+[
+  {
+    "command_argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1\\draft-03.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md"
+    ],
+    "started_utc": "2026-10-19T22:07:32.257149+00:00",
+    "exit_code": 0,
+    "draft_sha256": "4858a32b7e20f2e2ce6b3af7e14d3d903b29e5dd9009860c53706c737a5e9d8d",
+    "stdout_file": "draft-03-check_voice.stdout.txt",
+    "stderr_file": "draft-03-check_voice.stderr.txt"
+  },
+  {
+    "command_argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1\\draft-03.md"
+    ],
+    "started_utc": "2026-10-19T22:07:32.313761+00:00",
+    "exit_code": 0,
+    "draft_sha256": "4858a32b7e20f2e2ce6b3af7e14d3d903b29e5dd9009860c53706c737a5e9d8d",
+    "stdout_file": "draft-03-check_prose.stdout.txt",
+    "stderr_file": "draft-03-check_prose.stderr.txt"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-19T22:03:11.110550+00:00",
+  "files": [
+    {
+      "path": "inputs/D-L02/new-request.md",
+      "sha256": "eb5f4d2079116125748184be03014d286332753ba44135bc08652fed74496d86",
+      "bytes": 935
+    },
+    {
+      "path": "inputs/D-L02/original.md",
+      "sha256": "ac0c37b371321f348c22ce9d263bdf4999f1c3934b42e96730eeedcaa95d1a5b",
+      "bytes": 1665
+    },
+    {
+      "path": "inputs/D-L02/revise-request.md",
+      "sha256": "0300a1638f1156f58d3ea0d2aa69f4339a6a63226681d488a36ed67ce325bfd9",
+      "bytes": 787
+    },
+    {
+      "path": "inputs/D-L02/source-pack.md",
+      "sha256": "5b2dfc10e34edb80796ab63ea7f7313356572ae2c231815483176679097a3348",
+      "bytes": 8090
+    }
+  ]
+}

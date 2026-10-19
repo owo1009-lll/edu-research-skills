@@ -1,0 +1,119 @@
+{
+  "note": "Exact shell command text from tool calls; early read commands recorded from the visible call history. No drafting stage was reconstructed. Within independent batches, listed order is launch order, not a claim about completion order.",
+  "commands": [
+    {
+      "sequence": 1,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md' -Raw",
+      "purpose": "Read assigned skill"
+    },
+    {
+      "sequence": 2,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md' -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Raw",
+      "purpose": "Read assigned task inputs"
+    },
+    {
+      "sequence": 3,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned skill with corrected UTF-8"
+    },
+    {
+      "sequence": 4,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned task inputs with corrected UTF-8"
+    },
+    {
+      "sequence": 5,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned support resource; combined tool output was truncated"
+    },
+    {
+      "sequence": 6,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned support resource; combined tool output was truncated"
+    },
+    {
+      "sequence": 7,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned support resource; combined tool output was truncated"
+    },
+    {
+      "sequence": 8,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned support resource; combined tool output was truncated"
+    },
+    {
+      "sequence": 9,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned support resource; combined tool output was truncated"
+    },
+    {
+      "sequence": 10,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -Encoding UTF8 -Raw",
+      "purpose": "Read assigned support resource; combined tool output was truncated"
+    },
+    {
+      "sequence": 11,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw",
+      "purpose": "Reread support resource after combined-output truncation"
+    },
+    {
+      "sequence": 12,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw",
+      "purpose": "Reread support resource after combined-output truncation"
+    },
+    {
+      "sequence": 13,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw",
+      "purpose": "Reread support resource after combined-output truncation"
+    },
+    {
+      "sequence": 14,
+      "shell": "powershell",
+      "command": "Select-String -Path '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -Pattern '^import |^from |read_text|open\\(' -Encoding UTF8",
+      "purpose": "Inspect checker imports and reads"
+    },
+    {
+      "sequence": 15,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md' -Encoding UTF8 -Raw",
+      "purpose": "Read applicable qualitative and English prose guidance"
+    },
+    {
+      "sequence": 16,
+      "shell": "powershell",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\prose-en.md' -Encoding UTF8 -Raw",
+      "purpose": "Read applicable qualitative and English prose guidance"
+    },
+    {
+      "sequence": 17,
+      "shell": "powershell",
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\run_checks_v1.py' --draft draft-01.md --stage draft-01",
+      "purpose": "Run preserved helper; actual child commands and results recorded in executed-commands.jsonl"
+    },
+    {
+      "sequence": 18,
+      "shell": "powershell",
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\run_checks_v1.py' --draft draft-02.md --stage draft-02",
+      "purpose": "Run preserved helper; actual child commands and results recorded in executed-commands.jsonl"
+    },
+    {
+      "sequence": 19,
+      "shell": "powershell",
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v2\\finalize_v1.py'",
+      "purpose": "Finalize accepted second draft and command record"
+    }
+  ]
+}

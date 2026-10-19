@@ -1,0 +1,19 @@
+# Rationale before drafting
+
+Task: new English findings/discussion subsection, 350–450 body words, attributed secondary writing from the supplied source pack. The assigned v1 edu-writing skill requires a first draft, AI self-review, checker runs and one substantive revision. This is a single subsection, so the whole-manuscript confirmation, consistency checker and Word conversion do not apply.
+
+Argument: How do cloud documents participate in forming classroom practice? The supplied ethnographic episodes show agreements developing through shared editing, travelling into instruction through shared slides, and organizing how pupils contribute. Unsworth's combination of actor-network theory and literacy studies locates agency in relations among teachers, pupils, texts, technologies and institutional arrangements. The central judgment is that these documents help constitute practice as they connect planning and teaching; their contribution includes enabling expression and giving preplanned material a structuring role. The relevant scope is Highland School's leadership-organized use during the 2018 fieldwork, rather than an estimate of technology's effects on learning.
+
+Selection: use the fruit-planning episode, the Jamie/Meri classroom comparison and Laurie's online participation episode. These provide a connected explanation across planning, circulation and classroom participation. Include Frances's positive account and the difference in lesson pace so standardization does not erase supported variation. Introduce leadership expectations as a condition of document use. Omit the resource-search/blackboxing episode, reports, evening work, burnout and post-pandemic extensions because they would widen this short subsection beyond its main argument.
+
+Evidence locations in the supplied source pack: conceptual frame and institutional arrangements, PDF pages 2–10; shared planning and Frances's account, pages 11–12; delegation and classroom comparison, pages 13–14; pupil participation, pages 14–15; continued enrolment, pages 16–17. These are the pack's PDF locators, including the repository cover, not independently inspected pages in this run.
+
+Writing decisions: distinguish observation, participant evaluation and Unsworth's interpretation through sentence wording. Explain delegation through the documented classroom example. Retain the author's claim that preplanned visuals shape agency without claiming equal participation or learning improvement. Use paraphrase only; do not cite Colton as independently read. Attribute the whole exercise in an initial heading, and keep source-check/editorial notes outside the body.
+
+## Revision record
+
+The actual first draft is draft-01.md (412 body words). Following its saved AI self-review and checker results, draft-02.md (409 words) locates the fieldwork in 2018, identifies the number-line observation as a separate case, specifies that Meri was heard from the connected classroom, and develops a comparison between the roles of visuals in planning and pupil participation. These changes resolve a possible cross-case conflation and make the conceptual interpretation more specific; they do not weaken the author's supported position.
+
+After checking draft-02.md, one minor clarity edit produced draft-03.md (407 words): "weighted agency in their favour" became an explicit statement that agency was weighted toward the preplanned visuals. This removes a potentially ambiguous pronoun. It is a local correction after the one complete substantive revision. The final file reproduces draft-03.md exactly.
+
+The original selection still holds: each paragraph contributes to the question of how documents participate in practice. The source pack supports the scope, actors and event sequence, as well as the positive uses and structuring role of documents. No additional literature or quotations were needed.

@@ -1,0 +1,38 @@
+{
+  "scope": "Chronological summaries of apply_patch file mutations. The actual draft files and checker outputs preserve all writing stages.",
+  "actions": [
+    {
+      "index": 1,
+      "action": "Created rationale.md before first draft."
+    },
+    {
+      "index": 2,
+      "action": "Saved actual first draft as draft-01.md before checks or review."
+    },
+    {
+      "index": 3,
+      "action": "Created immutable helper run_checks_v1.py to save actual checker output, command arguments, source/input hashes and body count."
+    },
+    {
+      "index": 4,
+      "action": "Saved actual AI self-review after first-draft checker outputs and before revision."
+    },
+    {
+      "index": 5,
+      "action": "Saved actual complete substantive revision as draft-02.md."
+    },
+    {
+      "index": 6,
+      "action": "Saved draft-03.md as a minor clarity edit after the complete revision: replaced ambiguous 'their favour' with explicit agency weighted toward the preplanned visuals."
+    },
+    {
+      "index": 7,
+      "action": "Appended actual revision outcomes to rationale.md and self-review.md; created separate editorial/source-check notes.md."
+    },
+    {
+      "index": 8,
+      "action": "Saved executed-commands.json and tool-actions.json; prose writes used apply_patch and final.md was copied from draft-03.md by the recorded shell command."
+    }
+  ]
+}
+

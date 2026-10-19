@@ -1,0 +1,136 @@
+{
+  "description": "Actual shell commands executed in this run. Concurrent independent reads are listed in submission order. Checker subprocess commands are preserved in the referenced files with argv, hashes, outputs, and exit codes.",
+  "shell_commands": [
+    {
+      "sequence": 1,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md' -Raw",
+      "result": "exit 0; console text had UTF-8 decoding errors; reread explicitly as UTF-8"
+    },
+    {
+      "sequence": 2,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\revise-request.md' -Raw",
+      "result": "exit 0; console text had UTF-8 decoding errors; reread explicitly as UTF-8"
+    },
+    {
+      "sequence": 3,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Raw",
+      "result": "exit 0; console text had UTF-8 decoding errors; reread explicitly as UTF-8"
+    },
+    {
+      "sequence": 4,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md' -Raw",
+      "result": "exit 0; console text had UTF-8 decoding errors; reread explicitly as UTF-8"
+    },
+    {
+      "sequence": 5,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 6,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\revise-request.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 7,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 8,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 9,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 10,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 11,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 12,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 13,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 14,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 15,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 16,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 17,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 18,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "sequence": 19,
+      "command": "rg -n '^(import|from) |read_text|read_bytes|open\\(|add_argument|def read' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 20,
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\audit-runner-v1.py' --draft draft-01.md --stage first",
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1",
+      "exit_code": 0
+    },
+    {
+      "sequence": 21,
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\audit-runner-v1.py' --draft final.md --stage final",
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1",
+      "exit_code": 1
+    },
+    {
+      "sequence": 22,
+      "command": "python -B '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\audit-runner-v2.py' --draft final.md --stage corrected",
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1",
+      "exit_code": 0
+    },
+    {
+      "sequence": 23,
+      "command": "Get-FileHash -Algorithm SHA256 -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\draft-02.md','<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\draft-03.md','<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\final.md' | Select-Object Path,Hash | ConvertTo-Json",
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1",
+      "exit_code": 0
+    },
+    {
+      "sequence": 24,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\checks\\corrected-manifest-check.json','<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\checks\\corrected-word-count.json' -Encoding UTF8",
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1",
+      "exit_code": 0
+    }
+  ],
+  "checker_command_logs": [
+    "checks/first-executed-commands.json",
+    "checks/final-executed-commands.json",
+    "checks/corrected-executed-commands.json"
+  ],
+  "note": "The final-* stage checked the 87-word candidate now retained as draft-02.md. The corrected-* stage checked the delivered 92-word final.md."
+}

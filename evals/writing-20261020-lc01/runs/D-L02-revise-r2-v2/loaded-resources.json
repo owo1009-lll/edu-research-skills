@@ -1,0 +1,84 @@
+{
+  "scope": "Skill and support resources actually read or executed; excludes task inputs, outputs and Python standard-library internals.",
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+      "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+      "usage": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\foundation.md",
+      "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+      "usage": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+      "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+      "usage": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+      "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+      "usage": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "sha256": "5cb77549a18d033a851455f4b6a789da0ee8b96c4721d8cd9501f35980f120c8",
+      "usage": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md",
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+      "usage": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "usage": [
+        "read",
+        "executed for draft-01",
+        "executed for draft-02"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "usage": [
+        "read via truncated combined display",
+        "import/file-access inspection",
+        "executed for draft-01",
+        "executed for draft-02"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\run_checks_v1.py",
+      "sha256": "9846be2847b50787b88bf50fc3e53f1fa55f769146cc74671103a9ced0817fc7",
+      "usage": [
+        "created in this run",
+        "executed unchanged"
+      ],
+      "kind": "preserved local helper"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\finalize_v1.py",
+      "sha256": "0af1ada2cf5c37d7c5eb0d9681c99f09a9a88142f4feaeb4761c5575e090ae51",
+      "usage": [
+        "created in this run",
+        "executed unchanged"
+      ],
+      "kind": "preserved local helper"
+    }
+  ]
+}

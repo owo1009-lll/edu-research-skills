@@ -1,0 +1,48 @@
+{
+  "helper_argv": [
+    "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\audit-runner-v1.py",
+    "--draft",
+    "final.md",
+    "--stage",
+    "final"
+  ],
+  "helper_path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\audit-runner-v1.py",
+  "helper_sha256": "ca275a0e1f44f7ebfb28f35430b2897dd703532edaf99b0c77eacedaf932d684",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-B",
+        "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\final.md",
+        "--source",
+        "<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md",
+        "<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1",
+      "started_utc": "2026-10-19T22:11:41.915789+00:00",
+      "exit_code": 0,
+      "script_sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "draft_sha256": "2e524f0d12c34bb25285b6c216520b58a72ff89ec067d4971be0c049d50d1ac7",
+      "stdout_path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\checks\\final-check_voice.stdout.txt",
+      "stderr_path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\checks\\final-check_voice.stderr.txt"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-B",
+        "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\final.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1",
+      "started_utc": "2026-10-19T22:11:41.967507+00:00",
+      "exit_code": 0,
+      "script_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "draft_sha256": "2e524f0d12c34bb25285b6c216520b58a72ff89ec067d4971be0c049d50d1ac7",
+      "stdout_path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\checks\\final-check_prose.stdout.txt",
+      "stderr_path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\checks\\final-check_prose.stderr.txt"
+    }
+  ]
+}

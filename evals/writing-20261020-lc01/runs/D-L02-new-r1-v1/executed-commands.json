@@ -1,0 +1,62 @@
+{
+  "scope": "Actual shell commands executed in this run. Checker subprocess argument lists and actual outputs are in the per-draft checker-executions/stdout/stderr files. Two pairs of independent read commands were launched concurrently; indices are the recording order.",
+  "commands": [
+    {
+      "index": 1,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md' -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md' -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Raw",
+      "exit_code": 0,
+      "note": "Initial display had encoding artifacts; resources were reread explicitly as UTF-8."
+    },
+    {
+      "index": 2,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md' -Encoding UTF8 -Raw\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "index": 3,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md' -Encoding UTF8 -Raw\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "index": 4,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "index": 5,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md' -Encoding UTF8 -Raw\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\prose-en.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "index": 6,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' -Encoding UTF8 -Raw\nGet-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "index": 7,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\nrg -n '^(from|import) |read_text|open\\(|add_argument' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'\nNew-Item -ItemType Directory -Path '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1' -Force | Out-Null",
+      "exit_code": 0
+    },
+    {
+      "index": 8,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\npython -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1\\run_checks_v1.py' --draft draft-01.md --stage draft-01",
+      "exit_code": 0
+    },
+    {
+      "index": 9,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\npython -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1\\run_checks_v1.py' --draft draft-02.md --stage draft-02",
+      "exit_code": 0
+    },
+    {
+      "index": 10,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\npython -B '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1\\run_checks_v1.py' --draft draft-03.md --stage draft-03",
+      "exit_code": 0
+    },
+    {
+      "index": 11,
+      "command": "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)\n$runPath = '<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v1'\nCopy-Item -LiteralPath (Join-Path $runPath 'draft-03.md') -Destination (Join-Path $runPath 'final.md')\n$draftHash = (Get-FileHash -LiteralPath (Join-Path $runPath 'draft-03.md') -Algorithm SHA256).Hash.ToLowerInvariant()\n$finalHash = (Get-FileHash -LiteralPath (Join-Path $runPath 'final.md') -Algorithm SHA256).Hash.ToLowerInvariant()\nif ($draftHash -ne $finalHash) { throw 'Final copy differs from selected draft.' }\n$selection = [ordered]@{ selected_draft = 'draft-03.md'; final = 'final.md'; sha256 = $finalHash; identical = $true; body_word_count = 407 }\n$selectionJson = $selection | ConvertTo-Json\n[System.IO.File]::WriteAllText((Join-Path $runPath 'final-selection.json'), $selectionJson + [Environment]::NewLine, [System.Text.UTF8Encoding]::new($false))\n$selectionJson\nGet-ChildItem -LiteralPath $runPath -File | Select-Object Name, Length",
+      "exit_code": 0
+    }
+  ]
+}
+

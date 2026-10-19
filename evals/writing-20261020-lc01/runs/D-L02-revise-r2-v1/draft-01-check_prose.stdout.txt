@@ -1,0 +1,5 @@
+Sections found: Introduction | prompts: 0
+
+[Introduction] 95 words, 1 paragraphs | sentence median 18, >40 words 0.0% | citations 10.5/1,000 words (published 23), cited sentences 20.0% (published 57), narrative 100.0% (published 8), 3+ works 0.0% | sentences with numbers 0.0% | we 0.0/1,000 | passive 20.0%
+
+[Argued sections together] 95 words | sentence median 18 (published 26), >40 words 0.0% (13.5) | paragraph median 95 words (135) | we 0.0/1,000 (4.9) | passive 20.0% (23.4) | abbreviations 0.0/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)

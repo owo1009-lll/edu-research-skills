@@ -1,0 +1,45 @@
+{
+  "invocation": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\run_checks_v1.py",
+    "--draft",
+    "draft-02.md",
+    "--stage",
+    "draft-02"
+  ],
+  "helper_sha256": "9846be2847b50787b88bf50fc3e53f1fa55f769146cc74671103a9ced0817fc7",
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\draft-02.md",
+  "draft_sha256": "f6bf4e8b4b71158d514692d8efaf642f26d703b3b578112ae8e832de03f76bbc",
+  "word_count_method": "Whitespace-delimited body words; initial attribution heading excluded; citations included",
+  "body_word_count": 92,
+  "body_paragraph_count": 1,
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\draft-02.md",
+        "--source",
+        "<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md",
+        "<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md"
+      ],
+      "script_sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "exit_code": 0,
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\draft-02-check_voice.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\draft-02-check_voice.stderr.txt"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\draft-02.md"
+      ],
+      "script_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "exit_code": 0,
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\draft-02-check_prose.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\draft-02-check_prose.stderr.txt"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "shell": "powershell",
+  "notes": "Entries 1 and 2 were issued as independent parallel reads. All commands completed successfully. Checker subprocess commands and captured output are in draft-01-execution.json and draft-02-execution.json. Artifact creation and revision used apply_patch.",
+  "commands": [
+    {
+      "sequence": 1,
+      "command": "Get-Content -Raw -Encoding UTF8 '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'; Get-FileHash -Algorithm SHA256 '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md' | ConvertTo-Json -Compress"
+    },
+    {
+      "sequence": 2,
+      "command": "Get-Content -Raw -Encoding UTF8 '<EXPERIMENT_ROOT>\\inputs\\D-L02\\revise-request.md'; Get-Content -Raw -Encoding UTF8 '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'; Get-Content -Raw -Encoding UTF8 '<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md'; Get-FileHash -Algorithm SHA256 '<EXPERIMENT_ROOT>\\inputs\\D-L02\\revise-request.md','<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md','<EXPERIMENT_ROOT>\\inputs\\D-L02\\original.md' | ConvertTo-Json -Compress"
+    },
+    {
+      "sequence": 3,
+      "command": "$paths = @('<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\foundation.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md'); foreach ($p in $paths) { Write-Output ('RESOURCE: ' + $p); Get-Content -Raw -Encoding UTF8 -LiteralPath $p; Get-FileHash -Algorithm SHA256 -LiteralPath $p | ConvertTo-Json -Compress }"
+    },
+    {
+      "sequence": 4,
+      "command": "$paths = @('<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'); foreach ($p in $paths) { Write-Output ('RESOURCE: ' + $p); Get-Content -Raw -Encoding UTF8 -LiteralPath $p; Get-FileHash -Algorithm SHA256 -LiteralPath $p | ConvertTo-Json -Compress }",
+      "note": "Full script display was requested; tool output was truncated."
+    },
+    {
+      "sequence": 5,
+      "command": "rg -n '^(from |import )|read_text|open\\(|__file__|read\\(' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'"
+    },
+    {
+      "sequence": 6,
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\run_checks_v1.py' --draft draft-01.md --stage draft-01"
+    },
+    {
+      "sequence": 7,
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\run_checks_v1.py' --draft draft-02.md --stage draft-02"
+    },
+    {
+      "sequence": 8,
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r2-v2\\finalize_v1.py'"
+    }
+  ]
+}

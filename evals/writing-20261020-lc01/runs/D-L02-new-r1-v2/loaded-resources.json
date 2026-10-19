@@ -1,0 +1,103 @@
+{
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+      "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+      "usage": [
+        "read"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+      "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+      "usage": [
+        "read"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+      "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+      "usage": [
+        "read"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "sha256": "5cb77549a18d033a851455f4b6a789da0ee8b96c4721d8cd9501f35980f120c8",
+      "usage": [
+        "read"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md",
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+      "usage": [
+        "read"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+      "sha256": "bac65a856e6eddda2ea6c0dfdce209b31635dd08ca70fe6f8f842b7c202f98be",
+      "usage": [
+        "read"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "usage": [
+        "read",
+        "executed"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "usage": [
+        "read",
+        "executed"
+      ],
+      "origin": "assigned v2 snapshot"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\run_checks_v1.py",
+      "sha256": "41ad36c08d2fff8a38d4c9ebfd9334c68e3888d75b5124115ce3fdf6004f106f",
+      "usage": [
+        "executed"
+      ],
+      "origin": "preserved local helper v1"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\prerun-record-v1.json",
+      "sha256": "7e5d6f5b7a67cd989f416a01fe9e346bc71e9e2e49caca48c3f4ef0b38244f50",
+      "usage": [
+        "read"
+      ],
+      "origin": "preserved run support"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\finalization-data-v1.json",
+      "sha256": "3f0aeafa89ba9791ea7c7d8c7d5a695caa3867e7e51f44cf7f8c3a0665886ab8",
+      "usage": [
+        "read"
+      ],
+      "origin": "preserved run support"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\finalize_v1.py",
+      "sha256": "9d122af0039aae501651790366ba13ac79a6e93ee306f2abeba82b38efcb97bb",
+      "usage": [
+        "executed"
+      ],
+      "origin": "preserved run support"
+    }
+  ],
+  "scope": "Skill/support files actually read or executed; Python standard-library internals are not task support resources."
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "draft-01",
+  "draft_sha256": "036eea83dc67cb85d198f647192bf790393047b778d487d1c6459706bed4c9d4",
+  "excluded": "First line: initial attribution heading",
+  "body_word_count": 396,
+  "word_pattern": "[A-Za-z0-9]+(?:['\u2019\\-][A-Za-z0-9]+)*",
+  "within_requested_350_450": true
+}

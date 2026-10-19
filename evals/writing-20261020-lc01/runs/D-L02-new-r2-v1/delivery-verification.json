@@ -1,0 +1,15 @@
+{
+  "final": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r2-v1\\final.md",
+  "final_sha256": "a26da1cdb85b10603e5e2e2c125b1d46f2cd087da84c24de50cf3095cc69e728",
+  "draft_02_sha256": "a26da1cdb85b10603e5e2e2c125b1d46f2cd087da84c24de50cf3095cc69e728",
+  "final_equals_draft_02": true,
+  "body_word_count": 404,
+  "initial_attribution_heading_excluded": true,
+  "within_requested_350_450": true,
+  "body_paragraph_count": 4,
+  "recorded_prose_stages": [
+    "draft-01.md",
+    "draft-02.md"
+  ],
+  "final_is_copy_of": "draft-02.md"
+}

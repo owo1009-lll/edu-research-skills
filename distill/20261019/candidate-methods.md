@@ -128,3 +128,7 @@ The [M-C01 comparison](../../evals/writing-20261020-mc01/README.md) has now comp
 ## 此阶段不作出的归纳
 
 三类都涉及具体对象，但动作并不相同：定量说明比较及测量，质性解释回应和过程，混合说明不同证据的连接及增量。暂不合并为“所有段落都按对象—证据—解释”模板，也不要求每个术语都配场景。继续补充跨作者的英文材料，核对当前基线输出并进行小批复测，再决定哪些值得进入正式方法。按用户最新要求，本轮不再开展中文分析。
+
+## L-C01 observed comparison (English only)
+
+The [isolated positive-example comparison](../../evals/writing-20261020-lc01/adjudication.md) appended only the L-N14 illustration to the qualitative route and tested L-N13 in English new writing and actual-paragraph compression, twice per arm. Both anonymous reviews tie all four bodies. Controls already connect concrete action to concepts; the candidate adds no demonstrated advantage and one candidate final retains a small ambiguity about whether identical images were traced across episodes. Self-review repairs episode conflation in both arms. Keep this illustration and its source analysis as development evidence, without adding it to runtime or retesting the unchanged addition merely to seek a win. This decision does not reject qualitative examples generally.

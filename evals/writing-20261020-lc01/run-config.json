@@ -1,0 +1,134 @@
+{
+  "project_baseline": "684f5e435b76daf8d0109c9c6a93297542c59889",
+  "immediate_source_commit": "331eccc73459770dedad8c1f5f747929f69312f5",
+  "created_before_runs_utc": "2026-10-19T22:03:11.111554+00:00",
+  "language": "English only",
+  "arms": {
+    "v1": "control",
+    "v2": "L-C01 positive example only"
+  },
+  "model": "Inherited session default; exact hosted identifier and settings not exposed",
+  "temperature": "not exposed",
+  "seed": "not exposed",
+  "same_model_family": true,
+  "human_review": false,
+  "cross_model_review": false,
+  "unique_development_studies": 1,
+  "operations_per_study": 2,
+  "runs_per_operation_per_arm": 2,
+  "independent_holdouts": 0,
+  "input_freeze": "input-freeze.json",
+  "snapshots": {
+    "v1": "snapshots/control.json",
+    "v2": "snapshots/candidate.json"
+  },
+  "status": "eight_runs_completed_two_blind_reviews_completed_candidate_not_adopted",
+  "word_bounds": {
+    "new": [
+      350,
+      450
+    ],
+    "revise": [
+      90,
+      110
+    ]
+  },
+  "runs": [
+    {
+      "id": "D-L02-new-r1-v1",
+      "operation": "new",
+      "repeat": 1,
+      "version": "v1",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_new_r1_v1",
+      "body_whitespace_words": 407
+    },
+    {
+      "id": "D-L02-new-r1-v2",
+      "operation": "new",
+      "repeat": 1,
+      "version": "v2",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_new_r1_v2",
+      "body_whitespace_words": 405
+    },
+    {
+      "id": "D-L02-new-r2-v1",
+      "operation": "new",
+      "repeat": 2,
+      "version": "v1",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_new_r2_v1",
+      "body_whitespace_words": 404
+    },
+    {
+      "id": "D-L02-new-r2-v2",
+      "operation": "new",
+      "repeat": 2,
+      "version": "v2",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_new_r2_v2",
+      "body_whitespace_words": 391
+    },
+    {
+      "id": "D-L02-revise-r1-v1",
+      "operation": "revise",
+      "repeat": 1,
+      "version": "v1",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_revise_r1_v1",
+      "body_whitespace_words": 92
+    },
+    {
+      "id": "D-L02-revise-r1-v2",
+      "operation": "revise",
+      "repeat": 1,
+      "version": "v2",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_revise_r1_v2",
+      "body_whitespace_words": 90
+    },
+    {
+      "id": "D-L02-revise-r2-v1",
+      "operation": "revise",
+      "repeat": 2,
+      "version": "v1",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_revise_r2_v1",
+      "body_whitespace_words": 91
+    },
+    {
+      "id": "D-L02-revise-r2-v2",
+      "operation": "revise",
+      "repeat": 2,
+      "version": "v2",
+      "status": "completed",
+      "history": "none",
+      "browsing": false,
+      "agent": "/root/lc01_revise_r2_v2",
+      "body_whitespace_words": 92
+    }
+  ],
+  "writer_wrapper": "writer-wrapper.md",
+  "review_brief": "review-brief.md",
+  "review_agents": {
+    "new": "/root/lc01_review_new",
+    "revise": "/root/lc01_review_revise"
+  },
+  "decision": "retain_current_runtime_guidance; keep_example_as_development_illustration",
+  "status_observed_utc": "2026-10-19T22:23:52.611233+00:00"
+}

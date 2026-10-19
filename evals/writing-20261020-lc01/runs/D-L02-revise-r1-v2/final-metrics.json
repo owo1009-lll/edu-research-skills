@@ -1,0 +1,9 @@
+{
+  "path": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v2\\final.md",
+  "sha256": "f82198a698381cad38968f06c2595e980781321f934c82538c6848310f3085b8",
+  "method": "Whitespace-delimited body words; the separate initial attribution heading is excluded.",
+  "body_words": 90,
+  "body_paragraphs": 1,
+  "within_90_110_words": true,
+  "initial_heading": "# Attributed secondary-writing exercise: Ruth Unsworth, *Teaching through the cloud* (2023)"
+}

@@ -1,0 +1,13 @@
+{
+  "record_kind": "Actual artifact and action sequence; no unperformed drafting or review stage is claimed.",
+  "sequence": [
+    {"stage": 1, "action": "Read the assigned v2 skill, the three task inputs and the listed support resources.", "record": "initial-read-commands.json"},
+    {"stage": 2, "action": "Created the pre-draft argument map and rationale, then draft-01.md and separate notes, using apply_patch.", "artifacts": ["rationale.md", "draft-01.md", "notes.md"]},
+    {"stage": 3, "action": "Created immutable audit-run-v1.py using apply_patch; ran initialize and the first-draft checks.", "artifacts": ["audit-run-v1.py", "draft-01-metrics.json", "checks/draft-01-check_voice.stdout.txt", "checks/draft-01-check_prose.stdout.txt"]},
+    {"stage": 4, "action": "Saved the AI self-review before writing the second draft, using a separate apply_patch call.", "artifacts": ["self-review.md"]},
+    {"stage": 5, "action": "Created draft-02.md and appended the reasons for the actual revision to rationale.md using apply_patch.", "artifacts": ["draft-02.md", "rationale.md"]},
+    {"stage": 6, "action": "Ran both supplied checkers on draft-02.md and retained the outputs.", "artifacts": ["draft-02-metrics.json", "checks/draft-02-check_voice.stdout.txt", "checks/draft-02-check_prose.stdout.txt"]},
+    {"stage": 7, "action": "Created final.md with the same paragraph as draft-02.md and appended final check notes using apply_patch.", "artifacts": ["final.md", "notes.md", "stage-record.json"]}
+  ],
+  "timestamps": "Draft edit timestamps were not separately captured. Actual checker and helper execution timestamps are in executed-commands.jsonl."
+}

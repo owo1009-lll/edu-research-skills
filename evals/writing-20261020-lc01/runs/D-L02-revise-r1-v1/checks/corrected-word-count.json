@@ -1,0 +1,9 @@
+{
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-L02-revise-r1-v1\\final.md",
+  "draft_sha256": "4aeac0c96043742f3e29cf98e56d76ce7f91856ae296b97be0adb2d8c1ea8f77",
+  "method": "Whitespace-delimited body words; initial attribution heading excluded.",
+  "body_words": 92,
+  "body_paragraphs": 1,
+  "within_90_to_110": true,
+  "single_body_paragraph": true
+}

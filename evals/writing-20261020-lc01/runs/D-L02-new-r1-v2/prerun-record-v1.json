@@ -1,0 +1,115 @@
+{
+  "task": "D-L02-new-r1-v2",
+  "resources": [
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+    "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py"
+  ],
+  "inputs": [
+    "<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md",
+    "<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md"
+  ],
+  "shell_commands_before_checking": [
+    {
+      "sequence": 1,
+      "command": "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 2,
+      "command": "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md'; Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 3,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 4,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\new-request.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 5,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 6,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 7,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 8,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 9,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-L02\\source-pack.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 10,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 11,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 12,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 13,
+      "command": "Get-Content -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -TotalCount 45",
+      "exit_code": 0
+    },
+    {
+      "sequence": 14,
+      "command": "rg -n -A 14 'KINDS_EN|def main|^from |^import |read_text|open\\(' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "exit_code": 0
+    },
+    {
+      "sequence": 15,
+      "command": "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md'",
+      "exit_code": 0
+    }
+  ],
+  "patch_operations": [
+    {
+      "order": 1,
+      "purpose": "Create pre-draft rationale",
+      "paths": [
+        "rationale.md"
+      ]
+    },
+    {
+      "order": 2,
+      "purpose": "Save actual first draft before review",
+      "paths": [
+        "draft-01.md"
+      ]
+    }
+  ],
+  "notes": [
+    "First two read commands used PowerShell's default decoding, which garbled some UTF-8 characters. Both task inputs and all prose guidance were subsequently read with explicit UTF-8.",
+    "Some large tool responses were truncated; the argument resource was reread in full. Script imports and CLI entry points were inspected separately.",
+    "No browsing, other runs, installed skills, or repository files were read."
+  ]
+}

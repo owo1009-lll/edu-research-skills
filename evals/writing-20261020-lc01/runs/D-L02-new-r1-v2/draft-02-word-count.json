@@ -1,0 +1,9 @@
+{
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-L02-new-r1-v2\\draft-02.md",
+  "sha256": "2fbaeeb0f63331502d48b74bc2651161dda36bbeeacfc8aa2bef039e85b2cff7",
+  "excluded": "Initial attribution heading only",
+  "whitespace_word_count": 405,
+  "lexical_word_count": 406,
+  "whitespace_method": "Split body on whitespace; internal hyphens count within one word.",
+  "within_350_450_words": true
+}
