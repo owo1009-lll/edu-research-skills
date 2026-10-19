@@ -1,0 +1,74 @@
+{
+  "id": "Q-N11",
+  "source_url": "https://www.nber.org/system/files/working_papers/w22746/w22746.pdf",
+  "source_sha256": "546bd7aeeaa95cc29a7f4a76385fce0620b178fdc652b1e08a9257f6620a4c1a",
+  "render_scale": 1.8,
+  "scope": "All listed rendered pages subsequently visually inspected. This later reading record does not replace acquisition-time status. Source PDF and page images remain outside the public repository.",
+  "rendered_and_visually_read": [
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "568cf51dad4b928759d9f85c6ba0fae2c53fe713cbd739e8cb37424ac97bcaa5"
+    },
+    {
+      "page": 26,
+      "file": "page-26.png",
+      "sha256": "7a40181ea4cfb95d59830a9c478b4a4907f0474fcd66fe69de8adbf3367dd95c"
+    },
+    {
+      "page": 28,
+      "file": "page-28.png",
+      "sha256": "71257fdeac3df717c826de6eadb10137e220d4a13c2169475fa69405e13efdf1"
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "6004652b4e794f19099bbb6e927d41ddc8d8f96f49f115d8aa05ac87075bc79a"
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "6352769e26c8781f9e33c6c7d67ef5b4567a40ede51b53b69d43fd8c7e4c42eb"
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "eb762df6384b0b8413409faa3b0db969ae82a1c6f0801daad3d83f76bd343ad2"
+    },
+    {
+      "page": 35,
+      "file": "page-35.png",
+      "sha256": "b39b5eac7fef6a6dfd2ea1724bb69d83295007cfb9e622bbc91c641e0937adfb"
+    },
+    {
+      "page": 36,
+      "file": "page-36.png",
+      "sha256": "df2f082e0befb85b2d3317d57c77cee90cba995c8e84026c3b04d32e773077e9"
+    },
+    {
+      "page": 37,
+      "file": "page-37.png",
+      "sha256": "e8cabfccdc243579c665c7f0c839befc29723cd734f8705dcc9f12f255b8ca93"
+    },
+    {
+      "page": 38,
+      "file": "page-38.png",
+      "sha256": "445d5c045796a3a2081e45c0858c36169f42c6588cfc51fc7cc6464ad9c4c195"
+    },
+    {
+      "page": 39,
+      "file": "page-39.png",
+      "sha256": "2bc2c5e0fe0fa84cd9baf0fcde26641692ee1bf75d599196f9d2ae2a502a7e77"
+    },
+    {
+      "page": 40,
+      "file": "page-40.png",
+      "sha256": "45689097cf948a717c634116c03750e24ae301e74b22ceb62df70a2660c46491"
+    },
+    {
+      "page": 41,
+      "file": "page-41.png",
+      "sha256": "b17a9140c791f0db9faf48f7a536bbec545b317b11cba00019adf57ccd0a45a4"
+    }
+  ]
+}

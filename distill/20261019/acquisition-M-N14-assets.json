@@ -1,0 +1,73 @@
+{
+  "id": "M-N14",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10993169/fullTextXML",
+  "source_sha256": "dfe1448724b8a1dc1a80988f996af55abd02a888d9297361f3d48ebb2f9a82f4",
+  "assets": [
+    {
+      "file": "Figure-1.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f2cc/10993169/a5f0bbbe46f9/gr1.jpg",
+      "retrieved_utc": "2026-10-19T19:35:38.090155+00:00",
+      "status": 200,
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f2cc/10993169/a5f0bbbe46f9/gr1.jpg",
+      "bytes": 195900,
+      "outcome": "downloaded_not_yet_read",
+      "sha256": "aa713485584b303835c413dde2bc00ef2db26b9ef696b8d801c4aae3449eb25d"
+    },
+    {
+      "file": "Figure-2.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f2cc/10993169/dbae0f00581b/gr2.jpg",
+      "retrieved_utc": "2026-10-19T19:35:39.988194+00:00",
+      "status": 200,
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f2cc/10993169/dbae0f00581b/gr2.jpg",
+      "bytes": 119682,
+      "outcome": "downloaded_not_yet_read",
+      "sha256": "a8fbb156f1d6900609cef8887417066439b23e5f757aa6c5bf840f422dc741e6"
+    }
+  ],
+  "table_fragments": [
+    {
+      "file": "tbl1.xml",
+      "locator": "table-wrap id=tbl1",
+      "sha256": "6bab24ddf9c3b1b6174a698cc65d4c6f2e8d1e58e372af0af698817b7b87a88c",
+      "rows": 2,
+      "reading_status": "All cell text and row/column relationships read from XML"
+    },
+    {
+      "file": "tbl4.xml",
+      "locator": "table-wrap id=tbl4",
+      "sha256": "99ad3d204b1880cc743655e255bc5fddba43a9ba27b77cb8b7c59af877b134c0",
+      "rows": 8,
+      "reading_status": "All cell text and row/column relationships read from XML"
+    },
+    {
+      "file": "tbl2.xml",
+      "locator": "table-wrap id=tbl2",
+      "sha256": "f512ffc2dd5a9f2f152ee06e4c2f6f72ea5352f0f546007eb62131ec381277ff",
+      "rows": 6,
+      "reading_status": "All cell text and row/column relationships read from XML"
+    },
+    {
+      "file": "tbl3.xml",
+      "locator": "table-wrap id=tbl3",
+      "sha256": "02d32460e161ac16861c8d897dc38d1c11160bc3f25e316ac3a1d47b87ba7bea",
+      "rows": 26,
+      "reading_status": "All cell text and row/column relationships read from XML"
+    },
+    {
+      "file": "tbl5.xml",
+      "locator": "table-wrap id=tbl5",
+      "sha256": "b62b2307b54913e2ffa0307e8bf17add40ff247e00106c4a15b0a7eb4a49489e",
+      "rows": 18,
+      "reading_status": "All cell text and row/column relationships read from XML"
+    }
+  ],
+  "rights_note": "Source, image and table files remain outside the public repository. Public notes contain original analysis.",
+  "later_reading": {
+    "figures_visually_read": [
+      "Figure-1.jpg",
+      "Figure-2.jpg"
+    ],
+    "tables_read": "All five table fragments: cell text and row/column relationships read in XML. No PDF layout inspection claimed.",
+    "scope_note": "Acquisition-time download outcomes retained above; both images were subsequently viewed. Cited originals and the separate scale-validation paper were not read."
+  }
+}

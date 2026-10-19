@@ -1,0 +1,54 @@
+{
+  "id": "L-N13",
+  "source_url": "https://ray.yorksj.ac.uk/id/eprint/7974/3/Anthropology%20%20%20Edu%20Quarterly%20-%202023%20-%20Unsworth%20-%20Teaching%20through%20the%20cloud%20%20An%20ethnography%20of%20the%20role%20of%20cloud%E2%80%90based.pdf",
+  "source_sha256": "b93b01f5d33c32e15b041f1e024288da32d70b84cb896e2ff92f85bf51d07878",
+  "render_scale": 1.8,
+  "scope": "All listed rendered pages subsequently visually inspected. This later reading record does not replace acquisition-time status. Source PDF and page images remain outside the public repository.",
+  "rendered_and_visually_read": [
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "sha256": "9f668933bef2af484f322155d8d99d5f1ee4b43cf90de824349e81c3d22861a6"
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "sha256": "c9503bfafbfa4be069ccd0359a31f1464a7a4d5887b1ceb255fe86990b31bef7"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "sha256": "bca09eaac87da1fc104a3b53be01229e18a6b04f88cd0bd57806df33063d6dd6"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "3866d39923904f563490c3a40ae1306bec750a235373cd795b4ee90c1d0bc338"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "6895d9e1a1c8e83fb009173bb61a1754acc9e1ed4b49e1bbb6c29134be2ef61f"
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "db2ce6d62c711d979894e9b91e2fd6da0b824a4743bcd69ff6c7b36569c97cb3"
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "sha256": "d64adaea85a887952968857262b9c88bff00799a6da3e799dc959e9a37b625c6"
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "sha256": "717632925a4a1a8a5e445f49e6baed9831b0cfcc74d332de8355f12bee48ec40"
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "sha256": "8c10e425cd8225caec06f2d8f8f0db56aaa7ee6763ea3f7add4631b9d62dc9d0"
+    }
+  ]
+}

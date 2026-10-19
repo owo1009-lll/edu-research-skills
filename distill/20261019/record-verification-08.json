@@ -1,0 +1,47 @@
+{
+  "checked_utc": "2026-10-19T19:55:28.117184+00:00",
+  "comparison_commit": "abc6e8824ef1d899029d4f2079a6eead77eb1438",
+  "status": "passed",
+  "scope": "English development reading, original analyses and source records; no behavior experiment or new runtime rule",
+  "json_files_parsed_excluding_this_report": 39,
+  "relative_markdown_links_resolved": 186,
+  "analysis_note_hash_references": 28,
+  "english_new_candidates": 41,
+  "english_acquired_fulltexts": 29,
+  "english_new_analyses": 26,
+  "confirmed_groups": {
+    "quantitative": 8,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 9,
+    "mixed": 8
+  },
+  "english_reread_analyses": 2,
+  "historical_chinese_records_unchanged": 4,
+  "all_other_reading_records_unchanged": 44,
+  "source_and_reading_hashes_verified": [
+    {
+      "id": "Q-N11",
+      "source_sha256": "546bd7aeeaa95cc29a7f4a76385fce0620b178fdc652b1e08a9257f6620a4c1a",
+      "reading_sha256": "28508f389a461276dccf1f305e8f616429a1d07c02ae5287d6812cdbe25b213e"
+    },
+    {
+      "id": "L-N13",
+      "source_sha256": "b93b01f5d33c32e15b041f1e024288da32d70b84cb896e2ff92f85bf51d07878",
+      "reading_sha256": "d13062f64769c0567b4314945db55db4fb912e0e71f9794aa48f15feb5952688"
+    },
+    {
+      "id": "M-N14",
+      "source_sha256": "dfe1448724b8a1dc1a80988f996af55abd02a888d9297361f3d48ebb2f9a82f4",
+      "reading_sha256": "0650b935d74a15d0e201bfdec501a226e477548cf7a333f17c3bb839825f7587"
+    }
+  ],
+  "Q_N11_source_and_13_preview_hashes_match": true,
+  "L_N13_source_and_9_preview_hashes_match": true,
+  "M_N14_source_2_images_and_5_table_fragment_hashes_match": true,
+  "Q_N11_figure_1_displayed_baseline_values_sum": "104.41",
+  "calculation_scope": "Addition of four printed labels only; no raw-data or model reanalysis. Source discrepancy retained, not corrected by inference.",
+  "changed_paths_confined_to": "distill/20261019/",
+  "runtime_rules_unchanged_from_comparison_commit": true,
+  "diff_whitespace_check": "passed",
+  "tests": "Record, path and hash checks only. New English examples are editorial demonstrations, not model runs. No new behavior benefit or final holdout result claimed."
+}
