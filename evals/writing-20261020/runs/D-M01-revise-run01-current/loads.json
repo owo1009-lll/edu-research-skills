@@ -1,0 +1,57 @@
+{
+    "snapshot_root":  "@snapshot",
+    "resources":  [
+                      {
+                          "path":  "skills/edu-writing/SKILL.md",
+                          "sha256":  "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+                          "usage":  "read"
+                      },
+                      {
+                          "path":  "skills/edu-writing/references/foundation.md",
+                          "sha256":  "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+                          "usage":  "read"
+                      },
+                      {
+                          "path":  "skills/edu-writing/references/argument.md",
+                          "sha256":  "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+                          "usage":  "read"
+                      },
+                      {
+                          "path":  "skills/edu-writing/references/voice-en.md",
+                          "sha256":  "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+                          "usage":  "read"
+                      },
+                      {
+                          "path":  "skills/edu-shared/references/integrity.md",
+                          "sha256":  "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+                          "usage":  "read"
+                      },
+                      {
+                          "path":  "skills/edu-writing/scripts/check_voice.py",
+                          "sha256":  "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+                          "usage":  "read and executed"
+                      }
+                  ],
+    "input_root":  "@inputs\\D-M01",
+    "inputs":  [
+                   {
+                       "path":  "revise-request.md",
+                       "absolute_path":  "@inputs\\D-M01\\revise-request.md",
+                       "sha256":  "ca1491e05118ae28fdc8a7add43bd685921f9f26fa4606222cadd493bef542c2",
+                       "usage":  "read"
+                   },
+                   {
+                       "path":  "original.md",
+                       "absolute_path":  "@inputs\\D-M01\\original.md",
+                       "sha256":  "ae4d8179d26719cc8303429de6bc74633f6a4fd605b8460f9216084bba092a51",
+                       "usage":  "read"
+                   },
+                   {
+                       "path":  "source-pack.md",
+                       "absolute_path":  "@inputs\\D-M01\\source-pack.md",
+                       "sha256":  "a27e6ecc9f23f20ea18e457b3230cd00368647ab0adca38ed22a7286f458abee",
+                       "usage":  "read"
+                   }
+               ],
+    "notes":  "Paths in resources are relative to snapshot_root. Hashes identify the exact files actually read or used. No other snapshot resources or scripts were read or used."
+}

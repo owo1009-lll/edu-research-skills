@@ -1,0 +1,54 @@
+{
+  "id": "L-N09",
+  "retrieved_utc": "2026-10-19T18:00:25.027458+00:00",
+  "records": [
+    {
+      "file": "appendix_a_interview_questions.docx",
+      "url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_a_interview_questions.docx",
+      "read_status": "not_yet_read",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_a_interview_questions.docx",
+      "bytes": 5792,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "1d303330220d4ae72a4a8646fa6e839d13662cbe9fb6fadb0d86ee03c774fa7f",
+      "outcome": "failed",
+      "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_a_interview_questions.docx"
+    },
+    {
+      "file": "appendix_b_data_analysis_process_updated_sept_2019.docx",
+      "url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_b_data_analysis_process_updated_sept_2019.docx",
+      "read_status": "not_yet_read",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_b_data_analysis_process_updated_sept_2019.docx",
+      "bytes": 5895,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "0d7d012120e635ee54e8571b876aa841d59a202e3945b354fbb95b79e8874ba4",
+      "outcome": "failed",
+      "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_b_data_analysis_process_updated_sept_2019.docx"
+    },
+    {
+      "file": "appendix_c_coded_research_proposal.docx",
+      "url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_c_coded_research_proposal.docx",
+      "read_status": "not_yet_read",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_c_coded_research_proposal.docx",
+      "bytes": 5804,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "a2d036179482916e66f0cb43edd4e7240a9a6e64e99fa04e0ed34104d98ab66c",
+      "outcome": "failed",
+      "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_c_coded_research_proposal.docx"
+    },
+    {
+      "file": "appendix_d_partnership_retreat.docx",
+      "url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_d_partnership_retreat.docx",
+      "read_status": "not_yet_read",
+      "status": 403,
+      "final_url": "https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_d_partnership_retreat.docx",
+      "bytes": 5792,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "1ee0337c6289887a15abdf74dfc39526000c422dc0f6a1a36fc78a33dea0ec01",
+      "outcome": "failed",
+      "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/suppl/10.1177/2332858419879448/suppl_file/appendix_d_partnership_retreat.docx"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Record and artifact integrity, not writing-quality proof or source-fact validation",
+  "json_files_parsed_before_this_report": {
+    "distill/20261019": 30,
+    "evals/writing-20261020": 11
+  },
+  "relative_markdown_links": "all existing",
+  "english_new_candidates": 35,
+  "english_downloaded": 23,
+  "english_new_analyzed": 20,
+  "english_analysis_groups": {
+    "quantitative": 6,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 7,
+    "mixed": 6
+  },
+  "historical_chinese_records_unchanged_from_b89d3c5": 4,
+  "new_reading_hashes_verified": [
+    "L-N09",
+    "M-N09"
+  ],
+  "published_artifact_hashes_verified": 26,
+  "input_hashes_verified": 4,
+  "snapshot_files_verified_against_frozen_and_current": 203,
+  "snapshot_tree_sha256": "2ac357f06b434ea2d36bf021e70ea3371dea47c5cfb90ed053164c440f04c147",
+  "final_manuscript_word_counts": {
+    "D-M01-new-run01-current": 243,
+    "D-M01-revise-run01-current": 138
+  },
+  "manuscripts_match_blind_copies": true,
+  "local_user_paths_in_public_evaluation": 0,
+  "runtime_skills_changed": false,
+  "unrelated_PPT_statistics_journal_tests_repeated": false,
+  "whitespace_check": "git -c core.whitespace=cr-at-eol,-blank-at-eof diff --cached --check passed; only EOF blank-line checks disabled to preserve the original reviewer artifact",
+  "strict_whitespace_check": "Reported one new blank line at EOF in judges/diagnostic-01/assessment.md; original review text and trailing lines deliberately retained"
+}

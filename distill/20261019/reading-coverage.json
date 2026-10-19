@@ -470,13 +470,16 @@
       "exposure": "new_development",
       "candidate_group": "qualitative",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/L-N09.md",
+      "use_status": "selected_writing_moves_only; insider qualitative interpretation, not measured mentoring effectiveness",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "c057dad79c689d3c18db8b700ade35704e1ef543e5ecb63c43b3ab3f4a886f0a",
-      "read_scope": "Identity/front-matter screening only; no full-text writing analysis"
+      "read_scope": "PDF pp. 1-11 main text (B001-B011), Tables 1-3; rendered pages 1, 3, 4, 6, 7, 8, 9, 10, 11 visually read; reference list pp. 11-12 only partly checked",
+      "confirmed_group": "qualitative",
+      "not_read": "Appendices A-D (all requests returned 403); complete original records, audio and cited originals",
+      "asset_acquisition": "acquisition-L-N09-supplements.json"
     },
     {
       "id": "L-N10",
@@ -516,15 +519,17 @@
       "exposure": "new_development",
       "candidate_group": "mixed",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/M-N09.md",
+      "use_status": "selected_writing_moves_only; sequence totals, statistical unit and table labels unresolved; used in current-version development diagnostic, not holdout",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "1cfacb1900d0536059c1565b45a91c9be37231ed4195fffb5d38819790969377",
-      "read_scope": "Identity/front-matter screening only; no full-text writing analysis",
+      "read_scope": "PDF pp. 1-21 main text (B001-B021), Tables 1-7 and Figure 1; rendered pages 4, 5, 7, 9, 10, 11, 15, 17, 18 visually read; references pp. 22-25 only partly checked",
       "version_note": "出版社页与 ERIC PDF 均标 Juergensen、van Garderen，2025，及此 DOI；Crossref 查询 404，DOI 登记未确认。身份按题名、作者及出版社位置核对，不把 DOI 字符串存在当注册成功。",
-      "doi_status": "reported_by_publisher_and_PDF; Crossref_not_found; registration_unconfirmed"
+      "doi_status": "reported_by_publisher_and_PDF; Crossref_not_found; registration_unconfirmed",
+      "confirmed_group": "mixed",
+      "not_read": "Original classroom audio, complete transcripts, interview guide, other independent supplementary files and cited originals"
     },
     {
       "id": "M-N10",

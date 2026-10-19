@@ -1,0 +1,34 @@
+[
+  {
+    "name": "check-voice",
+    "command": [
+      "@python",
+      "-B",
+      "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "@runs\\D-M01-new-run01-current\\first-draft.md",
+      "--source",
+      "@inputs\\D-M01\\source-pack.md"
+    ],
+    "returncode": 0,
+    "stdout": "check-voice.txt",
+    "stderr": "check-voice.stderr.txt"
+  },
+  {
+    "name": "check-prose",
+    "command": [
+      "@python",
+      "-B",
+      "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "@runs\\D-M01-new-run01-current\\first-draft.md"
+    ],
+    "returncode": 0,
+    "stdout": "check-prose.txt",
+    "stderr": "check-prose.stderr.txt"
+  },
+  {
+    "draft_word_count_whitespace": 257,
+    "draft_paragraph_count": 2
+  }
+]

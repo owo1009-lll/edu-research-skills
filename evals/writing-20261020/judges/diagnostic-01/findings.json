@@ -1,0 +1,294 @@
+{
+  "assessment_id": "diagnostic-01",
+  "assessed_on": "2026-10-20",
+  "language": "English",
+  "operation_handling": "Each output assessed against its own request; no version ranking or inference about instruction condition.",
+  "scope": "Only the six listed files were read. No browsing, skill files, writer rationale, run folders, distillation notes, other reviews, or further agents.",
+  "counting_method": "Whitespace-delimited tokens including citations; used only for requested length compliance.",
+  "severity_definitions": {
+    "none": "Strength, no demonstrated defect, or no mandatory correction established.",
+    "author_check": "Unresolved evidence or unavailable material; not a verified textual error.",
+    "optional": "Discretionary improvement; not a material failure."
+  },
+  "assessment_limits": [
+    "Evidence is bounded by the source pack; full study and cited reference texts were not independently inspected.",
+    "The source pack's reporting discrepancies are unresolved, but neither text presents the disputed inferential statistics.",
+    "Separate explanation/author-attention/adaptation records were outside the permitted input files, so their delivery and adequacy are not assessable.",
+    "Full authorial style cannot be inferred from one original paragraph and a paraphrased source pack.",
+    "The outputs are two different operations on the same study, not competing versions or independent empirical replications.",
+    "No human editing-time estimate, quality score, word-frequency score, or sentence-length quality rule was used."
+  ],
+  "read_files": [
+    {
+      "path": "@inputs\\D-M01\\source-pack.md",
+      "sha256": "A27E6ECC9F23F20EA18E457B3230CD00368647AB0ADCA38ED22A7286F458ABEE"
+    },
+    {
+      "path": "@inputs\\D-M01\\new-request.md",
+      "sha256": "ABA30C7EB4245E0E5DAA55526B0037FC48AA78EE5CDE0C1C19F66247FEB306F8"
+    },
+    {
+      "path": "@inputs\\D-M01\\revise-request.md",
+      "sha256": "CA1491E05118AE28FDC8A7ADD43BD685921F9F26FA4606222CADD493BEF542C2"
+    },
+    {
+      "path": "@inputs\\D-M01\\original.md",
+      "sha256": "AE4D8179D26719CC8303429DE6BC74633F6A4FD605B8460F9216084BBA092A51"
+    },
+    {
+      "path": "@blind\\diagnostic-01\\X.md",
+      "sha256": "E50FCFB0CFA260B6B6121200C5FB3CD49987B2505751CA15BB7BED41C1486277"
+    },
+    {
+      "path": "@blind\\diagnostic-01\\Y.md",
+      "sha256": "DD29FDB786D9D7038C5CE3403C24EA00E2F3088B9238AFEE56BFF93555825136"
+    }
+  ],
+  "outputs": [
+    {
+      "output_id": "X",
+      "operation": "New discussion writing",
+      "manuscript_path": "@blind\\diagnostic-01\\X.md",
+      "request_path": "@inputs\\D-M01\\new-request.md",
+      "length": {
+        "words": 243,
+        "required_min": 230,
+        "required_max": 280,
+        "paragraphs": 2,
+        "required_paragraphs": 2,
+        "compliant": true
+      },
+      "overall": "Coherent integration of the observation patterns and teachers' accounts, with a grounded equity-oriented implication. No demonstrated factual error or material request departure.",
+      "required_manuscript_corrections": [],
+      "findings": [
+        {
+          "dimension": "factual_author_fidelity",
+          "category": "strength",
+          "severity": "none",
+          "location": "P1 S2: 'a larger share of the recorded sequences'; P2 S4: 'One teacher'",
+          "evidence": "The supplied counts yield 29/52 teacher-initiated sequences for the difficulty group and 109/375 for the other group. The output stays at sequence level and retains the single-teacher scope of the response practice.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "question_core_judgment",
+          "category": "strength",
+          "severity": "none",
+          "location": "P1 S1: 'access to science talk' / 'develop their ideas'; P1 S6: 'what follows an invitation to speak'",
+          "evidence": "Directly interprets what the two evidence strands add and establishes the judgment that access and subsequent uptake both matter.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "reasoning_evidence_organisation",
+          "category": "strength",
+          "severity": "none",
+          "location": "P1 S3: 'Interviews informed by these observations'; P2 S2–S6",
+          "evidence": "Observation patterns lead to teacher explanations and then a recommendation; no complete individual-level linkage or intervention effect is asserted.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "theory_literature_use",
+          "category": "strength",
+          "severity": "none",
+          "location": "P2 S1: 'epistemic authority, or whose knowledge is treated as authoritative'",
+          "evidence": "The concept and definition are supplied by the source pack; no unverified external literature is introduced.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "explanation_contribution",
+          "category": "strength",
+          "severity": "none",
+          "location": "P1 S6: 'whether contributions receive approval and whether they become resources for shared reasoning'; P2 S2: 'pair reassurance'",
+          "evidence": "Distinguishes encouragement from development while allowing both to coexist; proposes a useful interpretive and practical implication without claiming new measured outcomes.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "explanation_contribution",
+          "category": "optional_style",
+          "severity": "optional",
+          "location": "P2 S1–S3: epistemic authority followed by processing time and elaboration",
+          "evidence": "The connection is present but could be made more concrete about whose ideas classmates examine.",
+          "proposed_correction": "Optionally extend the recommendation to classmates examining and building on contributed ideas, explicitly as a proposed practice rather than an observed effect."
+        },
+        {
+          "dimension": "natural_specific_prose_rhythm",
+          "category": "strength",
+          "severity": "none",
+          "location": "P1 S3: 'fear of error and faster classmates'; P2 S3: 'protect processing time' / 'invite elaboration before judging correctness'",
+          "evidence": "Concrete classroom details and a readable interpretation-to-action progression support natural academic prose.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "natural_specific_prose_rhythm",
+          "category": "optional_style",
+          "severity": "optional",
+          "location": "P1 S4: 'This connection places participation within classroom relationships and pacing'",
+          "evidence": "This is more abstract than the neighbouring examples but has a recoverable referent and useful qualification.",
+          "proposed_correction": "Optional: express the point directly through the already supplied teacher accounts of hesitation and response time; no correction is necessary."
+        },
+        {
+          "dimension": "author_voice",
+          "category": "strength",
+          "severity": "none",
+          "location": "P1 S1 attribution; P2 S6: 'commitment to equitable learning'",
+          "evidence": "Preserves the supplied authors' practical and equitable-learning stance and identifies the study as theirs.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "author_voice",
+          "category": "not_assessable",
+          "severity": "author_check",
+          "location": "Whole output",
+          "evidence": "Exact stylistic imitation cannot be judged from a paraphrased pack and one separate original paragraph; the new-writing request does not require such imitation.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "qualification_disclaimers",
+          "category": "strength",
+          "severity": "none",
+          "location": "P1 S4: 'individual students' reasons'; P2 S5: 'Confidence and learning gains were not measured'",
+          "evidence": "The qualifications address different inferential boundaries: individual explanation and measured benefits. They do not repeatedly disclaim the same claim.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "concrete_corrections",
+          "category": "assessment",
+          "severity": "none",
+          "location": "Whole manuscript",
+          "evidence": "No mandatory factual, structural, or substantive correction is established. The optional conceptual refinement is recorded separately.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "concrete_corrections",
+          "category": "not_assessable",
+          "severity": "author_check",
+          "location": "Separate writing-choice/author-attention note requested by new-request.md",
+          "evidence": "Only the manuscript file was made available for this assessment; accompanying note compliance cannot be inferred from its absence in the permitted inputs.",
+          "proposed_correction": null
+        }
+      ]
+    },
+    {
+      "output_id": "Y",
+      "operation": "Revision and compression of published paragraph",
+      "manuscript_path": "@blind\\diagnostic-01\\Y.md",
+      "request_path": "@inputs\\D-M01\\revise-request.md",
+      "original_path": "@inputs\\D-M01\\original.md",
+      "length": {
+        "words": 138,
+        "required_min": 125,
+        "required_max": 160,
+        "paragraphs": 1,
+        "required_paragraphs": 1,
+        "compliant": true
+      },
+      "overall": "Faithful and readable compression retaining the instructional argument, conceptual distinctions and all original citation groups. One inherited absolute claim remains unverified.",
+      "required_manuscript_corrections": [],
+      "findings": [
+        {
+          "dimension": "factual_author_fidelity",
+          "category": "strength",
+          "severity": "none",
+          "location": "S1: 'useful starting point'; S3: 'beyond the simple Initiation-Response-Evaluation sequence'; S5: 'Low expectations'",
+          "evidence": "Preserves qualified acceptance of low-level entry points, the need for extended ideas, the IRE/scaffolding distinction, and the learning concern. Does not introduce a measured effect.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "question_core_judgment",
+          "category": "strength",
+          "severity": "none",
+          "location": "S1–S5",
+          "evidence": "The paragraph answers the compression request by retaining the author's instructional position and rationale. Adding the pack's separate epistemic-authority argument is unnecessary.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "reasoning_evidence_organisation",
+          "category": "strength",
+          "severity": "none",
+          "location": "S2 overreliance claims followed by S3 'Teachers should therefore scaffold'",
+          "evidence": "Reordering places the reasons before the practical response, followed by its purpose and the learning rationale. Solicitation demand and interaction pattern remain distinguishable.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "theory_literature_use",
+          "category": "strength",
+          "severity": "none",
+          "location": "All parenthetical citation groups",
+          "evidence": "All original citation groups remain attached to corresponding retained claims: pattern reliance, low-level solicitation, IRE, classroom prevalence, deeper sensemaking, and content learning.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "theory_literature_use",
+          "category": "not_assessable",
+          "severity": "author_check",
+          "location": "All cited literature",
+          "evidence": "Preservation and placement can be checked against the original. Independent claim support cannot be checked without the reference texts, which the source pack explicitly marks as unread.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "explanation_contribution",
+          "category": "strength",
+          "severity": "none",
+          "location": "S4: 'Such scaffolding can help students develop their ideas through deeper sensemaking'",
+          "evidence": "Retains the original explanation of why scaffolding matters. A new mechanism or classroom example is not required for this attributed compression.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "natural_specific_prose_rhythm",
+          "category": "strength",
+          "severity": "none",
+          "location": "S1 and S3–S4 compared with the original's repeated 'push' and long 'Furthermore, when' construction",
+          "evidence": "Removes awkward possessive wording and repetition, and gives the instructional recommendation and its purpose separate declarative sentences. The long citation cluster follows the request to retain supporting citations.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "author_voice",
+          "category": "strength",
+          "severity": "none",
+          "location": "S1: 'teachers need to push'; S3: 'Teachers should therefore scaffold'; S5: 'Low expectations'",
+          "evidence": "Preserves the original's directive stance and concern for expectations without turning it into a detached summary.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "author_voice",
+          "category": "not_assessable",
+          "severity": "author_check",
+          "location": "Whole output",
+          "evidence": "Stylistic fidelity beyond the supplied original paragraph cannot be judged.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "qualification_disclaimers",
+          "category": "strength",
+          "severity": "none",
+          "location": "S1: 'useful starting point'; S4: 'can help'",
+          "evidence": "Relevant qualifications are retained and no repetitive disclaimers are introduced. The starting-point claim and overreliance claim concern different conditions.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "qualification_disclaimers",
+          "category": "unresolved_evidence",
+          "severity": "author_check",
+          "location": "S2: 'overreliance on low-level solicitations prevents sensemaking'",
+          "evidence": "The original says 'does not allow for sensemaking to take place.' The categorical force is inherited, not introduced by Y. The pack supplies neither independent support nor a refutation.",
+          "proposed_correction": "No automatic weakening is warranted. If the cited literature supports restriction of opportunity rather than impossibility, replace with 'can constrain opportunities for sensemaking'; otherwise retain the supported authorial claim."
+        },
+        {
+          "dimension": "concrete_corrections",
+          "category": "assessment",
+          "severity": "none",
+          "location": "Whole manuscript",
+          "evidence": "No newly introduced mandatory correction is established. The conditional inherited-claim check is recorded separately.",
+          "proposed_correction": null
+        },
+        {
+          "dimension": "concrete_corrections",
+          "category": "not_assessable",
+          "severity": "author_check",
+          "location": "Separate substantive-change explanation and adaptation attribution record",
+          "evidence": "Those records were not supplied for inspection. Do not infer missing attribution or a missing explanation from the isolated blind manuscript.",
+          "proposed_correction": null
+        }
+      ]
+    }
+  ]
+}

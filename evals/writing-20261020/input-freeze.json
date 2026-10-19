@@ -1,0 +1,26 @@
+{
+  "purpose": "English current-version development diagnostic; not independent holdout",
+  "created_utc": "2026-10-19T17:53:10.940895+00:00",
+  "files": [
+    {
+      "path": "inputs/D-M01/new-request.md",
+      "bytes": 766,
+      "sha256": "aba30c7eb4245e0e5daa55526b0037fc48aa78ee5cde0c1c19f66247feb306f8"
+    },
+    {
+      "path": "inputs/D-M01/original.md",
+      "bytes": 1982,
+      "sha256": "ae4d8179d26719cc8303429de6bc74633f6a4fd605b8460f9216084bba092a51"
+    },
+    {
+      "path": "inputs/D-M01/revise-request.md",
+      "bytes": 666,
+      "sha256": "ca1491e05118ae28fdc8a7add43bd685921f9f26fa4606222cadd493bef542c2"
+    },
+    {
+      "path": "inputs/D-M01/source-pack.md",
+      "bytes": 6047,
+      "sha256": "a27e6ecc9f23f20ea18e457b3230cd00368647ab0adca38ed22a7286f458abee"
+    }
+  ]
+}

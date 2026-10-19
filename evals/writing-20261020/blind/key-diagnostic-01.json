@@ -1,0 +1,12 @@
+[
+  {
+    "label": "X",
+    "run": "D-M01-new-run01-current",
+    "sha256": "e50fcfb0cfa260b6b6121200c5fb3cd49987b2505751ca15bb7bed41c1486277"
+  },
+  {
+    "label": "Y",
+    "run": "D-M01-revise-run01-current",
+    "sha256": "dd29fdb786d9d7038c5ce3403c24ea00e2f3088b9238afee56bff93555825136"
+  }
+]
