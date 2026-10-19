@@ -1,0 +1,1085 @@
+[
+  {
+    "id": "Q-N07",
+    "doi": "10.1007/s41042-020-00027-7",
+    "retrieved_utc": "2026-10-19T16:23:11.214720+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s41042-020-00027-7",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s41042-020-00027-7",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 459689,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s41042-020-00027-7",
+      "title": [
+        "Positive Psychological Interventions for Teachers: a Randomised Placebo-Controlled Field Experiment Investigating the Effects of Workplace-Related Positive Activities"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5104-9910",
+          "authenticated-orcid": false,
+          "given": "Benjamin",
+          "family": "Dreer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Applied Positive Psychology"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                12
+              ]
+            ],
+            "date-time": "2020-02-12T00:00:00Z",
+            "timestamp": 1581465600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                12
+              ]
+            ],
+            "date-time": "2020-02-12T00:00:00Z",
+            "timestamp": 1581465600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "26c37412a08f74e970034c2de9d979b5591e8cda7fe5c6ce979c269dc69ebfff",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s41042-020-00027-7",
+    "format": "html",
+    "raw_sha256": "5941a4f20c941f83a3ea82ea06fc314929653fa04e2ae747913086614a0dd261",
+    "text_sha256": "cd1d7cca4789a75eb1fdfc3bf7e95573dee6c91b3a5ca308c50da425ab9fbe80",
+    "text_characters": 52040,
+    "extraction": {
+      "sections": 15,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "e52f271e2d42730029739649a22b4c724453d76860c3da90555314225f7af6ad",
+    "reading_blocks": 237,
+    "reading_characters": 66246,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N08",
+    "doi": "10.1007/s12187-023-10047-9",
+    "retrieved_utc": "2026-10-19T16:23:11.214720+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s12187-023-10047-9",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s12187-023-10047-9",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 457053,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s12187-023-10047-9",
+      "title": [
+        "Is There a trade-off Between Achievement and Wellbeing in Education Systems? New cross-country Evidence"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0199-0435",
+          "authenticated-orcid": false,
+          "given": "Björn",
+          "family": "Högberg",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            3
+          ]
+        ]
+      },
+      "container-title": [
+        "Child Indicators Research"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                3
+              ]
+            ],
+            "date-time": "2023-07-03T00:00:00Z",
+            "timestamp": 1688342400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                3
+              ]
+            ],
+            "date-time": "2023-07-03T00:00:00Z",
+            "timestamp": 1688342400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "0725504ed4cd4334700d346df9bdb3136632b82e89026d3d28e532ad369853b4",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s12187-023-10047-9",
+    "format": "html",
+    "raw_sha256": "2a47ab15d55e2bc83a37d92e5f3d6bf0aa3a259f9cae2c895a92b1234e2655ec",
+    "text_sha256": "9348188781529fe60fb5fa2a10c8fbe65d36c3ee3b8322718bf1e41a6eb71c00",
+    "text_characters": 68848,
+    "extraction": {
+      "sections": 15,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "e31ffc270c934afe0bf76db2ac7aa1bfbdc4edc0c28c7049bbd670ed683302fa",
+    "reading_blocks": 239,
+    "reading_characters": 83174,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N09",
+    "doi": "10.1016/j.jsp.2005.10.002",
+    "retrieved_utc": "2026-10-19T16:23:11.214720+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2857331/fullTextXML",
+        "status": 500,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2857331/fullTextXML",
+        "content_type": "application/json",
+        "bytes": 150,
+        "outcome": "failed",
+        "error": "500 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2857331/fullTextXML"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1016/j.jsp.2005.10.002",
+      "title": [
+        "Peer assessments of normative and individual teacher–student support predict social acceptance and engagement among low-achieving children"
+      ],
+      "author": [
+        {
+          "given": "Jan N.",
+          "family": "Hughes",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Duan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Crystal R.",
+          "family": "Hill",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of School Psychology"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2006,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2006-01-01T00:00:00Z",
+            "timestamp": 1136073600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "489385471ca9b2d765cc89b9c833d22572868d1755cfe738086249d824a6b7bb",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N09",
+    "doi": "10.1177/2332858419879448",
+    "retrieved_utc": "2026-10-19T16:23:16.855705+00:00",
+    "attempts": [
+      {
+        "url": "https://files.eric.ed.gov/fulltext/EJ1238482.pdf",
+        "status": 200,
+        "final_url": "https://files.eric.ed.gov/fulltext/EJ1238482.pdf",
+        "content_type": "application/pdf",
+        "bytes": 611616,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/2332858419879448",
+      "title": [
+        "Mentoring in Research-Practice Partnerships: Toward Democratizing Expertise"
+      ],
+      "author": [
+        {
+          "given": "María Paula",
+          "family": "Ghiso",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Teachers College, Columbia University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gerald",
+          "family": "Campano",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emily R.",
+          "family": "Schwab",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dee",
+          "family": "Asaah",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Pennsylvania"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alicia",
+          "family": "Rusoja",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "St. Mary’s College of California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "AERA Open"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2019-10-01T00:00:00Z",
+            "timestamp": 1569888000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ]
+    },
+    "metadata_sha256": "2d224f0733595b568b55364c7385e97d55d715522b4a94b5e6c9bb4d6815aa85",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://files.eric.ed.gov/fulltext/EJ1238482.pdf",
+    "format": "pdf",
+    "raw_sha256": "86cfbf88fb5d83043451b13339ed5d14e1514bd75159ef56412909fcb9e172fe",
+    "text_sha256": "6e4d728901d4581021b3b57cadac6e9337fb3634dd561ec38e6c900353791530",
+    "text_characters": 69367,
+    "extraction": {
+      "pages": 12,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "c057dad79c689d3c18db8b700ade35704e1ef543e5ecb63c43b3ab3f4a886f0a",
+    "reading_blocks": 12,
+    "reading_characters": 70072,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N10",
+    "doi": "10.1177/2332858419858635",
+    "retrieved_utc": "2026-10-19T16:23:18.451080+00:00",
+    "attempts": [
+      {
+        "url": "https://files.eric.ed.gov/fulltext/EJ1220729.pdf",
+        "status": 200,
+        "final_url": "https://files.eric.ed.gov/fulltext/EJ1220729.pdf",
+        "content_type": "application/pdf",
+        "bytes": 366648,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/2332858419858635",
+      "title": [
+        "Negotiating Trust, Power, and Culture in a Research–Practice Partnership"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3293-4767",
+          "authenticated-orcid": false,
+          "given": "Jill",
+          "family": "Denner",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Education, Training, Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Steve",
+          "family": "Bean",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Digital NEST"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shannon",
+          "family": "Campe",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Education, Training, Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jacob",
+          "family": "Martinez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Digital NEST"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Torres",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Education, Training, Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            4
+          ]
+        ]
+      },
+      "container-title": [
+        "AERA Open"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2019-06-19T00:00:00Z",
+            "timestamp": 1560902400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 79,
+          "URL": "http://www.sagepub.com/licence-information-for-chorus"
+        }
+      ]
+    },
+    "metadata_sha256": "0dde0875fa27cb13a94f4e884cb04984c187d7ffb87fe405cf10da6bd2079c5d",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://files.eric.ed.gov/fulltext/EJ1220729.pdf",
+    "format": "pdf",
+    "raw_sha256": "bf8895875bf350987a5fab87ec997e729819fc5f7da793e1cf13972cac3ce14f",
+    "text_sha256": "c2a963352188675699c56042a4ddf38024d496334385347546e5f0cbbf10ab9a",
+    "text_characters": 61293,
+    "extraction": {
+      "pages": 11,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "d26363c0f5cba45c79aa223034ccee8bee51f6d349f22c2524ce262bf7314594",
+    "reading_blocks": 11,
+    "reading_characters": 61937,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N11",
+    "doi": "10.1186/s12961-019-0441-2",
+    "retrieved_utc": "2026-10-19T16:23:22.170508+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1186/s12961-019-0441-2",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1186/s12961-019-0441-2",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 466078,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1186/s12961-019-0441-2",
+      "title": [
+        "How are evidence generation partnerships between researchers and policy-makers enacted in practice? A qualitative interview study"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0897-4769",
+          "authenticated-orcid": false,
+          "given": "Anna",
+          "family": "Williamson",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hannah",
+          "family": "Tait",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fadi",
+          "family": "El Jardali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Luke",
+          "family": "Wolfenden",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sarah",
+          "family": "Thackway",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jessica",
+          "family": "Stewart",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lyndal",
+          "family": "O’Leary",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Julie",
+          "family": "Dixon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            15
+          ]
+        ]
+      },
+      "container-title": [
+        "Health Research Policy and Systems"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2019-04-15T00:00:00Z",
+            "timestamp": 1555286400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "e2dccf3c5b8b898f0dc1b4447fda0ca2d8128eb9a3b5a3a0c53616aa58aaa249",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1186/s12961-019-0441-2",
+    "format": "html",
+    "raw_sha256": "5f56b015131c547d65091783ed341cb7efdb8cebd523ea715c16f6cf77fbef5d",
+    "text_sha256": "b376c6793435134e4608d0c48ecdb31b90cf4603186d056ff1645e7fd33d62fc",
+    "text_characters": 53610,
+    "extraction": {
+      "sections": 12,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "68d12dcb78198077425ba4f7eabf55681de0d8ac5529c4f1ed17cd40bf6c83f4",
+    "reading_blocks": 270,
+    "reading_characters": 69799,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N09",
+    "doi": "10.14448/jsesd.17.0001",
+    "retrieved_utc": "2026-10-19T16:23:23.492349+00:00",
+    "attempts": [
+      {
+        "url": "https://files.eric.ed.gov/fulltext/EJ1482227.pdf",
+        "status": 200,
+        "final_url": "https://files.eric.ed.gov/fulltext/EJ1482227.pdf",
+        "content_type": "application/pdf",
+        "bytes": 457292,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.14448/jsesd.17.0001",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://files.eric.ed.gov/fulltext/EJ1482227.pdf",
+    "format": "pdf",
+    "raw_sha256": "8359a3cefb6712a618255df1c4097d687feb90e20263a4f6856d136a7276aa20",
+    "text_sha256": "a19bca888e0115b0e3f3107fa0a9d849625466b9c0f4115e5503a97465dbf363",
+    "text_characters": 85868,
+    "extraction": {
+      "pages": 25,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "1cfacb1900d0536059c1565b45a91c9be37231ed4195fffb5d38819790969377",
+    "reading_blocks": 25,
+    "reading_characters": 87344,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N10",
+    "doi": "10.1177/26334895221124962",
+    "retrieved_utc": "2026-10-19T16:23:28.699572+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9978636/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9978636/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 134667,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/26334895221124962",
+      "title": [
+        "A mixed methods investigation of implementation determinants for a school-based universal prevention intervention"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4100-6543",
+          "authenticated-orcid": false,
+          "given": "Andria B.",
+          "family": "Eisman",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Community Health, Division of Kinesiology, Health and Sport Studies, College of Education, Wayne State University, Detroit, MI, USA"
+            },
+            {
+              "name": "Center for Health and Community Impact, College of Education, Wayne State University, Detroit, MI, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lawrence A.",
+          "family": "Palinkas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Suzanne Dworak-Peck School of Social Work, University of Southern California, Los Angeles, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Suzanne",
+          "family": "Brown",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Social Work, Wayne State University, Detroit, MI, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Leslie",
+          "family": "Lundahl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Medicine, Wayne State University, Detroit, MI, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amy M.",
+          "family": "Kilbourne",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Learning Health Sciences, University of Michigan Medical School, Ann Arbor, MI, USA"
+            },
+            {
+              "name": "Health Services Research and Development, Veterans Health Administration, U.S. Department of Veterans Affairs, Washington, DC, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Implementation Research and Practice"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2022-01-01T00:00:00Z",
+            "timestamp": 1640995200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "94bd82eda1c68f42d74da07b4cd03eec5f6f791ed15c886c78e5b665f4894062",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9978636/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "01e08280ff774b1d3c86f3eef21fe3a001a71f6b129f9182f4f601e563d6a5ac",
+    "text_sha256": "dddd0ad62c9f6c2536357e3ec59a3252eeaa92a8635fcb08406e6a87bbe6c48a",
+    "text_characters": 68066,
+    "extraction": {
+      "sections": 31,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "a8931fb882ae4776272cbff5fc1c46c18c8255ff403e926785d2449b7837c1e8",
+    "reading_blocks": 87,
+    "reading_characters": 54369,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N11",
+    "doi": "10.1080/07294360.2021.2014408",
+    "retrieved_utc": "2026-10-19T16:23:28.803093+00:00",
+    "attempts": [
+      {
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/07294360.2021.2014408",
+        "status": 403,
+        "final_url": "https://www.tandfonline.com/doi/pdf/10.1080/07294360.2021.2014408",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5638,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://www.tandfonline.com/doi/pdf/10.1080/07294360.2021.2014408"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1080/07294360.2021.2014408",
+      "title": [
+        "Student learning ecologies in online higher education: a model to support connected learning across contexts"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9186-9240",
+          "authenticated-orcid": false,
+          "given": "Mitchell",
+          "family": "Peters",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Open University of Catalonia",
+              "place": [
+                "Barcelona, Spain"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Montse",
+          "family": "Guitert-Catasús",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Edul@b Research Group, Open University of Catalonia",
+              "place": [
+                "Barcelona, Spain"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6530-7407",
+          "authenticated-orcid": false,
+          "given": "Marc",
+          "family": "Romero",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Edul@b Research Group, Open University of Catalonia",
+              "place": [
+                "Barcelona, Spain"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            14
+          ]
+        ]
+      },
+      "container-title": [
+        "Higher Education Research &amp; Development"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                14
+              ]
+            ],
+            "date-time": "2021-12-14T00:00:00Z",
+            "timestamp": 1639440000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "30dc95c98a71eea5eeaba6a0311fbd33228330ea05a4334f88ac4392ee5d1d2b",
+    "status": "access_failed"
+  }
+]

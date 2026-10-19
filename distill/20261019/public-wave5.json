@@ -1,0 +1,63 @@
+{
+  "purpose": "第五批仅英文公网开发候选：扩充教师工作体验、跨国教育比较、儿童关系、研究实践合作及不同整合设计。所有条目待实际全文分析，候选不等于认可，均不是独立留出。",
+  "sources": [
+    {
+      "id": "Q-N07", "doi": "10.1007/s41042-020-00027-7", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "Positive Psychological Interventions for Teachers: a Randomised Placebo-Controlled Field Experiment Investigating the Effects of Workplace-Related Positive Activities",
+      "selection_question": "教师工作情境如何进入干预内容及结果解释；如何比较安慰剂、时间变化和具体结局，不用组内显著性代替组间差异。",
+      "urls": ["https://link.springer.com/article/10.1007/s41042-020-00027-7"], "reading_status": "not_yet_read"
+    },
+    {
+      "id": "Q-N08", "doi": "10.1007/s12187-023-10047-9", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "Is There a trade-off Between Achievement and Wellbeing in Education Systems? New cross-country Evidence",
+      "selection_question": "跨国、跨时与学生层级比较怎样回答不同的成绩—福祉权衡问题；怎样把不同层级发现写成清楚的判断。",
+      "urls": ["https://link.springer.com/article/10.1007/s12187-023-10047-9"], "reading_status": "not_yet_read"
+    },
+    {
+      "id": "Q-N09", "doi": "10.1016/j.jsp.2005.10.002", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "Peer assessments of normative and individual teacher–student support predict social acceptance and engagement among low-achieving children",
+      "selection_question": "怎样区分班级中普遍的教师支持与某个儿童获得的支持，将同伴评价、接纳和参与联系到具体研究问题。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2857331/fullTextXML"], "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N09", "doi": "10.1177/2332858419879448", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "Mentoring in Research-Practice Partnerships: Toward Democratizing Expertise",
+      "selection_question": "怎样用参与关系及具体实践发展平等知识生产的概念，并保留作者的规范立场；不能只凭开篇场景认定全篇优秀。",
+      "urls": ["https://files.eric.ed.gov/fulltext/EJ1238482.pdf"], "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N10", "doi": "10.1177/2332858419858635", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "Negotiating Trust, Power, and Culture in a Research–Practice Partnership",
+      "selection_question": "叙事民族志如何利用合作受阻和不同成员理解，说明信任、资源和权力的变化；与同刊合作主题形成有限组内比较。",
+      "urls": ["https://files.eric.ed.gov/fulltext/EJ1220729.pdf"], "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N11", "doi": "10.1186/s12961-019-0441-2", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "How are evidence generation partnerships between researchers and policy-makers enacted in practice? A qualitative interview study",
+      "selection_question": "作为相关社会科学中的政策研究，比较参与者所述合作过程与主题解释，核实知识、职业评价和政策时限如何进入行动判断；不直接移作教育场景事实。",
+      "urls": ["https://link.springer.com/article/10.1186/s12961-019-0441-2"], "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N09", "doi": "10.14448/jsesd.17.0001", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "Sensemaking Opportunities for Students Experiencing Difficulty: A Mixed Methods Study",
+      "selection_question": "课堂参与的量化模式如何进入教师访谈，以及信念与实践不一致怎样产生具体的整合认识；核对话语机会和实际学习之间的区别。",
+      "urls": ["https://files.eric.ed.gov/fulltext/EJ1482227.pdf"],
+      "version_note": "出版社页与 ERIC PDF 均标 Juergensen、van Garderen，2025，及此 DOI；Crossref 查询 404，DOI 登记未确认。身份按题名、作者及出版社位置核对，不把 DOI 字符串存在当注册成功。",
+      "publisher_record": "https://repository.rit.edu/jsesd/vol28/iss1/4/", "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N10", "doi": "10.1177/26334895221124962", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "A mixed methods investigation of implementation determinants for a school-based universal prevention intervention",
+      "selection_question": "教师总体接受与适配评价和具体困难如何整合；联合展示是否保留分歧并形成有对象的实施建议。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9978636/fullTextXML"], "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N11", "doi": "10.1080/07294360.2021.2014408", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "Student learning ecologies in online higher education: a model to support connected learning across contexts",
+      "selection_question": "探索型设计怎样从访谈发展问卷并形成联合展示；理论模型相对初始框架具体增加什么，是否超出两套材料并列。",
+      "urls": ["https://www.tandfonline.com/doi/pdf/10.1080/07294360.2021.2014408"],
+      "version_note": "与 X-N01 方法背景文章所展示项目相关，不当作不同的独立研究；2019 质性论文属于同一研究系列，尚未计入本轮精读。",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}
