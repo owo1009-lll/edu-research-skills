@@ -1,0 +1,49 @@
+{
+  "id": "Q-N13",
+  "source_sha256": "cc54754c694f2a02894a48ea334890135c2ebed22c21fdd15af8fe6af1b4a059",
+  "scale": 1.7,
+  "reading_status": "listed_pages_visually_read",
+  "rendered_and_visually_read": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "sha256": "71b5f0a078be608535fc111237207497f41742540d0d12c1b5dbf557270b5b4f"
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "sha256": "2dce79ab230d58929c8f85303e087a9d0433ef61d6d980e1a26b36ba802d7d49"
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "sha256": "0ff666777d40517043431da5b746369354fdc1ec305b1798b18d4c1c0e943b4b"
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "sha256": "cb702a6891904f6fc6fdf5b53ee224ac00b1e6e17b0dc9a008cd1c154996b971"
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "sha256": "9be4d9df1176a479f32ab4cf0690b9ebd5c70798fa5e446aeac46ef4c46578ea"
+    }
+  ],
+  "rights_note": "PDF and preview images remain outside the repository. Public records support original analyses and link to the legal public sources.",
+  "source_url": "https://cogdevlab.uchicago.edu/files/2019/06/Maloney-Intergenerational-Effects-of-Parents-Math-Anxiety.pdf",
+  "read_scope": "All nine pages of extracted text; rendered pages 1 and 4-7 read, including Table 1, both figures and the printed intervals. Supplement unavailable; no raw data or cited originals read.",
+  "supplement_request": {
+    "url": "https://journals.sagepub.com/doi/suppl/10.1177/0956797615592630/suppl_file/maloney_supplemental_material_rev.doc",
+    "retrieved_utc": "2026-10-19T20:26:46.290217+00:00",
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 5798,
+    "sha256": "58512144be7bcdc060f0ca3e77410dd6ac038c605bafa70f49f452b786e44c2a",
+    "file": "supplement-response.bin",
+    "reading_status": "not_read",
+    "outcome": "request_failed_no_supplement_acquired"
+  },
+  "web_tool_attempt": "Publisher-listed DOC link returned Unsupported content-type application/msword in web tool; direct request returned 403. Neither attempt supplied a readable supplement.",
+  "publisher_identity_record": "https://journals.sagepub.com/doi/abs/10.1177/0956797615592630?rss=1"
+}

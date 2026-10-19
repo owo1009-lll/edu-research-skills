@@ -1,0 +1,66 @@
+{
+  "id": "Q-N12",
+  "source_sha256": "ba6adb172f16ddbb77291cd897c4705abae4d6bd96cdc9a7dee18f9525275875",
+  "scale": 1.7,
+  "reading_status": "listed_pages_visually_read",
+  "rendered_and_visually_read": [
+    {
+      "page": 29,
+      "file": "page-29.png",
+      "sha256": "7a21b7b48ad6c0f1d89bb8397d5ddb835c3531306f525d01b2313efec76e919f"
+    },
+    {
+      "page": 30,
+      "file": "page-30.png",
+      "sha256": "657761be8de8106804e61a8fbb68e3fd4c9d8d14b6829ce32b6cf4dc9d7ddcd0"
+    },
+    {
+      "page": 31,
+      "file": "page-31.png",
+      "sha256": "d66aba2cae690172ca9a6c6c15d96290c93100ff02ef4220ee1f37d026cf7e2b"
+    },
+    {
+      "page": 32,
+      "file": "page-32.png",
+      "sha256": "f9f080d60e8c8b13fff59697345c4e7e12ebd539106fddd656f1837d99b0410b"
+    },
+    {
+      "page": 33,
+      "file": "page-33.png",
+      "sha256": "9210d253cefbcbc4b1372d47ec0851f5892367145df4b4a28bf503e59fcb18b5"
+    },
+    {
+      "page": 34,
+      "file": "page-34.png",
+      "sha256": "69376a20e646a98741f6daec613257402611d8a810dfa122543938dae8468ea8"
+    },
+    {
+      "page": 35,
+      "file": "page-35.png",
+      "sha256": "1273e81666cc6fec8befe4670f1bd750f7acaad475b08aa7e38fd456745528f0"
+    },
+    {
+      "page": 36,
+      "file": "page-36.png",
+      "sha256": "945eb25bff95d970e6f4bf633537898eef12956ec4a26b71265e9f302f8bdf46"
+    },
+    {
+      "page": 37,
+      "file": "page-37.png",
+      "sha256": "1656735317436239ed94edff9f69e098d8945b76cfa50ef2a7bad7b04c689b34"
+    },
+    {
+      "page": 38,
+      "file": "page-38.png",
+      "sha256": "9883f68904ce49ec1b9dfc62cb163e7b45f6de9886049263f494e6c9ebf16074"
+    },
+    {
+      "page": 39,
+      "file": "page-39.png",
+      "sha256": "8d69be2e91c576678d6387cfd28e90475e9e0c9a3d00eccc5538d8a937240d37"
+    }
+  ],
+  "rights_note": "PDF and preview images remain outside the repository. Public records support original analyses and link to the legal public sources.",
+  "source_url": "https://files.eric.ed.gov/fulltext/ED595322.pdf",
+  "read_scope": "All 39 pages of extracted text, with rendered pages 29-39 read for the questionnaire appendix, seven tables and two figures. OSF materials, data and registration not read."
+}

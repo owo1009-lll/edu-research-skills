@@ -1,0 +1,60 @@
+{
+  "checked_utc": "2026-10-19T20:36:45.483425+00:00",
+  "comparison_commit": "0b6b220e48436cf7c78380673457d5b9356186a5",
+  "status": "passed",
+  "scope": "English quantitative development reading and original editorial examples; no behavior experiment or new runtime rule",
+  "json_files_parsed_excluding_this_report": 47,
+  "relative_markdown_links_resolved": 219,
+  "analysis_note_hash_references": 32,
+  "english_new_candidates": 43,
+  "english_acquired_fulltexts": 31,
+  "english_new_analyses": 30,
+  "confirmed_groups": {
+    "quantitative": 10,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 10,
+    "mixed": 9
+  },
+  "english_reread_analyses": 2,
+  "historical_chinese_records_unchanged": 4,
+  "all_other_reading_records_unchanged": 47,
+  "new_candidate_ids": [],
+  "source_and_reading_hashes_verified": [
+    {
+      "id": "Q-N12",
+      "source_sha256": "ba6adb172f16ddbb77291cd897c4705abae4d6bd96cdc9a7dee18f9525275875",
+      "reading_sha256": "8912b0d82f29654778675ba939e6b3fe0eeb5c25802cdff58f0530a083e3703c",
+      "rendered_pages_verified": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "Q-N13",
+      "source_sha256": "cc54754c694f2a02894a48ea334890135c2ebed22c21fdd15af8fe6af1b4a059",
+      "reading_sha256": "0598929b661a763862a98545febbea1d3558ddcf550364c189c3ffd4316a1dca",
+      "rendered_pages_verified": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "Q_N12_11_and_Q_N13_5_preview_hashes_match": true,
+  "Q_N13_supplement_403_response_hash_matches": true,
+  "changed_paths_confined_to": "distill/20261019/",
+  "runtime_rules_unchanged_from_comparison_commit": true,
+  "diff_whitespace_check": "passed",
+  "tests": "Record, path and hash checks only. New English examples are editorial demonstrations, not model runs. Hash agreement does not establish source factual correctness. No new behavior benefit or final holdout result claimed."
+}

@@ -718,14 +718,17 @@
       "exposure": "new_development",
       "candidate_group": "quantitative",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/Q-N12.md",
+      "use_status": "selected_task_explanations_design_rationales_and_implementation_judgments; source-specific reporting conflicts retained",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "8912b0d82f29654778675ba939e6b3fe0eeb5c25802cdff58f0530a083e3703c",
-      "read_scope": "PDF p. 1 title, authors, affiliations and author note read; abstract and main text not yet read",
-      "version_note": "ERIC public author manuscript, 39 pages; cover states online 2019-05-24, Crossref issue publication 2020-01; title and four authors match"
+      "read_scope": "All 39 PDF pages of text including main text through p. 24, references pp. 25-28, displayed questionnaire pp. 29-30, seven tables pp. 31-37 and two figures pp. 38-39. All 11 rendered pages 29-39 visually read.",
+      "version_note": "ERIC public author manuscript, 39 pages; cover states online 2019-05-24, Crossref issue publication 2020-01; title and four authors match",
+      "confirmed_group": "quantitative",
+      "not_read": "OSF preregistration, raw data, original worksheets, full original questionnaire or cited originals; no model reanalysis",
+      "classification_note": "Classroom cluster randomized trial of higher versus lower interleaving dose, with teacher survey; counted as quantitative, not mixed methods."
     },
     {
       "id": "Q-N13",
@@ -733,14 +736,17 @@
       "exposure": "new_development",
       "candidate_group": "quantitative",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/Q-N13.md",
+      "use_status": "selected_conditional_question_and_parent_support_argument_moves; causal_and_null_claims_and_interval_reporting_not_adopted",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "0598929b661a763862a98545febbea1d3558ddcf550364c189c3ffd4316a1dca",
-      "read_scope": "PDF p. 1 title/authors, abstract and opening introduction read; remaining eight pages and supplements not read",
-      "version_note": "University laboratory public publisher-formatted OnlineFirst PDF, nine pages, 2015-08-07; DOI, title and five authors match"
+      "read_scope": "All nine PDF pages of text including main text, Table 1, Figures 1-2, notes, disclosures and reference list. Five rendered pages 1,4,5,6,7 visually read; publisher identity and supplement link checked.",
+      "version_note": "University laboratory public publisher-formatted OnlineFirst PDF, nine pages, 2015-08-07; DOI, title and five authors match",
+      "confirmed_group": "quantitative",
+      "not_read": "Supplement DOC unavailable (web unsupported content type, direct request 403); raw data, original measures and cited originals not read; no model reanalysis",
+      "classification_note": "Two-wave child observational study with midyear parent report; conditional associations and same-wave end-of-year mediator/outcome, not a randomized homework intervention."
     }
   ],
   "current_scope": {
