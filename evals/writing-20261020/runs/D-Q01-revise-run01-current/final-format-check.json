@@ -1,0 +1,16 @@
+{
+  "file": "final.md",
+  "encoding": "UTF-8",
+  "word_count_method": "Python str.split; hyphenated compounds count as one word",
+  "word_count": 163,
+  "requested_word_range": [
+    160,
+    190
+  ],
+  "within_requested_range": true,
+  "paragraph_count": 1,
+  "retained_citation": true,
+  "manuscript_only_no_heading": true,
+  "replacement_characters": false,
+  "unexpected_question_marks": false
+}

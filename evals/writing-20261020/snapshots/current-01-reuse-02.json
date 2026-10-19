@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-10-19T18:27:04.965210+00:00",
+  "repository_head_at_task_freeze": "6caa407d043a1d1d29015eb1cf0ca985911dbd6d",
+  "original_manifest": "current-01.json",
+  "original_source_head": "b89d3c5f414d26931fe0923a61ec53361018f8b3",
+  "tree_sha256": "2ac357f06b434ea2d36bf021e70ea3371dea47c5cfb90ed053164c440f04c147",
+  "verified_file_count": 203,
+  "result": "All current and frozen skill bytes equal the original snapshot; no runtime rule changed between diagnostic batches",
+  "tasks": [
+    "D-Q01-new",
+    "D-Q01-revise",
+    "D-L01-new",
+    "D-L01-revise"
+  ]
+}

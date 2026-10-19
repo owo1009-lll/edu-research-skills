@@ -1,0 +1,11 @@
+{
+  "final_body_paragraphs": 2,
+  "final_body_whitespace_tokens": 261,
+  "final_body_lexical_words": 259,
+  "within_requested_230_280_by_both_counts": true,
+  "draft_and_prose_check_copy_bodies_identical": true,
+  "attributed_demonstration_heading_present": true,
+  "final_utf8_without_bom": true,
+  "statistical_reanalysis_performed": false,
+  "note": "These are format, encoding, count and identity checks. Claim validity was separately assessed by AI reading the source pack."
+}

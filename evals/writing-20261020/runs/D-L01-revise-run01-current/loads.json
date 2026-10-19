@@ -1,0 +1,66 @@
+{
+    "snapshot_root":  "@snapshot",
+    "input_root":  "@inputs\\D-L01",
+    "output_root":  "@runs\\D-L01-revise-run01-current",
+    "loaded_snapshot_relative_paths":  [
+                                           "skills/edu-writing/SKILL.md",
+                                           "skills/edu-writing/references/foundation.md",
+                                           "skills/edu-writing/references/argument.md",
+                                           "skills/edu-writing/references/voice-en.md",
+                                           "skills/edu-shared/references/integrity.md"
+                                       ],
+    "loaded_snapshot_files":  [
+                                  {
+                                      "path":  "skills/edu-writing/SKILL.md",
+                                      "sha256":  "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+                                      "text_encoding":  "UTF-8"
+                                  },
+                                  {
+                                      "path":  "skills/edu-writing/references/foundation.md",
+                                      "sha256":  "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+                                      "text_encoding":  "UTF-8"
+                                  },
+                                  {
+                                      "path":  "skills/edu-writing/references/argument.md",
+                                      "sha256":  "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+                                      "text_encoding":  "UTF-8"
+                                  },
+                                  {
+                                      "path":  "skills/edu-writing/references/voice-en.md",
+                                      "sha256":  "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+                                      "text_encoding":  "UTF-8"
+                                  },
+                                  {
+                                      "path":  "skills/edu-shared/references/integrity.md",
+                                      "sha256":  "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+                                      "text_encoding":  "UTF-8"
+                                  }
+                              ],
+    "inputs":  [
+                   {
+                       "path":  "revise-request.md",
+                       "sha256":  "5f6e75b5c7616d012cbdefff1a5a5f8e2204858276e9945dc38aaa7d567b7298",
+                       "role":  "task instruction",
+                       "text_encoding":  "UTF-8"
+                   },
+                   {
+                       "path":  "original.md",
+                       "sha256":  "391e7bb7b49d32e7658a315ac4891b5074014e68139c1bda94c2295987a100f9",
+                       "role":  "substantive material",
+                       "text_encoding":  "UTF-8"
+                   },
+                   {
+                       "path":  "source-pack.md",
+                       "sha256":  "b902b7edd5f1e6c13572764fe84d064abcef37dcf483adc9805129696af763ed",
+                       "role":  "substantive material",
+                       "text_encoding":  "UTF-8"
+                   }
+               ],
+    "hash_algorithm":  "SHA-256",
+    "hash_scope":  "exact original file bytes",
+    "browsing_used":  false,
+    "agents_spawned":  false,
+    "skill_scripts_executed":  [
+
+                               ]
+}

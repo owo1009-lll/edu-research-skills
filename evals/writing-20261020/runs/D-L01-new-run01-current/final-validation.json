@@ -1,0 +1,26 @@
+{
+  "file": "final.md",
+  "sha256": "5f570e29fb5fbeee03777f0f182d5fa3740b74222d3e7a78c614d796c12863e3",
+  "paragraphs": 2,
+  "words": 250,
+  "word_count_rule": "Alphanumeric words; internal hyphens and apostrophes retained.",
+  "requested_word_range": [
+    230,
+    280
+  ],
+  "attribution_present": true,
+  "headings_or_tables_present": false,
+  "required_files_present": [
+    "final.md",
+    "rationale.md",
+    "loads.json",
+    "run-note.md",
+    "draft-01.md",
+    "self-review.md",
+    "check-voice-draft.txt",
+    "check-prose-draft.txt"
+  ],
+  "validation_passed": true,
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "limits": "These assertions check format, count, attribution presence and file existence; substantive review is recorded in self-review.md. Frozen checkers were run only on the draft."
+}

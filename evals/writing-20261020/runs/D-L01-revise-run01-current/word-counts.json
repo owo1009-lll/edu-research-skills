@@ -1,0 +1,20 @@
+[
+    {
+        "file":  "draft-01.md",
+        "prose_words":  129,
+        "whitespace_tokens_with_citations":  136,
+        "paragraphs":  1
+    },
+    {
+        "file":  "draft-02.md",
+        "prose_words":  138,
+        "whitespace_tokens_with_citations":  145,
+        "paragraphs":  1
+    },
+    {
+        "file":  "final.md",
+        "prose_words":  144,
+        "whitespace_tokens_with_citations":  151,
+        "paragraphs":  1
+    }
+]

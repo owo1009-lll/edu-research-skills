@@ -1,0 +1,50 @@
+{
+  "snapshot_root": "@snapshot",
+  "snapshot_relative_paths_loaded": [
+    "skills/edu-writing/SKILL.md",
+    "skills/edu-writing/references/foundation.md",
+    "skills/edu-writing/references/argument.md",
+    "skills/edu-writing/references/voice-en.md",
+    "skills/edu-writing/references/framing-results.md",
+    "skills/edu-writing/references/conclusion-implications.md",
+    "skills/edu-shared/references/integrity.md",
+    "skills/edu-writing/scripts/check_voice.py",
+    "skills/edu-writing/scripts/check_prose.py"
+  ],
+  "snapshot_sha256": {
+    "skills/edu-writing/SKILL.md": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+    "skills/edu-writing/references/foundation.md": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+    "skills/edu-writing/references/argument.md": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+    "skills/edu-writing/references/voice-en.md": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+    "skills/edu-writing/references/framing-results.md": "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8",
+    "skills/edu-writing/references/conclusion-implications.md": "f6def6889d869c7cf5f9e3b0a0193fe2d24090697b8a4362e742826e18739d09",
+    "skills/edu-shared/references/integrity.md": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+    "skills/edu-writing/scripts/check_voice.py": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "skills/edu-writing/scripts/check_prose.py": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2"
+  },
+  "input_root": "@inputs\\D-Q01",
+  "input_hash_algorithm": "SHA-256 of original file bytes",
+  "inputs": [
+    {
+      "path": "revise-request.md",
+      "sha256": "a2e0ad14997f9c2cd9130911798672a9576ac68a65fe941abf14b208bac3fef8",
+      "role": "request"
+    },
+    {
+      "path": "original.md",
+      "sha256": "97efd44db00499554cb63971a9341847c9ddaf9f06b2b8dfad2ebc5d571d6920",
+      "role": "substantive material"
+    },
+    {
+      "path": "source-pack.md",
+      "sha256": "99ecd4597d445d8f7d554ac7e4b76348ed54389dc39988f4103d581601d61201",
+      "role": "substantive material"
+    }
+  ],
+  "text_read_encoding": "UTF-8",
+  "scripts_executed": [
+    "skills/edu-writing/scripts/check_voice.py",
+    "skills/edu-writing/scripts/check_prose.py"
+  ],
+  "external_sources_loaded": []
+}

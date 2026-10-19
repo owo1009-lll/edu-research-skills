@@ -1,0 +1,458 @@
+{
+  "schema_version": "1.0",
+  "review_id": "diagnostic-02-Q",
+  "language": "English",
+  "scope": {
+    "operations": {
+      "X": "New attributed discussion, assessed against new-request.md.",
+      "Y": "Revision and compression of published paragraph, assessed against revise-request.md."
+    },
+    "comparison_policy": "Independent task assessments; no ranking and no inference about an instruction condition.",
+    "allowed_files_only": true,
+    "browsing": false,
+    "skills_read": false,
+    "other_reviews_read": false,
+    "manuscripts_modified": false
+  },
+  "counting_method": "Whitespace-separated body tokens; X heading excluded. Counts check range compliance, not quality.",
+  "severity_policy": "None means no correction is warranted by supplied evidence; low denotes an optional style change or a record/source verification question. An unresolved question is not a demonstrated error.",
+  "reviewed_files": [
+    {
+      "name": "source-pack.md",
+      "path": "@inputs\\D-Q01\\source-pack.md",
+      "sha256": "99ecd4597d445d8f7d554ac7e4b76348ed54389dc39988f4103d581601d61201",
+      "encoding": "UTF-8"
+    },
+    {
+      "name": "original.md",
+      "path": "@inputs\\D-Q01\\original.md",
+      "sha256": "97efd44db00499554cb63971a9341847c9ddaf9f06b2b8dfad2ebc5d571d6920",
+      "encoding": "UTF-8"
+    },
+    {
+      "name": "new-request.md",
+      "path": "@inputs\\D-Q01\\new-request.md",
+      "sha256": "94693090ac37303e463386e1c3aa7576989850c5376e359a711b73aa85d2f837",
+      "encoding": "UTF-8"
+    },
+    {
+      "name": "revise-request.md",
+      "path": "@inputs\\D-Q01\\revise-request.md",
+      "sha256": "a2e0ad14997f9c2cd9130911798672a9576ac68a65fe941abf14b208bac3fef8",
+      "encoding": "UTF-8"
+    },
+    {
+      "name": "X.md",
+      "path": "@blind\\diagnostic-02-Q\\X.md",
+      "sha256": "bbf08dc22b3577cc2eb9a44ade3fd4a9fded188096a4cea4ad1065f2e47b1f8d",
+      "encoding": "UTF-8"
+    },
+    {
+      "name": "Y.md",
+      "path": "@blind\\diagnostic-02-Q\\Y.md",
+      "sha256": "7494101ef043430a391570f6e47ea7abf690f60c8e4d58095e4506681ed32539",
+      "encoding": "UTF-8"
+    }
+  ],
+  "assessments": [
+    {
+      "text_id": "X",
+      "file": "X.md",
+      "request": "new-request.md",
+      "overall_judgment": "Meets the substantive new-writing brief. No demonstrated factual or inferential errors. Separate explanatory note cannot be verified from manuscript-only input.",
+      "format": {
+        "body_word_count": 261,
+        "requested_word_range": [
+          230,
+          280
+        ],
+        "body_paragraphs": 2,
+        "requested_paragraphs": 2,
+        "range_met": true,
+        "paragraph_structure_met": true,
+        "attribution": "Explicit heading and Högberg (2023) in opening."
+      },
+      "dimensions": [
+        {
+          "id": 1,
+          "name": "Factual/author fidelity",
+          "judgment": "Claims, numbers and policy direction are faithful.",
+          "evidence": [
+            {
+              "location": "X.md:3",
+              "text": "Belonging coefficient 0.069 and interval [-0.053, 0.241].",
+              "source": "source-pack.md:23"
+            },
+            {
+              "location": "X.md:5",
+              "text": "Interaction -0.017; smaller slope; small exception among three tested interactions.",
+              "source": "source-pack.md:25"
+            },
+            {
+              "location": "X.md:3",
+              "text": "Fully adjusted affect associations nonsignificant and cross-sectional.",
+              "source": "source-pack.md:21"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": null
+        },
+        {
+          "id": 2,
+          "name": "Problem and core judgment",
+          "judgment": "Clear contribution: national and individual questions differ; neither a general trade-off nor a general gain is established.",
+          "evidence": [
+            {
+              "location": "X.md:3",
+              "text": "Opening judgment followed by positional-versus-collective distinction.",
+              "source": "source-pack.md:7,9,27,31"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": null
+        },
+        {
+          "id": 3,
+          "name": "Reasoning/evidence organisation",
+          "judgment": "Moves coherently from comparisons through results and an interaction qualification to policy; handles uncertainty correctly.",
+          "evidence": [
+            {
+              "location": "X.md:3",
+              "text": "Within-country fixed effects distinguished from single-wave affect; interval includes both directions.",
+              "source": "source-pack.md:17,21,23"
+            },
+            {
+              "location": "X.md:5",
+              "text": "Interaction qualification precedes recommendation on particular arrangements.",
+              "source": "source-pack.md:25,31"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "Survey names and separate HBSC pupil records would add detail but are not necessary to the requested short discussion."
+        },
+        {
+          "id": 4,
+          "name": "Theory/literature use",
+          "judgment": "Uses positional rationale without claiming its mechanism was tested; attribution appropriate.",
+          "evidence": [
+            {
+              "location": "X.md:3",
+              "text": "Individual positional advantage need not become a collective benefit.",
+              "source": "source-pack.md:9"
+            },
+            {
+              "location": "X.md:5",
+              "text": "Competitive mechanisms remain unmeasured.",
+              "source": "source-pack.md:9,27"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "No independent verification of original cited literature is possible from allowed files."
+        },
+        {
+          "id": 5,
+          "name": "Explanation/contribution",
+          "judgment": "Explains levels, outcome differences and proxy limits, then develops a practical implication rather than only restating results.",
+          "evidence": [
+            {
+              "location": "X.md:5",
+              "text": "Assess concrete reforms against both aims and examine outcomes separately; no claim to know which measures work.",
+              "source": "source-pack.md:14,15,31,33"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": null
+        },
+        {
+          "id": 6,
+          "name": "Natural, concrete prose and rhythm",
+          "judgment": "Readable and connected, although the first paragraph is statistically dense.",
+          "evidence": [
+            {
+              "location": "X.md:3",
+              "text": "Several model distinctions and estimates in one paragraph."
+            },
+            {
+              "location": "X.md:5",
+              "text": "Belonging, feelings and stress provide concrete distinctions."
+            }
+          ],
+          "severity": "low",
+          "limits_or_corrections": "Optional: replace 'a shared gain' with 'gains in both achievement and wellbeing'. Numerical detail is not inherently excessive.",
+          "severity_basis": "Optional stylistic preference only."
+        },
+        {
+          "id": 7,
+          "name": "Author voice",
+          "judgment": "Appropriate third-person secondary voice and fidelity to author's substantive policy agenda.",
+          "evidence": [
+            {
+              "location": "X.md:1,3",
+              "text": "Secondary-writing heading and named attribution."
+            },
+            {
+              "location": "X.md:5",
+              "text": "Pursue arrangements supporting both aims and respond to harms.",
+              "source": "source-pack.md:31,33"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "Imitation of the original paragraph's wording is not required for this operation."
+        },
+        {
+          "id": 8,
+          "name": "Necessary qualifications versus repetitive disclaimers",
+          "judgment": "Qualifications have distinct purposes and do not displace the argument.",
+          "evidence": [
+            {
+              "location": "X.md:3",
+              "text": "Uncertain belonging estimate and cross-sectional affect distinction."
+            },
+            {
+              "location": "X.md:5",
+              "text": "Outcome-specific interaction, unmeasured competition and unevaluated policy measures."
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "No additional generic limitations list is warranted."
+        },
+        {
+          "id": 9,
+          "name": "Specific corrections needed from the author",
+          "judgment": "No substantive body correction identified; check the separate note.",
+          "evidence": [
+            {
+              "location": "new-request.md:5",
+              "text": "Requires a separate explanation of writing choices and author-attention matters."
+            },
+            {
+              "location": "source-pack.md:39",
+              "text": "Exact affect coefficients and some reporting labels are unresolved."
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "If not already delivered, supply a short separate note. X avoids the disputed exact affect coefficients, so no numerical repair is established."
+        }
+      ]
+    },
+    {
+      "text_id": "Y",
+      "file": "Y.md",
+      "request": "revise-request.md",
+      "overall_judgment": "Meets the substantive revision brief. Preserves policy position, distinctions and relevant citation while repairing unsupported inference. Separate note and adaptation record cannot be verified.",
+      "format": {
+        "body_word_count": 163,
+        "requested_word_range": [
+          160,
+          190
+        ],
+        "body_paragraphs": 1,
+        "requested_paragraphs": 1,
+        "range_met": true,
+        "paragraph_structure_met": true,
+        "attribution": "Adaptation identification is required in accompanying record; excluded records cannot be assessed."
+      },
+      "dimensions": [
+        {
+          "id": 1,
+          "name": "Factual/author fidelity",
+          "judgment": "Preserves policy relevance, average/threshold distinction, citation, joint-goal policy position and compensatory examples.",
+          "evidence": [
+            {
+              "location": "Y.md:1, sentences 1 and 4-7",
+              "text": "Within-country comparisons; untested basic eligibility thresholds; Moilanen (2010); nursing and counselling.",
+              "source": "original.md:5; source-pack.md:33,37"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": null
+        },
+        {
+          "id": 2,
+          "name": "Problem and core judgment",
+          "judgment": "Corrects reassurance inferred from null findings while preserving the original policy argument.",
+          "evidence": [
+            {
+              "location": "Y.md:1, sentences 2-3",
+              "text": "Weak support in either direction; adverse and beneficial associations remain open; neither sacrifice nor broad gain should be assumed.",
+              "source": "original.md:5; source-pack.md:27,37"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": null
+        },
+        {
+          "id": 3,
+          "name": "Reasoning/evidence organisation",
+          "judgment": "Clear sequence from policy relevance to average findings, thresholds and particular-policy action.",
+          "evidence": [
+            {
+              "location": "Y.md:1, sentences 1-7",
+              "text": "Connected progression with 'These linear models' and 'Although the study does not identify'."
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "Detailed numerical results would not be necessary to this compression task."
+        },
+        {
+          "id": 4,
+          "name": "Theory/literature use",
+          "judgment": "Preserves threshold rationale and required citation with qualified wording.",
+          "evidence": [
+            {
+              "location": "Y.md:1, sentences 4-5",
+              "text": "Thresholds remain untested; basic skills and school-failure prevention may benefit wellbeing (Moilanen, 2010).",
+              "source": "original.md:5; source-pack.md:33"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "Original Moilanen source has not been supplied or independently read; flag that in accompanying note rather than inventing a correction."
+        },
+        {
+          "id": 5,
+          "name": "Explanation/contribution",
+          "judgment": "Clarifies the existing argument without replacing it with a new theoretical or methodological programme.",
+          "evidence": [
+            {
+              "location": "Y.md:1, sentences 4-7",
+              "text": "Average models do not settle threshold benefits or specific-policy trade-offs; priority and compensation recommendations retained.",
+              "source": "original.md:5"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "The interaction and full affect results need not be imported into this requested revision."
+        },
+        {
+          "id": 6,
+          "name": "Natural, concrete prose and rhythm",
+          "judgment": "Natural academic prose with more direct progression and concrete policy examples.",
+          "evidence": [
+            {
+              "location": "Y.md:1",
+              "text": "Direct opening; basic skills, school failure, nursing and counselling anchor the recommendations.",
+              "source": "original.md:5"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "No stylistic correction is necessary."
+        },
+        {
+          "id": 7,
+          "name": "Author voice",
+          "judgment": "Conditional normative voice and policy priorities are preserved.",
+          "evidence": [
+            {
+              "location": "Y.md:1, sentences 6-7",
+              "text": "Priority where both outcomes are valued; policymakers should counter harms.",
+              "source": "original.md:5"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "Author preferences beyond supplied prose cannot be assessed; verify adaptation identification in accompanying record under original.md:3."
+        },
+        {
+          "id": 8,
+          "name": "Necessary qualifications versus repetitive disclaimers",
+          "judgment": "Uncertainty, untested thresholds and unknown specific policy trade-offs address distinct claims without overwhelming recommendations.",
+          "evidence": [
+            {
+              "location": "Y.md:1, sentences 2,4,6",
+              "text": "Null findings are explicitly not treated as proof of absence; thresholds and specific policies remain unresolved.",
+              "source": "source-pack.md:27,33,37"
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "Neither stronger reassurance nor a larger limitations list is warranted."
+        },
+        {
+          "id": 9,
+          "name": "Specific corrections needed from the author",
+          "judgment": "No substantive body correction identified; verify separate explanation and adaptation record.",
+          "evidence": [
+            {
+              "location": "revise-request.md:5",
+              "text": "Separate substantive-change explanation and unresolved checks required."
+            },
+            {
+              "location": "original.md:3",
+              "text": "Adaptation must be identified in accompanying record."
+            }
+          ],
+          "severity": "none",
+          "limits_or_corrections": "If absent, add a note explaining repaired null-result inference, retained but unchecked Moilanen citation, and attribution as an adaptation of Högberg (2023)."
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "X-01",
+      "text_id": "X",
+      "classification": "unresolved_delivery_question",
+      "severity": "low",
+      "demonstrated_error": false,
+      "location": "X.md; new-request.md:5",
+      "evidence": "X.md contains heading and two discussion paragraphs but no separate explanatory note. The review was restricted to manuscript files.",
+      "judgment": "Full delivery compliance cannot be determined.",
+      "proposed_correction": "Verify the separately delivered note; if absent, add a brief explanation of writing choices and relevant source checks.",
+      "required_if": "The requested note has not been delivered elsewhere."
+    },
+    {
+      "id": "X-02",
+      "text_id": "X",
+      "classification": "optional_stylistic_improvement",
+      "severity": "low",
+      "demonstrated_error": false,
+      "location": "X.md:3, opening sentence",
+      "evidence": "'a shared gain'",
+      "judgment": "Meaning is clear from context, but wording can be more explicit.",
+      "proposed_correction": "Optionally use 'gains in both achievement and wellbeing'.",
+      "required_if": null
+    },
+    {
+      "id": "X-03",
+      "text_id": "X",
+      "classification": "unresolved_source_question",
+      "severity": "low",
+      "demonstrated_error": false,
+      "location": "source-pack.md:39; X.md:3",
+      "evidence": "Source pack reports affect coefficient and labelling discrepancies; X uses a qualitative affect summary rather than disputed exact coefficients.",
+      "judgment": "No numerical error in X is demonstrated and no passage repair is indicated.",
+      "proposed_correction": "A short note may explain reliance on the verified qualitative summary. Do not require a full audit for this short writing task.",
+      "required_if": null
+    },
+    {
+      "id": "Y-01",
+      "text_id": "Y",
+      "classification": "unresolved_delivery_question",
+      "severity": "low",
+      "demonstrated_error": false,
+      "location": "Y.md; revise-request.md:5; original.md:3",
+      "evidence": "The manuscript file is only the revised paragraph. The required explanation and adaptation identification may reside in an accompanying record excluded from review.",
+      "judgment": "Cannot establish that either requirement was omitted from the complete delivery.",
+      "proposed_correction": "Verify accompanying explanation and explicit adaptation attribution to Högberg (2023); add them separately if absent.",
+      "required_if": "The required accompanying record is absent or incomplete."
+    },
+    {
+      "id": "Y-02",
+      "text_id": "Y",
+      "classification": "unresolved_source_question",
+      "severity": "low",
+      "demonstrated_error": false,
+      "location": "Y.md:1, sentence 5; original.md:5",
+      "evidence": "Moilanen (2010) is retained from the published paragraph, but the cited work is not among supplied sources.",
+      "judgment": "Retention is faithful and required; the citation's independent support cannot be verified.",
+      "proposed_correction": "Identify the retained citation as not independently checked in the separate note; verify the original source before asserting independent validation.",
+      "required_if": "An assertion of independently verified citation support is contemplated."
+    }
+  ],
+  "demonstrated_substantive_errors": [],
+  "assessment_limits": [
+    "Evidence is limited to the supplied source pack and published paragraph; their agreement with the article and supplements was not independently checked.",
+    "Original studies cited by Högberg, including Moilanen (2010), were not read.",
+    "Statistical analyses and bootstrap intervals were not recomputed.",
+    "Separate notes and adaptation records outside the two manuscript files were not read and cannot be judged absent from the full delivery.",
+    "Author preferences beyond the supplied material cannot be assessed.",
+    "No ranking, instruction-condition inference, keyword quality scores, or mandatory extra caution was used."
+  ]
+}

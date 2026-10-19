@@ -1,0 +1,31 @@
+[
+  {
+    "output": "draft01-voice-check.txt",
+    "command": [
+      "@python",
+      "-B",
+      "-X",
+      "utf8",
+      "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "@runs\\D-Q01-revise-run01-current\\draft01.md",
+      "--source",
+      "@inputs\\D-Q01\\original.md",
+      "@inputs\\D-Q01\\source-pack.md"
+    ],
+    "exit_code": 0
+  },
+  {
+    "output": "draft01-prose-check.txt",
+    "command": [
+      "@python",
+      "-B",
+      "-X",
+      "utf8",
+      "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "@runs\\D-Q01-revise-run01-current\\draft01-prose-input.md"
+    ],
+    "exit_code": 0
+  }
+]

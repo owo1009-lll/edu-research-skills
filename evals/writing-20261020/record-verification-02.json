@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Record integrity, not a writing-quality score or original-source factual validation",
+  "json_files_parsed_excluding_this_report": {
+    "distill/20261019": 30,
+    "evals/writing-20261020": 30
+  },
+  "relative_markdown_links": "all existing, including this report written by the completed check",
+  "english_new_candidates": 35,
+  "english_downloaded": 23,
+  "english_new_analyzed": 21,
+  "english_analysis_groups": {
+    "quantitative": 6,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 8,
+    "mixed": 6
+  },
+  "historical_chinese_records_unchanged_from_6caa407": 4,
+  "new_reading_hashes_verified": [
+    "L-N12"
+  ],
+  "published_artifact_hashes_verified_by_manifest": {
+    "publication-manifest.json": 26,
+    "publication-manifest-02.json": 64
+  },
+  "input_hashes_verified": {
+    "first_batch": 4,
+    "second_batch": 8
+  },
+  "snapshot_files_verified_against_frozen_and_current": 203,
+  "snapshot_tree_sha256": "2ac357f06b434ea2d36bf021e70ea3371dea47c5cfb90ed053164c440f04c147",
+  "second_batch_loaded_resource_records_verified": {
+    "D-L01-new-run01-current": 8,
+    "D-L01-revise-run01-current": 5,
+    "D-Q01-new-run01-current": 8,
+    "D-Q01-revise-run01-current": 9
+  },
+  "second_batch_judge_input_hashes_verified": 12,
+  "final_manuscript_whitespace_body_counts": {
+    "D-Q01-new-run01-current": 261,
+    "D-Q01-revise-run01-current": 163,
+    "D-L01-new-run01-current": 249,
+    "D-L01-revise-run01-current": 151
+  },
+  "final_manuscript_body_paragraph_counts": {
+    "D-Q01-new-run01-current": 2,
+    "D-Q01-revise-run01-current": 1,
+    "D-L01-new-run01-current": 2,
+    "D-L01-revise-run01-current": 1
+  },
+  "second_batch_manuscripts_match_blind_copies": true,
+  "local_user_paths_in_public_evaluation": 0,
+  "runtime_skills_changed": false,
+  "unrelated_PPT_statistics_journal_tests_repeated": false,
+  "strict_staged_whitespace_check": "Five existing raw-artifact whitespace warnings preserved: three blank-space lines in the qualitative review, one trailing space in actual checker output, one terminal blank line in a checker input copy",
+  "raw_artifact_whitespace_paths": [
+    "evals/writing-20261020/judges/diagnostic-02-L/assessment.md",
+    "evals/writing-20261020/runs/D-L01-new-run01-current/check-voice-draft.txt",
+    "evals/writing-20261020/runs/D-Q01-new-run01-current/draft-01-prose-input.md"
+  ],
+  "staged_whitespace_check_excluding_only_these_three_raw_artifacts": "passed with cr-at-eol; no global whitespace rules disabled"
+}

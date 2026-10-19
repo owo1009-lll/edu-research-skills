@@ -1,0 +1,115 @@
+{
+  "language": "English only",
+  "project_baseline": "684f5e435b76daf8d0109c9c6a93297542c59889",
+  "snapshot_manifest": "snapshots/current-01.json",
+  "current_source_head": "b89d3c5f414d26931fe0923a61ec53361018f8b3",
+  "snapshot_tree_sha256": "2ac357f06b434ea2d36bf021e70ea3371dea47c5cfb90ed053164c440f04c147",
+  "candidate_arm": null,
+  "model": "Inherited session default; exact hosted model configuration not exposed",
+  "temperature": "not exposed",
+  "seed": "not exposed",
+  "cross_model_review": false,
+  "human_review": false,
+  "unique_development_studies": 2,
+  "independent_holdouts": 0,
+  "runs": [
+    {
+      "id": "D-Q01-new-run01-current",
+      "agent": "/root/english_d_q01_new_current01",
+      "history": "none",
+      "request": "inputs/D-Q01/new-request.md",
+      "materials": [
+        "inputs/D-Q01/source-pack.md"
+      ],
+      "loaded_resource_count": 8,
+      "browsing": false,
+      "repeat_number": 1
+    },
+    {
+      "id": "D-Q01-revise-run01-current",
+      "agent": "/root/english_d_q01_revise_current01",
+      "history": "none",
+      "request": "inputs/D-Q01/revise-request.md",
+      "materials": [
+        "inputs/D-Q01/source-pack.md",
+        "inputs/D-Q01/original.md"
+      ],
+      "loaded_resource_count": 9,
+      "browsing": false,
+      "repeat_number": 1
+    },
+    {
+      "id": "D-L01-new-run01-current",
+      "agent": "/root/english_d_l01_new_current01",
+      "history": "none",
+      "request": "inputs/D-L01/new-request.md",
+      "materials": [
+        "inputs/D-L01/source-pack.md"
+      ],
+      "loaded_resource_count": 8,
+      "browsing": false,
+      "repeat_number": 1
+    },
+    {
+      "id": "D-L01-revise-run01-current",
+      "agent": "/root/english_d_l01_revise_current01",
+      "history": "none",
+      "request": "inputs/D-L01/revise-request.md",
+      "materials": [
+        "inputs/D-L01/source-pack.md",
+        "inputs/D-L01/original.md"
+      ],
+      "loaded_resource_count": 5,
+      "browsing": false,
+      "repeat_number": 1
+    }
+  ],
+  "load_trace_limit": "Agent-reported load manifests checked against frozen bytes; not an independent instrumented access trace",
+  "checks": {
+    "D-Q01-new": "check_voice and check_prose on draft 01, including preserved BOM-related retries; final received count/format checks and independent review, not a second style-script pass",
+    "D-Q01-revise": "check_voice and check_prose on draft 01; below-length and character-loss intermediate text retained; final format check and independent review",
+    "D-L01-new": "check_voice and check_prose on draft 01; final count/format check and independent review",
+    "D-L01-revise": "Local semantic self-review and count/format checks; no skill checking scripts; independent final review"
+  },
+  "batch": "diagnostic-02",
+  "snapshot_reuse_verification": "snapshots/current-01-reuse-02.json",
+  "unique_development_studies_across_batches": 3,
+  "reviews": [
+    {
+      "agent": "/root/english_d_q01_diagnostic_review",
+      "history": "none",
+      "scope": "Four frozen task inputs and two anonymous final manuscripts only; no skills, distillation notes, rationales or other runs",
+      "label_key": "blind/key-diagnostic-02-Q.json",
+      "comparison": "Each output against its own task; no X/Y version ranking; labels not randomized competing arms",
+      "dimensions": [
+        "fact_author_fidelity",
+        "problem_core_judgment",
+        "reasoning_evidence",
+        "theory_literature",
+        "explanation_contribution",
+        "natural_specific_prose",
+        "author_voice",
+        "necessary_qualification_repetition",
+        "concrete_author_corrections"
+      ]
+    },
+    {
+      "agent": "/root/english_d_l01_diagnostic_review",
+      "history": "none",
+      "scope": "Four frozen task inputs and two anonymous final manuscripts only; no skills, distillation notes, rationales or other runs",
+      "label_key": "blind/key-diagnostic-02-L.json",
+      "comparison": "Each output against its own task; no X/Y version ranking; labels not randomized competing arms",
+      "dimensions": [
+        "fact_author_fidelity",
+        "problem_core_judgment",
+        "reasoning_evidence",
+        "theory_literature",
+        "explanation_contribution",
+        "natural_specific_prose",
+        "author_voice",
+        "necessary_qualification_repetition",
+        "concrete_author_corrections"
+      ]
+    }
+  ]
+}

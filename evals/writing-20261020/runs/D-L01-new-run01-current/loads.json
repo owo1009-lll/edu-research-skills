@@ -1,0 +1,61 @@
+{
+  "snapshot_root": "@snapshot",
+  "snapshot_relative_base": "current-01",
+  "loaded_snapshot_files": [
+    {
+      "path": "skills/edu-writing/SKILL.md",
+      "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+      "purpose": "Workflow instructions"
+    },
+    {
+      "path": "skills/edu-writing/references/argument.md",
+      "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+      "purpose": "Argument and evidentiary scope"
+    },
+    {
+      "path": "skills/edu-writing/references/voice-en.md",
+      "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+      "purpose": "English authorial stance"
+    },
+    {
+      "path": "skills/edu-writing/references/qualitative-narrative.md",
+      "sha256": "a4f3c908f5d2aa0c6ffc71a1df93fa94b011fc3bb6341c90379f8d9451f9cbc8",
+      "purpose": "Qualitative discussion route"
+    },
+    {
+      "path": "skills/edu-shared/references/integrity.md",
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+      "purpose": "Shared integrity rules"
+    },
+    {
+      "path": "skills/edu-writing/references/methods/cases-develop-explanations.md",
+      "sha256": "bac65a856e6eddda2ea6c0dfdce209b31635dd08ca70fe6f8f842b7c202f98be",
+      "purpose": "Using differences and counterexamples without invented trajectories"
+    },
+    {
+      "path": "skills/edu-writing/scripts/check_voice.py",
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "purpose": "Read and executed on first draft"
+    },
+    {
+      "path": "skills/edu-writing/scripts/check_prose.py",
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "purpose": "Read and executed on heading-labeled first draft copy"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "@inputs\\D-L01\\new-request.md",
+      "sha256": "505e4b327be68d7e5fbf2c2d52ea868b1599ed4554b56dc3dcbf7e4c0db411e9",
+      "role": "Task instructions"
+    },
+    {
+      "path": "@inputs\\D-L01\\source-pack.md",
+      "sha256": "b902b7edd5f1e6c13572764fe84d064abcef37dcf483adc9805129696af763ed",
+      "role": "Sole substantive source"
+    }
+  ],
+  "encoding": "UTF-8 for text; raw bytes for hashes",
+  "browsed": false,
+  "spawned_agents": false
+}

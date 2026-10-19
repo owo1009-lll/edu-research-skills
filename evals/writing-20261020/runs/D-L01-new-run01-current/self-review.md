@@ -1,0 +1,14 @@
+# Local AI self-review of draft-01.md
+
+This is an AI self-review of the two supplied-source discussion paragraphs, not expert review or independent reanalysis.
+
+1. The contribution is supported: initiation and collaboration are distinct dimensions. The interpretation compares different valuations of innovation, timeliness, usable recommendations and relational returns without assigning all members of either profession a uniform motive.
+2. Add the health and related social-policy context to the manuscript. The draft's experienced-participant qualifier is appropriate but does not identify the substantive setting.
+3. Revise “evaluation and implementation often required policy insight.” The pack describes contextual knowledge as particularly beneficial, without establishing frequency or necessity. Preserve the evidence-review example so project categories do not become deterministic rules.
+4. Revise “wanted greater involvement but could not sustain it.” The supplied material reports that some policy-makers wanted co-production but had not found it possible; it does not verify an earlier period of collaboration followed by withdrawal.
+5. Tighten the first paragraph's interpretation: a shared impact aspiration leaves the timing and form of useful evidence unresolved; the relational returns from small projects prevent a simple opposition between scientific and policy interests. Do not infer a particular disengagement sequence from unpaired accounts.
+6. The practical implication follows from reported coordination work and differentiated contextual-knowledge needs. Keep it a recommendation and include capacity constraints. The study collected no independent policy-impact measure, so do not claim that the arrangements improve outcomes. The separate note can state the measurement limitation without inserting a generic disclaimer into each paragraph.
+
+Script outputs inspected: check_voice.py and check_prose.py both exited 0. The voice script reported one sentence with multiple hedges and a self-mention rate below its reference range. “Suggest” marked interpretation and “could” marked possibility, so the two words were not inherently redundant; revision instead addresses the stronger substantive problem in item 3. No self-mentions will be added to match a corpus rate. The prose script reported no prompts. These results do not establish accuracy or writing quality. The prose check used an identical text copy preceded by a Discussion heading because its English parser uses section headings. The manuscript itself has no heading.
+
+The local word count was 251 words in two paragraphs; the prose checker counted 250 under a different tokenizer. Check the final structure and word range after one complete revision. No manuscript consistency script is needed for this single short discussion passage.

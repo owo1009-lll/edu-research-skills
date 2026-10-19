@@ -1,0 +1,494 @@
+{
+  "assessment_id": "diagnostic-02-L",
+  "assessment_date": "2026-10-20",
+  "language": "English",
+  "independent_operations": true,
+  "comparisons_or_instruction_condition_inferences_made": false,
+  "input_scope": "Exactly the six input files in inputs_read; no browsing, skills, development notes, rationales, run folders, other reviews or label keys.",
+  "inputs_read": [
+    {
+      "role": "source_pack",
+      "path": "@inputs\\D-L01\\source-pack.md",
+      "sha256": "b902b7edd5f1e6c13572764fe84d064abcef37dcf483adc9805129696af763ed"
+    },
+    {
+      "role": "published_original",
+      "path": "@inputs\\D-L01\\original.md",
+      "sha256": "391e7bb7b49d32e7658a315ac4891b5074014e68139c1bda94c2295987a100f9"
+    },
+    {
+      "role": "new_writing_request",
+      "path": "@inputs\\D-L01\\new-request.md",
+      "sha256": "505e4b327be68d7e5fbf2c2d52ea868b1599ed4554b56dc3dcbf7e4c0db411e9"
+    },
+    {
+      "role": "revision_request",
+      "path": "@inputs\\D-L01\\revise-request.md",
+      "sha256": "5f6e75b5c7616d012cbdefff1a5a5f8e2204858276e9945dc38aaa7d567b7298"
+    },
+    {
+      "role": "manuscript_X",
+      "path": "@blind\\diagnostic-02-L\\X.md",
+      "sha256": "5f570e29fb5fbeee03777f0f182d5fa3740b74222d3e7a78c614d796c12863e3"
+    },
+    {
+      "role": "manuscript_Y",
+      "path": "@blind\\diagnostic-02-L\\Y.md",
+      "sha256": "d0012f88c91d430f83ba865db887e1a5a4cb70ba2e8111b637ab228fe6caa097"
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "text_encoding": "UTF-8",
+  "manuscript_edits": false,
+  "location_convention": "X P1 is file line 1; X P2 is file line 3; Y is one paragraph on line 1. S is a sentence number within that paragraph; abbreviations are not sentence boundaries.",
+  "severity_convention": {
+    "none": "No defect established.",
+    "low_optional": "Discretionary local improvement; not a required correction.",
+    "unrated": "Unresolved or not assessable; no defect severity inferred."
+  },
+  "assessments": [
+    {
+      "text": "X",
+      "request_file": "new-request.md",
+      "operation": "new secondary discussion writing",
+      "overall": "Meets manuscript requirements and develops a defensible source-grounded interpretation and practical implication; no demonstrated manuscript error.",
+      "format": {
+        "paragraph_count": 2,
+        "required_paragraph_count": 2,
+        "whitespace_word_count": 249,
+        "requested_word_range": [
+          230,
+          280
+        ],
+        "within_range": true,
+        "attribution": "Williamson et al. (2019) in opening",
+        "separate_note_status": "not_assessable_from_manuscript"
+      },
+      "dimensions": [
+        {
+          "dimension": "factual_author_fidelity",
+          "status": "supported",
+          "severity": "none",
+          "locations": [
+            "X P1 S1-S6",
+            "X P2 S2-S3"
+          ],
+          "evidence": [
+            "Source pack distinguishes initiation from collaboration and reports shared interest in impact alongside different expectations.",
+            "The pack includes small projects valued for learning/relationships and contextual knowledge in an evidence review."
+          ],
+          "assessment": "Accounts and interpretations stay within the supplied material; no invented sequence, dialogue, specific disengagement motive, outcome measure or disciplinary transfer."
+        },
+        {
+          "dimension": "problem_and_core_judgment",
+          "status": "clear",
+          "severity": "none",
+          "locations": [
+            "X P1 S4",
+            "X P1 S6",
+            "X P2 S1-S4"
+          ],
+          "evidence": [
+            "a common aspiration for impact can leave the timing and form of useful evidence unresolved",
+            "the terms of mutual benefit"
+          ],
+          "assessment": "Connects heterogeneous experiences to negotiation of useful evidence and appropriate involvement. Opening does not claim the interview distinctions emerged without prompts."
+        },
+        {
+          "dimension": "reasoning_evidence_organisation",
+          "status": "coherent",
+          "severity": "none",
+          "locations": [
+            "X P1",
+            "X P2"
+          ],
+          "evidence": [
+            "Small projects counter a narrow account of researchers' incentives.",
+            "The evidence-review example supports looking beyond project labels.",
+            "Practical agreement and revision follow the source pack's practical recommendations."
+          ],
+          "assessment": "Evidence, interpretation and practical implication form a connected argument; recommendations are not described as tested effects."
+        },
+        {
+          "dimension": "theory_literature_use",
+          "status": "appropriate_to_request",
+          "severity": "none",
+          "locations": [
+            "X P1 S1",
+            "X P1 S4-S6",
+            "X P2 S1-S4"
+          ],
+          "evidence": [
+            "Williamson et al.'s (2019) study",
+            "Initiation, collaboration, usefulness and mutual benefit organize the interpretation."
+          ],
+          "assessment": "The concepts do explanatory work. Formal theory and added literature are not required; wider literature novelty is not assessable."
+        },
+        {
+          "dimension": "explanation_contribution",
+          "status": "substantive_interpretation",
+          "severity": "none",
+          "locations": [
+            "X P1 S4-S6",
+            "X P2 S4-S7"
+          ],
+          "evidence": [
+            "timing and form of useful evidence",
+            "a more informative guide to involvement than project labels alone"
+          ],
+          "assessment": "Specifies why shared aspirations leave tensions unresolved and translates the interpretation into involvement and agreement decisions. Comparative wording is interpretive in context, not demonstrated effectiveness.",
+          "optional_finding_ids": [
+            "X-O1"
+          ]
+        },
+        {
+          "dimension": "natural_concrete_prose_rhythm",
+          "status": "effective_with_optional_refinement",
+          "severity": "low_optional",
+          "locations": [
+            "X P1",
+            "X P2 S5-S7"
+          ],
+          "evidence": [
+            "Delays, recommendations, small projects and an evidence review supply concrete referents.",
+            "then revisit these arrangements",
+            "partners should revisit the agreed scope"
+          ],
+          "assessment": "Natural and connected. The two revisiting recommendations differ in purpose but the closing response to a constraint could be more direct.",
+          "optional_finding_ids": [
+            "X-O2"
+          ]
+        },
+        {
+          "dimension": "author_voice",
+          "status": "appropriate_secondary_author_voice",
+          "severity": "none",
+          "locations": [
+            "X P1 S1",
+            "X P1 S3-S6",
+            "X P2"
+          ],
+          "evidence": [
+            "Named source attribution.",
+            "Symmetrical treatment of researchers' and policy-makers' concerns."
+          ],
+          "assessment": "Discernible interpretive position without presenting the interviews as the writer's own. Personal voice preservation cannot be judged without a baseline for this writer."
+        },
+        {
+          "dimension": "qualifications_versus_repetitive_disclaimers",
+          "status": "proportionate",
+          "severity": "none",
+          "locations": [
+            "X P1 S2-S4",
+            "X P2 S2-S3"
+          ],
+          "evidence": [
+            "In interviews about health and related social policy",
+            "These accounts suggest",
+            "Some participants"
+          ],
+          "assessment": "Attribution and scope do necessary work. There is no unsupported causal or prevalence claim requiring an added generic limitations sentence; recurrent transitions are at most a stylistic issue."
+        },
+        {
+          "dimension": "specific_author_corrections",
+          "status": "none_mandatory",
+          "severity": "none",
+          "locations": [
+            "X P2 S4",
+            "X P2 S7",
+            "Separate note unavailable"
+          ],
+          "evidence": [
+            "Manuscript satisfies paragraph count, length, attribution, interpretation and practical implication."
+          ],
+          "assessment": "Only optional edits X-O1 and X-O2 are proposed. Separate-note compliance remains not assessable, not a proven omission.",
+          "finding_ids": [
+            "X-O1",
+            "X-O2",
+            "X-N1"
+          ]
+        }
+      ],
+      "demonstrated_errors": [],
+      "mandatory_manuscript_corrections": []
+    },
+    {
+      "text": "Y",
+      "request_file": "revise-request.md",
+      "operation": "compression and revision of supplied published paragraph",
+      "overall": "Meets manuscript requirements and preserves the original argument, conceptual distinctions, practical position and citations supporting retained claims; no demonstrated manuscript error.",
+      "format": {
+        "paragraph_count": 1,
+        "required_paragraph_count": 1,
+        "whitespace_word_count_including_citation_tokens": 151,
+        "prose_word_count_excluding_numeric_citations": 144,
+        "requested_word_range": [
+          140,
+          170
+        ],
+        "within_range": true,
+        "separate_explanation_and_adaptation_record_status": "not_assessable_from_manuscript"
+      },
+      "dimensions": [
+        {
+          "dimension": "factual_author_fidelity",
+          "status": "preserved",
+          "severity": "none",
+          "locations": [
+            "Y S1-S7",
+            "Original discussion paragraph"
+          ],
+          "evidence": [
+            "Some/others contrast, prior collaborative agreement, conditional independent work, tacit knowledge, feasibility, trust and workforce stability all remain.",
+            "these informants suggested"
+          ],
+          "assessment": "Compression retains the main argument and attribution; quality/relevance is still informants' judgment rather than independently measured success."
+        },
+        {
+          "dimension": "problem_and_core_judgment",
+          "status": "preserved",
+          "severity": "none",
+          "locations": [
+            "Y S1-S5"
+          ],
+          "evidence": [
+            "time and resource demands were always warranted",
+            "had not found it possible in practice"
+          ],
+          "assessment": "Preserves the conditional value and practical feasibility of co-production without substituting a new argument."
+        },
+        {
+          "dimension": "reasoning_evidence_organisation",
+          "status": "improved_progression",
+          "severity": "none",
+          "locations": [
+            "Y S1-S7"
+          ],
+          "evidence": [
+            "With this in place",
+            "Yet",
+            "Workforce stability ... support these relationships"
+          ],
+          "assessment": "Connects agreement to conditional independence, then tacit knowledge, unrealized wishes and relational/institutional supports."
+        },
+        {
+          "dimension": "theory_literature_use",
+          "status": "retained_citations_appropriate",
+          "severity": "none",
+          "locations": [
+            "Y S1",
+            "Y S2",
+            "Y S7",
+            "Original final sentence"
+          ],
+          "evidence": [
+            "[37, 38, 39]",
+            "[40]",
+            "[41]",
+            "[31, 42]",
+            "Original research-centres clause and [43] both omitted."
+          ],
+          "assessment": "Retained markers remain attached to their original claims. Omitting the specific centres clause and its citation is reasonable compression. Full-text support of retained references remains unverified.",
+          "finding_ids": [
+            "Y-S1"
+          ]
+        },
+        {
+          "dimension": "explanation_contribution",
+          "status": "appropriate_to_revision",
+          "severity": "none",
+          "locations": [
+            "Y S2-S7"
+          ],
+          "evidence": [
+            "Shared agreement, trust and workforce stability remain.",
+            "some large-dataset analyses and evidence reviews ... could"
+          ],
+          "assessment": "The editorial contribution is clarity and compression, not a new research argument. No requirement to add the pack's further evidence-review example; conditional wording avoids a categorical project taxonomy."
+        },
+        {
+          "dimension": "natural_concrete_prose_rhythm",
+          "status": "natural_with_optional_refinement",
+          "severity": "low_optional",
+          "locations": [
+            "Y S1-S7",
+            "Y S6"
+          ],
+          "evidence": [
+            "Long balanced opening followed by shorter agreement and feasibility statements.",
+            "as a usual precursor"
+          ],
+          "assessment": "Natural academic prose; 'usual precursor' could be made more idiomatic. 'These informants' remains recoverable, though explicit reference could marginally improve ease of reading.",
+          "finding_ids": [
+            "Y-O1"
+          ]
+        },
+        {
+          "dimension": "author_voice",
+          "status": "preserved_within_available_baseline",
+          "severity": "none",
+          "locations": [
+            "Y S1-S7",
+            "Original discussion paragraph"
+          ],
+          "evidence": [
+            "Some participants saw",
+            "these informants suggested",
+            "Participants viewed"
+          ],
+          "assessment": "Preserves empirical attribution and pragmatic conditional support. Whole-article voice consistency cannot be assessed from one original paragraph."
+        },
+        {
+          "dimension": "qualifications_versus_repetitive_disclaimers",
+          "status": "necessary_and_proportionate",
+          "severity": "none",
+          "locations": [
+            "Y S1-S6"
+          ],
+          "evidence": [
+            "some",
+            "others",
+            "could",
+            "these informants suggested"
+          ],
+          "assessment": "Attributions preserve distinct reported judgments. No unnecessary disclaimers; the paragraph does not need a new project-quality measurement warning while the claim remains participant-attributed."
+        },
+        {
+          "dimension": "specific_author_corrections",
+          "status": "none_mandatory",
+          "severity": "none",
+          "locations": [
+            "Y S6",
+            "Retained citations",
+            "Unavailable companion adaptation record"
+          ],
+          "evidence": [
+            "One paragraph within 140-170 words.",
+            "Original requires adaptation identification in an accompanying record."
+          ],
+          "assessment": "Y-O1 is optional. Citation verification is unresolved; separate explanation and adaptation record are not assessable from this paragraph.",
+          "finding_ids": [
+            "Y-O1",
+            "Y-S1",
+            "Y-N1"
+          ]
+        }
+      ],
+      "demonstrated_errors": [],
+      "mandatory_manuscript_corrections": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "X-O1",
+      "text": "X",
+      "classification": "optional_stylistic_improvement",
+      "severity": "low_optional",
+      "location": "Paragraph 2, sentence 4 (line 3)",
+      "evidence": "These accounts make the knowledge required at each stage a more informative guide to involvement than project labels alone.",
+      "rationale": "A defensible interpretive judgment, not a demonstrated factual error. An optional formulation can state the inferential recommendation more locally.",
+      "proposed_correction": "These accounts suggest judging involvement by the knowledge needed at each stage, rather than by project labels alone.",
+      "author_action": "Optional; do not treat stronger caution as inherently better."
+    },
+    {
+      "id": "X-O2",
+      "text": "X",
+      "classification": "optional_stylistic_improvement",
+      "severity": "low_optional",
+      "location": "Paragraph 2, sentence 7, with sentence 5 as context (line 3)",
+      "evidence": "Sentence 5 says 'revisit these arrangements'; sentence 7 says 'revisit the agreed scope and division of work'.",
+      "rationale": "The purposes differ but the ending could specify the response to a capacity constraint more directly.",
+      "proposed_correction": "Where capacity restricts participation, partners should adjust the agreed scope and division of work.",
+      "author_action": "Optional; retain 'revisit' if reopening agreement without necessarily changing it is intended."
+    },
+    {
+      "id": "X-N1",
+      "text": "X",
+      "classification": "not_assessable",
+      "severity": "unrated",
+      "location": "Requested separate writing-choice note",
+      "evidence": "new-request.md asks for a short separate note; X.md contains only manuscript text.",
+      "rationale": "The supplied manuscript is not evidence that no separate note was delivered.",
+      "proposed_correction": null,
+      "author_action": "Confirm companion-note delivery when assessing the full package; no manuscript correction established."
+    },
+    {
+      "id": "Y-O1",
+      "text": "Y",
+      "classification": "optional_stylistic_improvement",
+      "severity": "low_optional",
+      "location": "Sentence 6 (line 1)",
+      "evidence": "Participants viewed trusting, long-term relationships as a usual precursor to co-production.",
+      "rationale": "Meaning is faithful and grammatical, but the qualification can be expressed more idiomatically.",
+      "proposed_correction": "Participants generally viewed trusting, long-term relationships as a precursor to co-production.",
+      "author_action": "Optional."
+    },
+    {
+      "id": "Y-S1",
+      "text": "Y",
+      "classification": "unresolved_source_question",
+      "severity": "unrated",
+      "location": "Sentences 1, 2 and 7; source-pack.md, Source scope and original citation status",
+      "evidence": "The pack states that the full texts of the original numbered citations were not read for this exercise.",
+      "rationale": "Marker retention can be assessed; independent support from the referenced works cannot. No citation mismatch is demonstrated.",
+      "proposed_correction": null,
+      "author_action": "In the separate explanation, distinguish retained citations from independently verified sources; no new search is required by the request."
+    },
+    {
+      "id": "Y-N1",
+      "text": "Y",
+      "classification": "not_assessable",
+      "severity": "unrated",
+      "location": "Accompanying explanation and adaptation record",
+      "evidence": "original.md requires edited output to be identified as an adaptation in its accompanying record; revise-request.md requests a separate explanation; Y.md supplies only the paragraph.",
+      "rationale": "The companion record was not supplied for this review, so its absence or inadequacy cannot be inferred.",
+      "proposed_correction": null,
+      "author_action": "Confirm the companion record identifies the source and adaptation and explains substantive compression and unresolved reference checks before declaring full-package compliance."
+    }
+  ],
+  "resolved_nonissues": [
+    {
+      "text": "X",
+      "location": "P1 S1",
+      "issue_considered": "Inductive discovery versus interview-guide prompts",
+      "resolution": "The manuscript says the study sharpens understanding through a distinction; it does not claim that distinction was unprompted."
+    },
+    {
+      "text": "X",
+      "location": "P2 S4",
+      "issue_considered": "Comparative effectiveness overclaim",
+      "resolution": "Context frames the statement as an interpretation of accounts and practical guidance, not a measured superiority result; optional clarification only."
+    },
+    {
+      "text": "Y",
+      "location": "S3",
+      "issue_considered": "Unmeasured project quality/relevance",
+      "resolution": "The proposition remains governed by 'these informants suggested'; no independent outcome claim is introduced."
+    },
+    {
+      "text": "Y",
+      "location": "S7 and original final sentence",
+      "issue_considered": "Deletion of [43]",
+      "resolution": "The specific research-centres claim associated with [43] is also removed; [31, 42] remain with the retained partnership claim."
+    },
+    {
+      "text": "Y",
+      "location": "S3-S4",
+      "issue_considered": "Project labels becoming a categorical rule",
+      "resolution": "Some projects could proceed largely independently; the conditional language preserves the original distinction without claiming that every review excludes contextual input."
+    }
+  ],
+  "assessment_limits": [
+    "Consistency was checked against supplied material, not inaccessible interview recordings or transcripts.",
+    "The original published article and numbered references were not independently accessed.",
+    "Separate notes, attribution records and complete delivery packages were not provided.",
+    "Field-wide novelty, comparative effectiveness, causal success and prevalence cannot be established from this exercise.",
+    "X has no supplied baseline for this secondary writer's personal voice; Y offers only one original paragraph as a voice baseline.",
+    "No model identity, instruction condition, drafting process, hidden rationale or comparative ranking is inferred.",
+    "Word counts test explicit length requirements, not writing quality; no keyword counts were used as scores."
+  ],
+  "outputs": {
+    "assessment_md": "@judges\\diagnostic-02-L\\assessment.md",
+    "findings_json": "@judges\\diagnostic-02-L\\findings.json"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "purpose": "English current-version quantitative and qualitative development diagnostics; not independent holdouts",
+  "created_utc": "2026-10-19T18:27:40.616355+00:00",
+  "source_records": [
+    {
+      "task": "D-Q01",
+      "source_id": "Q-N08",
+      "source_url": "https://link.springer.com/article/10.1007/s12187-023-10047-9",
+      "reading_locator": "B092",
+      "reading_sha256": "e31ffc270c934afe0bf76db2ac7aa1bfbdc4edc0c28c7049bbd670ed683302fa",
+      "extracted_paragraph_sha256": "8154293a5c0afac16a95e540b05d7209b985d80cde8ea57b55f987a09ae7cd82",
+      "original_words_whitespace": 264
+    },
+    {
+      "task": "D-L01",
+      "source_id": "L-N11",
+      "source_url": "https://link.springer.com/article/10.1186/s12961-019-0441-2",
+      "reading_locator": "B070",
+      "reading_sha256": "68d12dcb78198077425ba4f7eabf55681de0d8ac5529c4f1ed17cd40bf6c83f4",
+      "extracted_paragraph_sha256": "2a297cfc9d2bdddc5eaf0ee057bba54f7c65b0020116c14be41ee3bd9d720143",
+      "original_words_whitespace": 222
+    }
+  ],
+  "files": [
+    {
+      "path": "inputs/D-Q01/new-request.md",
+      "bytes": 698,
+      "sha256": "94693090ac37303e463386e1c3aa7576989850c5376e359a711b73aa85d2f837"
+    },
+    {
+      "path": "inputs/D-Q01/original.md",
+      "bytes": 2487,
+      "sha256": "97efd44db00499554cb63971a9341847c9ddaf9f06b2b8dfad2ebc5d571d6920"
+    },
+    {
+      "path": "inputs/D-Q01/revise-request.md",
+      "bytes": 725,
+      "sha256": "a2e0ad14997f9c2cd9130911798672a9576ac68a65fe941abf14b208bac3fef8"
+    },
+    {
+      "path": "inputs/D-Q01/source-pack.md",
+      "bytes": 7589,
+      "sha256": "99ecd4597d445d8f7d554ac7e4b76348ed54389dc39988f4103d581601d61201"
+    },
+    {
+      "path": "inputs/D-L01/new-request.md",
+      "bytes": 685,
+      "sha256": "505e4b327be68d7e5fbf2c2d52ea868b1599ed4554b56dc3dcbf7e4c0db411e9"
+    },
+    {
+      "path": "inputs/D-L01/original.md",
+      "bytes": 2239,
+      "sha256": "391e7bb7b49d32e7658a315ac4891b5074014e68139c1bda94c2295987a100f9"
+    },
+    {
+      "path": "inputs/D-L01/revise-request.md",
+      "bytes": 695,
+      "sha256": "5f6e75b5c7616d012cbdefff1a5a5f8e2204858276e9945dc38aaa7d567b7298"
+    },
+    {
+      "path": "inputs/D-L01/source-pack.md",
+      "bytes": 6450,
+      "sha256": "b902b7edd5f1e6c13572764fe84d064abcef37dcf483adc9805129696af763ed"
+    }
+  ],
+  "pre_execution_note": "Before any writer was started, corrected quote attribution: role labels do not establish distinct participant identities; normalised author diacritic in source header."
+}

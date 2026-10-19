@@ -1,0 +1,7 @@
+# Revision explanation
+
+This paragraph is an adaptation of Högberg (2023), *Is There a trade-off Between Achievement and Wellbeing in Education Systems? New cross-country Evidence*, [DOI 10.1007/s12187-023-10047-9](https://doi.org/10.1007/s12187-023-10047-9), Conclusion and Implications, first paragraph after the opening summary (supplied locator B092; CC BY 4.0 according to the supplied materials). It is an attributed editing exercise, not an original study or a new submission.
+
+The revision compresses the opening and connects policy-specific uncertainty directly to the author's recommendation. It replaces the unsupported inference from predominantly null findings to negligible effects or absence of harm with a statement that the uncertain estimates leave adverse and beneficial associations open. It preserves the distinctions between within-country comparisons and specific policy effects, and between average linear relationships and possible basic eligibility threshold benefits. The dual policy priority, its value premise, the justified "should", and school nursing and counselling remain intact; these measures are recommendations, not evaluated interventions.
+
+Moilanen (2010) is retained with the original tentative basic-skills/school-failure claim. Its text and full bibliographic details were not supplied or independently verified. No external sources were consulted. The source pack's affect-table discrepancies were not resolved, and no affected coefficients are used here.
