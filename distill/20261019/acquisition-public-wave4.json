@@ -1,0 +1,642 @@
+[
+  {
+    "id": "Q-N05",
+    "doi": "10.1007/s10648-022-09662-9",
+    "retrieved_utc": "2026-10-19T15:24:25.564530+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10648-022-09662-9",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s10648-022-09662-9",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 740103,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1007/s10648-022-09662-9",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s10648-022-09662-9",
+    "format": "html",
+    "raw_sha256": "561fac5af204c356e61f7c68e48189d8f1007fe0ab5ab461322e63499fe6c2a4",
+    "text_sha256": "b7ff53affc20e7fb6664329de73b9463979009b9d8ef3102e88e49e0f80f5d00",
+    "text_characters": 146262,
+    "extraction": {
+      "sections": 25,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "958569332515a463efa1a73ed2d4f6d5bd533003911a029101f3cc8c88ff3e23",
+    "reading_blocks": 406,
+    "reading_characters": 170598,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N06",
+    "doi": "10.1111/bjep.12551",
+    "retrieved_utc": "2026-10-19T15:24:25.565059+00:00",
+    "attempts": [
+      {
+        "url": "https://orbilu.uni.lu/bitstream/10993/57500/1/Teuber%20et%20al.%20-%202022%20-%20Facing%20academic%20problems%20Longitudinal%20relations%20b.pdf",
+        "outcome": "failed",
+        "error": "HTTPSConnectionPool(host='orbilu.uni.lu', port=443): Max retries exceeded with url: /bitstream/10993/57500/1/Teuber%20et%20al.%20-%202022%20-%20Facing%20academic%20problems%20Longitudinal%20relations%20b.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1111/bjep.12551",
+      "title": [
+        "Facing academic problems: Longitudinal relations between parental involvement and student academic achievement from a self‐determination perspective"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3745-9021",
+          "authenticated-orcid": false,
+          "given": "Ziwen",
+          "family": "Teuber",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Bielefeld University Bielefeld Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8195-5287",
+          "authenticated-orcid": false,
+          "given": "Lena",
+          "family": "Sielemann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Bielefeld University Bielefeld Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elke",
+          "family": "Wild",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Bielefeld University Bielefeld Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            3
+          ]
+        ]
+      },
+      "container-title": [
+        "British Journal of Educational Psychology"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                10,
+                3
+              ]
+            ],
+            "date-time": "2022-10-03T00:00:00Z",
+            "timestamp": 1664755200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "9317cefecfdedfecaffc90474e023d0400c760f6c12569b4c1d4ee20d1d99705",
+    "status": "access_failed"
+  },
+  {
+    "id": "Q-ZH01",
+    "doi": "10.16382/j.cnki.1000-5560.2022.11.007",
+    "retrieved_utc": "2026-10-19T15:24:25.565588+00:00",
+    "attempts": [
+      {
+        "url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=10887",
+        "status": 200,
+        "final_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=10887",
+        "content_type": "application/octet-stream",
+        "bytes": 931386,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.16382/j.cnki.1000-5560.2022.11.007",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=10887",
+    "format": "pdf",
+    "raw_sha256": "005e8b2248182f50cdafc9f24450efc23322f8091ce94929960b13b05016329b",
+    "text_sha256": "488f867c4cde70023095cae4b75dd6445ac4cb8a9ffbbf165d05aa67568cc7de",
+    "text_characters": 31087,
+    "extraction": {
+      "pages": 12,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "ece7713ec0079a86cad1467543de5982c916b44eb85e282f9e18d7aec38dd8b8",
+    "reading_blocks": 12,
+    "reading_characters": 31796,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-ZH01",
+    "doi": "10.16382/j.cnki.1000-5560.2024.07.002",
+    "retrieved_utc": "2026-10-19T15:24:28.985235+00:00",
+    "attempts": [
+      {
+        "url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11091",
+        "status": 200,
+        "final_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11091",
+        "content_type": "application/octet-stream",
+        "bytes": 910429,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.16382/j.cnki.1000-5560.2024.07.002",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11091",
+    "format": "pdf",
+    "raw_sha256": "552fe507b884930f0313844440f335099ad78ecfe9dc3f20ee994805325ea286",
+    "text_sha256": "433468af071e895afb344878ad0345df9d285d2859f39fb6cc8a0f18ddb5e361",
+    "text_characters": 28324,
+    "extraction": {
+      "pages": 13,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "4cc90ecfb3226859b43035c8a3b07d2752809edbafeb4b1afbf8516912e9dbf5",
+    "reading_blocks": 13,
+    "reading_characters": 29092,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N07",
+    "doi": "10.1007/s10212-023-00769-3",
+    "retrieved_utc": "2026-10-19T15:24:29.566995+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10212-023-00769-3",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s10212-023-00769-3",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 394792,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s10212-023-00769-3",
+      "title": [
+        "Implementation quality of cooperative learning and teacher beliefs—a mixed methods study"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5665-2938",
+          "authenticated-orcid": false,
+          "given": "Katja",
+          "family": "Adl-Amini",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vanessa A.",
+          "family": "Völlinger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Agnes",
+          "family": "Eckart",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            20
+          ]
+        ]
+      },
+      "container-title": [
+        "European Journal of Psychology of Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                20
+              ]
+            ],
+            "date-time": "2023-12-20T00:00:00Z",
+            "timestamp": 1703030400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                20
+              ]
+            ],
+            "date-time": "2023-12-20T00:00:00Z",
+            "timestamp": 1703030400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "384a0a5e7e75ca4e19c3c05ac7b37cc3c30ada1dbee5fb521f800b89f6935212",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s10212-023-00769-3",
+    "format": "html",
+    "raw_sha256": "f3343dbd1ab156ce16c9253d561c3c544a98a4da0d3a4bd21516d4a88beca21a",
+    "text_sha256": "e1f6a5e5cf05fe6d6410d835b3873a483cd711e3db6b12ab13426c46b8934c4c",
+    "text_characters": 48024,
+    "extraction": {
+      "sections": 14,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "ac05a26c687f4897a2b18f5a789554e6ce5312cae76387566d0a34a576ee7865",
+    "reading_blocks": 199,
+    "reading_characters": 59951,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N08",
+    "doi": "10.1177/1558689817712119",
+    "retrieved_utc": "2026-10-19T15:24:33.285676+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/1558689817712119",
+        "status": 403,
+        "final_url": "https://journals.sagepub.com/doi/pdf/10.1177/1558689817712119",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5624,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/pdf/10.1177/1558689817712119"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/1558689817712119",
+      "title": [
+        "TPACK and Teachers of Spanish: Development of a Theory-Based Joint Display in a Mixed Methods Research Case Study"
+      ],
+      "author": [
+        {
+          "given": "Carolina",
+          "family": "Bustamante",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "State University of New York at Old Westbury, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            5,
+            26
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of Mixed Methods Research"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                5,
+                26
+              ]
+            ],
+            "date-time": "2017-05-26T00:00:00Z",
+            "timestamp": 1495756800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ]
+    },
+    "metadata_sha256": "24c4c0e0a77e515808bcc98dd572a0a12968c7968112dd84e063511197613fc8",
+    "status": "access_failed"
+  },
+  {
+    "id": "M-ZH01",
+    "doi": "10.16382/j.cnki.1000-5560.2025.03.009",
+    "retrieved_utc": "2026-10-19T15:24:34.301854+00:00",
+    "attempts": [
+      {
+        "url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11165",
+        "status": 200,
+        "final_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11165",
+        "content_type": "application/octet-stream",
+        "bytes": 816339,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.16382/j.cnki.1000-5560.2025.03.009",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://xbjk.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11165",
+    "format": "pdf",
+    "raw_sha256": "0becf81a240208b1feaf7570241a065cb8b6960495a52f35be061617060219f6",
+    "text_sha256": "d08a47bbca52af2c43df489e8b2d3b80090fb18891c9154bb5a676b1347daab3",
+    "text_characters": 30155,
+    "extraction": {
+      "pages": 14,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "d09f0c129f6f3b6b5dbbb7492cfffe80a9dd542a3ad99a303cf13c3b80af6bbe",
+    "reading_blocks": 14,
+    "reading_characters": 30982,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N04",
+    "doi": "10.1177/23328584211071115",
+    "retrieved_utc": "2026-10-19T15:24:35.758830+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/23328584211071115?download=true",
+        "status": 403,
+        "final_url": "https://journals.sagepub.com/doi/pdf/10.1177/23328584211071115?download=true",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5705,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/pdf/10.1177/23328584211071115?download=true"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/23328584211071115",
+      "title": [
+        "School Absenteeism and Academic Achievement: Does the Reason for Absence Matter?"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1195-8938",
+          "authenticated-orcid": false,
+          "given": "Markus",
+          "family": "Klein",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Edward M.",
+          "family": "Sosu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Strathclyde"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shadrach",
+          "family": "Dare",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Dundee"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "AERA Open"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2022-01-01T00:00:00Z",
+            "timestamp": 1640995200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "55864be7f01f8f0725ff68922110b3e1d682eae06e1e9b0a425d97b548cbeb31",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N05",
+    "doi": "10.1002/sce.21542",
+    "retrieved_utc": "2026-10-19T15:24:36.519949+00:00",
+    "attempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10588766/pdf/nihms-1913405.pdf",
+        "status": 200,
+        "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10588766/pdf/nihms-1913405.pdf",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 21371,
+        "outcome": "failed",
+        "error": "No publisher article sections found; possible landing/challenge page"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1002/sce.21542",
+      "title": [
+        "Illuminating political clarity in culturally relevant science instruction"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2555-9025",
+          "authenticated-orcid": false,
+          "given": "Tia C.",
+          "family": "Madkins",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Curriculum and Instruction, College of Education The University of Texas at Austin Austin Texas"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7046-800X",
+          "authenticated-orcid": false,
+          "given": "Maxine",
+          "family": "McKinney de Royston",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Curriculum and Instruction, School of Education University of Wisconsin‐Madison Madison Wisconsin"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            7,
+            31
+          ]
+        ]
+      },
+      "container-title": [
+        "Science Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2019-07-31T00:00:00Z",
+            "timestamp": 1564531200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ]
+    },
+    "metadata_sha256": "6924503cdb49413ee85ace1e4eac67ec6b30340f9db48b88c2b6b96e7f707a46",
+    "status": "access_failed"
+  }
+]

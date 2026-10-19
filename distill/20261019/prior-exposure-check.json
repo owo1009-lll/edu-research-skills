@@ -1,5 +1,5 @@
 {
-  "scope": "Tracked/development distill and evals Markdown/JSON excluding this 20261019 directory; DOI and exact title literal case-insensitive search",
+  "scope": "Git-tracked distill/evals Markdown and JSON excluding 20261019; DOI and exact title case-insensitive literal search",
   "limitations": "Historical W identities incomplete; exact-title search can miss punctuation/title variants; this is not an exhaustive deduplication claim",
   "records": [
     {
@@ -121,6 +121,74 @@
       "doi": "10.1186/s41239-018-0107-0",
       "doi_matches": [],
       "exact_title_matches": []
+    },
+    {
+      "id": "Q-N05",
+      "doi": "10.1007/s10648-022-09662-9",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "Q-N06",
+      "doi": "10.1111/bjep.12551",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "Q-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2022.11.007",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "L-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2024.07.002",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N07",
+      "doi": "10.1007/s10212-023-00769-3",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-N08",
+      "doi": "10.1177/1558689817712119",
+      "doi_matches": [],
+      "exact_title_matches": []
+    },
+    {
+      "id": "M-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2025.03.009",
+      "doi_matches": [],
+      "exact_title_matches": []
+    }
+  ],
+  "rediscovered_existing_sources": [
+    {
+      "doi": "10.2307/3088916",
+      "prior_id": "E10",
+      "title": "Invisible Inequality: Social Class and Childrearing in Black Families and White Families",
+      "decision": "已有主文分析，可另作深化复读；不登记为本轮新增",
+      "doi_matches": [
+        "distill/20261018/acquisition-new.json",
+        "distill/20261018/new-sources.json",
+        "distill/20261018/papers/E10.md",
+        "distill/20261018/prior-index.json"
+      ]
+    },
+    {
+      "doi": "10.16382/j.cnki.1000-5560.2023.09.002",
+      "prior_id": "E18",
+      "title": "我国中小学教师负担生成机制的质性研究",
+      "decision": "已有主文分析，可另作中文深化复读；不登记为本轮新增",
+      "doi_matches": [
+        "distill/20261018/acquisition-new.json",
+        "distill/20261018/new-sources.json",
+        "distill/20261018/papers/E18.md",
+        "distill/20261018/prior-index.json"
+      ]
     }
   ]
 }

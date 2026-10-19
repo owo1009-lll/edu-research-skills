@@ -142,14 +142,17 @@
       "id": "Q-N03",
       "doi": "10.1257/aer.104.9.2633",
       "exposure": "new_development",
-      "analysis": null,
-      "use_status": "await_fulltext_screening",
+      "analysis": "papers/Q-N03.md",
+      "use_status": "selected_comparison_and_outcome_interpretation_moves; policy extrapolation assumptions and reporting concerns retained",
       "candidate_group": "quantitative",
       "language": "en",
       "acquisition_status": "downloaded_for_reading",
       "reading_sha256": "81e1cfa9f03aa3108ec0f25e456c5973b350a87917cbd1564a8e0f585a8673e5",
-      "reading_status": "downloaded_not_read",
-      "version_note": "Author public PDF acquired after publisher/institution failures; full-text identity/version and PDF order still require visual check; one article across retry records"
+      "reading_status": "main_text_read_and_analysis_written",
+      "version_note": "Author public journal-typeset manuscript, 77 PDF pages; title/authors verified, exact revision date unconfirmed; locators use this PDF rather than published journal pagination",
+      "confirmed_group": "quantitative",
+      "read_scope": "B001-B034 main text; main Tables 1-6 (PDF pages 47-52), main Figures 1-8 (pages 66-73) including captions; page 1 and all main figure/table images viewed",
+      "not_read": "References, appendix text, appendix tables and figures only page-index screening; raw data and cited originals not independently read"
     },
     {
       "id": "L-N04",
@@ -254,25 +257,32 @@
       "id": "L-N07",
       "doi": "10.1177/23328584221078328",
       "exposure": "new_development",
-      "analysis": null,
-      "use_status": "await_fulltext_screening",
+      "analysis": "papers/L-N07.md",
+      "use_status": "selected_policy_process_and_normative_argument_moves; family voice and reporting boundaries retained",
       "candidate_group": "qualitative",
       "language": "en",
       "acquisition_status": "downloaded_for_reading",
       "reading_sha256": "be36fcb5970916f32d876db0905271d79fabaddb9531efc45ce226d47da65c40",
-      "reading_status": "downloaded_not_read"
+      "reading_status": "main_text_read_and_analysis_written",
+      "confirmed_group": "qualitative",
+      "read_scope": "B001-B016; main through page 14; Tables 1-3 and Figures 1-2; page images 1,2,4,5,6,8,12 viewed",
+      "not_read": "Online Appendix A, ICPSR data/analysis files and cited originals"
     },
     {
       "id": "L-N08",
       "doi": "10.1177/23328584211062587",
       "exposure": "new_development",
-      "analysis": null,
-      "use_status": "await_fulltext_screening",
+      "analysis": "papers/L-N08.md",
+      "use_status": "selected_interaction_and_relational_argument_moves; family homework interpretation and inference boundaries retained",
       "candidate_group": "qualitative_pending_article_type_screen",
       "language": "en",
       "acquisition_status": "downloaded_for_reading",
       "reading_sha256": "6120791492e9a0a9d1241aab3f0bb41c07b10807903bd0b794478ae52485cb4c",
-      "reading_status": "downloaded_not_read"
+      "reading_status": "main_text_read_and_analysis_written",
+      "confirmed_group": "qualitative",
+      "read_scope": "B001-B016; main through page 13; Figure 1, Table 1, Photovoices 1-3 and four episode displays; page images 1,2,4,6,7,8,9,10,13 viewed; embedded English translations read",
+      "not_read": "Original videos, independent checks of translations, supplemental files, ICPSR data and cited originals",
+      "classification_note": "Cross-case qualitative analysis of three projects involving authors; combines empirical portraits with explicit theoretical/normative argument, not a quantitative intervention comparison"
     },
     {
       "id": "M-N06",
@@ -288,6 +298,88 @@
       "confirmed_group": "mixed",
       "read_scope": "B001-B071; main text through B067; Tables 1-6 and footnotes; Figures 1-3",
       "not_read": "Original survey/interview records and cited originals"
+    },
+    {
+      "id": "Q-N05",
+      "doi": "10.1007/s10648-022-09662-9",
+      "exposure": "new_development",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "downloaded_not_read",
+      "reading_sha256": "958569332515a463efa1a73ed2d4f6d5bd533003911a029101f3cc8c88ff3e23"
+    },
+    {
+      "id": "Q-N06",
+      "doi": "10.1111/bjep.12551",
+      "exposure": "new_development",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "acquisition_status": "access_failed",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "Q-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2022.11.007",
+      "exposure": "new_development",
+      "candidate_group": "quantitative",
+      "language": "zh",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "downloaded_not_read",
+      "reading_sha256": "ece7713ec0079a86cad1467543de5982c916b44eb85e282f9e18d7aec38dd8b8"
+    },
+    {
+      "id": "L-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2024.07.002",
+      "exposure": "new_development",
+      "candidate_group": "qualitative",
+      "language": "zh",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "downloaded_not_read",
+      "reading_sha256": "4cc90ecfb3226859b43035c8a3b07d2752809edbafeb4b1afbf8516912e9dbf5"
+    },
+    {
+      "id": "M-N07",
+      "doi": "10.1007/s10212-023-00769-3",
+      "exposure": "new_development",
+      "candidate_group": "mixed",
+      "language": "en",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "downloaded_not_read",
+      "reading_sha256": "ac05a26c687f4897a2b18f5a789554e6ce5312cae76387566d0a34a576ee7865"
+    },
+    {
+      "id": "M-N08",
+      "doi": "10.1177/1558689817712119",
+      "exposure": "new_development",
+      "candidate_group": "mixed_pending_article_type_screen",
+      "language": "en",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "acquisition_status": "access_failed",
+      "reading_status": "not_read"
+    },
+    {
+      "id": "M-ZH01",
+      "doi": "10.16382/j.cnki.1000-5560.2025.03.009",
+      "exposure": "new_development",
+      "candidate_group": "mixed",
+      "language": "zh",
+      "analysis": null,
+      "use_status": "await_fulltext_screening",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "downloaded_not_read",
+      "reading_sha256": "d09f0c129f6f3b6b5dbbb7492cfffe80a9dd542a3ad99a303cf13c3b80af6bbe"
     }
   ]
 }
