@@ -1,0 +1,88 @@
+{
+  "id": "M-N15",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9911279/fullTextXML",
+  "source_sha256": "2b9ee13f98cbf52e49b96cd48a0de11ffa64a59c97baf8638b0420a1febb2bbc",
+  "assets": [
+    {
+      "id": "M-N15",
+      "file": "publisher.html",
+      "url": "https://www.ijme.net/archive/13/students-perception-of-pbl/",
+      "retrieved_utc": "2026-10-19T20:02:56.991505+00:00",
+      "outcome": "request_failed",
+      "error": "HTTPSConnectionPool(host='www.ijme.net', port=443): Read timed out. (read timeout=40)"
+    },
+    {
+      "id": "M-N15",
+      "file": "publisher.pdf",
+      "url": "https://www.ijme.net/archive/13/students-perception-of-pbl.pdf",
+      "retrieved_utc": "2026-10-19T20:02:56.991505+00:00",
+      "status": 200,
+      "final_url": "https://www.ijme.net/archive/13/students-perception-of-pbl.pdf",
+      "content_type": "application/pdf",
+      "outcome": "downloaded_not_yet_read",
+      "bytes": 396871,
+      "sha256": "2dbfe3f95faa8be6cb3ed5af25e267c98d4c5b017e2e203e9251cf8de37f5df5"
+    }
+  ],
+  "rights_note": "Full source and asset files remain outside the repository; public original analyses link to legal public sources.",
+  "render_scale": 1.8,
+  "render_source_sha256": "2dbfe3f95faa8be6cb3ed5af25e267c98d4c5b017e2e203e9251cf8de37f5df5",
+  "render_warnings": "MuPDF reported No common ancestor in structure tree; all ten images were generated and subsequently visually read.",
+  "rendered_and_visually_read": [
+    {
+      "page": 3,
+      "file": "previews/page-3.png",
+      "sha256": "2feae2015318a283ba53374df2f28d9ab2b3c66a59a6c7378512eabf2334285e"
+    },
+    {
+      "page": 5,
+      "file": "previews/page-5.png",
+      "sha256": "10de888697839f80fa3a2fedacb657348ccbe569aa4986de67d7eb3694745b44"
+    },
+    {
+      "page": 6,
+      "file": "previews/page-6.png",
+      "sha256": "78e5680a4a4297e930d8363a553261e3b0f0bbdf176040cd1a3018df19261795"
+    },
+    {
+      "page": 7,
+      "file": "previews/page-7.png",
+      "sha256": "d2186f2c0368d95ae8a491aa6b8c52f7f5523c71cfc33c3c5d7020eb4fc44911"
+    },
+    {
+      "page": 8,
+      "file": "previews/page-8.png",
+      "sha256": "43a53849c6fb103ff83535d57e1ba6450a8dffb15f93db62b7686560d1d5d987"
+    },
+    {
+      "page": 9,
+      "file": "previews/page-9.png",
+      "sha256": "1297e246ac7a5f265dad52a57e1d2eeea994d71ff726745839ea0e8c79d4f328"
+    },
+    {
+      "page": 10,
+      "file": "previews/page-10.png",
+      "sha256": "a02c360541d8030447bcd7a750b340c1f26e6ad666518a55a68ff484cccb5852"
+    },
+    {
+      "page": 11,
+      "file": "previews/page-11.png",
+      "sha256": "c27d07c73b07e5363bcabd4057b767773535429fc6e24be4766baf0fcc785825"
+    },
+    {
+      "page": 12,
+      "file": "previews/page-12.png",
+      "sha256": "fb7ef56a5abe453994e18475ecec031170bbc6d6a80a08bb48c4780c2fb0f3bb"
+    },
+    {
+      "page": 13,
+      "file": "previews/page-13.png",
+      "sha256": "90d40546a1812914213595b21011e7023d30dcece1bd423b369813be4c468db1"
+    }
+  ],
+  "later_reading": {
+    "main_article": "B001-B051 XML reading completed, all seven tables read; publisher PDF pp. 12-13 reference list and all 24 appendix questions read.",
+    "visual_scope": "PDF pp. 3, 5-13; all table pages, joint display, discussion/conclusion and appendix. Does not claim every PDF page was rendered.",
+    "not_read": "Original Japanese recordings, full raw transcripts, individual survey records or cited originals."
+  }
+}

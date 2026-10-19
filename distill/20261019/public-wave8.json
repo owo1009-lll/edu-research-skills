@@ -1,0 +1,33 @@
+{
+  "purpose": "第八批仅英文公网开发候选：补充数学练习的课堂随机试验，以及家庭数学焦虑与学习的观察研究。先核实全文，再分析理论、实际比较和条件关系的解释；获取不等于精读。",
+  "sources": [
+    {
+      "id": "Q-N12",
+      "doi": "10.1037/edu0000367",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "A randomized controlled trial of interleaved mathematics practice",
+      "selection_question": "练习安排怎样形成具体的学习问题；作者如何解释相同题目、不同顺序与延迟测试的关系，并将结果转为可理解的教学判断。",
+      "urls": ["https://files.eric.ed.gov/fulltext/ED595322.pdf"],
+      "publisher_record": "https://doi.org/10.1037/edu0000367",
+      "repository_record": "https://eric.ed.gov/?id=ED595322",
+      "version_note": "ERIC 收录的公开作者稿；在线与卷期年份、稿件页码获取后分别核对。不是本轮独立留出材料。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "Q-N13",
+      "doi": "10.1177/0956797615592630",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Intergenerational Effects of Parents’ Math Anxiety on Children’s Math Achievement and Anxiety",
+      "selection_question": "理论怎样提出家庭互动的条件关系；观察到的变化、调节关系与因果措辞如何对应；实践建议能否保留明确对象而不把关联变成已验证机制。",
+      "urls": ["https://cogdevlab.uchicago.edu/files/2019/06/Maloney-Intergenerational-Effects-of-Parents-Math-Anxiety.pdf"],
+      "publisher_record": "https://doi.org/10.1177/0956797615592630",
+      "repository_record": "https://cogdevlab.uchicago.edu/",
+      "version_note": "作者实验室在大学网站公开的 PDF；版本、实际设计与资料范围获取后核实。只公开原创分析与来源链接。",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

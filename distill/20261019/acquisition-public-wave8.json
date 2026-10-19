@@ -1,0 +1,277 @@
+[
+  {
+    "id": "Q-N12",
+    "doi": "10.1037/edu0000367",
+    "retrieved_utc": "2026-10-19T20:16:02.888598+00:00",
+    "attempts": [
+      {
+        "url": "https://files.eric.ed.gov/fulltext/ED595322.pdf",
+        "status": 200,
+        "final_url": "https://files.eric.ed.gov/fulltext/ED595322.pdf",
+        "content_type": "application/pdf",
+        "bytes": 354324,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1037/edu0000367",
+      "title": [
+        "A randomized controlled trial of interleaved mathematics practice."
+      ],
+      "author": [
+        {
+          "given": "Doug",
+          "family": "Rohrer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert F.",
+          "family": "Dedrick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marissa K.",
+          "family": "Hartwig",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2020-4679",
+          "authenticated-orcid": false,
+          "given": "Chi-Ngai",
+          "family": "Cheung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of Educational Psychology"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                5,
+                15
+              ]
+            ],
+            "date-time": "2020-05-15T00:00:00Z",
+            "timestamp": 1589500800000
+          },
+          "content-version": "am",
+          "delay-in-days": 135,
+          "URL": "http://www.apa.org/pubs/journals/resources/open-access.aspx"
+        }
+      ]
+    },
+    "metadata_sha256": "5da912b0ab72318e7318d1843f48263d794f697e8e0583b76a79c32514b04703",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://files.eric.ed.gov/fulltext/ED595322.pdf",
+    "format": "pdf",
+    "raw_sha256": "ba6adb172f16ddbb77291cd897c4705abae4d6bd96cdc9a7dee18f9525275875",
+    "text_sha256": "ca7f961293e3c9d6885cde7307a44bd10a655f607f3fb42c8fc44cba3f4fdbaa",
+    "text_characters": 77702,
+    "extraction": {
+      "pages": 39,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "Manual title/author/version verification required: DOI absent",
+    "reading_sha256": "8912b0d82f29654778675ba939e6b3fe0eeb5c25802cdff58f0530a083e3703c",
+    "reading_blocks": 39,
+    "reading_characters": 79885,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N13",
+    "doi": "10.1177/0956797615592630",
+    "retrieved_utc": "2026-10-19T20:16:02.889597+00:00",
+    "attempts": [
+      {
+        "url": "https://cogdevlab.uchicago.edu/files/2019/06/Maloney-Intergenerational-Effects-of-Parents-Math-Anxiety.pdf",
+        "status": 200,
+        "final_url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/5/1727/files/2019/06/Maloney-Intergenerational-Effects-of-Parents-Math-Anxiety.pdf",
+        "content_type": "application/pdf",
+        "bytes": 490637,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/0956797615592630",
+      "title": [
+        "Intergenerational Effects of Parents’ Math Anxiety on Children’s Math Achievement and Anxiety"
+      ],
+      "author": [
+        {
+          "given": "Erin A.",
+          "family": "Maloney",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Chicago"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gerardo",
+          "family": "Ramirez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Los Angeles"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elizabeth A.",
+          "family": "Gunderson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Temple University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Susan C.",
+          "family": "Levine",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Chicago"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sian L.",
+          "family": "Beilock",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Chicago"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            8,
+            7
+          ]
+        ]
+      },
+      "container-title": [
+        "Psychological Science"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                8,
+                7
+              ]
+            ],
+            "date-time": "2015-08-07T00:00:00Z",
+            "timestamp": 1438905600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ]
+    },
+    "metadata_sha256": "c23da36c2d0fc2645681f5222811b20e6fb92059b4a0dc432720be357b77ead5",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://cogdevlab.uchicago.edu/files/2019/06/Maloney-Intergenerational-Effects-of-Parents-Math-Anxiety.pdf",
+    "format": "pdf",
+    "raw_sha256": "cc54754c694f2a02894a48ea334890135c2ebed22c21fdd15af8fe6af1b4a059",
+    "text_sha256": "85c58e7392bca208f441c634bac9624427a2e41e3404a0b7c3f9968c99dfc86a",
+    "text_characters": 43162,
+    "extraction": {
+      "pages": 9,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "0598929b661a763862a98545febbea1d3558ddcf550364c189c3ffd4316a1dca",
+    "reading_blocks": 9,
+    "reading_characters": 43685,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

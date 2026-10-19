@@ -1,0 +1,59 @@
+{
+  "checked_utc": "2026-10-19T20:24:48.571720+00:00",
+  "comparison_commit": "7033cb30074721fa3b675822d89a778f34728b66",
+  "status": "passed",
+  "scope": "English development reading, original analyses and source records; no behavior experiment or new runtime rule",
+  "json_files_parsed_excluding_this_report": 44,
+  "relative_markdown_links_resolved": 205,
+  "analysis_note_hash_references": 30,
+  "english_new_candidates": 43,
+  "english_acquired_fulltexts": 31,
+  "english_new_analyses": 28,
+  "confirmed_groups": {
+    "quantitative": 8,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 10,
+    "mixed": 9
+  },
+  "english_reread_analyses": 2,
+  "historical_chinese_records_unchanged": 4,
+  "all_other_previous_reading_records_unchanged": 45,
+  "new_candidate_ids": [
+    "Q-N12",
+    "Q-N13"
+  ],
+  "source_and_reading_hashes_verified": [
+    {
+      "id": "L-N14",
+      "source_sha256": "2707bb2b0c87eab417ccc2182abbb20692102429c99b4ce039801dd370db60ad",
+      "reading_sha256": "27ddaa5d48de587232acbfb1776cc99a355afc4c762e0b0d85915a10555a6c50",
+      "analysis_complete": true
+    },
+    {
+      "id": "M-N15",
+      "source_sha256": "2b9ee13f98cbf52e49b96cd48a0de11ffa64a59c97baf8638b0420a1febb2bbc",
+      "reading_sha256": "35a2a20a3dd990c33d8e1893465a20824f2205213895ee304527251c15b8f412",
+      "analysis_complete": true
+    },
+    {
+      "id": "Q-N12",
+      "source_sha256": "ba6adb172f16ddbb77291cd897c4705abae4d6bd96cdc9a7dee18f9525275875",
+      "reading_sha256": "8912b0d82f29654778675ba939e6b3fe0eeb5c25802cdff58f0530a083e3703c",
+      "analysis_complete": false
+    },
+    {
+      "id": "Q-N13",
+      "source_sha256": "cc54754c694f2a02894a48ea334890135c2ebed22c21fdd15af8fe6af1b4a059",
+      "reading_sha256": "0598929b661a763862a98545febbea1d3558ddcf550364c189c3ffd4316a1dca",
+      "analysis_complete": false
+    }
+  ],
+  "L_N14_source_table_and_correction_hashes_match": true,
+  "M_N15_source_PDF_and_10_preview_hashes_match": true,
+  "M_N15_HTML_failure_and_render_warning_retained": true,
+  "prior_exposure_records": 47,
+  "changed_paths_confined_to": "distill/20261019/",
+  "runtime_rules_unchanged_from_comparison_commit": true,
+  "diff_whitespace_check": "passed",
+  "tests": "Record, path and hash checks only. New English examples are editorial demonstrations, not model runs. Hash agreement does not establish factual correctness. No new behavior benefit or final holdout result claimed."
+}

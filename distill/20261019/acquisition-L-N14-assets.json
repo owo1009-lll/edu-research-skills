@@ -1,0 +1,38 @@
+{
+  "id": "L-N14",
+  "source_url": "https://link.springer.com/article/10.1007/s11159-025-10217-7",
+  "source_sha256": "2707bb2b0c87eab417ccc2182abbb20692102429c99b4ce039801dd370db60ad",
+  "assets": [
+    {
+      "id": "L-N14",
+      "file": "table-1.html",
+      "url": "https://link.springer.com/article/10.1007/s11159-025-10217-7/tables/1",
+      "retrieved_utc": "2026-10-19T20:02:56.991505+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s11159-025-10217-7/tables/1",
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "downloaded_not_yet_read",
+      "bytes": 222774,
+      "sha256": "92127c5bc93bf9480016ff7c23fcad85b285df8fc82d475fb3b655e53ee62196"
+    },
+    {
+      "id": "L-N14",
+      "file": "correction.html",
+      "url": "https://link.springer.com/article/10.1007/s11159-026-10272-8",
+      "retrieved_utc": "2026-10-19T20:02:56.991505+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s11159-026-10272-8",
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "downloaded_not_yet_read",
+      "bytes": 231708,
+      "sha256": "b3f397ff156e6b45094b0e6aaed2abaffa54d9872bf02a60b169635476de9bc1"
+    }
+  ],
+  "rights_note": "Full source and asset files remain outside the repository; public original analyses link to legal public sources.",
+  "later_reading": {
+    "table_1": "All six columns and four teacher rows read from publisher HTML, including identities, schools and teaching languages. No PDF rendering claimed.",
+    "correction": "Correction dated 2026-10-08 read in full substantive text: Weinberg 2013 reference replaced by Weinberg 2020 book chapter. Original cached article still contains the old reference.",
+    "correction_doi": "10.1007/s11159-026-10272-8",
+    "main_article": "Complete English main text and reference list read; parallel French abstract not analyzed as a separate language corpus."
+  }
+}
