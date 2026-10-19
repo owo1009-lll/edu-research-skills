@@ -426,13 +426,15 @@
       "exposure": "new_development",
       "candidate_group": "quantitative",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/Q-N07.md",
+      "use_status": "limited_use; concrete intervention/comparator explanation and normative stance; numerical results contain unresolved reporting discrepancies",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "e52f271e2d42730029739649a22b4c724453d76860c3da90555314225f7af6ad",
-      "read_scope": "Identity/front-matter screening only; no full-text writing analysis"
+      "read_scope": "B001-B066 main text; B214-B220 appendix; B221-B230 license and identity; Tables 1-4 and notes; Figures 1-7 visually inspected",
+      "confirmed_group": "quantitative",
+      "not_read": "Separate PDF, original data, complete German intervention materials and cited original papers"
     },
     {
       "id": "Q-N08",
@@ -480,13 +482,15 @@
       "exposure": "new_development",
       "candidate_group": "qualitative",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/L-N10.md",
+      "use_status": "selected_writing_moves; reflexive narrative ethnography; participant and leader perspectives distinguished, grant tension retained",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "d26363c0f5cba45c79aa223034ccee8bee51f6d349f22c2524ce262bf7314594",
-      "read_scope": "Identity/front-matter screening only; no full-text writing analysis"
+      "read_scope": "B001-B011, PDF pages 1-11 including main text through page 10; pages 1, 4, 5, 6, 7, 8, 9, 10 visually inspected; no numbered tables or figures",
+      "confirmed_group": "qualitative",
+      "not_read": "Raw interviews, meetings, data briefs, project datasets and cited original papers; pages 2, 3, 11 not visually inspected"
     },
     {
       "id": "L-N11",
@@ -524,13 +528,15 @@
       "exposure": "new_development",
       "candidate_group": "mixed",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/M-N10.md",
+      "use_status": "selected_integration_moves; construct-level convergent integration; sample, measurement and reporting discrepancies retained",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "a8931fb882ae4776272cbff5fc1c46c18c8255ff403e926785d2449b7837c1e8",
-      "read_scope": "Identity/front-matter screening only; no full-text writing analysis"
+      "read_scope": "B001-B086 main text and end matter; Tables 1-3 and notes with XML row/cell checks; Figures 1-3 visually inspected",
+      "confirmed_group": "mixed",
+      "not_read": "Separate PDF, raw surveys/interviews, related project papers and cited originals"
     },
     {
       "id": "M-N11",

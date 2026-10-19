@@ -1,0 +1,38 @@
+{
+  "id": "M-N10",
+  "retrieved_utc": "2026-10-19T16:38:02.191484+00:00",
+  "source": "Public Europe PMC JATS XML figure asset paths",
+  "records": [
+    {
+      "file": "figure-1.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f922/9978636/6367de03870d/10.1177_26334895221124962-fig1.jpg",
+      "read_status": "not_yet_read",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f922/9978636/6367de03870d/10.1177_26334895221124962-fig1.jpg",
+      "status": 200,
+      "bytes": 100152,
+      "content_type": "image/jpeg",
+      "sha256": "3f452aa64a171756e20c42dbabf52c2dde0fa635ab249b5bcd25fcf3f71e87ad"
+    },
+    {
+      "file": "figure-2.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f922/9978636/a692de2d45e9/10.1177_26334895221124962-fig2.jpg",
+      "read_status": "not_yet_read",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f922/9978636/a692de2d45e9/10.1177_26334895221124962-fig2.jpg",
+      "status": 200,
+      "bytes": 111246,
+      "content_type": "image/jpeg",
+      "sha256": "6f78af3f200bad034c06279033e23a8c6dca070a8d5c8e8f4f9ed2f73acbb164"
+    },
+    {
+      "file": "figure-3.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f922/9978636/6f34450655fa/10.1177_26334895221124962-fig3.jpg",
+      "read_status": "not_yet_read",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f922/9978636/6f34450655fa/10.1177_26334895221124962-fig3.jpg",
+      "status": 200,
+      "bytes": 92575,
+      "content_type": "image/jpeg",
+      "sha256": "8e73cf081a5bfdd3077dbd456e3e286377669a344408eca6e37949b3c2ec0755"
+    }
+  ],
+  "status_note": "Asset read_status records acquisition-time state; actual reading is recorded in reading-coverage.json and the paper analysis."
+}
