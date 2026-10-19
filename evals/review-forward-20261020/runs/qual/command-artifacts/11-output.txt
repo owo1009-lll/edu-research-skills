@@ -1,0 +1,17 @@
+{
+  "pdf_opened": true,
+  "reader_engine": "PyMuPDF",
+  "pymupdf_version": "1.27.2.2",
+  "python_version": "3.11.9",
+  "pages": 2,
+  "all_pages_rendered_with_annotations": true,
+  "new_comments": 3,
+  "existing_author_notes": 1,
+  "source_sha256_after": "1e9a81033e49dff50247f8435bb07f924588f3714b65ceae08cfed1aa94aebe6",
+  "output_sha256": "64fc414e06c399802b85bdf68f97f92f571dbdf52c400477cfe9b5ea7d9fb9e3",
+  "interactive_popup_visual_check": "Not established by engine rendering; recorded separately from structural validation."
+}
+{"page": 1, "author": "Original Author", "comment": "Original author note: preserve this note in the working copy."}
+{"page": 1, "author": "AI 模拟审稿", "comment": "[Needs verification｜Major｜C1] Recruitment and access are explicitly unreported in this excerpt. In the full methods, explain how the three programs and nine teachers were selected, who invited participation, the basis for inclusion, and the researcher's role and relationship to the teams. These details matter here because access through managers or existing relationships could shape whose accounts are available and how concerns about speaking are expressed. Report the actual arrangements and any relevant reflexive considerations; the omission in this excerpt does not establish that recruitment or access procedures were inadequate."}
+{"page": 1, "author": "AI 模拟审稿", "comment": "[Needs verification｜Major｜C2] This provides the focus of comparison but not enough of the analytic process to assess how the interpretation was developed. In the full methods, explain what counted as an episode or case, how interview accounts were compared with meeting records, how these two illustrative cases relate to the wider material, and how discrepant accounts or alternative interpretations were considered. Clarify which sources support the email, later agenda and partial adoption in Marta's sequence, and the limits of the record supporting the absence of a later proposal from Amir. Distinguish participants' stated intentions from the researcher's interpretation. Verify these reporting details from the actual study records; their absence from the excerpt does not establish that these analytic procedures were omitted."}
+{"page": 2, "author": "AI 模拟审稿", "comment": "[Definite error｜Major｜C3] The universal conclusion conflicts with the distinction developed in the findings (p. 1, Marta and Amir) and the preceding paragraph here. Marta describes waiting before an alternative intervention; Amir describes concern about the manager's reaction, without a stated intention to resist or a documented planned alternative intervention. These accounts do not support classifying every silence as deliberate resistance or claiming that all silent teachers intended to intervene. The same paragraph also asserts equal influence: the excerpt traces partial adoption of Marta's proposal but provides no comparison with frequent speakers that establishes equality. Remove or reformulate these claims around the distinction the cases actually support, for example: 'The cases distinguish waiting as part of an intervention from silence under anticipated sanction.' The preceding interpretation of heterogeneous silence and the following recommendation about responsive routes for contributions can be retained."}

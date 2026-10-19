@@ -1,0 +1,27 @@
+[
+  {
+    "file": "source-preview.pdf",
+    "available": true,
+    "page_count": 2,
+    "pages": [
+      {
+        "page": 1,
+        "image": "<experiment>\\runs\\mixed\\edu_output\\review\\mixed-review\\source-preview-page-1.png",
+        "text": "Access to feedback in asynchronous \nseminars \nPUBLIC SYNTHETIC MANUSCRIPT. All data, events and participants are invented for behavioral \ntesting. This excerpt is not evidence about an actual course. \nAbstract \nSurvey responses from 52 students showed that feedback was useful. Interviews added an \naccount of how students used it. The study connects reported value with the timing and \naccessibility of feedback, rather than assuming that a favorable rating implies an opportunity to \nact. \nMethods and results \nThe survey contained 48 completed responses from two seminar groups. It was anonymous and \ncollected no identifier that could link a response to a later interview. Thirty-one respondents \nrated the feedback useful. Students were not assigned to different feedback conditions, and no \ntest of learning gains was collected. \nSeminar group \nCompleted responses \nA \n24 \nB \n24 \nTotal \n48 \nTable 1. Complete survey responses. The denominator for the usefulness rating is 48. \nEight students volunteered for later interviews. Whether these students had answered the \nsurvey, and which response each might have given, could not be determined. Six described \nreceiving useful comments too close to the next submission deadline to revise their work. Two \ndescribed using comments to plan a later assignment. These accounts concern reported \nopportunities and uses, not observed changes in attainment. \nAll interviewees belonged to the favorable-rating subgroup. Their accounts validate the \nstatistical mechanism by which useful feedback improved achievement. \n"
+      },
+      {
+        "page": 2,
+        "image": "<experiment>\\runs\\mixed\\edu_output\\review\\mixed-review\\source-preview-page-2.png",
+        "text": " \nFigure 1. Equal bar heights represent the two survey group sizes, not measured learning \noutcomes. \nDiscussion \nThe analysis distinguishes perceived value from an opportunity to act on feedback. A comment \ncan be regarded as useful yet arrive too late for the next task. The separate samples do not \nshow which favorable survey respondents experienced a timing constraint. \nCourse teams should schedule feedback early enough for students to use it before the next \nassessed task. This recommendation connects the reported timing problem to a concrete \nteaching decision; it is not a claim that changing the schedule has already improved learning. \nWorking terminology retained in tracked changes: opportunity to use feedback \nThe supplied material is a methods/results/discussion excerpt. No raw survey data, interview \ntranscripts, literature section or journal template is supplied. \n"
+      }
+    ]
+  },
+  {
+    "file": "annotated-body-preview.pdf",
+    "available": false
+  },
+  {
+    "file": "annotated-markup-preview.pdf",
+    "available": false
+  }
+]

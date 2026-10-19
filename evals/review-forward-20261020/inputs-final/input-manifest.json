@@ -1,0 +1,22 @@
+[
+  {
+    "file": "mixed_feedback.docx",
+    "sha256": "97b46f82ed7ce34a42b9bc573867b4ad98b1183c5e7791fbfff737a652c4b696",
+    "bytes": 41601
+  },
+  {
+    "file": "qual_silence.pdf",
+    "sha256": "1e9a81033e49dff50247f8435bb07f924588f3714b65ceae08cfed1aa94aebe6",
+    "bytes": 4778
+  },
+  {
+    "file": "quant_retrieval.pdf",
+    "sha256": "e34001bd995d49249190adc39f60b2fa6164fb27bbdc2f8b7d1e733ea16624ce",
+    "bytes": 4938
+  },
+  {
+    "file": "request.md",
+    "sha256": "6725d3cb74fc268488a1d9a9e7e57d494e6c7b4419c07c68a3e60b65816d7110",
+    "bytes": 155
+  }
+]

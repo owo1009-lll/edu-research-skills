@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "source_sha256": "e34001bd995d49249190adc39f60b2fa6164fb27bbdc2f8b7d1e733ea16624ce",
+  "source_name": "quant_retrieval.pdf",
+  "units": [
+    {
+      "page": 1,
+      "line": 0,
+      "text": "Retrieval practice in lower-secondary science: manuscript excerpt",
+      "text_sha256": "c9ff9d0ac8859600615749a2ac475bb1b084b3ce665ade5679fac078b92439a8"
+    },
+    {
+      "page": 1,
+      "line": 1,
+      "text": "PUBLIC SYNTHETIC MANUSCRIPT. The study, people and numbers below are invented for",
+      "text_sha256": "c2ff8425c4affa2d89357db1c0eda3b8190aa8c0698872939b340af1a6ff8672"
+    },
+    {
+      "page": 1,
+      "line": 2,
+      "text": "behavioral testing. They are not evidence about an actual intervention.",
+      "text_sha256": "0559c9e7942f94cd1f7d3a8f3198ddd253a928a3433e36236493c4d236e6d06a"
+    },
+    {
+      "page": 1,
+      "line": 3,
+      "text": "Abstract. We compared a weekly retrieval activity with the usual review activity in 12 classes across six",
+      "text_sha256": "6522e5cbe9d153dbf6748e1b028d780ef70bf5f6895bfa01eb2481bf04798df8"
+    },
+    {
+      "page": 1,
+      "line": 4,
+      "text": "schools. All 240 students remained in the reported sample. The adjusted standardized",
+      "text_sha256": "4d8188a580a647fbc42e5880a0d8d7dfd06d9714cf463963b059fe02941dc891"
+    },
+    {
+      "page": 1,
+      "line": 5,
+      "text": "between-condition estimate was g = 0.18, 95% CI [-0.05, 0.41], p = .12. The two approaches were",
+      "text_sha256": "1b58d2f6c2355e0ef696e109f35b961cc40c3d6ad33958745039b4562baaf80f"
+    },
+    {
+      "page": 1,
+      "line": 6,
+      "text": "therefore equally effective. Teachers described the short activity as feasible within existing lessons.",
+      "text_sha256": "72dec1595c15380ed4f7f3a2e8e8942adb1cffbce8519e2170904690a55e9474"
+    },
+    {
+      "page": 1,
+      "line": 7,
+      "text": "Methods. Classes, rather than individual pupils, were randomized within schools. Six classes received",
+      "text_sha256": "fa5e1ac691d14e2abecaa2bb74710fc079cac63d2fe2185a654436f26d64e018"
+    },
+    {
+      "page": 1,
+      "line": 8,
+      "text": "retrieval practice (118 pupils) and six received usual review (122 pupils). The intervention ran for eight",
+      "text_sha256": "8b1b5bf7b35bd472cd780f2d1e59edfccc0ffebb20cc5a4ac88dffe91fd8cfed"
+    },
+    {
+      "page": 1,
+      "line": 9,
+      "text": "weeks. Both groups received the same subject content. A curriculum-aligned test was administered",
+      "text_sha256": "0f3d2b8dab5d2292e8d7488c8ebc751f4310c02bb5489fa1eb5180af0bbc90d4"
+    },
+    {
+      "page": 1,
+      "line": 10,
+      "text": "before and after the intervention; the outcome was the end-of-intervention score with baseline",
+      "text_sha256": "f0cb5ec6d4a9b7c5630b374b98e41c8e1f9516ce45edbbc09db74649268cb2e4"
+    },
+    {
+      "page": 1,
+      "line": 11,
+      "text": "performance included as a covariate.",
+      "text_sha256": "c5e994c5dcc4da60bd088b58426b3fe138d380e6f4edf9aea3b6daf7116e2808"
+    },
+    {
+      "page": 1,
+      "line": 12,
+      "text": "An ordinary individual-level regression was fitted, with pupil as the unit of analysis. Individual data,",
+      "text_sha256": "ebe5d04ef2f4c175a0c8b2cebdcad642e7a9d8f11ea5dd85e3f09fcbbac226a5"
+    },
+    {
+      "page": 1,
+      "line": 13,
+      "text": "analysis code and a registration record are not included in this excerpt.",
+      "text_sha256": "0840558ed9c89103daefe4b11b08bbaac0e8137ab0a58fa1112038121cc2a7c2"
+    },
+    {
+      "page": 1,
+      "line": 14,
+      "text": "Results. Posttest means were 79 in the retrieval condition and 75 in the usual-review condition. The",
+      "text_sha256": "a9057cbbb0debba62ffd8ace61001f584fbef0bd17dbb67c985316160d33fc59"
+    },
+    {
+      "page": 1,
+      "line": 15,
+      "text": "adjusted standardized comparison and its uncertainty are reported in the abstract. A separate",
+      "text_sha256": "074441b60272f52619813a7909c2e895f256344ac2b934aef4cc768b03e8403a"
+    },
+    {
+      "page": 1,
+      "line": 16,
+      "text": "within-condition test found a significant change from baseline for retrieval practice (p = .02), whereas",
+      "text_sha256": "7f2013afe2c2ba1055dc880deeef8b0edba79c522ee9bb7b66383314cb5e817b"
+    },
+    {
+      "page": 1,
+      "line": 17,
+      "text": "the usual-review change was not significant (p = .21). This difference in statistical significance",
+      "text_sha256": "20a1307555b81fbfdef41007f7ec41f3ae0442b559878302311231412883f448"
+    },
+    {
+      "page": 1,
+      "line": 18,
+      "text": "establishes that retrieval practice outperformed usual review.",
+      "text_sha256": "b0deb5eb2e7b98588adbf65be7ab9d595b97f221b84af6b33d2cd9755c5c3a91"
+    },
+    {
+      "page": 1,
+      "line": 19,
+      "text": "Public synthetic review task - page 1",
+      "text_sha256": "0302d500265790f9e7455685e7cdc2f5bdae649178c63c132a80cae7d94f7b8e"
+    },
+    {
+      "page": 2,
+      "line": 0,
+      "text": "Discussion and implementation",
+      "text_sha256": "38a99971ba1b1e5a017bf9f85c73b68a07112f5b4602e3445b7fec65054c3eb5"
+    },
+    {
+      "page": 2,
+      "line": 1,
+      "text": "The intended contribution is to test whether an activity that asks students to retrieve an answer before",
+      "text_sha256": "3fdda144fdb970162a0c03d9c8a18410fd72879d200b194a17e98b01800245f1"
+    },
+    {
+      "page": 2,
+      "line": 2,
+      "text": "seeing it improves performance relative to reviewing the same content. The activity changes what",
+      "text_sha256": "946bdd0a420628d3737175449b03ab08b3478d7bfbe59fd64a60c9f235ac76f5"
+    },
+    {
+      "page": 2,
+      "line": 3,
+      "text": "students do with the material, rather than simply increasing their exposure time. The primary",
+      "text_sha256": "391ba309f176d0d1528bf2b936a611111d52930d09ad3d51538d4680d0c315d8"
+    },
+    {
+      "page": 2,
+      "line": 4,
+      "text": "comparison remains uncertain, with the reported interval including zero and a positive difference that",
+      "text_sha256": "5e8a0f28a32ba932aca05885521d4794981c1b27c6d2fb47461dacdff1ec25ec"
+    },
+    {
+      "page": 2,
+      "line": 5,
+      "text": "could matter educationally.",
+      "text_sha256": "c3e8a361a555f4c92e61299b9fd220aa36866770d7366149b83e8c377ff5a402"
+    },
+    {
+      "page": 2,
+      "line": 6,
+      "text": "Eight of the 12 class teachers returned a short implementation questionnaire. Seven described the",
+      "text_sha256": "d4c69bceaf9916c26e59227b44f1d6dd29af6954c7e5ff0b2f2bbef8224232a2"
+    },
+    {
+      "page": 2,
+      "line": 7,
+      "text": "activity as manageable. Preparation involved a 40-minute training session and adapting questions to",
+      "text_sha256": "c7cb088d55973a071c86ebe209c393eef3a7100f6ae580ba7c5b4b3d5956b1cd"
+    },
+    {
+      "page": 2,
+      "line": 8,
+      "text": "the week's content; preparation time during the intervention was not measured. These reports concern",
+      "text_sha256": "ad8b05317238e7c5327f49509a36b5094667cb48029fc659d372e18ec18fd519"
+    },
+    {
+      "page": 2,
+      "line": 9,
+      "text": "feasibility for respondents, not all teachers or effects on student motivation.",
+      "text_sha256": "7d363618bd24155fd7ce628d5c561d8d1dbfb3389092f8b4783aa752e5717e6e"
+    },
+    {
+      "page": 2,
+      "line": 10,
+      "text": "Schools adopting this activity should provide preparation time and access to curriculum-aligned",
+      "text_sha256": "a59298b53b2d9addbf19b0d9b2953aa1f9f62c80b3857e37f5d514ef9bdcf69b"
+    },
+    {
+      "page": 2,
+      "line": 11,
+      "text": "questions. This recommendation follows from the tasks required for implementation; it does not depend",
+      "text_sha256": "f82f4fb4068ff63c4774d6b421e531f72b31f44613951553db15ca740ebc00ed"
+    },
+    {
+      "page": 2,
+      "line": 12,
+      "text": "on claiming that the trial established superiority. A larger follow-up should estimate the",
+      "text_sha256": "ad21ca00102501502e70cfbb12471247a1bf56b5335399f6f34bc0308eb39303"
+    },
+    {
+      "page": 2,
+      "line": 13,
+      "text": "between-condition difference with appropriate attention to the class-level assignment and a longer",
+      "text_sha256": "db1c9d48fc240340a87d23de03ecc7bac30356b4cb8174f1ab072ff0c46f70e0"
+    },
+    {
+      "page": 2,
+      "line": 14,
+      "text": "assessment interval.",
+      "text_sha256": "e052a9fa723571ac4d9c3697ead3482b60e754330933dcc9f55b3074ee9c1fb3"
+    },
+    {
+      "page": 2,
+      "line": 15,
+      "text": "This is an excerpt supplied for review. The literature review and reference list are not included.",
+      "text_sha256": "bdddd8f03998dd93c4516ee5281180401910ce9d0589659a15e76f2194efd427"
+    },
+    {
+      "page": 2,
+      "line": 16,
+      "text": "Public synthetic review task - page 2",
+      "text_sha256": "f10512922764f91bbd4f46f0e44d157fb89fe088ed3e8e76b97406c6345df833"
+    }
+  ]
+}

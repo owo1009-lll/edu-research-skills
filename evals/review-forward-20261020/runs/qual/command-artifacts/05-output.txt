@@ -1,0 +1,295 @@
+9:from __future__ import annotations
+11:import argparse
+12:from copy import deepcopy
+13:from datetime import datetime
+14:import hashlib
+15:import json
+16:from pathlib import Path
+17:import posixpath
+18:import tempfile
+19:import zipfile
+21:from lxml import etree as ET
+105:def pdf_lines(page):
+107:    import fitz
+120:def inventory(source):
+132:        import fitz
+245:        from docx.oxml import parse_xml
+352:def verify_docx(source, annotated, plan):
+396:def pdf_targets(doc, plan):
+397:    import fitz
+428:def verify_pdf(source, annotated, plan):
+429:    import fitz
+487:def verify(source, annotated, plan):
+493:def apply(source, plan, output=None):
+512:            import fitz
+534:def main():
+    used = [int(e.get(w('id'))) for e in comments if e.get(w('id'), '').isdigit()]
+    used += [int(e.get(w('id'))) for e in root.iter() if e.tag in
+             (w('commentRangeStart'), w('commentRangeEnd'), w('commentReference')) and e.get(w('id'), '').isdigit()]
+    cid = max(used, default=-1) + 1
+    new_ids = []
+    for a, p, start, end in entries:
+        add_docx_anchor(p, start, end, cid, KINDS[a['kind']][0], a['id'])
+        c = ET.SubElement(comments, w('comment'), {w('id'): str(cid), w('author'): AUTHOR,
+                          w('initials'): 'AI', w('date'): plan['created_utc']})
+        for line in comment_text(a, plan.get('comment_language', 'zh')).splitlines():
+            t = ET.SubElement(ET.SubElement(ET.SubElement(c, w('p')), w('r')), w('t'))
+            t.text = line
+            t.set('{http://www.w3.org/XML/1998/namespace}space', 'preserve')
+        new_ids.append(str(cid))
+        cid += 1
+    if not annotations:
+        return data, [], name
+    if not comments_rels:
+        ids = {r.get('Id') for r in rels}
+        i = 1
+        while f'rId{i}' in ids:
+            i += 1
+        ET.SubElement(rels, f'{{{R}}}Relationship', Id=f'rId{i}', Type=COMMENTS_REL, Target='comments.xml')
+        data[RELS] = serial(rels)
+        types = xml(data['[Content_Types].xml'])
+        if not any(t.get('PartName') == '/' + name for t in types):
+            ET.SubElement(types, f'{{{CT}}}Override', PartName='/' + name,
+                          ContentType='application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml')
+        data['[Content_Types].xml'] = serial(types)
+    data[DOC] = serial(root)
+    data[name] = serial(comments)
+    return data, new_ids, name
+
+
+def normalize_plain_runs(root):
+    """Ignore harmless text-run splits; retain all other OOXML structure and style."""
+    for p in paragraphs(root):
+        for r in list(p):
+            if r.tag != w('r') or not plain(r):
+                continue
+            rp = r.find(w('rPr'))
+            if rp is not None and not len(rp) and not rp.attrib:
+                r.remove(rp)
+            r.find(w('t')).set('{http://www.w3.org/XML/1998/namespace}space', 'preserve')
+            prev = r.getprevious()
+            if prev is not None and prev.tag == w('r') and plain(prev):
+                a, b = deepcopy(prev), deepcopy(r)
+                a.find(w('t')).text = b.find(w('t')).text = ''
+                if canonical(a) == canonical(b):
+                    prev.find(w('t')).text = (prev.find(w('t')).text or '') + (r.find(w('t')).text or '')
+                    p.remove(r)
+    return root
+
+
+def verify_docx(source, annotated, plan):
+    expected, new_ids, comments_name = build_docx(source, plan)
+    original, actual = package(source), package(annotated)
+    if set(expected) != set(actual):
+        fail('DOCX package parts differ from the annotation plan.')
+    for name in expected:
+        if expected[name] == actual[name]:
+            continue
+        if name.endswith(('.xml', '.rels')) and canonical(xml(expected[name])) == canonical(xml(actual[name])):
+            continue
+        fail(f'{name}: actual contents differ from expected annotation-only output.')
+    # Independent preservation check: remove new annotations, undo highlights,
+    # normalize harmless run splits, and compare the manuscript to its source.
+    clean = xml(actual[DOC])
+    for node in list(clean.iter()):
+        if node.tag in (w('commentRangeStart'), w('commentRangeEnd')) and node.get(w('id')) in new_ids:
+            node.getparent().remove(node)
+        elif node.tag == w('commentReference') and node.get(w('id')) in new_ids:
+            run = node.getparent()
+            run.getparent().remove(run)
+    ps, original_ps = paragraphs(clean), paragraphs(xml(original[DOC]))
+    for a in plan['annotations']:
+        anchor = a['anchors'][0]
+        idx = anchor['paragraph']
+        for r, s, e, _ in visible_runs(ps[idx]):
+            if s < anchor['end'] and e > anchor['start']:
+                rp = r.find(w('rPr'))
+                highlight = rp.find(w('highlight')) if rp is not None else None
+                if highlight is None or highlight.get(w('val')) != KINDS[a['kind']][0]:
+                    fail(f'{a["id"]}: highlight missing or wrong color.')
+                rp.remove(highlight)
+                # Restore an explicit source "none" setting when present.
+                old = next((x for x, lo, hi, _ in visible_runs(original_ps[idx]) if lo <= s < hi), None)
+                prior = old.find('./' + w('rPr') + '/' + w('highlight'))
+                if prior is not None:
+                    rp.insert(old.find(w('rPr')).index(prior), deepcopy(prior))
+    if canonical(normalize_plain_runs(clean)) != canonical(normalize_plain_runs(xml(original[DOC]))):
+        fail('Manuscript structure/style/text changed beyond planned highlights and comments.')
+    changed = [n for n in original if original[n] != actual[n]]
+    return {'format': 'docx', 'annotations': len(new_ids), 'preserved_source': True,
+            'changed_parts': changed, 'comments_part': comments_name,
+            'scope': 'Package, text/style, fields, tables, images, existing comments and revisions; opening/rendering is separate.'}
+
+
+def pdf_targets(doc, plan):
+    import fitz
+    ranges, targets = {}, []
+    for a in plan['annotations']:
+        quads, pages = [], set()
+        for anchor in a['anchors']:
+            page, line = anchor.get('page'), anchor.get('line')
+            if type(page) is not int or not 1 <= page <= len(doc):
+                fail(f'{a["id"]}: invalid page {page}.')
+            lines = pdf_lines(doc[page - 1])
+            if type(line) is not int or not 0 <= line < len(lines):
+                fail(f'{a["id"]}: invalid line {line} on page {page}.')
+            text, chars, direction = lines[line]
+            lo, hi = check_range(anchor, text, f'{a["id"]}, page {page}, line {line}')
+            ranges.setdefault((page, line), []).append((lo, hi, a['id']))
+            # One quad per glyph handles horizontal and rotated text precisely.
+            # Merge horizontal adjacent glyphs for the usual clean highlight.
+            if direction == (1, 0):
+                rect = fitz.Rect(chars[lo].rect)
+                for char in chars[lo + 1:hi]:
+                    rect |= char.rect
+                quads.append(rect.quad)
+            else:
+                quads.extend(chars[lo:hi])
+            pages.add(page)
+        if len(pages) != 1:
+            fail(f'{a["id"]}: use one comment per PDF page and cross-reference related locations.')
+        targets.append((pages.pop() - 1, a, quads))
+    check_overlaps(ranges)
+    return targets
+
+
+def verify_pdf(source, annotated, plan):
+    import fitz
+    validate_plan(source, plan)
+    with fitz.open(source) as before, fitz.open(annotated) as after:
+        targets = pdf_targets(before, plan)
+        if len(before) != len(after):
+            fail('PDF page count changed.')
+        page_xrefs = {p.xref for p in before}
+        for xref in range(1, before.xref_length()):
+            if xref in page_xrefs:
+                old_keys = set(before.xref_get_keys(xref)) - {'Annots'}
+                new_keys = set(after.xref_get_keys(xref)) - {'Annots'}
+                if old_keys != new_keys or any(before.xref_get_key(xref, k) != after.xref_get_key(xref, k) for k in old_keys):
+                    fail(f'PDF page object {xref} changed outside its annotation list.')
+            elif before.xref_object(xref) != after.xref_object(xref):
+                fail(f'Existing PDF object {xref} changed.')
+            if before.xref_is_stream(xref) and before.xref_stream_raw(xref) != after.xref_stream_raw(xref):
+                fail(f'Existing PDF stream {xref} changed.')
+        for i in range(len(before)):
+            b, a = before[i], after[i]
+            if b.get_text() != a.get_text() or b.rotation != a.rotation or b.mediabox != a.mediabox:
+                fail(f'Page {i + 1}: source text or page geometry changed.')
+            old = list(b.annots() or [])
+            found = list(a.annots() or [])
+            # Incremental saving retains original annotation xrefs and dictionaries.
+            for annot in old:
+                if before.xref_object(annot.xref) != after.xref_object(annot.xref):
+                    fail(f'Page {i + 1}: existing annotation {annot.xref} changed.')
+            added = [x for x in found if x.xref not in {o.xref for o in old}]
+            wanted = [(entry, qs) for page, entry, qs in targets if page == i]
+            if len(added) != len(wanted):
+                fail(f'Page {i + 1}: expected {len(wanted)} added annotations, found {len(added)}.')
+            for annot, (entry, qs) in zip(added, wanted):
+                expected_vertices = [v for q in qs for pt in q for v in pt]
+                actual_vertices = [v for pt in annot.vertices for v in pt]
+                if len(actual_vertices) != len(expected_vertices) or any(abs(a-b) > .02 for a, b in zip(actual_vertices, expected_vertices)):
+                    fail(f'{entry["id"]}: highlight location differs from the exact text range.')
+                if annot.type[0] != fitz.PDF_ANNOT_HIGHLIGHT or annot.info['title'] != AUTHOR or annot.info['content'] != comment_text(entry, plan.get('comment_language', 'zh')):
+                    fail(f'{entry["id"]}: highlight type, comment or author mismatch.')
+                stroke = annot.colors['stroke']
+                if len(stroke) != 3 or any(abs(a-b) > .001 for a,b in zip(stroke, KINDS[entry['kind']][1])):
+                    fail(f'{entry["id"]}: highlight color mismatch.')
+                if abs(annot.opacity - .3) > .001:
+                    fail(f'{entry["id"]}: highlight opacity changed.')
+        # Transparent annotations can change antialiasing by 1-2 levels even
+        # with annots=False. Render isolated copies with annotation arrays
+        # removed, while the object/stream checks above enforce exact fidelity.
+        for i in range(len(before)):
+            samples = []
+            for path in (source, annotated):
+                with fitz.open(path) as render:
+                    render.xref_set_key(render[i].xref, 'Annots', 'null')
+                    samples.append(render[i].get_pixmap(annots=False).samples)
+            if samples[0] != samples[1]:
+                fail(f'Page {i + 1}: isolated unannotated page rendering changed.')
+    return {'format': 'pdf', 'annotations': len(targets), 'preserved_source': True,
+            'scope': 'Every page rendered without annotations matches; exact anchors/comments/colors and existing annotations checked.'}
+
+
+def verify(source, annotated, plan):
+    if Path(source).suffix.lower() == '.docx':
+        return verify_docx(source, annotated, plan)
+    return verify_pdf(source, annotated, plan)
+
+
+def apply(source, plan, output=None):
+    source = Path(source).resolve()
+    output = Path(output).resolve() if output else source.with_name(source.stem + '_审稿标注版' + source.suffix)
+    if source == output or output.exists():
+        fail('Output already exists or equals source; choose a new output path.')
+    if output.suffix.lower() != source.suffix.lower():
+        fail('Output must retain the source format.')
+    validate_plan(source, plan)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='edu-review-', dir=output.parent) as temp:
+        target = Path(temp) / output.name
+        if source.suffix.lower() == '.docx':
+            data, _, _ = build_docx(source, plan)
+            with zipfile.ZipFile(source) as original, zipfile.ZipFile(target, 'w') as z:
+                for info in original.infolist():
+                    z.writestr(info, data.pop(info.filename))
+                for name, content in data.items():
+                    z.writestr(name, content, compress_type=zipfile.ZIP_DEFLATED)
+        elif source.suffix.lower() == '.pdf':
+            import fitz
+            target.write_bytes(source.read_bytes())
+            with fitz.open(target) as doc:
+                if doc.needs_pass or doc.get_sigflags() > 0:
+                    fail('Encrypted or signed PDF requires a suitable unsigned, accessible working copy.')
+                for page, entry, quads in pdf_targets(doc, plan):
+                    page_object = doc[page]
+                    annot = page_object.add_highlight_annot(quads)
+                    annot.set_info(title=AUTHOR, content=comment_text(entry, plan.get('comment_language', 'zh')), subject=entry['id'])
+                    annot.set_colors(stroke=KINDS[entry['kind']][1])
+                    annot.set_opacity(.3)
+                    annot.update()
+                doc.saveIncr()
+        else:
+            fail('Supported source formats: DOCX and text-layer PDF.')
+        result = verify(source, target, plan)
+        # Exclusive create avoids accidentally overwriting a concurrently created file.
+        with output.open('xb') as f:
+            f.write(target.read_bytes())
+    return result | {'output': str(output), 'output_sha256': digest(output.read_bytes())}
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    commands = ap.add_subparsers(dest='command', required=True)
+    inv = commands.add_parser('inventory')
+    inv.add_argument('source', type=Path)
+    inv.add_argument('--output', type=Path, required=True)
+    for name in ('apply', 'verify'):
+        sub = commands.add_parser(name)
+        sub.add_argument('source', type=Path)
+        sub.add_argument('--plan', type=Path, required=True)
+        if name == 'verify':
+            sub.add_argument('annotated', type=Path)
+        else:
+            sub.add_argument('--output', type=Path)
+    args = ap.parse_args()
+    try:
+        if args.command == 'inventory':
+            result = inventory(args.source)
+            with args.output.open('x', encoding='utf-8') as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+            print(json.dumps({'units': len(result['units']), 'output': str(args.output)}, ensure_ascii=False))
+        else:
+            plan = json.loads(args.plan.read_text(encoding='utf-8'))
+            if args.command == 'apply':
+                result = apply(args.source, plan, args.output)
+            else:
+                result = verify(args.source, args.annotated, plan)
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+    except (ValueError, KeyError, OSError, zipfile.BadZipFile) as e:
+        ap.exit(1, f'{e}\n')
+
+
+if __name__ == '__main__':
+    main()

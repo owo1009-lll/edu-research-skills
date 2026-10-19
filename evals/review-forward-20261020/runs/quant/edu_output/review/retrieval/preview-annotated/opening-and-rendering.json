@@ -1,0 +1,332 @@
+{
+  "reader": "PyMuPDF",
+  "version": "1.27.2.2",
+  "source": "<experiment>\\runs\\quant\\edu_output\\review\\retrieval\\quant_retrieval_审稿标注版.pdf",
+  "opened_successfully": true,
+  "pages": 2,
+  "records": [
+    {
+      "page": 1,
+      "image": "<experiment>\\runs\\quant\\edu_output\\review\\retrieval\\preview-annotated\\page-1.png",
+      "text": "Retrieval practice in lower-secondary science: manuscript excerpt\nPUBLIC SYNTHETIC MANUSCRIPT. The study, people and numbers below are invented for\nbehavioral testing. They are not evidence about an actual intervention.\nAbstract. We compared a weekly retrieval activity with the usual review activity in 12 classes across six\nschools. All 240 students remained in the reported sample. The adjusted standardized\nbetween-condition estimate was g = 0.18, 95% CI [-0.05, 0.41], p = .12. The two approaches were\ntherefore equally effective. Teachers described the short activity as feasible within existing lessons.\nMethods. Classes, rather than individual pupils, were randomized within schools. Six classes received\nretrieval practice (118 pupils) and six received usual review (122 pupils). The intervention ran for eight\nweeks. Both groups received the same subject content. A curriculum-aligned test was administered\nbefore and after the intervention; the outcome was the end-of-intervention score with baseline\nperformance included as a covariate.\nAn ordinary individual-level regression was fitted, with pupil as the unit of analysis. Individual data,\nanalysis code and a registration record are not included in this excerpt.\nResults. Posttest means were 79 in the retrieval condition and 75 in the usual-review condition. The\nadjusted standardized comparison and its uncertainty are reported in the abstract. A separate\nwithin-condition test found a significant change from baseline for retrieval practice (p = .02), whereas\nthe usual-review change was not significant (p = .21). This difference in statistical significance\nestablishes that retrieval practice outperformed usual review.\nPublic synthetic review task - page 1\n",
+      "annotations": [
+        {
+          "xref": 15,
+          "type": [
+            0,
+            "Text"
+          ],
+          "info": {
+            "content": "Original author note: preserve this note in the working copy.",
+            "name": "Note",
+            "title": "Original Author",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "",
+            "id": "fitz-A0"
+          },
+          "colors": {
+            "stroke": [
+              1.0,
+              1.0,
+              0.0
+            ],
+            "fill": []
+          },
+          "vertices": null
+        },
+        {
+          "xref": 18,
+          "type": [
+            8,
+            "Highlight"
+          ],
+          "info": {
+            "content": "[Definite error｜Major｜C1] The inference of equal effectiveness does not follow from p = .12 or from a confidence interval spanning zero. The reported interval (-0.05 to 0.41) also includes a positive difference that the Discussion identifies as potentially educationally meaningful. Equivalence would require a justified equivalence margin and a corresponding analysis; neither is reported here. Align the abstract with the Discussion: for example, \"The estimated between-condition difference was uncertain; the findings do not establish either superiority or equivalence.\" This concerns the interpretation, not proof that the numerical estimate is incorrect. See C2 for the model information needed to assess its uncertainty.",
+            "name": "",
+            "title": "AI 模拟审稿",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "C1",
+            "id": "fitz-A1"
+          },
+          "colors": {
+            "stroke": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "fill": []
+          },
+          "vertices": [
+            [
+              394.7561340332031,
+              183.90625
+            ],
+            [
+              521.3111572265625,
+              183.90625
+            ],
+            [
+              394.7561340332031,
+              199.020263671875
+            ],
+            [
+              521.3111572265625,
+              199.020263671875
+            ],
+            [
+              45.0,
+              198.6875
+            ],
+            [
+              174.0079803466797,
+              198.6875
+            ],
+            [
+              45.0,
+              213.801513671875
+            ],
+            [
+              174.0079803466797,
+              213.801513671875
+            ]
+          ]
+        },
+        {
+          "xref": 20,
+          "type": [
+            8,
+            "Highlight"
+          ],
+          "info": {
+            "content": "[Needs verification｜Major｜C2] Classes were randomized within schools, but this description does not specify how the analysis handled dependence among pupils in a class or the within-school allocation. A pupil-level regression is not inherently inappropriate; the model and inference must reflect the design. Report the model formula, treatment of school/block effects and class clustering, standard-error method, and degrees of freedom or small-sample adjustment used with only 12 randomized classes. If pupils were treated as independent for inference, reanalyse with a justified method that respects the allocation and update the estimate, interval and p value. Code/model output would allow verification; their absence here does not establish that the reported statistics are wrong. The final Discussion acknowledges this issue for a follow-up, but the current trial also needs it addressed.",
+            "name": "",
+            "title": "AI 模拟审稿",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "C2",
+            "id": "fitz-A2"
+          },
+          "colors": {
+            "stroke": [
+              0.20000000298023224,
+              0.550000011920929,
+              1.0
+            ],
+            "fill": []
+          },
+          "vertices": [
+            [
+              45.0,
+              316.9375
+            ],
+            [
+              444.2120361328125,
+              316.9375
+            ],
+            [
+              45.0,
+              332.051513671875
+            ],
+            [
+              444.2120361328125,
+              332.051513671875
+            ]
+          ]
+        },
+        {
+          "xref": 22,
+          "type": [
+            8,
+            "Highlight"
+          ],
+          "info": {
+            "content": "[Definite error｜Major｜C3] A significant within-condition change (p = .02) and a nonsignificant change in the other condition (p = .21) do not establish that the changes differ between conditions. Those tests address separate null hypotheses. Base the comparative conclusion on the direct between-condition contrast, whose reported interval includes zero, rather than on the difference in significance labels. If a difference in change is an additional research question, estimate that contrast directly with inference reflecting class assignment. The present superiority statement also conflicts with both the abstract's equality claim (C1) and the Discussion's appropriate statement of uncertainty.",
+            "name": "",
+            "title": "AI 模拟审稿",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "C3",
+            "id": "fitz-A3"
+          },
+          "colors": {
+            "stroke": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "fill": []
+          },
+          "vertices": [
+            [
+              307.592041015625,
+              405.625
+            ],
+            [
+              500.15802001953125,
+              405.625
+            ],
+            [
+              307.592041015625,
+              420.739013671875
+            ],
+            [
+              500.15802001953125,
+              420.739013671875
+            ],
+            [
+              45.0,
+              420.40625
+            ],
+            [
+              340.888916015625,
+              420.40625
+            ],
+            [
+              45.0,
+              435.520263671875
+            ],
+            [
+              340.888916015625,
+              435.520263671875
+            ]
+          ]
+        },
+        {
+          "xref": 24,
+          "type": [
+            8,
+            "Highlight"
+          ],
+          "info": {
+            "content": "[Needs verification｜Minor｜C4] Please define how this adjusted standardized contrast was calculated: the adjusted score contrast, standardizing SD, any small-sample correction, and the method used for its confidence interval and p value. The raw posttest means of 79 and 75 alone cannot verify or interpret this baseline-adjusted g. Reporting the test scale and an adjusted difference in score units with uncertainty would also help readers judge educational importance. This is a reporting/verification gap in the excerpt, not evidence of a numerical inconsistency; see C2 for the separate question of design-appropriate inference.",
+            "name": "",
+            "title": "AI 模拟审稿",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "C4",
+            "id": "fitz-A4"
+          },
+          "colors": {
+            "stroke": [
+              0.20000000298023224,
+              0.550000011920929,
+              1.0
+            ],
+            "fill": []
+          },
+          "vertices": [
+            [
+              204.5659637451172,
+              183.90625
+            ],
+            [
+              391.6981201171875,
+              183.90625
+            ],
+            [
+              204.5659637451172,
+              199.020263671875
+            ],
+            [
+              391.6981201171875,
+              199.020263671875
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image": "<experiment>\\runs\\quant\\edu_output\\review\\retrieval\\preview-annotated\\page-2.png",
+      "text": "Discussion and implementation\nThe intended contribution is to test whether an activity that asks students to retrieve an answer before\nseeing it improves performance relative to reviewing the same content. The activity changes what\nstudents do with the material, rather than simply increasing their exposure time. The primary\ncomparison remains uncertain, with the reported interval including zero and a positive difference that\ncould matter educationally.\nEight of the 12 class teachers returned a short implementation questionnaire. Seven described the\nactivity as manageable. Preparation involved a 40-minute training session and adapting questions to\nthe week's content; preparation time during the intervention was not measured. These reports concern\nfeasibility for respondents, not all teachers or effects on student motivation.\nSchools adopting this activity should provide preparation time and access to curriculum-aligned\nquestions. This recommendation follows from the tasks required for implementation; it does not depend\non claiming that the trial established superiority. A larger follow-up should estimate the\nbetween-condition difference with appropriate attention to the class-level assignment and a longer\nassessment interval.\nThis is an excerpt supplied for review. The literature review and reference list are not included.\nPublic synthetic review task - page 2\n",
+      "annotations": [
+        {
+          "xref": 26,
+          "type": [
+            8,
+            "Highlight"
+          ],
+          "info": {
+            "content": "[Needs verification｜Minor｜C5] The intended contrast between retrieval and review is clear, but equal subject content and an eight-week duration do not by themselves establish comparable exposure time. Specify the usual-review activity, planned time per activity, and whether implementation evidence confirms comparable time and feedback across conditions. If time was not measured or controlled, identify this as the intended design distinction rather than a demonstrated explanation of the outcome. This would make the contribution more interpretable without changing the Discussion's justified statement that the performance comparison remains uncertain.",
+            "name": "",
+            "title": "AI 模拟审稿",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "C5",
+            "id": "fitz-A0"
+          },
+          "colors": {
+            "stroke": [
+              0.20000000298023224,
+              0.550000011920929,
+              1.0
+            ],
+            "fill": []
+          },
+          "vertices": [
+            [
+              191.12396240234375,
+              139.5625
+            ],
+            [
+              431.3749084472656,
+              139.5625
+            ],
+            [
+              191.12396240234375,
+              154.676513671875
+            ],
+            [
+              431.3749084472656,
+              154.676513671875
+            ]
+          ]
+        },
+        {
+          "xref": 28,
+          "type": [
+            8,
+            "Highlight"
+          ],
+          "info": {
+            "content": "[Needs verification｜Minor｜C6] Please identify the treatment assignments and experience of the eight respondents, and what activity the seven favorable responses referred to. The Methods allocates only six classes to retrieval practice, whereas this questionnaire includes eight of 12 class teachers; it is therefore unclear how many responses describe actually delivering retrieval practice. This is not necessarily a contradiction, since control teachers may have observed or tried it, but that context is needed to interpret feasibility. Retain the useful restriction to respondents and the distinction from student motivation. The conditional recommendation to provide preparation time and suitable questions has an explicit implementation rationale and does not require a superiority claim.",
+            "name": "",
+            "title": "AI 模拟审稿",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "C6",
+            "id": "fitz-A1"
+          },
+          "colors": {
+            "stroke": [
+              0.20000000298023224,
+              0.550000011920929,
+              1.0
+            ],
+            "fill": []
+          },
+          "vertices": [
+            [
+              45.0,
+              198.6875
+            ],
+            [
+              419.7919006347656,
+              198.6875
+            ],
+            [
+              45.0,
+              213.801513671875
+            ],
+            [
+              419.7919006347656,
+              213.801513671875
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

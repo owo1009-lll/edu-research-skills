@@ -1,0 +1,47 @@
+{
+  "reader": "PyMuPDF",
+  "version": "1.27.2.2",
+  "source": "<experiment>\\inputs-final\\quant_retrieval.pdf",
+  "opened_successfully": true,
+  "pages": 2,
+  "records": [
+    {
+      "page": 1,
+      "image": "<experiment>\\runs\\quant\\edu_output\\review\\retrieval\\preview-original\\page-1.png",
+      "text": "Retrieval practice in lower-secondary science: manuscript excerpt\nPUBLIC SYNTHETIC MANUSCRIPT. The study, people and numbers below are invented for\nbehavioral testing. They are not evidence about an actual intervention.\nAbstract. We compared a weekly retrieval activity with the usual review activity in 12 classes across six\nschools. All 240 students remained in the reported sample. The adjusted standardized\nbetween-condition estimate was g = 0.18, 95% CI [-0.05, 0.41], p = .12. The two approaches were\ntherefore equally effective. Teachers described the short activity as feasible within existing lessons.\nMethods. Classes, rather than individual pupils, were randomized within schools. Six classes received\nretrieval practice (118 pupils) and six received usual review (122 pupils). The intervention ran for eight\nweeks. Both groups received the same subject content. A curriculum-aligned test was administered\nbefore and after the intervention; the outcome was the end-of-intervention score with baseline\nperformance included as a covariate.\nAn ordinary individual-level regression was fitted, with pupil as the unit of analysis. Individual data,\nanalysis code and a registration record are not included in this excerpt.\nResults. Posttest means were 79 in the retrieval condition and 75 in the usual-review condition. The\nadjusted standardized comparison and its uncertainty are reported in the abstract. A separate\nwithin-condition test found a significant change from baseline for retrieval practice (p = .02), whereas\nthe usual-review change was not significant (p = .21). This difference in statistical significance\nestablishes that retrieval practice outperformed usual review.\nPublic synthetic review task - page 1\n",
+      "annotations": [
+        {
+          "xref": 15,
+          "type": [
+            0,
+            "Text"
+          ],
+          "info": {
+            "content": "Original author note: preserve this note in the working copy.",
+            "name": "Note",
+            "title": "Original Author",
+            "creationDate": "",
+            "modDate": "",
+            "subject": "",
+            "id": "fitz-A0"
+          },
+          "colors": {
+            "stroke": [
+              1.0,
+              1.0,
+              0.0
+            ],
+            "fill": []
+          },
+          "vertices": null
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image": "<experiment>\\runs\\quant\\edu_output\\review\\retrieval\\preview-original\\page-2.png",
+      "text": "Discussion and implementation\nThe intended contribution is to test whether an activity that asks students to retrieve an answer before\nseeing it improves performance relative to reviewing the same content. The activity changes what\nstudents do with the material, rather than simply increasing their exposure time. The primary\ncomparison remains uncertain, with the reported interval including zero and a positive difference that\ncould matter educationally.\nEight of the 12 class teachers returned a short implementation questionnaire. Seven described the\nactivity as manageable. Preparation involved a 40-minute training session and adapting questions to\nthe week's content; preparation time during the intervention was not measured. These reports concern\nfeasibility for respondents, not all teachers or effects on student motivation.\nSchools adopting this activity should provide preparation time and access to curriculum-aligned\nquestions. This recommendation follows from the tasks required for implementation; it does not depend\non claiming that the trial established superiority. A larger follow-up should estimate the\nbetween-condition difference with appropriate attention to the class-level assignment and a longer\nassessment interval.\nThis is an excerpt supplied for review. The literature review and reference list are not included.\nPublic synthetic review task - page 2\n",
+      "annotations": []
+    }
+  ]
+}

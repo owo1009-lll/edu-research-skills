@@ -1,0 +1,7 @@
+{
+    "attempted":  true,
+    "launch_succeeded":  true,
+    "process_id":  4060,
+    "window_style":  "Hidden",
+    "interactive_popup_inspection":  "Not performed; graphical interaction tools are unavailable in this run."
+}

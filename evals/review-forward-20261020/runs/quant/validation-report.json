@@ -1,0 +1,57 @@
+{
+  "structural": {
+    "frozen_verify_passed": true,
+    "new_annotations": 6,
+    "red_definite_errors": 2,
+    "blue_verification_requests": 4,
+    "english_comments": true,
+    "author_label": "AI 模拟审稿",
+    "original_note_preserved": true,
+    "source_objects_and_content_streams_preserved": true,
+    "all_unannotated_page_renderings_identical": true
+  },
+  "actual_opening": {
+    "pymupdf_opened_original_and_annotated": true,
+    "windows_reader_launch_succeeded": true,
+    "windows_reader_process_id": 9952,
+    "windows_reader_document_display_not_observed": true
+  },
+  "visual": {
+    "method": "Read all four PNGs with view_image: two source pages and two annotated pages, each rendered at 1.5x with PyMuPDF.",
+    "all_source_pages_inspected": true,
+    "all_annotated_pages_inspected": true,
+    "highlight_ranges_correct": true,
+    "text_readable": true,
+    "original_note_icon_preserved": true,
+    "clipping_or_layout_changes_observed": false,
+    "figures_or_tables_present": false,
+    "interactive_comment_popup_inspection": false
+  },
+  "substantive_scope": {
+    "draft_only": true,
+    "external_research": false,
+    "numerical_reanalysis_performed": false,
+    "unavailable": "Individual data, analysis code, registration record, literature review and references; target journal was not specified.",
+    "novelty_or_missing_literature_judgment_made": false,
+    "missing_materials_not_treated_as_proven_absence": true
+  },
+  "review_decisions": {
+    "confirmed_errors": [
+      "C1: Failure to reject a difference does not establish equivalence.",
+      "C3: Different within-group significance labels do not establish a between-group difference."
+    ],
+    "verification_requests": [
+      "C2: Handling of class-level randomization, school blocking and small-cluster inference.",
+      "C4: Definition and estimation of standardized adjusted contrast.",
+      "C5: Evidence for comparable exposure time and operationalization of the contrast.",
+      "C6: Treatment assignments and experience of questionnaire respondents."
+    ],
+    "preserved_valid_arguments": [
+      "Discussion recognizes primary-effect uncertainty and a potentially meaningful positive difference.",
+      "Feasibility findings are restricted to respondents and distinguished from motivation.",
+      "Preparation-time/resources recommendation is conditional and justified by implementation tasks, not a superiority claim."
+    ],
+    "sample_counts": "118 + 122 = 240, consistent with the abstract; no sample-count error alleged."
+  }
+}
+

@@ -1,0 +1,63 @@
+{
+  "renderer": "PyMuPDF 1.27.2.2",
+  "scale": 1.5,
+  "images": [
+    {
+      "page": 5,
+      "file": "page-05.png",
+      "sha256": "c60fbf247741fbc1302953b7d7ffeeed12c49828ffe3c92802998b08e94f5467"
+    },
+    {
+      "page": 6,
+      "file": "page-06.png",
+      "sha256": "c020203e7c203b1815d043662e4b52c2a333878ea4aa7cb680a2af25bdf37a26"
+    },
+    {
+      "page": 7,
+      "file": "page-07.png",
+      "sha256": "7d2e350f4ba705363b18e993b422c98d61f8c610ce1341e3ea9d0409f434b5bb"
+    },
+    {
+      "page": 8,
+      "file": "page-08.png",
+      "sha256": "d3d2c9317ae1854641fc406f74e12b3a1f7fd45ac60b8b0f475633c319159690"
+    },
+    {
+      "page": 9,
+      "file": "page-09.png",
+      "sha256": "0a0c497f4c9ad665bc7527eefe8ed81cedd4e5275efcb0cdcf03053f641c7497"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "sha256": "bcf5ad137db7ec9f15fcb065e78a3cc10866f4f7b5b536ff44d99cb64f50a60c"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "sha256": "3022685a623fb0cf33dbfac6c0cb659a01df4e8db92bbc2604f1b14293a1028a"
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "sha256": "9e230a923612db63b861c762a96d566c1fd1ab7e55c30f2df50ee077c2d4a8c2"
+    }
+  ],
+  "source_id": "M-N19",
+  "source_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.1005887/pdf",
+  "source_sha256": "e3b168aed0d242b9e062e88bd44c8999fc673b8969417e929edee3ea0547970b",
+  "reading_sha256": "f8e35c7533c98b8c89c9a2a92e899c9831a1294b2009e8704b390092bb524546",
+  "actually_viewed_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14
+  ],
+  "scope": "Original source images remain outside the public repository. Eight rendered images were opened and visually read, not only generated.",
+  "reproduction": "Acquire M-N19 using public-wave10.json and the existing fetch/prepare scripts; render source.pdf pages 5-9 and 12-14 with PyMuPDF Matrix(1.5,1.5).",
+  "source_extraction_note": "Table 4 numerical bars require visual reading; the main text extraction omits their labels."
+}

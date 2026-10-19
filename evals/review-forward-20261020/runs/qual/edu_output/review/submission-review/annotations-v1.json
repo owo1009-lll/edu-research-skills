@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "comment_language": "en",
+  "source_sha256": "1e9a81033e49dff50247f8435bb07f924588f3714b65ceae08cfed1aa94aebe6",
+  "created_utc": "2026-10-19T23:07:38Z",
+  "annotations": [
+    {
+      "id": "C1",
+      "kind": "verify",
+      "severity": "major",
+      "comment": "Recruitment and access are explicitly unreported in this excerpt. In the full methods, explain how the three programs and nine teachers were selected, who invited participation, the basis for inclusion, and the researcher's role and relationship to the teams. These details matter here because access through managers or existing relationships could shape whose accounts are available and how concerns about speaking are expressed. Report the actual arrangements and any relevant reflexive considerations; the omission in this excerpt does not establish that recruitment or access procedures were inadequate.",
+      "anchors": [
+        {
+          "page": 1,
+          "line": 6,
+          "text_sha256": "b53cb0b81f0ac7567792bd0637cf0741870cf82782cf09d17d4d2f00d154f459",
+          "start": 56,
+          "end": 98,
+          "quote": "The supplied excerpt does not describe how"
+        },
+        {
+          "page": 1,
+          "line": 7,
+          "text_sha256": "4288af4855312dcbaa5aed45ce2548b6942c437c41ec7df40c47cec8a9df79d0",
+          "start": 0,
+          "end": 73,
+          "quote": "the nine teachers were recruited or how the researcher entered the teams."
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "kind": "verify",
+      "severity": "major",
+      "comment": "This provides the focus of comparison but not enough of the analytic process to assess how the interpretation was developed. In the full methods, explain what counted as an episode or case, how interview accounts were compared with meeting records, how these two illustrative cases relate to the wider material, and how discrepant accounts or alternative interpretations were considered. Clarify which sources support the email, later agenda and partial adoption in Marta's sequence, and the limits of the record supporting the absence of a later proposal from Amir. Distinguish participants' stated intentions from the researcher's interpretation. These are reporting details to verify from the actual study records, not a requirement to add frequency counts, statistical tests or a particular coding-agreement metric.",
+      "anchors": [
+        {
+          "page": 1,
+          "line": 4,
+          "text_sha256": "fc2985a1ad7f3db431d8a09e2b9e5b727ab1d3453a8062d191515c28264ea2c3",
+          "start": 62,
+          "end": 93,
+          "quote": "Analysis compared how speaking,"
+        },
+        {
+          "page": 1,
+          "line": 5,
+          "text_sha256": "2e97feeffce9e936466467911cb39f40fb7e04705e067d6b39a6ac14457d0c45",
+          "start": 0,
+          "end": 98,
+          "quote": "waiting and written follow-up were used when teachers tried to influence team decisions. Interview"
+        },
+        {
+          "page": 1,
+          "line": 6,
+          "text_sha256": "b53cb0b81f0ac7567792bd0637cf0741870cf82782cf09d17d4d2f00d154f459",
+          "start": 0,
+          "end": 55,
+          "quote": "accounts were considered alongside the meeting records."
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "kind": "error",
+      "severity": "major",
+      "comment": "The universal conclusion conflicts with the distinction developed in the findings (p. 1, Marta and Amir) and the preceding paragraph here. Marta describes waiting before an alternative intervention; Amir describes concern about the manager's reaction, without a stated intention to resist or a documented planned alternative intervention. These accounts do not support classifying every silence as deliberate resistance or claiming that all silent teachers intended to intervene. The same paragraph also asserts equal influence: the excerpt traces partial adoption of Marta's proposal but provides no comparison with frequent speakers that establishes equality. Remove or reformulate these claims around the distinction the cases actually support, for example: 'The cases distinguish waiting as part of an intervention from silence under anticipated sanction.' The preceding interpretation of heterogeneous silence and the following recommendation about responsive routes for contributions can be retained. This is an internal evidence-to-conclusion problem, not a consequence of lacking statistical tests.",
+      "anchors": [
+        {
+          "page": 2,
+          "line": 5,
+          "text_sha256": "7ba30070f7debf57458f87d27d0e051a561a1e77ac18c9947da281b24fe78cbc",
+          "start": 0,
+          "end": 103,
+          "quote": "Every instance of silence in this study was therefore a deliberate strategy of resistance, showing that"
+        },
+        {
+          "page": 2,
+          "line": 6,
+          "text_sha256": "f919388469ddd9ba047a369dcd725a93fcfc12c6e1f6ebd1ff30eaf771817657",
+          "start": 0,
+          "end": 98,
+          "quote": "quiet teachers exercised the same influence as frequent speakers. The interviews establish how all"
+        },
+        {
+          "page": 2,
+          "line": 7,
+          "text_sha256": "378b5107a4273da00bc4732936f1b59cb314ca34e45035a08f72feacebb490f8",
+          "start": 0,
+          "end": 38,
+          "quote": "silent teachers intended to intervene."
+        }
+      ]
+    }
+  ]
+}

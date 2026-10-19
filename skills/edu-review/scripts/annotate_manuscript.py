@@ -30,6 +30,11 @@ KINDS = {
     'error': ('red', (1, 0, 0), '明确错误'),
     'verify': ('blue', (0.2, 0.55, 1), '待核实'),
 }
+COMMENT_LABELS = {
+    'zh': {kind: values[2] for kind, values in KINDS.items()},
+    'en': {'improvement': 'Argument/expression suggestion',
+           'error': 'Definite error', 'verify': 'Needs verification'},
+}
 DOC = 'word/document.xml'
 RELS = 'word/_rels/document.xml.rels'
 
@@ -140,6 +145,8 @@ def inventory(source):
 def validate_plan(source, plan):
     if plan.get('schema_version') != 1:
         fail('Plan schema_version must be 1.')
+    if plan.get('comment_language', 'zh') not in COMMENT_LABELS:
+        fail('comment_language must be en or zh; omit only for legacy Chinese plans.')
     if digest(Path(source).read_bytes()) != plan.get('source_sha256'):
         fail('Source SHA-256 changed; rebuild and review anchors against this file.')
     annotations = plan.get('annotations')
@@ -167,9 +174,10 @@ def validate_plan(source, plan):
     return annotations
 
 
-def comment_text(a):
-    severity = {'major': '主要', 'minor': '次要'}.get(a.get('severity'))
-    label = KINDS[a['kind']][2] + (f'｜{severity}' if severity else '')
+def comment_text(a, language='zh'):
+    severity = ({'major': 'Major', 'minor': 'Minor'} if language == 'en' else
+                {'major': '主要', 'minor': '次要'}).get(a.get('severity'))
+    label = COMMENT_LABELS[language][a['kind']] + (f'｜{severity}' if severity else '')
     return f'[{label}｜{a["id"]}] {a["comment"].strip()}'
 
 
@@ -296,7 +304,7 @@ def build_docx(source, plan):
         add_docx_anchor(p, start, end, cid, KINDS[a['kind']][0], a['id'])
         c = ET.SubElement(comments, w('comment'), {w('id'): str(cid), w('author'): AUTHOR,
                           w('initials'): 'AI', w('date'): plan['created_utc']})
-        for line in comment_text(a).splitlines():
+        for line in comment_text(a, plan.get('comment_language', 'zh')).splitlines():
             t = ET.SubElement(ET.SubElement(ET.SubElement(c, w('p')), w('r')), w('t'))
             t.text = line
             t.set('{http://www.w3.org/XML/1998/namespace}space', 'preserve')
@@ -454,7 +462,7 @@ def verify_pdf(source, annotated, plan):
                 actual_vertices = [v for pt in annot.vertices for v in pt]
                 if len(actual_vertices) != len(expected_vertices) or any(abs(a-b) > .02 for a, b in zip(actual_vertices, expected_vertices)):
                     fail(f'{entry["id"]}: highlight location differs from the exact text range.')
-                if annot.type[0] != fitz.PDF_ANNOT_HIGHLIGHT or annot.info['title'] != AUTHOR or annot.info['content'] != comment_text(entry):
+                if annot.type[0] != fitz.PDF_ANNOT_HIGHLIGHT or annot.info['title'] != AUTHOR or annot.info['content'] != comment_text(entry, plan.get('comment_language', 'zh')):
                     fail(f'{entry["id"]}: highlight type, comment or author mismatch.')
                 stroke = annot.colors['stroke']
                 if len(stroke) != 3 or any(abs(a-b) > .001 for a,b in zip(stroke, KINDS[entry['kind']][1])):
@@ -509,7 +517,7 @@ def apply(source, plan, output=None):
                 for page, entry, quads in pdf_targets(doc, plan):
                     page_object = doc[page]
                     annot = page_object.add_highlight_annot(quads)
-                    annot.set_info(title=AUTHOR, content=comment_text(entry), subject=entry['id'])
+                    annot.set_info(title=AUTHOR, content=comment_text(entry, plan.get('comment_language', 'zh')), subject=entry['id'])
                     annot.set_colors(stroke=KINDS[entry['kind']][1])
                     annot.set_opacity(.3)
                     annot.update()

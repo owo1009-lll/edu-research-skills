@@ -1,0 +1,13 @@
+{
+  "pdf_opened": true,
+  "reader_engine": "PyMuPDF",
+  "pymupdf_version": "1.27.2.2",
+  "python_version": "3.11.9",
+  "pages": 2,
+  "all_pages_rendered_with_annotations": true,
+  "new_comments": 3,
+  "existing_author_notes": 1,
+  "source_sha256_after": "1e9a81033e49dff50247f8435bb07f924588f3714b65ceae08cfed1aa94aebe6",
+  "output_sha256": "64fc414e06c399802b85bdf68f97f92f571dbdf52c400477cfe9b5ea7d9fb9e3",
+  "interactive_popup_visual_check": "Not established by engine rendering; recorded separately from structural validation."
+}

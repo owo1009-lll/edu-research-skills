@@ -133,6 +133,8 @@ The [M-C01 comparison](../../evals/writing-20261020-mc01/README.md) has now comp
 
 Both notes contain original English same-fact edits. They remain development illustrations, not evidence that the current skill fails or that either previously tested candidate should now be adopted. The existing guidance already allows these actions; new tests need an actual unresolved output problem and an appropriate transfer task.
 
+[M-N19](papers/M-N19.md), pp. 8–12, extends this comparison with the meaning of an unchanged response. Open responses distinguish no opportunity for parent contact from an established practice, so the same survey category no longer implies one shared experience. The English edit gives that distinction the main sentence while retaining the three-response scope. The joint display's broad practice item is not treated as a separate quantitative measure of each qualitative theme. This provides a positive development example alongside M-N15 and M-N17; it does not justify adopting the previously inconclusive M-C01 addition without new transfer evidence.
+
 ## 此阶段不作出的归纳
 
 三类都涉及具体对象，但动作并不相同：定量说明比较及测量，质性解释回应和过程，混合说明不同证据的连接及增量。暂不合并为“所有段落都按对象—证据—解释”模板，也不要求每个术语都配场景。继续补充跨作者的英文材料，核对当前基线输出并进行小批复测，再决定哪些值得进入正式方法。按用户最新要求，本轮不再开展中文分析。

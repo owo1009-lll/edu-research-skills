@@ -1,0 +1,7 @@
+{
+  "source_opened_with": "PyMuPDF",
+  "pages": 2,
+  "rendered_pages": 2,
+  "annotations_planned": 3,
+  "plan": "<experiment>\\runs\\qual\\edu_output\\review\\submission-review\\annotations-v1.json"
+}

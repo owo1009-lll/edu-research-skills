@@ -1,0 +1,1 @@
+python -B -X utf8 '<experiment>\runs\quant\helpers\finalize_record-v1.py'

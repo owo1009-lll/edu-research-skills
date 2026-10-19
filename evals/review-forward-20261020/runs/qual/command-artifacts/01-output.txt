@@ -1,0 +1,54 @@
+---
+name: edu-review
+description: Review education research manuscripts or grant applications in Chinese or English. Return the original DOCX or PDF with precisely anchored native highlights and comments, preserving prose, figures, citations, existing comments and tracked changes. Distinguish definite errors, items needing verification and argument or expression suggestions. Do not rewrite the manuscript or attach separate reviewer reports unless the user explicitly requests that work. Use for 妯℃嫙瀹＄銆佸闃呫€佹鏌ヨ鏂囥€佹寚鍑洪棶棰樸€佹姇绋垮墠鑷銆佸瀹℃ā鎷熴€佸绋夸汉瑙嗚銆侀瀹°€佸府鎴戞寫姣涚梾銆佽鏂囧摢閲屼細琚嫆銆佺敵鎶ヤ功璇勫瑙嗚銆乵ock peer review, manuscript review, pre-submission review.
+---
+
+# 鏁欒偛瀛﹀師绋垮闃?
+
+榛樿浜や粯**鍘熺瀵瑰簲浣嶇疆楂樹寒锛嬪師鐢熸壒娉?*锛屼繚鐣欐鏂囷紝涓嶈嚜鍔ㄦ敼鍐欙紝涓嶅彟鐢熸垚瀹＄鎶ュ憡鎴栨剰瑙佸崟銆傝繖鏄?AI 妯℃嫙瀹＄锛屼笉鏄湡瀹炵殑涓撳璇勫锛屼笉棰勬祴褰曠敤姒傜巼銆傜敤鎴峰凡鏄庣‘瑕佹眰鏀圭鏃舵寜鎺堟潈鎵ц锛岃浆鍒?edu-writing 鐨勫師绋夸慨鏀规祦绋嬶紝涓嶅啀娆¤闂凡缁忔槑纭殑浜嬮」锛涘洖澶嶇湡瀹炲瀹℃剰瑙佺敤 edu-response銆?
+
+## 瀹￠槄涓庢爣娉?
+
+1. **璇诲師绋匡紝纭畾鍙垽鏂殑鑼冨洿銆?*鏍规嵁鍏ㄦ枃鎴栨墍缁欑珷鑺傘€佺爺绌剁被鍨嬨€佽瑷€鍙婂凡鏈夌洰鏍囨湡鍒?鍩洪噾瑕佹眰瀹￠槄銆傛寜 [瀹￠槄缁村害](references/review-criteria.md) 鍚屾椂鐪嬭础鐚€佽璁°€佽瘉鎹€佹蹇点€佹枃鐚€佽В閲婁笌琛ㄨ揪锛屼笉鎶婂畾閲忔爣鍑嗗鍒拌川鎬х爺绌舵垨鎶婃贩鍚堢爺绌舵媶鎴愪簰涓嶇浉骞茬殑涓や唤妫€鏌ャ€?
+2. **鏍稿疄闂銆?*闇€瑕佹椂杩愯 `../edu-writing/scripts/check_consistency.py`銆乣../edu-audit/scripts/check_reporting.py`锛涘畠浠彧鎻愪緵绾跨储锛屽洖鍒板師鏂囧拰瀹為檯鏉愭枡鍒ゆ柇銆傜己鍘熷鏁版嵁涓嶈兘鎹鏂█缁熻閿欒锛屾湭妫€绱㈡牳瀹炰笉鑳藉绉版病鏈夊垱鏂版垨閬楁紡鍏抽敭鐮旂┒銆備繚鐣欐湁渚濇嵁鐨勫己鍒ゆ柇鍜屾湁鏁堣〃杈撅紝涓嶆満姊版浛鎹㈠姩璇嶆垨姣忔澧炲姞灞€闄愩€?
+3. **鎶婃剰瑙侀敋瀹氬埌蹇呰鏂囧瓧銆?*涓€鍙ユ湁澶氱被闂鏃剁敤涓昏闂鐨勯鑹诧紝鍦ㄥ悓涓€鎵规敞涓垎娓呭悇椤癸紱涓嶈鍙犲姞楂樹寒銆傚悓涓€闂鍦ㄥ叧閿綅缃啓涓绘壒娉紝鍏朵粬浣嶇疆绠€鐭叧鑱斻€傝法绔犺妭闂鐐规槑鐩稿叧浣嶇疆锛涘叏鏂囧眰闈㈢殑鍒ゆ柇鍙湪鏍囬澶勫啓鎬昏瘎鎵规敞銆傛病鏈夐棶棰樼殑娈佃惤鏃犻渶鏍囨敞锛屼笉璁炬暟閲忛厤棰濄€?
+
+   | 楂樹寒 | 鎵规敞鎬ц川 | 渚濇嵁 |
+   |---|---|---|
+   | 榛勮壊 | 璁鸿瘉銆佽В閲婃垨琛ㄨ揪寤鸿 | 璇存槑鍝」鐞嗚В鎴栨帹鐞嗛渶瑕佹敼鍠勶紱鍙€夐鏍煎亸濂戒笉鑳藉啓鎴愬繀椤婚伒瀹堢殑瑙勮寖 |
+   | 绾㈣壊 | 鏄庣‘閿欒鎴栧疄璐ㄧ煕鐩?| 鏈夊彲鏍告煡渚濇嵁锛屾寚鍑烘潵婧愬強鐭涚浘锛涚鍐呮暟瀛椾笉涓€鑷翠笉绛変簬宸茬‘瀹氬摢涓€肩湡瀹?|
+   | 钃濊壊 | 寰呮牳瀹炪€侀渶琛ユ潗鏂?| 鏄庣‘缂轰粈涔堝強瀹冨奖鍝嶅摢椤瑰垽鏂紝涓嶆妸鈥滄湭鎻愪緵鈥濆啓鎴愨€滄病鏈夊仛鈥?|
+
+   鎵规敞寮€澶存爣鏄庢€ц川锛屽繀瑕佹椂娉ㄦ槑涓昏/娆¤锛涙牴鎹棶棰樿鏄庢槸浠€涔堛€佷负浣曞奖鍝嶇悊瑙ｆ垨缁撹銆佹€庢牱澶勭悊銆傚閫夎〃杈炬斁鍦ㄦ壒娉ㄥ唴锛屼笉鏇挎崲姝ｆ枃銆傛壒娉ㄨ瑷€璺熼殢绋夸欢锛涙柊浣滆€呮爣璇嗙粺涓€涓?**AI 妯℃嫙瀹＄**銆?
+4. **鐢熸垚鍘熺敓鏍囨敞銆?*璇?[鏂囦欢涓庨敋鐐筣(references/annotations.md)锛屽厛鐢?`scripts/annotate_manuscript.py inventory` 寤虹珛鍘熸枃浣嶇疆锛屽啀鏍规嵁宸叉牳瀹炵殑闂鏁寸悊鍐呴儴鏍囨敞璁″垝锛岀敤 `apply` 杈撳嚭鏂版枃浠躲€俉ord 鐢ㄥ師鐢熸枃瀛楅珮浜笌鎵规敞锛汸DF 鐢ㄩ珮浜敞閲婂強鍏跺叧鑱旀壒娉紝涓嶅己琛岃浆鎹㈡牸寮忋€傚凡鏈夋鏂囥€佸浘琛ㄣ€佸紩鏂囥€佹牸寮忋€佹壒娉ㄥ拰淇鍧囦繚鐣欙紱涓嶅湪姝ｆ枃鎻掑叆鈥溿€愭壒娉ㄣ€戔€濆啋鍏呭師鐢熷姛鑳姐€?
+5. **妫€鏌ュ疄闄呮枃浠跺悗浜や粯銆?*杩愯 `scripts/annotate_manuscript.py verify`锛屾牳瀵规爣娉ㄤ笌鍘熸枃瀵瑰簲銆佷繚鐣欐儏鍐靛強璁″垝澶栧彉鍔紱瀹為檯鐢?Word/鍙敤闃呰鍣ㄦ墦寮€骞舵鏌ャ€傛潯浠跺厑璁告椂娓叉煋妫€鏌ユ瘡椤电殑楂樹寒鑼冨洿銆佹壒娉ㄣ€佽〃鏍煎拰鍥俱€傜粨鏋勯€氳繃涓嶇瓑浜庤瑙夐獙鏀躲€備笉鑳藉彲闈犲畾浣嶆垨鐢熸垚鏃讹紝璇存槑鍏蜂綋鍙楅檺瀵硅薄锛屼笉浼瀹屾垚銆?
+
+浠呬氦浠?`鍘熺鍚峗瀹＄鏍囨敞鐗?docx` 鎴?`鍘熺鍚峗瀹＄鏍囨敞鐗?pdf` 涓庡繀瑕佺殑绠€鐭鏄庯紱鍘熶笂浼犳枃浠朵繚鎸佷笉鍔ㄣ€傞敋鐐规竻鍗曘€佽鍒掑強妫€鏌ユ棩蹇楃暀鍦ㄧ敤鎴烽」鐩?`edu_output/review/<鏂颁换鍔℃枃浠跺す>/`锛屼笉浣滀负鐙珛瀹＄鎶ュ憡闄勯€併€傛病鏈夊疄璐ㄩ棶棰樻椂鍘熸牱淇濈暀骞跺瀹炶鏄庯紝涓嶅埗閫犳壒娉ㄣ€?
+
+## 鍙€夊闃呰寖鍥?
+
+- **鐙珛鎬?*锛氱敤鎴疯姹傚浣嶇嫭绔嬪闃呮椂锛屼娇鐢ㄥ彲鐢ㄧ殑鐙珛瀛愪换鍔★紱姣忎綅鍙鍘熺銆佸繀瑕佹潗鏂欏拰鑷繁鐨勪换鍔★紝鍐呴儴璁板綍鍚堝苟鍘婚噸鍚庝粛浜や粯鍚屼竴浠藉師绋挎爣娉ㄧ増銆傛病鏈夌嫭绔嬭繍琛屾椂涓嶅０绉板凡瀹屾垚鐙珛璇勯槄銆?
+- **鐢虫姤涔?*锛氭寜 [瀹￠槄缁村害](references/review-criteria.md) 鐨勭敵鎶ヤ功閮ㄥ垎妫€鏌ラ€夐銆佽璇併€佽璁°€佸熀纭€鍜屽彲琛屾€э紱鍖垮悕鍙婃牸寮忔寜褰撳勾瀹為檯妯℃澘鏍稿锛屽彲璋冪敤 `../edu-proposal/scripts/check_proposal.py`銆傛剰瑙佷粛鍐欏叆鍘熺鎵规敞銆?
+- **绾枃鏈垨鏃犳硶鍘熺敓鏍囨敞鐨勬枃浠?*锛氳鏄庣幇鏈夋枃浠舵牸寮忕殑鍏蜂綋闄愬埗銆傜敤鎴锋彁渚?DOCX/PDF 鍚庡彲鍦ㄥ師浠跺壇鏈爣娉紱涓嶆妸閲嶆帓鍚庣殑鏅€氭枃瀛楃О涓哄師绋垮師鐢熸壒娉ㄣ€?
+
+璇氫俊瑕佹眰瑙?[鍏卞悓瑙勫垯](../edu-shared/references/integrity.md)銆傚彧鏈夌敤鎴锋槑纭姹備慨鏀规墠鎸夊叾鍙栬垗鏀规鏂囷紱涓嶈兘涓哄畬鎴愭剰瑙佽ˉ閫犳暟鎹€佸垎鏋愩€佹枃鐚垨鐮旂┒杩囩▼銆?
+
+Please review this English manuscript excerpt before journal submission. The research materials available for this task are limited to the supplied draft.
+
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F42FECFDBB027A0E75F6FC0187B46EA7A07903443A88DDFD0B513750139C6F95",
+        "Path":  "<experiment>\\snapshot\\skills\\edu-review\\SKILL.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "6725D3CB74FC268488A1D9A9E7E57D494E6C7B4419C07C68A3E60B65816D7110",
+        "Path":  "<experiment>\\inputs-final\\request.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1E9A81033E49DFF50247F8435BB07F924588F3714B65CEAE08CFED1AA94AEBE6",
+        "Path":  "<experiment>\\inputs-final\\qual_silence.pdf"
+    }
+]

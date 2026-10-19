@@ -1,0 +1,241 @@
+[
+  {
+    "page": 1,
+    "xref": 15,
+    "type": [
+      0,
+      "Text"
+    ],
+    "info": {
+      "content": "Original author note: preserve this note in the working copy.",
+      "name": "Note",
+      "title": "Original Author",
+      "creationDate": "",
+      "modDate": "",
+      "subject": "",
+      "id": "fitz-A0"
+    },
+    "color": {
+      "stroke": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "fill": []
+    },
+    "opacity": -1,
+    "vertices": null
+  },
+  {
+    "page": 1,
+    "xref": 18,
+    "type": [
+      8,
+      "Highlight"
+    ],
+    "info": {
+      "content": "[Needs verification｜Major｜C1] Recruitment and access are explicitly unreported in this excerpt. In the full methods, explain how the three programs and nine teachers were selected, who invited participation, the basis for inclusion, and the researcher's role and relationship to the teams. These details matter here because access through managers or existing relationships could shape whose accounts are available and how concerns about speaking are expressed. Report the actual arrangements and any relevant reflexive considerations; the omission in this excerpt does not establish that recruitment or access procedures were inadequate.",
+      "name": "",
+      "title": "AI 模拟审稿",
+      "creationDate": "",
+      "modDate": "",
+      "subject": "C1",
+      "id": "fitz-A1"
+    },
+    "color": {
+      "stroke": [
+        0.20000000298023224,
+        0.550000011920929,
+        1.0
+      ],
+      "fill": []
+    },
+    "opacity": 0.30000001192092896,
+    "vertices": [
+      [
+        329.2949523925781,
+        198.6875
+      ],
+      [
+        544.5100708007812,
+        198.6875
+      ],
+      [
+        329.2949523925781,
+        213.801513671875
+      ],
+      [
+        544.5100708007812,
+        213.801513671875
+      ],
+      [
+        45.0,
+        213.46875
+      ],
+      [
+        406.9439697265625,
+        213.46875
+      ],
+      [
+        45.0,
+        228.582763671875
+      ],
+      [
+        406.9439697265625,
+        228.582763671875
+      ]
+    ]
+  },
+  {
+    "page": 1,
+    "xref": 20,
+    "type": [
+      8,
+      "Highlight"
+    ],
+    "info": {
+      "content": "[Needs verification｜Major｜C2] This provides the focus of comparison but not enough of the analytic process to assess how the interpretation was developed. In the full methods, explain what counted as an episode or case, how interview accounts were compared with meeting records, how these two illustrative cases relate to the wider material, and how discrepant accounts or alternative interpretations were considered. Clarify which sources support the email, later agenda and partial adoption in Marta's sequence, and the limits of the record supporting the absence of a later proposal from Amir. Distinguish participants' stated intentions from the researcher's interpretation. Verify these reporting details from the actual study records; their absence from the excerpt does not establish that these analytic procedures were omitted.",
+      "name": "",
+      "title": "AI 模拟审稿",
+      "creationDate": "",
+      "modDate": "",
+      "subject": "C2",
+      "id": "fitz-A2"
+    },
+    "color": {
+      "stroke": [
+        0.20000000298023224,
+        0.550000011920929,
+        1.0
+      ],
+      "fill": []
+    },
+    "opacity": 0.30000001192092896,
+    "vertices": [
+      [
+        355.56298828125,
+        169.125
+      ],
+      [
+        521.8499755859375,
+        169.125
+      ],
+      [
+        355.56298828125,
+        184.239013671875
+      ],
+      [
+        521.8499755859375,
+        184.239013671875
+      ],
+      [
+        45.0,
+        183.90625
+      ],
+      [
+        521.8610229492188,
+        183.90625
+      ],
+      [
+        45.0,
+        199.020263671875
+      ],
+      [
+        521.8610229492188,
+        199.020263671875
+      ],
+      [
+        45.0,
+        198.6875
+      ],
+      [
+        326.2369384765625,
+        198.6875
+      ],
+      [
+        45.0,
+        213.801513671875
+      ],
+      [
+        326.2369384765625,
+        213.801513671875
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "xref": 22,
+    "type": [
+      8,
+      "Highlight"
+    ],
+    "info": {
+      "content": "[Definite error｜Major｜C3] The universal conclusion conflicts with the distinction developed in the findings (p. 1, Marta and Amir) and the preceding paragraph here. Marta describes waiting before an alternative intervention; Amir describes concern about the manager's reaction, without a stated intention to resist or a documented planned alternative intervention. These accounts do not support classifying every silence as deliberate resistance or claiming that all silent teachers intended to intervene. The same paragraph also asserts equal influence: the excerpt traces partial adoption of Marta's proposal but provides no comparison with frequent speakers that establishes equality. Remove or reformulate these claims around the distinction the cases actually support, for example: 'The cases distinguish waiting as part of an intervention from silence under anticipated sanction.' The preceding interpretation of heterogeneous silence and the following recommendation about responsive routes for contributions can be retained.",
+      "name": "",
+      "title": "AI 模拟审稿",
+      "creationDate": "",
+      "modDate": "",
+      "subject": "C3",
+      "id": "fitz-A0"
+    },
+    "color": {
+      "stroke": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "fill": []
+    },
+    "opacity": 0.30000001192092896,
+    "vertices": [
+      [
+        45.0,
+        183.90625
+      ],
+      [
+        533.4990234375,
+        183.90625
+      ],
+      [
+        45.0,
+        199.020263671875
+      ],
+      [
+        533.4990234375,
+        199.020263671875
+      ],
+      [
+        45.0,
+        198.6875
+      ],
+      [
+        526.1510009765625,
+        198.6875
+      ],
+      [
+        45.0,
+        213.801513671875
+      ],
+      [
+        526.1510009765625,
+        213.801513671875
+      ],
+      [
+        45.0,
+        213.46875
+      ],
+      [
+        224.76194763183594,
+        213.46875
+      ],
+      [
+        45.0,
+        228.582763671875
+      ],
+      [
+        224.76194763183594,
+        228.582763671875
+      ]
+    ]
+  }
+]

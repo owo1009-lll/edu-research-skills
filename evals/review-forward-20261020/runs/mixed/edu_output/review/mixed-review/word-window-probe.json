@@ -1,0 +1,172 @@
+﻿[
+    {
+        "Handle":  9964444,
+        "Class":  "HardwareMonitorWindowClass",
+        "Caption":  "HardwareMonitorWindow"
+    },
+    {
+        "Handle":  1248242,
+        "Class":  "MsoStdCompMgr",
+        "Caption":  ""
+    },
+    {
+        "Handle":  2624014,
+        "Class":  "OleDdeWndClass",
+        "Caption":  "DDE Server Window"
+    },
+    {
+        "Handle":  26085878,
+        "Class":  "_WwO",
+        "Caption":  ""
+    },
+    {
+        "Handle":  19729054,
+        "Class":  "OpusApp",
+        "Caption":  "mixed_feedback_审稿标注版  -  只读  -  兼容性模式 - Word"
+    },
+    {
+        "Handle":  25955052,
+        "Class":  "OfficePowerManagerWindow",
+        "Caption":  "OfficePowerManagerWindow"
+    },
+    {
+        "Handle":  151849782,
+        "Class":  "ARC Event Window 00",
+        "Caption":  ""
+    },
+    {
+        "Handle":  89066358,
+        "Class":  "ARC Event Window 00",
+        "Caption":  ""
+    },
+    {
+        "Handle":  5965472,
+        "Class":  "ARC Event Window 00",
+        "Caption":  ""
+    },
+    {
+        "Handle":  25168502,
+        "Class":  "ThunderMain",
+        "Caption":  ""
+    },
+    {
+        "Handle":  5966468,
+        "Class":  "OpusApp",
+        "Caption":  ""
+    },
+    {
+        "Handle":  4197196,
+        "Class":  "MsoWorkPane",
+        "Caption":  ""
+    },
+    {
+        "Handle":  12913504,
+        "Class":  "IME",
+        "Caption":  "Default IME"
+    },
+    {
+        "Handle":  2689598,
+        "Class":  "_WwF",
+        "Caption":  ""
+    },
+    {
+        "Handle":  2427582,
+        "Class":  "_WwB",
+        "Caption":  "mixed_feedback_审稿标注版  -  只读  -  兼容性模式"
+    },
+    {
+        "Handle":  721216,
+        "Class":  "_WwG",
+        "Caption":  "Microsoft Word 文档"
+    },
+    {
+        "Handle":  12913124,
+        "Class":  "NUIScrollbar",
+        "Caption":  "垂直"
+    },
+    {
+        "Handle":  5833754,
+        "Class":  "NetUIHWND",
+        "Caption":  ""
+    },
+    {
+        "Handle":  5704326,
+        "Class":  "MsoWorkPane",
+        "Caption":  ""
+    },
+    {
+        "Handle":  3476190,
+        "Class":  "NUIPane",
+        "Caption":  ""
+    },
+    {
+        "Handle":  7407698,
+        "Class":  "NetUIHWND",
+        "Caption":  ""
+    },
+    {
+        "Handle":  3542008,
+        "Class":  "MsoWorkPane",
+        "Caption":  ""
+    },
+    {
+        "Handle":  31787952,
+        "Class":  "NUIPane",
+        "Caption":  ""
+    },
+    {
+        "Handle":  1181762,
+        "Class":  "NetUIHWND",
+        "Caption":  ""
+    },
+    {
+        "Handle":  1901522,
+        "Class":  "_WwF",
+        "Caption":  ""
+    },
+    {
+        "Handle":  2362346,
+        "Class":  "_WwB",
+        "Caption":  ""
+    },
+    {
+        "Handle":  6752594,
+        "Class":  "_WwG",
+        "Caption":  "Microsoft Word 文档"
+    },
+    {
+        "Handle":  525950,
+        "Class":  "NUIScrollbar",
+        "Caption":  "垂直"
+    },
+    {
+        "Handle":  30345296,
+        "Class":  "NetUIHWND",
+        "Caption":  ""
+    },
+    {
+        "Handle":  2492972,
+        "Class":  "NUIScrollbar",
+        "Caption":  "水平"
+    },
+    {
+        "Handle":  7146058,
+        "Class":  "NetUIHWND",
+        "Caption":  ""
+    },
+    {
+        "Handle":  4459116,
+        "Class":  "_WwK",
+        "Caption":  ""
+    },
+    {
+        "Handle":  2099574,
+        "Class":  "NUIPane",
+        "Caption":  ""
+    },
+    {
+        "Handle":  3803886,
+        "Class":  "NetUIHWND",
+        "Caption":  ""
+    }
+]

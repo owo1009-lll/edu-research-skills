@@ -143,6 +143,44 @@ class Annotations(unittest.TestCase):
             self.assertTrue(all(an.type[0] == fitz.PDF_ANNOT_HIGHLIGHT for an in annots[1:]))
             self.assertTrue(any('明确错误' in an.info['content'] for an in annots))
 
+    def test_english_native_comment_labels_follow_plan_language(self):
+        import fitz
+        from docx import Document
+        expected = [
+            '[Definite error｜Major｜C1] Counts conflict within the manuscript.',
+            '[Argument/expression suggestion｜Minor｜C2] Explain the proposed relation.',
+            '[Needs verification｜Minor｜C3] Check when the plan was fixed.',
+        ]
+        for extension in ('docx', 'pdf'):
+            with self.subTest(extension=extension):
+                source, plan = self.source(extension)
+                plan['comment_language'] = 'en'
+                plan['annotations'] = plan['annotations'][:3]
+                for entry, comment in zip(plan['annotations'], expected):
+                    entry['comment'] = comment.split('] ', 1)[1]
+                result = a.apply(source, plan)
+                output = Path(result['output'])
+                self.assertTrue(a.verify(source, output, plan)['preserved_source'])
+                if extension == 'docx':
+                    comments = list(Document(output).comments)
+                    actual = [c.text for c in comments[1:]]
+                    authors = [c.author for c in comments[1:]]
+                else:
+                    with fitz.open(output) as doc:
+                        page = doc[0]
+                        comments = list(page.annots())[1:]
+                        actual = [c.info['content'] for c in comments]
+                        authors = [c.info['title'] for c in comments]
+                self.assertEqual(actual, expected)
+                self.assertEqual(authors, ['AI 模拟审稿'] * 3)
+
+    def test_unknown_comment_language_rejected_before_output(self):
+        source, plan = self.source('docx')
+        plan['comment_language'] = 'eng'
+        with self.assertRaisesRegex(ValueError, 'comment_language'):
+            a.apply(source, plan)
+        self.assertEqual(list(self.folder.glob('*审稿标注版*')), [])
+
     def test_pdf_rotated_and_multiline_anchors(self):
         source, plan = self.source('pdf')
         inv = a.inventory(source)

@@ -1,0 +1,1 @@
+Get-Content -LiteralPath '<experiment>\runs\qual\edu_output\review\submission-review\anchors.json' -Encoding UTF8 -Raw

@@ -1,0 +1,117 @@
+python-docx>=1.2,<2
+lxml>=4.9,<7
+PyMuPDF>=1.24,<2
+
+"""Native annotations without rewriting manuscript content.
+
+inventory SOURCE --output anchors.json
+apply SOURCE --plan annotations.json [--output NAME_审稿标注版.docx|pdf]
+verify SOURCE ANNOTATED --plan annotations.json
+
+Plans are internal working records. Deliver only the annotated manuscript.
+"""
+from __future__ import annotations
+
+import argparse
+from copy import deepcopy
+from datetime import datetime
+import hashlib
+import json
+from pathlib import Path
+import posixpath
+import tempfile
+import zipfile
+
+from lxml import etree as ET
+
+W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
+R = 'http://schemas.openxmlformats.org/package/2006/relationships'
+CT = 'http://schemas.openxmlformats.org/package/2006/content-types'
+COMMENTS_REL = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments'
+AUTHOR = 'AI 模拟审稿'
+KINDS = {
+    'improvement': ('yellow', (1, 1, 0), '论证/表达建议'),
+    'error': ('red', (1, 0, 0), '明确错误'),
+    'verify': ('blue', (0.2, 0.55, 1), '待核实'),
+}
+COMMENT_LABELS = {
+    'zh': {kind: values[2] for kind, values in KINDS.items()},
+    'en': {'improvement': 'Argument/expression suggestion',
+           'error': 'Definite error', 'verify': 'Needs verification'},
+}
+DOC = 'word/document.xml'
+RELS = 'word/_rels/document.xml.rels'
+
+
+def w(name):
+    return f'{{{W}}}{name}'
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def xml(data):
+    return ET.fromstring(data, ET.XMLParser(resolve_entities=False, no_network=True))
+
+
+def serial(node):
+    return ET.tostring(node, encoding='UTF-8', xml_declaration=True, standalone=True)
+
+
+def canonical(node):
+    return ET.tostring(node, method='c14n')
+
+
+def fail(message):
+    raise ValueError(message)
+
+
+def package(path):
+    with zipfile.ZipFile(path) as z:
+        names = z.namelist()
+        if len(names) != len(set(names)):
+            fail('Duplicate ZIP entries are unsupported.')
+        if any(n.startswith('_xmlsignatures/') for n in names):
+            fail('Digitally signed DOCX is unsupported; annotation would invalidate its signature.')
+        return {n: z.read(n) for n in names}
+
+
+def visible_runs(paragraph):
+    """Stable offsets for body/table paragraph text, including visible insertions."""
+    offset = 0
+    for run in paragraph.iter(w('r')):
+        if next(run.iterancestors(w('p')), None) is not paragraph:
+            continue  # a nested textbox has its own paragraph
+        if any(a.tag in (w('del'), w('moveFrom')) for a in run.iterancestors()):
+            continue
+        text = ''.join((n.text or '') if n.tag == w('t') else
+                       '\t' if n.tag == w('tab') else '\n'
+                       for n in run if n.tag in (w('t'), w('tab'), w('br'), w('cr')))
+        if text:
+            yield run, offset, offset + len(text), text
+            offset += len(text)
+
+
+def ptext(paragraph):
+    return ''.join(t for _, _, _, t in visible_runs(paragraph))
+
+
+def paragraphs(root):
+    return list(root.iter(w('p')))
+
+
+def plain(run):
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4BDB9B968B1E0FD3A0748B1CE9A3F72564F09A10C9A0113E0AF99F72A3777342",
+        "Path":  "<experiment>\\snapshot\\skills\\edu-review\\requirements.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F5D3E3C66E74AA3DFC0986FD311813B15A3861E504916AC070D3C0AF62EED65C",
+        "Path":  "<experiment>\\snapshot\\skills\\edu-review\\scripts\\annotate_manuscript.py"
+    }
+]
+{"units": 35, "output": "<experiment>\\runs\\qual\\edu_output\\review\\submission-review\\anchors.json"}

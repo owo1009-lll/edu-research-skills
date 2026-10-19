@@ -1,0 +1,72 @@
+test_empty_plan_passes_and_never_overwrites (test_review_annotations.Annotations.test_empty_plan_passes_and_never_overwrites) ... ok
+test_english_native_comment_labels_follow_plan_language (test_review_annotations.Annotations.test_english_native_comment_labels_follow_plan_language) ... 
+  test_english_native_comment_labels_follow_plan_language (test_review_annotations.Annotations.test_english_native_comment_labels_follow_plan_language) (extension='docx') ... FAIL
+  test_english_native_comment_labels_follow_plan_language (test_review_annotations.Annotations.test_english_native_comment_labels_follow_plan_language) (extension='pdf') ... FAIL
+test_overlap_and_unsupported_field_anchor_rejected (test_review_annotations.Annotations.test_overlap_and_unsupported_field_anchor_rejected) ... ok
+test_pdf_modified_comment_or_page_content_fails (test_review_annotations.Annotations.test_pdf_modified_comment_or_page_content_fails) ... ok
+test_pdf_native_comments_existing_note_and_exact_repeated_number (test_review_annotations.Annotations.test_pdf_native_comments_existing_note_and_exact_repeated_number) ... ok
+test_pdf_rotated_and_multiline_anchors (test_review_annotations.Annotations.test_pdf_rotated_and_multiline_anchors) ... ok
+test_unknown_comment_language_rejected_before_output (test_review_annotations.Annotations.test_unknown_comment_language_rejected_before_output) ... FAIL
+test_word_preserves_text_tables_images_fields_comments_and_revisions (test_review_annotations.Annotations.test_word_preserves_text_tables_images_fields_comments_and_revisions) ... ok
+test_word_tampering_with_text_comment_revision_or_image_fails (test_review_annotations.Annotations.test_word_tampering_with_text_comment_revision_or_image_fails) ... ok
+test_word_without_comment_part_and_partial_multirun_anchor (test_review_annotations.Annotations.test_word_without_comment_part_and_partial_multirun_anchor) ... ok
+test_wrong_anchor_and_changed_source_rejected_without_output (test_review_annotations.Annotations.test_wrong_anchor_and_changed_source_rejected_without_output) ... ok
+
+======================================================================
+FAIL: test_english_native_comment_labels_follow_plan_language (test_review_annotations.Annotations.test_english_native_comment_labels_follow_plan_language) (extension='docx')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>\tests\test_review_annotations.py", line 174, in test_english_native_comment_labels_follow_plan_language
+    self.assertEqual(actual, expected)
+AssertionError: Lists differ: ['[明确错误｜主要｜C1] Counts conflict within the ma[102 chars]ed.'] != ['[Definite error｜Major｜C1] Counts conflict [159 chars]ed.']
+
+First differing element 0:
+'[明确错误｜主要｜C1] Counts conflict within the manuscript.'
+'[Definite error｜Major｜C1] Counts conflict within the manuscript.'
+
+- ['[明确错误｜主要｜C1] Counts conflict within the manuscript.',
+?    ^^^^ ^^
+
++ ['[Definite error｜Major｜C1] Counts conflict within the manuscript.',
+?    ^^^^^^^^^^^^^^ ^^^^^
+
+-  '[论证/表达建议｜次要｜C2] Explain the proposed relation.',
+-  '[待核实｜次要｜C3] Check when the plan was fixed.']
++  '[Argument/expression suggestion｜Minor｜C2] Explain the proposed relation.',
++  '[Needs verification｜Minor｜C3] Check when the plan was fixed.']
+
+======================================================================
+FAIL: test_english_native_comment_labels_follow_plan_language (test_review_annotations.Annotations.test_english_native_comment_labels_follow_plan_language) (extension='pdf')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>\tests\test_review_annotations.py", line 174, in test_english_native_comment_labels_follow_plan_language
+    self.assertEqual(actual, expected)
+AssertionError: Lists differ: ['[明确错误｜主要｜C1] Counts conflict within the ma[102 chars]ed.'] != ['[Definite error｜Major｜C1] Counts conflict [159 chars]ed.']
+
+First differing element 0:
+'[明确错误｜主要｜C1] Counts conflict within the manuscript.'
+'[Definite error｜Major｜C1] Counts conflict within the manuscript.'
+
+- ['[明确错误｜主要｜C1] Counts conflict within the manuscript.',
+?    ^^^^ ^^
+
++ ['[Definite error｜Major｜C1] Counts conflict within the manuscript.',
+?    ^^^^^^^^^^^^^^ ^^^^^
+
+-  '[论证/表达建议｜次要｜C2] Explain the proposed relation.',
+-  '[待核实｜次要｜C3] Check when the plan was fixed.']
++  '[Argument/expression suggestion｜Minor｜C2] Explain the proposed relation.',
++  '[Needs verification｜Minor｜C3] Check when the plan was fixed.']
+
+======================================================================
+FAIL: test_unknown_comment_language_rejected_before_output (test_review_annotations.Annotations.test_unknown_comment_language_rejected_before_output)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<repository>\tests\test_review_annotations.py", line 180, in test_unknown_comment_language_rejected_before_output
+    with self.assertRaisesRegex(ValueError, 'comment_language'):
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.890s
+
+FAILED (failures=3)

@@ -1,0 +1,48 @@
+{
+  "checked_utc": "2026-10-19T23:24:12.895377+00:00",
+  "comparison_commit": "963cdf4a40d1b07690c1809208916d4a207fe3ba",
+  "status": "passed",
+  "english_new_candidates": 51,
+  "english_acquired_fulltexts": 37,
+  "english_new_empirical_or_boundary_analyses": 34,
+  "confirmed_empirical_groups": {
+    "quantitative": 11,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 11,
+    "mixed": 11
+  },
+  "english_methodological_application_analyses": 1,
+  "english_rereads_separate": 2,
+  "unchanged_previous_reading_records": 56,
+  "historical_chinese_records_unchanged": 4,
+  "new_full_analyses": [
+    "M-N19"
+  ],
+  "new_reading_records": 0,
+  "source_pdf_pages": 16,
+  "actually_viewed_page_image_hashes_verified": 8,
+  "analysis_note_reading_hash_references_verified": 37,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [
+    "skills/edu-review/references/annotations.md",
+    "skills/edu-review/scripts/annotate_manuscript.py"
+  ],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "writing_ppt_statistics_journal_runtime_unchanged": true,
+  "review_regression_test_methods_passed": 37,
+  "repository_contract_tests_passed": 10,
+  "review_skill_metadata_validation": "passed",
+  "fresh_english_synthetic_review_tasks": 3,
+  "review_archived_artifacts": 141,
+  "review_exact_frozen_resources_preserved": 7,
+  "review_actual_native_output_verification": "3 passed; source preservation and plan correspondence",
+  "visual_scope": "Root read six annotated manuscript pages and two Word balloon pages; agents also inspected original pages. PDF interactive popups not visually checked.",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 97,
+  "authored_relative_markdown_links_checked_excluding_this_record": 292,
+  "verification_parser_incident": "The first audit assumed UTF-8 for every raw JSON. It encountered native PowerShell UTF-16 output; the reader was updated to respect BOMs. Archived original bytes were not normalized.",
+  "note": "English public source analysis and synthetic review validation remain separate. No new Chinese source/task, no final writing holdout, no whole-goal completion claim.",
+  "staged_public_archive_files_verified_against_hashes": 141,
+  "authored_whitespace_warnings": 0,
+  "archive_staging_note": "Repository-wide edu_output ignore was overridden only for these three public synthetic run output folders; all archived files were checked in the Git index before commit."
+}

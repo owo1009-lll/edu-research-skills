@@ -861,10 +861,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_and_opening_screened_only",
-      "read_scope": "Crossref identity and first PDF page screened; remaining pages not read.",
-      "use_status": "pending_full_reading_and_classification",
-      "reading_sha256": "f8e35c7533c98b8c89c9a2a92e899c9831a1294b2009e8704b390092bb524546"
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B016; complete main text, Tables 1-4 including embedded charts, declarations and references; rendered PDF pages 5-9 and 12-14 actually inspected",
+      "use_status": "selected_response_category_interpretation_and_enactment_moves; numerical reporting conflicts and self-report scope retained",
+      "reading_sha256": "f8e35c7533c98b8c89c9a2a92e899c9831a1294b2009e8704b390092bb524546",
+      "confirmed_group": "mixed",
+      "analysis": "papers/M-N19.md",
+      "not_read": "Raw data, complete instruments, full transcripts, linked policy materials and cited originals",
+      "classification_note": "Convergent design; joint display plus open responses interpreting quantitative categories; anonymous strands cannot be individually matched"
     }
   ],
   "current_scope": {

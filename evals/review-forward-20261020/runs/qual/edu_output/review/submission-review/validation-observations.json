@@ -1,0 +1,38 @@
+{
+  "review_scope": "English qualitative manuscript excerpt; supplied draft only; no external research or additional research materials used.",
+  "substantive_findings": [
+    "C1: blue, major; recruitment and entry into teams need reporting verification; absence in excerpt is not treated as evidence of misconduct or invalid methods.",
+    "C2: blue, major; analytic comparison, case selection and source attribution need reporting verification; no imposed quantitative criteria.",
+    "C3: red, major; paragraph universalizing silence as deliberate resistance/intent conflicts with the provided contrast and heterogeneous interpretation, and equal influence is not established by the excerpt."
+  ],
+  "preserved_reasoning": "The heterogeneous interpretation of silence and subsequent leadership recommendation are retained; no blanket weakening of qualitative claims.",
+  "structural_checks": {
+    "frozen_helper_apply": "passed",
+    "frozen_helper_verify": "passed",
+    "source_sha256_unchanged": true,
+    "original_note_preserved": true,
+    "new_annotations": 3,
+    "all_comments_language": "English",
+    "new_author": "AI 模拟审稿"
+  },
+  "visual_checks": {
+    "source_pages_inspected": [
+      1,
+      2
+    ],
+    "annotated_pages_inspected": [
+      1,
+      2
+    ],
+    "renderer": "PyMuPDF 1.27.2.2",
+    "method": "Rendered PNGs opened using view_image and visually inspected.",
+    "findings": "Text is readable and page geometry unchanged. Blue highlights anchor only the two methods passages; red highlight covers the overclaim paragraph. Original yellow note remains. No tables or figures are present. Adjacent blue ranges meet at the sentence boundary but do not overlap.",
+    "native_comment_contents": "Read back from annotated PDF and inspected in full.",
+    "interactive_popups": "Not visually inspected. Default-reader launch succeeded with Hidden window style; this does not establish UI usability."
+  },
+  "limitations": [
+    "Full transcripts and supporting study records were not supplied.",
+    "No literature section or target-journal template supplied; novelty and journal-specific compliance were not assessed.",
+    "Desktop reader was launched but comment popup display was not visually tested."
+  ]
+}

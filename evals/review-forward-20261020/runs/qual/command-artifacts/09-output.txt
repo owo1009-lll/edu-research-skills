@@ -1,0 +1,22 @@
+{
+  "annotation_plan": "annotations-v2.json",
+  "existing_source_annotations": [
+    {
+      "page": 1,
+      "xref": 15,
+      "type": [
+        0,
+        "Text"
+      ],
+      "info": {
+        "content": "Original author note: preserve this note in the working copy.",
+        "name": "Note",
+        "title": "Original Author",
+        "creationDate": "",
+        "modDate": "",
+        "subject": "",
+        "id": "fitz-A0"
+      }
+    }
+  ]
+}

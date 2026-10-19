@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "comment_language": "en",
+  "source_sha256": "97b46f82ed7ce34a42b9bc573867b4ad98b1183c5e7791fbfff737a652c4b696",
+  "created_utc": "2026-10-19T23:10:47.903928Z",
+  "annotations": [
+    {
+      "id": "C1",
+      "kind": "error",
+      "severity": "major",
+      "comment": "The abstract reports 52 students; Methods and Table 1 report 48 completed responses (24 + 24), with 48 as the usefulness denominator. This establishes an internal inconsistency, not which count is correct. Reconcile the counts against the study records, distinguishing any different populations or exclusions. Also describe the finding as 31 respondents rating the feedback useful; the excerpt provides no measured learning gains to support a broader benefit claim.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 3,
+          "text_sha256": "68566d13eb95f90607bc3c935c7dabc0a6740cceda4e15a8bf23911ce45fe98f",
+          "start": 0,
+          "end": 66,
+          "quote": "Survey responses from 52 students showed that feedback was useful."
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "kind": "verify",
+      "severity": "minor",
+      "comment": "The excerpt does not provide the usefulness item, response options, or positive-rating rule. These details are needed to interpret the 31 favorable responses and relate perceived usefulness to interview accounts. Report them in the full Methods or instrument appendix, including treatment of any missing item responses. Their absence here does not establish that measurement procedures were omitted.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 5,
+          "text_sha256": "9f094f737cbfa2863a6ad475ff77e1b03d86b51500db7ca27af007e462d39e62",
+          "start": 163,
+          "end": 212,
+          "quote": "Thirty-one respondents rated the feedback useful."
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "kind": "verify",
+      "severity": "major",
+      "comment": "The interview prompts/timing, analytic approach, and supporting excerpts are not supplied, so the grounding of the six timing accounts and two later-use accounts cannot be assessed. In the full paper, provide these details and contextualized case evidence; clarify whether the two descriptions overlap and how exceptions were considered. This is an evidence gap in the excerpt, not a finding that analysis was not done.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 15,
+          "text_sha256": "c58256537615a72ab9f3d261265707569a1742cb391dbc992aa1ab2f369f39f5",
+          "start": 164,
+          "end": 267,
+          "quote": "Six described receiving useful comments too close to the next submission deadline to revise their work."
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "kind": "error",
+      "severity": "major",
+      "comment": "This contradicts the preceding interview paragraph: even survey participation could not be determined, and the survey collected no linkage identifier. The Discussion also correctly says favorable respondents cannot be matched to timing accounts. Under the stated design, subgroup membership cannot be established. Align this sentence with that lack of linkage and integrate the survey pattern with interview accounts at the group or conceptual level.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 16,
+          "text_sha256": "01b9ad7533697b323e2814d8b6e0cdcb4041c0afd8f902854ed2c436d429da06",
+          "start": 0,
+          "end": 59,
+          "quote": "All interviewees belonged to the favorable-rating subgroup."
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "kind": "error",
+      "severity": "major",
+      "comment": "Methods states that no learning-gain test was collected, and the interview paragraph limits its evidence to reported opportunities and uses. No statistical mechanism analysis is reported. These accounts cannot establish improved achievement or validate that mechanism. Instead, integrate favorable survey ratings with interview accounts of timing constraints and later use. The Discussion already makes this defensible distinction; its concrete scheduling recommendation can stand. See C4 for the separate linkage contradiction.",
+      "anchors": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 16,
+          "text_sha256": "01b9ad7533697b323e2814d8b6e0cdcb4041c0afd8f902854ed2c436d429da06",
+          "start": 60,
+          "end": 156,
+          "quote": "Their accounts validate the statistical mechanism by which useful feedback improved achievement."
+        }
+      ]
+    }
+  ]
+}

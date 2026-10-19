@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "source_sha256": "97b46f82ed7ce34a42b9bc573867b4ad98b1183c5e7791fbfff737a652c4b696",
+  "source_name": "mixed_feedback.docx",
+  "units": [
+    {
+      "part": "word/document.xml",
+      "paragraph": 0,
+      "text": "Access to feedback in asynchronous seminars",
+      "text_sha256": "0b3645e1dd2cf94938b9f4279088fee0b3cb48c9a9d8f60b84ad84628e0ebd7e",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 1,
+      "text": "PUBLIC SYNTHETIC MANUSCRIPT. All data, events and participants are invented for behavioral testing. This excerpt is not evidence about an actual course.",
+      "text_sha256": "898813c48c4a2f5804e95ca80fd77bfb2a33926963a75b6b40c449b10ed3789d",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 2,
+      "text": "Abstract",
+      "text_sha256": "d21b4a64a2d8656a0fdf7ab2e89a49164ac504686cfa2a3d442e87c209286330",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 3,
+      "text": "Survey responses from 52 students showed that feedback was useful. Interviews added an account of how students used it. The study connects reported value with the timing and accessibility of feedback, rather than assuming that a favorable rating implies an opportunity to act.",
+      "text_sha256": "68566d13eb95f90607bc3c935c7dabc0a6740cceda4e15a8bf23911ce45fe98f",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 4,
+      "text": "Methods and results",
+      "text_sha256": "0f1b87e5051110194b288da6e0e8ca209a6f6ae2fa6dea17d129cce00515a950",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 5,
+      "text": "The survey contained 48 completed responses from two seminar groups. It was anonymous and collected no identifier that could link a response to a later interview. Thirty-one respondents rated the feedback useful. Students were not assigned to different feedback conditions, and no test of learning gains was collected.",
+      "text_sha256": "9f094f737cbfa2863a6ad475ff77e1b03d86b51500db7ca27af007e462d39e62",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 6,
+      "text": "Seminar group",
+      "text_sha256": "ef35abdf7ce62fdc693b2b22a36f314ec390655d20e3a6ed1921e8553c7cc3ee",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 7,
+      "text": "Completed responses",
+      "text_sha256": "d60bc84ba48f3bbfe123dae728fd7c014ba0a6aaf2e6f38e2cc94ab44231b9bc",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 8,
+      "text": "A",
+      "text_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 9,
+      "text": "24",
+      "text_sha256": "c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c5319db",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 10,
+      "text": "B",
+      "text_sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 11,
+      "text": "24",
+      "text_sha256": "c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c5319db",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 12,
+      "text": "Total",
+      "text_sha256": "c9b3c38247f744e17dd26fda097d6a9ba9332586b6bdaa038bf8f313a863f2b8",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 13,
+      "text": "48",
+      "text_sha256": "98010bd9270f9b100b6214a21754fd33bdc8d41b2bc9f9dd16ff54d3c34ffd71",
+      "in_table": true
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 14,
+      "text": "Table 1. Complete survey responses. The denominator for the usefulness rating is 48.",
+      "text_sha256": "f26502e20853fe904bc1ff89775f14897fd28b838e2c51d26ca4d970d11028c4",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 15,
+      "text": "Eight students volunteered for later interviews. Whether these students had answered the survey, and which response each might have given, could not be determined. Six described receiving useful comments too close to the next submission deadline to revise their work. Two described using comments to plan a later assignment. These accounts concern reported opportunities and uses, not observed changes in attainment.",
+      "text_sha256": "c58256537615a72ab9f3d261265707569a1742cb391dbc992aa1ab2f369f39f5",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 16,
+      "text": "All interviewees belonged to the favorable-rating subgroup. Their accounts validate the statistical mechanism by which useful feedback improved achievement.",
+      "text_sha256": "01b9ad7533697b323e2814d8b6e0cdcb4041c0afd8f902854ed2c436d429da06",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 17,
+      "text": "",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 18,
+      "text": "Figure 1. Equal bar heights represent the two survey group sizes, not measured learning outcomes.",
+      "text_sha256": "9f2e777fc0ca164b31e5a032cf884ba744c912abd690a213ceda44481e3e7b38",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 19,
+      "text": "Discussion",
+      "text_sha256": "5eb6cf647d2c5d14a044e2d103dcef4cf0cdc872434c374debc1043092bc4746",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 20,
+      "text": "The analysis distinguishes perceived value from an opportunity to act on feedback. A comment can be regarded as useful yet arrive too late for the next task. The separate samples do not show which favorable survey respondents experienced a timing constraint.",
+      "text_sha256": "d1e3b7b428456356eb8457e7ce50b549f3c9322ff65dc54771d60c66848b7884",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 21,
+      "text": "Course teams should schedule feedback early enough for students to use it before the next assessed task. This recommendation connects the reported timing problem to a concrete teaching decision; it is not a claim that changing the schedule has already improved learning.",
+      "text_sha256": "336899a2c1919f176f959aedd8bda4edf830199a90c483d82cf7514f7f5bf877",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 22,
+      "text": "Working terminology retained in tracked changes: opportunity to use feedback",
+      "text_sha256": "cc5d5db00b8e0be69d1728b66d87cbd89f9663881e7f95c203e771587bff0086",
+      "in_table": false
+    },
+    {
+      "part": "word/document.xml",
+      "paragraph": 23,
+      "text": "The supplied material is a methods/results/discussion excerpt. No raw survey data, interview transcripts, literature section or journal template is supplied.",
+      "text_sha256": "c20e178d695f3368c0c5bfe91715dbfdaf91d3e7dffa5c29587217eb877d4792",
+      "in_table": false
+    }
+  ]
+}

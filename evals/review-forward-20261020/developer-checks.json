@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "check": "archive_and_native_outputs",
+      "chunk_id": "b73fe9",
+      "wall_time_seconds": 0.5297562,
+      "exit_code": 0,
+      "original_token_count": 285,
+      "output": "{\r\n  \"archived_artifacts\": 141,\r\n  \"exact_frozen_resources\": 7,\r\n  \"full_runtime_checked\": true,\r\n  \"native_outputs\": [\r\n    {\r\n      \"case\": \"quant\",\r\n      \"result\": {\r\n        \"format\": \"pdf\",\r\n        \"annotations\": 6,\r\n        \"preserved_source\": true,\r\n        \"scope\": \"Every page rendered without annotations matches; exact anchors/comments/colors and existing annotations checked.\"\r\n      }\r\n    },\r\n    {\r\n      \"case\": \"qual\",\r\n      \"result\": {\r\n        \"format\": \"pdf\",\r\n        \"annotations\": 3,\r\n        \"preserved_source\": true,\r\n        \"scope\": \"Every page rendered without annotations matches; exact anchors/comments/colors and existing annotations checked.\"\r\n      }\r\n    },\r\n    {\r\n      \"case\": \"mixed\",\r\n      \"result\": {\r\n        \"format\": \"docx\",\r\n        \"annotations\": 5,\r\n        \"preserved_source\": true,\r\n        \"changed_parts\": [\r\n          \"word/document.xml\",\r\n          \"word/comments.xml\"\r\n        ],\r\n        \"comments_part\": \"word/comments.xml\",\r\n        \"scope\": \"Package, text/style, fields, tables, images, existing comments and revisions; opening/rendering is separate.\"\r\n      }\r\n    }\r\n  ]\r\n}\r\n"
+    },
+    {
+      "check": "repository_contracts",
+      "chunk_id": "0f5b86",
+      "wall_time_seconds": 0.1383471,
+      "exit_code": 0,
+      "original_token_count": 253,
+      "output": "test_contracts_present (test_contracts.RedLines.test_contracts_present) ... ok\r\ntest_writing_language_follows_journal (test_contracts.RedLines.test_writing_language_follows_journal) ... ok\r\ntest_codex_interface (test_contracts.Structure.test_codex_interface) ... ok\r\ntest_frontmatter (test_contracts.Structure.test_frontmatter) ... ok\r\ntest_packages_match_folders (test_contracts.Structure.test_packages_match_folders) ... ok\r\ntest_plugin_manifests_match_release (test_contracts.Structure.test_plugin_manifests_match_release) ... ok\r\ntest_readmes_mirror (test_contracts.Structure.test_readmes_mirror) ... ok\r\ntest_relative_links_resolve (test_contracts.Structure.test_relative_links_resolve) ... ok\r\ntest_root_document_links_resolve (test_contracts.Structure.test_root_document_links_resolve) ... ok\r\ntest_scripts_named_in_skills_exist (test_contracts.Structure.test_scripts_named_in_skills_exist) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 10 tests in 0.049s\r\n\r\nOK\r\n"
+    },
+    {
+      "check": "skill_metadata",
+      "chunk_id": "6da4ce",
+      "wall_time_seconds": 0.0954675,
+      "exit_code": 0,
+      "original_token_count": 5,
+      "output": "Skill is valid!\r\n"
+    }
+  ],
+  "note": "Actual tool results from this development increment. Structural checks are not writing-quality or GUI acceptance."
+}

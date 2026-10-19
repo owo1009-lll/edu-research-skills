@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "comment_language": "en",
+  "source_sha256": "e34001bd995d49249190adc39f60b2fa6164fb27bbdc2f8b7d1e733ea16624ce",
+  "created_utc": "2026-10-19T23:07:09Z",
+  "annotations": [
+    {
+      "id": "C1",
+      "kind": "error",
+      "severity": "major",
+      "comment": "The inference of equal effectiveness does not follow from p = .12 or from a confidence interval spanning zero. The reported interval (-0.05 to 0.41) also includes a positive difference that the Discussion identifies as potentially educationally meaningful. Equivalence would require a justified equivalence margin and a corresponding analysis; neither is reported here. Align the abstract with the Discussion: for example, \"The estimated between-condition difference was uncertain; the findings do not establish either superiority or equivalence.\" This concerns the interpretation, not proof that the numerical estimate is incorrect. See C2 for the model information needed to assess its uncertainty.",
+      "anchors": [
+        {
+          "page": 1,
+          "line": 5,
+          "text_sha256": "1b58d2f6c2355e0ef696e109f35b961cc40c3d6ad33958745039b4562baaf80f",
+          "start": 72,
+          "end": 95,
+          "quote": "The two approaches were"
+        },
+        {
+          "page": 1,
+          "line": 6,
+          "text_sha256": "72dec1595c15380ed4f7f3a2e8e8942adb1cffbce8519e2170904690a55e9474",
+          "start": 0,
+          "end": 28,
+          "quote": "therefore equally effective."
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "kind": "verify",
+      "severity": "major",
+      "comment": "Classes were randomized within schools, but this description does not specify how the analysis handled dependence among pupils in a class or the within-school allocation. A pupil-level regression is not inherently inappropriate; the model and inference must reflect the design. Report the model formula, treatment of school/block effects and class clustering, standard-error method, and degrees of freedom or small-sample adjustment used with only 12 randomized classes. If pupils were treated as independent for inference, reanalyse with a justified method that respects the allocation and update the estimate, interval and p value. Code/model output would allow verification; their absence here does not establish that the reported statistics are wrong. The final Discussion acknowledges this issue for a follow-up, but the current trial also needs it addressed.",
+      "anchors": [
+        {
+          "page": 1,
+          "line": 12,
+          "text_sha256": "ebe5d04ef2f4c175a0c8b2cebdcad642e7a9d8f11ea5dd85e3f09fcbbac226a5",
+          "start": 0,
+          "end": 87,
+          "quote": "An ordinary individual-level regression was fitted, with pupil as the unit of analysis."
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "kind": "error",
+      "severity": "major",
+      "comment": "A significant within-condition change (p = .02) and a nonsignificant change in the other condition (p = .21) do not establish that the changes differ between conditions. Those tests address separate null hypotheses. Base the comparative conclusion on the direct between-condition contrast, whose reported interval includes zero, rather than on the difference in significance labels. If a difference in change is an additional research question, estimate that contrast directly with inference reflecting class assignment. The present superiority statement also conflicts with both the abstract's equality claim (C1) and the Discussion's appropriate statement of uncertainty.",
+      "anchors": [
+        {
+          "page": 1,
+          "line": 17,
+          "text_sha256": "20a1307555b81fbfdef41007f7ec41f3ae0442b559878302311231412883f448",
+          "start": 55,
+          "end": 98,
+          "quote": "This difference in statistical significance"
+        },
+        {
+          "page": 1,
+          "line": 18,
+          "text_sha256": "b0deb5eb2e7b98588adbf65be7ab9d595b97f221b84af6b33d2cd9755c5c3a91",
+          "start": 0,
+          "end": 62,
+          "quote": "establishes that retrieval practice outperformed usual review."
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "kind": "verify",
+      "severity": "minor",
+      "comment": "Please define how this adjusted standardized contrast was calculated: the adjusted score contrast, standardizing SD, any small-sample correction, and the method used for its confidence interval and p value. The raw posttest means of 79 and 75 alone cannot verify or interpret this baseline-adjusted g. Reporting the test scale and an adjusted difference in score units with uncertainty would also help readers judge educational importance. This is a reporting/verification gap in the excerpt, not evidence of a numerical inconsistency; see C2 for the separate question of design-appropriate inference.",
+      "anchors": [
+        {
+          "page": 1,
+          "line": 5,
+          "text_sha256": "1b58d2f6c2355e0ef696e109f35b961cc40c3d6ad33958745039b4562baaf80f",
+          "start": 31,
+          "end": 71,
+          "quote": "g = 0.18, 95% CI [-0.05, 0.41], p = .12."
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "kind": "verify",
+      "severity": "minor",
+      "comment": "The intended contrast between retrieval and review is clear, but equal subject content and an eight-week duration do not by themselves establish comparable exposure time. Specify the usual-review activity, planned time per activity, and whether implementation evidence confirms comparable time and feedback across conditions. If time was not measured or controlled, identify this as the intended design distinction rather than a demonstrated explanation of the outcome. This would make the contribution more interpretable without changing the Discussion's justified statement that the performance comparison remains uncertain.",
+      "anchors": [
+        {
+          "page": 2,
+          "line": 3,
+          "text_sha256": "391ba309f176d0d1528bf2b936a611111d52930d09ad3d51538d4680d0c315d8",
+          "start": 31,
+          "end": 81,
+          "quote": "rather than simply increasing their exposure time."
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "kind": "verify",
+      "severity": "minor",
+      "comment": "Please identify the treatment assignments and experience of the eight respondents, and what activity the seven favorable responses referred to. The Methods allocates only six classes to retrieval practice, whereas this questionnaire includes eight of 12 class teachers; it is therefore unclear how many responses describe actually delivering retrieval practice. This is not necessarily a contradiction, since control teachers may have observed or tried it, but that context is needed to interpret feasibility. Retain the useful restriction to respondents and the distinction from student motivation. The conditional recommendation to provide preparation time and suitable questions has an explicit implementation rationale and does not require a superiority claim.",
+      "anchors": [
+        {
+          "page": 2,
+          "line": 6,
+          "text_sha256": "d4c69bceaf9916c26e59227b44f1d6dd29af6954c7e5ff0b2f2bbef8224232a2",
+          "start": 0,
+          "end": 77,
+          "quote": "Eight of the 12 class teachers returned a short implementation questionnaire."
+        }
+      ]
+    }
+  ]
+}

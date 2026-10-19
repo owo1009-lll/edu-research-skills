@@ -1,0 +1,3 @@
+$paths = @('<experiment>\snapshot\skills\edu-review\SKILL.md','<experiment>\snapshot\skills\edu-review\references\review-criteria.md','<experiment>\snapshot\skills\edu-review\references\annotations.md','<experiment>\snapshot\skills\edu-shared\references\integrity.md')
+foreach ($resourcePath in $paths) { Write-Output "RESOURCE: $resourcePath"; Get-Content -LiteralPath $resourcePath -Encoding UTF8 -Raw }
+Get-FileHash -Algorithm SHA256 -LiteralPath $paths | ConvertTo-Json

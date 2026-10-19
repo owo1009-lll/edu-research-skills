@@ -1,0 +1,14 @@
+{
+  "format": "pdf",
+  "annotations": 3,
+  "preserved_source": true,
+  "scope": "Every page rendered without annotations matches; exact anchors/comments/colors and existing annotations checked.",
+  "output": "<experiment>\\runs\\qual\\edu_output\\review\\submission-review\\qual_silence_审稿标注版.pdf",
+  "output_sha256": "64fc414e06c399802b85bdf68f97f92f571dbdf52c400477cfe9b5ea7d9fb9e3"
+}
+{
+  "format": "pdf",
+  "annotations": 3,
+  "preserved_source": true,
+  "scope": "Every page rendered without annotations matches; exact anchors/comments/colors and existing annotations checked."
+}

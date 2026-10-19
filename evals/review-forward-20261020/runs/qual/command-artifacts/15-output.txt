@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "user_deliverable": "<experiment>\\runs\\qual\\edu_output\\review\\submission-review\\qual_silence_审稿标注版.pdf",
+  "final_response_receipt": "<experiment>\\runs\\qual\\final-response.md",
+  "run_record": "<experiment>\\runs\\qual\\run-record.json",
+  "source_sha256_unchanged": true,
+  "structural_verification": "passed",
+  "rendered_page_visual_inspection": "both pages passed",
+  "interactive_popup_visual_inspection": "not performed"
+}

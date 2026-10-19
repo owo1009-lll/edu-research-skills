@@ -1,0 +1,28 @@
+Message 1
+Message Type: NEW_TASK
+Task name: /root/review_forward_mixed
+Sender: /root
+Payload:
+Perform an independent forward test of the frozen edu-review skill. Use <experiment>\snapshot\skills\edu-review\SKILL.md to complete this realistic user request, reading only the supporting resources needed: “Please review this English manuscript excerpt before journal submission. The research materials available for this task are limited to the supplied draft.” Raw manuscript: <experiment>\inputs-final\mixed_feedback.docx. The request is also in inputs-final\request.md. Do the task as the skill directs; do not infer an intended answer from this harness. Work only inside a new <experiment>\runs\mixed directory (you may copy the input there). Read only the assigned raw manuscript, request, frozen skill tree, and your own outputs. Do not inspect sibling cases, the repository, prior evaluations or the input generator. No external research, repo edits, commits, or messages to third parties. This is a synthetic public excerpt, and your substantive review should be in English. Preserve your actual initial plan and any subsequent plan versions, executed helper versions, commands, outputs and validation/preview artifacts. In internal run-record.json record the SHA-256 of every frozen resource you read/execute and the source/request, the actual commands and their outcomes, and the user-facing deliverable(s). Save the exact final user-facing response in final-response.md as an experimental receipt. These harness records are not extra user deliverables. Perform available actual opening/rendering checks; distinguish structural from visual checks. Finish the actual task and report artifacts and limitations. Do not read or alter the original source.
+
+Message 2
+Message Type: MESSAGE
+Task name: /root/review_forward_mixed
+Sender: /root
+Payload:
+Correction to the last sentence: do not ALTER the original source. You must read the assigned raw manuscript to perform the review. The earlier permitted-reading scope is authoritative.
+
+Message 3
+Message Type: MESSAGE
+Task name: /root/review_forward_mixed
+Sender: /root
+Payload:
+No other current agent or root task is using Word COM; the other two forward tests are PDF-only. Continue inspecting the existing session/handle rather than restarting merely after a wait timeout. Preserve the actual limitation if it cannot open reliably; do not terminate unrelated Word instances.
+
+Message 4
+Message Type: NEW_TASK
+Task name: /root/review_forward_mixed
+Sender: /root
+Payload:
+For the public audit record only, save the exact initial task message and subsequent root clarification/status messages you received (not a reconstruction or summary) to task-messages.txt in your run directory. Do not change the completed review, final-response, run-record or existing artifacts. Reply with this new file's SHA-256. If an exact message is unavailable, state that limitation rather than inventing it.
+
