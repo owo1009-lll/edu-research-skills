@@ -1,0 +1,87 @@
+{
+  "stage": "development_in_progress",
+  "date": "2026-10-19",
+  "note": "Acquisition records retain acquisition-time statuses. This ledger records actual later reading. No item is an independent holdout. Main-text analysis does not imply all supplements or cited sources were read.",
+  "records": [
+    {
+      "id": "Q-N01",
+      "doi": "10.1126/sciadv.aba4677",
+      "exposure": "new_development",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "419d72e82d876df2ad454b290ceee7945e59fc0ecb9666a58a4fa03bab8eb1ab",
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B047; Table 1; Figures 1-2",
+      "analysis": "papers/Q-N01.md",
+      "use_status": "selected_writing_moves_only; numerical discrepancies remain unresolved",
+      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+    },
+    {
+      "id": "Q-N02",
+      "doi": "10.1038/s41586-019-1466-y",
+      "exposure": "new_development",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "63bc083550fb087c9e1ffe91dbda2d2d79e1d465bdddd9af4bd467a7933390e0",
+      "reading_status": "downloaded_not_read",
+      "analysis": null,
+      "use_status": "await_fulltext_screening"
+    },
+    {
+      "id": "L-N01",
+      "doi": "10.1186/s40594-018-0115-6",
+      "exposure": "new_development",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "4dcadaebf1164115fbe7b56cef5dac13f9e481c47d76956b9b81cfe98d14208e",
+      "reading_status": "downloaded_not_read",
+      "analysis": null,
+      "use_status": "await_fulltext_screening"
+    },
+    {
+      "id": "L-N02",
+      "doi": "10.1186/s41239-020-0180-z",
+      "exposure": "new_development",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "12f02a9dfef9577f087f20bd2f3559f0d917bbed20f943e07cb1c39ec8ad8976",
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B109; Tables 1-2; Figure 1",
+      "analysis": "papers/L-N02.md",
+      "use_status": "limited_use; participant/analyst attribution and reporting issues recorded",
+      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+    },
+    {
+      "id": "M-N01",
+      "doi": "10.1007/s12186-019-09238-9",
+      "exposure": "new_development",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_sha256": "84bb5ae097b01026ff52c9ccd23b02a695dc447b225627fbff202a443835b541",
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B129; Tables 1-11; Figure 1",
+      "analysis": "papers/M-N01.md",
+      "use_status": "selected_integration_moves; reporting issues recorded",
+      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+    },
+    {
+      "id": "Q-R01",
+      "prior_id": "E08",
+      "doi": "10.1126/sciadv.aau4734",
+      "exposure": "reread",
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B060; Table 1; Figures 1-2",
+      "reading_sha256": "72fba8feda822364c5050867ee31a11dede588284a8af5afa4efabf562e44e6a",
+      "analysis": "papers/Q-R01.md",
+      "use_status": "selected_writing_moves_only",
+      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+    },
+    {
+      "id": "M-R01",
+      "prior_id": "E11",
+      "doi": "10.1007/s40753-020-00118-5",
+      "exposure": "reread",
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B096; Tables 1-4",
+      "reading_sha256": "1526a93f3aaf8571cd2d5924b45d16b16c14ed17728d2f7df896197710f5426c",
+      "analysis": "papers/M-R01.md",
+      "use_status": "selected_writing_moves_only",
+      "not_read": "Supplementary documents and cited originals, unless separately recorded"
+    }
+  ]
+}

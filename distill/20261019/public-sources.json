@@ -1,0 +1,61 @@
+{
+  "purpose": "公网新增开发候选的第一批获取队列，不是完成精读清单；继续按三类覆盖扩充，未缩减本轮规模目标。",
+  "source_policy": "2026-10-19 用户明确要求从公网寻找。只用无需登录的出版社全文、大学机构库或作者公开稿；不使用用户私稿或机构登录下载件作新增蒸馏语料。全文不入公开仓库。",
+  "exposure_check": "八个 DOI 未在本批开始前 distill 下既有 JSON 记录中命中；旧 W 标记身份不完整的历史限制仍存在，不能声称穷尽去重。题名、版本、研究类型和整合实质须在全文中再次核实。",
+  "sources": [
+    {
+      "id": "Q-N01", "doi": "10.1126/sciadv.aba4677", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "A customized belonging intervention improves retention of socially disadvantaged students at a broad-access university",
+      "selection_question": "实验如何把情境适配、学生体验与持续就读结果连成论证；与现有教师信念观察研究区分。含与旧语料重叠的作者团队，不能据此代表作者多样性。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7439303/fullTextXML"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "Q-N02", "doi": "10.1038/s41586-019-1466-y", "candidate_group": "quantitative", "exposure": "new_development", "language": "en",
+      "title": "A national experiment reveals where a growth mindset improves achievement",
+      "selection_question": "实验怎样解释总体效应和情境差异，怎样在主文压缩中保留对象与条件；本队列偏重动机干预，后续须补不同团队及准实验、横断面、纵向研究。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6786290/fullTextXML", "https://www.nature.com/articles/s41586-019-1466-y"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N01", "doi": "10.1186/s40594-018-0115-6", "candidate_group": "qualitative_pending_design_screen", "exposure": "new_development", "language": "en",
+      "title": "Race and gender differences in how sense of belonging influences decisions to major in STEM",
+      "selection_question": "归属感如何从参与者具体经历形成概念解释；需全文判断编码比较与数量分析的关系，不能先把它确定为纯质性或混合。也是旧 M-R01 所引背景文献，引用接触不等于此前精读。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6310405/fullTextXML", "https://link.springer.com/article/10.1186/s40594-018-0115-6"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N02", "doi": "10.1186/s41239-020-0180-z", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "Features fostering academic and social integration in blended synchronous courses in graduate programs",
+      "selection_question": "不同参与位置的学习经历怎样进入主题解释；题名中的 integration 是教育概念，不能据此判为混合研究。",
+      "urls": ["https://link.springer.com/article/10.1186/s41239-020-0180-z"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N01", "doi": "10.1007/s12186-019-09238-9", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "Boundary Crossing Support in Part-Time Higher Professional Education Programs",
+      "selection_question": "解释型顺序设计怎样将项目层面的数量比较与后续情境分析连接，整合是否改变对课程支持的理解。",
+      "urls": ["https://link.springer.com/article/10.1007/s12186-019-09238-9"],
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N02", "doi": "10.1016/j.cedpsych.2018.10.005", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "Culturally Inclusive and Responsive Curricular Learning Environments (CIRCLEs): An exploratory sequential mixed-methods approach",
+      "selection_question": "探索型顺序研究如何把学生经验转成构念与测量，联合展示是否保留概念变化而不是仅罗列引语。",
+      "urls": ["https://www.sciencedirect.com/science/article/pii/S0361476X18300857"],
+      "reading_status": "not_yet_read", "access_status": "public_fulltext_not_yet_confirmed"
+    },
+    {
+      "id": "M-N03", "doi": "10.1037/edu0000410", "candidate_group": "mixed", "exposure": "new_development", "language": "en",
+      "title": "Opportunities to participate in science learning and student engagement: A mixed methods approach to examining person and context factors.",
+      "selection_question": "学生与情境因素如何通过相连样本解释参与机会；需检查多层比较与质性解释的推理桥梁。",
+      "urls": [], "reading_status": "not_yet_read", "access_status": "seeking_public_author_or_institution_fulltext"
+    },
+    {
+      "id": "L-N03", "doi": "10.1177/0003122414546931", "candidate_group": "qualitative", "exposure": "new_development", "language": "en",
+      "title": "Coached for the Classroom",
+      "selection_question": "互动过程如何修正把阶级社会化视为隐性过程的认识；需全文检查家长指导、儿童行动和教师回应的证据链。",
+      "urls": [], "reading_status": "not_yet_read", "access_status": "seeking_public_author_or_institution_fulltext"
+    }
+  ]
+}

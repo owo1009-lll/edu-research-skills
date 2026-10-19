@@ -21,11 +21,11 @@ description: Write or revise Chinese (CSSCI) and English (SSCI) education papers
 2. **先建立论证，再处理语言。**读 [论证](references/argument.md)，按它的顺序工作：教育问题及其意义 → 证据实际回答了什么 → 核心判断与贡献 → 解释、比较与反驳 → 论断范围与实践含义 → 语言和格式。要点：
    - **新写**先在 `rationale.md` 写一屏主线；**修改**先还原作者实际表达的命题及其依据，定位越界的具体部分再修复，保留有依据的判断、语气和概念框架。实质改动写明理由，不默认弱化动词、删除框架或重写整段（[修改原则](references/foundation.md)）。
    - **贡献**：先识别最值得发表的贡献并围绕它组织全文。贡献可以来自新发现、概念区分、解释深化、重要反例、适用条件或实践取舍，不以显著或正向结果为前提；不转移主要问题、不淡化关键结果、不拔高贡献。
-   - **四类论断各有依据**：实证发现靠设计、估计和材料；机制解释区分直接证据与候选解释；理论命题写清概念、前提、推导和反证；实践建议交代"发现—实践含义—适用条件—行动"。有依据的理论推断和专业判断照常写。
+   - **四类论断各有依据**：实证发现靠设计、估计和材料；机制解释区分直接证据与候选解释；理论命题写清概念、前提、推导和反证；实践建议交代依据、实践含义、适用条件和行动，分清本研究发现、已核实文献与专业或规范前提。有依据的理论推断和专业判断照常写。
    - **限定分四类处理**：重复的一般性免责合并；决定论断含义的条件留在论断中；整体设计局限集中讨论；改变某个结果解释的具体问题在相关位置说明。准确的限定（如"可能部分源于"）不是缺点。
    - **竞争解释**：证据能区分时作出选择；不能区分时写清未决之处和已经获得的认识。
    - **统计结果**按 [结果的解释与呈现](references/framing-results.md)：效应大小结合对象、结局、区间和合适的参照解释，不挑参照美化结果；横断面路径不写成因果；不显著不自动等于等效、可互换、没有作用或边界条件；直接路径不显著、间接显著，不能推出"仅通过中介"。
-   - **按研究类型**：定量、质性和理论研究的论证要求不同（[论证](references/argument.md) 第 6 节）。
+   - **按研究类型**：定量、质性、混合和理论研究的论证要求不同（[论证](references/argument.md) 第 6 节）；混合研究另核对两类资料实际在哪个问题、阶段或层级整合。
    - **语言**：中文读 [voice-zh](references/voice-zh.md)，英文读 [voice-en](references/voice-en.md)。[prose-zh](references/prose-zh.md) / [prose-en](references/prose-en.md) 中的句长、引注密度、小标题形式等语料统计只作可选参照，不是质量目标。
    - **引用**要支持对应论断且不超出实际阅读范围：摘要没有报告的机制、结果或条件，不因 DOI 已核实就补写；修改旧稿时区分已发现的错引与暂时无法获取的来源，后者保留并记为待查，不标为已核验。
    - 中文期刊要有核实过的国内文献和国内背景，无法核实时留【待补】占位；投中文期刊的完整论文默认附英文题名、摘要和关键词。
@@ -42,6 +42,7 @@ description: Write or revise Chinese (CSSCI) and English (SSCI) education papers
    | 根据 edu-analysis 或 edu-qual 的实际结果写结果 | [分析衔接](references/analysis-bridge.md)、[图表](references/figures-and-tables.md) |
    | 定量讨论 | [定量讨论](references/quantitative-discussion.md) |
    | 定性结果与讨论 | [定性叙述](references/qualitative-narrative.md) |
+   | 混合研究结果与讨论 | [分析衔接](references/analysis-bridge.md)“混合研究”部分；各资料内部的报告需要另读定量或定性路线 |
    | 结论、建议与启示、局限 | [结论与建议](references/conclusion-implications.md) |
    | 纯理论论证 | [理论论证](references/conceptual-argument.md) |
 

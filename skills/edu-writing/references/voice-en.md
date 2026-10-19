@@ -50,15 +50,15 @@ A position comes from clear claims and grounded choices, not from intensifiers.
 
 Limits:
 - The abstract, Discussion and conclusion word each result the same way. A result described as imprecise in the Discussion does not become "did not act as a separate route" in the conclusion.
-- Factors the study did not manipulate or measure can appear in the Discussion as candidate explanations, but not as conclusions or as the basis for recommendations.
+- Do not present an unmeasured factor as an observed mechanism or an untested measure as an established intervention effect. A recommendation may also draw on verified literature or explicit professional or normative premises; explain those grounds and the conditions for action rather than attributing them to this study's findings.
 - Explanations do not rest on facts outside the materials.
 - Calibrate recommendations to their grounds, conditions and consequences. A cross-sectional association does not establish an intervention effect; it does not automatically invalidate a supported professional or normative judgement. Preserve a justified *should* rather than replacing it with *could* by default ([argument](argument.md) §8).
 
 ## Contribution and implications
 
-State the contribution once and say what kind it is: a new finding, a conceptual distinction, a deeper explanation, an important counter-example, a condition of application or a practical trade-off ([argument](argument.md) §2). "The results fit theory X" or "the mediation was significant" is not by itself a theoretical contribution.
+Explain the specific advance: what the study adds to an educational question or changes in an existing account. The contribution categories in [argument](argument.md) §2 support internal judgement; they need not appear as labels in the manuscript. Briefly revisit the contribution where a section has a distinct purpose, without repeating its full justification. "The results fit theory X" or "the mediation was significant" is not by itself a theoretical contribution.
 
-For each implication, give the finding, its practical meaning, the conditions it needs and the action. Separate measures the study tested from applications inferred from associations. The number of implications follows the evidence. Concrete examples come only from the study's materials, or are general practices without invented durations, counts or proportions.
+For each implication, explain its grounds, practical meaning, conditions and proposed action. Identify whether those grounds are this study's findings, verified literature or explicit professional or normative premises. Separate measures the study tested from applications inferred from associations. The number of implications follows the evidence. Concrete examples come only from the study's materials, or are general practices without invented durations, counts or proportions.
 
 ## Limitations
 

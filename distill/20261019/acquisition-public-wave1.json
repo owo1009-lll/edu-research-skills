@@ -1,0 +1,985 @@
+[
+  {
+    "id": "Q-N01",
+    "doi": "10.1126/sciadv.aba4677",
+    "retrieved_utc": "2026-10-19T13:35:41.242359+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7439303/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7439303/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 85622,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1126/sciadv.aba4677",
+      "title": [
+        "A customized belonging intervention improves retention of socially disadvantaged students at a broad-access university"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6511-498X",
+          "authenticated-orcid": true,
+          "given": "Mary C.",
+          "family": "Murphy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Indiana University, Bloomington, IN, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maithreyi",
+          "family": "Gopalan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pennsylvania State University, State College, PA, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0470-3478",
+          "authenticated-orcid": true,
+          "given": "Evelyn R.",
+          "family": "Carter",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Los Angeles, Los Angeles, CA, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9871-0737",
+          "authenticated-orcid": true,
+          "given": "Katherine T. U.",
+          "family": "Emerson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Indiana University, Bloomington, IN, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bette L.",
+          "family": "Bottoms",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Illinois at Chicago, Chicago, IL, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6194-0472",
+          "authenticated-orcid": true,
+          "given": "Gregory M.",
+          "family": "Walton",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            17
+          ]
+        ]
+      },
+      "container-title": [
+        "Science Advances"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                15
+              ]
+            ],
+            "date-time": "2020-07-15T00:00:00Z",
+            "timestamp": 1594771200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "5abb5c2adefba6bec6d432898b30bcf6746441374c9028891bb9ee111a08de84",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7439303/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "72d90e3f01c542ab760f2526202666d79785af8fcc919014cdaef68e384d8eca",
+    "text_sha256": "5845985f279d8442de09bafdcf8a57a768137e560c5f6fe9f2afa4655bae90bf",
+    "text_characters": 43399,
+    "extraction": {
+      "sections": 22,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "419d72e82d876df2ad454b290ceee7945e59fc0ecb9666a58a4fa03bab8eb1ab",
+    "reading_blocks": 58,
+    "reading_characters": 34739,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "Q-N02",
+    "doi": "10.1038/s41586-019-1466-y",
+    "retrieved_utc": "2026-10-19T13:35:41.242359+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6786290/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6786290/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 133675,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1038/s41586-019-1466-y",
+      "title": [
+        "A national experiment reveals where a growth mindset improves achievement"
+      ],
+      "author": [
+        {
+          "given": "David S.",
+          "family": "Yeager",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paul",
+          "family": "Hanselman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gregory M.",
+          "family": "Walton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jared S.",
+          "family": "Murray",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert",
+          "family": "Crosnoe",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chandra",
+          "family": "Muller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elizabeth",
+          "family": "Tipton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Barbara",
+          "family": "Schneider",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chris S.",
+          "family": "Hulleman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cintia P.",
+          "family": "Hinojosa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Paunesku",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carissa",
+          "family": "Romero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kate",
+          "family": "Flint",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alice",
+          "family": "Roberts",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jill",
+          "family": "Trott",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ronaldo",
+          "family": "Iachan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jenny",
+          "family": "Buontempo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sophia Man",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carlos M.",
+          "family": "Carvalho",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P. Richard",
+          "family": "Hahn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maithreyi",
+          "family": "Gopalan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pratik",
+          "family": "Mhatre",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ronald",
+          "family": "Ferguson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Angela L.",
+          "family": "Duckworth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carol S.",
+          "family": "Dweck",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            7
+          ]
+        ]
+      },
+      "container-title": [
+        "Nature"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                8,
+                7
+              ]
+            ],
+            "date-time": "2019-08-07T00:00:00Z",
+            "timestamp": 1565136000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                8,
+                7
+              ]
+            ],
+            "date-time": "2019-08-07T00:00:00Z",
+            "timestamp": 1565136000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "b885e905f9938d1efb89a420e44c65ea93de1b8cd6ce5ca0d51a418a7a0c926d",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6786290/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "afd51f6f7055cc698789b05f711255cda061cab388fbd3e73b9aad21f7b7537b",
+    "text_sha256": "a775c792a1b612737f01706e2a243d3a7463f69b7bbaea21968672fa386f1c21",
+    "text_characters": 76233,
+    "extraction": {
+      "sections": 53,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "63bc083550fb087c9e1ffe91dbda2d2d79e1d465bdddd9af4bd467a7933390e0",
+    "reading_blocks": 143,
+    "reading_characters": 70506,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N01",
+    "doi": "10.1186/s40594-018-0115-6",
+    "retrieved_utc": "2026-10-19T13:35:41.242359+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6310405/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6310405/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 95535,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1186/s40594-018-0115-6",
+      "title": [
+        "Race and gender differences in how sense of belonging influences decisions to major in STEM"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9790-488X",
+          "authenticated-orcid": false,
+          "given": "Katherine",
+          "family": "Rainey",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Melissa",
+          "family": "Dancy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roslyn",
+          "family": "Mickelson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elizabeth",
+          "family": "Stearns",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stephanie",
+          "family": "Moller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of STEM Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                4,
+                10
+              ]
+            ],
+            "date-time": "2018-04-10T00:00:00Z",
+            "timestamp": 1523318400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                4,
+                10
+              ]
+            ],
+            "date-time": "2018-04-10T00:00:00Z",
+            "timestamp": 1523318400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "f2a0d311950c9d1e8804e56a809dce7b6ef9617c7bb56f260b0dd96c958de5a3",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6310405/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "5dd480977716e35bf4330ce65c0c29bfefa52d2be4c0fc8ff4547304cf5ad676",
+    "text_sha256": "8f1cda1d35d9aa3f65fb41063dedd29d101eda2102464d401d6b1efba69f57fd",
+    "text_characters": 61720,
+    "extraction": {
+      "sections": 52,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "4dcadaebf1164115fbe7b56cef5dac13f9e481c47d76956b9b81cfe98d14208e",
+    "reading_blocks": 170,
+    "reading_characters": 60998,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N02",
+    "doi": "10.1186/s41239-020-0180-z",
+    "retrieved_utc": "2026-10-19T13:35:44.740367+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1186/s41239-020-0180-z",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1186/s41239-020-0180-z",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 489850,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1186/s41239-020-0180-z",
+      "title": [
+        "Features fostering academic and social integration in blended synchronous courses in graduate programs"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3914-3688",
+          "authenticated-orcid": false,
+          "given": "Sawsen",
+          "family": "Lakhal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joséphine",
+          "family": "Mukamurera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marie-Eve",
+          "family": "Bédard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Géraldine",
+          "family": "Heilporn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mélodie",
+          "family": "Chauret",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            28
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Educational Technology in Higher Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                28
+              ]
+            ],
+            "date-time": "2020-02-28T00:00:00Z",
+            "timestamp": 1582848000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                28
+              ]
+            ],
+            "date-time": "2020-02-28T00:00:00Z",
+            "timestamp": 1582848000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "7e91b39a8b203b32df5237fbedb0252ea439b47216e92074656a3908bae63df6",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1186/s41239-020-0180-z",
+    "format": "html",
+    "raw_sha256": "9546afeca1e60265535a5579e97c68d5d9ce95cce9b6a2098ead6149f984579a",
+    "text_sha256": "960269f6015840d33e299383fdb192ab78a9c239916f89bcc355384ce9c049b7",
+    "text_characters": 74573,
+    "extraction": {
+      "sections": 15,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "12f02a9dfef9577f087f20bd2f3559f0d917bbed20f943e07cb1c39ec8ad8976",
+    "reading_blocks": 251,
+    "reading_characters": 89619,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N01",
+    "doi": "10.1007/s12186-019-09238-9",
+    "retrieved_utc": "2026-10-19T13:35:46.233057+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s12186-019-09238-9",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 450957,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s12186-019-09238-9",
+      "title": [
+        "Boundary Crossing Support in Part-Time Higher Professional Education Programs"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8044-5231",
+          "authenticated-orcid": false,
+          "given": "Margit",
+          "family": "Arts",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Larike H.",
+          "family": "Bronkhorst",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Vocations and Learning"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                6
+              ]
+            ],
+            "date-time": "2019-12-06T00:00:00Z",
+            "timestamp": 1575590400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                6
+              ]
+            ],
+            "date-time": "2019-12-06T00:00:00Z",
+            "timestamp": 1575590400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "7a29507cec1e3d29f0195d66f23e8b30df8359238e02eb6c801dc6bfd84666ba",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s12186-019-09238-9",
+    "format": "html",
+    "raw_sha256": "758c449c6a30e058b11d9efe6ff5ec04695c057a9cde978e54cc3bdcb8b861cc",
+    "text_sha256": "3aff74edd53e2364b74eaba3aa6e162e943bd5c9bceedb7eb34c991f6241f458",
+    "text_characters": 67920,
+    "extraction": {
+      "sections": 13,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "84bb5ae097b01026ff52c9ccd23b02a695dc447b225627fbff202a443835b541",
+    "reading_blocks": 270,
+    "reading_characters": 84108,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

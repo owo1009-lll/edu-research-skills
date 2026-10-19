@@ -1,0 +1,73 @@
+[
+  {
+    "table": 1,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/1",
+    "raw_sha256": "4e86fa92a6418c12e26ec315b22daece1472b36da110707af2df9755a5c820fd",
+    "characters": 510
+  },
+  {
+    "table": 2,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/2",
+    "raw_sha256": "6150a6b79585dffebc272b9be7eb84988c3298280290114975e41d76989b6f07",
+    "characters": 1756
+  },
+  {
+    "table": 3,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/3",
+    "raw_sha256": "b7d496761d79a9104454be0f307064f2fbec3ac390bc7460d087cd99f0a3a5a6",
+    "characters": 449
+  },
+  {
+    "table": 4,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/4",
+    "raw_sha256": "f6a57673e20ef161cedb74eb01ad9e8431d754b826166a921f9c279db58edd31",
+    "characters": 594
+  },
+  {
+    "table": 5,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/5",
+    "raw_sha256": "626ba13c2f64eb8266474758b7516df7578c9af668396c6c4463cc39e2636d86",
+    "characters": 210
+  },
+  {
+    "table": 6,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/6",
+    "raw_sha256": "0069eb00af99bc278eabee2e74ef3cf6c5fe43c495a24a7bf0406c1938fd2611",
+    "characters": 274
+  },
+  {
+    "table": 7,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/7",
+    "raw_sha256": "ec3fa0266d8be33674655ce5733db9e102487c88ff975f533de09c1eefa775ba",
+    "characters": 186
+  },
+  {
+    "table": 8,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/8",
+    "raw_sha256": "08aaacd6df2b36bae4bc69e7f6adb940adc9b494577898631750efb17aafec8f",
+    "characters": 678
+  },
+  {
+    "table": 9,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/9",
+    "raw_sha256": "601bee5d6257d4ade3c66501ccbf745ce858aef3c04894c11b0899f3d08ec02d",
+    "characters": 2639
+  },
+  {
+    "table": 10,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/10",
+    "raw_sha256": "3310e46cbe77c7cc655f21ff49b943c8d0914628a100d6b726d660e13d289606",
+    "characters": 6338
+  },
+  {
+    "table": 11,
+    "url": "https://link.springer.com/article/10.1007/s12186-019-09238-9/tables/11",
+    "raw_sha256": "f8280758970247f36d6f9ab6ed0c0a193bacd5c98b93bee6487657e2efa82e56",
+    "characters": 668
+  },
+  {
+    "figure": 1,
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs12186-019-09238-9/MediaObjects/12186_2019_9238_Fig1_HTML.png",
+    "raw_sha256": "d2a3cf6455ef10c3996ba85d2a6283f0042b6f72a43e31bf54d91e32fbaf9ab6"
+  }
+]

@@ -63,7 +63,7 @@ Figures are medians unless stated. They describe how published papers usually wr
   - Statistics follow the claim, in parentheses or set off by commas.
   - A quantitative Results sentence with numbers carries a median of 2.
   - About 3% of quantitative Results paragraphs open with a number.
-- **Discussion and conclusion.** Restate findings in words: 98% of Discussion points restate the finding, 9% with a statistic, and only about 3% of Discussion sentences contain a number. Keep at most one effect size per point.
+- **Discussion and conclusion.** In the sample, 98% of Discussion points restate the finding, 9% with a statistic, and about 3% of Discussion sentences contain a number. Include the estimates, comparisons and uncertainty needed to understand the claim; these observations impose no numerical quota per point.
 
 ## 4. What stays out of the paper
 
@@ -89,8 +89,8 @@ Figures are medians unless stated. They describe how published papers usually wr
 ## 6. Headings and lists
 
 - **Discussion.** Discussion subheadings are absent in 23 of 50 articles, topic labels in 21 ("Teacher support and engagement") and claim headings in 4. Choose by the target journal and what the argument needs.
-- **Implications.** Write implications as prose paragraphs; only 4 of 50 articles number them.
-- **Limitations.** In quantitative papers, number them "First, … Second, …" when there are several (12/22).
+- **Implications.** Only 4 of 50 sampled articles number them. Prose or lists can work; choose for the argument and explicit journal requirements.
+- **Limitations.** Numbered limitations occurred in 12/22 quantitative papers. This is an observed option, not a required format.
 
 ## 7. By design
 
@@ -100,9 +100,9 @@ The question and hypothesis formats below describe the sampled articles. Their p
 |---|---|---|---|
 | Questions and hypotheses | Hypotheses observed in 19/22, derived from theory plus evidence and usually stated in a present-study section; first-person aim (17/21) | Numbered RQs observed in 11/15; questions at the end of the Introduction in 13/15; no hypotheses in this sample; a present-study section in 2/15 | Numbered RQs observed in 10/13; a present-study section in 9/13 |
 | Review | Counter-evidence almost always (21/22) | Narrative citations up to about a quarter; still synthesise rather than list | As quantitative, with counter-evidence where the literature is contested |
-| Results paragraphs | Open with the procedure, the finding in words, a table pointer or a check (procedure 32%, finding 27%); 56% of sentences carry numbers | Open with a theme claim (62%), then quotes with participant codes (21% open with a quote); numbers in about 12% of sentences | Alternate theme-led and procedure- or finding-led paragraphs; numbers in about 42% of sentences |
+| Results paragraphs | Observed openings include procedures, findings, table pointers and checks (procedure 32%, finding 27%); 56% of sentences carry numbers | Theme-claim openings in 62%, quotation openings in 21%; numbers in about 12% of sentences | Both theme-led and procedure- or finding-led paragraphs observed; numbers in about 42% of sentences. Alternation is not required: structure follows the question, design and actual integration |
 | Discussion | About half the points deal with null or contrary results; compare information-prominently | Narrative citations about a third; points may end on an implication (41% contain one) | Implications inside about a fifth of points |
-| Limitations and conclusion | Median 5 limitations, numbered | Median 2 limitations; always write a conclusion (15/15); keep generic closings rare | As quantitative |
+| Limitations and conclusion | Median 5 limitations; numbering observed | Median 2 limitations; all 15 sampled papers include a conclusion | Counts and formats are descriptive; use the design's actual boundaries and the article's structure |
 
 ## 8. Check
 

@@ -1,0 +1,17 @@
+[
+  {
+    "table": 1,
+    "url": "https://link.springer.com/article/10.1186/s41239-020-0180-z/tables/1",
+    "sha256": "fe6ffc0dd9bd7504e28f235f8acc0fe140a01a6774dab72f808f4673a5d54871"
+  },
+  {
+    "table": 2,
+    "url": "https://link.springer.com/article/10.1186/s41239-020-0180-z/tables/2",
+    "sha256": "33b761bebd9b323db5b3158c19831d5de1059c15f8eae0bdd991bc5bbe06be2d"
+  },
+  {
+    "figure": 1,
+    "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs41239-020-0180-z/MediaObjects/41239_2020_180_Fig1_HTML.png",
+    "sha256": "d7cfaecabe6b0b21802fb4382e60b9835b644abb7eb39c1452c4eb282c9294c6"
+  }
+]

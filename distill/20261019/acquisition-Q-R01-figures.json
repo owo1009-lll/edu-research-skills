@@ -1,0 +1,12 @@
+[
+  {
+    "figure": 1,
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9eff/6377274/0542ba86bb58/aau4734-F1.jpg",
+    "sha256": "c7e1c96908d474898e9612948cc9a5dc0fcae6064f72a3850684819d6c44466b"
+  },
+  {
+    "figure": 2,
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9eff/6377274/075d5d51f8dc/aau4734-F2.jpg",
+    "sha256": "f53bae959aa7f8b3b3239e8282978dbac2eab919ce9f0e65498b1af8afb59374"
+  }
+]
