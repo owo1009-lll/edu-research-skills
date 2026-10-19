@@ -1,0 +1,40 @@
+{
+  "stage": "second-draft",
+  "at_utc": "2026-10-19T21:36:12.370285+00:00",
+  "draft_sha256": "87bd4990b9fa3618919a61615ead53140af2a0494de970fc585744d43f84cfc6",
+  "word_count": 114,
+  "count_rule": "Whitespace-delimited body tokens, including the in-text citation and excluding Attribution heading and all attribution content.",
+  "body_paragraphs": 1,
+  "within_120_145_words": false,
+  "checker_input": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\checks\\second-draft.body.md",
+  "commands": [
+    {
+      "at_utc": "2026-10-19T21:36:12.431635+00:00",
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\checks\\second-draft.body.md",
+        "--source",
+        "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+      ],
+      "exit_code": 0,
+      "script_sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\checks\\second-draft.check_voice.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\checks\\second-draft.check_voice.stderr.txt"
+    },
+    {
+      "at_utc": "2026-10-19T21:36:12.498415+00:00",
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\checks\\second-draft.body.md"
+      ],
+      "exit_code": 0,
+      "script_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\checks\\second-draft.check_prose.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\checks\\second-draft.check_prose.stderr.txt"
+    }
+  ]
+}

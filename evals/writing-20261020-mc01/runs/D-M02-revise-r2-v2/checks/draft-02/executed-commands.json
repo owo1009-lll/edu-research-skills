@@ -1,0 +1,26 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\checks\\draft-02\\body.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "exit_code": 0,
+    "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\checks\\draft-02\\check_voice.stdout.txt",
+    "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\checks\\draft-02\\check_voice.stderr.txt"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\checks\\draft-02\\body.md"
+    ],
+    "exit_code": 0,
+    "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\checks\\draft-02\\check_prose.stdout.txt",
+    "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\checks\\draft-02\\check_prose.stderr.txt"
+  }
+]

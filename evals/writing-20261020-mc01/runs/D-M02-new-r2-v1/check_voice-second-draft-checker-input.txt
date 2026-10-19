@@ -1,0 +1,23 @@
+COMMAND ARGV: ["C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe", "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py", "--draft", "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\second-draft-checker-input.md", "--source", "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"]
+EXIT CODE: 0
+STDOUT:
+Language: en | discussion/conclusion sentences: 18 | paragraphs: 4
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)
+
+STDERR:

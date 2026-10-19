@@ -1,0 +1,103 @@
+{
+  "hash_algorithm": "SHA-256",
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "0d2024ff3cf66029f1d37a5a6a9b00c53744c175c2d148ead6f368d61a51a814"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "actions": [
+        "read",
+        "executed"
+      ],
+      "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "actions": [
+        "read",
+        "executed"
+      ],
+      "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "a210562df377e6c180ea21b42e86e3ca4237b9e315cb31e79129ce2884bdfa0d"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "a4f3c908f5d2aa0c6ffc71a1df93fa94b011fc3bb6341c90379f8d9451f9cbc8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md",
+      "actions": [
+        "read"
+      ],
+      "sha256": "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8"
+    }
+  ],
+  "scope_note": "Only listed skill snapshot resources were loaded. Checkers use standard-library imports and no additional skill files.",
+  "local_support_resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\audit_run.py",
+      "sha256": "7a8e79b02e6b37dd4fc4b5a197c4874123a092bf855414b543d16934a6a0684a",
+      "actions": [
+        "created",
+        "executed"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v1\\finalize.py",
+      "sha256": "89783756fac74e330811c293ad1b3cd4a822efd1a80d20cf59e380aedb630b1f",
+      "actions": [
+        "created",
+        "executed"
+      ]
+    }
+  ]
+}

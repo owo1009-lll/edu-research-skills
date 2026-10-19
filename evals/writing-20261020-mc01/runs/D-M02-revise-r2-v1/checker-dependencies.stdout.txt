@@ -1,0 +1,11 @@
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_voice.py:16:from pathlib import Path
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_voice.py:17:import argparse, re, sys
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_voice.py:88:    return path.read_text(encoding='utf-8', errors='ignore')
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:6:from headings (摘要, 引言/问题提出, 文献综述/理论基础/研究假设, 研究设计/方法, 研究结果, 讨论, 结论/建议/启示). For each
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:20:from pathlib import Path
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:21:import argparse
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:22:import json
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:23:import re
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:24:import statistics
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:25:import sys
+<EXPERIMENT_ROOT>\variants\v1\skills\edu-writing\scripts\check_prose.py:97:    return path.read_text(encoding='utf-8', errors='ignore')

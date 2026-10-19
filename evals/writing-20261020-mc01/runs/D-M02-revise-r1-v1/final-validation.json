@@ -1,0 +1,45 @@
+{
+  "at_utc": "2026-10-19T21:37:23.304015+00:00",
+  "final_sha256": "308569d27ae36749ae59071b7ed31c364ab2fc0fffae770a60534c0a2bb09994",
+  "body_word_count": 123,
+  "body_paragraphs": 1,
+  "body_count_excludes": "Attribution heading and all attribution text",
+  "within_120_145_words": true,
+  "final_identical_to_third_draft": true,
+  "existing_citation_preserved": true,
+  "unicode_attribution_preserved": true,
+  "no_unicode_replacement_characters_in_markdown": true,
+  "all_required_files_present": true,
+  "draft_history": [
+    {
+      "stage": "first-draft",
+      "word_count": 125,
+      "sha256": "32500744d67ae4dfc1e5ff2f94981fa17a3b2acd00c92cadaa5676b082c8d307",
+      "unchanged_since_checked": true,
+      "checker_exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "second-draft",
+      "word_count": 114,
+      "sha256": "87bd4990b9fa3618919a61615ead53140af2a0494de970fc585744d43f84cfc6",
+      "unchanged_since_checked": true,
+      "checker_exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "third-draft",
+      "word_count": 123,
+      "sha256": "308569d27ae36749ae59071b7ed31c364ab2fc0fffae770a60534c0a2bb09994",
+      "unchanged_since_checked": true,
+      "checker_exit_codes": [
+        0,
+        0
+      ]
+    }
+  ]
+}

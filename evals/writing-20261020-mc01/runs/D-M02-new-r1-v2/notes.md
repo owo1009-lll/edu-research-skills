@@ -1,0 +1,5 @@
+# Writing choices and unresolved source checks
+
+The final passage has 381 body words, excluding the separate attribution heading. It develops one argument: the case comparison makes responsibility for teaching cooperation visible in concrete instructional decisions. Selected observation counts establish the problem; interview contrasts support the interpretation; teacher-education activities are proposed implications, not tested effects.
+
+Only the supplied source pack was used. The article, tables, supplement, raw records, and cited originals were not independently consulted. The pack's partial-implementation count, cross-source correlation decimal, and suitability-scale range remain unresolved and are not used. Missing individual implementation self-ratings, imperfect case matching, and the unsupported inference about resistance to belief change are also excluded. The retained numbers and case descriptions were checked against the pack; automated checks were followed by AI self-review.

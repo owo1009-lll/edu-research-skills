@@ -1,0 +1,159 @@
+{
+  "note": "Exact shell commands captured from actual tool invocations. Independent read/check calls were launched concurrently; sequence records invocation order, not completion order. Actual checker stdout is preserved in the named Markdown check files.",
+  "commands": [
+    {
+      "sequence": 1,
+      "label": "task-request",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "a1d0b4"
+    },
+    {
+      "sequence": 2,
+      "label": "source-pack",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "d2fa18"
+    },
+    {
+      "sequence": 3,
+      "label": "skill",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "bdbd3a"
+    },
+    {
+      "sequence": 4,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "770135"
+    },
+    {
+      "sequence": 5,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "c9e854"
+    },
+    {
+      "sequence": 6,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "37a408"
+    },
+    {
+      "sequence": 7,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "baf11b"
+    },
+    {
+      "sequence": 8,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "770ba5"
+    },
+    {
+      "sequence": 9,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "0f2b7e"
+    },
+    {
+      "sequence": 10,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "58a68d"
+    },
+    {
+      "sequence": 11,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "6b37f4"
+    },
+    {
+      "sequence": 12,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "2c996c"
+    },
+    {
+      "sequence": 13,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "ebdbb9"
+    },
+    {
+      "sequence": 14,
+      "label": "checker dependency inspection",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' -TotalCount 55 -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "197e80"
+    },
+    {
+      "sequence": 15,
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md' -Raw -Encoding UTF8",
+      "exit_code": 0,
+      "tool_chunk_id": "acac70"
+    },
+    {
+      "sequence": 16,
+      "label": "first-draft check_voice",
+      "command": "python '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\first-draft.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'",
+      "exit_code": 0,
+      "tool_chunk_id": "24333a"
+    },
+    {
+      "sequence": 17,
+      "label": "first-draft check_prose",
+      "command": "python '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\first-draft.md'",
+      "exit_code": 0,
+      "tool_chunk_id": "4f8fee"
+    },
+    {
+      "sequence": 18,
+      "label": "resource and input hashing; first-draft word count",
+      "command": "$resourcePaths = @(\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'\n'<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md'\n)\n$inputPaths = @(\n'<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md'\n'<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'\n)\n$loadedResources = @($resourcePaths | ForEach-Object {\n    $resolvedResource = (Resolve-Path -LiteralPath $_).Path\n    [pscustomobject]@{path=$resolvedResource; sha256=(Get-FileHash -LiteralPath $resolvedResource -Algorithm SHA256).Hash.ToLowerInvariant(); usage=$(if ($resolvedResource -match 'check_(voice|prose)\\.py$') {'read and executed'} else {'read'})}\n})\n$taskInputs = @($inputPaths | ForEach-Object {\n    [pscustomobject]@{path=$_; sha256=(Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash.ToLowerInvariant()}\n})\n$draftBody = ((Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\first-draft.md' -Raw -Encoding UTF8) -split '\\r?\\n' | Where-Object {$_ -notmatch '^#\\s'}) -join \"`n\"\n[pscustomobject]@{resources=$loadedResources; inputs=$taskInputs; firstDraft=[pscustomobject]@{path='<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\first-draft.md'; body_words=([regex]::Matches($draftBody.Trim(), '\\S+')).Count; sha256=(Get-FileHash -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\first-draft.md' -Algorithm SHA256).Hash.ToLowerInvariant(); counting_rule='Whitespace-delimited body tokens; separate attribution heading excluded; hyphenated words and apostrophes remain within a word.'}} | ConvertTo-Json -Depth 5",
+      "exit_code": 0,
+      "tool_chunk_id": "b96095"
+    },
+    {
+      "sequence": 19,
+      "label": "revised-draft check_voice",
+      "command": "python '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\revised-draft.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'",
+      "exit_code": 0,
+      "tool_chunk_id": "19739b"
+    },
+    {
+      "sequence": 20,
+      "label": "revised-draft check_prose",
+      "command": "python '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\revised-draft.md'",
+      "exit_code": 0,
+      "tool_chunk_id": "a4faa2"
+    },
+    {
+      "sequence": 21,
+      "label": "revised-draft word count and hash",
+      "command": "$bodyText = ((Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\revised-draft.md' -Raw -Encoding UTF8) -split '\\r?\\n' | Where-Object {$_ -notmatch '^#\\s'}) -join \"`n\"\n[pscustomobject]@{path='<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\revised-draft.md'; body_words=([regex]::Matches($bodyText.Trim(), '\\S+')).Count; sha256=(Get-FileHash -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\revised-draft.md' -Algorithm SHA256).Hash.ToLowerInvariant()} | ConvertTo-Json",
+      "exit_code": 0,
+      "tool_chunk_id": "83bd3d"
+    },
+    {
+      "sequence": 22,
+      "label": "final artifact validation",
+      "command": "$outputDirectory = '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2'\n$draftRecords = @('first-draft.md', 'revised-draft.md', 'final.md') | ForEach-Object {\n    $artifactPath = Join-Path $outputDirectory $_\n    $artifactText = Get-Content -LiteralPath $artifactPath -Raw -Encoding UTF8\n    $bodyText = (($artifactText -split '\\r?\\n') | Where-Object {$_ -notmatch '^#\\s'}) -join \"`n\"\n    [pscustomobject]@{\n        file=$_\n        path=$artifactPath\n        sha256=(Get-FileHash -LiteralPath $artifactPath -Algorithm SHA256).Hash.ToLowerInvariant()\n        body_words=([regex]::Matches($bodyText.Trim(), '\\S+')).Count\n        heading_count=([regex]::Matches($artifactText, '(?m)^#{1,6}\\s')).Count\n        replacement_character_present=$artifactText.Contains([char]0xFFFD)\n    }\n}\n$requiredFiles = @('rationale.md', 'self-review.md', 'notes.md', 'loaded-resources.json', 'task-input-hashes.json', 'first-draft-check-voice.md', 'first-draft-check-prose.md', 'revised-draft-check-voice.md', 'revised-draft-check-prose.md')\n$missingFiles = @($requiredFiles | Where-Object { -not (Test-Path -LiteralPath (Join-Path $outputDirectory $_) -PathType Leaf) })\n$resourcesManifest = Get-Content -LiteralPath (Join-Path $outputDirectory 'loaded-resources.json') -Raw -Encoding UTF8 | ConvertFrom-Json\n$inputsManifest = Get-Content -LiteralPath (Join-Path $outputDirectory 'task-input-hashes.json') -Raw -Encoding UTF8 | ConvertFrom-Json\n[pscustomobject]@{\n    counting_rule='Whitespace-delimited body tokens; attribution heading excluded; hyphenated words and apostrophes remain within a word.'\n    drafts=@($draftRecords)\n    first_draft_preserved=($draftRecords[0].sha256 -eq '81479a11b031b67b0c0ada8fab4431fecce8f3690c6bf88abf2fa7f5f636738c')\n    final_matches_checked_revision=($draftRecords[1].sha256 -eq $draftRecords[2].sha256)\n    final_length_valid=($draftRecords[2].body_words -ge 350 -and $draftRecords[2].body_words -le 450)\n    final_has_only_attribution_heading=($draftRecords[2].heading_count -eq 1)\n    missing_required_files=$missingFiles\n    loaded_resource_records=@($resourcesManifest.resources).Count\n    task_input_records=@($inputsManifest.inputs).Count\n} | ConvertTo-Json -Depth 6",
+      "exit_code": 0,
+      "tool_chunk_id": "963ed2"
+    }
+  ]
+}

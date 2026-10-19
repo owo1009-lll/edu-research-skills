@@ -1,0 +1,354 @@
+[
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "register",
+      "resource",
+      "read",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py register resource read <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md",
+    "started_utc": "2026-10-19T21:39:03.849685+00:00"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "register",
+      "input",
+      "read",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\revise-request.md",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\original.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py register input read <EXPERIMENT_ROOT>\\inputs\\D-M02\\revise-request.md <EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md <EXPERIMENT_ROOT>\\inputs\\D-M02\\original.md",
+    "started_utc": "2026-10-19T21:39:03.904824+00:00"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "register",
+      "resource",
+      "executed",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py register resource executed <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+    "started_utc": "2026-10-19T21:39:03.958166+00:00"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "read",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py read <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+    "started_utc": "2026-10-19T21:39:04.010712+00:00"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "read",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py read <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md",
+    "started_utc": "2026-10-19T21:39:11.550250+00:00"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "register",
+      "resource",
+      "executed",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py register resource executed <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+    "started_utc": "2026-10-19T21:40:49.993005+00:00"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "command",
+      "checker-dependencies",
+      "rg",
+      "-n",
+      "^(import |from )|read_text|open\\(",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py command checker-dependencies rg -n \"^(import |from )|read_text|open\\(\" <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+    "started_utc": "2026-10-19T21:40:50.052333+00:00"
+  },
+  {
+    "argv": [
+      "rg",
+      "-n",
+      "^(import |from )|read_text|open\\(",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py"
+    ],
+    "rendered": "rg -n \"^(import |from )|read_text|open\\(\" <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+    "exit_code": 0,
+    "stdout_file": "checker-dependencies.stdout.txt",
+    "stderr_file": "checker-dependencies.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "draft-01-voice",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check draft-01-voice <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md --source <EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+    "started_utc": "2026-10-19T21:40:50.123357+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md --source <EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+    "exit_code": 0,
+    "stdout_file": "draft-01-voice.stdout.txt",
+    "stderr_file": "draft-01-voice.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "draft-01-prose",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check draft-01-prose <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md",
+    "started_utc": "2026-10-19T21:40:50.225588+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-01.md",
+    "exit_code": 0,
+    "stdout_file": "draft-01-prose.stdout.txt",
+    "stderr_file": "draft-01-prose.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "draft-01-verification",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+      "draft-01.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check draft-01-verification <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py draft-01.md",
+    "started_utc": "2026-10-19T21:40:50.341158+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+      "draft-01.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py draft-01.md",
+    "exit_code": 0,
+    "stdout_file": "draft-01-verification.stdout.txt",
+    "stderr_file": "draft-01-verification.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "draft-02-voice",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check draft-02-voice <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md --source <EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+    "started_utc": "2026-10-19T21:41:54.479485+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md --source <EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+    "exit_code": 0,
+    "stdout_file": "draft-02-voice.stdout.txt",
+    "stderr_file": "draft-02-voice.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "draft-02-prose",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check draft-02-prose <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md",
+    "started_utc": "2026-10-19T21:41:54.589414+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\draft-02.md",
+    "exit_code": 0,
+    "stdout_file": "draft-02-prose.stdout.txt",
+    "stderr_file": "draft-02-prose.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "draft-02-verification",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+      "draft-02.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check draft-02-verification <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py draft-02.md",
+    "started_utc": "2026-10-19T21:41:54.712239+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+      "draft-02.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py draft-02.md",
+    "exit_code": 0,
+    "stdout_file": "draft-02-verification.stdout.txt",
+    "stderr_file": "draft-02-verification.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "final-voice",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check final-voice <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md --source <EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+    "started_utc": "2026-10-19T21:42:54.539473+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md --source <EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+    "exit_code": 0,
+    "stdout_file": "final-voice.stdout.txt",
+    "stderr_file": "final-voice.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "final-prose",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check final-prose <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md",
+    "started_utc": "2026-10-19T21:42:54.648958+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py --draft <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\final.md",
+    "exit_code": 0,
+    "stdout_file": "final-prose.stdout.txt",
+    "stderr_file": "final-prose.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "check",
+      "final-verification",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+      "final.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py check final-verification <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py final.md",
+    "started_utc": "2026-10-19T21:42:54.763355+00:00"
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+      "final.md"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -B <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py final.md",
+    "exit_code": 0,
+    "stdout_file": "final-verification.stdout.txt",
+    "stderr_file": "final-verification.stderr.txt"
+  },
+  {
+    "argv": [
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+      "command",
+      "output-inventory",
+      "rg",
+      "--files",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1"
+    ],
+    "rendered": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py command output-inventory rg --files <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1",
+    "started_utc": "2026-10-19T21:42:54.859104+00:00"
+  },
+  {
+    "argv": [
+      "rg",
+      "--files",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1"
+    ],
+    "rendered": "rg --files <EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1",
+    "exit_code": 0,
+    "stdout_file": "output-inventory.stdout.txt",
+    "stderr_file": "output-inventory.stderr.txt"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "algorithm": "SHA-256",
+  "inputs": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\revise-request.md",
+      "sha256": "D213BE3285AE41DA20383B768C5C43DA904BED25D8A97941C2778117D93693E8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+      "sha256": "B1610E387324452710F61F02549699E3EBCED998D274F5D0F1BBD37AAC5D3FD5"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\original.md",
+      "sha256": "4B3BDB4DE00015F9725E85958F63B08C7599C965DD3BFF807B1BD9F2FAA44A49"
+    }
+  ]
+}
+

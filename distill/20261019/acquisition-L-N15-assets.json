@@ -1,0 +1,38 @@
+{
+  "retrieved_utc": "2026-10-19T21:28:58.865938+00:00",
+  "records": [
+    {
+      "url": "https://link.springer.com/article/10.1186/s40594-018-0136-1/tables/1",
+      "status": 200,
+      "bytes": 221300,
+      "file": "table1.html",
+      "sha256": "649bc3bd369349c54708f2899a86a1324e427894f7b6dd79422fac444260301b"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s40594-018-0136-1/tables/2",
+      "status": 200,
+      "bytes": 218678,
+      "file": "table2.html",
+      "sha256": "0a1c471f6bc1de5e72cdcf74053d331e8f7a0abccf1d59f72bad7fa9fe83b46e"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s40594-018-0136-1/figures/1",
+      "status": 200,
+      "bytes": 218377,
+      "file": "figure1.html",
+      "sha256": "7403032b2ecc0f36d359c1b41e9713d101209f93b17bd48f7989d2084c39b2d7"
+    },
+    {
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40594-018-0136-1/MediaObjects/40594_2018_136_Fig1_HTML.png",
+      "status": 200,
+      "bytes": 38583,
+      "file": "figure1.png",
+      "sha256": "3cdd519d6a7670afaf11e34f4111f72e9b9d5d27d77007bcbb1999c46b27daf4"
+    }
+  ],
+  "id": "L-N15",
+  "reading_scope": "Both HTML tables read in full by row/cell; Figure 1 actually viewed as an image. No PDF rendering inspection.",
+  "source_html_sha256": "dcd443a80949fabcc8dc18ee838426df85a913ec72aa989849f6a7e5cf0a1e9f",
+  "body_sha256": "3050b9ec42a2a515ce00aaa6501b25bdea72f349b3c7cb7d0c7a9686ef97dd15",
+  "reading_sha256": "91e4f1270dda07ced82265869e32cf5c17caa58647bcff4f4971911422425576"
+}

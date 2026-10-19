@@ -36,7 +36,7 @@
 
 ## 分批推进记录
 
-以下按发生顺序保留各批当时的数量与状态，早期中文条目只反映历史接触。最新有效进度为 30 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，详见[当前语料表](corpus.md)。写作与压缩评测也均使用英文。中文开发笔记不等于中文语料；没有继续中文文献或中文写作测试。
+以下按发生顺序保留各批当时的数量与状态，早期中文条目只反映历史接触。最新有效进度为 31 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，详见[当前语料表](corpus.md)。写作与压缩评测也均使用英文。中文开发笔记不等于中文语料；没有继续中文文献或中文写作测试。
 
 - 已修改八个写作文件：入口与 `argument.md` 补列混合路线；`analysis-bridge.md`、`prose-en.md`、`qualitative-narrative.md`、`voice-en.md`、`voice-zh.md` 及 `conclusion-implications.md` 修复上表中的直接冲突。相邻建议要求同步允许有明确文献或规范依据的推导，避免一处允许、另一处仍强求本研究发现。没有恢复上一轮整套混合候选；没有修改 PPT、统计或期刊检索实现。
 - 已完成两篇旧文复读：[定量 Q-R01](papers/Q-R01.md)、[混合 M-R01](papers/M-R01.md)。它们不计入新增或独立评测。
@@ -82,6 +82,10 @@
 随后登记[第九批英文来源](public-wave9.json)，两篇取得全文、一篇 XML 请求失败；候选增至 46、已获取 33。[M-N16](papers/M-N16.md) 已完成全文、表图、逐句段落及英文改写分析，但它是带真实研究应用的方法论文章，单列为方法应用与对照来源，不加入 30 篇实证／边界案例数。中文历史记录未改动。
 
 另完成 [Q-C01 英文对照](../../evals/writing-20261020-qc01/README.md)：一项研究、两种操作、两版本各重复两次，共八份终稿，实际初稿、自查、检查输出及两份匿名评阅均已保存。候选只增加一个正面比较示范，获得有限的局部偏好，尚不足以证明稳定迁移；控制版本来也能完成主要解释。局部语义问题、评阅误判和负面记录保留，候选暂不进入正式 skill。此次没有中文写作任务，也没有新的 PPT、统计或期刊检索改动。
+
+[L-N15](papers/L-N15.md) now adds an English analysis of how established teaching experience coexists with an emerging STEM identity. The complete main text, two tables and conceptual figure were read; the note includes sentence/paragraph/article analysis, English same-fact edits and unresolved source issues. The current 31 empirical/boundary analyses comprise quantitative 10, qualitative 11, mixed 9 and one boundary case. This is development-source progress, not a writing-effect claim; the four historical Chinese records remain unchanged.
+
+The [M-C01 English comparison](../../evals/writing-20261020-mc01/README.md) also preserves eight actual manuscripts and two anonymous reviews. New writing is substantively tied; both candidate compressions receive a slight preference, with local ambiguities remaining. The candidate is not adopted into the runtime skill. Input encoding and one unavailable historical helper version are documented rather than removed from the record. All frozen writing instructions, task inputs and final manuscripts were checked; this remains a single-study development comparison, not final independent validation.
 
 ## 原生批注实现推进
 

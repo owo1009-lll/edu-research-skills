@@ -58,6 +58,7 @@ Q-N12 用共同复习解释设计中的两个决定：贴近日常教学、对�
 | [L-N10](papers/L-N10.md)，第 5–8 页 | 员工对研究要求的不同理解进入讨论，数据分组和研究任务随之调整 | 侧重谁的回应改变哪项工作，不把领导与一线员工合并成同一种立场 |
 | [L-N13](papers/L-N13.md)，PDF 第 11、14–16 页及图 1–2 | 跟随课件中的提议、修改及跨课堂使用，解释协商、标准化和能动性 | 文档既参与形成安排，也把安排带往别处；保留教师评价与抵抗，不将理论改成技术单向决定行为 |
 | [L-N14](papers/L-N14.md)，B041、B049–B064、B073、B083–B086 | 从社区协商、角色变化和相反的权力使用发展能动性解释 | 同为外来者可有不同的社区关系；反例改变概念条件，规范立场不改成普遍统计结论 |
+| [L-N15](papers/L-N15.md), B077, B079, B087, B097 | Relate established teaching careers to an emerging interdisciplinary identity; give collaboration a curricular purpose | Interview accounts explain the meaning of a new role; they do not establish an observed trajectory or learning effects |
 
 **候选写作动作。** 选取与核心解释有关的片段，交代谁做了什么、另一人怎样回应、回应改变了什么，再说明概念如何理解这段关系。概念不必等到段尾才出现，资料也不必每次都配一段长引语。保留成人指导与儿童能动性、伙伴支持与制度约束等同时成立的关系。
 
@@ -72,6 +73,8 @@ L-N09 的会议分析先提出共同指导的判断，再逐句说明成员各�
 L-N13 增加一个有实际现场与文档材料的变体：跟随共同课件从备课进入课堂，说明一次安排怎样延续、又在哪些方面没有完全相同。英文压缩保留教师的提议和改动，也保留线上参与机会与预设范围的并存关系。只删抽象重复，不删其中一面来制造简洁；ANT 与读写研究的组合解释仍属于作者立场，不统一替换成变量框架。
 
 L-N14 进一步比较同一身份下的不同关系：两位外来者分别争取社区认可、阻碍母语教育，不能把差别归结为身份本身。另一位教师从校长转为课堂教师，行动形式改变而支持立场仍在。英文改写保留这两个解释动作，不把回顾档案补写成现场连续观察；作者的去殖民立场及政策 should 可以保留，案例对应错误则单独修复。
+
+L-N15 adds an interview-based variant: substantial teaching experience can coexist with an emerging STEM identity. The source links years of experience and self-understanding within named accounts; the English revision makes that relationship carry the explanation. Cross-disciplinary planning also gives collaboration content beyond a trait list. The paper's unsupported inverse claim about misalignment and its extension to achievement remain contrast evidence. This is selected source analysis, not a new runtime method or a behavioral result.
 
 **同事实正例。** L-N07 第 12 页可压缩为：“Private funding could not bypass district approval for preschool tablets. The partner pursued access with the district, which later restored provision but too late for the planned orientation.” 概念解释随后落在资源、规则与时间的协商，不写成资金必然带来公平或伙伴单独造成政策转向。L-N08 的前后例保留父亲纠正和孩子接续，不为突出能动性删掉指导。
 
@@ -119,6 +122,8 @@ M-N09 的教师重视低要求问题与观察到的群体提问比例，也须�
 **与旧规则的关系。** 当前 `analysis-bridge.md` 已说明整合阶段、层级及不能用访谈证明统计机制。上一轮 M4 整包未获得重复稳定收益，仍不恢复。这个候选拟只用一项有对象的整合示范，观察是否比现有简短原则提供额外帮助；概念忠实仍沿用原有修改原则。
 
 **后续适用验证。** 先选择一类设计的小批新写与真实压缩，再用另一种设计看迁移；同文两次是波动检查，不算两种情境。优先核对整合增加的认识、来源对应、构念与作者立场，保留反例，最后再看自然性及简洁度。结果属于实际加载的完整组合，不能归功于没有单独测试的一句话。
+
+The [M-C01 comparison](../../evals/writing-20261020-mc01/README.md) has now completed English new writing and actual-paragraph compression for M-N07, twice per arm. The only addition is a positive M-N15 illustration in analysis-bridge.md. Anonymous review ties all new discussions substantively and slightly favors both candidate compressions; all controls also repair the central unsupported inference. Candidate compression retains an ambiguity between implementation ratings and self-ratings, while the strength assigned to an explicit training/knowledge qualification is partly an editorial judgment. The example remains outside the runtime skill pending transfer evidence. One study, same-model reviews and the recorded input/helper limitations do not establish stable cross-design benefit.
 
 ## 此阶段不作出的归纳
 

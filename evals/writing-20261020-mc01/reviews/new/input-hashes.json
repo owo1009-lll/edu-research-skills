@@ -1,0 +1,41 @@
+{
+  "algorithm": "SHA-256",
+  "purpose": "Integrity record for every permitted input used in this anonymous review.",
+  "inputs": [
+    {
+      "file": "review-brief.md",
+      "path": "<EXPERIMENT_ROOT>\\blind\\new\\review-brief.md",
+      "sha256": "924ed749cc9d9a20b2d39f2ba3dbd36fdcd1acd3eb965eba56cbcc3894802cc3"
+    },
+    {
+      "file": "A.md",
+      "path": "<EXPERIMENT_ROOT>\\blind\\new\\A.md",
+      "sha256": "3712662b9eede0f16e8875db2480343499fe70ebd8246907f2cda61ad9e49b1e"
+    },
+    {
+      "file": "B.md",
+      "path": "<EXPERIMENT_ROOT>\\blind\\new\\B.md",
+      "sha256": "e20e0420701e2f68fafc9840ebe83a962bf3bcca95f83fb3aa8a9e249b8d7e65"
+    },
+    {
+      "file": "C.md",
+      "path": "<EXPERIMENT_ROOT>\\blind\\new\\C.md",
+      "sha256": "70b3361a13f95e5843f417bfbceb3d36697072ef781f43797bf65c0878aad72a"
+    },
+    {
+      "file": "D.md",
+      "path": "<EXPERIMENT_ROOT>\\blind\\new\\D.md",
+      "sha256": "41bf85ec4ba2ba87d201a11b07154aed617cfd8da649e302ed6939ba59f36f0c"
+    },
+    {
+      "file": "new-request.md",
+      "path": "<EXPERIMENT_ROOT>\\blind\\new\\new-request.md",
+      "sha256": "fd593032ee3a97809c4a548d0ac96a3795e53bab0392ac73386117933a0a8993"
+    },
+    {
+      "file": "source-pack.md",
+      "path": "<EXPERIMENT_ROOT>\\blind\\new\\source-pack.md",
+      "sha256": "b1610e387324452710f61f02549699e3ebced998d274f5d0f1bbd37aac5d3fd5"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md",
+    "sha256": "fd593032ee3a97809c4a548d0ac96a3795e53bab0392ac73386117933a0a8993",
+    "action": "read"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+    "sha256": "b1610e387324452710f61f02549699e3ebced998d274f5d0f1bbd37aac5d3fd5",
+    "action": "read"
+  }
+]

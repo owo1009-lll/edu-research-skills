@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "final_body_words": 121,
+  "body_paragraphs": 1,
+  "counting_method": "Whitespace-separated body words; headings and attribution excluded.",
+  "final_equals_checked_draft_02": true,
+  "first_draft_preserved_and_distinct": true,
+  "prose_decodes_as_utf8_without_replacement_characters": true,
+  "original_citation_retained": true,
+  "checker_runs": "Two successful skill checker runs per saved draft; see checks/*/executed-commands.json.",
+  "files": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\draft-01.md",
+      "sha256": "3163da9481a5d68518f76dfce09895e0bc6b527a806a8614c3ad38654e13a032"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\draft-02.md",
+      "sha256": "de11a225291a00d5005b8300eb5bba9ba1ec6f170399be9b4b09734f70a7d00f"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\self-review.md",
+      "sha256": "247a900ec2fb46d2828268d246d7283fd92d85ca3eabedc85b3da623aec4aa33"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\final.md",
+      "sha256": "de11a225291a00d5005b8300eb5bba9ba1ec6f170399be9b4b09734f70a7d00f"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\rationale.md",
+      "sha256": "575cdb148335a0156ccae71634da9abf1296013247917be3cf92ea8d5a435147"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v2\\changes-and-source-checks.md",
+      "sha256": "f271f78489189788b49a61f6767380b7d11ff37299515a0202743ee1cd681583"
+    }
+  ]
+}

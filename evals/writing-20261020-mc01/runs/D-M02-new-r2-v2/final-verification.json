@@ -1,0 +1,73 @@
+{
+    "final_sha256":  "7994178934050fe3747dfe24337bbf27f675e3cc0dfcecb7d6bb91e7fbcfbd76",
+    "final_matches_revised_draft":  true,
+    "body_words_excluding_attribution_heading":  402,
+    "within_requested_range":  true,
+    "unicode_replacement_characters":  0,
+    "attribution_heading_count":  1,
+    "missing_required_files":  [
+
+                               ],
+    "resource_hash_checks":  [
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\run-checks.py",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md",
+                                     "hash_matches":  true
+                                 },
+                                 {
+                                     "path":  "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+                                     "hash_matches":  true
+                                 }
+                             ]
+}

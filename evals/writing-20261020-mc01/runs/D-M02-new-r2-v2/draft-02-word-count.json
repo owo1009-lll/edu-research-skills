@@ -1,0 +1,8 @@
+{
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-02.md",
+  "sha256": "7994178934050fe3747dfe24337bbf27f675e3cc0dfcecb7d6bb91e7fbcfbd76",
+  "body_word_count": 402,
+  "whitespace_word_count": 402,
+  "method": "Unicode letter/number words; internal apostrophes and hyphens retained within one word; Markdown attribution heading excluded.",
+  "within_350_450": true
+}

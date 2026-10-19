@@ -1,0 +1,7 @@
+# Discussion
+
+Teachers generally rated their implementation of cooperative learning (CL) more highly than observers did. Limited knowledge of CL’s basic elements is one possible explanation; Hennessey and Dionigi (2013) emphasise knowledge in assessing CL. Interviews suggest another: teachers with low observed implementation placed responsibility for successful cooperation on students. Separating their own instructional provision from students’ engagement could help explain favourable self-assessments, although the reported case data do not link these beliefs to individual implementation ratings. Differences between the measures also matter: teachers reported typical practice across five elements, whereas observations covered four elements in a selected lesson. Further research should examine how knowledge and beliefs about responsibility enter these assessments, while aligning the practices and elements assessed by teachers and observers.
+
+## Attribution (outside the paragraph word count)
+
+Adapted and compressed from Discussion paragraph B068 in Adl-Amini, K., Völlinger, V. A., & Eckart, A. (2024; published online 2023), *Implementation quality of cooperative learning and teacher beliefs—a mixed methods study*, *European Journal of Psychology of Education, 39*, 2267–2281. [Original article](https://doi.org/10.1007/s10212-023-00769-3), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). This is an attributed writing exercise; the text has been changed.

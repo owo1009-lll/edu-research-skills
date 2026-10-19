@@ -17,6 +17,9 @@ def main():
     parser.add_argument('--control-manifest', type=Path, required=True)
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--manifest', type=Path, required=True)
+    parser.add_argument('--target', default='skills/edu-writing/references/quantitative-discussion.md')
+    parser.add_argument('--addition', type=Path, default=Path(__file__).with_name('candidate-addition.md'))
+    parser.add_argument('--label', default='qc01-example-only')
     args = parser.parse_args()
     control, out = args.control.resolve(), args.out.resolve()
     if out.exists() or args.manifest.exists():
@@ -27,8 +30,10 @@ def main():
     for item in baseline['files']:
         assert hashlib.sha256((control / item['path']).read_bytes()).hexdigest() == item['sha256']
     shutil.copytree(control, out)
-    relative = 'skills/edu-writing/references/quantitative-discussion.md'
-    addition = Path(__file__).with_name('candidate-addition.md').read_bytes()
+    relative = args.target
+    if relative not in {item['path'] for item in baseline['files']}:
+        parser.error('Target must be an existing file in the frozen manifest.')
+    addition = args.addition.read_bytes()
     target = out / relative
     target.write_bytes(target.read_bytes().rstrip() + b'\n\n' + addition.lstrip())
     records = []
@@ -39,7 +44,7 @@ def main():
     assert changed == [relative], changed
     tree = hashlib.sha256(json.dumps(records, ensure_ascii=False, separators=(',', ':')).encode('utf-8')).hexdigest()
     result = {
-        'label': 'qc01-example-only', 'purpose': 'development comparison; not final holdout freeze',
+        'label': args.label, 'purpose': 'development comparison; not final holdout freeze',
         'created_utc': datetime.now(timezone.utc).isoformat(),
         'source_head': baseline['source_head'],
         'control_tree_sha256': baseline['tree_sha256'],

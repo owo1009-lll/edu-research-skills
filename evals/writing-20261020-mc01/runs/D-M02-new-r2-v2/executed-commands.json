@@ -1,0 +1,168 @@
+{
+  "description": "Shell read commands executed in chronological batches; parallel commands within a batch have no implied completion order. Prose was written using apply_patch. Subsequent checker executions will be recorded as they occur.",
+  "read_commands": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md",
+      "command": "$taskPath = '<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw",
+      "note": "Executed first; output decoding was incorrect. Correct UTF-8 reads followed."
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+      "command": "$taskPath = '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw",
+      "note": "Executed first; output decoding was incorrect. Correct UTF-8 reads followed."
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+      "command": "$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw",
+      "note": "Executed first; output decoding was incorrect. Correct UTF-8 reads followed."
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+      "command": "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8\n$taskPath = '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md'\nGet-FileHash -LiteralPath $taskPath -Algorithm SHA256 | Select-Object Path,Hash | ConvertTo-Json -Compress\nGet-Content -LiteralPath $taskPath -Raw -Encoding UTF8"
+    }
+  ],
+  "checker_commands": [
+    {
+      "command_argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01.md",
+        "--source",
+        "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2",
+      "started_utc": "2026-10-19T21:35:05.627952+00:00",
+      "finished_utc": "2026-10-19T21:35:05.682150+00:00",
+      "exit_code": 0,
+      "draft_sha256": "6bd85be9b69a83810240f37d559c55ce0d8fa636ecc72fdd05e2c604141d47e6",
+      "script_sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_voice.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_voice.stderr.txt"
+    },
+    {
+      "command_argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2",
+      "started_utc": "2026-10-19T21:35:05.682150+00:00",
+      "finished_utc": "2026-10-19T21:35:05.743484+00:00",
+      "exit_code": 0,
+      "draft_sha256": "6bd85be9b69a83810240f37d559c55ce0d8fa636ecc72fdd05e2c604141d47e6",
+      "script_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_prose.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_prose.stderr.txt"
+    },
+    {
+      "command_argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-02.md",
+        "--source",
+        "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2",
+      "started_utc": "2026-10-19T21:35:59.213720+00:00",
+      "finished_utc": "2026-10-19T21:35:59.270520+00:00",
+      "exit_code": 0,
+      "draft_sha256": "7994178934050fe3747dfe24337bbf27f675e3cc0dfcecb7d6bb91e7fbcfbd76",
+      "script_sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-02-check_voice.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-02-check_voice.stderr.txt"
+    },
+    {
+      "command_argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-02.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2",
+      "started_utc": "2026-10-19T21:35:59.271519+00:00",
+      "finished_utc": "2026-10-19T21:35:59.334744+00:00",
+      "exit_code": 0,
+      "draft_sha256": "7994178934050fe3747dfe24337bbf27f675e3cc0dfcecb7d6bb91e7fbcfbd76",
+      "script_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-02-check_prose.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-02-check_prose.stderr.txt"
+    }
+  ],
+  "helper_commands": [
+    {
+      "command_argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\run-checks.py",
+        "draft-01.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2"
+    },
+    {
+      "command_argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\run-checks.py",
+        "draft-02.md"
+      ],
+      "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2"
+    }
+  ]
+}

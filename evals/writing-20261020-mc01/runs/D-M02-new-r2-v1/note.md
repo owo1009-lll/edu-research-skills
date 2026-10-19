@@ -1,0 +1,5 @@
+# Writing note
+
+The passage has 396 body words; the attribution heading is excluded. It develops the case contrast around responsibility for teaching cooperation, then connects that contrast to concrete questions for teacher education. The scope paragraph preserves the limits of selected lessons, volunteer recruitment, extreme-case comparison, and observation of instructional provision. Suggested teacher-education practices are recommendations, not tested effects.
+
+Only the supplied source pack was used. The original article and its cited studies were not independently checked. The pack's inconsistent partial-implementation total, unresolved correlation decimal, suitability-scale bound, exact case-matching description, and resistance-to-change inference remain unresolved and are not used in the passage. The absent individual implementation self-ratings also prevent connecting particular interviewees to overestimation. The study is attributed to Adl-Amini, Völlinger, and Eckart (2024; online 2023), DOI 10.1007/s10212-023-00769-3.

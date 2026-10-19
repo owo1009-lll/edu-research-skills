@@ -768,9 +768,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_and_opening_screened_only",
-      "read_scope": "Public article identity and opening screened; no full-text distillation completed.",
-      "use_status": "pending_full_reading_and_classification"
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B109 abstract and complete English main text; B110-B275 references, declarations, identity and license; all cells of linked Tables 1-2; Figure 1 actually viewed as an image. No PDF layout inspection.",
+      "use_status": "selected_writing_moves_and_contrast_source; interview-based identity interpretation, causal extensions not adopted",
+      "reading_sha256": "91e4f1270dda07ced82265869e32cf5c17caa58647bcff4f4971911422425576",
+      "confirmed_group": "qualitative",
+      "analysis": "papers/L-N15.md",
+      "not_read": "Original interview transcripts, field observations and cited originals; no longitudinal identity or learning-outcome data reanalysis",
+      "classification_note": "Multiple-case interview study with individual teachers as cases; reports inductive and axial coding and a contextualized grounded theory. Not counted as mixed research or an observed longitudinal process."
     },
     {
       "id": "M-N16",

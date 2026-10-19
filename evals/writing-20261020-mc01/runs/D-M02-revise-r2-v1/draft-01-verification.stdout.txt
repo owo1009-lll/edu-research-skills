@@ -1,0 +1,16 @@
+[
+  {
+    "file": "draft-01.md",
+    "body_words_whitespace": 122,
+    "body_words_checker_regex": 122,
+    "body_paragraphs": 1,
+    "word_range_pass": true,
+    "single_paragraph_pass": true,
+    "retained_citation": true,
+    "cl_defined": true,
+    "utf8_decode_pass": true,
+    "replacement_character_present": false,
+    "sha256": "7bdf1fa92c9d2bce2ab6f11499b0f8d446b50b1d0456ec216b38d68f5e7439f6",
+    "count_method": "Split body on whitespace; remove Markdown heading lines; hyphenated words and possessives count as one word. The second count uses the supplied prose checker regex."
+  }
+]

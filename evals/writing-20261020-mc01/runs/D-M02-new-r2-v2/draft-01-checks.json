@@ -1,0 +1,36 @@
+[
+  {
+    "command_argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ],
+    "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2",
+    "started_utc": "2026-10-19T21:35:05.627952+00:00",
+    "finished_utc": "2026-10-19T21:35:05.682150+00:00",
+    "exit_code": 0,
+    "draft_sha256": "6bd85be9b69a83810240f37d559c55ce0d8fa636ecc72fdd05e2c604141d47e6",
+    "script_sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_voice.stdout.txt",
+    "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_voice.stderr.txt"
+  },
+  {
+    "command_argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01.md"
+    ],
+    "cwd": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2",
+    "started_utc": "2026-10-19T21:35:05.682150+00:00",
+    "finished_utc": "2026-10-19T21:35:05.743484+00:00",
+    "exit_code": 0,
+    "draft_sha256": "6bd85be9b69a83810240f37d559c55ce0d8fa636ecc72fdd05e2c604141d47e6",
+    "script_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_prose.stdout.txt",
+    "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v2\\draft-01-check_prose.stderr.txt"
+  }
+]

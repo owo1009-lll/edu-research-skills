@@ -1,0 +1,19 @@
+{
+  "resources": [
+    "variants/v2/skills/edu-writing/SKILL.md",
+    "variants/v2/skills/edu-writing/references/foundation.md",
+    "variants/v2/skills/edu-writing/references/argument.md",
+    "variants/v2/skills/edu-writing/references/voice-en.md",
+    "variants/v2/skills/edu-writing/references/framing-results.md",
+    "variants/v2/skills/edu-writing/references/quantitative-discussion.md",
+    "variants/v2/skills/edu-shared/references/integrity.md",
+    "variants/v2/skills/edu-writing/references/analysis-bridge.md",
+    "variants/v2/skills/edu-writing/scripts/check_voice.py",
+    "variants/v2/skills/edu-writing/scripts/check_prose.py"
+  ],
+  "task_inputs": [
+    "inputs/D-M02/revise-request.md",
+    "inputs/D-M02/source-pack.md",
+    "inputs/D-M02/original.md"
+  ]
+}

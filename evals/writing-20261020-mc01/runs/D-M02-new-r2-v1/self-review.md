@@ -1,0 +1,29 @@
+# AI self-review of the saved first draft
+
+This review was recorded after saving `first-draft.md` and executing both required scripts, and before writing the revision. It is an AI self-check, not expert review or independent verification of the article.
+
+The first draft has 401 body words, excluding the attribution heading. Its central argument is supported: the interview cases give practical content to the distinction between teaching cooperation and assuming that students can already cooperate. It preserves the endpoint counts, identifies the case selection, avoids causal verbs for the belief–practice connection, and derives teacher-education work from the contrast. It contains no invented quotation or additional literature.
+
+The principal weakness is allocation of space. The paragraph about self-ratings is accurate but takes almost a quarter of the passage into a second problem. It introduces an explanatory possibility, then needs several qualifications about measurement coverage and unavailable individual correspondence. The new-writing request does not require discussion of that discrepancy. Remove this branch so the passage can develop the implication of the case contrast and explain its scope more directly. The source issues still belong in the separate note.
+
+The opening should state the contribution more concretely: the study gives classroom substance to the difference between organising group work and teaching cooperation. The individual case of academic success without cooperation should carry the interpretation of teachers' criteria for lesson success. Strengthen the teacher-education paragraph with actions tied to the supplied concepts and cases: examine planned responses to communication difficulties; relate role allocation to interdependence and accountability; include group reflection in how teachers assess a lesson. Present these as recommendations and examples for teacher educators, not tested programme components.
+
+Move the observation-score rule into a compact scope paragraph with extreme-case selection and volunteer recruitment. Keep the absence of direct social-skill assessment explicit. The final paragraph should end on what teacher education is being asked to address, with evaluation needs attached to the proposed approach rather than functioning as a generic closing disclaimer.
+
+## Checker decisions
+
+- `check_voice-first-draft.txt`: the long attribution heading was counted as a paragraph. Its semantic cue targets the word “equivalent,” but the sentence explicitly rejects equivalence between measures with different coverage. This is not an inference from non-significance. The limitation cue is correctly adjacent to the measurement discussion. No source-number cue was raised; manual checking confirms that 30 is the observational sample and that the counts two and 11 refer to the all-four and none categories. Written-out numbers still require manual checking.
+- The voice check reports no self-mentions. Preserve third-person attribution because the study belongs to the published authors. Its corpus reference does not override the secondary-writing task.
+- `check_prose-first-draft.txt`: the attribution heading led the script to classify the passage as an introduction. Preserve the raw output as executed. `first-draft-checker-input.md` is a diagnostic copy with only the heading replaced by `# Discussion`; the body is identical, as verified by the audit script. Both scripts were rerun on that copy, and their actual outputs are saved separately.
+- `check_prose-first-draft-checker-input.txt`: the discussion has two citation prompts. The task permits one supplied study and forbids additional literature. Do not manufacture comparative citations to satisfy a corpus reference. Add the year to the existing narrative attribution for a conventional identifiable reference; any remaining citation-density prompt is expected for this exercise. The reported sentence and paragraph statistics are descriptive and do not justify lengthening sentences.
+- There are no stacked-hedge or unsupported-number cues. That absence is not a quality judgment. The main revision is based on the argument and source correspondence above.
+
+## Revision plan
+
+Retain the argument and four-paragraph form. Revise the opening, sharpen the case-based interpretation, replace the self-rating branch with a focused scope paragraph, and develop teacher-education actions. Retain the supplied endpoint counts; leave inconsistent quantities and unverified cited originals out of the passage. Save the result as `second-draft.md`, then verify body length and run the checkers before delivery.
+
+## Review after the recorded revision
+
+`second-draft.md` has 396 body words in four paragraphs. Its diagnostic copy preserves the body verbatim. Both checker subprocesses exited successfully. The voice checker raises no sentence-level or unsupported-number cues; its zero self-mention remains appropriate to this attribution task. The prose checker still raises citation prompts because it does not recognise “Adl-Amini and colleagues' (2024)” as a narrative citation. The full attribution heading and the opening identify the source for a reader. No citation was added solely to change a script metric.
+
+Manual review confirms that the endpoint counts concern the observed sample; four refers to assessed elements and selected interview cases in their respective sentences; the highest score indicates at least one instructional indicator per element. Teachers' accounts are described as accounts, and the individual academic-success example remains case-specific. Scope and causal uncertainty are stated without implying that the study tested teacher education. The closing actions follow from the supplied roles, accountability, interdependence, reflection, and communication-difficulty examples. This completes one substantive revision. The final file will be an unchanged copy of the second draft.

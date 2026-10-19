@@ -1,0 +1,175 @@
+{
+  "note": "Events recorded while carrying out the task. Draft and review stages were saved when produced. The final event writes this log and the validation records.",
+  "events": [
+    {
+      "sequence": 1,
+      "tool": "exec_command",
+      "label": "task-request"
+    },
+    {
+      "sequence": 2,
+      "tool": "exec_command",
+      "label": "source-pack"
+    },
+    {
+      "sequence": 3,
+      "tool": "exec_command",
+      "label": "skill"
+    },
+    {
+      "sequence": 4,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md"
+    },
+    {
+      "sequence": 5,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md"
+    },
+    {
+      "sequence": 6,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md"
+    },
+    {
+      "sequence": 7,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md"
+    },
+    {
+      "sequence": 8,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md"
+    },
+    {
+      "sequence": 9,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md"
+    },
+    {
+      "sequence": 10,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\conclusion-implications.md"
+    },
+    {
+      "sequence": 11,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md"
+    },
+    {
+      "sequence": 12,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py"
+    },
+    {
+      "sequence": 13,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py"
+    },
+    {
+      "sequence": 14,
+      "tool": "exec_command",
+      "label": "checker dependency inspection"
+    },
+    {
+      "sequence": 15,
+      "tool": "exec_command",
+      "label": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md"
+    },
+    {
+      "sequence": 16,
+      "tool": "apply_patch",
+      "label": "create pre-draft rationale",
+      "files": [
+        "<EXPERIMENT_ROOT>/runs/D-M02-new-r1-v2/rationale.md"
+      ]
+    },
+    {
+      "sequence": 17,
+      "tool": "apply_patch",
+      "label": "save complete first draft",
+      "files": [
+        "<EXPERIMENT_ROOT>/runs/D-M02-new-r1-v2/first-draft.md"
+      ]
+    },
+    {
+      "sequence": 18,
+      "tool": "exec_command",
+      "label": "first-draft check_voice"
+    },
+    {
+      "sequence": 19,
+      "tool": "exec_command",
+      "label": "first-draft check_prose"
+    },
+    {
+      "sequence": 20,
+      "tool": "exec_command",
+      "label": "resource and input hashing; first-draft word count"
+    },
+    {
+      "sequence": 21,
+      "tool": "apply_patch",
+      "label": "save actual first-draft checks, hashes, and pre-revision self-review",
+      "files": [
+        "first-draft-check-voice.md",
+        "first-draft-check-prose.md",
+        "loaded-resources.json",
+        "task-input-hashes.json",
+        "self-review.md"
+      ]
+    },
+    {
+      "sequence": 22,
+      "tool": "apply_patch",
+      "label": "save complete revision after first-draft review",
+      "files": [
+        "<EXPERIMENT_ROOT>/runs/D-M02-new-r1-v2/revised-draft.md"
+      ]
+    },
+    {
+      "sequence": 23,
+      "tool": "exec_command",
+      "label": "revised-draft check_voice"
+    },
+    {
+      "sequence": 24,
+      "tool": "exec_command",
+      "label": "revised-draft check_prose"
+    },
+    {
+      "sequence": 25,
+      "tool": "exec_command",
+      "label": "revised-draft word count and hash"
+    },
+    {
+      "sequence": 26,
+      "tool": "apply_patch",
+      "label": "save checked final, actual revision checks, short note, and post-revision records",
+      "files": [
+        "final.md",
+        "revised-draft-check-voice.md",
+        "revised-draft-check-prose.md",
+        "notes.md",
+        "rationale.md",
+        "self-review.md"
+      ]
+    },
+    {
+      "sequence": 27,
+      "tool": "exec_command",
+      "label": "final artifact validation"
+    },
+    {
+      "sequence": 28,
+      "tool": "apply_patch",
+      "label": "save executed commands, workflow events, word counts, and final validation",
+      "files": [
+        "executed-commands.json",
+        "workflow-events.json",
+        "word-counts.json",
+        "validation.json"
+      ]
+    }
+  ]
+}

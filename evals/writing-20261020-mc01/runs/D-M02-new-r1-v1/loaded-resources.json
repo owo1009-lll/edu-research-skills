@@ -1,0 +1,92 @@
+{
+    "resources":  [
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md",
+                          "sha256":  "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+                          "sha256":  "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+                          "sha256":  "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md",
+                          "sha256":  "a210562df377e6c180ea21b42e86e3ca4237b9e315cb31e79129ce2884bdfa0d",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md",
+                          "sha256":  "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md",
+                          "sha256":  "0d2024ff3cf66029f1d37a5a6a9b00c53744c175c2d148ead6f368d61a51a814",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md",
+                          "sha256":  "a4f3c908f5d2aa0c6ffc71a1df93fa94b011fc3bb6341c90379f8d9451f9cbc8",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\conclusion-implications.md",
+                          "sha256":  "f6def6889d869c7cf5f9e3b0a0193fe2d24090697b8a4362e742826e18739d09",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+                          "sha256":  "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+                          "sha256":  "bac65a856e6eddda2ea6c0dfdce209b31635dd08ca70fe6f8f842b7c202f98be",
+                          "use":  "read",
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+                          "sha256":  "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+                          "use":  [
+                                      "read",
+                                      "executed"
+                                  ],
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+                          "sha256":  "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+                          "use":  [
+                                      "read",
+                                      "executed"
+                                  ],
+                          "scope":  "specified skill snapshot"
+                      },
+                      {
+                          "path":  "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\prepare-check-input.py",
+                          "sha256":  "5a1a45adc73ca9e8b19aac0c5e2ab9a574b7c6afdb28be7cacc0b5a0f863cfff",
+                          "use":  [
+                                      "generated",
+                                      "executed"
+                                  ],
+                          "scope":  "generated local support script"
+                      }
+                  ],
+    "note":  "Only resources actually read or executed are listed. Hashes describe the unchanged supplied snapshot and the generated counting helper. Task input hashes are separate."
+}

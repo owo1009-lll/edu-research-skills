@@ -1,0 +1,16 @@
+{
+    "body_words":  124,
+    "body_paragraphs":  1,
+    "final_equals_draft_02":  true,
+    "final_sha256":  "2FFCE51A9985CC2959EAC6D62DCF35A4B16E6C70FFD008F8D2134E3FE1561A66",
+    "utf8_issues":  [
+
+                    ],
+    "checker_reports":  [
+                            "checks/draft-01.checks.json",
+                            "checks/draft-01-context.checks.json",
+                            "checks/draft-02.checks.json"
+                        ],
+    "review_type":  "AI self-review",
+    "external_browsing_performed":  false
+}

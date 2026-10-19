@@ -1,0 +1,217 @@
+[
+  {
+    "utc": "2026-10-19T21:28:46.004650+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "read",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:28:54.875739+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "read",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:28:59.221957+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "read",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\conclusion-implications.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:29:07.231346+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "read",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:29:50.545114+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "check",
+      "check_voice.py",
+      "first-draft.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:29:50.552117+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\first-draft.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:29:50.790871+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "check",
+      "check_prose.py",
+      "first-draft.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:29:50.791874+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\first-draft.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:30:16.379216+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "prepare",
+      "first-draft.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:30:16.570444+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "check",
+      "check_voice.py",
+      "first-draft-checker-input.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:30:16.572445+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\first-draft-checker-input.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:30:16.810835+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "check",
+      "check_prose.py",
+      "first-draft-checker-input.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:30:16.812845+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\first-draft-checker-input.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:31:09.974533+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "prepare",
+      "second-draft.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:31:10.164056+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "check",
+      "check_voice.py",
+      "second-draft-checker-input.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:31:10.169057+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\second-draft-checker-input.md",
+      "--source",
+      "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:31:10.405426+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "check",
+      "check_prose.py",
+      "second-draft-checker-input.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:31:10.405950+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "--draft",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\second-draft-checker-input.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:32:14.721817+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "finalize"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:32:14.951814+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "prepare",
+      "final.md"
+    ]
+  },
+  {
+    "utc": "2026-10-19T21:32:15.200617+00:00",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\audit.py",
+      "verify"
+    ]
+  }
+]

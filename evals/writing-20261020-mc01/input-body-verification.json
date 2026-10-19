@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-10-19T21:37:20.400126+00:00",
+  "published_paragraph_locator": "M-N07 B068",
+  "reading_file_sha256": "ac05a26c687f4897a2b18f5a789554e6ce5312cae76387566d0a34a576ee7865",
+  "paragraph_utf8_sha256": "d1f241deb47993898d80de89a2cd6c3f33ed208ecbee1021de66e844727cda84",
+  "paragraph_whitespace_words": 176,
+  "frozen_paragraph_equals_source_extraction": true,
+  "frozen_input_copies_verified": 8,
+  "bibliographic_context_defect": "input-context-correction.md",
+  "scope": "Text and file identity, not validation of the published argument."
+}

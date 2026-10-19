@@ -1,0 +1,20 @@
+{
+  "counting_rule": "Whitespace-delimited body tokens; attribution heading excluded; hyphenated words and apostrophes remain within a word.",
+  "drafts": [
+    {
+      "file": "first-draft.md",
+      "body_words": 405,
+      "sha256": "81479a11b031b67b0c0ada8fab4431fecce8f3690c6bf88abf2fa7f5f636738c"
+    },
+    {
+      "file": "revised-draft.md",
+      "body_words": 381,
+      "sha256": "2b877afb1a3e7e6f137daef0e96f1f6b864b1306a1b2c1f7b28c3fe626fb5733"
+    },
+    {
+      "file": "final.md",
+      "body_words": 381,
+      "sha256": "2b877afb1a3e7e6f137daef0e96f1f6b864b1306a1b2c1f7b28c3fe626fb5733"
+    }
+  ]
+}

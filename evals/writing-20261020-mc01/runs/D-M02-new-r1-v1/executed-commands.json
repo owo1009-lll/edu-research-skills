@@ -1,0 +1,102 @@
+{
+  "note": "Actual shell commands, recorded in submission order. Independent reads and checks were batched; first-draft, self-review, and revision files were saved at their actual stages. apply_patch prose edits are represented by the retained stage files.",
+  "commands": [
+    {
+      "submission_order": 1,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md' -Raw",
+      "exit_code": 0,
+      "note": "Initial read used default console decoding; repeated explicitly as UTF-8."
+    },
+    {
+      "submission_order": 2,
+      "command": "Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md' -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' -Raw",
+      "exit_code": 0,
+      "note": "Initial read used default console decoding; repeated explicitly as UTF-8."
+    },
+    {
+      "submission_order": 3,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 4,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 5,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 6,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\conclusion-implications.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 7,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md' -Encoding UTF8 -Raw; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md' -Encoding UTF8 -Raw",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 8,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md' -Encoding UTF8 -TotalCount 30; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md' -Encoding UTF8 -Raw; rg -n '^(import|from)|Path|read_text|open\\(' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 9,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' -Encoding UTF8 | Select-Object -Last 90; Get-Content -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' -Encoding UTF8 | Select-Object -Last 70",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 10,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllLines('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.check-voice.txt', [string[]]$checkOutput, [System.Text.UTF8Encoding]::new($false)); $checkOutput; exit $checkExit",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 11,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllLines('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.check-prose.txt', [string[]]$checkOutput, [System.Text.UTF8Encoding]::new($false)); $checkOutput; exit $checkExit",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 12,
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\prepare-check-input.py' '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.md'",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 13,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.check-input.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllLines('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.normalized.check-voice.txt', [string[]]$checkOutput, [System.Text.UTF8Encoding]::new($false)); $checkOutput; exit $checkExit",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 14,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.check-input.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllLines('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-01.normalized.check-prose.txt', [string[]]$checkOutput, [System.Text.UTF8Encoding]::new($false)); $checkOutput; exit $checkExit",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 15,
+      "command": "python '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\prepare-check-input.py' '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.md'",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 16,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.check-input.md' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllLines('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.check-voice.txt', [string[]]$checkOutput, [System.Text.UTF8Encoding]::new($false)); $checkOutput; exit $checkExit",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 17,
+      "command": "$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); $checkOutput = & python '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.check-input.md' 2>&1; $checkExit = $LASTEXITCODE; [System.IO.File]::WriteAllLines('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.check-prose.txt', [string[]]$checkOutput, [System.Text.UTF8Encoding]::new($false)); $checkOutput; exit $checkExit",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 18,
+      "command": "Copy-Item -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.md' -Destination '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\final.md'; python '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\prepare-check-input.py' '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\final.md'",
+      "exit_code": 0
+    },
+    {
+      "submission_order": 19,
+      "command": "$ErrorActionPreference = 'Stop'; $resourcePaths = @('<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\conclusion-implications.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\..\\edu-shared\\references\\integrity.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py','<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py','<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\prepare-check-input.py'); $resources = foreach ($resourcePath in $resourcePaths) { $canonicalPath = [System.IO.Path]::GetFullPath($resourcePath); $use = if ($canonicalPath -like '*check_voice.py' -or $canonicalPath -like '*check_prose.py') { @('read', 'executed') } elseif ($canonicalPath -like '*prepare-check-input.py') { @('generated', 'executed') } else { @('read') }; [ordered]@{ path = $canonicalPath; sha256 = (Get-FileHash -LiteralPath $canonicalPath -Algorithm SHA256).Hash.ToLowerInvariant(); use = $use; scope = $(if ($canonicalPath -like '*\\runs\\*') { 'generated local support script' } else { 'specified skill snapshot' }) } }; $resourceManifest = [ordered]@{ resources = @($resources); note = 'Only resources actually read or executed are listed. Hashes describe the unchanged supplied snapshot and the generated counting helper. Task input hashes are separate.' }; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\loaded-resources.json', ($resourceManifest | ConvertTo-Json -Depth 6), [System.Text.UTF8Encoding]::new($false)); $inputPaths = @('<EXPERIMENT_ROOT>\\inputs\\D-M02\\new-request.md', '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'); $inputRecords = foreach ($inputPath in $inputPaths) { [ordered]@{ path = $inputPath; sha256 = (Get-FileHash -LiteralPath $inputPath -Algorithm SHA256).Hash.ToLowerInvariant(); use = 'read' } }; [System.IO.File]::WriteAllText('<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\input-hashes.json', (@{ inputs = @($inputRecords) } | ConvertTo-Json -Depth 5), [System.Text.UTF8Encoding]::new($false)); $draftHash = (Get-FileHash -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.md' -Algorithm SHA256).Hash; $finalHash = (Get-FileHash -LiteralPath '<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\final.md' -Algorithm SHA256).Hash; if ($draftHash -ne $finalHash) { throw 'Final differs from revised draft.' }; [ordered]@{ loaded_resource_count = @($resources).Count; task_input_count = @($inputRecords).Count; final_matches_draft_02 = $true; final_sha256 = $finalHash.ToLowerInvariant() } | ConvertTo-Json",
+      "exit_code": 0
+    }
+  ]
+}

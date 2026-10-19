@@ -1,0 +1,145 @@
+{
+  "project_baseline": "684f5e435b76daf8d0109c9c6a93297542c59889",
+  "immediate_source_commit": "a54bb86d4d9727acba4cb5f00165472ec78f65a0",
+  "created_before_runs_utc": "2026-10-19T21:27:12.338664+00:00",
+  "language": "English only",
+  "arms": {
+    "v1": "control",
+    "v2": "M-C01 positive example only"
+  },
+  "model": "Inherited session default; exact hosted identifier and settings not exposed",
+  "temperature": "not exposed",
+  "seed": "not exposed",
+  "same_model_family": true,
+  "human_review": false,
+  "cross_model_review": false,
+  "unique_development_studies": 1,
+  "operations_per_study": 2,
+  "runs_per_operation_per_arm": 2,
+  "independent_holdouts": 0,
+  "input_freeze": "input-freeze.json",
+  "snapshots": {
+    "v1": "snapshots/control.json",
+    "v2": "snapshots/candidate.json"
+  },
+  "review_dimensions": [
+    "fact_author_fidelity",
+    "problem_core_judgment",
+    "reasoning_evidence",
+    "theory_literature",
+    "explanation_contribution",
+    "natural_specific_prose",
+    "author_voice",
+    "necessary_qualification_repetition",
+    "concrete_author_corrections"
+  ],
+  "status": "eight_runs_completed_two_blind_reviews_completed_candidate_not_adopted",
+  "word_bounds": {
+    "new": [
+      350,
+      450
+    ],
+    "revise": [
+      120,
+      145
+    ]
+  },
+  "runs": [
+    {
+      "id": "D-M02-new-r1-v1",
+      "operation": "new",
+      "repeat": 1,
+      "version": "v1",
+      "status": "completed",
+      "agent": "/root/mc01_new_r1_v1",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 392
+    },
+    {
+      "id": "D-M02-new-r1-v2",
+      "operation": "new",
+      "repeat": 1,
+      "version": "v2",
+      "status": "completed",
+      "agent": "/root/mc01_new_r1_v2",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 381
+    },
+    {
+      "id": "D-M02-new-r2-v1",
+      "operation": "new",
+      "repeat": 2,
+      "version": "v1",
+      "status": "completed",
+      "agent": "/root/mc01_new_r2_v1",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 396
+    },
+    {
+      "id": "D-M02-new-r2-v2",
+      "operation": "new",
+      "repeat": 2,
+      "version": "v2",
+      "status": "completed",
+      "agent": "/root/mc01_new_r2_v2",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 402
+    },
+    {
+      "id": "D-M02-revise-r1-v1",
+      "operation": "revise",
+      "repeat": 1,
+      "version": "v1",
+      "status": "completed",
+      "agent": "/root/mc01_revise_r1_v1",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 123
+    },
+    {
+      "id": "D-M02-revise-r1-v2",
+      "operation": "revise",
+      "repeat": 1,
+      "version": "v2",
+      "status": "completed",
+      "agent": "/root/mc01_revise_r1_v2",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 124
+    },
+    {
+      "id": "D-M02-revise-r2-v1",
+      "operation": "revise",
+      "repeat": 2,
+      "version": "v1",
+      "status": "completed",
+      "agent": "/root/mc01_revise_r2_v1",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 128
+    },
+    {
+      "id": "D-M02-revise-r2-v2",
+      "operation": "revise",
+      "repeat": 2,
+      "version": "v2",
+      "status": "completed",
+      "agent": "/root/mc01_revise_r2_v2",
+      "history": "none",
+      "browsing": false,
+      "body_whitespace_words": 121
+    }
+  ],
+  "writer_wrapper": "writer-wrapper.md",
+  "review_brief": "review-brief.md",
+  "status_observed_utc": "2026-10-19T21:51:19.604187+00:00",
+  "review_agents": {
+    "new": "/root/mc01_review_new",
+    "revise": "/root/mc01_review_revise"
+  },
+  "decision": "retain_as_development_candidate_pending_transfer_evidence"
+}

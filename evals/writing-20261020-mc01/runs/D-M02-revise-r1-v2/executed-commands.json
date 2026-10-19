@@ -1,0 +1,52 @@
+{
+  "shell_commands": [
+    {
+      "id": 1,
+      "tool": "exec_command",
+      "cmd": "$files = @('<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md','<EXPERIMENT_ROOT>\\inputs\\D-M02\\revise-request.md','<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md','<EXPERIMENT_ROOT>\\inputs\\D-M02\\original.md'); foreach ($file in $files) { [PSCustomObject]@{path=$file; sha256=(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash; content=(Get-Content -LiteralPath $file -Raw -Encoding UTF8)} | ConvertTo-Json -Compress }"
+    },
+    {
+      "id": 2,
+      "tool": "exec_command",
+      "cmd": "$files = @('<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\foundation.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md'); foreach ($file in $files) { [PSCustomObject]@{path=$file; sha256=(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash; content=[string](Get-Content -LiteralPath $file -Raw -Encoding UTF8)} | ConvertTo-Json -Compress }"
+    },
+    {
+      "id": 3,
+      "tool": "exec_command",
+      "cmd": "$files = @('<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md'); foreach ($file in $files) { [PSCustomObject]@{path=$file; content=[string](Get-Content -LiteralPath $file -Raw -Encoding UTF8)} | ConvertTo-Json -Compress }; rg -n '^import |^from |read_text|json.load|open\\(|__file__|\\.json|\\.md' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'"
+    },
+    {
+      "id": 4,
+      "tool": "exec_command",
+      "cmd": "python '<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\run_checks.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\draft-01.md' --skill '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'"
+    },
+    {
+      "id": 5,
+      "tool": "exec_command",
+      "cmd": "rg -n -A 45 -B 5 '^def split_sections|^def main|^EN_|^SECTIONS|^SECTION|^def load|^def read|^def detect_language|^def main' '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py'; $files = @('<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py','<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py','<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\run_checks.py'); foreach ($file in $files) { [PSCustomObject]@{path=$file; sha256=(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash} | ConvertTo-Json -Compress }"
+    },
+    {
+      "id": 6,
+      "tool": "exec_command",
+      "cmd": "python '<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\run_checks_v2.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\draft-01.md' --skill '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' --tag draft-01-context"
+    },
+    {
+      "id": 7,
+      "tool": "exec_command",
+      "cmd": "python '<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\run_checks_v2.py' --draft '<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\draft-02.md' --skill '<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing' --source '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md' --tag draft-02"
+    },
+    {
+      "id": 8,
+      "tool": "exec_command",
+      "cmd": "$outDir = '<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2'; $finalPath = Join-Path $outDir 'final.md'; $draftPath = Join-Path $outDir 'draft-02.md'; $finalText = [IO.File]::ReadAllText($finalPath, [Text.Encoding]::UTF8); $body = (($finalText -split '\\r?\\n' | Where-Object { $_ -notmatch '^#' }) -join \"`n\").Trim(); $strictUtf8 = New-Object Text.UTF8Encoding($false, $true); $encodingIssues = @(); foreach ($file in (Get-ChildItem -LiteralPath $outDir -File -Recurse)) { try { $decoded = $strictUtf8.GetString([IO.File]::ReadAllBytes($file.FullName)); if ($decoded.Contains([string][char]0xfffd)) { $encodingIssues += $file.FullName + ': replacement character' } } catch { $encodingIssues += $file.FullName + ': invalid UTF-8' } }; $report = [ordered]@{body_words=($body -split '\\s+').Count; body_paragraphs=($body -split '\\r?\\n\\s*\\r?\\n').Count; final_equals_draft_02=((Get-FileHash -LiteralPath $finalPath -Algorithm SHA256).Hash -eq (Get-FileHash -LiteralPath $draftPath -Algorithm SHA256).Hash); final_sha256=(Get-FileHash -LiteralPath $finalPath -Algorithm SHA256).Hash; utf8_issues=$encodingIssues; checker_reports=@('checks/draft-01.checks.json','checks/draft-01-context.checks.json','checks/draft-02.checks.json'); review_type='AI self-review'; external_browsing_performed=$false}; $json = $report | ConvertTo-Json -Depth 5; [IO.File]::WriteAllText((Join-Path $outDir 'validation.json'), $json + \"`n\", (New-Object Text.UTF8Encoding($false))); $json; [PSCustomObject]@{path=(Join-Path $outDir 'run_checks_v2.py'); sha256=(Get-FileHash -LiteralPath (Join-Path $outDir 'run_checks_v2.py') -Algorithm SHA256).Hash} | ConvertTo-Json -Compress"
+    }
+  ],
+  "checker_argv_and_exit_codes": [
+    "checks/draft-01.checks.json",
+    "checks/draft-01-context.checks.json",
+    "checks/draft-02.checks.json"
+  ],
+  "checker_output_note": "Each checker report points to the exact captured stdout and stderr files. The initial unrecognised-section result is retained; its contextual rerun changes only the checking heading.",
+  "file_creation_note": "Prose and helper files were created or updated with apply_patch. Rationale preceded draft-01; the AI self-review preceded draft-02; final.md was saved after revision checks."
+}
+

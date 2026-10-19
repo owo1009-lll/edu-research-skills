@@ -1,0 +1,36 @@
+{
+  "counting_rule": "Whitespace-delimited body tokens; attribution heading excluded; hyphenated words and apostrophes remain within a word.",
+  "drafts": [
+    {
+      "file": "first-draft.md",
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\first-draft.md",
+      "sha256": "81479a11b031b67b0c0ada8fab4431fecce8f3690c6bf88abf2fa7f5f636738c",
+      "body_words": 405,
+      "heading_count": 1,
+      "replacement_character_present": false
+    },
+    {
+      "file": "revised-draft.md",
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\revised-draft.md",
+      "sha256": "2b877afb1a3e7e6f137daef0e96f1f6b864b1306a1b2c1f7b28c3fe626fb5733",
+      "body_words": 381,
+      "heading_count": 1,
+      "replacement_character_present": false
+    },
+    {
+      "file": "final.md",
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v2\\final.md",
+      "sha256": "2b877afb1a3e7e6f137daef0e96f1f6b864b1306a1b2c1f7b28c3fe626fb5733",
+      "body_words": 381,
+      "heading_count": 1,
+      "replacement_character_present": false
+    }
+  ],
+  "first_draft_preserved": true,
+  "final_matches_checked_revision": true,
+  "final_length_valid": true,
+  "final_has_only_attribution_heading": true,
+  "missing_required_files": [],
+  "loaded_resource_records": 12,
+  "task_input_records": 2
+}

@@ -1,0 +1,22 @@
+Language: en | discussion/conclusion sentences: 7 | paragraphs: 1
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): 0.0  (published median 66.7; outside typical range)
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 1
+  (arguments, not disclaimers)
+  [para 1] Most participants lacked CL training, but training attendance alone does not establish their knowledge.
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 1
+  (a specific problem may belong next to its result)
+  [para 1] Limited knowledge of CL’s basic elements is one possible explanation; Hennessey and Dionigi (2013) emphasise knowledge in assessing CL.
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

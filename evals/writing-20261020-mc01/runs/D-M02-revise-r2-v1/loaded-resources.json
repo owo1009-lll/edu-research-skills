@@ -1,0 +1,128 @@
+[
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md",
+    "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:03.851256+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+    "sha256": "0d509b0e89b9a1b95e28d124d8af5add080e228b62702f30b536623bae4205c5",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:39:03.959168+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md",
+    "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:04.011712+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+    "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:04.012711+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+    "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:04.012711+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+    "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:04.013711+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:04.014713+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:04.016244+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+    "sha256": "f24e262623a24093914ad5f8dce96b8d6e9f010f164711fe796312ccaa79501b",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:11.550250+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+    "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:11.551252+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md",
+    "sha256": "a210562df377e6c180ea21b42e86e3ca4237b9e315cb31e79129ce2884bdfa0d",
+    "action": "read",
+    "recorded_utc": "2026-10-19T21:39:11.552655+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\audit.py",
+    "sha256": "37b9476d4f1b7171647f216ef3064a36c4c3d34d32d9a7942792b82b66a32ff9",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:40:49.997581+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:40:50.124356+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:40:50.226617+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+    "sha256": "e1b9954794b364bc92ecaf06a2cf0c2c36e1f88a34cfffe5a023a8348910590a",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:40:50.342160+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:41:54.481487+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:41:54.590412+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+    "sha256": "e1b9954794b364bc92ecaf06a2cf0c2c36e1f88a34cfffe5a023a8348910590a",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:41:54.713239+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:42:54.544232+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:42:54.649956+00:00"
+  },
+  {
+    "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r2-v1\\verify.py",
+    "sha256": "e1b9954794b364bc92ecaf06a2cf0c2c36e1f88a34cfffe5a023a8348910590a",
+    "action": "executed",
+    "recorded_utc": "2026-10-19T21:42:54.763955+00:00"
+  }
+]

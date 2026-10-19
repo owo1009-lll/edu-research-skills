@@ -1,0 +1,185 @@
+{
+  "checked_utc": "2026-10-19T21:54:10.303867+00:00",
+  "status": "verified_with_one_documented_historical_helper_gap",
+  "source_commit": "a54bb86d4d9727acba4cb5f00165472ec78f65a0",
+  "frozen_snapshot_files_checked": {
+    "v1": 203,
+    "v2": 203
+  },
+  "frozen_inputs_checked": 4,
+  "reported_resource_entries_verified": 117,
+  "unverified_historical_run_helpers": [
+    {
+      "run": "D-M02-revise-r2-v1",
+      "path": "runs/D-M02-revise-r2-v1/audit.py",
+      "reported_sha256": "0d509b0e89b9a1b95e28d124d8af5add080e228b62702f30b536623bae4205c5",
+      "current_sha256": "37b9476d4f1b7171647f216ef3064a36c4c3d34d32d9a7942792b82b66a32ff9",
+      "reason": "The agent recorded execution hashes for two versions of its own mutable audit helper at 21:39:03 and 21:40:49 UTC. Only the later file remains. The earlier bytes cannot be independently checked from the retained artifacts. Preserve the original resource record and report this gap; do not replace the earlier digest with the later one. Frozen skill files, task inputs, manuscripts and checker scripts are unaffected."
+    }
+  ],
+  "reported_task_input_entries_verified": 20,
+  "candidate_resource_loaded_in_all_eight_runs": true,
+  "manuscripts": [
+    {
+      "run": "D-M02-new-r1-v1",
+      "body_whitespace_words": 392,
+      "final_sha256": "a0a7b7a1a888faefa2eb567aff69592863596a5c6ba39d1da3a6e3b13cd1f9e7"
+    },
+    {
+      "run": "D-M02-new-r1-v2",
+      "body_whitespace_words": 381,
+      "final_sha256": "2b877afb1a3e7e6f137daef0e96f1f6b864b1306a1b2c1f7b28c3fe626fb5733"
+    },
+    {
+      "run": "D-M02-new-r2-v1",
+      "body_whitespace_words": 396,
+      "final_sha256": "e9a87e35d1adeeaee76c0b22d1dc0028b1f528392ac6367eb53d32e76c012276"
+    },
+    {
+      "run": "D-M02-new-r2-v2",
+      "body_whitespace_words": 402,
+      "final_sha256": "7994178934050fe3747dfe24337bbf27f675e3cc0dfcecb7d6bb91e7fbcfbd76"
+    },
+    {
+      "run": "D-M02-revise-r1-v1",
+      "body_whitespace_words": 123,
+      "final_sha256": "308569d27ae36749ae59071b7ed31c364ab2fc0fffae770a60534c0a2bb09994"
+    },
+    {
+      "run": "D-M02-revise-r1-v2",
+      "body_whitespace_words": 124,
+      "final_sha256": "2ffce51a9985cc2959eac6d62dcf35a4b16e6c70ffd008f8d2134e3fe1561a66"
+    },
+    {
+      "run": "D-M02-revise-r2-v1",
+      "body_whitespace_words": 128,
+      "final_sha256": "48e91694b91d2d0ec87b802c7cdf9424167077088821173fb8f192803346e3c1"
+    },
+    {
+      "run": "D-M02-revise-r2-v2",
+      "body_whitespace_words": 121,
+      "final_sha256": "de11a225291a00d5005b8300eb5bba9ba1ec6f170399be9b4b09734f70a7d00f"
+    }
+  ],
+  "anonymous_manuscript_pairs_verified": 8,
+  "review_input_hashes_verified": [
+    {
+      "operation": "new",
+      "path": "blind/new/review-brief.md",
+      "sha256": "924ed749cc9d9a20b2d39f2ba3dbd36fdcd1acd3eb965eba56cbcc3894802cc3"
+    },
+    {
+      "operation": "new",
+      "path": "blind/new/A.md",
+      "sha256": "3712662b9eede0f16e8875db2480343499fe70ebd8246907f2cda61ad9e49b1e"
+    },
+    {
+      "operation": "new",
+      "path": "blind/new/B.md",
+      "sha256": "e20e0420701e2f68fafc9840ebe83a962bf3bcca95f83fb3aa8a9e249b8d7e65"
+    },
+    {
+      "operation": "new",
+      "path": "blind/new/C.md",
+      "sha256": "70b3361a13f95e5843f417bfbceb3d36697072ef781f43797bf65c0878aad72a"
+    },
+    {
+      "operation": "new",
+      "path": "blind/new/D.md",
+      "sha256": "41bf85ec4ba2ba87d201a11b07154aed617cfd8da649e302ed6939ba59f36f0c"
+    },
+    {
+      "operation": "new",
+      "path": "blind/new/new-request.md",
+      "sha256": "fd593032ee3a97809c4a548d0ac96a3795e53bab0392ac73386117933a0a8993"
+    },
+    {
+      "operation": "new",
+      "path": "blind/new/source-pack.md",
+      "sha256": "b1610e387324452710f61f02549699e3ebced998d274f5d0f1bbd37aac5d3fd5"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/review-brief.md",
+      "sha256": "924ed749cc9d9a20b2d39f2ba3dbd36fdcd1acd3eb965eba56cbcc3894802cc3"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/A.md",
+      "sha256": "5edb06bff7784d85ba67564b135ede9722aba35a5eb850fc82fe999e9b343811"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/B.md",
+      "sha256": "963dfead31433aee0808dcf1c2d254cd2900f332aa77e277c35586ac4a9c1239"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/C.md",
+      "sha256": "864aaab29499fd75828d2d6acb46242d2c5f51816e9c9bd286cd2d2ec493c889"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/D.md",
+      "sha256": "f1d0f6105c19591be2af7b23d350ff4f5ddaf93d9ec366b377a5306b4a2cab87"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/revise-request.md",
+      "sha256": "d213be3285ae41da20383b768c5c43da904bed25d8a97941c2778117d93693e8"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/source-pack.md",
+      "sha256": "b1610e387324452710f61f02549699e3ebced998d274f5d0f1bbd37aac5d3fd5"
+    },
+    {
+      "operation": "revise",
+      "path": "blind/revise/original.md",
+      "sha256": "4b3bdb4de00015f9725e85958f63b08c7599c965dd3bff807b1bd9f2faa44a49"
+    }
+  ],
+  "artifacts_verified": 232,
+  "artifacts_byte_unchanged": 167,
+  "artifacts_only_experiment_root_replaced": 65,
+  "prior_Q_C01_anonymous_bodies_unchanged": 8,
+  "invalid_body_heading_and_empty_body_rejected": true,
+  "authored_relative_links_checked": 287,
+  "source_context_encoding_propagated_to_final_headings_or_bodies": false,
+  "runtime_skill_status": "",
+  "scope": "File identity, actual-resource correspondence and task-format compliance. The overwritten historical helper version is explicitly unverified. Writing judgments are in the preserved reviews and adjudication, not inferred from script exits.",
+  "publication_checks": {
+    "git_diff_check_exit_code": 2,
+    "crlf_treated_as_line_ending": true,
+    "raw_artifact_whitespace_warnings": [
+      "evals/writing-20261020-mc01/reviews/revise/review.json:407: new blank line at EOF.",
+      "evals/writing-20261020-mc01/reviews/revise/review.md:185: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-new-r1-v2/first-draft-check-voice.md:13: trailing whitespace.",
+      "evals/writing-20261020-mc01/runs/D-M02-new-r1-v2/first-draft-check-voice.md:17: trailing whitespace.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/audit_run.py:61: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/changes-and-source-checks.md:6: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/commands.md:47: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/final.md:6: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/finalize.py:46: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/first-draft.md:6: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/rationale.md:41: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/second-draft.md:6: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/self-review.md:36: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v1/third-draft.md:6: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/changes-and-source-checks.md:12: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/draft-01.md:4: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/draft-02.md:4: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/executed-commands.json:52: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/final.md:4: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/loaded-resources.json:112: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/rationale.md:62: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/run_checks.py:66: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/run_checks_v2.py:65: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/self-review.md:38: new blank line at EOF.",
+      "evals/writing-20261020-mc01/runs/D-M02-revise-r1-v2/task-input-hashes.json:18: new blank line at EOF."
+    ],
+    "authored_files_whitespace_warnings": 0,
+    "raw_bytes_preserved": true,
+    "previous_Q_C01_artifacts_reverified": 221
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.md",
+  "excluded_attribution_heading": "# Secondary-writing demonstration based on Adl-Amini, Völlinger, and Eckart (2024; published online 2023)",
+  "body_word_count": 392,
+  "count_method": "Whitespace-delimited body words; hyphenated forms count as one; attribution heading excluded.",
+  "unicode_lexical_token_count": 392,
+  "body_sha256": "e20e0420701e2f68fafc9840ebe83a962bf3bcca95f83fb3aa8a9e249b8d7e65",
+  "checker_input": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r1-v1\\draft-02.check-input.md",
+  "checker_input_transformation": "Replace attribution heading with Discussion; preserve body exactly."
+}

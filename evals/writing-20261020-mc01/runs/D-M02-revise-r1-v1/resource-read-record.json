@@ -1,0 +1,115 @@
+{
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md",
+      "actions": [
+        "read"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\revise-request.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\inputs\\D-M02\\original.md",
+      "actions": [
+        "read"
+      ]
+    }
+  ],
+  "read_commands": [
+    "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md'",
+    "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\revise-request.md'",
+    "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'",
+    "Get-Content -Raw -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\original.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\SKILL.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\revise-request.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\inputs\\D-M02\\original.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\foundation.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\argument.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\voice-en.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\quantitative-discussion.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\analysis-bridge.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\qualitative-narrative.md'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-shared\\references\\integrity.md'",
+    "rg -n '^(import|from)|read_text|open\\(|Path\\(|__file__|\\.json|\\.md' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_voice.py' '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py'",
+    "Get-Content -Raw -Encoding UTF8 -LiteralPath '<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\references\\framing-results.md'"
+  ]
+}

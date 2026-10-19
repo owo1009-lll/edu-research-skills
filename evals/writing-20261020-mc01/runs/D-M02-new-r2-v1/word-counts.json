@@ -1,0 +1,32 @@
+[
+  {
+    "file": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\first-draft.md",
+    "sha256": "721ce9a0b21e9eece7d72a94da975ebedd68b21e6a315f62ea754933d3dfaa82",
+    "body_words": 401,
+    "whitespace_count": 401,
+    "heading_excluded": "# Secondary-writing demonstration based on Adl-Amini, Völlinger, and Eckart (2024; published online 2023)",
+    "method": "Unicode letters/digits; internal apostrophes and hyphens stay within one word",
+    "diagnostic_copy": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\first-draft-checker-input.md",
+    "body_unchanged_in_diagnostic_copy": true
+  },
+  {
+    "file": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\second-draft.md",
+    "sha256": "e9a87e35d1adeeaee76c0b22d1dc0028b1f528392ac6367eb53d32e76c012276",
+    "body_words": 396,
+    "whitespace_count": 396,
+    "heading_excluded": "# Secondary-writing demonstration based on Adl-Amini, Völlinger, and Eckart (2024; published online 2023)",
+    "method": "Unicode letters/digits; internal apostrophes and hyphens stay within one word",
+    "diagnostic_copy": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\second-draft-checker-input.md",
+    "body_unchanged_in_diagnostic_copy": true
+  },
+  {
+    "file": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\final.md",
+    "sha256": "e9a87e35d1adeeaee76c0b22d1dc0028b1f528392ac6367eb53d32e76c012276",
+    "body_words": 396,
+    "whitespace_count": 396,
+    "heading_excluded": "# Secondary-writing demonstration based on Adl-Amini, Völlinger, and Eckart (2024; published online 2023)",
+    "method": "Unicode letters/digits; internal apostrophes and hyphens stay within one word",
+    "diagnostic_copy": "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\final-checker-input.md",
+    "body_unchanged_in_diagnostic_copy": true
+  }
+]

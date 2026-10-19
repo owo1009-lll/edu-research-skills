@@ -1,0 +1,9 @@
+[
+  {
+    "run": "D-M02-revise-r2-v1",
+    "path": "runs/D-M02-revise-r2-v1/audit.py",
+    "reported_sha256": "0d509b0e89b9a1b95e28d124d8af5add080e228b62702f30b536623bae4205c5",
+    "current_sha256": "37b9476d4f1b7171647f216ef3064a36c4c3d34d32d9a7942792b82b66a32ff9",
+    "reason": "The agent recorded execution hashes for two versions of its own mutable audit helper at 21:39:03 and 21:40:49 UTC. Only the later file remains. The earlier bytes cannot be independently checked from the retained artifacts. Preserve the original resource record and report this gap; do not replace the earlier digest with the later one. Frozen skill files, task inputs, manuscripts and checker scripts are unaffected."
+  }
+]

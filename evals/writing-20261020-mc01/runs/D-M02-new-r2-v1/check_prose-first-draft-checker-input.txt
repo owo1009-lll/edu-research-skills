@@ -1,0 +1,12 @@
+COMMAND ARGV: ["C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe", "<EXPERIMENT_ROOT>\\variants\\v1\\skills\\edu-writing\\scripts\\check_prose.py", "--draft", "<EXPERIMENT_ROOT>\\runs\\D-M02-new-r2-v1\\first-draft-checker-input.md"]
+EXIT CODE: 0
+STDOUT:
+Sections found: Discussion | prompts: 2
+
+[Discussion] 401 words, 4 paragraphs | sentence median 18, >40 words 0.0% | citations 0.0/1,000 words (published 11), cited sentences 0.0% (published 30), narrative 0.0% (published 1 quantitative, 30 qualitative/mixed), 3+ works 0.0% | sentences with numbers 4.8% | we 0.0/1,000 | passive 14.3%
+  ! cite_per_k 0.0 outside the published range (< 3 flags; published median 11)
+  ! the discussion cites no earlier study (published: 76% of discussion points compare with 2-4 cited studies)
+
+[Argued sections together] 401 words | sentence median 18 (published 26), >40 words 0.0% (13.5) | paragraph median 95.0 words (135) | we 0.0/1,000 (4.9) | passive 14.3% (23.4) | abbreviations 2.5/1,000 (10) | paragraphs opening with a connective 0.0% (16.7) | value-sentence paragraph endings 0.0% (5.4)
+
+STDERR:

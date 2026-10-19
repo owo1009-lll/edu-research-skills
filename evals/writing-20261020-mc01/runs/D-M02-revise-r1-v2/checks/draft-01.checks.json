@@ -1,0 +1,37 @@
+{
+  "draft": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\draft-01.md",
+  "draft_sha256": "957b3a8fca95775894fa67efa2a0a3bd0a9ca0574c9c625032375346f28decdd",
+  "body_projection": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\checks\\draft-01.body.md",
+  "word_count_method": "Whitespace-delimited body tokens; attribution heading excluded; hyphenated forms count as one.",
+  "body_words": 128,
+  "body_paragraphs": 1,
+  "within_120_to_145_words": true,
+  "checker_runs": [
+    {
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\checks\\draft-01.body.md",
+        "--source",
+        "<EXPERIMENT_ROOT>\\inputs\\D-M02\\source-pack.md"
+      ],
+      "returncode": 0,
+      "checker_sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\checks\\draft-01.check_voice.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\checks\\draft-01.check_voice.stderr.txt"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+        "--draft",
+        "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\checks\\draft-01.body.md"
+      ],
+      "returncode": 0,
+      "checker_sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+      "stdout": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\checks\\draft-01.check_prose.stdout.txt",
+      "stderr": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\checks\\draft-01.check_prose.stderr.txt"
+    }
+  ]
+}

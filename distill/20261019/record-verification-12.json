@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-10-19T21:33:44.646165+00:00",
+  "comparison_commit": "a54bb86d4d9727acba4cb5f00165472ec78f65a0",
+  "status": "passed",
+  "english_new_candidates": 46,
+  "english_acquired_fulltexts": 33,
+  "english_new_empirical_or_boundary_analyses": 31,
+  "confirmed_empirical_groups": {
+    "quantitative": 10,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 11,
+    "mixed": 9
+  },
+  "english_methodological_application_analyses": 1,
+  "all_previous_reading_records_unchanged_except": [
+    "L-N15"
+  ],
+  "unchanged_previous_records": 51,
+  "historical_chinese_records_unchanged": 4,
+  "analysis_note_hash_references": 34,
+  "L_N15_assets_verified": 4,
+  "L_N15_visual_scope": "Figure 1 viewed as an image; Tables 1-2 read as HTML cells; no PDF rendering inspection",
+  "runtime_rules_unchanged": true,
+  "note": "Selected writing moves and contrast-source analysis, not behavioral improvement evidence. Historical Chinese entries remain excluded and unchanged."
+}

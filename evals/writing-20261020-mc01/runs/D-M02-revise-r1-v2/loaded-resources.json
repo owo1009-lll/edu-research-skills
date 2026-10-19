@@ -1,0 +1,112 @@
+{
+  "scope": "Skill and support resources actually read or executed; task inputs are recorded separately.",
+  "algorithm": "SHA-256",
+  "notes": [
+    "Only the assigned skill snapshot, the three task inputs, and this run's own output were read.",
+    "The two task-generated checking helpers are included as executed support resources.",
+    "The initial helper and all initial checker output were preserved when a second helper added Discussion context.",
+    "Checker scripts read the projected Markdown body and source pack; no other external skill support files are loaded on this Markdown-input route."
+  ],
+  "resources": [
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\SKILL.md",
+      "sha256": "58384427B70501B4E4A2D0B8E2426885487B74B7262F6DF221BC9E8823C17195",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\foundation.md",
+      "sha256": "96FEF5484D417391D5EB303402CE6663622DB98A7079A6DCB51B3F8E5747CCD1",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\argument.md",
+      "sha256": "FAA6F295B1E396D72E4D3E566FC163FB5BB719F9E05F3931BDC555EA4A7644A6",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\framing-results.md",
+      "sha256": "797AA46D5E3A494F8330ED3BDECF82C9F5FC98DF532F6DC27F68A5553F3FDFD8",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\voice-en.md",
+      "sha256": "F24E262623A24093914AD5F8DCE96B8D6E9F010F164711FE796312CCAA79501B",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\quantitative-discussion.md",
+      "sha256": "0D2024FF3CF66029F1D37A5A6A9B00C53744C175C2D148EAD6F368D61A51A814",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\qualitative-narrative.md",
+      "sha256": "A4F3C908F5D2AA0C6FFC71A1DF93FA94B011FC3BB6341C90379F8D9451F9CBC8",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\references\\analysis-bridge.md",
+      "sha256": "4C3EAA12BECD4D2854BDE07E52DE900FFE93D71BACAE36A681B30773229DCBD3",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-shared\\references\\integrity.md",
+      "sha256": "E1EC232ADB87B32484C1D9BD49823ACC41F813432BD40088B0C4865B9E18F8D6",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_voice.py",
+      "sha256": "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+      "actions": [
+        "read excerpts",
+        "executed"
+      ],
+      "note": "Checker script. No additional external skill resources were loaded by the Markdown input path."
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\variants\\v2\\skills\\edu-writing\\scripts\\check_prose.py",
+      "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+      "actions": [
+        "read excerpts",
+        "executed"
+      ],
+      "note": "Checker script. No additional external skill resources were loaded by the Markdown input path."
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\run_checks.py",
+      "sha256": "F9E6AADC4A3559911F931878AD998189111FEE674CF0CF046BF30A2E88B9D67B",
+      "actions": [
+        "created",
+        "executed"
+      ],
+      "note": "Task-generated audit helper; initial version hash."
+    },
+    {
+      "path": "<EXPERIMENT_ROOT>\\runs\\D-M02-revise-r1-v2\\run_checks_v2.py",
+      "sha256": "888AB6245FBA2797B1038C1EB84822D2DA751CB1A23B806A6B9C8DDCFB476EF3",
+      "actions": [
+        "created",
+        "executed"
+      ],
+      "note": "Task-generated helper; adds only a Discussion heading to the exact body for checker recognition. Actual checker argv and return codes are saved in checks/*.checks.json."
+    }
+  ]
+}
+
