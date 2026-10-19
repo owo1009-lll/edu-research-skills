@@ -1,0 +1,770 @@
+[
+  {
+    "id": "Q-N11",
+    "doi": "10.3386/w22746",
+    "retrieved_utc": "2026-10-19T19:14:34.886841+00:00",
+    "attempts": [
+      {
+        "url": "https://www.nber.org/system/files/working_papers/w22746/w22746.pdf",
+        "status": 200,
+        "final_url": "https://www.nber.org/system/files/working_papers/w22746/w22746.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1118289,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.3386/w22746",
+      "title": [
+        "Mainstreaming an Effective Intervention: Evidence from Randomized Evaluations of “Teaching at the Right Level” in India"
+      ],
+      "author": [
+        {
+          "given": "Abhijit",
+          "family": "Banerjee",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rukmini",
+          "family": "Banerji",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Berry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Esther",
+          "family": "Duflo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Harini",
+          "family": "Kannan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shobhini",
+          "family": "Mukherji",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marc",
+          "family": "Shotland",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Walton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            10
+          ]
+        ]
+      },
+      "container-title": [],
+      "type": "report",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "32d35638662d1bb994c5fc9a6372965c3efe8757ca23e6c64c329d6c2d4fa514",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.nber.org/system/files/working_papers/w22746/w22746.pdf",
+    "format": "pdf",
+    "raw_sha256": "546bd7aeeaa95cc29a7f4a76385fce0620b178fdc652b1e08a9257f6620a4c1a",
+    "text_sha256": "1292ea95350edba9cb57fa0d626738b39627255c39214055a77ebf0e335ff1a5",
+    "text_characters": 78121,
+    "extraction": {
+      "pages": 41,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "Manual title/author/version verification required: DOI absent",
+    "reading_sha256": "28508f389a461276dccf1f305e8f616429a1d07c02ae5287d6812cdbe25b213e",
+    "reading_blocks": 41,
+    "reading_characters": 80483,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N13",
+    "doi": "10.1111/aeq.12471",
+    "retrieved_utc": "2026-10-19T19:14:34.886841+00:00",
+    "attempts": [
+      {
+        "url": "https://ray.yorksj.ac.uk/id/eprint/7974/3/Anthropology%20%20%20Edu%20Quarterly%20-%202023%20-%20Unsworth%20-%20Teaching%20through%20the%20cloud%20%20An%20ethnography%20of%20the%20role%20of%20cloud%E2%80%90based.pdf",
+        "status": 200,
+        "final_url": "https://ray.yorksj.ac.uk/id/eprint/7974/3/Anthropology%20%20%20Edu%20Quarterly%20-%202023%20-%20Unsworth%20-%20Teaching%20through%20the%20cloud%20%20An%20ethnography%20of%20the%20role%20of%20cloud%E2%80%90based.pdf",
+        "content_type": "application/pdf",
+        "bytes": 715562,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1111/aeq.12471",
+      "title": [
+        "Teaching through the cloud: An ethnography of the role of cloud‐based collaborative technologies in the formation of teachers' classroom practices"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4900-3590",
+          "authenticated-orcid": false,
+          "given": "Ruth",
+          "family": "Unsworth",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Education Durham University  Durham UK"
+            },
+            {
+              "name": "School of ELP York St John University  York UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Anthropology &amp; Education Quarterly"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                6
+              ]
+            ],
+            "date-time": "2023-07-06T00:00:00Z",
+            "timestamp": 1688601600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "937605b6fd3730d3b973b9ff154dd27406fea298490ce48b7efa8253d960c74b",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://ray.yorksj.ac.uk/id/eprint/7974/3/Anthropology%20%20%20Edu%20Quarterly%20-%202023%20-%20Unsworth%20-%20Teaching%20through%20the%20cloud%20%20An%20ethnography%20of%20the%20role%20of%20cloud%E2%80%90based.pdf",
+    "format": "pdf",
+    "raw_sha256": "b93b01f5d33c32e15b041f1e024288da32d70b84cb896e2ff92f85bf51d07878",
+    "text_sha256": "07e1cbe4c1bec4d84171648471ee1a2975adaf72b2a9a4a8279980ca599ecac2",
+    "text_characters": 75990,
+    "extraction": {
+      "pages": 20,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "d13062f64769c0567b4314945db55db4fb912e0e71f9794aa48f15feb5952688",
+    "reading_blocks": 20,
+    "reading_characters": 77171,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N14",
+    "doi": "10.1007/s11159-025-10217-7",
+    "retrieved_utc": "2026-10-19T19:14:34.886841+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s11159-025-10217-7",
+        "status": 200,
+        "final_url": "https://link.springer.com/article/10.1007/s11159-025-10217-7",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 467239,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "metadata_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1007/s11159-025-10217-7",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/article/10.1007/s11159-025-10217-7",
+    "format": "html",
+    "raw_sha256": "2707bb2b0c87eab417ccc2182abbb20692102429c99b4ce039801dd370db60ad",
+    "text_sha256": "4a94c8163346d9b7064b007f8288eb4a8f2e71d781a2bb8522146957e7a43166",
+    "text_characters": 72826,
+    "extraction": {
+      "sections": 19,
+      "table_note": "Linked tables may require separate reading; only inline content extracted"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "27ddaa5d48de587232acbfb1776cc99a355afc4c762e0b0d85915a10555a6c50",
+    "reading_blocks": 250,
+    "reading_characters": 87808,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N13",
+    "doi": "10.1097/ACM.0000000000003115",
+    "retrieved_utc": "2026-10-19T19:14:38.916749+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7382530/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7382530/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 82430,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1097/acm.0000000000003115",
+      "title": [
+        "How Teachers Meet in Interdisciplinary Teams: Hangouts, Distribution Centers, and Melting Pots"
+      ],
+      "author": [
+        {
+          "given": "Stephanie N.E.",
+          "family": "Meeuwissen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "is a PhD candidate, School of Health Professions Education, Department of Educational Development and Research, Faculty of Health, Medicine and Life Sciences, Maastricht University, the Netherlands; ORCID:."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wim H.",
+          "family": "Gijselaers",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "is professor of Educational Research and chair, Department of Educational Research and Development, School of Business and Economics, Maastricht University, the Netherlands; ORCID:."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ineke H.A.P.",
+          "family": "Wolfhagen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "is associate professor, School of Health Professions Education, Department of Educational Development and Research, and deputy director, Institute for Education, Faculty of Health, Medicine and Life Sciences, Maastricht University, the Netherlands."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mirjam G.A.",
+          "family": "oude Egbrink",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "is professor of Implementation of Educational Innovations, School of Health Professions Education, Department of Physiology, and scientific director, Institute for Education, Faculty of Health, Medicine and Life Sciences, Maastricht University, the Netherlands; ORCID:."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Academic Medicine"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2019-10-12T00:00:00Z",
+            "timestamp": 1570838400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "9ba33064d3e045ea9d80cce0afaaf411ce079dab91e4d26a2ec5eb510254acd5",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7382530/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "f59eb0690db977759198ffc4ecfdd54df5afba20450e4d24d45c8680fa50820b",
+    "text_sha256": "15de0b756b41d729339d35a7450f202507bb6000e9ca8c4084e3591f7776b537",
+    "text_characters": 47321,
+    "extraction": {
+      "sections": 30,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "7a7195fe05f239f4a90230c0bfa7e1321b77392e0f7433a6ead9b7f06081dff3",
+    "reading_blocks": 85,
+    "reading_characters": 41637,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N14",
+    "doi": "10.1016/j.tate.2024.104540",
+    "retrieved_utc": "2026-10-19T19:14:39.295834+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10993169/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10993169/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 167187,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1016/j.tate.2024.104540",
+      "title": [
+        "The pedagogical foundations of student voice practices: The role of relationships, differentiation, and choice in supporting student voice practices in high school classrooms"
+      ],
+      "author": [
+        {
+          "given": "Jerusha",
+          "family": "Conner",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dana L.",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6703-119X",
+          "authenticated-orcid": false,
+          "given": "Samantha E.",
+          "family": "Holquist",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Enrique",
+          "family": "Rosado",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-6846-3423",
+          "authenticated-orcid": false,
+          "given": "Caitlin",
+          "family": "Wilson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikki L.",
+          "family": "Wright",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "Teaching and Teacher Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2024-05-01T00:00:00Z",
+            "timestamp": 1714521600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2024-05-01T00:00:00Z",
+            "timestamp": 1714521600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                21
+              ]
+            ],
+            "date-time": "2024-02-21T00:00:00Z",
+            "timestamp": 1708473600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "9020a4c8d99cb6002118d86244b24bbf072d633c2c5bba62cdafc8242232b927",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10993169/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "dfe1448724b8a1dc1a80988f996af55abd02a888d9297361f3d48ebb2f9a82f4",
+    "text_sha256": "34c95262915e77de9d48ec70e36624b26b6a3846986a77d27eebf989de311eb7",
+    "text_characters": 97214,
+    "extraction": {
+      "sections": 45,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "0650b935d74a15d0e201bfdec501a226e477548cf7a333f17c3bb839825f7587",
+    "reading_blocks": 151,
+    "reading_characters": 86408,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "M-N15",
+    "doi": "10.5116/ijme.6399.dee1",
+    "retrieved_utc": "2026-10-19T19:14:39.299002+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9911279/fullTextXML",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9911279/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 126226,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.5116/ijme.6399.dee1",
+      "title": [
+        "Students’ perception of problem-based learning at a Japanese medical school: an exploratory sequential mixed method"
+      ],
+      "author": [
+        {
+          "given": "Htain",
+          "family": "Lin-Aung",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daisuke",
+          "family": "Masumoto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zayar",
+          "family": "Linn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yusuke",
+          "family": "Kobayakawa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Satoshi",
+          "family": "Okamura",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kosuke",
+          "family": "Kurihara",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kunimasa",
+          "family": "Morio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yasura",
+          "family": "Tashiro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hiroyuki",
+          "family": "Sakurai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hiroki",
+          "family": "Hori",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            26
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Medical Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "86b2fc962e69449ed35b4099b29c4658e093076a4be03d756071939101e1eb5c",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9911279/fullTextXML",
+    "format": "xml",
+    "raw_sha256": "2b9ee13f98cbf52e49b96cd48a0de11ffa64a59c97baf8638b0420a1febb2bbc",
+    "text_sha256": "5e49dcb852d227333d16189833f621f9b1f9b1f201e5cff7ca83d76cde755787",
+    "text_characters": 46882,
+    "extraction": {
+      "sections": 18,
+      "locator": "JATS section titles and paragraph order"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "35a2a20a3dd990c33d8e1893465a20824f2205213895ee304527251c15b8f412",
+    "reading_blocks": 51,
+    "reading_characters": 41706,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

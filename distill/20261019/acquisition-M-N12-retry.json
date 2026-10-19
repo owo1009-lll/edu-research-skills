@@ -1,0 +1,96 @@
+[
+  {
+    "id": "M-N12",
+    "doi": "10.1177/1609406921993286",
+    "retrieved_utc": "2026-10-19T19:12:59.427175+00:00",
+    "attempts": [
+      {
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/1609406921993286",
+        "status": 403,
+        "final_url": "https://journals.sagepub.com/doi/pdf/10.1177/1609406921993286",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5624,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://journals.sagepub.com/doi/pdf/10.1177/1609406921993286"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1177/1609406921993286",
+      "title": [
+        "Using Joint Display as an Analytic Process: An Illustration Using Bar Graphs Joint Displays From a Mixed Methods Study of How Beliefs Shape Secondary School Teachers’ Use of Technology"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2872-381X",
+          "authenticated-orcid": false,
+          "given": "Tashane K.",
+          "family": "Haynes-Brown",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The University of the West Indies, Mona, Kingston, Jamaica"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael D.",
+          "family": "Fetters",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The University of Michigan, Ann Arbor, MI, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Qualitative Methods"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2021-01-01T00:00:00Z",
+            "timestamp": 1609459200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "2c7a53079b9af82694ea20417f8709b56f6dc9cec8f99c4bdf65bfcbdf203832",
+    "status": "access_failed"
+  }
+]

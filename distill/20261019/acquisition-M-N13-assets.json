@@ -1,0 +1,83 @@
+{
+  "id": "M-N13",
+  "source": "Public Europe PMC article XML asset references; publisher supplement URL in main text",
+  "rights_note": "Assets remain outside public repository; original analysis only is published.",
+  "assets": [
+    {
+      "file": "Table-1.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/3befee4a634c/acm-95-1265-g001.jpg",
+      "retrieved_utc": "2026-10-19T19:16:01.972011+00:00",
+      "status": 200,
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/3befee4a634c/acm-95-1265-g001.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 150194,
+      "outcome": "downloaded_not_yet_read",
+      "sha256": "68da8e7025e0d264c2483fc60a4d32523e1fb111a904809f8d8de2021eab7b60"
+    },
+    {
+      "file": "Figure-1.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/6ca2d73b0a14/acm-95-1265-g002.jpg",
+      "retrieved_utc": "2026-10-19T19:16:03.742631+00:00",
+      "status": 200,
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/6ca2d73b0a14/acm-95-1265-g002.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 78738,
+      "outcome": "downloaded_not_yet_read",
+      "sha256": "5ce56d6ba11133894e141d4d5088429fac16eb93cbc387e1080f4434e5fe2383"
+    },
+    {
+      "file": "Table-2.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/1b1247f45549/acm-95-1265-g003.jpg",
+      "retrieved_utc": "2026-10-19T19:16:05.412272+00:00",
+      "status": 200,
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/1b1247f45549/acm-95-1265-g003.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 141657,
+      "outcome": "downloaded_not_yet_read",
+      "sha256": "34340140b954da79fb4856d1843d0417dc0342f160d9ef933e827955d2a055c6"
+    },
+    {
+      "file": "Table-3.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/9be50618f550/acm-95-1265-g004.jpg",
+      "retrieved_utc": "2026-10-19T19:16:07.162088+00:00",
+      "status": 200,
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d784/7382530/9be50618f550/acm-95-1265-g004.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 142982,
+      "outcome": "downloaded_not_yet_read",
+      "sha256": "4e91c80252f587f3621385aa504a905d99d8bb600b607997d1039ae76152f932"
+    },
+    {
+      "file": "supplement.pdf",
+      "url": "https://links.lww.com/ACADMED/A782",
+      "retrieved_utc": "2026-10-19T19:16:08.680116+00:00",
+      "status": 200,
+      "final_url": "https://cdn-links.lww.com/permalink/acadmed/a/acadmed_2019_12_03_meeuwissen_acadmed-d-18-02157_sdc1.pdf",
+      "content_type": "application/pdf",
+      "bytes": 146384,
+      "outcome": "downloaded_not_yet_read",
+      "sha256": "4c426d2977e01aa0fc3764956a46dce538a00a739b7e81a793cdcdfb1f823ac1"
+    }
+  ],
+  "later_reading": "All four images visually inspected; supplementary PDF pp. 1-5 text read and pp. 3-5 rendered and visually read. Acquisition-time statuses above are retained.",
+  "rendered_and_visually_read": [
+    {
+      "page": 3,
+      "file": "supplement-page-3.png",
+      "sha256": "8ee124a8cf6b19e4e3c8934cac77aef9f85b9ccf2325dd2456d6880a5c71eb52",
+      "render_scale": 1.8
+    },
+    {
+      "page": 4,
+      "file": "supplement-page-4.png",
+      "sha256": "671ab16f60ab90dee728202295de9f5b3f93eeff30d371f69ca3a0aabd10c66c",
+      "render_scale": 1.8
+    },
+    {
+      "page": 5,
+      "file": "supplement-page-5.png",
+      "sha256": "22b83563916387eea68eb9888de1db9e6bc1a0b045a1df3562954ab38b741631",
+      "render_scale": 1.8
+    }
+  ]
+}

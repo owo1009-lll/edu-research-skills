@@ -1,0 +1,58 @@
+{
+  "checked_utc": "2026-10-19T19:24:54.109462+00:00",
+  "comparison_commit": "c81ea00311a048098087beef2daee0efd381ab00",
+  "scope": "English development-source records and original reading analyses; not a writing-quality experiment",
+  "json_files_parsed_excluding_this_report": 35,
+  "relative_markdown_links_resolved": 163,
+  "analysis_note_hash_references": 25,
+  "english_new_candidates": 41,
+  "english_acquired_fulltexts": 29,
+  "english_new_analyses": 23,
+  "confirmed_groups": {
+    "quantitative": 7,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 8,
+    "mixed": 7
+  },
+  "english_reread_analyses": 2,
+  "historical_chinese_records_unchanged": 4,
+  "new_source_and_reading_hashes_verified": [
+    {
+      "id": "Q-N11",
+      "source_sha256": "546bd7aeeaa95cc29a7f4a76385fce0620b178fdc652b1e08a9257f6620a4c1a",
+      "reading_sha256": "28508f389a461276dccf1f305e8f616429a1d07c02ae5287d6812cdbe25b213e"
+    },
+    {
+      "id": "L-N13",
+      "source_sha256": "b93b01f5d33c32e15b041f1e024288da32d70b84cb896e2ff92f85bf51d07878",
+      "reading_sha256": "d13062f64769c0567b4314945db55db4fb912e0e71f9794aa48f15feb5952688"
+    },
+    {
+      "id": "L-N14",
+      "source_sha256": "2707bb2b0c87eab417ccc2182abbb20692102429c99b4ce039801dd370db60ad",
+      "reading_sha256": "27ddaa5d48de587232acbfb1776cc99a355afc4c762e0b0d85915a10555a6c50"
+    },
+    {
+      "id": "M-N13",
+      "source_sha256": "f59eb0690db977759198ffc4ecfdd54df5afba20450e4d24d45c8680fa50820b",
+      "reading_sha256": "7a7195fe05f239f4a90230c0bfa7e1321b77392e0f7433a6ead9b7f06081dff3"
+    },
+    {
+      "id": "M-N14",
+      "source_sha256": "dfe1448724b8a1dc1a80988f996af55abd02a888d9297361f3d48ebb2f9a82f4",
+      "reading_sha256": "0650b935d74a15d0e201bfdec501a226e477548cf7a333f17c3bb839825f7587"
+    },
+    {
+      "id": "M-N15",
+      "source_sha256": "2b9ee13f98cbf52e49b96cd48a0de11ffa64a59c97baf8638b0420a1febb2bbc",
+      "reading_sha256": "35a2a20a3dd990c33d8e1893465a20824f2205213895ee304527251c15b8f412"
+    }
+  ],
+  "Q_N10_source_reading_and_29_preview_hashes_match": true,
+  "M_N13_four_images_one_supplement_and_three_previews_match": true,
+  "unique_candidate_deduplication_records": 45,
+  "changed_paths_confined_to": "distill/20261019/",
+  "runtime_rules_unchanged_from_comparison_commit": true,
+  "diff_whitespace_check": "passed",
+  "tests": "No runtime or behavior tests run for these development notes and source records. No new skill benefit or final holdout result claimed."
+}

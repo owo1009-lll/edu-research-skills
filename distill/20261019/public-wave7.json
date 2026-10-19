@@ -1,0 +1,84 @@
+{
+  "purpose": "第七批仅英文公网开发候选：扩充印度学校随机试验、课堂民族志与尼泊尔语言教育，以及教师团队、学生发言权和医学教育的探索型混合研究。按实际全文判断写法，不以设计标签、团队身份或刊名认定质量。",
+  "sources": [
+    {
+      "id": "Q-N11",
+      "doi": "10.3386/w22746",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Mainstreaming an Effective Intervention: Evidence from Randomized Evaluations of Teaching at the Right Level in India",
+      "selection_question": "怎样用不同实施安排的比较解释有效干预为何未必顺利推广；结果、实施与后续设计如何连接，而不把未经检验的机制当结论。",
+      "urls": ["https://www.nber.org/system/files/working_papers/w22746/w22746.pdf"],
+      "publisher_record": "https://www.nber.org/papers/w22746",
+      "version_note": "公开 NBER Working Paper 22746；获取后核对实际文件日期，不称为正式期刊版。多个实验属于同一论文，不按实验数重复计文章。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N13",
+      "doi": "10.1111/aeq.12471",
+      "candidate_group": "qualitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Teaching through the cloud: An ethnography of the role of cloud-based collaborative technologies in the formation of teachers' classroom practices",
+      "selection_question": "怎样从共同制作、分享和使用课堂材料的具体活动解释技术与教师实践的关系；民族志场景如何承担概念判断。",
+      "urls": ["https://ray.yorksj.ac.uk/id/eprint/7974/3/Anthropology%20%20%20Edu%20Quarterly%20-%202023%20-%20Unsworth%20-%20Teaching%20through%20the%20cloud%20%20An%20ethnography%20of%20the%20role%20of%20cloud%E2%80%90based.pdf"],
+      "publisher_record": "https://doi.org/10.1111/aeq.12471",
+      "repository_record": "https://ray.yorksj.ac.uk/id/eprint/7974/",
+      "version_note": "York St John 作者机构库提供 Published Version；在线发表年与卷期年分别核对，避免把两版本计为不同研究。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N14",
+      "doi": "10.1007/s11159-025-10217-7",
+      "candidate_group": "qualitative_pending_fulltext_classification",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Teacher agency for Indigenous languages in education: A decolonial perspective from Nepal",
+      "selection_question": "作者如何由教师行动与制度关系发展去殖民和集体能动性的判断；理论名称是否真正解释材料，而非替代分析。",
+      "urls": ["https://link.springer.com/article/10.1007/s11159-025-10217-7"],
+      "publisher_record": "https://link.springer.com/article/10.1007/s11159-025-10217-7",
+      "version_note": "出版社公开英文全文；实际设计、发表时间、材料范围及许可获取后确认。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N13",
+      "doi": "10.1097/ACM.0000000000003115",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "How Teachers Meet in Interdisciplinary Teams: Hangouts, Distribution Centers, and Melting Pots",
+      "selection_question": "探索型研究如何从教师叙述形成团队差异，再接入学生课程评价；质性类型与定量比较的共同单位是什么，整合增加了什么。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7382530/fullTextXML"],
+      "publisher_record": "https://academic.oup.com/academicmedicine/article/95/8/1265/8347557",
+      "version_note": "使用正常公开的 Europe PMC 全文 XML；PMC 网页的验证码不绕过。Academic Medicine 95(8), 1265–1273，卷期年 2020；在线时间按来源分别记录。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N14",
+      "doi": "10.1016/j.tate.2024.104540",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "The pedagogical foundations of student voice practices: The role of relationships, differentiation, and choice in supporting student voice practices in high school classrooms",
+      "selection_question": "如何由课堂和访谈材料厘清 student voice，再用调查检视关系；与预期不一致的结果怎样改变解释，避免把关联写成必然基础。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10993169/fullTextXML"],
+      "publisher_record": "https://doi.org/10.1016/j.tate.2024.104540",
+      "version_note": "Teaching and Teacher Education 142 (2024), 104540；公开 CC BY 文章，获取后核对作者、设计、整合与同项目关系。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N15",
+      "doi": "10.5116/ijme.6399.dee1",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Students’ perception of problem-based learning at a Japanese medical school: an exploratory sequential mixed method",
+      "selection_question": "焦点讨论怎样形成问卷内容，联合展示怎样将一般肯定细化为具体学习与互动经验；学生感知、课程效果和文化解释怎样区分。",
+      "urls": ["https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9911279/fullTextXML"],
+      "publisher_record": "https://doi.org/10.5116/ijme.6399.dee1",
+      "version_note": "International Journal of Medical Education 13 (2022), 322–334；正常公开 XML，实际整合与统计比较依据须全文确认。",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}
