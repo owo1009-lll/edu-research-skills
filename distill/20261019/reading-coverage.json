@@ -442,13 +442,15 @@
       "exposure": "new_development",
       "candidate_group": "quantitative",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/Q-N08.md",
+      "use_status": "selected_theory_and_comparison_moves; reporting discrepancies and limits of country-level proxy retained",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "e31ffc270c934afe0bf76db2ac7aa1bfbdc4edc0c28c7049bbd670ed683302fa",
-      "read_scope": "Identity/front-matter screening only; no full-text writing analysis"
+      "read_scope": "B001-B095 main text; B219-B237 supplement/licence/version; three displayed HTML equations; Figures 1-3 visually inspected; supplementary DOCX Parts A-C including all text, notes and Tables A1-A2, B1a-B1b, B2, B3a-c, C1a-C1b, C2, C3a-c (14 tables)",
+      "confirmed_group": "quantitative",
+      "not_read": "Supplement Parts D-I; PDF; original data, code and cited originals"
     },
     {
       "id": "Q-N09",
@@ -498,13 +500,15 @@
       "exposure": "new_development",
       "candidate_group": "qualitative",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/L-N11.md",
+      "use_status": "role_comparison_and_task_conditions; related social-policy field, not direct education facts; interviews not paired observed interactions",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_status": "main_text_read_and_analysis_written",
       "reading_sha256": "68d12dcb78198077425ba4f7eabf55681de0d8ac5529c4f1ed17cd40bf6c83f4",
-      "read_scope": "Identity/front-matter screening only; no full-text writing analysis"
+      "read_scope": "B001-B077 main text; B251-B269 supplement/licence/version; Tables 1-4 all cells; supplementary interview-guide DOCX complete (47 paragraph positions, no tables); no independent figures",
+      "confirmed_group": "qualitative",
+      "not_read": "PDF, original interview transcripts and cited originals"
     },
     {
       "id": "M-N09",
@@ -550,6 +554,49 @@
       "acquisition_status": "access_failed",
       "reading_status": "not_read",
       "version_note": "与 X-N01 方法背景文章所展示项目相关，不当作不同的独立研究；2019 质性论文属于同一研究系列，尚未计入本轮精读。"
+    },
+    {
+      "id": "Q-N10",
+      "doi": "10.3386/w24203",
+      "exposure": "new_development",
+      "candidate_group": "quantitative",
+      "language": "en",
+      "analysis": null,
+      "use_status": "await_fulltext_analysis",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_sha256": "ad270eaacfd487bba9ff396cd7934c62d410439cd6e11045d86d6dc5fc541c19",
+      "read_scope": "PDF pages 1-2 identity, version and abstract only; no full-text writing analysis",
+      "related_published_doi": "10.1257/pol.20180674"
+    },
+    {
+      "id": "L-N12",
+      "doi": "10.24071/llt.v25i2.4946",
+      "exposure": "new_development",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "analysis": null,
+      "use_status": "await_fulltext_analysis",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "downloaded_identity_screened_not_analyzed",
+      "reading_sha256": "82f94466ad236e4d647909bbf6fac8c2d89af0b44dc8baa1eac8d21a99c2ad59",
+      "read_scope": "PDF page 1 identity, abstract and beginning of Introduction only; no full-text writing analysis"
+    },
+    {
+      "id": "M-N12",
+      "doi": "10.1177/1609406921993286",
+      "exposure": "new_development",
+      "candidate_group": "mixed_pending_empirical_methodological_classification",
+      "language": "en",
+      "analysis": null,
+      "use_status": "await_fulltext_analysis",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "access_failed",
+      "reading_status": "publisher_web_excerpts_only_no_complete_reading",
+      "read_scope": "Publisher metadata, abstract and partial HTML passages through web tool; no complete locally archived text, figures or writing analysis",
+      "not_read": "Complete article and figures; publisher PDF and direct HTML requests both returned HTTP 403"
     }
   ],
   "current_scope": {

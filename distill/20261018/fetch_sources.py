@@ -23,7 +23,9 @@ def sha(data):
 
 
 def extract(data, content_type):
-    if data.startswith(b'%PDF-'):
+    # Some publisher downloads prepend whitespace (LLT currently sends CRLF).
+    # Keep the original bytes for hashing and let the PDF parser validate them.
+    if data[:1024].lstrip(b' \t\r\n').startswith(b'%PDF-'):
         pdf = fitz.open(stream=data, filetype='pdf')
         return 'pdf', '\n\n'.join(
             f'## PDF page {i + 1}\n{p.get_text(sort=False)}' for i, p in enumerate(pdf)

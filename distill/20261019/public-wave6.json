@@ -1,0 +1,45 @@
+{
+  "purpose": "第六批仅英文公网开发候选：学校财政准实验、教师关键事件质性研究、联合展示的实际分析过程。获取与完成精读分别记录；不以作者身份或刊名代替具体写法评价，不是独立留出。",
+  "sources": [
+    {
+      "id": "Q-N10",
+      "doi": "10.3386/w24203",
+      "related_published_doi": "10.1257/pol.20180674",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Do School Spending Cuts Matter? Evidence from the Great Recession",
+      "selection_question": "怎样用经济冲击、学校筹资来源和学生所经历的削减解释比较设计；平均影响、群体差异与财政决策怎样贯穿论证。",
+      "urls": ["https://www.nber.org/system/files/working_papers/w24203/w24203.pdf"],
+      "publisher_record": "https://www.nber.org/papers/w24203",
+      "version_note": "获取对象是 NBER Working Paper 24203，初版 2018-01、修订 2019-08。2021 年 AEJ: Economic Policy 正式版 DOI 另列；出版社 PDF 当前要求订阅或登录，不把公开工作稿称为最终正式版。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N12",
+      "doi": "10.24071/llt.v25i2.4946",
+      "candidate_group": "qualitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Dealing with Critical Incidents: Experiences of Turkish Novice EFL Teachers",
+      "selection_question": "反思日志与焦点访谈怎样把具体课堂事件推进为教师理解与应对的分析；地区研究较少是否被进一步转成实质问题，不预先认定整篇写法优秀。",
+      "urls": ["https://e-journal.usd.ac.id/index.php/LLT/article/download/4946/2911"],
+      "publisher_record": "https://e-journal.usd.ac.id/index.php/LLT/article/view/4946",
+      "version_note": "出版社标 2022-10-19、25(2)、691–708，CC BY-SA 4.0；下载地址来自出版社 PDF 浏览页。",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N12",
+      "doi": "10.1177/1609406921993286",
+      "candidate_group": "mixed_pending_empirical_methodological_classification",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Using Joint Display as an Analytic Process: An Illustration Using Bar Graphs Joint Displays From a Mixed Methods Study of How Beliefs Shape Secondary School Teachers’ Use of Technology",
+      "selection_question": "联合展示的多次修订怎样改变对同一教师案例的解释；调查分组、观察评分和现场笔记各增加什么，是否存在同源数据而非独立验证。",
+      "urls": ["https://journals.sagepub.com/doi/pdf/10.1177/1609406921993286"],
+      "publisher_record": "https://journals.sagepub.com/doi/10.1177/1609406921993286",
+      "version_note": "出版社标 2021-02-11、开放获取。文章以实际教师项目说明整合分析方法，是否足以计入混合实证及与其他项目的关系须按全文核实；网页片段不算完成精读。",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "L-N12",
+    "doi": "10.24071/llt.v25i2.4946",
+    "retrieved_utc": "2026-10-19T17:36:39.245710+00:00",
+    "attempts": [
+      {
+        "url": "https://e-journal.usd.ac.id/index.php/LLT/article/download/4946/2911",
+        "status": 200,
+        "final_url": "https://e-journal.usd.ac.id/index.php/LLT/article/download/4946/2911",
+        "content_type": "application/pdf",
+        "bytes": 732053,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.24071/llt.v25i2.4946",
+      "title": [
+        "DEALING WITH CRITICAL INCIDENTS: EXPERIENCES OF TURKISH NOVICE EFL TEACHERS"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6564-4171",
+          "authenticated-orcid": false,
+          "given": "Hatice Saliha",
+          "family": "Çukur",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            19
+          ]
+        ]
+      },
+      "container-title": [
+        "LLT Journal: A Journal on Language and Language Teaching"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                10,
+                19
+              ]
+            ],
+            "date-time": "2022-10-19T00:00:00Z",
+            "timestamp": 1666137600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "e72cdac2746dec1a022313bb64462d120e859d352a0a7b0e948f3279bcc51a62",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://e-journal.usd.ac.id/index.php/LLT/article/download/4946/2911",
+    "format": "pdf",
+    "raw_sha256": "e19aee1d5466d6b9daa608b361e1855397ffc2bc1a86f3a21b9f7481f183d868",
+    "text_sha256": "51e25c17172afaffd3230754ff8c6ddce73430023b611636b9461343066b3f31",
+    "text_characters": 54162,
+    "extraction": {
+      "pages": 18,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "82f94466ad236e4d647909bbf6fac8c2d89af0b44dc8baa1eac8d21a99c2ad59",
+    "reading_blocks": 18,
+    "reading_characters": 55191,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

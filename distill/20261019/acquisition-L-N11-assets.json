@@ -1,0 +1,57 @@
+{
+  "id": "L-N11",
+  "retrieved_utc": "2026-10-19T17:13:08.469178+00:00",
+  "records": [
+    {
+      "file": "table-1.html",
+      "url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/1",
+      "read_status": "not_yet_read",
+      "final_url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/1",
+      "status": 200,
+      "bytes": 229699,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "37e14a86438da1850e1bc8a632b1214f6ba4fb6dfcb0e25651c5b25e3cc4d49b"
+    },
+    {
+      "file": "table-2.html",
+      "url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/2",
+      "read_status": "not_yet_read",
+      "final_url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/2",
+      "status": 200,
+      "bytes": 230263,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "aeb6b3ce520581dc5b958e770039760ebe9f9db392fa2018623afc5db3dc3404"
+    },
+    {
+      "file": "table-3.html",
+      "url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/3",
+      "read_status": "not_yet_read",
+      "final_url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/3",
+      "status": 200,
+      "bytes": 229953,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "999fdecfc6822d7bad7fab623f151ad6741059f90c7b959978839bbfabccc667"
+    },
+    {
+      "file": "table-4.html",
+      "url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/4",
+      "read_status": "not_yet_read",
+      "final_url": "https://link.springer.com/article/10.1186/s12961-019-0441-2/tables/4",
+      "status": 200,
+      "bytes": 228602,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "aa57460ae8d518860956172dfa62290c897ef0611be2c86843db5ea85b8ca60e"
+    },
+    {
+      "file": "supplement-1.docx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12961-019-0441-2/MediaObjects/12961_2019_441_MOESM1_ESM.docx",
+      "read_status": "not_yet_read",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12961-019-0441-2/MediaObjects/12961_2019_441_MOESM1_ESM.docx",
+      "status": 200,
+      "bytes": 33224,
+      "content_type": "application/octet-stream",
+      "sha256": "bd605eb87ac28bc52309ff8bed997c8c26424ac928a871ae260caa822aa756c1"
+    }
+  ],
+  "status_note": "read_status records acquisition-time state only; actual later reading is recorded in reading-coverage.json and the linked paper analysis"
+}
