@@ -1,0 +1,113 @@
+{
+  "renderer": "PyMuPDF 1.27.2.2",
+  "scale": 1.5,
+  "sources": [
+    {
+      "id": "Q-N15",
+      "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0152423&type=printable",
+      "source_sha256": "1190bb0335a594b2b0a3db2fdd5d26c28a5ef1205a3299cc61c90491d951e131",
+      "images": [
+        {
+          "page": 5,
+          "file": "page-05.png",
+          "sha256": "1ade0a9c8aa2fce2b8c7be440a631068337cc1dd93e4c76c827b245721ae93f9"
+        },
+        {
+          "page": 6,
+          "file": "page-06.png",
+          "sha256": "64a902c03fdebc7d930f37094b34b709a70c055a6752990da153f1bc4244d587"
+        },
+        {
+          "page": 7,
+          "file": "page-07.png",
+          "sha256": "d37080aff8416a868ced7db4faa69b83cb6c9501c4b93489c907b66124329811"
+        },
+        {
+          "page": 8,
+          "file": "page-08.png",
+          "sha256": "a2c11b6ff48cfb1d8251fcbfa1ed11f4469daee2fa21b101b5f53cb640c7872d"
+        },
+        {
+          "page": 9,
+          "file": "page-09.png",
+          "sha256": "caff6e271673bb3e2a6855dbd23a7729b4605187e64d08e499f7b2797ebd3453"
+        },
+        {
+          "page": 10,
+          "file": "page-10.png",
+          "sha256": "55fe56760c2489d2816ff1c193dbf21dcc0fc17d033d16476882bc52395d43fa"
+        },
+        {
+          "page": 11,
+          "file": "page-11.png",
+          "sha256": "2f1e8928ef231490af06d33bd45d03f3711c1e7e467cf2442c1f3d198e79f1d1"
+        },
+        {
+          "page": 12,
+          "file": "page-12.png",
+          "sha256": "efc739c2c0f6c361bea9078c507ea7f3b17ff1cfdeee2359ebe1e98154ea0be1"
+        },
+        {
+          "page": 13,
+          "file": "page-13.png",
+          "sha256": "bd8de4f98b466f55becee5056cf971997369139744fea23edf78eb811cba33e4"
+        },
+        {
+          "page": 15,
+          "file": "page-15.png",
+          "sha256": "1ed878ec7cf9297d0fb6bb55ae0366fb9ce54b87a099744b9089ebfd8cb1c751"
+        },
+        {
+          "page": 17,
+          "file": "page-17.png",
+          "sha256": "c5876ee14ffc7340ef21c480683e59280d11237a78634139785852cd829ff1d8"
+        },
+        {
+          "page": 18,
+          "file": "page-18.png",
+          "sha256": "aeebbc5c440e3e5db397b8ed165fae9a969282459f3a83e547847d0cf59c0462"
+        }
+      ],
+      "all_listed_images_actually_viewed": true
+    },
+    {
+      "id": "L-N17",
+      "source_url": "https://www.ajqr.org/download/collaborative-autoethnography-as-a-pathway-for-teacher-learning-11030.pdf",
+      "source_sha256": "d05e3159077f584d984adc795c3a4f83cffa086a6c1e2951aab2fb67acbba97a",
+      "images": [
+        {
+          "page": 4,
+          "file": "page-04.png",
+          "sha256": "c09f101af9979292d6b665946c6371b274e6acbee14b6e2d930be30312f6320a"
+        },
+        {
+          "page": 5,
+          "file": "page-05.png",
+          "sha256": "795110afef97bd146ef4bbd61ef2520b76fe0c80a88be8fe21262cd9242e6b22"
+        },
+        {
+          "page": 6,
+          "file": "page-06.png",
+          "sha256": "e54d5e36b785a673ad322b1cfe1884732530605cf1e8dcd3ae7d3f5451bbc67f"
+        },
+        {
+          "page": 7,
+          "file": "page-07.png",
+          "sha256": "28e4546bd74f7b4c9ff6ff9c9918d06fcdb2723bc17b33700c236ae9fbf30019"
+        },
+        {
+          "page": 8,
+          "file": "page-08.png",
+          "sha256": "a95ecb866b1ab728497558ff2a4bf5d560ecec3c6882425b56c8a18937e7e2b8"
+        },
+        {
+          "page": 9,
+          "file": "page-09.png",
+          "sha256": "87e9b7707a979cadebcce6a33288dd2a3cca80b300cfee36ab1a16f350739a43"
+        }
+      ],
+      "all_listed_images_actually_viewed": true
+    }
+  ],
+  "reproduction": "Acquire the registered source PDFs using public-wave10.json --ids Q-N15 and public-wave12.json. Render each listed 1-based page with get_pixmap(matrix=fitz.Matrix(1.5,1.5)).save(path). Original PDF and page images remain outside the public repository."
+}

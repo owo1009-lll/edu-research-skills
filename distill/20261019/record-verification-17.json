@@ -1,0 +1,54 @@
+{
+  "checked_utc": "2026-10-20T00:10:17.222031+00:00",
+  "comparison_commit": "d7d7e48a13770378a2e1f2ec24b905298fc68373",
+  "status": "passed",
+  "english_new_candidates": 55,
+  "english_acquired_fulltexts": 40,
+  "english_new_empirical_or_boundary_analyses": 37,
+  "confirmed_empirical_groups": {
+    "quantitative": 12,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 12,
+    "mixed": 12
+  },
+  "english_methodological_application_analyses": 1,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "Q-N15",
+    "M-N20"
+  ],
+  "unchanged_previous_reading_records": 58,
+  "historical_chinese_records_unchanged": 4,
+  "new_reading_records": [
+    "L-N17"
+  ],
+  "new_full_analyses": [
+    "Q-N15",
+    "L-N17"
+  ],
+  "acquisition_only_upgrade": [
+    "M-N20"
+  ],
+  "source_PDF_pages_read": 33,
+  "actually_viewed_page_image_hashes_verified": 18,
+  "analysis_note_reading_hash_references_verified": 40,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "development_downloader_change": "Add PMC article-body HTML extraction, preserve references and inline tables, remove navigation; prior PDF extraction preserved",
+  "PMC_checks": {
+    "format": "html",
+    "source_references": 103,
+    "preserved_references": 103,
+    "source_tables": 3,
+    "preserved_tables": 3,
+    "full_text_characters": 62904,
+    "status": "passed",
+    "rejected_incomplete_pages": 2,
+    "pdf_regression_pages": 12
+  },
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 73,
+  "note": "Source reading and extraction validation are distinct from writing-effect evidence. No new Chinese material or task, no final holdout, no overall completion claim.",
+  "authored_relative_markdown_links_checked": 316
+}

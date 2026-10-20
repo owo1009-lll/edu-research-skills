@@ -42,6 +42,26 @@ def extract(data, content_type):
         # Retain the XML as the authoritative section/paragraph locator.
         return 'xml', body, {'sections': len(soup.find_all('sec')), 'locator': 'JATS section titles and paragraph order'}
     soup = BeautifulSoup(data, 'html.parser')
+    # PMC sometimes serves a challenge at the PDF endpoint while the public
+    # article HTML remains readable. Require its full-body container, not merely
+    # an abstract or a successful HTTP response, and retain inline tables.
+    pmc_body = soup.select_one('article[lang="en"] section.main-article-body')
+    if pmc_body is not None:
+        article = pmc_body.find_parent('article')
+        for navigation in article.find_all('nav'):
+            navigation.decompose()
+        front = [article.find('h1'), article.select_one('.pmc-layout__citation')]
+        blocks = [n.get_text(' ', strip=True) for n in front if n is not None]
+        for element in pmc_body.find_all(['h2', 'h3', 'h4', 'p', 'table', 'cite']):
+            if element.find_parent(['table', 'p']) is not None:
+                continue
+            value = element.get_text(' ', strip=True)
+            if value:
+                blocks.append(('## ' if element.name.startswith('h') else '') + value)
+        body = '\n\n'.join(blocks)
+        if len(body) < 12000 or not re.search(r'\b(Discussion|Conclusion|Findings)\b', body, re.I):
+            raise ValueError('PMC body too short or lacks substantive ending sections')
+        return 'html', body, {'sections': len(pmc_body.find_all('section')), 'locator': 'PMC headings and paragraph order; raw HTML retains section/table IDs', 'table_note': 'Inline tables included; inspect original HTML cells when row relationships matter'}
     # An abstract-only landing page or anti-bot page must not become full text.
     sections = soup.select('.c-article-section')
     if not sections:

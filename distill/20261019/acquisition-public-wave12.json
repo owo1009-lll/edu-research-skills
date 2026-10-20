@@ -1,0 +1,82 @@
+[
+  {
+    "id": "L-N17",
+    "doi": "10.29333/ajqr/11030",
+    "retrieved_utc": "2026-10-19T23:48:41.921200+00:00",
+    "attempts": [
+      {
+        "url": "https://www.ajqr.org/download/collaborative-autoethnography-as-a-pathway-for-teacher-learning-11030.pdf",
+        "status": 200,
+        "final_url": "https://www.ajqr.org/download/collaborative-autoethnography-as-a-pathway-for-teacher-learning-11030.pdf",
+        "content_type": "Application/pdf",
+        "bytes": 292510,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.29333/ajqr/11030",
+      "title": [
+        "Collaborative Autoethnography as a Pathway for Teacher Learning"
+      ],
+      "author": [
+        {
+          "given": "Nugrahenny",
+          "family": "Zacharias",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Galina",
+          "family": "Shleykina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "American Journal of Qualitative Research"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "eea0a9ad6052c78dd584b104f119cf8a85b257d9324c2e788bd04816d0c728c3",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.ajqr.org/download/collaborative-autoethnography-as-a-pathway-for-teacher-learning-11030.pdf",
+    "format": "pdf",
+    "raw_sha256": "d05e3159077f584d984adc795c3a4f83cffa086a6c1e2951aab2fb67acbba97a",
+    "text_sha256": "f7f22b5d253d5e446a349bfaa31f1527c2c0281d2eaec46386137441e3e34de3",
+    "text_characters": 42976,
+    "extraction": {
+      "pages": 12,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "1675b3f2b637564b226a0772939eb1ce357e0742ecb673553c74cb70bae494a3",
+    "reading_blocks": 12,
+    "reading_characters": 43645,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

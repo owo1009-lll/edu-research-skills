@@ -1,0 +1,35 @@
+{
+  "before_reference_fix": {
+    "exit_code": 1,
+    "result": {
+      "format": "html",
+      "source_references": 103,
+      "preserved_references": 0,
+      "source_tables": 3,
+      "preserved_tables": 3,
+      "full_text_characters": 42209,
+      "status": "failed_content_preservation"
+    },
+    "stderr": ""
+  },
+  "after_reference_fix": {
+    "exit_code": 0,
+    "result": {
+      "format": "html",
+      "source_references": 103,
+      "preserved_references": 103,
+      "source_tables": 3,
+      "preserved_tables": 3,
+      "full_text_characters": 62904,
+      "status": "passed",
+      "rejected_incomplete_pages": 2,
+      "pdf_regression_pages": 12
+    },
+    "stderr": ""
+  },
+  "before_PMC_support": {
+    "comparison_commit": "d7d7e48a13770378a2e1f2ec24b905298fc68373",
+    "outcome": "rejected_readable_PMC_HTML",
+    "error": "No publisher article sections found; possible landing/challenge page"
+  }
+}

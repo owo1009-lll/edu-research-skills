@@ -1,0 +1,16 @@
+{
+  "purpose": "Retry the already registered English M-N20 source using its public PMC HTML. Preserve the earlier PDF challenge failure; successful acquisition is not completed reading.",
+  "sources": [
+    {
+      "id": "M-N20",
+      "doi": "10.1080/09669760.2025.2522894",
+      "candidate_group": "mixed",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Building Professional Learning Communities in Head Start: A Mixed Methods Study on What it Takes from Teachers' Perspectives",
+      "urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC12650122/"],
+      "version_note": "PMC author manuscript available June 2026; final article dated 2025. Public access does not establish a redistribution license. Full text remains outside the repository.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

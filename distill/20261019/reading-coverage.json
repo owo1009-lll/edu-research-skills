@@ -802,10 +802,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_and_opening_screened_only",
-      "read_scope": "Crossref identity and first PDF page screened; remaining pages not read.",
-      "use_status": "pending_full_reading_and_classification",
-      "reading_sha256": "30d5df1a3e0872ee1f05bc936b0be3d5102dc329819823a889877d05cdb517fe"
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B021; all 21 PDF pages, Figure 1, Tables 1-7, equations, supporting-file list and references; rendered pages 5-13,15,17,18 actually inspected",
+      "use_status": "selected_explanatory_comparison_moves_and_reporting_counterexamples; no runtime adoption",
+      "reading_sha256": "30d5df1a3e0872ee1f05bc936b0be3d5102dc329819823a889877d05cdb517fe",
+      "confirmed_group": "quantitative",
+      "analysis": "papers/Q-N15.md",
+      "not_read": "Supplementary protocol, CONSORT checklist, power-analysis file, trial registration, raw data and cited originals; no model reanalysis",
+      "classification_note": "Quantitative subgroup report from the LEIP cluster trial. Multiple outcome informants do not constitute a qualitative strand; attendance and engagement are post-allocation categories, unlike baseline moderators."
     },
     {
       "id": "Q-N16",
@@ -889,10 +893,11 @@
       "candidate_group": "mixed",
       "language": "en",
       "scope_status": "in_scope_english",
-      "acquisition_status": "access_failed",
+      "acquisition_status": "downloaded_for_reading",
       "reading_status": "partial_html_screening_only",
-      "read_scope": "PMC identity, abstract, methods and opening results screened incompletely. PDF endpoint returned a challenge page rather than a PDF. Public HTML is accessible, but full reading and a complete local extraction remain pending.",
-      "use_status": "pending_complete_acquisition_reading_and_classification"
+      "read_scope": "PMC identity, abstract, introduction, methods and opening results screened incompletely across sessions. Complete public HTML, including three inline tables and 103 references, now acquired and prepared; remaining full reading and analysis pending. Earlier PDF challenge and initial incomplete reference extraction retained.",
+      "use_status": "pending_full_reading_and_classification",
+      "reading_sha256": "79c0f1fe58fee43c664415c31001944d25e5494588a84b1b40d9a72dc03b2110"
     },
     {
       "id": "M-N21",
@@ -910,6 +915,23 @@
       "not_read": "Both supplementary files, complete transcripts, survey responses, cited originals and linked study protocol",
       "use_status": "selected_local_writing_moves_and_contrast_source; reporting conflicts retained; no runtime adoption",
       "classification_note": "Sequential explanatory design; interviews drawn from surveyed educators using practice-use categories, with aggregate construct-level integration rather than displayed individual rating/account matches"
+    },
+    {
+      "id": "L-N17",
+      "doi": "10.29333/ajqr/11030",
+      "exposure": "new_development",
+      "candidate_group": "qualitative",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "main_text_read_and_analysis_written",
+      "reading_sha256": "1675b3f2b637564b226a0772939eb1ce357e0742ecb673553c74cb70bae494a3",
+      "confirmed_group": "qualitative",
+      "analysis": "papers/L-N17.md",
+      "read_scope": "B001-B012; all 12 PDF pages (printed pp.10-21), reproduced course announcement and student email, references and contributor statements; PDF pages 4-9 actually viewed after rendering; no numbered tables or figures",
+      "not_read": "Original course evaluations, complete emails, learning-community records, collaborative discussion notes, linked faculty reflections and cited originals",
+      "use_status": "selected_reflexive_concept_to_action_moves; interpretation and situated author voice retained; no runtime adoption",
+      "classification_note": "Collaborative autoethnography by two participant-researchers; not a controlled professional-development evaluation or independent observation of all members."
     }
   ],
   "current_scope": {

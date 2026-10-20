@@ -1,0 +1,218 @@
+[
+  {
+    "id": "M-N20",
+    "doi": "10.1080/09669760.2025.2522894",
+    "retrieved_utc": "2026-10-19T23:58:23.243745+00:00",
+    "attempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650122/",
+        "status": 200,
+        "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650122/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 240024,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1080/09669760.2025.2522894",
+      "title": [
+        "Building professional learning communities in head start: a mixed methods study on what it takes from teachers’ perspectives"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0200-6102",
+          "authenticated-orcid": false,
+          "given": "Jocelyn",
+          "family": "Dixon",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "NC State University State Extension",
+              "place": [
+                "Raleigh, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jessica",
+          "family": "Resor",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "East Carolina University",
+              "place": [
+                "Greenville, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lanie",
+          "family": "Holmes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "East Carolina University",
+              "place": [
+                "Greenville, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4909-8366",
+          "authenticated-orcid": false,
+          "given": "Archana V.",
+          "family": "Hegde",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "East Carolina University",
+              "place": [
+                "Greenville, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "L. Suzanne",
+          "family": "Goodell",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NC State University",
+              "place": [
+                "Raleigh, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lucía I.",
+          "family": "Mendez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of North Carolina Greensboro",
+              "place": [
+                "Greensboro, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Valerie J.",
+          "family": "McMillan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "North Carolina Agricultural and Technical State University",
+              "place": [
+                "Greensboro, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6152-1438",
+          "authenticated-orcid": false,
+          "given": "Virginia C.",
+          "family": "Stage",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NC State University State Extension",
+              "place": [
+                "Raleigh, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            28
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Early Years Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": null
+    },
+    "metadata_sha256": "006b803c53756a1bf3faf8f9b7fbfdd1bebbeefaf02b530383fcf9dd6cb18c06",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650122/",
+    "format": "html",
+    "raw_sha256": "93b76e56757d96ac6d1f5396a2eccceb5cb0cf763c488386ad5f2fb907e056cf",
+    "text_sha256": "f0858d095f77df313887836c58bb1a7f89cce3392a34a2d7333c119469c5a466",
+    "text_characters": 62904,
+    "extraction": {
+      "sections": 38,
+      "locator": "PMC headings and paragraph order; raw HTML retains section/table IDs",
+      "table_note": "Inline tables included; inspect original HTML cells when row relationships matter"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "extraction_revision": "Re-extracted the same received HTML bytes with reference preservation and navigation removal. Original retrieval time and raw hash retained; initial extraction recorded in acquisition-mn20-html-retry.json.",
+    "reading_sha256": "79c0f1fe58fee43c664415c31001944d25e5494588a84b1b40d9a72dc03b2110",
+    "reading_blocks": 200,
+    "reading_characters": 74905,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

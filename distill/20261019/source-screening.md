@@ -170,3 +170,23 @@ python -X utf8 distill/20261018/prepare_reading.py --manifest distill/20261019/p
 ```
 
 The [original acquisition digest](acquisition-public-wave11.json) retains the two failures; a future successful retry should preserve them. [Reading assets](reading-mn21-assets.json) list the exact M-N21 pages and rendering scale. [Verification 16](record-verification-16.json) checks this increment against `fac7429c426696ff3deeb4baf1122497cda4c6fd`: 57 previous reading records, including four excluded historical Chinese records, remain unchanged. The 203 runtime files are unchanged. Source analysis is not a behavioral improvement result, and the overall objective remains unfinished.
+
+## Later reading and wave 12
+
+[Q-N15](papers/Q-N15.md), previously acquired in wave 10, is now read through all 21 PDF pages, including the flowchart and seven tables. Twelve rendered pages were inspected. Its local positive moves connect competing expectations to subgroup questions and develop explanations of adverse findings. The article also contains unresolved population, threshold and scoring descriptions and overextended interpretations. These remain explicit rather than becoming runtime guidance. The protocol, power supplement, registration, main trial report and cited originals remain unread; this subgroup report is not an independent trial from them.
+
+[L-N17](papers/L-N17.md) was registered in [wave 12](public-wave12.json), after checking its DOI and author names against the indexed corpus. It was obtained from the journal's public PDF endpoint, with successful Crossref identity retrieval. All 12 PDF pages, including references and contributor information, were read; six actual page images cover the narratives and their embedded teaching artifacts. Its concept-to-action sequence is a reason for selecting particular writing moves, not certification of every claim about learning communities. The journal's current open-access policy states CC BY 4.0; the original PDF bears a 2021 journal copyright notice. Original emails and collaborative notes were not independently inspected.
+
+[M-N20](public-mn20-html-retry.json) is now acquired as complete public PMC HTML. The earlier PDF challenge remains in wave 11's digest. A small addition to the existing development downloader recognizes the PMC main-body container while rejecting challenge and abstract-only pages. The first extraction included all three tables but omitted the 103 reference entries. An [actual content-preservation check](pmc-extraction-checks.json) reproduced that failure; after including reference citations and removing navigation text, all 103 entries and all three tables are retained. A 12-page public PDF still extracts successfully. The [initial extraction](acquisition-mn20-html-retry.json) and [corrected extraction of the same received bytes](acquisition-mn20-html-retry-final.json) are both recorded. The corrected reading file has 200 blocks. This is acquisition progress only: remaining full reading and analysis are pending.
+
+Reproduce the new acquisitions using separate, new external caches:
+
+```powershell
+python -X utf8 distill/20261018/fetch_sources.py --manifest distill/20261019/public-wave12.json --out <pdf-cache>
+python -X utf8 distill/20261018/prepare_reading.py --manifest distill/20261019/public-wave12.json --cache <pdf-cache> --digest <new-pdf-digest.json>
+python -X utf8 distill/20261018/fetch_sources.py --manifest distill/20261019/public-mn20-html-retry.json --out <html-cache>
+python -X utf8 distill/20261018/prepare_reading.py --manifest distill/20261019/public-mn20-html-retry.json --cache <html-cache> --digest <new-html-digest.json>
+python -X utf8 distill/20261019/verify_pmc_extraction.py --source <html-cache>/M-N20/source.html --pdf <pdf-cache>/L-N17/source.pdf
+```
+
+Q-N15 can be acquired separately with `public-wave10.json --ids Q-N15`. The [reading-assets manifest](reading-qn15-ln17-assets.json) identifies all 18 actually inspected page images and the rendering scale. No source PDFs, full HTML, images or private manuscript content are republished. Current English totals are 55 candidates, 40 acquired full texts, 37 empirical/boundary analyses, one methodological application and two rereads. [Verification 17](record-verification-17.json) records two changed older reading entries (Q-N15 and M-N20), 58 unchanged entries including all four historical Chinese records, and one new entry. Runtime skills remain unchanged. No new behavioral comparison or final holdout result is claimed.
