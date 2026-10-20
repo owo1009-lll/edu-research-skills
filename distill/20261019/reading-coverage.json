@@ -600,13 +600,16 @@
       "exposure": "new_development",
       "candidate_group": "mixed_pending_empirical_methodological_classification",
       "language": "en",
-      "analysis": null,
-      "use_status": "await_fulltext_analysis",
+      "analysis": "papers/M-N12.md",
+      "use_status": "selected_local_argument_moves_and_contrast_source; separate_from_empirical_exemplar_count",
       "scope_status": "in_scope_english",
-      "acquisition_status": "access_failed",
-      "reading_status": "web_pdf_opened_excerpt_only_no_complete_reading",
-      "read_scope": "Publisher PDF accessible through web tool as 14 pages; opening text on pp. 1-3 and abstract screened, not a full-paper read. Repeated direct public PDF request returned HTTP 403.",
-      "not_read": "Remaining article and figures; no local full-text archive or completed writing analysis"
+      "acquisition_status": "acquired_via_public_web_pdf",
+      "reading_status": "methodological_application_read_and_analysis_written",
+      "read_scope": "All 1036 numbered PDF text lines across 14 pages, references, declarations and Table 1; all six original publisher figure images actually viewed. Complete numbered web extraction retained outside repository; original PDF bytes not acquired.",
+      "not_read": "Raw survey responses, complete field notes, videos, thesis, other reports from the project and cited originals",
+      "confirmed_group": "mixed_methodological_application",
+      "reading_sha256": "ec2c893de381a6b10fcc83b2b28ae8050780f20870ba3fb3f22fe53c8f5ba482",
+      "classification_note": "Methodological illustration using an actual explanatory-sequential mixed-methods project; not an additional independent study from related reports. Classroom rating and field-note representations refer to the same observed lessons."
     },
     {
       "id": "Q-N11",
@@ -758,7 +761,8 @@
       "acquisition_status": "access_failed",
       "reading_status": "identity_and_opening_screened_only",
       "read_scope": "Public article identity and opening screened; no full-text distillation completed.",
-      "use_status": "pending_full_reading_and_classification"
+      "use_status": "pending_full_reading_and_classification",
+      "latest_access_note": "PMC HTML retry returned 200 with no full-article body, rejected by existing extractor. See acquisition-qn14-html-retry.json. No new full reading."
     },
     {
       "id": "L-N15",
@@ -936,6 +940,75 @@
       "not_read": "Original course evaluations, complete emails, learning-community records, collaborative discussion notes, linked faculty reflections and cited originals",
       "use_status": "selected_reflexive_concept_to_action_moves; interpretation and situated author voice retained; no runtime adoption",
       "classification_note": "Collaborative autoethnography by two participant-researchers; not a controlled professional-development evaluation or independent observation of all members."
+    },
+    {
+      "id": "Q-N17",
+      "doi": "10.1073/pnas.2019030118",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "identity_or_opening_screened_only",
+      "analysis": null,
+      "use_status": "pending_full_reading_and_classification",
+      "reading_sha256": "597035d888a40623f1781619280bb0879f6836d13c55ed0501bfb661fdce0ad1",
+      "read_scope": "PMC title/authors and search excerpts only; 240 extracted blocks acquired but not fully read."
+    },
+    {
+      "id": "Q-N18",
+      "doi": "10.1073/pnas.1808589116",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "identity_or_opening_screened_only",
+      "analysis": null,
+      "use_status": "pending_full_reading_and_classification",
+      "reading_sha256": "d40a2b89a192aa3c3a9d9914bbb3a7cc70c7c542c2f4b62d1c64624fcddb6898",
+      "read_scope": "Title, authors and opening abstract excerpt only; six-page article and 26-page supplement acquired, not fully read."
+    },
+    {
+      "id": "L-N18",
+      "doi": "10.1007/s10464-010-9336-7",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "access_failed",
+      "reading_status": "not_read",
+      "analysis": null,
+      "use_status": "pending_full_reading_and_classification",
+      "read_scope": "Public identity screening only; publisher PDF request returned 403. No full-text reading."
+    },
+    {
+      "id": "M-N22",
+      "doi": "10.3389/fpsyg.2025.1568476",
+      "candidate_group": "mixed_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "identity_or_opening_screened_only",
+      "analysis": null,
+      "use_status": "pending_full_reading_and_classification",
+      "reading_sha256": "ac53749998aea9e7a834844fbf142f90d2da0b3aa82db26c020eaa7936e57ea1",
+      "read_scope": "Title, authors and opening abstract excerpt only; 11-page PDF acquired, not fully read."
+    },
+    {
+      "id": "M-N23",
+      "doi": "10.1080/09650792.2018.1436079",
+      "candidate_group": "mixed_participatory_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "identity_or_opening_screened_only",
+      "analysis": null,
+      "use_status": "pending_full_reading_and_classification",
+      "reading_sha256": "7feaa02de6dbb32f00103570d963a2946e93025bb72385a260331dc5b2f996a1",
+      "read_scope": "Publisher cover page identity only; 25-page PDF acquired, body not fully read."
     }
   ],
   "current_scope": {

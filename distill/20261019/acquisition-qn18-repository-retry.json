@@ -1,0 +1,142 @@
+[
+  {
+    "id": "Q-N18",
+    "doi": "10.1073/pnas.1808589116",
+    "retrieved_utc": "2026-10-20T00:51:17.494155+00:00",
+    "attempts": [
+      {
+        "url": "https://knowledge.uchicago.edu/records/rm0gx-0yk64/files/rozek-et-al-2019-reducing-socioeconomic-disparities-in-the-stem-pipeline-through-student-emotion-regulation.pdf?download=1",
+        "status": 200,
+        "final_url": "https://knowledge.uchicago.edu/records/rm0gx-0yk64/files/rozek-et-al-2019-reducing-socioeconomic-disparities-in-the-stem-pipeline-through-student-emotion-regulation.pdf?download=1",
+        "content_type": "application/octet-stream",
+        "bytes": 600045,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1073/pnas.1808589116",
+      "title": [
+        "Reducing socioeconomic disparities in the STEM pipeline through student emotion regulation"
+      ],
+      "author": [
+        {
+          "given": "Christopher S.",
+          "family": "Rozek",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, Stanford University, Stanford, CA 94305;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gerardo",
+          "family": "Ramirez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Educational Psychology, Ball State University, Muncie, IN 47306;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rachel D.",
+          "family": "Fine",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, University of Michigan, Ann Arbor, MI 48109;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sian L.",
+          "family": "Beilock",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, University of Chicago, Chicago, IL 60637;"
+            },
+            {
+              "name": "Department of Psychology, Barnard College, Columbia University, New York, NY 10027"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            14
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the National Academy of Sciences"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                1,
+                14
+              ]
+            ],
+            "date-time": "2019-01-14T00:00:00Z",
+            "timestamp": 1547424000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "4042c6f7b3ce9b0c8b37259b417402eb961fdba34ed9527a9417a13a8554c786",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://knowledge.uchicago.edu/records/rm0gx-0yk64/files/rozek-et-al-2019-reducing-socioeconomic-disparities-in-the-stem-pipeline-through-student-emotion-regulation.pdf?download=1",
+    "format": "pdf",
+    "raw_sha256": "bbdc0856570b7992416c9ad943f0ecddd7ea67779633cfff62d14f695f634e9a",
+    "text_sha256": "d4780b5638da1848a3f8648760c2a93f938fed8e728199cc82d1a477daaacb1f",
+    "text_characters": 47922,
+    "extraction": {
+      "pages": 6,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "d40a2b89a192aa3c3a9d9914bbb3a7cc70c7c542c2f4b62d1c64624fcddb6898",
+    "reading_blocks": 6,
+    "reading_characters": 48277,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "source_id": "M-N12",
+  "source_url": "https://journals.sagepub.com/doi/pdf/10.1177/1609406921993286",
+  "publisher_html": "https://journals.sagepub.com/doi/full/10.1177/1609406921993286",
+  "acquisition_method": "Public web reader PDF extraction; original figure images from observed publisher HTML links",
+  "original_pdf_bytes_acquired": false,
+  "reading_sha256": "ec2c893de381a6b10fcc83b2b28ae8050780f20870ba3fb3f22fe53c8f5ba482",
+  "PDF_pages_covered": 14,
+  "numbered_lines_covered": 1036,
+  "missing_line_numbers": [],
+  "conflicting_overlaps": [],
+  "extraction_chunks": [
+    {
+      "file": "web-chunk-0.txt",
+      "sha256": "3c3d123d265eb29e749235ebcebf9c3ea08c03fddb5eda0d321308a788a02186",
+      "line_min": 0,
+      "line_max": 180,
+      "lines_retained": 181
+    },
+    {
+      "file": "web-chunk-1.txt",
+      "sha256": "2b4ebe703a0b3eb0ef630c44a45d3db252aec8b12e721596730c0d46e3f88a99",
+      "line_min": 56,
+      "line_max": 443,
+      "lines_retained": 388
+    },
+    {
+      "file": "web-chunk-2.txt",
+      "sha256": "6b341518091cc0a6e150351f3c046debca3119bd93ab8fe1dbd4f59932f19fe4",
+      "line_min": 391,
+      "line_max": 852,
+      "lines_retained": 457
+    },
+    {
+      "file": "web-chunk-3.txt",
+      "sha256": "5793b419050590ed8ccf8c04716baa5d859e662f6fa7ebe123f2139120bf59d1",
+      "line_min": 630,
+      "line_max": 1035,
+      "lines_retained": 403
+    }
+  ],
+  "images": [
+    {
+      "figure": 1,
+      "url": "https://journals.sagepub.com/cms/10.1177/1609406921993286/asset/01ad4bdf-edef-46f3-89be-d55494dded44/assets/images/large/10.1177_1609406921993286-fig1.jpg",
+      "file": "figure-1.jpg",
+      "status": 200,
+      "bytes": 405236,
+      "sha256": "b630b0f6fcebf459415345378ca79580df37b08d56e1b1ca80e35ce1f08ef5fb",
+      "acquisition": "reused actual image downloaded earlier in this turn",
+      "actually_viewed": true
+    },
+    {
+      "figure": 2,
+      "url": "https://journals.sagepub.com/cms/10.1177/1609406921993286/asset/c4a21a86-394f-4026-86ed-fd153dd2fddf/assets/images/large/10.1177_1609406921993286-fig2.jpg",
+      "file": "figure-2.jpg",
+      "status": 200,
+      "content_type": "image/jpeg;charset=UTF-8",
+      "bytes": 889229,
+      "retrieved_utc": "2026-10-20T00:39:01.120459+00:00",
+      "sha256": "52b6ffa08ebfebfe01f74531f8bf0eccd0da438df32ce94daa649c8c1b838f45",
+      "actually_viewed": true
+    },
+    {
+      "figure": 3,
+      "url": "https://journals.sagepub.com/cms/10.1177/1609406921993286/asset/7c6a0605-acdf-4a90-be6f-3ae4dd765c06/assets/images/large/10.1177_1609406921993286-fig3.jpg",
+      "file": "figure-3.jpg",
+      "status": 200,
+      "content_type": "image/jpeg;charset=UTF-8",
+      "bytes": 2129035,
+      "retrieved_utc": "2026-10-20T00:39:01.315240+00:00",
+      "sha256": "2a90b84b0588dec00afbe4dfbbf9c82604d6352df3d85db9bffb3903bbf82d56",
+      "actually_viewed": true
+    },
+    {
+      "figure": 4,
+      "url": "https://journals.sagepub.com/cms/10.1177/1609406921993286/asset/5c522f3a-9dda-460d-9d70-ca2e5cb54c3e/assets/images/large/10.1177_1609406921993286-fig4.jpg",
+      "file": "figure-4.jpg",
+      "status": 200,
+      "content_type": "image/jpeg;charset=UTF-8",
+      "bytes": 2612018,
+      "retrieved_utc": "2026-10-20T00:39:01.359974+00:00",
+      "sha256": "ad2cc2510c3e787e262125b92514fd26ea350de14a1450020db0e891fce7e6df",
+      "actually_viewed": true
+    },
+    {
+      "figure": 5,
+      "url": "https://journals.sagepub.com/cms/10.1177/1609406921993286/asset/7cd6a625-7dbb-4b1a-8f79-1fe2e57a89e0/assets/images/large/10.1177_1609406921993286-fig5.jpg",
+      "file": "figure-5.jpg",
+      "status": 200,
+      "content_type": "image/jpeg;charset=UTF-8",
+      "bytes": 1786026,
+      "retrieved_utc": "2026-10-20T00:39:01.217324+00:00",
+      "sha256": "f1c30e892c33747912cafe69ba2660a70816b013933787f698b0ee82809527bc",
+      "actually_viewed": true
+    },
+    {
+      "figure": 6,
+      "url": "https://journals.sagepub.com/cms/10.1177/1609406921993286/asset/7249a4fb-8f78-46fa-bc5b-cf8f7011f266/assets/images/large/10.1177_1609406921993286-fig6.jpg",
+      "file": "figure-6.jpg",
+      "status": 200,
+      "content_type": "image/jpeg;charset=UTF-8",
+      "bytes": 1992689,
+      "retrieved_utc": "2026-10-20T00:39:01.292962+00:00",
+      "sha256": "d36307a64426d3f02cd1a209cb4593ad443425e947525b098d58bcf7d8c732ca",
+      "actually_viewed": true
+    }
+  ],
+  "access_limitations": [
+    "Earlier direct PDF requests returned 403; public HTML request during this turn also returned 403.",
+    "Two URL-based screenshot calls could not resolve PDF content; a later reader-reference response supplied no inspectable image here. No PDF page-rendering inspection is claimed.",
+    "All six publisher figure images were successfully downloaded and actually viewed. Table 1 was read in the complete PDF text extraction."
+  ],
+  "reproduction": "Use the linked public PDF in an available reader and inspect all 14 pages. The analysis cites printed page and figure numbers. Download the six observed figure URLs listed here to inspect those figures independently of the PDF text. Numbered web extracts and source images remain outside the public repository; no source text or private material is republished."
+}

@@ -1,0 +1,60 @@
+{
+  "checked_utc": "2026-10-20T01:05:15.968901+00:00",
+  "comparison_commit": "2be9dbf09085826319b677c9b36c6c1ac3de1d33",
+  "status": "passed",
+  "english_new_candidates": 60,
+  "english_acquired_or_completely_web_read_fulltexts": 45,
+  "english_downloaded_fulltexts": 44,
+  "english_completely_web_read_without_original_PDF_bytes": 1,
+  "english_new_empirical_or_boundary_analyses": 38,
+  "confirmed_empirical_groups": {
+    "quantitative": 12,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 12,
+    "mixed": 13
+  },
+  "english_methodological_application_analyses": 2,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "M-N12",
+    "Q-N14"
+  ],
+  "unchanged_previous_reading_records": 59,
+  "historical_chinese_records_unchanged": 4,
+  "new_reading_records": [
+    "Q-N17",
+    "Q-N18",
+    "L-N18",
+    "M-N22",
+    "M-N23"
+  ],
+  "new_full_methodological_analysis": [
+    "M-N12"
+  ],
+  "new_downloads_verified": [
+    "Q-N17",
+    "Q-N18",
+    "M-N22",
+    "M-N23"
+  ],
+  "new_crossref_identity_matches": [
+    "Q-N17",
+    "Q-N18",
+    "L-N18",
+    "M-N22",
+    "M-N23"
+  ],
+  "complete_PDF_text_pages_read": 14,
+  "complete_numbered_text_lines_verified": 1036,
+  "actual_source_figure_image_hashes_verified": 6,
+  "PDF_page_renders_inspected": 0,
+  "QN18_supplement_pages_acquired_but_unread": 26,
+  "analysis_note_reading_hash_references_verified": 42,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 84,
+  "authored_relative_markdown_links_checked": 347,
+  "note": "Acquisition and methodological reading are separate from empirical-exemplar counts and writing-effect validation. New candidates are development-exposed. No new Chinese task, runtime adoption, final holdout or overall completion claim."
+}

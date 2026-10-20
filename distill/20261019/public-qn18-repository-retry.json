@@ -1,0 +1,18 @@
+{
+  "purpose": "Retry Q-N18 at the repository's observed replacement download link. The older indexed /nanna/ URL returned 404; retain that attempt in the original wave-13 digest.",
+  "sources": [
+    {
+      "id": "Q-N18",
+      "doi": "10.1073/pnas.1808589116",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Reducing socioeconomic disparities in the STEM pipeline through student emotion regulation",
+      "urls": ["https://knowledge.uchicago.edu/records/rm0gx-0yk64/files/rozek-et-al-2019-reducing-socioeconomic-disparities-in-the-stem-pipeline-through-student-emotion-regulation.pdf?download=1"],
+      "repository_record": "https://knowledge.uchicago.edu/records/rm0gx-0yk64",
+      "supplement_url": "https://knowledge.uchicago.edu/records/rm0gx-0yk64/files/pnas.1808589116.sapp.pdf?download=1",
+      "version_note": "Public university-repository article and supplement links. CC BY-NC-ND 4.0; source files remain outside the public repository. The repository returns application/octet-stream, so validate PDF bytes rather than relying solely on MIME type.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

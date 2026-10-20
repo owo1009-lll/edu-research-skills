@@ -1,0 +1,17 @@
+{
+  "purpose": "Retry the already registered English Q-N14 development source through public PMC HTML using the existing extractor. Preserve the previous XML failure; acquisition is not completed reading.",
+  "sources": [
+    {
+      "id": "Q-N14",
+      "doi": "10.1111/desc.70261",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Relations Between Parents’ Math Anxiety and Children's Math Learning: The Role of Homework Help",
+      "urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC13442964/"],
+      "publisher_record": "https://doi.org/10.1111/desc.70261",
+      "version_note": "Public PMC full text; confirm identity and actual content. Public availability alone does not establish permission to redistribute source text.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "Q-N14",
+    "doi": "10.1111/desc.70261",
+    "retrieved_utc": "2026-10-20T00:32:39.889727+00:00",
+    "attempts": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13442964/",
+        "status": 200,
+        "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13442964/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 21315,
+        "outcome": "failed",
+        "error": "No publisher article sections found; possible landing/challenge page"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1111/desc.70261",
+      "title": [
+        "Relations Between Parents’ Math Anxiety and Children's Math Learning: The Role of Homework Help"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-8161-6961",
+          "authenticated-orcid": false,
+          "given": "Madison B.",
+          "family": "Poisall",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Florida State University  Tallahassee Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8460-5319",
+          "authenticated-orcid": false,
+          "given": "Olivia K.",
+          "family": "Cook",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Florida State University  Tallahassee Florida USA"
+            },
+            {
+              "name": "Florida Center for Research in Science Technology, Engineering, and Mathematics, Learning Systems Institute  Tallahassee Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9793-0420",
+          "authenticated-orcid": false,
+          "given": "Sara A.",
+          "family": "Hart",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology University of Waterloo  Waterloo ON Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9573-6114",
+          "authenticated-orcid": false,
+          "given": "Rachel A.",
+          "family": "Conlon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Evidence Based Education  Sunderland UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0066-1602",
+          "authenticated-orcid": false,
+          "given": "Connie",
+          "family": "Barroso",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Educational Psychology Texas A&amp;M University, College Station  TX USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0238-4899",
+          "authenticated-orcid": false,
+          "given": "Elyssa A.",
+          "family": "Geer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Special Education, School Psychology, and Early Childhood Studies University of Florida  Gainesville Florida USA"
+            },
+            {
+              "name": "Anita Zucker Center for Excellence in Early Childhood Studies  Gainesville Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8902-9189",
+          "authenticated-orcid": false,
+          "given": "Colleen M.",
+          "family": "Ganley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology Florida State University  Tallahassee Florida USA"
+            },
+            {
+              "name": "Florida Center for Research in Science Technology, Engineering, and Mathematics, Learning Systems Institute  Tallahassee Florida USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ]
+      },
+      "container-title": [
+        "Developmental Science"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T00:00:00Z",
+            "timestamp": 1785369600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T00:00:00Z",
+            "timestamp": 1785369600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ]
+    },
+    "metadata_sha256": "d2e439e021a80cea5164f0129eece1109655e416684d6c062232b788ddfdf977",
+    "status": "access_failed"
+  }
+]

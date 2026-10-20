@@ -1,0 +1,72 @@
+{
+  "purpose": "English-only public development candidates extending intervention, long-term policy, participatory inquiry and teacher-education coverage. These are screening questions, not endorsements of whole-article writing quality. Acquisition, full reading and analysis are separate stages; none is a final holdout.",
+  "sources": [
+    {
+      "id": "Q-N17",
+      "doi": "10.1073/pnas.2019030118",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Effects of double-dose algebra on college persistence and degree attainment",
+      "selection_question": "How does the article carry a local policy comparison into long-term educational outcomes while explaining cohort differences and implementation? Check whether composition and treatment comparisons retain their distinct identification assumptions.",
+      "urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC8271720/"],
+      "publisher_record": "https://doi.org/10.1073/pnas.2019030118",
+      "version_note": "Public PMC full text of the 2021 PNAS article. Related earlier double-dose algebra reports concern the same policy and cohorts; do not count them as independent replications.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "Q-N18",
+      "doi": "10.1073/pnas.1808589116",
+      "candidate_group": "quantitative",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Reducing socioeconomic disparities in the STEM pipeline through student emotion regulation",
+      "selection_question": "How does an emotion-regulation account motivate a brief classroom intervention and connect exam performance with course progression? Inspect the handling of subgroup comparisons, proposed mechanisms and practical importance.",
+      "urls": ["https://knowledge.uchicago.edu/nanna/record/9718/files/rozek-et-al-2019-reducing-socioeconomic-disparities-in-the-stem-pipeline-through-student-emotion-regulation.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"],
+      "publisher_record": "https://doi.org/10.1073/pnas.1808589116",
+      "repository_record": "https://knowledge.uchicago.edu/record/9718",
+      "version_note": "University repository copy of the 2019 PNAS article; original states CC BY-NC-ND 4.0. Source PDF remains outside this repository; publish original analysis and links only.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N18",
+      "doi": "10.1007/s10464-010-9336-7",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "A Case Study of Participatory Action Research in a Public New England Middle School: Empowerment, Constraints and Challenges",
+      "selection_question": "How does a participatory inquiry preserve the educational commitment to empowerment alongside constraints encountered in school? Verify the actual evidence, participant roles and analytic genre before inclusion.",
+      "urls": ["https://onlinelibrary.wiley.com/doi/pdfdirect/10.1007/s10464-010-9336-7"],
+      "publisher_record": "https://onlinelibrary.wiley.com/doi/full/10.1007/s10464-010-9336-7",
+      "version_note": "Publisher identifies open access. Exact version, permission and complete reading await acquisition; access failure must remain visible.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N22",
+      "doi": "10.3389/fpsyg.2025.1568476",
+      "candidate_group": "mixed_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Building pre-service teachers’ resilience through Service-Learning: an explanatory sequential mixed methods study",
+      "selection_question": "How do accounts of service-learning experiences explain the dimensions of resilience measured in teacher education? Check the connection between participants, the joint display and the strength of claims about change.",
+      "urls": ["https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1568476/pdf", "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1568476/xml"],
+      "publisher_record": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1568476/full",
+      "version_note": "PDF and XML links observed on the public publisher page. Actual empirical integration and writing moves still require full reading.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "M-N23",
+      "doi": "10.1080/09650792.2018.1436079",
+      "candidate_group": "mixed_participatory_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "The student voice in well-being: a case study of participatory action research in positive education",
+      "selection_question": "How are students' participation in inquiry, accounts of the process and measured outcomes connected? Verify whether integration changes the account of student voice rather than merely adding measurements to a case narrative.",
+      "urls": ["https://www.peggykern.org/uploads/5/6/6/7/56678211/halliday_2019_-_the_student_voice_in_well_being_case_study_of_participatory_action_research_in_positive_education.pdf", "https://www.tandfonline.com/doi/pdf/10.1080/09650792.2018.1436079"],
+      "publisher_record": "https://www.tandfonline.com/doi/full/10.1080/09650792.2018.1436079",
+      "author_record": "https://www.peggykern.org/publications.html",
+      "version_note": "Online publication 2018, volume 27 issue 2 in 2019. Author publication list confirms identity; candidate PDF URL was located through a public citation to the author's site and requires content verification.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}
