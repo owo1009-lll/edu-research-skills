@@ -1,0 +1,5 @@
+# Install from the repository root to run the complete Python test suite.
+-r skills/edu-writing/requirements.txt
+-r skills/edu-ppt/requirements.txt
+-r skills/edu-review/requirements.txt
+beautifulsoup4>=4.12,<5

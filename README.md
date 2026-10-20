@@ -100,7 +100,7 @@ WorkBuddy 用的是同一套 SKILL.md 格式，写作、审稿、申报书等文
   见 `distill/` 和 `evals/smoke-evaluation.md`。
 - **检查脚本**：语气、全文一致性、统计报告、返修回复、标红、审稿报告结构等脚本都用预埋问题的样例测试。
 - **试用记录**：各使用场景的试用请求和观察到的结果见 [evals/smoke-evaluation.md](evals/smoke-evaluation.md)，路由测试见 [evals/README.md](evals/README.md)。
-- **测试**：在仓库根目录运行 `python -m unittest discover tests`，覆盖安装、各模块的端到端运行、检查脚本，以及红线条款、链接、元数据和中英文说明的一致性。
+- **测试**：在仓库根目录先运行 `python -m pip install -r requirements-dev.txt` 安装开发测试依赖，再运行 `python -X utf8 -m unittest discover tests`，覆盖安装、各模块的端到端运行、检查脚本，以及红线条款、链接、元数据和中英文说明的一致性。
 
 这些检验范围有限，不等于对所有数据和研究类型都有效；AI 的评阅和模拟审稿是自查，不能替代导师或审稿人。
 

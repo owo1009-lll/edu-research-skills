@@ -31,7 +31,7 @@ Own research has completed-paper, proposal and progress routes. Paper reading fo
 
 Presentation dependencies are in `skills/edu-ppt/requirements.txt`. The single generation engine is python-pptx; no additional model API key is required. Actual rendering needs Windows PowerPoint or LibreOffice plus pdftoppm. Source figures remain images; native text, tables, diagrams and data-backed charts remain editable.
 
-Run `python -X utf8 -m unittest discover tests`. Automated checks, AI review and author feedback have different scopes and are reported separately. The new presentation module is Beta. Writing repairs were tested on final frozen rules; observed improvements and remaining inference errors are documented in [evaluation records](evals/smoke-evaluation.md).
+From the repository root, install development dependencies with `python -m pip install -r requirements-dev.txt`, then run `python -X utf8 -m unittest discover tests`. Automated checks, AI review and author feedback have different scopes and are reported separately. The new presentation module is Beta. Writing repairs were tested on final frozen rules; observed improvements and remaining inference errors are documented in [evaluation records](evals/smoke-evaluation.md).
 
 ## Data and Attribution
 
