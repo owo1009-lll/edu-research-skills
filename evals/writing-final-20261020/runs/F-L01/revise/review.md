@@ -1,0 +1,11 @@
+﻿# AI self-review of the first edit
+
+The first edit has 210 body words (check_prose), within the requested 200–260, and preserves three paragraphs and first-person singular. It retains agency, visibility, individual/collective struggle, the main identity components, science-culture education, gender studies at all Irish educational levels, minority inclusion, early anti-bias training and prospective participants. It is an edit of the supplied conclusion, not a replacement with the new discussion.
+
+Two consequential issues to fix before finalising: the sentence “being a scientist involves an interplay” drops the author's discursive emphasis and can sound universal. Restore “in these accounts” and “discourses about” so the performative framework remains explicit. Also, “could undertake” needlessly weakens the author's “can complete” for anti-bias training; restore “can” because this is a proposed available response, not a claimed intervention effect. The stronger “should” for science/culture education already remains.
+
+Further focused improvements: add “as themselves” to the visibility sentence, retaining the author's wish to exist and be visible as who they are. Clarify the stressful tension as arising from cultural expectations rather than an inherent contradiction between womanhood and science. Retain the original possibility qualifier (“may”) because stress is the author's interpretive claim, not a clinical outcome measured here.
+
+Script adjudication: check_voice flags the combination of “could” and “appeared.” The two terms qualify different things (possible stress and perceived incompatibility), so it is not automatically excessive hedging; revise for conceptual clarity, not to reach zero flags. Its zero self-mention measure overlooks first-person “I,” which appears twice. check_prose gives no prompts; this does not replace the manual original-to-edit comparison. No numbers or new citations have been introduced. No requirement exists to add limitations already treated elsewhere in the source article to this short conclusion.
+
+Unresolved evidence: neither the source's gender-studies proposal nor anti-bias training was evaluated by this study. The edit retains them as recommendations; it does not claim they work. Published author's account of prior studies is not independently cited. Source issues stay in rationale.md.

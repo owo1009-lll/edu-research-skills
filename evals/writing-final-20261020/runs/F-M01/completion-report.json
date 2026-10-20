@@ -1,0 +1,43 @@
+{
+  "study": "F-M01",
+  "completion_order": [
+    "new draft",
+    "new checks and AI review",
+    "new final saved and hashed",
+    "revision files opened",
+    "revision first edit",
+    "revision checks and AI review",
+    "revision final and change log",
+    "delivery checks"
+  ],
+  "new_final_unchanged_after_revision": true,
+  "all_read_files_hashes_unchanged": "No source writes performed. Current hashes recorded; earlier nested log did not preserve all initial hashes in readable form, so independent before/after verification of every initial hash is unavailable.",
+  "network_used": false,
+  "other_runs_read": false,
+  "runtime_or_inputs_modified": false,
+  "checks": [
+    {
+      "task": "new",
+      "words": 383,
+      "within_requested_range": true,
+      "final_sha256": "564EE735247633150A3C27E76CA116A9F45F8E87B87D50C209370D119F4FF5ED"
+    },
+    {
+      "task": "revise",
+      "words": 235,
+      "within_requested_range": true,
+      "final_sha256": "CB9D8D69AFA9ED17C5CF7223B1CC0F8121B08BE8B7ACF103ED0F3E332767AD85"
+    }
+  ],
+  "read_log_note": "Entries include repeat tool and runtime reads. Initial long batched displays were truncated; targeted rereads are recorded. No claim is made that truncated display contents were all visually reviewed.",
+  "unresolved_issues": [
+    "Ambiguous 272 respondents versus 22 exclusions",
+    "Incomplete ANOVA degrees of freedom in extraction",
+    "Contributor self-efficacy summary/interval mismatch",
+    "Inherited external citations not independently read"
+  ],
+  "scope": "Single sections; full-manuscript consistency script not applicable",
+  "read_log_serialization_repair": "The PowerShell JSON append method nested arrays and truncated older entries at serialization depth. Rebuilt the ordered 33-event log directly from actual tool-call history with current file hashes. Original malformed log preserved. No source or final manuscript was edited.",
+  "read_log_entries": 33,
+  "final_check_disposition": "New discussion: low citation density and absent self-mentions retained deliberately; no unread literature added. Revision: no prose prompts. Voice checks found no unsupported numbers, stacked hedges, or semantic equivalence cues in either final. These are AI checks, not expert validation."
+}

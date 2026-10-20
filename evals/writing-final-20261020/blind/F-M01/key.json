@@ -1,0 +1,10 @@
+{
+  "N": {
+    "run": "runs/F-M01/new/final.md",
+    "sha256": "564ee735247633150a3c27e76ca116a9f45f8e87b87d50c209370d119f4ff5ed"
+  },
+  "R": {
+    "run": "runs/F-M01/revise/final.md",
+    "sha256": "cb9d8d69afa9ed17c5cf7223b1cc0f8121b08be8b7acf103ed0f3e332767ad85"
+  }
+}

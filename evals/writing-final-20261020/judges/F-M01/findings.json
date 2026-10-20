@@ -1,0 +1,85 @@
+{
+  "case_id": "F-M01",
+  "assessment_type": "Independent source-grounded manuscript assessment",
+  "comparison_policy": "N and R assessed against their different operations, not ranked against one another",
+  "N": {
+    "decision": "Suitable as a source-grounded discussion; no established mandatory manuscript correction",
+    "body_word_count_whitespace": 383,
+    "requested_word_range": [350, 450],
+    "mandatory": [],
+    "verification": ["V1"],
+    "optional": [
+      {
+        "id": "N-O1",
+        "dimension": 1,
+        "passage": "The latter comparisons leave the size of those differences unresolved.",
+        "location": "N.md, paragraph 3",
+        "source": "new-evidence.md, PDF pp. 9–10, Table 2 and nonsignificant outsider comparisons",
+        "source_evidence": "The source supplies group means but does not find significant outsider comparisons.",
+        "why_it_matters": "Difference estimates exist; the remaining uncertainty concerns population differences. The intended rejection of an equivalence interpretation is sound.",
+        "action": "Optionally say the comparisons do not establish equivalent self-efficacy or specify uncertainty about population differences."
+      }
+    ],
+    "strengths": [
+      "Accurate separation of social learning perceptions from the less orderly self-efficacy comparisons.",
+      "Integrates qualitative reasons with group comparisons to distinguish useful observation from constrained participation.",
+      "Uses communities of practice through explicitly attributed secondary reading.",
+      "Concrete instructional implications and proportionate limits on causation and learning gains.",
+      "Clear author position that posting alone misses engagement."
+    ],
+    "dimensions_covered": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  },
+  "R": {
+    "decision": "Suitable as a faithful concise revision; no established mandatory manuscript correction",
+    "body_word_count_whitespace": 235,
+    "requested_word_range": [200, 260],
+    "mandatory": [],
+    "verification": ["V1"],
+    "optional": [
+      {
+        "id": "R-O1",
+        "dimension": 8,
+        "passage": "their lower reported self-efficacy than contributors warrants attention",
+        "location": "R.md, paragraph 1",
+        "source": "revision-original.md, paragraph 1; revision-context.md, PDF p. 14",
+        "source_evidence": "The original implications passage expresses concern; the fuller discussion reports a small effect and unclear causal direction.",
+        "why_it_matters": "A small-effect qualification could help standalone readers calibrate concern, but the revision neither claims a large effect nor establishes causation.",
+        "action": "Optionally add the small-effect context if this passage will stand alone, preserving the author's inclusive instructional position."
+      }
+    ],
+    "strengths": [
+      "Preserves legitimate peripheral participation and every student's opportunity to contribute.",
+      "Retains practical recommendations while meeting a much shorter length requirement.",
+      "Improves measurement precision with reported self-efficacy.",
+      "Discloses the secondary literature reading boundary.",
+      "Keeps proposed designs distinct from evaluated interventions."
+    ],
+    "dimensions_covered": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  },
+  "shared_verification_findings": [
+    {
+      "id": "V1",
+      "classification": "source_issue_requiring_verification",
+      "applies_to": ["N", "R"],
+      "manuscript_passages": [
+        {"file": "N.md", "location": "paragraph 3", "quote": "Contributors scored higher than lurkers in the reported post hoc comparison"},
+        {"file": "R.md", "location": "paragraph 1", "quote": "their lower reported self-efficacy than contributors warrants attention"}
+      ],
+      "source_locations": [
+        "new-evidence.md, PDF p. 7, survey instrument and attention-check exclusions",
+        "new-evidence.md, PDF p. 8, participant groups",
+        "new-evidence.md, PDF pp. 9–10, Table 2 and ANOVA/Tukey results"
+      ],
+      "source_evidence": [
+        "272 survey completers and removal of 22 attention-check failures are reported, yet subsequent group Ns total 272.",
+        "Three-group ANOVA statistics are printed as F(271), without the requisite two degrees of freedom.",
+        "Contributors' self-efficacy N=110 and SD=9.96 imply a conventional 95% mean interval half-width near 1.88; the printed 44.09–46.82 interval has a half-width near 1.37."
+      ],
+      "why_it_matters": "The comparatively small self-efficacy result underlies both passages' interpretation. Internal statistical reporting should agree before the inference is independently certified.",
+      "action": "Verify sample flow, original table values/layout, ANOVA degrees of freedom and Tukey output against authorized original-source or analysis records. Do not invent corrected statistics.",
+      "manuscript_consequence": "No demonstrated mandatory correction: both manuscripts accurately describe the reported comparison and do not reproduce the inconsistent numerical details.",
+      "limits": "Extraction may disturb tables; raw data and analysis output are unavailable; these discrepancies do not establish that the reported group difference is false."
+    }
+  ],
+  "overall_numerical_score": null
+}

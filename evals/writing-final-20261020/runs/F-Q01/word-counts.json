@@ -1,0 +1,30 @@
+﻿[
+    {
+        "task":  "new",
+        "version":  "first-draft",
+        "words_whitespace":  390,
+        "attribution_excluded":  true,
+        "sha256":  "3D1C664D6745C89AF3F2C6F80A90898E21D73E56DBF31FE988A17822DCD540F7"
+    },
+    {
+        "task":  "new",
+        "version":  "final",
+        "words_whitespace":  405,
+        "attribution_excluded":  true,
+        "sha256":  "3B1CD6ABD78D6F1C497F0DF61FE7DEC79A2399D34F53D952FCEC448B3BA10D5F"
+    },
+    {
+        "task":  "revise",
+        "version":  "first-draft",
+        "words_whitespace":  217,
+        "attribution_excluded":  true,
+        "sha256":  "C2F0BE9485E1508C7F878211E007E3E48C2A1AC475292D87391E7CFB4ED5A38C"
+    },
+    {
+        "task":  "revise",
+        "version":  "final",
+        "words_whitespace":  222,
+        "attribution_excluded":  true,
+        "sha256":  "1B853696C52CD1642FB7015301F07C79EAE85C7FF39B2470E2BD1F9B2DFC8365"
+    }
+]

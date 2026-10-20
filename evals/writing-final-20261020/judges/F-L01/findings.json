@@ -1,0 +1,71 @@
+{
+  "case_id": "F-L01",
+  "assessment_type": "independent source-grounded manuscript assessment",
+  "comparison_policy": "N and R assessed separately against their different tasks; no ranking",
+  "N": {
+    "decision": "satisfactory_optional_refinement_only",
+    "body_word_count": 410,
+    "requested_word_range": [350, 450],
+    "mandatory": [],
+    "verification": [],
+    "optional": [
+      {
+        "id": "N-O1",
+        "dimension": 4,
+        "manuscript_location": "N.md, paragraph 1",
+        "manuscript_passage": "Distinguishing emotional attachment from community attachment therefore explains how women can see themselves as scientists while questioning their place among other scientists.",
+        "source_location": "new-evidence.md, PDF page 8, science identity construction",
+        "source_passage": "In this study, it is framed within the concept of sense of belonging as it refers to emotional attachment to science as individual level.",
+        "reason": "The argument correctly uses the source's own conceptual distinction. More explicit identification of this framing could improve theoretical positioning; the current text does not falsely claim novelty or direct reading of cited works.",
+        "suggested_action": "Optionally identify the distinction as part of the study's framework. Any comparison to Hazari et al. should be attributed through Eren unless the original work is read.",
+        "required_for_acceptance": false
+      }
+    ],
+    "strengths": [
+      "Accurate participant examples and sampling description",
+      "Clear educational judgment distinguishing enjoyment from community recognition",
+      "Contrasting cases explain simultaneous resistance to and reproduction of stereotypes",
+      "Specific implications are distinguished from tested intervention effects",
+      "Cross-sectional and intersectional limitations affect interpretation rather than serving as generic disclaimers"
+    ]
+  },
+  "R": {
+    "decision": "satisfactory_optional_refinement_only",
+    "body_word_count": 222,
+    "requested_word_range": [200, 260],
+    "mandatory": [],
+    "verification": [],
+    "optional": [
+      {
+        "id": "R-O1",
+        "dimension": 6,
+        "manuscript_location": "R.md, paragraph 1",
+        "manuscript_passage": "an interplay of discourses about doing and enjoying science, enthusiasm, competence, participation in scientific communities and gender",
+        "source_location": "revision-original.md, paragraph 1; revision-context.md, PDF page 24",
+        "source_passage": "an interplay of discourses of doing and enjoying science, enthusiasm, competency, participation to a larger scientific community, and gender",
+        "reason": "The abstract list faithfully retains the author's interpretation but is less direct than the surrounding prose. This is a stylistic opportunity, not an accuracy defect.",
+        "suggested_action": "Optionally express the relationship more directly while retaining the conceptual dimensions and the author's interpretive voice.",
+        "required_for_acceptance": false
+      }
+    ],
+    "strengths": [
+      "Preserves the original author's interpretation, main recommendations, and intended audiences",
+      "Clarifies that tension arises through cultural expectations",
+      "Retains first-person authorial position with explicit attribution",
+      "Improves grammar and removes repetition without adding claims of intervention effectiveness"
+    ]
+  },
+  "source_observations": [
+    {
+      "location": "new-evidence.md, PDF page 9",
+      "issue": "The source describes cross-sectional sampling across academic levels as observing an identity development process.",
+      "disposition": "N explicitly avoids inferring an individual developmental sequence; R makes no such inference. No unresolved manuscript correction or verification request."
+    }
+  ],
+  "evidence_limitations": [
+    "Supplied extracted article text only; no interview transcripts or coding records.",
+    "The article's cited works were not independently read.",
+    "No independent validation of policy or training effectiveness.",
+    "Word counts assess requested length only, not writing quality."
+  ]
+}

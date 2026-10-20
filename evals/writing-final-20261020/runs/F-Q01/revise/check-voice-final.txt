@@ -1,0 +1,22 @@
+﻿Language: en | discussion/conclusion sentences: 12 | paragraphs: 2
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 18.6  (published median 10.8; within typical range)
+  Limitation sentences inside the limitations unit (%): 0.0  (published median 66.7; outside typical range)
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 0
+
+Limitation sentences outside the limitations unit: 1
+  (a specific problem may belong next to its result)
+  [para 2] Given the small sample, restriction to two cognitive psychology seminars, and limitations discussed above, we remain cautious.
+
+Sentences for a semantic check: 1
+  (does a non-significant result become equivalence, an exclusive mechanism or a free choice?)
+  The studies cited below were encountered only through this article.
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

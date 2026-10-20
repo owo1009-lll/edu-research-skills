@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "records": 33,
+  "shape": "flat list of objects",
+  "required_keys": [
+    "path",
+    "sha256",
+    "stage",
+    "order"
+  ],
+  "sequential_order": true,
+  "hashes_match_current_files": true,
+  "historical_hash_identity_independently_verified": false,
+  "reconstructed_from": "actual tool-call history available to the original worker"
+}

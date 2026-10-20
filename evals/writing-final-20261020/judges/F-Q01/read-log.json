@@ -1,0 +1,62 @@
+{
+  "case_id": "F-Q01",
+  "encoding": "UTF-8 explicitly requested in every source read",
+  "files_read": [
+    {
+      "path": "@repository/evals/writing-final-20261020/review-request.md",
+      "scope": "complete",
+      "purpose": "Assessment instructions and nine dimensions"
+    },
+    {
+      "path": "@inputs/F-Q01/new-evidence.md",
+      "scope": "complete; segmented reread after combined output truncation",
+      "purpose": "Exclusive substantive source for assessing N"
+    },
+    {
+      "path": "@inputs/F-Q01/revision-original.md",
+      "scope": "complete",
+      "purpose": "Original author's meaning and revision scope"
+    },
+    {
+      "path": "@inputs/F-Q01/revision-context.md",
+      "scope": "complete; all 940 lines read in bounded segments after combined output truncation",
+      "purpose": "Context for assessing R and identifying source discrepancies"
+    },
+    {
+      "path": "@experiment/blind/F-Q01/N.md",
+      "scope": "complete",
+      "purpose": "Anonymous new-writing manuscript; body word count"
+    },
+    {
+      "path": "@experiment/blind/F-Q01/R.md",
+      "scope": "complete",
+      "purpose": "Anonymous revision manuscript; body word count"
+    }
+  ],
+  "evidence_limitations": [
+    "No raw dataset or independent statistical replication.",
+    "No independently read studies cited by the supplied article.",
+    "No original publisher PDF inspection; source pack notes possible extraction artifacts.",
+    "N assessed from new-evidence.md only; revision context did not impose withheld discussion requirements on N.",
+    "Source timing inconsistencies were identified but cannot be resolved within the assigned reading boundary.",
+    "Word counts check the explicit length requirement only; style judgments do not use phrase frequency, sentence length, or AI detection."
+  ],
+  "excluded_material_not_read": [
+    "key.json",
+    "skills or development files",
+    "writer rationale or self-review",
+    "other runs",
+    "other reviewers",
+    "web sources"
+  ],
+  "actions": {
+    "browsing": false,
+    "subagents": false,
+    "manuscript_edits": false,
+    "outputs_written": [
+      "assessment.md",
+      "findings.json",
+      "read-log.json"
+    ]
+  }
+}

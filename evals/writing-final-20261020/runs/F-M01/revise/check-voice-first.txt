@@ -1,0 +1,20 @@
+Language: en | discussion/conclusion sentences: 13 | paragraphs: 2
+  (rates are references from published articles, not quality targets)
+  Disclaimer sentences in the discussion body (%): 0.0  (published median 0.9; within typical range)
+  Self-mention per 1,000 words: 0.0  (published median 10.8; outside typical range)
+  Limitation sentences inside the limitations unit (%): n/a
+
+Disclaimer sentences in the discussion body: 0
+
+Possible substantive distinctions: 0
+
+Sentences with two or more hedges: 1
+  (one accurate qualifier is fine; check that each one is needed)
+  [para 2] Smaller discussion groups may also help lurkers become contributors, as earlier work suggests (Honeychurch et al., 2017).
+
+Limitation sentences outside the limitations unit: 0
+
+Sentences for a semantic check: 0
+
+Numbers not found in the sources (derived values are fine; invented details are not): 0
+  (only checks that each number occurs in the sources; object, direction, unit and analysis identity need reading)

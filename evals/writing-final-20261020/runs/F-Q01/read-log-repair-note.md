@@ -1,0 +1,11 @@
+﻿# Read-log repair note
+
+The original read-log.json was not a reliable flat event log: repeated PowerShell deserialization/reserialization introduced nested value/Count wrappers and stringified object representations. I preserved its bytes as read-log-malformed-preserved.txt before replacing it.
+
+The repaired read-log.json contains 33 ordered records reconstructed from this worker's actual tool-call history: request and skill reads, reference/evidence reads and explicit rereads, and source/script accesses during the four successful check pairs. It does not infer missing events from the corrupted nested structure. Records follow the recorded call sequence and the explicit sequential loops or source order within each call. The task scope remains skill and supplied input files; generated-output reads, log housekeeping, hash-only checks, Python standard-library imports, and operating-system accesses are not represented as evidence reads.
+
+Limits: this is a retrospective reconstruction, not an independently captured filesystem audit. SHA-256 values were recomputed from the same current paths during repair. The worker did not modify the inputs or frozen skill, but the malformed log does not independently establish that every current digest equals its digest at the original access time. Each record discloses this hash provenance. Runtime access records are supported by the executed commands and script behavior, not a system-level access trace. Some broad tool responses were truncated; loading a whole file does not establish that every line was visible to the model. Those events and the targeted rereads are explicitly described.
+
+Repair access: I read the first 15 lines of the malformed log after preserving it, read the listed files as bytes to recompute hashes, and read the repaired JSON to validate its structure. I did not open sibling runs or change manuscripts, reviews, rationales, source-issue notes, checks, or other existing artifacts.
+
+Validation passed: a flat list of 33 objects, required path/sha256/stage/order fields, contiguous order 1–33, valid SHA-256 strings, no value/Count wrapper fields, and hashes matching current files. Machine-readable validation is in read-log-validation.json. This repair improves the access record's usability but does not retroactively turn it into a contemporaneous audit trail.

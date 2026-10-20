@@ -1,0 +1,3 @@
+# Long source extracts are reproducible locally, not republished in the repository.
+inputs/*/new-evidence.md
+inputs/*/revision-context.md

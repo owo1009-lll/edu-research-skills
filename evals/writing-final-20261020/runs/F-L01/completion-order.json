@@ -1,0 +1,16 @@
+[
+  {
+    "stage": "new",
+    "completed_at": "2026-10-20T13:25:12.7552951+08:00",
+    "final_sha256": "95A5CD62E0CB9322EA37A206CE37F459E24196AE893214C87F8FE25F6E5DDA68",
+    "body_words": 410,
+    "revision_inputs_opened": false
+  },
+  {
+    "stage": "revise",
+    "completed_at": "2026-10-20T13:27:45.3528470+08:00",
+    "final_sha256": "51C64F60D783DAACB4E7BA888438996259FEB1B3729A6FA04253D4950C5C8278",
+    "body_words": 224,
+    "new_final_unchanged": true
+  }
+]

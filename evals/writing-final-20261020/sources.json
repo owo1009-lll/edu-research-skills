@@ -1,0 +1,64 @@
+{
+  "purpose": "English sources selected after the actual-runtime freeze for independent final writing validation; evaluation materials, not development-corpus additions.",
+  "sources": [
+    {
+      "id": "F-Q01",
+      "doi": "10.3389/fpsyg.2019.00463",
+      "candidate_group": "quantitative",
+      "exposure": "final_holdout_after_runtime_freeze",
+      "language": "en",
+      "title": "Open-Book Versus Closed-Book Tests in University Classes: A Field Experiment",
+      "urls": [
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00463/pdf"
+      ],
+      "publisher_record": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00463/full",
+      "selection_question": "Can the final skill explain a classroom comparison and distinguish the authors' competing explanations while preserving their practical judgment?",
+      "reading_status": "coordinator identity, licence, design and task-passage inspection; writer reading recorded separately",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified_against": "publisher HTML rights link and PDF rights statement"
+      }
+    },
+    {
+      "id": "F-L01",
+      "doi": "10.1007/s11191-021-00220-3",
+      "candidate_group": "qualitative",
+      "exposure": "final_holdout_after_runtime_freeze",
+      "language": "en",
+      "title": "Exploring Science Identity Development of Women in Physics and Physical Sciences in Higher Education",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11191-021-00220-3.pdf",
+        "https://link.springer.com/article/10.1007/s11191-021-00220-3"
+      ],
+      "publisher_record": "https://link.springer.com/article/10.1007/s11191-021-00220-3",
+      "selection_question": "Can the final skill develop an interpretation from participant accounts while retaining the author's conceptual frame and position?",
+      "reading_status": "coordinator identity, licence, design and task-passage inspection; writer reading recorded separately",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified_against": "publisher HTML rights link and PDF rights statement"
+      }
+    },
+    {
+      "id": "F-M01",
+      "doi": "10.1186/s40594-023-00428-5",
+      "candidate_group": "mixed",
+      "exposure": "final_holdout_after_runtime_freeze",
+      "language": "en",
+      "title": "Mixed methods study of student participation and self-efficacy in remote asynchronous undergraduate physics laboratories: contributors, lurkers, and outsiders",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1186/s40594-023-00428-5.pdf",
+        "https://link.springer.com/article/10.1186/s40594-023-00428-5"
+      ],
+      "publisher_record": "https://link.springer.com/article/10.1186/s40594-023-00428-5",
+      "selection_question": "Can the final skill explain what the actual quantitative and qualitative connection adds, without treating two strands as interchangeable or forcing agreement?",
+      "reading_status": "coordinator identity, licence, design and task-passage inspection; writer reading recorded separately",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verified_against": "publisher HTML rights link and PDF rights statement"
+      }
+    }
+  ]
+}

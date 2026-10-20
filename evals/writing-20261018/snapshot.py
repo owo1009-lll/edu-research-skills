@@ -22,6 +22,8 @@ def main():
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--manifest', type=Path, required=True)
     parser.add_argument('--label', required=True)
+    parser.add_argument('--purpose', default='development comparison; not final holdout freeze',
+                        help='State whether this freeze is for development or independent final validation.')
     args = parser.parse_args()
     root, out = args.source.resolve(), args.out.resolve()
     manifest = args.manifest.resolve()
@@ -47,7 +49,7 @@ def main():
                                     separators=(',', ':')).encode('utf-8')).hexdigest()
     result = {
         'label': args.label,
-        'purpose': 'development comparison; not final holdout freeze',
+        'purpose': args.purpose,
         'created_utc': datetime.now(timezone.utc).isoformat(),
         'source_head': git(root, 'rev-parse', 'HEAD').decode().strip(),
         'source_skill_status': git(root, 'status', '--porcelain', '--', 'skills').decode(),

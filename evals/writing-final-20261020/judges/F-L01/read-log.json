@@ -1,0 +1,42 @@
+{
+  "case_id": "F-L01",
+  "encoding": "UTF-8 explicitly requested for all source and manuscript reads",
+  "files_read": [
+    {
+      "path": "@repository\\evals\\writing-final-20261020\\review-request.md",
+      "coverage": "Full request"
+    },
+    {
+      "path": "@inputs\\F-L01\\new-evidence.md",
+      "coverage": "Full supplied evidence, read in successive untruncated chunks after an initially truncated bulk read; introduction, literature/framework, design, limitations and findings through PDF page 20 and final page-21 marker",
+      "used_for": "N assessment"
+    },
+    {
+      "path": "@inputs\\F-L01\\revision-original.md",
+      "coverage": "Full original passage and attribution",
+      "used_for": "R meaning and editing fidelity"
+    },
+    {
+      "path": "@inputs\\F-L01\\revision-context.md",
+      "coverage": "Initially requested as a full read but tool output was truncated. Subsequently explicitly read header and opening abstract, searched page/section markers, and read PDF pages 21–25 (discussion, conclusion, declarations and start of references). Some bibliography text was visible in the initial truncated output. No claim to have inspected every line of the full-context file.",
+      "used_for": "R context only; N claims judged against new-evidence.md"
+    },
+    {
+      "path": "@experiment\\blind\\F-L01\\N.md",
+      "coverage": "Full manuscript including attribution; body count excludes heading and attribution"
+    },
+    {
+      "path": "@experiment\\blind\\F-L01\\R.md",
+      "coverage": "Full manuscript including attribution; body count excludes heading and attribution"
+    }
+  ],
+  "evidence_limitations": [
+    "Only assigned material was inspected.",
+    "No browsing, external-source checks, original transcripts or coding records.",
+    "No key.json, skill/development files, writer rationale, other runs or reviewer outputs were read.",
+    "The source is a reformatted extraction and may contain extraction errors.",
+    "Published source claims were evaluated rather than assumed infallible; the cross-sectional development inference was considered explicitly."
+  ],
+  "manuscripts_modified": false,
+  "agents_spawned": false
+}

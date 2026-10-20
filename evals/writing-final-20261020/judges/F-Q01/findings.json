@@ -1,0 +1,92 @@
+{
+  "case_id": "F-Q01",
+  "assessment_type": "independent source-bounded manuscript assessment",
+  "comparison_policy": "N and R assessed against their own operations; no ranking",
+  "manuscripts": {
+    "N": {
+      "decision": "Meets the new-discussion request; no mandatory substantive correction identified.",
+      "body_word_count_whitespace": 405,
+      "requested_word_range": [350, 450],
+      "mandatory": [],
+      "verification": [],
+      "optional": [
+        {
+          "id": "N-O1",
+          "dimensions": [4, 5],
+          "passage": "Here, practice continued across seven lessons ... These candidate explanations remain unresolved.",
+          "source": "new-evidence.md, PDF pp. 2-3 and 5",
+          "source_passage": "Earlier open/closed-book comparisons included feedback; the current practice tests provided no direct feedback, while materials remained available and students could ask questions.",
+          "why_it_matters": "The feedback arrangement helps interpret cross-study differences and distinguishes noticing difficulty from supplied corrective feedback.",
+          "action": "Optionally acknowledge the absence of direct practice-test feedback in the mechanism or cross-study discussion.",
+          "classification_reason": "Current text makes no false feedback claim; this adds explanatory detail."
+        },
+        {
+          "id": "N-O2",
+          "dimensions": [3, 8],
+          "passage": "each condition occupied one seminar",
+          "source": "new-evidence.md, PDF pp. 3-4",
+          "source_passage": "One seminar served as each condition; students were randomly assigned to groups and the same instructor taught both.",
+          "why_it_matters": "Readers may not immediately see that seminar-specific influences cannot be separated from format.",
+          "action": "Optionally explain the consequence of having only one seminar per condition.",
+          "classification_reason": "The limitation is already accurately identified and the recommendation is scoped."
+        }
+      ],
+      "strengths": [
+        "Accurate results and timing, with distinction between practiced and related exam questions.",
+        "Educational decision and contribution are concrete.",
+        "Post-treatment covariate and intervening quiz/feedback limitations are interpreted correctly.",
+        "Mechanisms are distinguished from measured findings and secondary literature is attributed.",
+        "Recommendation is justified and restricted to comparable teaching."
+      ]
+    },
+    "R": {
+      "decision": "Meets the revision request and preserves author meaning and stance; no mandatory substantive correction identified.",
+      "body_word_count_whitespace": 222,
+      "requested_word_range": [200, 260],
+      "mandatory": [],
+      "verification": [],
+      "optional": [
+        {
+          "id": "R-O1",
+          "dimensions": [6, 8, 9],
+          "passage": "and limitations discussed above",
+          "source": "revision-original.md, paragraph 2; revision-context.md, PDF p. 6",
+          "source_passage": "The original passage refers to limitations outlined above; preceding context discusses instructor awareness, differential attendance, and exam-comparison limitations.",
+          "why_it_matters": "The reference works in the original article but lacks an antecedent if the edited excerpt is published by itself.",
+          "action": "Only for standalone use, substitute one or two concrete limitations within the word limit.",
+          "classification_reason": "Faithful contextual editing does not require eliminating a valid backward reference."
+        }
+      ],
+      "strengths": [
+        "Preserves the motivational argument, treatment of contrary evidence, applied interpretation, and cautious recommendation.",
+        "Clarifies negative feedback as noticing retrieval failure.",
+        "Uses conditional language for inferred goals and study behavior.",
+        "Marks secondary citations and retains first-person author voice.",
+        "Connects the requested study-time measurement to the explanatory question."
+      ]
+    }
+  },
+  "contextual_source_verification_notes": [
+    {
+      "id": "S-V1",
+      "classification": "source issue requiring verification if the surrounding article is revised",
+      "manuscript_passage": "N: The exam followed a shared surprise quiz and feedback. R: no claim about this interval.",
+      "source": "revision-context.md, PDF p. 1 versus pp. 3-5",
+      "source_passage": "Abstract says six weeks after the surprise quiz; methods and timeline say eight weeks.",
+      "why_it_matters": "An exact long-term retention interval should be resolved from the original study record before being asserted.",
+      "action": "Verify only if adding or revising the exact interval; neither manuscript reproduces the discrepancy.",
+      "affects_current_decision": false
+    },
+    {
+      "id": "S-V2",
+      "classification": "source issue requiring verification if the surrounding literature account is revised",
+      "manuscript_passage": "N: account of earlier comparisons without assigning this exact delay. R: motivational contrast with laboratory studies without assigning this exact delay.",
+      "source": "revision-context.md, PDF p. 3 versus p. 6",
+      "source_passage": "Introduction gives a two-day final-test delay for Agarwal and Roediger (2011); discussion describes one week.",
+      "why_it_matters": "An exact delay could affect a claim explaining between-study differences by retention interval.",
+      "action": "Verify against the cited original study before using the exact delay. No correction to the present manuscripts is required.",
+      "affects_current_decision": false
+    }
+  ],
+  "overall_numerical_score": null
+}

@@ -1,0 +1,84 @@
+[
+    {
+        "value":  [
+                      {
+                          "value":  [
+                                        {
+                                            "value":  [
+                                                          "@{value=System.Object[]; Count=7}",
+                                                          "@{order=2; path=@snapshot\\skills\\edu-writing\\references\\foundation.md; sha256=96FEF5484D417391D5EB303402CE6663622DB98A7079A6DCB51B3F8E5747CCD1; stage=revise-planning-after-new-final; action=read}",
+                                                          "@{order=3; path=@inputs\\F-Q01\\revision-original.md; sha256=2393CD0F421AE9E6C3ED26FD7144EEDC343C06ACE106676B73D9C18F6C779122; stage=revise-planning-after-new-final; action=read}",
+                                                          "@{order=4; path=@inputs\\F-Q01\\revision-context.md; sha256=BFAED9E334CDA26DC01E2D461151359428B8E805E7C7C63E317FD235D4E0ADEF; stage=revise-planning-after-new-final; action=read}"
+                                                      ],
+                                            "Count":  4
+                                        },
+                                        {
+                                            "order":  2,
+                                            "path":  "@inputs\\F-Q01\\revision-context.md",
+                                            "sha256":  "BFAED9E334CDA26DC01E2D461151359428B8E805E7C7C63E317FD235D4E0ADEF",
+                                            "stage":  "revise-planning",
+                                            "action":  "reread-pdf-pages-6-7-after-output-truncation"
+                                        }
+                                    ],
+                          "Count":  2
+                      },
+                      {
+                          "order":  2,
+                          "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+                          "sha256":  "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+                          "stage":  "revise-first-check",
+                          "action":  "runtime-read"
+                      },
+                      {
+                          "order":  3,
+                          "path":  "@inputs\\F-Q01\\revision-original.md",
+                          "sha256":  "2393CD0F421AE9E6C3ED26FD7144EEDC343C06ACE106676B73D9C18F6C779122",
+                          "stage":  "revise-first-check",
+                          "action":  "runtime-read"
+                      },
+                      {
+                          "order":  4,
+                          "path":  "@inputs\\F-Q01\\revision-context.md",
+                          "sha256":  "BFAED9E334CDA26DC01E2D461151359428B8E805E7C7C63E317FD235D4E0ADEF",
+                          "stage":  "revise-first-check",
+                          "action":  "runtime-read"
+                      },
+                      {
+                          "order":  5,
+                          "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+                          "sha256":  "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+                          "stage":  "revise-first-check",
+                          "action":  "runtime-read"
+                      }
+                  ],
+        "Count":  5
+    },
+    {
+        "order":  2,
+        "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+        "sha256":  "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+        "stage":  "revise-final-check",
+        "action":  "runtime-read"
+    },
+    {
+        "order":  3,
+        "path":  "@inputs\\F-Q01\\revision-original.md",
+        "sha256":  "2393CD0F421AE9E6C3ED26FD7144EEDC343C06ACE106676B73D9C18F6C779122",
+        "stage":  "revise-final-check",
+        "action":  "runtime-read"
+    },
+    {
+        "order":  4,
+        "path":  "@inputs\\F-Q01\\revision-context.md",
+        "sha256":  "BFAED9E334CDA26DC01E2D461151359428B8E805E7C7C63E317FD235D4E0ADEF",
+        "stage":  "revise-final-check",
+        "action":  "runtime-read"
+    },
+    {
+        "order":  5,
+        "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+        "sha256":  "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+        "stage":  "revise-final-check",
+        "action":  "runtime-read"
+    }
+]

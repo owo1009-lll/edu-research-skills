@@ -1,0 +1,299 @@
+[
+  {
+    "order": 1,
+    "path": "@repository\\evals\\writing-final-20261020\\request.md",
+    "sha256": "a5e3a0afeef79ab793103b7148bb97acac05722495cfb1446d0592802bf6afbf",
+    "stage": "setup",
+    "action": "content-read",
+    "detail": "Entire file loaded; contents returned to model.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 2,
+    "path": "@snapshot\\skills\\edu-writing\\SKILL.md",
+    "sha256": "58384427b70501b4e4a2d0b8e2426885487b74b7262f6df221bc9e8823c17195",
+    "stage": "setup",
+    "action": "content-read",
+    "detail": "Entire file loaded; contents returned to model.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 3,
+    "path": "@snapshot\\skills\\edu-writing\\references\\argument.md",
+    "sha256": "faa6f295b1e396d72e4d3e566fc163fb5bb719f9e05f3931bdc555ea4a7644a6",
+    "stage": "new-planning",
+    "action": "content-read",
+    "detail": "Entire file loaded in a sequential six-file PowerShell call. Combined tool output was truncated; visibility of every line cannot be claimed.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 4,
+    "path": "@snapshot\\skills\\edu-writing\\references\\framing-results.md",
+    "sha256": "797aa46d5e3a494f8330ed3bdecf82c9f5fc98df532f6dc27f68a5553f3fdfd8",
+    "stage": "new-planning",
+    "action": "content-read",
+    "detail": "Entire file loaded in a sequential six-file PowerShell call. Combined tool output was truncated; visibility of every line cannot be claimed.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 5,
+    "path": "@snapshot\\skills\\edu-writing\\references\\voice-en.md",
+    "sha256": "6b8ba97c556de224dd7080142d2963f9930d20646a12dc80c3e31537935c756b",
+    "stage": "new-planning",
+    "action": "content-read",
+    "detail": "Entire file loaded in a sequential six-file PowerShell call. Combined tool output was truncated; visibility of every line cannot be claimed.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 6,
+    "path": "@snapshot\\skills\\edu-writing\\references\\quantitative-discussion.md",
+    "sha256": "0d2024ff3cf66029f1d37a5a6a9b00c53744c175c2d148ead6f368d61a51a814",
+    "stage": "new-planning",
+    "action": "content-read",
+    "detail": "Entire file loaded in a sequential six-file PowerShell call. Combined tool output was truncated; visibility of every line cannot be claimed.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 7,
+    "path": "@snapshot\\skills\\edu-shared\\references\\integrity.md",
+    "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+    "stage": "new-planning",
+    "action": "content-read",
+    "detail": "Entire file loaded in a sequential six-file PowerShell call. Combined tool output was truncated; visibility of every line cannot be claimed.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 8,
+    "path": "@inputs\\F-Q01\\new-evidence.md",
+    "sha256": "95faa8f628b1b1e6c09a1ecd5b49db272cd5a1955af788aac472a918917e2aff",
+    "stage": "new-planning",
+    "action": "content-read",
+    "detail": "Entire file loaded as the sixth file in the sequential call. Combined output was truncated.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 9,
+    "path": "@snapshot\\skills\\edu-writing\\references\\voice-en.md",
+    "sha256": "6b8ba97c556de224dd7080142d2963f9930d20646a12dc80c3e31537935c756b",
+    "stage": "new-planning",
+    "action": "reread-after-truncation",
+    "detail": "Entire file loaded; contents returned to model.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 10,
+    "path": "@snapshot\\skills\\edu-writing\\references\\quantitative-discussion.md",
+    "sha256": "0d2024ff3cf66029f1d37a5a6a9b00c53744c175c2d148ead6f368d61a51a814",
+    "stage": "new-planning",
+    "action": "reread-after-truncation",
+    "detail": "Entire file loaded; contents returned to model.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 11,
+    "path": "@snapshot\\skills\\edu-shared\\references\\integrity.md",
+    "sha256": "e1ec232adb87b32484c1d9bd49823acc41f813432bd40088b0c4865b9e18f8d6",
+    "stage": "new-planning",
+    "action": "reread-after-truncation",
+    "detail": "Entire file loaded; contents returned to model.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 12,
+    "path": "@inputs\\F-Q01\\new-evidence.md",
+    "sha256": "95faa8f628b1b1e6c09a1ecd5b49db272cd5a1955af788aac472a918917e2aff",
+    "stage": "new-planning",
+    "action": "reread-after-truncation",
+    "detail": "Get-Content loaded the file; Select-Object returned lines 1?180.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 13,
+    "path": "@inputs\\F-Q01\\new-evidence.md",
+    "sha256": "95faa8f628b1b1e6c09a1ecd5b49db272cd5a1955af788aac472a918917e2aff",
+    "stage": "new-planning",
+    "action": "reread-after-truncation",
+    "detail": "Get-Content loaded the file; Select-Object returned line 181 through the end.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 14,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "stage": "new-check-preparation",
+    "action": "content-read",
+    "detail": "Entire script loaded in a two-file PowerShell call. Combined output was truncated, so full source visibility is not claimed.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 15,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "stage": "new-check-preparation",
+    "action": "content-read",
+    "detail": "Entire script loaded in a two-file PowerShell call. Combined output was truncated, so full source visibility is not claimed.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 16,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "stage": "new-first-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft and new-evidence.md as source. Exact operating-system file-read traces were not captured.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 17,
+    "path": "@inputs\\F-Q01\\new-evidence.md",
+    "sha256": "95faa8f628b1b1e6c09a1ecd5b49db272cd5a1955af788aac472a918917e2aff",
+    "stage": "new-first-check",
+    "action": "runtime-read",
+    "detail": "Source loaded by the executed check_voice.py; output was captured successfully.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 18,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "stage": "new-first-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft; output was captured successfully.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 19,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "stage": "new-final-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft and new-evidence.md as source. Exact operating-system file-read traces were not captured.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 20,
+    "path": "@inputs\\F-Q01\\new-evidence.md",
+    "sha256": "95faa8f628b1b1e6c09a1ecd5b49db272cd5a1955af788aac472a918917e2aff",
+    "stage": "new-final-check",
+    "action": "runtime-read",
+    "detail": "Source loaded by the executed check_voice.py; output was captured successfully.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 21,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "stage": "new-final-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft; output was captured successfully.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 22,
+    "path": "@snapshot\\skills\\edu-writing\\references\\foundation.md",
+    "sha256": "96fef5484d417391d5eb303402ce6663622db98a7079a6dcb51b3f8e5747ccd1",
+    "stage": "revise-planning-after-new-final",
+    "action": "content-read",
+    "detail": "Entire file loaded first in a three-file call; the combined output was truncated.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 23,
+    "path": "@inputs\\F-Q01\\revision-original.md",
+    "sha256": "2393cd0f421ae9e6c3ed26fd7144eedc343c06ace106676b73d9c18f6c779122",
+    "stage": "revise-planning-after-new-final",
+    "action": "content-read",
+    "detail": "Entire file loaded second in the same call; original passage was visible in tool output.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 24,
+    "path": "@inputs\\F-Q01\\revision-context.md",
+    "sha256": "bfaed9e334cda26dc01e2d461151359428b8e805e7c7c63e317fd235d4e0adef",
+    "stage": "revise-planning-after-new-final",
+    "action": "content-read",
+    "detail": "Entire file loaded third in the same call; combined output was truncated.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 25,
+    "path": "@inputs\\F-Q01\\revision-context.md",
+    "sha256": "bfaed9e334cda26dc01e2d461151359428b8e805e7c7c63e317fd235d4e0adef",
+    "stage": "revise-planning",
+    "action": "reread-after-truncation",
+    "detail": "Get-Content -Raw loaded the full file; substring from PDF page 6 up to ETHICS STATEMENT was returned.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 26,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "stage": "revise-first-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft and revision-original.md followed by revision-context.md as sources. Exact operating-system file-read traces were not captured.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 27,
+    "path": "@inputs\\F-Q01\\revision-original.md",
+    "sha256": "2393cd0f421ae9e6c3ed26fd7144eedc343c06ace106676b73d9c18f6c779122",
+    "stage": "revise-first-check",
+    "action": "runtime-read",
+    "detail": "Source loaded by check_voice.py in the command-line source order.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 28,
+    "path": "@inputs\\F-Q01\\revision-context.md",
+    "sha256": "bfaed9e334cda26dc01e2d461151359428b8e805e7c7c63e317fd235d4e0adef",
+    "stage": "revise-first-check",
+    "action": "runtime-read",
+    "detail": "Source loaded by check_voice.py in the command-line source order.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 29,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "stage": "revise-first-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft; output was captured successfully.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 30,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64b1ac345c7d469b49dbcdbe526d2b5657fa05a39ab4c4bc3aec139ad7b5a6be",
+    "stage": "revise-final-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft and revision-original.md followed by revision-context.md as sources. Exact operating-system file-read traces were not captured.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 31,
+    "path": "@inputs\\F-Q01\\revision-original.md",
+    "sha256": "2393cd0f421ae9e6c3ed26fd7144eedc343c06ace106676b73d9c18f6c779122",
+    "stage": "revise-final-check",
+    "action": "runtime-read",
+    "detail": "Source loaded by check_voice.py in the command-line source order.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 32,
+    "path": "@inputs\\F-Q01\\revision-context.md",
+    "sha256": "bfaed9e334cda26dc01e2d461151359428b8e805e7c7c63e317fd235d4e0adef",
+    "stage": "revise-final-check",
+    "action": "runtime-read",
+    "detail": "Source loaded by check_voice.py in the command-line source order.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  },
+  {
+    "order": 33,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "f306872ab9f9adf2453e74523d6180fd1f319ec7e73f177e704e17b39c99cfb2",
+    "stage": "revise-final-check",
+    "action": "runtime-read",
+    "detail": "Frozen script executed with draft; output was captured successfully.",
+    "hash_provenance": "Recomputed during repair from the same path; not an independently preserved contemporaneous digest."
+  }
+]

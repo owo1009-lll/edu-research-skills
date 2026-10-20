@@ -1,0 +1,83 @@
+[
+    {
+        "value":  [
+                      {
+                          "value":  [
+                                        {
+                                            "value":  [
+                                                          "@{value=System.Object[]; Count=7}",
+                                                          "@{order=2; path=@inputs\\F-L01\\revision-context.md; sha256=11EB6F63F0876F400FEA34AB3EF402D236623E9010DD2E5C005C5307C3F818EB; stage=revise:planning; access=read PDF pages 21-24; earlier full-file tool output truncated}",
+                                                          "@{order=3; path=@snapshot\\skills\\edu-writing\\references\\conclusion-implications.md; sha256=87D15F7F8DDE822509B0232B0C086F24E2498368A7333ADFAF3CD205A8BE92D6; stage=revise:planning; access=read}"
+                                                      ],
+                                            "Count":  3
+                                        },
+                                        {
+                                            "order":  2,
+                                            "path":  "@snapshot\\skills\\edu-writing\\references\\framing-results.md",
+                                            "sha256":  "797AA46D5E3A494F8330ED3BDECF82C9F5FC98DF532F6DC27F68A5553F3FDFD8",
+                                            "stage":  "revise:planning",
+                                            "access":  "read as required by conclusion route"
+                                        }
+                                    ],
+                          "Count":  2
+                      },
+                      {
+                          "order":  2,
+                          "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+                          "sha256":  "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+                          "stage":  "revise:first-draft-checks",
+                          "access":  "script execution or source read by script"
+                      },
+                      {
+                          "order":  3,
+                          "path":  "@inputs\\F-L01\\revision-original.md",
+                          "sha256":  "BF204FD3815BA8F6FB4F3A86A682E5EBCA3EC67CDBAF4C02480B0772C9386281",
+                          "stage":  "revise:first-draft-checks",
+                          "access":  "script execution or source read by script"
+                      },
+                      {
+                          "order":  4,
+                          "path":  "@inputs\\F-L01\\revision-context.md",
+                          "sha256":  "11EB6F63F0876F400FEA34AB3EF402D236623E9010DD2E5C005C5307C3F818EB",
+                          "stage":  "revise:first-draft-checks",
+                          "access":  "script execution or source read by script"
+                      },
+                      {
+                          "order":  5,
+                          "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+                          "sha256":  "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+                          "stage":  "revise:first-draft-checks",
+                          "access":  "script execution or source read by script"
+                      }
+                  ],
+        "Count":  5
+    },
+    {
+        "order":  2,
+        "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+        "sha256":  "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+        "stage":  "revise:final-checks",
+        "access":  "script execution or source read by script"
+    },
+    {
+        "order":  3,
+        "path":  "@inputs\\F-L01\\revision-original.md",
+        "sha256":  "BF204FD3815BA8F6FB4F3A86A682E5EBCA3EC67CDBAF4C02480B0772C9386281",
+        "stage":  "revise:final-checks",
+        "access":  "script execution or source read by script"
+    },
+    {
+        "order":  4,
+        "path":  "@inputs\\F-L01\\revision-context.md",
+        "sha256":  "11EB6F63F0876F400FEA34AB3EF402D236623E9010DD2E5C005C5307C3F818EB",
+        "stage":  "revise:final-checks",
+        "access":  "script execution or source read by script"
+    },
+    {
+        "order":  5,
+        "path":  "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+        "sha256":  "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+        "stage":  "revise:final-checks",
+        "access":  "script execution or source read by script"
+    }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "F-Q01",
+    "files_sha256": {
+      "new-evidence.md": "95faa8f628b1b1e6c09a1ecd5b49db272cd5a1955af788aac472a918917e2aff",
+      "revision-original.md": "2393cd0f421ae9e6c3ed26fd7144eedc343c06ace106676b73d9c18f6c779122",
+      "revision-context.md": "bfaed9e334cda26dc01e2d461151359428b8e805e7c7c63e317fd235d4e0adef"
+    },
+    "pdf_sha256": "604415de0af41fc09da96cc3a6152e9a04612868afa600c3b2122bfcf2419447",
+    "html_sha256": "54847a70fac5f364d61e40e081c633178eb49f6bc3ec9e22ec2354f3c8a7296f",
+    "new_evidence_character_count": 27228,
+    "revision_original_words": 334
+  },
+  {
+    "id": "F-L01",
+    "files_sha256": {
+      "new-evidence.md": "5c96e7e3a3648671d64dedabd1f8deffe0cdfd7fa44f3197aba25d1a18395f00",
+      "revision-original.md": "bf204fd3815ba8f6fb4f3a86a682e5ebca3ec67cdbaf4c02480b0772c9386281",
+      "revision-context.md": "11eb6f63f0876f400fea34ab3ef402d236623e9010dd2e5c005c5307c3f818eb"
+    },
+    "pdf_sha256": "d7ce60ec1fac7042955d0a325349d99f545610afb84a21a471456e3efa293398",
+    "html_sha256": "99b37a66593eb1048197e8aba2408f99af9b57af1b53f7e0aacf3061e6ccf3f1",
+    "new_evidence_character_count": 69684,
+    "revision_original_words": 398
+  },
+  {
+    "id": "F-M01",
+    "files_sha256": {
+      "new-evidence.md": "d87e7a921cab14ef1d476f585537f639e16d4890b6d9133a00fbae69a9c3ddef",
+      "revision-original.md": "c81203fa96835355d7c0dfc6bebb3e27f0a95a254bcedfd2823194868be50e23",
+      "revision-context.md": "efa7e8795c02a3091fd3eef9df42a83a79a6052bfe77a6512cbcf70d4ec7c483"
+    },
+    "pdf_sha256": "48733e9fbe525a57fe53b152914c9c30d47410b62a281a1cfe7e094c1d5bad7c",
+    "html_sha256": "ea5f431c6688011eb37760f7cc99ef026188332cda5bc3483b2855109b6b0e02",
+    "new_evidence_character_count": 60126,
+    "revision_original_words": 479
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "id": "F-Q01",
+    "doi": "10.3389/fpsyg.2019.00463",
+    "retrieved_utc": "2026-10-20T05:13:25.269861+00:00",
+    "attempts": [
+      {
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00463/pdf",
+        "status": 200,
+        "final_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00463/pdf",
+        "content_type": "application/pdf",
+        "bytes": 414178,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.3389/fpsyg.2019.00463",
+      "title": [
+        "Open-Book Versus Closed-Book Tests in University Classes: A Field Experiment"
+      ],
+      "author": [
+        {
+          "given": "Ralf",
+          "family": "Rummer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Judith",
+          "family": "Schweppe",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Annett",
+          "family": "Schwede",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            3,
+            15
+          ]
+        ]
+      },
+      "container-title": [
+        "Frontiers in Psychology"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                3,
+                15
+              ]
+            ],
+            "date-time": "2019-03-15T00:00:00Z",
+            "timestamp": 1552608000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "12f281bf505cf9ffeeffec59ca707be9efdc109b387b55617854c590d52efef1",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00463/pdf",
+    "format": "pdf",
+    "raw_sha256": "604415de0af41fc09da96cc3a6152e9a04612868afa600c3b2122bfcf2419447",
+    "text_sha256": "04a9e1d21c1b49de7f949b42a75130278b885834ec89d466cd2e32641df45c3a",
+    "text_characters": 51335,
+    "extraction": {
+      "pages": 8,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "3f12cace8e4df836aa574dc08fdabf865b9a92d7fc2df12b7d29131ab9b7775d",
+    "reading_blocks": 8,
+    "reading_characters": 51805,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "F-L01",
+    "doi": "10.1007/s11191-021-00220-3",
+    "retrieved_utc": "2026-10-20T05:13:25.269861+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s11191-021-00220-3.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s11191-021-00220-3.pdf",
+        "content_type": "application/pdf",
+        "bytes": 740055,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s11191-021-00220-3",
+      "title": [
+        "Exploring Science Identity Development of Women in Physics and Physical Sciences in Higher Education"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6098-0379",
+          "authenticated-orcid": false,
+          "given": "Ebru",
+          "family": "Eren",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Science &amp; Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                6
+              ]
+            ],
+            "date-time": "2021-05-06T00:00:00Z",
+            "timestamp": 1620259200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                6
+              ]
+            ],
+            "date-time": "2021-05-06T00:00:00Z",
+            "timestamp": 1620259200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "c2a16cc63f3e19f8a6129e4520070319228bd47507a78e95c536fe6fbc8ffefd",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/content/pdf/10.1007/s11191-021-00220-3.pdf",
+    "format": "pdf",
+    "raw_sha256": "d7ce60ec1fac7042955d0a325349d99f545610afb84a21a471456e3efa293398",
+    "text_sha256": "2833f1cb3398042468fc27cb98ed111412284956f181d5af535aed08649501d7",
+    "text_characters": 102515,
+    "extraction": {
+      "pages": 28,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "52a4f0c5c000c1f223e3f35381ebfbbcfc25d4ff903a66e1ad13eb2d3fa004ca",
+    "reading_blocks": 28,
+    "reading_characters": 104168,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "F-M01",
+    "doi": "10.1186/s40594-023-00428-5",
+    "retrieved_utc": "2026-10-20T05:13:25.269861+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1186/s40594-023-00428-5.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/content/pdf/10.1186/s40594-023-00428-5.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1447764,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1186/s40594-023-00428-5",
+      "title": [
+        "Mixed methods study of student participation and self-efficacy in remote asynchronous undergraduate physics laboratories: contributors, lurkers, and outsiders"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8707-3573",
+          "authenticated-orcid": false,
+          "given": "Drew",
+          "family": "Rosen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1393-1296",
+          "authenticated-orcid": false,
+          "given": "Angela M.",
+          "family": "Kelly",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            17
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of STEM Education"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                17
+              ]
+            ],
+            "date-time": "2023-05-17T00:00:00Z",
+            "timestamp": 1684281600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                17
+              ]
+            ],
+            "date-time": "2023-05-17T00:00:00Z",
+            "timestamp": 1684281600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "0fefa35f14e74c282e37bb50700df2196e99ee862385be6f0f9e71a0eabc06bc",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/content/pdf/10.1186/s40594-023-00428-5.pdf",
+    "format": "pdf",
+    "raw_sha256": "48733e9fbe525a57fe53b152914c9c30d47410b62a281a1cfe7e094c1d5bad7c",
+    "text_sha256": "c86c572b121777ead9d087fc3ffa8eb02fea28367efbb529ef263ef531817c73",
+    "text_characters": 116709,
+    "extraction": {
+      "pages": 20,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "a306b4cb76ecc3dbce6dfe881be7473ba5724cb1dfca1208484fb81751d14e82",
+    "reading_blocks": 20,
+    "reading_characters": 117883,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "order": 1,
+    "path": "@repository\\evals\\writing-final-20261020\\request.md",
+    "sha256": "A5E3A0AFEEF79AB793103B7148BB97ACAC05722495CFB1446D0592802BF6AFBF",
+    "stage": "setup",
+    "access": "read"
+  },
+  {
+    "order": 2,
+    "path": "@snapshot\\skills\\edu-writing\\SKILL.md",
+    "sha256": "58384427B70501B4E4A2D0B8E2426885487B74B7262F6DF221BC9E8823C17195",
+    "stage": "setup",
+    "access": "read"
+  },
+  {
+    "order": 3,
+    "path": "@snapshot\\skills\\edu-writing\\references\\argument.md",
+    "sha256": "FAA6F295B1E396D72E4D3E566FC163FB5BB719F9E05F3931BDC555EA4A7644A6",
+    "stage": "new:planning",
+    "access": "read"
+  },
+  {
+    "order": 4,
+    "path": "@snapshot\\skills\\edu-writing\\references\\voice-en.md",
+    "sha256": "6B8BA97C556DE224DD7080142D2963F9930D20646A12DC80C3E31537935C756B",
+    "stage": "new:planning",
+    "access": "full shell read; batched tool output truncated"
+  },
+  {
+    "order": 5,
+    "path": "@snapshot\\skills\\edu-shared\\references\\integrity.md",
+    "sha256": "E1EC232ADB87B32484C1D9BD49823ACC41F813432BD40088B0C4865B9E18F8D6",
+    "stage": "new:planning",
+    "access": "full shell read; batched tool output truncated"
+  },
+  {
+    "order": 6,
+    "path": "@inputs\\F-L01\\new-evidence.md",
+    "sha256": "5C96E7E3A3648671D64DEDABD1F8DEFFE0CDFD7FA44F3197ABA25D1A18395F00",
+    "stage": "new:planning",
+    "access": "full shell read; batched tool output truncated"
+  },
+  {
+    "order": 7,
+    "path": "@snapshot\\skills\\edu-writing\\references\\voice-en.md",
+    "sha256": "6B8BA97C556DE224DD7080142D2963F9930D20646A12DC80C3E31537935C756B",
+    "stage": "new:planning",
+    "access": "reread after truncation"
+  },
+  {
+    "order": 8,
+    "path": "@snapshot\\skills\\edu-shared\\references\\integrity.md",
+    "sha256": "E1EC232ADB87B32484C1D9BD49823ACC41F813432BD40088B0C4865B9E18F8D6",
+    "stage": "new:planning",
+    "access": "reread after truncation"
+  },
+  {
+    "order": 9,
+    "path": "@snapshot\\skills\\edu-writing\\references\\qualitative-narrative.md",
+    "sha256": "A4F3C908F5D2AA0C6FFC71A1DF93FA94B011FC3BB6341C90379F8D9451F9CBC8",
+    "stage": "new:planning",
+    "access": "read"
+  },
+  {
+    "order": 10,
+    "path": "@inputs\\F-L01\\new-evidence.md",
+    "sha256": "5C96E7E3A3648671D64DEDABD1F8DEFFE0CDFD7FA44F3197ABA25D1A18395F00",
+    "stage": "new:planning",
+    "access": "read lines 1-300"
+  },
+  {
+    "order": 11,
+    "path": "@inputs\\F-L01\\new-evidence.md",
+    "sha256": "5C96E7E3A3648671D64DEDABD1F8DEFFE0CDFD7FA44F3197ABA25D1A18395F00",
+    "stage": "new:planning",
+    "access": "read lines 301-650"
+  },
+  {
+    "order": 12,
+    "path": "@inputs\\F-L01\\new-evidence.md",
+    "sha256": "5C96E7E3A3648671D64DEDABD1F8DEFFE0CDFD7FA44F3197ABA25D1A18395F00",
+    "stage": "new:planning",
+    "access": "read lines 651-end"
+  },
+  {
+    "order": 13,
+    "path": "@snapshot\\skills\\edu-writing\\references\\methods\\cases-develop-explanations.md",
+    "sha256": "BAC65A856E6EDDDA2EA6C0DFDCE209B31635DD08CA70FE6F8F842B7C202F98BE",
+    "stage": "new:planning",
+    "access": "read"
+  },
+  {
+    "order": 14,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+    "stage": "new:planning",
+    "access": "read"
+  },
+  {
+    "order": 15,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+    "stage": "new:planning",
+    "access": "full shell read; batched tool output truncated"
+  },
+  {
+    "order": 16,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+    "stage": "new:planning",
+    "access": "reread first 45 lines to inspect dependencies"
+  },
+  {
+    "order": 17,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+    "stage": "new:first-draft-checks",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 18,
+    "path": "@inputs\\F-L01\\new-evidence.md",
+    "sha256": "5C96E7E3A3648671D64DEDABD1F8DEFFE0CDFD7FA44F3197ABA25D1A18395F00",
+    "stage": "new:first-draft-checks",
+    "access": "source read by check_voice.py"
+  },
+  {
+    "order": 19,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+    "stage": "new:first-draft-checks",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 20,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+    "stage": "new:first-draft-checks-rerun-BOM-free",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 21,
+    "path": "@inputs\\F-L01\\new-evidence.md",
+    "sha256": "5C96E7E3A3648671D64DEDABD1F8DEFFE0CDFD7FA44F3197ABA25D1A18395F00",
+    "stage": "new:first-draft-checks-rerun-BOM-free",
+    "access": "source read by check_voice.py"
+  },
+  {
+    "order": 22,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+    "stage": "new:first-draft-checks-rerun-BOM-free",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 23,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+    "stage": "new:final-checks",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 24,
+    "path": "@inputs\\F-L01\\new-evidence.md",
+    "sha256": "5C96E7E3A3648671D64DEDABD1F8DEFFE0CDFD7FA44F3197ABA25D1A18395F00",
+    "stage": "new:final-checks",
+    "access": "source read by check_voice.py"
+  },
+  {
+    "order": 25,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+    "stage": "new:final-checks",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 26,
+    "path": "@snapshot\\skills\\edu-writing\\references\\foundation.md",
+    "sha256": "96FEF5484D417391D5EB303402CE6663622DB98A7079A6DCB51B3F8E5747CCD1",
+    "stage": "revise:planning after new final saved",
+    "access": "read"
+  },
+  {
+    "order": 27,
+    "path": "@inputs\\F-L01\\revision-original.md",
+    "sha256": "BF204FD3815BA8F6FB4F3A86A682E5EBCA3EC67CDBAF4C02480B0772C9386281",
+    "stage": "revise:planning after new final saved",
+    "access": "read"
+  },
+  {
+    "order": 28,
+    "path": "@inputs\\F-L01\\revision-context.md",
+    "sha256": "11EB6F63F0876F400FEA34AB3EF402D236623E9010DD2E5C005C5307C3F818EB",
+    "stage": "revise:planning after new final saved",
+    "access": "full shell read; batched tool output truncated"
+  },
+  {
+    "order": 29,
+    "path": "@inputs\\F-L01\\revision-context.md",
+    "sha256": "11EB6F63F0876F400FEA34AB3EF402D236623E9010DD2E5C005C5307C3F818EB",
+    "stage": "revise:planning",
+    "access": "reread PDF pages 21-24 after truncation"
+  },
+  {
+    "order": 30,
+    "path": "@snapshot\\skills\\edu-writing\\references\\conclusion-implications.md",
+    "sha256": "87D15F7F8DDE822509B0232B0C086F24E2498368A7333ADFAF3CD205A8BE92D6",
+    "stage": "revise:planning",
+    "access": "read"
+  },
+  {
+    "order": 31,
+    "path": "@snapshot\\skills\\edu-writing\\references\\framing-results.md",
+    "sha256": "797AA46D5E3A494F8330ED3BDECF82C9F5FC98DF532F6DC27F68A5553F3FDFD8",
+    "stage": "revise:planning",
+    "access": "read"
+  },
+  {
+    "order": 32,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+    "stage": "revise:first-draft-checks",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 33,
+    "path": "@inputs\\F-L01\\revision-original.md",
+    "sha256": "BF204FD3815BA8F6FB4F3A86A682E5EBCA3EC67CDBAF4C02480B0772C9386281",
+    "stage": "revise:first-draft-checks",
+    "access": "source read by check_voice.py"
+  },
+  {
+    "order": 34,
+    "path": "@inputs\\F-L01\\revision-context.md",
+    "sha256": "11EB6F63F0876F400FEA34AB3EF402D236623E9010DD2E5C005C5307C3F818EB",
+    "stage": "revise:first-draft-checks",
+    "access": "source read by check_voice.py"
+  },
+  {
+    "order": 35,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+    "stage": "revise:first-draft-checks",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 36,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_voice.py",
+    "sha256": "64B1AC345C7D469B49DBCDBE526D2B5657FA05A39AB4C4BC3AEC139AD7B5A6BE",
+    "stage": "revise:final-checks",
+    "access": "executed by python -B"
+  },
+  {
+    "order": 37,
+    "path": "@inputs\\F-L01\\revision-original.md",
+    "sha256": "BF204FD3815BA8F6FB4F3A86A682E5EBCA3EC67CDBAF4C02480B0772C9386281",
+    "stage": "revise:final-checks",
+    "access": "source read by check_voice.py"
+  },
+  {
+    "order": 38,
+    "path": "@inputs\\F-L01\\revision-context.md",
+    "sha256": "11EB6F63F0876F400FEA34AB3EF402D236623E9010DD2E5C005C5307C3F818EB",
+    "stage": "revise:final-checks",
+    "access": "source read by check_voice.py"
+  },
+  {
+    "order": 39,
+    "path": "@snapshot\\skills\\edu-writing\\scripts\\check_prose.py",
+    "sha256": "F306872AB9F9ADF2453E74523D6180FD1F319EC7E73F177E704E17B39C99CFB2",
+    "stage": "revise:final-checks",
+    "access": "executed by python -B"
+  }
+]

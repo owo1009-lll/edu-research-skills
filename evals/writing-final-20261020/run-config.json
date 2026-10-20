@@ -1,0 +1,37 @@
+{
+  "frozen_utc": "2026-10-20T05:25:26.189081+00:00",
+  "implementation_head": "a388aac65159ee5f0174adc80829ac878ce31c28",
+  "skill_tree_sha256": "895b0ddcda12fa21ff62fa0953afd5176654e12f126ffd3068e5e1719886f5cf",
+  "request_sha256": "a5e3a0afeef79ab793103b7148bb97acac05722495cfb1446d0592802bf6afbf",
+  "studies": [
+    "F-Q01",
+    "F-L01",
+    "F-M01"
+  ],
+  "operations": [
+    "new",
+    "revise"
+  ],
+  "runs_per_study_operation": 1,
+  "baseline_arm": false,
+  "independent_contexts": "one fresh writer per study, two ordered operations; a separate fresh reviewer per study",
+  "model": "session default, no override; same model family, not cross-model or human assessment",
+  "temperature_and_seed": "not exposed or controlled",
+  "browsing": "prohibited for writers and reviewers; supplied evidence boundary",
+  "new_word_range": [
+    350,
+    450
+  ],
+  "revision_word_range": [
+    200,
+    260
+  ],
+  "new_before_revision": "new final saved before either revision input is read; self-reported order and hashes, not instrumented access logs",
+  "sources": "new-evidence is intro/design/findings only; revision is actual author passage with full article extraction",
+  "tool_versions": {
+    "python": "3.11.9",
+    "PyMuPDF": "1.27.2.2",
+    "beautifulsoup4": "4.15.0"
+  },
+  "delegation_basis": "skill-creator Independent Forward-Testing for complex skill behavior; fresh contexts receive realistic request and raw inputs, no intended answer"
+}

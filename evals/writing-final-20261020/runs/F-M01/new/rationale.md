@@ -1,0 +1,16 @@
+﻿# Rationale — new discussion
+
+Pre-draft argument: The educational question is how social participation operates in remote asynchronous physics laboratories and how it relates to self-efficacy. Optional communication yielded contributors, readers without posts, and outsiders. Group comparisons describe social perceptions and self-efficacy; subsequent analysis of open responses explains reported participation choices at the group level. The contribution is a more discriminating account of low visibility: useful observation, reluctance to speak, voluntary independence, and difficulty accessing peers have different implications. Scope: an end-of-semester, self-selected survey in one pandemic-era course; no causal or achievement claim.
+
+| Unit | Function and claim | Evidence | Reason for organization |
+|---|---|---|---|
+| Opening | Participation includes posting and observation; social perceptions differ across groups | pp. 8–10, classifications and Table 2 | Answer the participation question first |
+| Integration | Lurking can involve useful observation and/or inhibited participation | pp. 10–12, contributor and lurker accounts; theoretical framework pp. 4–5 | Interpret the group contrast using within-group explanations rather than equate visibility with engagement |
+| Self-efficacy | Contributors exceed lurkers in the reported comparison; outsiders do not differ significantly from either | pp. 9–10; outsider accounts pp. 12–13 | Retain the uneven pattern and plausible selection explanation |
+| Practice and scope | Accessible channels and attention to barriers; evaluate changes before claiming benefits | pp. 6–7, voluntary channels; pp. 10–12, access, fear, unanswered questions; single-time survey | Derive specific actions without inventing an intervention effect |
+
+Supporting evidence: separate participation and perception measures; quantitative analysis followed by qualitative explanation; cases of useful reading; cases of fear, independent learning, and unavailable peers. Qualifying evidence: some contributors' questions went unanswered; some lurkers distrusted peers; outsider self-efficacy comparisons were nonsignificant; retrospective self-report and voluntary participation leave causal direction open. Both sets will be represented in the discussion.
+
+Terms: contributors = students posting at any frequency; lurkers = students reading without posting; outsiders = neither reading nor posting. Social learning perceptions and physics laboratory self-efficacy remain distinct constructs. Integration is at participation-group and research-question levels, not a new person-level model.
+
+Source issues (kept outside manuscript): The text reports 272 respondents and 22 attention-check exclusions but the reported group counts still total 272; the participant flow is unclear. ANOVA degrees of freedom are printed as F(271), omitting a numerator df. The contributor self-efficacy mean, SD, N, and interval as extracted appear discordant (mean 45.45, SD 9.96, N 110, CI 44.09–46.82). These are unresolved, not silently repaired. Avoid reproducing those quantities. No raw data or independent full texts of cited literature were supplied; comparisons to that literature will be explicitly attributed to the source authors' account.

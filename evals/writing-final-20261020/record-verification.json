@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-10-20T05:41:03.199725+00:00",
+  "status": "passed",
+  "archive_verifier": "95 artifacts; six anonymous finals; reported reads Q33/L39/M33; 203 current runtime files and nine reconstructed input files verified",
+  "native_review_recheck": "141 archived artifacts and seven frozen resources; three actual native outputs preserve sources and match plans; full archived runtime comparison omitted because three writing-reference files have intentionally changed",
+  "structural_checks": {
+    "json_files_parsed": 28,
+    "authored_relative_links_checked": 43,
+    "python_syntax": "passed",
+    "published_local_path_scan": "passed",
+    "long_source_extracts": "ignored; three short licensed revision originals retained",
+    "whitespace": "Six archived working files retain an extra trailing blank line to preserve their bytes; editorial files pass strict diff checks, and the full staged diff passes with blank-at-eof excluded."
+  },
+  "compatibility_paths_unchanged_from_original_baseline": [
+    "skills/edu-analysis",
+    "skills/edu-ppt",
+    "skills/edu-writing/references/target-journal.md",
+    "skills/edu-writing/scripts/search_journal.py"
+  ],
+  "contract_tests": "10 passed using unittest discover -s tests -p test_contracts.py",
+  "failed_local_invocation": "The initial dotted-module invocation tests.test_contracts could not import in this local environment. Discovery succeeded; no test or runtime code was altered to bypass it.",
+  "source_visual_check": {
+    "study": "F-M01",
+    "pdf_pages_viewed": [
+      7,
+      9
+    ],
+    "purpose": "confirm reported sample-flow wording, incomplete F degrees of freedom and Table 2 values against original layout; does not determine correct analysis"
+  },
+  "remote_ci": "Checked separately for the final pushed commit before reporting completion; no local check substitutes for it.",
+  "limitations": "See adjudication.md for source, AI review, run-count and retrospective read-log limitations."
+}

@@ -1,0 +1,48 @@
+{
+  "case_id": "F-M01",
+  "encoding": "UTF-8 explicitly requested for all source and manuscript reads",
+  "files_read": [
+    {
+      "path": "@repository\\evals\\writing-final-20261020\\review-request.md",
+      "scope": "Complete"
+    },
+    {
+      "path": "@inputs\\F-M01\\new-evidence.md",
+      "scope": "Complete supplied introduction/design/findings, through PDF p. 13; re-read in bounded segments after the initial batch output was truncated"
+    },
+    {
+      "path": "@inputs\\F-M01\\revision-original.md",
+      "scope": "Complete"
+    },
+    {
+      "path": "@inputs\\F-M01\\revision-context.md",
+      "scope": "Initial full-file tool request returned in a truncated batch. Subsequently searched page headings and relevant statistical locations, then directly read the bounded PDF pp. 13–17 excerpt including discussion, limitations, future work, and implications/conclusions. Full independent reading of its reference list is not claimed."
+    },
+    {
+      "path": "@experiment\\blind\\F-M01\\N.md",
+      "scope": "Complete"
+    },
+    {
+      "path": "@experiment\\blind\\F-M01\\R.md",
+      "scope": "Complete"
+    }
+  ],
+  "evidence_limitations": [
+    "Only the assigned source pack and anonymous manuscripts were used.",
+    "N was assessed against new-evidence.md only; revision-context.md supplied context for R, not additional justification for N.",
+    "No cited primary literature was independently read or verified.",
+    "No browsing, raw data, original PDF inspection, or original statistical output was available within this assessment.",
+    "The source warns that extraction can disturb tables; identified numerical inconsistencies are verification issues rather than presumed manuscript errors.",
+    "Word counts use whitespace-delimited manuscript-body text, excluding attribution and headings; they are compliance checks rather than writing-quality metrics."
+  ],
+  "excluded_materials_not_read": [
+    "key.json",
+    "skill or development files",
+    "writer rationale and self-review",
+    "other runs",
+    "other reviewers"
+  ],
+  "manuscripts_edited": false,
+  "browsing_used": false,
+  "agents_spawned": false
+}

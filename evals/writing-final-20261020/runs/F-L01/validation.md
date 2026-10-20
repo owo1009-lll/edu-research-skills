@@ -1,0 +1,15 @@
+﻿# Completion and validation
+
+Both attributed secondary-writing tasks are complete. New discussion: 410 body words; edited conclusion: 224 body words. Counts exclude headings and attribution, using the frozen check_prose script's English tokenisation. Both fall inside the requested ranges.
+
+The new first draft, genuine AI self-review and final were saved before revision inputs were opened. completion-order.json records the new-final freeze hash and task order. A final hash check confirms that new/final.md was not modified after revision began.
+
+All required Markdown artifacts and script outputs are present. check_voice and check_prose were executed on both first drafts and finals through exact body-only copies, keeping attribution out of manuscript metrics. No consistency script was applicable to these separate single-section tasks; no Word conversion was requested. The failed initial BOM-related prose detection and its corrected rerun are both retained. The frozen scripts and runtime were not altered.
+
+New-final checks: no unsupported-number, stacked-hedge, semantic-equivalence or scattered-limitation cues; prose flags the absence of prior-study citations. This is an intentional source-boundary decision, adjudicated in new/review.md, not a reason to imply independent reading. Revision-final checks: no prose prompts or substantive voice cues; the self-mention metric does not count singular “I.” Script cleanliness is not treated as evidential validation. Source-linked AI reviews provide the substantive checks.
+
+read-log.json lists skill/input accesses in actual order, SHA-256 hashes, stages and access type. It includes repeat reads and script reads. Initial batched outputs for new evidence, check_prose and revision context were truncated by the tool; relevant content was reread in explicit chunks as logged. A full-file shell access does not imply every displayed line survived output truncation. No external sources, other evaluation runs or repository development materials were read. All logged input/skill hashes were rechecked unchanged at completion.
+
+Unresolved source issues and material limitations are in each rationale.md. No clarification was necessary: extraction inconsistencies could be avoided, the supplied evidence supported both tasks, and proposals could retain their original status without inventing effectiveness evidence.
+
+Audit-log repair: PowerShell JSON array appends produced nested value/Count wrappers and depth truncation. This was caught in the final integrity check. read-log.json was reconstructed in the exact chronological order of the actual tool calls (39 events), with fresh SHA-256 hashes; the malformed log is retained as read-log-serialization-error.json. completion-order.json was flattened, preserving the original recorded timestamps and final hashes. No claim is made that the failed PowerShell hash-validation loop passed. The corrected Python verification checked all 39 records and both frozen final hashes successfully. Hash-only verification accesses are not content-reading events.
