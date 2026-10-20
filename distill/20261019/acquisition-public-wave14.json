@@ -1,0 +1,567 @@
+[
+  {
+    "id": "L-N19",
+    "doi": "10.1007/s13384-023-00667-z",
+    "retrieved_utc": "2026-10-20T03:49:40.493939+00:00",
+    "attempts": [
+      {
+        "url": "https://link.springer.com/content/pdf/10.1007/s13384-023-00667-z.pdf",
+        "status": 200,
+        "final_url": "https://link.springer.com/content/pdf/10.1007/s13384-023-00667-z.pdf",
+        "content_type": "application/pdf",
+        "bytes": 596309,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1007/s13384-023-00667-z",
+      "title": [
+        "Using institutional ethnography and students’ voices to explore capacity to learn"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1398-3435",
+          "authenticated-orcid": false,
+          "given": "Debra",
+          "family": "Talbot",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "The Australian Educational Researcher"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2023-11-01T00:00:00Z",
+            "timestamp": 1698796800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2023-11-01T00:00:00Z",
+            "timestamp": 1698796800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    "metadata_sha256": "d0b3255be169e76b82972be3fc77505fb2e80c103ee20501ba9a0421edcf022e",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://link.springer.com/content/pdf/10.1007/s13384-023-00667-z.pdf",
+    "format": "pdf",
+    "raw_sha256": "1f7e4e0272bf9c8943851255257285cc2bc9833b7ab12706ea13e6787394eeed",
+    "text_sha256": "73489e9e280d67b705541d834ca59b8c576cb3fed097e947d31482a0475389b4",
+    "text_characters": 54458,
+    "extraction": {
+      "pages": 17,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "cb5b7d9fc2c1e5b181d8c564658d6c2962e21a6290707ca3d585595faed0b858",
+    "reading_blocks": 17,
+    "reading_characters": 55457,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  },
+  {
+    "id": "L-N20",
+    "doi": "10.1080/00313831.2023.2196533",
+    "retrieved_utc": "2026-10-20T03:49:40.493939+00:00",
+    "attempts": [
+      {
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/00313831.2023.2196533",
+        "status": 403,
+        "final_url": "https://www.tandfonline.com/doi/pdf/10.1080/00313831.2023.2196533",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5638,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://www.tandfonline.com/doi/pdf/10.1080/00313831.2023.2196533"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1080/00313831.2023.2196533",
+      "title": [
+        "Revealing student teachers’ sense of professional agency in their teaching practice"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0114-962X",
+          "authenticated-orcid": false,
+          "given": "Britt Oda",
+          "family": "Fosse",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Teacher Education and School Research, University of Oslo, Oslo, Norway"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "Scandinavian Journal of Educational Research"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {
+        "correction": [
+          {
+            "id-type": "doi",
+            "id": "10.1080/00313831.2024.2366573",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                5
+              ]
+            ],
+            "date-time": "2023-04-05T00:00:00Z",
+            "timestamp": 1680652800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "230e9af452f7f0f3e5134ed95c98adf8e7904fc42332bfec3d69ed346a6603d8",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N21",
+    "doi": "10.1111/aeq.12426",
+    "retrieved_utc": "2026-10-20T03:49:40.494960+00:00",
+    "attempts": [
+      {
+        "url": "https://anthrosource.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aeq.12426",
+        "status": 403,
+        "final_url": "https://anthrosource.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aeq.12426",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5658,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://anthrosource.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aeq.12426"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1111/aeq.12426",
+      "title": [
+        "Normalization of English and Identity Construction of Refugee Background Youth from Burma/Myanmar in US Schools"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8194-473X",
+          "authenticated-orcid": false,
+          "given": "Kyaw Win",
+          "family": "Tun",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Lancaster University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            7
+          ]
+        ]
+      },
+      "container-title": [
+        "Anthropology &amp; Education Quarterly"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2022-05-07T00:00:00Z",
+            "timestamp": 1651881600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "9a22e6e7bc9ad05c500ee9f507ecb2a2980e40dce75334288d591526902b28ec",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N22",
+    "doi": "10.1111/lit.70002",
+    "retrieved_utc": "2026-10-20T03:49:43.176611+00:00",
+    "attempts": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lit.70002",
+        "status": 403,
+        "final_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lit.70002",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5624,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lit.70002"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1111/lit.70002",
+      "title": [
+        "Discursive distancing and disconnection‐making in a culturally and linguistically complex book group"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0183-5793",
+          "authenticated-orcid": false,
+          "given": "Jackie",
+          "family": "Ridley",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Teaching, Learning and Curriculum Studies Kent State University  Kent Ohio USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            28
+          ]
+        ]
+      },
+      "container-title": [
+        "Literacy"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                28
+              ]
+            ],
+            "date-time": "2025-04-28T00:00:00Z",
+            "timestamp": 1745798400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "683da3acf1a9f1f1436a8be49092a3b382c017ab6c781b4b2d937a8786bab21d",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N23",
+    "doi": "10.1002/berj.3638",
+    "retrieved_utc": "2026-10-20T03:49:43.446928+00:00",
+    "attempts": [
+      {
+        "url": "https://bera-journals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/berj.3638",
+        "status": 403,
+        "final_url": "https://bera-journals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/berj.3638",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5680,
+        "outcome": "failed",
+        "error": "403 Client Error: Forbidden for url: https://bera-journals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/berj.3638"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1002/berj.3638",
+      "title": [
+        "‘It’s never okay to say no to teachers’: Children’s research consent and dissent in conforming schools contexts"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1502-3438",
+          "authenticated-orcid": false,
+          "given": "Perpetua",
+          "family": "Kirby",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Sussex Brighton UK"
+            },
+            {
+              "name": "School of Education and Social Work Brighton UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            5,
+            30
+          ]
+        ]
+      },
+      "container-title": [
+        "British Educational Research Journal"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                5,
+                30
+              ]
+            ],
+            "date-time": "2020-05-30T00:00:00Z",
+            "timestamp": 1590796800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    "metadata_sha256": "614c4ab19dac11845600aafc017b22de336ad67b1c52ace7cac6c01fa5833b02",
+    "status": "access_failed"
+  },
+  {
+    "id": "L-N24",
+    "doi": "10.1002/berj.70050",
+    "retrieved_utc": "2026-10-20T03:49:45.186213+00:00",
+    "attempts": [
+      {
+        "url": "https://radar.brookes.ac.uk/radar/file/e0210e3d-1d33-4e8d-9c40-9636bf619ee6/1/British%20Educational%20Res%20J%20-%202025%20-%20Lee%20-%20Our%20World%20%20Our%20Futures%20%20A%20dialogic%20approach%20to%20environmental%20literacy%20and%20global.pdf",
+        "status": 200,
+        "final_url": "https://radar.brookes.ac.uk/radar/file/e0210e3d-1d33-4e8d-9c40-9636bf619ee6/1/British%20Educational%20Res%20J%20-%202025%20-%20Lee%20-%20Our%20World%20%20Our%20Futures%20%20A%20dialogic%20approach%20to%20environmental%20literacy%20and%20global.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1350542,
+        "outcome": "downloaded"
+      }
+    ],
+    "reading_status": "not_yet_read",
+    "identity": {
+      "DOI": "10.1002/berj.70050",
+      "title": [
+        "Our World, Our Futures: A dialogic approach to environmental literacy and global citizenship education in primary schools in the Maldives and England"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7557-7010",
+          "authenticated-orcid": false,
+          "given": "Claire",
+          "family": "Lee",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Centre for Psychological Research Oxford Brookes University  Oxford UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aminath",
+          "family": "Shiyama",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Maldives National University  Malé Maldives"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fathimath",
+          "family": "Shafeeqa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Research and Development  Malé Maldives"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            18
+          ]
+        ]
+      },
+      "container-title": [
+        "British Educational Research Journal"
+      ],
+      "type": "journal-article",
+      "update-to": null,
+      "relation": {},
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                18
+              ]
+            ],
+            "date-time": "2025-10-18T00:00:00Z",
+            "timestamp": 1760745600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                18
+              ]
+            ],
+            "date-time": "2025-10-18T00:00:00Z",
+            "timestamp": 1760745600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ]
+    },
+    "metadata_sha256": "ebc8a0ba50409db3b9598f2f73c051f7240fa86664aeb20e280e3b268c9acc82",
+    "status": "downloaded_for_reading",
+    "selected_url": "https://radar.brookes.ac.uk/radar/file/e0210e3d-1d33-4e8d-9c40-9636bf619ee6/1/British%20Educational%20Res%20J%20-%202025%20-%20Lee%20-%20Our%20World%20%20Our%20Futures%20%20A%20dialogic%20approach%20to%20environmental%20literacy%20and%20global.pdf",
+    "format": "pdf",
+    "raw_sha256": "8bf72fae6505bc014be4a7adb27f49b5bda4cf191b3b114f1a808bd3fd609275",
+    "text_sha256": "ab72596f7887f770e303b01ee97d930ade1ada4711c1c7d6c39860e80ffa5ea4",
+    "text_characters": 94866,
+    "extraction": {
+      "pages": 25,
+      "order": "PDF text stream; verify column order against page images before analysis"
+    },
+    "identity_check": "DOI present; title/authors still require reading",
+    "reading_sha256": "7a6588a92627a8e0ae399f03bbdaf1c5162493e07a05b00657324212e1aa9a2b",
+    "reading_blocks": 25,
+    "reading_characters": 96341,
+    "rights_note": "Full text remains outside the public repository; download does not establish reading or endorsement. Reading status here is acquisition-time status; consult reading-coverage.json for later coverage."
+  }
+]

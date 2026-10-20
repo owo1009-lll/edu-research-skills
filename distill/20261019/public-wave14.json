@@ -1,0 +1,85 @@
+{
+  "purpose": "English-only qualitative development candidates broadening authors, settings and analytic traditions. Selection questions require full reading; acquisition does not imply analysis or endorsement. None is an independent final holdout.",
+  "sources": [
+    {
+      "id": "L-N19",
+      "doi": "10.1007/s13384-023-00667-z",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Using institutional ethnography and students’ voices to explore capacity to learn",
+      "selection_question": "How do students' accounts become an analysis of institutional arrangements rather than a list of perceived barriers? Inspect the relation between everyday experience, institutional texts and the author's conceptual claim.",
+      "urls": ["https://link.springer.com/content/pdf/10.1007/s13384-023-00667-z.pdf", "https://link.springer.com/article/10.1007/s13384-023-00667-z"],
+      "publisher_record": "https://link.springer.com/article/10.1007/s13384-023-00667-z",
+      "version_note": "Publisher HTML metadata identifies Debra Talbot and supplies the PDF URL. Online publication 2023; verify the actual downloaded version and scope.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N20",
+      "doi": "10.1080/00313831.2023.2196533",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Revealing student teachers’ sense of professional agency in their teaching practice",
+      "selection_question": "How does interview interpretation distinguish an intention to exercise professional agency from opportunities to act? Check whether specific accounts support that distinction and how the teacher-education recommendation follows.",
+      "urls": ["https://www.tandfonline.com/doi/pdf/10.1080/00313831.2023.2196533"],
+      "publisher_record": "https://www.tandfonline.com/doi/full/10.1080/00313831.2023.2196533",
+      "correction_record": "https://www.tandfonline.com/doi/pdf/10.1080/00313831.2024.2366573",
+      "version_note": "Britt Oda Fosse; online 2023, volume 68(5), 890-903 in 2024. The correction notice was read: a journal-title string had been joined to the article title. Inspect the obtained version rather than counting the correction as a second study. PDF endpoint requires validation.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N21",
+      "doi": "10.1111/aeq.12426",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Normalization of English and Identity Construction of Refugee Background Youth from Burma/Myanmar in US Schools",
+      "selection_question": "How do observed school practices and young people's accounts connect language use with identity and racialization? Examine the steps from particular encounters to the conceptual argument and the treatment of differences among cases.",
+      "urls": ["https://anthrosource.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aeq.12426"],
+      "publisher_record": "https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1111/aeq.12426",
+      "repository_record": "https://research.lancaster-university.uk/en/publications/normalization-of-english-and-identity-construction-of-refugee-bac/",
+      "version_note": "Kyaw Win Tun; online 2022, Anthropology & Education Quarterly 54(1), 59-74 in 2023. University and publisher records match. University record gives CC BY-NC-ND 4.0; source text remains outside the repository. PDF endpoint requires validation.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N22",
+      "doi": "10.1111/lit.70002",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Discursive distancing and disconnection-making in a culturally and linguistically complex book group",
+      "selection_question": "How does close analysis of talk revise a teacher's anticipated connection between readers and a text? Examine how the author distinguishes distancing, engagement and identity without assigning an intention unsupported by the interaction.",
+      "urls": ["https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lit.70002"],
+      "publisher_record": "https://onlinelibrary.wiley.com/doi/10.1111/lit.70002",
+      "version_note": "Jackie Ridley; Literacy 59(3), 336-346, 2025. Publisher identifies open access and a microethnographic/discourse-analytic approach. Actual full-text access and genre still require confirmation.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N23",
+      "doi": "10.1002/berj.3638",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "‘It’s never okay to say no to teachers’: Children’s research consent and dissent in conforming schools contexts",
+      "selection_question": "How do children's actions and a researcher's reflexive account develop an interpretation of consent beyond verbal agreement? Check how episodes support conceptual distinctions and practical research judgments.",
+      "urls": ["https://bera-journals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/berj.3638"],
+      "publisher_record": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.3638",
+      "version_note": "Perpetua Kirby; British Educational Research Journal 46(4), 811-828, 2020. Publisher abstract and identity read; not yet a full-text analysis. Related classroom articles may use the same fieldwork and must not automatically count as independent studies.",
+      "reading_status": "not_yet_read"
+    },
+    {
+      "id": "L-N24",
+      "doi": "10.1002/berj.70050",
+      "candidate_group": "qualitative_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "Our World, Our Futures: A dialogic approach to environmental literacy and global citizenship education in primary schools in the Maldives and England",
+      "selection_question": "How do classroom dialogue, artworks and teacher accounts make a cross-cultural educational contribution specific? Inspect whether the narrative preserves differences between observed learning, reported experience, commitments and implementation constraints.",
+      "urls": ["https://radar.brookes.ac.uk/radar/file/e0210e3d-1d33-4e8d-9c40-9636bf619ee6/1/British%20Educational%20Res%20J%20-%202025%20-%20Lee%20-%20Our%20World%20%20Our%20Futures%20%20A%20dialogic%20approach%20to%20environmental%20literacy%20and%20global.pdf"],
+      "publisher_record": "https://doi.org/10.1002/berj.70050",
+      "version_note": "Claire Lee, Aminath Shiyama and Fathimath Shafeeqa. University PDF title page identifies DOI 10.1002/berj.70050 and British Educational Research Journal 52, 180-204 (2026), copyright 2025, CC BY. Some citing search excerpts use a different DOI; those do not override the actual article. First page screened only.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

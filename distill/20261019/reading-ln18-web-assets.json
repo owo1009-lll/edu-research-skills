@@ -1,0 +1,80 @@
+{
+  "source_id": "L-N18",
+  "doi": "10.1007/s10464-010-9336-7",
+  "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1007/s10464-010-9336-7",
+  "acquisition_method": "Complete public publisher HTML representation obtained with the web reader; overlapping responses saved outside the repository.",
+  "original_pdf_bytes_acquired": false,
+  "original_html_bytes_acquired": false,
+  "reading_sha256": "e5e4ff229672236f19f53a3e3c216851f2c722d5c8ec300ff334e666d429e1d0",
+  "numbered_lines_covered": 759,
+  "missing_line_numbers": [],
+  "main_text_lines": [
+    115,
+    432
+  ],
+  "reference_lines": [
+    435,
+    645
+  ],
+  "extraction_chunks": [
+    {
+      "file": "response-180.txt",
+      "sha256": "65b4d78bfaaeaf2fcef6dbdbcf4f71a3e0149d78ca55507b440c23160d9244dd",
+      "line_min": 0,
+      "line_max": 290,
+      "lines_retained": 291
+    },
+    {
+      "file": "response-300.txt",
+      "sha256": "a39e540f0e3a3f1ebee961788fd034bf4cf8bf2a7fe7697971fdcfaffbbbbd45",
+      "line_min": 247,
+      "line_max": 388,
+      "lines_retained": 142
+    },
+    {
+      "file": "response-360.txt",
+      "sha256": "098f3d4483475c61e88bd6bcb50fc161f0e066afb3b0611a92bfd6e9483e2579",
+      "line_min": 314,
+      "line_max": 527,
+      "lines_retained": 214
+    },
+    {
+      "file": "response-540.txt",
+      "sha256": "7d0718368e63db994e39e3f8d06906f1b4a77bb5371805e0f96f22597ada7745",
+      "line_min": 373,
+      "line_max": 758,
+      "lines_retained": 386
+    },
+    {
+      "file": "response-720.txt",
+      "sha256": "dc82fd3990ae4e81025c57dc2b2bad375dfd75a52ececf81bcad4191aee506a3",
+      "line_min": 373,
+      "line_max": 758,
+      "lines_retained": 386
+    }
+  ],
+  "overlap_resolution": {
+    "line": 388,
+    "issue": "The response-300.txt boundary truncates the teacher reflection. Its surviving text is a prefix of the three matching complete versions.",
+    "complete_matching_responses": [
+      "response-360.txt",
+      "response-540.txt",
+      "response-720.txt"
+    ],
+    "merged_text_uses_complete_version": true,
+    "unresolved_conflicts": []
+  },
+  "reading_status": "complete_main_web_text_and_references_read; English analysis written",
+  "visual_scope": "No numbered result figure or table in the acquired main-text representation; no original PDF, page rendering or visual completeness audit. Generic website image/viewer links are not counted as research figures.",
+  "access_limitations": [
+    "Earlier direct publisher PDF request returned 403.",
+    "Direct HTML request returned 403; web-reader access supplies the complete text representation, not original response bytes."
+  ],
+  "not_read": [
+    "Raw field notes and recordings",
+    "Student research outputs beyond reproduced accounts",
+    "Complete teacher paper",
+    "Cited original literature"
+  ],
+  "reproduction": "Open the public publisher full-text URL and locate the named sections and passages cited in papers/L-N18.md. Line numbers refer to the saved 759-line web representation and may change on retrieval. Verify the article against its DOI, title and authors. No full source text, private manuscript or participant records are published here."
+}

@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-10-20T04:00:41.248186+00:00",
+  "comparison_commit": "15850fd75cd5bb2e5da3e474766e41d844cb0187",
+  "status": "passed",
+  "english_new_candidates": 66,
+  "english_acquired_or_completely_web_read_fulltexts": 48,
+  "english_new_empirical_or_boundary_analyses": 42,
+  "confirmed_empirical_groups": {
+    "quantitative": 14,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 13,
+    "mixed": 14
+  },
+  "english_methodological_application_analyses": 2,
+  "english_screening_counterexamples_separate": 1,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "L-N18"
+  ],
+  "unchanged_previous_reading_records": 65,
+  "historical_chinese_records_unchanged": 4,
+  "new_candidate_ids": [
+    "L-N19",
+    "L-N20",
+    "L-N21",
+    "L-N22",
+    "L-N23",
+    "L-N24"
+  ],
+  "new_pdf_acquisitions": [
+    "L-N19",
+    "L-N24"
+  ],
+  "new_pdf_opening_pages_read_only": 2,
+  "new_failed_pdf_requests": [
+    "L-N20",
+    "L-N21",
+    "L-N22",
+    "L-N23"
+  ],
+  "existing_candidate_access_upgrade_and_analysis": [
+    "L-N18"
+  ],
+  "complete_web_representation_lines_read": 759,
+  "unresolved_web_overlap_conflicts": [],
+  "web_pdf_or_page_layout_visual_inspection": false,
+  "source_metadata_reading_and_response_hashes_verified": 16,
+  "analysis_note_reading_hash_references_verified": 47,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 94,
+  "authored_relative_markdown_links_checked": 404,
+  "changed_files_local_path_check": "passed",
+  "note": "Checks source-record consistency, provenance hashes, local links and unchanged runtime. Does not automate the accuracy of literary analysis, demonstrate writing-quality gains or complete the corpus and final evaluation. No new Chinese source work. CI results must be checked separately after the commit is pushed."
+}
