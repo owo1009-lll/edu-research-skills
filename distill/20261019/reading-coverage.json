@@ -1035,12 +1035,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_and_opening_screened",
-      "analysis": null,
-      "use_status": "pending_full_reading_and_classification",
-      "read_scope": "PDF page 1 only: title, author(s), DOI, version and opening/abstract; remaining pages not yet read.",
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/L-N19.md",
+      "use_status": "selected_linking_and_explanatory_writing_moves; source_boundaries_retained; no runtime adoption",
+      "read_scope": "All 17 PDF pages, B001-B017: complete main text, reproduced exchanges, references, declarations and author information. Six page renders actually viewed: PDF 1,5,9,11,13,14. No numbered research tables or figures.",
       "reading_sha256": "cb5b7d9fc2c1e5b181d8c564658d6c2962e21a6290707ca3d585595faed0b858",
-      "not_read": "Remaining PDF pages, figures, tables, supplements and cited originals."
+      "not_read": "Complete interview transcripts, elicitation-image set, analytic map, school report, original school plan, survey instrument/data and cited originals.",
+      "confirmed_group": "qualitative",
+      "classification_note": "Qualitative institutional ethnography linking student accounts, selected teacher interviews and an executive focus group. No quantitative outcome evaluation; report selects findings that surprised the executive."
     },
     {
       "id": "L-N20",

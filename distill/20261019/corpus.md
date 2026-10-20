@@ -26,19 +26,19 @@
 
 候选身份和来源见 [第一批](public-sources.json)、[第二批](public-wave2.json)、[第三批](public-wave3.json)、[第四批](public-wave4.json)、[第五批（仅英文）](public-wave5.json)、[第六批（仅英文）](public-wave6.json)、[第七批（仅英文）](public-wave7.json)、[第八批（仅英文）](public-wave8.json)、[第九批（仅英文）](public-wave9.json)、[第十批（仅英文）](public-wave10.json)、[第十一批（仅英文）](public-wave11.json)。其中 `selection_question` 是筛选问题，不是已经证实的优秀写法；候选类型也须经全文核读确认。获取状态与完成精读记录分开保存，脚本不得自动将“下载成功”升级为“精读完成”。跨批重试各自只计一篇。
 
-当前实际进度见 [reading-coverage.json](reading-coverage.json)：十四批历史清单合计 70 个不同候选、51 篇取得可读全文；其中本轮有效英文范围为 **66 个候选、48 篇取得可读全文、42 篇完成实证／边界案例分析，另有两篇方法应用分析及一篇筛选反例**。英文全文中 46 篇下载成功，M-N12 通过公开 PDF 阅读工具、L-N18 通过出版社 HTML 阅读工具完整读取并保存定位文本，均未取得原始文件字节；获取数含背景方法文与待确认类型。[M-N12](papers/M-N12.md) 和 [M-N16](papers/M-N16.md) 是带实际研究应用的方法论文章；[M-N22](papers/M-N22.md) 是完成全文分析后单列的筛选反例，均不加入下表的实证范例数。两篇英文旧文复读 Q-R01、M-R01 单列。中文 Q-ZH01 已部分读取第 1–9 页，随后按用户要求停止；L-ZH01、M-ZH01 已获取未精读，X-ZH01 仅筛读首页；四项均退出本轮范围，不计入英文进度。候选与获取记录保留当时状态，后续以实际读取清单的 `scope_status` 及读取范围为准。M-N09 的出版社身份已核对，但其所报 DOI 登记尚未确认；L-N14、M-N21 的 Crossref 请求返回 429，身份另由出版社全文元数据核对，不称所有候选 DOI 均完成登记核验。
+当前实际进度见 [reading-coverage.json](reading-coverage.json)：十四批历史清单合计 70 个不同候选、51 篇取得可读全文；其中本轮有效英文范围为 **66 个候选、48 篇取得可读全文、43 篇完成实证／边界案例分析，另有两篇方法应用分析及一篇筛选反例**。英文全文中 46 篇下载成功，M-N12 通过公开 PDF 阅读工具、L-N18 通过出版社 HTML 阅读工具完整读取并保存定位文本，均未取得原始文件字节；获取数含背景方法文与待确认类型。[M-N12](papers/M-N12.md) 和 [M-N16](papers/M-N16.md) 是带实际研究应用的方法论文章；[M-N22](papers/M-N22.md) 是完成全文分析后单列的筛选反例，均不加入下表的实证范例数。两篇英文旧文复读 Q-R01、M-R01 单列。中文 Q-ZH01 已部分读取第 1–9 页，随后按用户要求停止；L-ZH01、M-ZH01 已获取未精读，X-ZH01 仅筛读首页；四项均退出本轮范围，不计入英文进度。候选与获取记录保留当时状态，后续以实际读取清单的 `scope_status` 及读取范围为准。M-N09 的出版社身份已核对，但其所报 DOI 登记尚未确认；L-N14、M-N21 的 Crossref 请求返回 429，身份另由出版社全文元数据核对，不称所有候选 DOI 均完成登记核验。
 
 | 完成分析的组别 | 新增开发文章 | 此阶段能比较的对象 | 尚缺的覆盖 |
 |---|---|---|---|
 | 定量 | Q-N01、Q-N02、Q-N03、Q-N05、Q-N07、Q-N08、Q-N10、Q-N11、Q-N12、Q-N13、Q-N15、Q-N16、Q-N17、Q-N18 | 情境适配、比较设计、主要结局、长期推算、纵向参照、理论进入活动、跨层级比较、财政调整、课堂练习、家庭参与条件、学习体验与知识表现的区别，以及结局的教育含义、未获支持预期和实施差异的解释 | 仍需扩大团队与领域覆盖；保留随机试验和观察研究的不同推断范围，不以实践方向明确为由照搬原文全部因果判断 |
-| 质性 | L-N02、L-N04、L-N07、L-N08、L-N09、L-N10、L-N11、L-N12、L-N13、L-N14、L-N15、L-N17、L-N18 | 参与时机、身份、政策协商、话轮中的知识和责任、导师关系、合作评价、反思对象、文档流动、权力与社区关系，以及经验与新角色身份、研究者反思参与式项目的具体安排 | 观察互动、回顾档案与文档流动须分别理解；L-N14 规范立场和反例并存，不能统一套用或降调，作者与场景覆盖仍不足 |
+| 质性 | L-N02、L-N04、L-N07、L-N08、L-N09、L-N10、L-N11、L-N12、L-N13、L-N14、L-N15、L-N17、L-N18、L-N19 | 参与时机、身份、政策协商、话轮中的知识和责任、导师关系、合作评价、反思对象、文档流动、权力与社区关系，以及经验与新角色身份、研究者反思参与式项目的具体安排、学生经验与学校规划之间的追溯 | 观察互动、回顾档案与文档流动须分别理解；L-N14 规范立场和反例并存，不能统一套用或降调，作者与场景覆盖仍不足 |
 | 混合 | M-N01、M-N04、M-N06、M-N07、M-N09、M-N10、M-N13、M-N14、M-N15、M-N17、M-N19、M-N20、M-N21、M-N23 | 解释型案例、工具修订、汇聚型功能解释、思想回应、支持需求、类型连接评价、调查检视模型、联合展示中的相反体验，以及访谈和开放回答改变分数与类别的解释；区分资源可得、合作意愿、教师实际需要及参与感与决策权 | 整合层级与不一致仍需更多跨作者证据；联合展示不自动完成解释，感受、预期、描述与关联不当作干预效果 |
 | 混合分析边界案例 | L-N01 | 同一访谈的编码比例与叙述，持续就读与归属的非对应 | 不视为独立定量／质性两批资料；不替代上述混合设计覆盖 |
 | 方法应用，单列 | M-N12、M-N16 | 实际项目中的联合展示迭代与参与式整合 | 不充抵实证范例数，不把同一项目的不同报告当作独立研究 |
 | 筛选反例，单列 | M-N22 | 总体显著性与概念类别对应，不足以解释具体分数变化；局部反思活动描述仍可供修改示例使用 | 不计入优秀混合研究范例，保留原文的概念与统计报告疑点 |
 | 旧文复读 | 定量 Q-R01；混合 M-R01 | 与新增来源比较具体解释动作 | 不计新增，更不计独立评测 |
 
-每篇笔记包含正面动作与不采纳的推断。整体语料仍显著不足，不能把这 42 篇当作已达到每类约 50–100 篇的规模参考。尚无本轮最终版本独立留出评测；阅读次数不代表验证情境数量。来源失败、版本待核对和去重范围见 [筛选说明](source-screening.md)。[组内候选比较](candidate-methods.md) 将具体动作与旧输出、旧规则和适用情境连接，仍不作为正式方法或效果结论。M-N09、Q-N08、L-N11 各用于一次当前版本的英文新写和一次真实段落压缩，共三项开发研究、六项操作；没有重复生成或新规则对照，见[英文开发诊断](../../evals/writing-20261020/README.md)。
+每篇笔记包含正面动作与不采纳的推断。整体语料仍显著不足，不能把这 43 篇当作已达到每类约 50–100 篇的规模参考。尚无本轮最终版本独立留出评测；阅读次数不代表验证情境数量。来源失败、版本待核对和去重范围见 [筛选说明](source-screening.md)。[组内候选比较](candidate-methods.md) 将具体动作与旧输出、旧规则和适用情境连接，仍不作为正式方法或效果结论。M-N09、Q-N08、L-N11 各用于一次当前版本的英文新写和一次真实段落压缩，共三项开发研究、六项操作；没有重复生成或新规则对照，见[英文开发诊断](../../evals/writing-20261020/README.md)。
 
 ## 可复现获取
 
@@ -65,4 +65,6 @@ python distill/20261018/prepare_reading.py --manifest distill/20261019/public-so
 
 第八批使用 `public-wave8.json` 两项和新的外部缓存目录，取得 Q-N12 的 ERIC 作者稿及 Q-N13 的大学实验室公开 PDF，见[获取摘要](acquisition-public-wave8.json)。两篇现均已完成全文及主表图分析，分别实际查看 11 页和五页渲染。Q-N12 在线年份为 2019、卷期为 2020；Q-N13 为 2015 年 OnlineFirst 排版，按实际文件定位。Q-N12 的 OSF 原始材料未读，Q-N13 补充 DOC 未取得，均不把主文分析当作全部附件已核验。另检索到的 Deslauriers 等主动学习论文已作为 E02／T1 使用，未重复登记为新增。
 
-[Wave 14](public-wave14.json) registers six further English qualitative candidates, with [two PDF acquisitions and four failed PDF requests](acquisition-public-wave14.json). L-N19 and L-N24 have only their first pages screened. The existing candidate [L-N18](papers/L-N18.md) is now analyzed as a qualitative reflexive implementation case, with [complete web-text provenance](reading-ln18-web-assets.json); this access upgrade adds no new candidate. Its student-led surveys are embedded activities and do not establish a separately evaluated mixed-methods intervention. Current totals above include this distinction.
+[Wave 14](public-wave14.json) registers six further English qualitative candidates, with [two PDF acquisitions and four failed PDF requests](acquisition-public-wave14.json). L-N19 now has a complete analysis; L-N24 still has only its first page screened. The existing candidate [L-N18](papers/L-N18.md) is now analyzed as a qualitative reflexive implementation case, with [complete web-text provenance](reading-ln18-web-assets.json); this access upgrade adds no new candidate. Its student-led surveys are embedded activities and do not establish a separately evaluated mixed-methods intervention. Current totals above include this distinction.
+
+[L-N19](papers/L-N19.md) adds institutional ethnography to the completed qualitative set, with [17-page reading and six-page visual provenance](reading-ln19-assets.json). The English paragraph analysis and same-fact edits follow classroom accounts into an organizational provision, while keeping reported experience distinct from evaluated effects. No new source was registered in this reading increment; current candidate and acquisition totals are unchanged.

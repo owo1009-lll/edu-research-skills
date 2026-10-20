@@ -270,3 +270,9 @@ python distill/20261018/prepare_reading.py --manifest distill/20261019/public-wa
 ```
 
 The existing runtime remains unchanged. Current English totals are 66 candidates, 48 acquired/readable full texts and 42 empirical/boundary analyses, plus two method applications, one screening counterexample and two rereads. The four historical Chinese records are unchanged and excluded. This is development-source progress, not completion of corpus breadth, a new behavioral comparison or final independent validation.
+
+## L-N19 complete English institutional-ethnography reading
+
+L-N19's previously acquired public publisher PDF has now been read in full: all 17 pages, B001–B017, including reproduced exchanges, references, declarations and author information. Six page images were actually inspected (PDF pp. 1, 5, 9, 11, 13, 14); the [asset record](reading-ln19-assets.json) gives source/reading hashes, page hashes and exact visual scope. No numbered research figures or tables occur in the article. The full transcripts, elicitation-image set, analytic map, school plan, survey instrument/data, school report and cited originals remain unread independently.
+
+The [English analysis](papers/L-N19.md) includes the article's question and standpoint, the methods change, a seven-sentence paragraph analysis, article-level organization, same-fact revision/compression and source limitations. It preserves the author's institutional argument and the helpful practices students describe, while distinguishing those accounts from evaluated effects. No additional candidate or acquisition is counted: current English totals remain 66 candidates and 48 acquired/readable full texts, with completed empirical/boundary analyses increasing to 43 (quantitative 14, qualitative 14, mixed 14, boundary 1). Method applications, the screening counterexample and rereads remain separate. No runtime file or historical Chinese record was changed.

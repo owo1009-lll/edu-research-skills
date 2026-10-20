@@ -1,0 +1,67 @@
+{
+  "source_id": "L-N19",
+  "doi": "10.1007/s13384-023-00667-z",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s13384-023-00667-z.pdf",
+  "publisher_url": "https://link.springer.com/article/10.1007/s13384-023-00667-z",
+  "source_pdf_sha256": "1f7e4e0272bf9c8943851255257285cc2bc9833b7ab12706ea13e6787394eeed",
+  "reading_sha256": "cb5b7d9fc2c1e5b181d8c564658d6c2962e21a6290707ca3d585595faed0b858",
+  "reading_scope": "All 17 PDF pages, B001-B017, including main text, reproduced dialogue, references, declarations and author information.",
+  "numbered_research_tables": 0,
+  "numbered_research_figures": 0,
+  "page_renders_actually_viewed": [
+    {
+      "pdf_page": 1,
+      "printed_page": 1831,
+      "file": "page-01.png",
+      "sha256": "92bab36b5b7a9c55048f11b81f40de3b6bae056c940ad7d6f1842367e1929579",
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 1835,
+      "file": "page-05.png",
+      "sha256": "31dab426b1cd8bf9e065911046517c4f3bb47a76f11f289e5699da897e2c5187",
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 1839,
+      "file": "page-09.png",
+      "sha256": "aeed761a5302359fe134bf8936236ebfa207b430879fc6b32114d36d91661205",
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 1841,
+      "file": "page-11.png",
+      "sha256": "84f564d4d1aeea82196c49d26d79e7f23d39ada1c8fd49edd64509e9306b6b0e",
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 1843,
+      "file": "page-13.png",
+      "sha256": "4c521ef3cafdca5ee65d790585fa8452cfa94c40738f787eec87a079cbaa45dc",
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 1844,
+      "file": "page-14.png",
+      "sha256": "1f704b3194c478917e2de39dd65f2e5db6304ae7daed836e69684326c2299d06",
+      "actually_viewed": true
+    }
+  ],
+  "rendering": "PyMuPDF 1.4x page rendering; six listed pages inspected for paragraph boundaries, speaker attribution, reading order and title/version identity. Additional rendered pages were not counted as viewed.",
+  "not_read": [
+    "Full interview transcripts",
+    "Original elicitation-image set",
+    "Hand-drawn analytic map",
+    "Complete school report",
+    "School Plan 2018-2020",
+    "Survey instrument and data",
+    "Cited original literature"
+  ],
+  "rights": "CC BY 4.0 stated on PDF page 15. Source PDF and images remain outside the public repository; public note and teaching examples are original writing.",
+  "reproduction": "Download the linked public PDF, confirm DOI/title/author and the source hash, read all 17 pages, and inspect the six identified pages. Analysis locators use printed page numbers. This is reading evidence, not a writing-effect evaluation."
+}
