@@ -963,11 +963,15 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_or_opening_screened_only",
-      "analysis": null,
-      "use_status": "pending_full_reading_and_classification",
+      "reading_status": "main_text_and_supplement_read_and_analysis_written",
+      "analysis": "papers/Q-N18.md",
+      "use_status": "outcome_meaning_competing_explanations_and_author_voice_examples; reporting_counterexamples_retained; no runtime adoption",
       "reading_sha256": "d40a2b89a192aa3c3a9d9914bbb3a7cc70c7c542c2f4b62d1c64624fcddb6898",
-      "read_scope": "Title, authors and opening abstract excerpt only; six-page article and 26-page supplement acquired, not fully read."
+      "read_scope": "B001-B006; all six article pages including Figures 1-2, references and declarations; all 26 supplement pages including prompts, Tables S1-S3 and Figures S1-S2. Actual page images inspected: article 1-6 and supplement 21-26.",
+      "confirmed_group": "quantitative",
+      "supplement_reading_sha256": "d3d69b718bb5cad274fce3983e46f216f4db13ad5f6dbe701be20c4bc9434e62",
+      "not_read": "Raw participant data, analysis code, registration and cited originals; no model reanalysis.",
+      "classification_note": "Individually randomized educational field experiment, blocked by gender and economic background within cohort. Two cohorts in one high school; combined intervention included in one cohort. Development source, not independent holdout."
     },
     {
       "id": "L-N18",

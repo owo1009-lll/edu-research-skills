@@ -2,7 +2,7 @@
 
 状态：开发候选，尚未加载到正式 skill。Q-C01、L-C01、M-C01 均已完成各一项英文研究上的新写／压缩对照，具体结果及限度见各节；三项候选均未进入运行规则。下列旧样稿提供具体编辑问题及基线已有能力的线索，不代表这些问题在当前版本普遍存在。它们来自上一轮 p/q/r 的相应快照；本轮基线仍是 `684f5e435b76daf8d0109c9c6a93297542c59889`，不能互相替换。
 
-本轮目前完成 37 篇新增英文实证／边界案例分析、一篇方法应用分析及两篇英文复读，远未完成语料规模和覆盖。这里先做类型内部的局部比较，不据此宣布跨类型共性或最终选择。每项都可能因当前基线已能完成、加载收益不足或带来退步而不进入运行规则。
+本轮目前完成 39 篇新增英文实证／边界案例分析、两篇方法应用分析及两篇英文复读，远未完成语料规模和覆盖。这里先做类型内部的局部比较，不据此宣布跨类型共性或最终选择。每项都可能因当前基线已能完成、加载收益不足或带来退步而不进入运行规则。
 
 ## Q-C01：解释一个指标或比较为什么承担当前判断
 
@@ -140,6 +140,8 @@ Both notes contain original English same-fact edits. They remain development ill
 ## Additional English quantitative and autoethnographic comparison
 
 [Q-N15](papers/Q-N15.md), p. 3 and pp. 14–18, extends Q-N12 and Q-N16 with an adverse-result case. Its introduction turns competing expectations about initial difficulties into an open comparison. Its discussion gives selection, peer influence and programme delivery different explanatory roles. The same-fact English edit states a source-specific pattern while retaining the unresolved agreement between outcome sources. The article's post-allocation subgroups, scoring ambiguities and unsupported no-effect claims are counterexamples, not adopted statistical guidance. Existing comparison and interpretation rules already cover the relevant distinction; this reading does not warrant adding another mandatory discussion sequence.
+
+[Q-N18](papers/Q-N18.md), pp. 1556–1557 and supplement pp. 5, 10–15, 21–26, adds two positive moves: explain an outcome through the educational progression it permits, and develop an unsuccessful prediction into a concrete alternative comparison. The five-sentence discussion of the combined intervention moves from expectation to possible overlap, then to a different ordering and what students would do differently. Its English revision retains the active control, pooled contrast, remaining income gap and affirmative recommendation. Unlike Q-N15's post-allocation participation comparisons, the intervention assignment here is randomized; the proposed explanation still requires its own test. The inconsistent standardized-effect report and outcome-specific differences remain explicit. Existing guidance on competing explanations and practical judgment already permits these moves; this is a development example, not a new Q-C01 result or a mandatory sequence.
 
 [L-N17](papers/L-N17.md), printed pp. 14–17, extends L-N15's role-identity comparison and L-N13's attention to artifacts through collaborative autoethnography. A student's criticism changes teaching materials; the teacher's decision to acknowledge that contribution makes her relational concept visible. Galina's separate narrative reinterprets multilingual experience as a professional resource. Preserve these distinct author positions, the remembered character of the evidence and the negative evaluation that motivates one narrative. The positive edit removes repeated labels while retaining the criticism, response and public acknowledgement. It does not require an anecdote in every paragraph or add a student-outcome effect. This is development-source comparison, not a new L-C01 win or final holdout result.
 

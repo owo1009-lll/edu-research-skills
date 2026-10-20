@@ -1,0 +1,159 @@
+{
+  "source_id": "Q-N18",
+  "doi": "10.1073/pnas.1808589116",
+  "repository_record": "https://knowledge.uchicago.edu/records/rm0gx-0yk64",
+  "reading_completed_utc": "2026-10-20T01:25:00.095860+00:00",
+  "renderer": "PyMuPDF 1.27.2.2",
+  "scale": 1.6,
+  "documents": [
+    {
+      "document": "source",
+      "url": "https://knowledge.uchicago.edu/records/rm0gx-0yk64/files/rozek-et-al-2019-reducing-socioeconomic-disparities-in-the-stem-pipeline-through-student-emotion-regulation.pdf?download=1",
+      "pdf_pages": 6,
+      "source_sha256": "bbdc0856570b7992416c9ad943f0ecddd7ea67779633cfff62d14f695f634e9a",
+      "reading_sha256": "d40a2b89a192aa3c3a9d9914bbb3a7cc70c7c542c2f4b62d1c64624fcddb6898",
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "actual_page_images_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "images": [
+        {
+          "document": "source",
+          "page": 1,
+          "file": "source-01.png",
+          "sha256": "2e43701898f791f24c5ed54acda766753e4e47e040d6e9bf08ff12f9ccb039ee"
+        },
+        {
+          "document": "source",
+          "page": 2,
+          "file": "source-02.png",
+          "sha256": "cde795249c07397b905c0857d919a2c2b3d821de557f214af9555db03782d3e1"
+        },
+        {
+          "document": "source",
+          "page": 3,
+          "file": "source-03.png",
+          "sha256": "b0681fa631999462daf1701f67ac9fe0f91b3e2aa460491dc7134f2b489cbcd2"
+        },
+        {
+          "document": "source",
+          "page": 4,
+          "file": "source-04.png",
+          "sha256": "8a7417dc30b4ca449954f84ddf86c55ad29deae510580865ac1d58597b1992c7"
+        },
+        {
+          "document": "source",
+          "page": 5,
+          "file": "source-05.png",
+          "sha256": "58a0dcccbd3814722fe28f5b81ae7a752e654900cdf26d71181284e6e1c7e865"
+        },
+        {
+          "document": "source",
+          "page": 6,
+          "file": "source-06.png",
+          "sha256": "955400d25bf44d6cc971401a9a56b03199f851d2d23bbb99cdf099ccc0e80129"
+        }
+      ]
+    },
+    {
+      "document": "supplement",
+      "url": "https://knowledge.uchicago.edu/records/rm0gx-0yk64/files/pnas.1808589116.sapp.pdf?download=1",
+      "pdf_pages": 26,
+      "source_sha256": "a0c131fe1f99a2df0b0ad0fb13fc22af0cabe8863ff58a74b9261f5b56e7d474",
+      "reading_sha256": "d3d69b718bb5cad274fce3983e46f216f4db13ad5f6dbe701be20c4bc9434e62",
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "actual_page_images_inspected": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "images": [
+        {
+          "document": "supplement",
+          "page": 21,
+          "file": "supplement-21.png",
+          "sha256": "20fa1a5d3e7c3f96144804e837c033992873145dce04c11cfa25d5567f8e361a"
+        },
+        {
+          "document": "supplement",
+          "page": 22,
+          "file": "supplement-22.png",
+          "sha256": "9507660539828cbb3efe5f9aa1bd5c9881bd79c7020e22137cb4f1e4209992c8"
+        },
+        {
+          "document": "supplement",
+          "page": 23,
+          "file": "supplement-23.png",
+          "sha256": "efb8bc3c3b4dd149e08e3f37f353a047d5da1e75cddb2ab81252df66927b1505"
+        },
+        {
+          "document": "supplement",
+          "page": 24,
+          "file": "supplement-24.png",
+          "sha256": "fa940690239be1c2fb52e9fb33d2e477d72ad1769e5804021245b1f23d54f536"
+        },
+        {
+          "document": "supplement",
+          "page": 25,
+          "file": "supplement-25.png",
+          "sha256": "daee1f99bb23177597b44b2a067c002e89a9e7a06ff56c95b118223ff802a018"
+        },
+        {
+          "document": "supplement",
+          "page": 26,
+          "file": "supplement-26.png",
+          "sha256": "d1ebc4ad83b3d096f83b3c182afbb29837ef866eec42483eb11022852a899428"
+        }
+      ]
+    }
+  ],
+  "not_read": [
+    "Raw participant data",
+    "Analysis code",
+    "Registration",
+    "Cited original publications"
+  ],
+  "note": "All text pages were read; only the listed page images were inspected. Images and full texts remain outside the repository. Acquisition-time not-read statuses in older digests are historical."
+}

@@ -1,0 +1,38 @@
+{
+  "checked_utc": "2026-10-20T01:32:27.220389+00:00",
+  "comparison_commit": "44804fbed9c11b10c3aa1185bc7d0076ae3c6920",
+  "status": "passed",
+  "english_new_candidates": 60,
+  "english_acquired_or_completely_web_read_fulltexts": 45,
+  "english_new_empirical_or_boundary_analyses": 39,
+  "confirmed_empirical_groups": {
+    "quantitative": 13,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 12,
+    "mixed": 13
+  },
+  "english_methodological_application_analyses": 2,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "Q-N18"
+  ],
+  "unchanged_previous_reading_records": 65,
+  "historical_chinese_records_unchanged": 4,
+  "new_acquisitions": 0,
+  "new_full_analysis": [
+    "Q-N18"
+  ],
+  "article_text_pages_read": 6,
+  "supplement_text_pages_read": 26,
+  "actual_page_image_hashes_verified": 12,
+  "source_and_reading_hashes_verified": 4,
+  "analysis_note_reading_hash_references_verified": 43,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 86,
+  "authored_relative_markdown_links_checked": 359,
+  "changed_files_local_path_check": "passed",
+  "note": "This verifies the English source-reading increment and unchanged runtime. It does not validate source statistics, demonstrate a writing-quality improvement, or complete the overall goal."
+}
