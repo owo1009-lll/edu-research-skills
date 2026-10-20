@@ -1,0 +1,37 @@
+{
+  "checked_utc": "2026-10-20T05:01:22.853800+00:00",
+  "comparison_commit": "596e87b72d631b9a4adac757ff2ffad565c211fd",
+  "status": "passed",
+  "scope_change": "User clarified that corpus size is illustrative, not a completion gate. Work moves to synthesis and actual-version validation, with only gap-driven additional reading.",
+  "reading_ledger_unchanged": true,
+  "historical_chinese_records_unchanged": true,
+  "new_source_analyses_in_this_increment": 0,
+  "runtime_comparison_snapshot": "evals/review-forward-20261020/snapshot.json",
+  "runtime_files_compared": 203,
+  "expected_runtime_files_changed": [
+    {
+      "path": "skills/edu-writing/references/conclusion-implications.md",
+      "sha256": "87d15f7f8dde822509b0232b0c086f24e2498368a7333adfaf3cd205a8be92d6"
+    },
+    {
+      "path": "skills/edu-writing/references/voice-en.md",
+      "sha256": "6b8ba97c556de224dd7080142d2963f9930d20646a12dc80c3e31537935c756b"
+    },
+    {
+      "path": "skills/edu-writing/references/voice-zh.md",
+      "sha256": "8ba74eede1503ac01f18fa1d246b599fc4c25023e3528c8cf7b3292aa318cf52"
+    }
+  ],
+  "other_runtime_files_byte_identical": 200,
+  "historical_evaluation_snapshot_unchanged": true,
+  "new_behavioral_writing_comparisons": 0,
+  "authored_relative_markdown_links_checked": 487,
+  "json_files_parsed_excluding_this_record": 103,
+  "local_checks": {
+    "contract_tests": "10 passed",
+    "skill_creator_quick_validate": "passed",
+    "git_diff_check": "passed",
+    "changed_files_public_path_check": "passed"
+  },
+  "limitation": "This verifies a scoped rule-conflict repair and development records, not writing-quality improvement. Earlier behavior results belong to their recorded snapshots. Final independent validation must freeze and test the updated actual runtime; remote CI is checked separately after push."
+}

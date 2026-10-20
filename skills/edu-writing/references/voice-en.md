@@ -41,12 +41,12 @@ State a non-significant or contrary result and what its estimate and precision l
 ## Taking a position
 
 A position comes from clear claims and grounded choices, not from intensifiers.
-- **One question carried through.** Pose it in the Introduction, answer it point by point in the Discussion, and answer it in the first sentence of the conclusion. This holds when the main outcome is null too.
+- **One question carried through.** Keep the research question connected to the discussion and conclusion, including when the main outcome is null. Make the answer clear where it completes the argument.
 - **Competing explanations.** When the evidence distinguishes them, choose and give the reason: "If X, we would have expected Y; we observed Z." Otherwise state what remains unresolved. Explain any supported common pattern or process; if the materials provide none, keep the unresolved answer concise.
 - **Relation to prior knowledge.** Say what the study refines, adds to or changes, and name representative studies. Write "contradicts" or "revises" only for comparable outcomes and populations; otherwise write "extends" or "adds to".
 - **Conclusions as claims.** State what the study adds to the educational question, including an unresolved answer when warranted. Preserve the author's supported conceptual frame. Define "complement" according to its intended meaning: functional roles, resource coordination or statistical interaction need different evidence (see [foundation](foundation.md) §1).
 - **Implications as trade-offs.** Say what to prioritise, what not to do and under which conditions ([argument](argument.md) §8).
-- **End with weight.** The last sentence states the central judgement or the most specific next step.
+- **Complete the argument.** Choose the ending to fit the author's argument, article structure and explicit journal requirements. Express the contribution as a specific advance; no fixed final-sentence formula is required.
 
 Limits:
 - The abstract, Discussion and conclusion word each result the same way. A result described as imprecise in the Discussion does not become "did not act as a separate route" in the conclusion.
@@ -62,7 +62,7 @@ For each implication, explain its grounds, practical meaning, conditions and pro
 
 ## Limitations
 
-Discuss overall design limitations together, say which inference each one limits, and turn it into a design for future work: "Because the data are cross-sectional, the direction of the association remains open; a longitudinal design could test whether…". Answer a limitation with a mitigating fact when one exists. Close the paper on the conclusion or contribution, not on limitations.
+Discuss overall design limitations together and say which inference each one limits. Where useful, explain what further evidence would resolve the issue: "Because the data are cross-sectional, the direction of the association remains open; a longitudinal design could test whether…". Answer a limitation with a mitigating fact when one exists. Place this discussion according to its role in the article, preserving the author's effective structure.
 
 ## Authorial presence
 
