@@ -1,0 +1,17 @@
+{
+  "source": "@RUN@\\after\\slides.pptx",
+  "pptx_sha256": "3fa47757f87b0bf996f2aa6d472f9b346897346fb26b8d598072261fb89df99d",
+  "status": "rendered",
+  "visual_review": "not_performed",
+  "errors": [],
+  "engine": "PowerPoint COM",
+  "slides": 3,
+  "contact_sheets": [
+    "contact-01.png"
+  ],
+  "images": {
+    "slide-001.png": "8397f626fb3f367bd3a2998c698ca9f37bb94cdec1034c59d5de356b8f34ede8",
+    "slide-002.png": "4a932e8869fa238bb4b336b013e4fcc4d5eaa02669bb33d4b9a1142faffe00d8",
+    "slide-003.png": "a148431ca10b691d2f96fae0ca5872d89440e8b6ef041ad2b7d66e553118bfd8"
+  }
+}

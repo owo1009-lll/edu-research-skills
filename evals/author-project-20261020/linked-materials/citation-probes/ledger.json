@@ -1,0 +1,23 @@
+{
+  "references": [
+    {
+      "id": "SYN-01",
+      "title": "虚构访谈研究",
+      "identity_verified": true
+    }
+  ],
+  "claims": [
+    {
+      "block_id": "citation-SYN-01",
+      "reference_id": "SYN-01",
+      "status": "supported",
+      "reason": "访谈原文支持学生自述理解作业要求，不支持课程完成率变化"
+    },
+    {
+      "block_id": "unrelated",
+      "reference_id": "SYN-OTHER",
+      "status": "pending",
+      "reason": "其他研究尚未阅读"
+    }
+  ]
+}

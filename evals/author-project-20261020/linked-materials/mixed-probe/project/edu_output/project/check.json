@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "input_fingerprint": "0d2b4497cec43a8d6f563e5854092693fad9ca768543b2e1fb18a57f55c85cae",
+  "files": {
+    "new": {
+      "path": "@RUN@\\materials\\result-current.json",
+      "sha256": "a30203aedf8053f213052a13bbd6cb9ef55cb9c3eefc9dbcba7a92789d0db24f",
+      "baseline_state": "unchanged"
+    },
+    "md": {
+      "path": "@RUN@\\mixed-probe\\discussion.md",
+      "sha256": "43bc8fd3ae2cbd32768b84d2aab479390e39e9ff3e132a8819c36ec58b95ca7b",
+      "baseline_state": "unchanged"
+    }
+  },
+  "findings": [
+    {
+      "file_id": "md",
+      "file": "@RUN@\\mixed-probe\\discussion.md",
+      "binding_id": "binding-18",
+      "location": "line:1",
+      "current": "正式试验干预组课程完成率70.0%；某子组课程完成率70.0%，分母和组别待确认。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\mixed-probe\\discussion.md",
+      "binding_id": "binding-44",
+      "location": "line:1",
+      "current": "正式试验干预组课程完成率70.0%；某子组课程完成率70.0%，分母和组别待确认。",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Authoritative version is not established; alternative results were retained.",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "fact_id": "unknown-subgroup"
+    }
+  ],
+  "coverage": {
+    "new": {
+      "read_units": 17,
+      "mapped_units": 1,
+      "unmapped_locations": [
+        "json:/phase1/n",
+        "json:/phase1/survey_n",
+        "json:/phase1/completion",
+        "json:/phase2/n",
+        "json:/phase2/survey_n",
+        "json:/phase2/treated_n",
+        "json:/phase2/control_n",
+        "json:/phase2/complete_treated",
+        "json:/phase2/complete_control",
+        "json:/phase2/rate_control",
+        "json:/phase2/outcome",
+        "json:/phase2/sample",
+        "json:/phase2/model",
+        "json:/phase2/rr",
+        "json:/phase2/adjusted",
+        "json:/phase2/sensitivity"
+      ],
+      "parser_status": "read"
+    },
+    "md": {
+      "read_units": 1,
+      "mapped_units": 1,
+      "unmapped_locations": [],
+      "parser_status": "read"
+    }
+  },
+  "deck_checks": [],
+  "scope": "Only explicitly registered semantic mappings. Unmapped units and unreadable objects are not certified. First use establishes a current baseline, not historical change. Scripts verify bytes/locations/values; the reader establishes analysis identity and interpretation."
+}

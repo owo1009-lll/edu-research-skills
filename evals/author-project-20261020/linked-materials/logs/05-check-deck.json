@@ -1,0 +1,12 @@
+{
+  "args": [
+    "@REPO@\\skills\\edu-ppt\\scripts\\check_deck.py",
+    "--pptx",
+    "@RUN@\\deck-after\\slides.pptx",
+    "--plan",
+    "@RUN@\\updated\\deck-plan.json"
+  ],
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "usage: check_deck.py [-h] --pptx PPTX --plan PLAN [--render RENDER] --out OUT\ncheck_deck.py: error: the following arguments are required: --out\n"
+}

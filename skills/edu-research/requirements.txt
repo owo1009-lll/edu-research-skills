@@ -1,0 +1,5 @@
+# Material-update checks; no R runtime is required.
+-r ../edu-writing/requirements.txt
+-r ../edu-ppt/requirements.txt
+-r ../edu-review/requirements.txt
+openpyxl>=3.1,<4

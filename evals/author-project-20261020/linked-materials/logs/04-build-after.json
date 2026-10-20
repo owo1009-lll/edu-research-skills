@@ -1,0 +1,12 @@
+{
+  "args": [
+    "@REPO@\\skills\\edu-ppt\\scripts\\build_deck.py",
+    "--plan",
+    "@RUN@\\updated\\deck-plan.json",
+    "--out",
+    "@RUN@\\deck-after"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"plan_sha256\": \"528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d\",\n  \"mode\": \"pptx\",\n  \"source_plan\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\updated\\\\deck-plan.json\",\n  \"slides\": 3,\n  \"planned_seconds\": 120,\n  \"requested_minutes\": 2,\n  \"warnings\": [],\n  \"render_status\": \"not_run\",\n  \"template_sha256\": null,\n  \"theme_sha256\": null,\n  \"objects\": [\n    {\n      \"slide\": 1,\n      \"id\": \"sample/title\"\n    },\n    {\n      \"slide\": 1,\n      \"id\": \"sample/message\"\n    },\n    {\n      \"slide\": 1,\n      \"id\": \"sample/body/0\"\n    },\n    {\n      \"slide\": 1,\n      \"id\": \"sample/body/1\"\n    },\n    {\n      \"slide\": 1,\n      \"id\": \"sample/source\"\n    },\n    {\n      \"slide\": 1,\n      \"id\": \"sample/number\"\n    },\n    {\n      \"slide\": 2,\n      \"id\": \"completion/title\"\n    },\n    {\n      \"slide\": 2,\n      \"id\": \"completion/message\"\n    },\n    {\n      \"slide\": 2,\n      \"id\": \"completion/body/0\"\n    },\n    {\n      \"slide\": 2,\n      \"id\": \"completion/visual/chart\",\n      \"series_colors\": [\n        \"176B76\"\n      ]\n    },\n    {\n      \"slide\": 2,\n      \"id\": \"completion/source\"\n    },\n    {\n      \"slide\": 2,\n      \"id\": \"completion/number\"\n    },\n    {\n      \"slide\": 3,\n      \"id\": \"effect/title\"\n    },\n    {\n      \"slide\": 3,\n      \"id\": \"effect/message\"\n    },\n    {\n      \"slide\": 3,\n      \"id\": \"effect/body/0\"\n    },\n    {\n      \"slide\": 3,\n      \"id\": \"effect/visual/table\"\n    },\n    {\n      \"slide\": 3,\n      \"id\": \"effect/source\"\n    },\n    {\n      \"slide\": 3,\n      \"id\": \"effect/number\"\n    }\n  ],\n  \"outputs\": {\n    \"content.md\": \"15d239b7eb7ad0e295bd6b154e0eb6b2f84250113dcb32cc477581ecd359654b\",\n    \"plan.json\": \"528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d\",\n    \"slides.pptx\": \"35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872\",\n    \"speaker_notes.md\": \"a2a7f75a698b7e823722291daf12978a04b35b564fae9cbcfc5b8ea371459e8f\"\n  }\n}\n",
+  "stderr": ""
+}

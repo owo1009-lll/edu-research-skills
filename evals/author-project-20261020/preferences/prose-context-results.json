@@ -1,0 +1,14 @@
+[
+  {
+    "project": "project-enabled",
+    "exit_code": 0,
+    "recognized_discussion": true,
+    "recognized_55_words": true
+  },
+  {
+    "project": "project-no-profile",
+    "exit_code": 0,
+    "recognized_discussion": true,
+    "recognized_55_words": true
+  }
+]

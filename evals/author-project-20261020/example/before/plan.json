@@ -1,0 +1,141 @@
+{
+  "title": "Synthetic material-update example",
+  "route": "own",
+  "stage": "progress",
+  "language": "en",
+  "minutes": 3,
+  "sources": [
+    {
+      "id": "fixture",
+      "title": "Synthetic validation data",
+      "short": "Synthetic",
+      "access": "author_material",
+      "year": 2026
+    }
+  ],
+  "slides": [
+    {
+      "id": "GROUPS",
+      "title": "Groups at two measurement points",
+      "message": "Post scores: intervention 18, comparison 14.",
+      "body": [],
+      "visual": {
+        "type": "chart",
+        "kind": "column",
+        "categories": [
+          "Pre",
+          "Post"
+        ],
+        "series": [
+          {
+            "name": "Intervention",
+            "values": [
+              12,
+              18
+            ]
+          },
+          {
+            "name": "Comparison",
+            "values": [
+              12,
+              14
+            ]
+          }
+        ],
+        "unit": "score",
+        "minimum": 0,
+        "maximum": 20,
+        "major_unit": 5,
+        "number_format": "0",
+        "caption": "Synthetic values; no real intervention conclusion."
+      },
+      "visual_plan": "Editable native display from synthetic evidence.",
+      "notes": "Post scores: intervention 18, comparison 14. These are synthetic validation data, not a real educational finding.",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "section": "Synthetic example",
+      "evidence": [
+        {
+          "source": "fixture",
+          "location": "GROUPS",
+          "supports": "All values are synthetic fixtures."
+        }
+      ]
+    },
+    {
+      "id": "INTERVAL",
+      "title": "An estimate and its uncertainty",
+      "message": "Adjusted difference: 0.009 [0.004, 0.014].",
+      "body": [],
+      "visual": {
+        "type": "interval",
+        "rows": [
+          {
+            "label": "Adjusted difference",
+            "estimate": 0.009,
+            "low": 0.004,
+            "high": 0.014
+          }
+        ],
+        "range": [
+          -0.005,
+          0.02
+        ],
+        "reference": 0,
+        "unit": "score",
+        "caption": "Synthetic interval."
+      },
+      "visual_plan": "Editable native display from synthetic evidence.",
+      "notes": "Adjusted difference: 0.009 [0.004, 0.014]. These are synthetic validation data, not a real educational finding.",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "section": "Synthetic example",
+      "evidence": [
+        {
+          "source": "fixture",
+          "location": "INTERVAL",
+          "supports": "All values are synthetic fixtures."
+        }
+      ]
+    },
+    {
+      "id": "SAMPLE",
+      "title": "Enrollment and analysis sample",
+      "message": "The enrolled and analyzed populations differ.",
+      "body": [],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "Population",
+          "N"
+        ],
+        "rows": [
+          [
+            "Enrolled",
+            "410"
+          ],
+          [
+            "Analysis",
+            "390"
+          ]
+        ],
+        "caption": "Synthetic sample flow."
+      },
+      "visual_plan": "Editable native display from synthetic evidence.",
+      "notes": "The enrolled and analyzed populations differ. These are synthetic validation data, not a real educational finding.",
+      "seconds": 60,
+      "role": "presenter_comment",
+      "status": "not_applicable",
+      "section": "Synthetic example",
+      "evidence": [
+        {
+          "source": "fixture",
+          "location": "SAMPLE",
+          "supports": "All values are synthetic fixtures."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "use_personal": true,
+  "items": [
+    {
+      "category": "expression",
+      "content": "这次先给访谈材料，再给作者判断。",
+      "scope": "task",
+      "basis": "explicit",
+      "status": "active",
+      "languages": [
+        "en"
+      ],
+      "research_types": [
+        "qualitative"
+      ],
+      "sections": [
+        "discussion"
+      ],
+      "tasks": [
+        "revise"
+      ],
+      "conditions": [
+        "仅用于有材料或明确专业依据的作者判断"
+      ],
+      "exceptions": [
+        "不覆盖当前明确要求或事实与证据边界"
+      ],
+      "source": {
+        "kind": "explicit",
+        "evidence": "仅这一次先写访谈材料，再写判断；以后仍照旧。",
+        "time": "2026-10-20"
+      },
+      "task_id": "one-time-evidence-first",
+      "id": "pref-769a1508dfdf87f4bec9",
+      "created_utc": "2026-10-20T08:49:54.273461+00:00"
+    },
+    {
+      "category": "expression",
+      "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+      "scope": "project",
+      "basis": "inferred",
+      "status": "candidate",
+      "languages": [
+        "en"
+      ],
+      "research_types": [
+        "qualitative"
+      ],
+      "sections": [
+        "discussion"
+      ],
+      "tasks": [
+        "revise"
+      ],
+      "conditions": [
+        "仅用于有材料或明确专业依据的作者判断"
+      ],
+      "exceptions": [
+        "不覆盖当前明确要求或事实与证据边界"
+      ],
+      "source": {
+        "kind": "example",
+        "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+        "ownership": "author",
+        "time": "2026-10-20"
+      },
+      "id": "pref-8481800584372373f975",
+      "created_utc": "2026-10-20T08:49:54.932350+00:00"
+    }
+  ]
+}

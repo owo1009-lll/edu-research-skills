@@ -1,0 +1,3 @@
+# Discussion
+
+Professional discretion is a way of exercising curriculum responsibility; administrators should protect time for these situated judgments. In interviews with 24 rural teachers, participants described adjusting classroom task sequences to pupils’ immediate needs while retaining shared curricular aims. Their accounts illuminate how teachers negotiated responsibility within institutional constraints; they do not establish gains in attainment.

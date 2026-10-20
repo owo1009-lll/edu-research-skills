@@ -1,0 +1,13 @@
+{
+  "before_dependencies": 0,
+  "after_dependencies": 7,
+  "after_ids": [
+    "abstract-interpretation",
+    "discussion-recommendation",
+    "discussion-cautious",
+    "ppt-headline",
+    "ppt-interpretation",
+    "plan-headline",
+    "plan-interpretation"
+  ]
+}

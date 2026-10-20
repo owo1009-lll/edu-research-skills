@@ -1,0 +1,50 @@
+{
+  "active": [
+    {
+      "category": "expression",
+      "content": "Preserve instructional responsiveness; explain findings before literature comparison.",
+      "basis": "explicit",
+      "status": "active",
+      "scope": "author",
+      "languages": [
+        "en"
+      ],
+      "research_types": [
+        "quantitative"
+      ],
+      "sections": [
+        "discussion"
+      ],
+      "tasks": [
+        "revise"
+      ],
+      "conditions": [
+        "Supported concept and judgment"
+      ],
+      "exceptions": [
+        "No causal strengthening"
+      ],
+      "source": {
+        "kind": "explicit",
+        "evidence": "合成请求：以后改我的英文定量 Discussion，保留术语 instructional responsiveness；先解释发现，再与文献比较。",
+        "time": "2026-10-20",
+        "cross_project_authorization": "合成请求：以后改我的英文定量 Discussion，保留术语 instructional responsiveness；先解释发现，再与文献比较。"
+      },
+      "id": "pref-d9d42fd9dc8c84f5d619",
+      "created_utc": "2026-10-20T09:05:55.334565+00:00",
+      "storage": "author"
+    }
+  ],
+  "candidates_for_review_only": [],
+  "skipped": [],
+  "current_requirements": [],
+  "application_order": [
+    "facts_and_evidence",
+    "current_request",
+    "project_and_verified_journal",
+    "task_preference",
+    "project_preference",
+    "author_preference"
+  ],
+  "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+}

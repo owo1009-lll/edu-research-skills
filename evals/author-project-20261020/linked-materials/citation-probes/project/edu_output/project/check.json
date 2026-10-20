@@ -1,0 +1,1803 @@
+{
+  "schema": 1,
+  "input_fingerprint": "3a3c4c1e66bfc4c42b9c281b5678139e27e1530e2ed5d5092ae71e6ef750502f",
+  "files": {
+    "new": {
+      "path": "@RUN@\\materials\\result-current.json",
+      "sha256": "a30203aedf8053f213052a13bbd6cb9ef55cb9c3eefc9dbcba7a92789d0db24f",
+      "baseline_state": "unchanged"
+    },
+    "old": {
+      "path": "@RUN@\\materials\\result-old.json",
+      "sha256": "566ae34b830e51162839408ec684354f9768893d7652ad692d781b568199e816",
+      "baseline_state": "unchanged"
+    },
+    "doc": {
+      "path": "@RUN@\\materials\\manuscript.docx",
+      "sha256": "a3c387d8c01cdc409bdf6dc6687d04c9714920bb335fc47fb7272edebc9bd05f",
+      "baseline_state": "unchanged"
+    },
+    "csv": {
+      "path": "@RUN@\\materials\\results.csv",
+      "sha256": "359773025369de93ae2ce9ba48f92b2728cee316fc3cf3519a1c5d02394ca1ec",
+      "baseline_state": "unchanged"
+    },
+    "md": {
+      "path": "@RUN@\\citation-probes\\discussion.md",
+      "sha256": "2e458f6779eb2529cd3379f3a59e7d6427a32b03f6a8344e21959b8db1c73d32",
+      "baseline_state": "changed"
+    },
+    "plan": {
+      "path": "@RUN@\\materials\\deck-plan.json",
+      "sha256": "a7e88e96465a04b3fb0c62d22111e977caeb4a3e904a953920971623ffd0a4f0",
+      "baseline_state": "unchanged"
+    },
+    "ppt": {
+      "path": "@RUN@\\deck-before\\slides.pptx",
+      "sha256": "c9218403cbd2a97fb878fa0cdc66fca2512fef33ba15bcd44c5205a3dd2254e0",
+      "baseline_state": "unchanged"
+    },
+    "reading": {
+      "path": "@RUN@\\materials\\synthetic-reading.md",
+      "sha256": "d1b90c4e1f6203a348a6d770176973ce7048014bbf90c0135b6863c8a786aee2",
+      "baseline_state": "unchanged"
+    },
+    "ledger": {
+      "path": "@RUN@\\citation-probes\\ledger.json",
+      "sha256": "21e9eb728c7103572bc7df0a6b1f7cfc1bb68dcca064134278ffcb2e175f8671",
+      "baseline_state": "changed"
+    },
+    "formula": {
+      "path": "@RUN@\\materials\\formula-supplement.xlsx",
+      "sha256": "05630ac55725e06fe7033933c56c5a1133f190e04f5383bac3b069c609dfbac1",
+      "baseline_state": "unchanged"
+    },
+    "broken": {
+      "path": "@RUN@\\materials\\broken-supplement.docx",
+      "sha256": "e14db27449d4a75578813a56bb5fa9f10aa80ee726e1b197582078e55fa08127",
+      "baseline_state": "unchanged"
+    }
+  },
+  "findings": [
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-1",
+      "location": "docx:p:1",
+      "current": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase1/n",
+        "values": {
+          "value": "48"
+        },
+        "authority": {
+          "source": "binding-3",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "先导阶段全部样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "pilot-total",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-2",
+      "location": "ppt:1:sample/body/0:text",
+      "current": "先导阶段 n=48；问卷 n=42",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase1/n",
+        "values": {
+          "value": "48"
+        },
+        "authority": {
+          "source": "binding-3",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "先导阶段全部样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "pilot-total",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-4",
+      "location": "docx:p:1",
+      "current": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase1/survey_n",
+        "values": {
+          "value": "42"
+        },
+        "authority": {
+          "source": "binding-7",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "先导阶段问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "pilot-survey",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-5",
+      "location": "ppt:1:sample/body/0:text",
+      "current": "先导阶段 n=48；问卷 n=42",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase1/survey_n",
+        "values": {
+          "value": "42"
+        },
+        "authority": {
+          "source": "binding-7",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "先导阶段问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "pilot-survey",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-6",
+      "location": "line:5",
+      "current": "先导阶段问卷有效样本为42人；正式试验问卷有效样本为196人。两阶段样本不可相加。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase1/survey_n",
+        "values": {
+          "value": "42"
+        },
+        "authority": {
+          "source": "binding-7",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "先导阶段问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "pilot-survey",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-8",
+      "location": "docx:p:1",
+      "current": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/n",
+        "values": {
+          "value": "240"
+        },
+        "authority": {
+          "source": "binding-10",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "formal-total",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-9",
+      "location": "ppt:1:sample/body/1:text",
+      "current": "正式试验 n=240；问卷 n=196",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/n",
+        "values": {
+          "value": "240"
+        },
+        "authority": {
+          "source": "binding-10",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "formal-total",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-11",
+      "location": "docx:p:1",
+      "current": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/survey_n",
+        "values": {
+          "value": "196"
+        },
+        "authority": {
+          "source": "binding-14",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "formal-survey",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-12",
+      "location": "ppt:1:sample/body/1:text",
+      "current": "正式试验 n=240；问卷 n=196",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/survey_n",
+        "values": {
+          "value": "196"
+        },
+        "authority": {
+          "source": "binding-14",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "formal-survey",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-13",
+      "location": "line:5",
+      "current": "先导阶段问卷有效样本为42人；正式试验问卷有效样本为196人。两阶段样本不可相加。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/survey_n",
+        "values": {
+          "value": "196"
+        },
+        "authority": {
+          "source": "binding-14",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "formal-survey",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-16",
+      "location": "docx:p:2",
+      "current": "正式试验8周课程完成率：干预组70.0%，对照组60.0%；未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "csv",
+      "file": "@RUN@\\materials\\results.csv",
+      "binding_id": "binding-17",
+      "location": "csv:2:6",
+      "current": "70.0",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-18",
+      "location": "line:2",
+      "current": "正式试验干预组课程完成率70.0%，对照组为60.0%。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-19",
+      "location": "ppt:2:completion/body/0:text",
+      "current": "干预组70.0%；对照组60.0%",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-20",
+      "location": "ppt:2:completion/visual/chart:series:0:value:0",
+      "current": "70.0",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-21",
+      "location": "ppt:2:notes",
+      "current": "干预组70.0%，对照组60.0%。\n\n来源：合成材料 · completion\n预计讲解：40秒",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\materials\\deck-plan.json",
+      "binding_id": "binding-22",
+      "location": "json:/slides/1/body/0",
+      "current": "干预组70.0%；对照组60.0%",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\materials\\deck-plan.json",
+      "binding_id": "binding-23",
+      "location": "json:/slides/1/visual/series/0/values/0",
+      "current": "70",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\materials\\deck-plan.json",
+      "binding_id": "binding-24",
+      "location": "json:/slides/1/notes",
+      "current": "干预组70.0%，对照组60.0%。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_treated",
+        "values": {
+          "value": "0.65"
+        },
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "treated-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-26",
+      "location": "docx:p:2",
+      "current": "正式试验8周课程完成率：干预组70.0%，对照组60.0%；未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_control",
+        "values": {
+          "value": "0.6"
+        },
+        "authority": {
+          "source": "binding-25",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "control-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "csv",
+      "file": "@RUN@\\materials\\results.csv",
+      "binding_id": "binding-27",
+      "location": "csv:3:6",
+      "current": "60.0",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_control",
+        "values": {
+          "value": "0.6"
+        },
+        "authority": {
+          "source": "binding-25",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "control-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-28",
+      "location": "line:2",
+      "current": "正式试验干预组课程完成率70.0%，对照组为60.0%。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_control",
+        "values": {
+          "value": "0.6"
+        },
+        "authority": {
+          "source": "binding-25",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "control-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-29",
+      "location": "ppt:2:completion/visual/chart:series:0:value:1",
+      "current": "60.0",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rate_control",
+        "values": {
+          "value": "0.6"
+        },
+        "authority": {
+          "source": "binding-25",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "control-rate",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-31",
+      "location": "docx:p:2",
+      "current": "正式试验8周课程完成率：干预组70.0%，对照组60.0%；未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rr",
+        "values": {
+          "value": "1.083333",
+          "low": "0.890141",
+          "high": "1.318456"
+        },
+        "authority": {
+          "source": "binding-30",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "未调整风险比",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "primary-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-32",
+      "location": "docx:p:9",
+      "current": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rr",
+        "values": {
+          "value": "1.083333",
+          "low": "0.890141",
+          "high": "1.318456"
+        },
+        "authority": {
+          "source": "binding-30",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "未调整风险比",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "primary-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "csv",
+      "file": "@RUN@\\materials\\results.csv",
+      "binding_id": "binding-33",
+      "location": "csv:4:6",
+      "current": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rr",
+        "values": {
+          "value": "1.083333",
+          "low": "0.890141",
+          "high": "1.318456"
+        },
+        "authority": {
+          "source": "binding-30",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "未调整风险比",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "primary-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-34",
+      "location": "line:3",
+      "current": "未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rr",
+        "values": {
+          "value": "1.083333",
+          "low": "0.890141",
+          "high": "1.318456"
+        },
+        "authority": {
+          "source": "binding-30",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "未调整风险比",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "primary-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-35",
+      "location": "ppt:3:effect/body/0:text",
+      "current": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rr",
+        "values": {
+          "value": "1.083333",
+          "low": "0.890141",
+          "high": "1.318456"
+        },
+        "authority": {
+          "source": "binding-30",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "未调整风险比",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "primary-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\materials\\deck-plan.json",
+      "binding_id": "binding-36",
+      "location": "json:/slides/2/body/0",
+      "current": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/rr",
+        "values": {
+          "value": "1.083333",
+          "low": "0.890141",
+          "high": "1.318456"
+        },
+        "authority": {
+          "source": "binding-30",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "未调整风险比",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "stale",
+      "judgment": "疑似旧内容",
+      "reason": "Value differs from the confirmed source for this analysis identity.",
+      "suggestion": "核对本处归属后同步；不要全局替换同一数字。",
+      "fact_id": "primary-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-38",
+      "location": "docx:p:12",
+      "current": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/adjusted",
+        "values": {
+          "value": "1.120000",
+          "low": "0.930000",
+          "high": "1.350000"
+        },
+        "authority": {
+          "source": "binding-37",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "基线协变量调整",
+          "adjustments": "基线协变量",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "adjusted-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "csv",
+      "file": "@RUN@\\materials\\results.csv",
+      "binding_id": "binding-39",
+      "location": "csv:5:6",
+      "current": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/adjusted",
+        "values": {
+          "value": "1.120000",
+          "low": "0.930000",
+          "high": "1.350000"
+        },
+        "authority": {
+          "source": "binding-37",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "基线协变量调整",
+          "adjustments": "基线协变量",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "adjusted-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-40",
+      "location": "line:6",
+      "current": "协变量调整模型RR=1.120000; 95%CI=[0.930000,1.350000]，提示估计不够精确。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/adjusted",
+        "values": {
+          "value": "1.120000",
+          "low": "0.930000",
+          "high": "1.350000"
+        },
+        "authority": {
+          "source": "binding-37",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "基线协变量调整",
+          "adjustments": "基线协变量",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "adjusted-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-41",
+      "location": "ppt:3:effect/visual/table:cell:1:1",
+      "current": "1.12 [0.93,1.35]",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/adjusted",
+        "values": {
+          "value": "1.120000",
+          "low": "0.930000",
+          "high": "1.350000"
+        },
+        "authority": {
+          "source": "binding-37",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "基线协变量调整",
+          "adjustments": "基线协变量",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "adjusted-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-43",
+      "location": "line:10",
+      "current": "加权敏感性分析RR=1.02; 95%CI=[1.00,1.04]。",
+      "new_material": {
+        "file": "@RUN@\\materials\\result-current.json",
+        "location": "json:/phase2/sensitivity",
+        "values": {
+          "value": "1.020000",
+          "low": "1.000400",
+          "high": "1.039984"
+        },
+        "authority": {
+          "source": "binding-42",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        },
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "加权",
+          "adjustments": "不适用",
+          "analysis": "敏感性",
+          "uncertainty": "95%置信区间"
+        }
+      },
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Displayed precision changes sign or relation to a reference boundary.",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "fact_id": "sensitivity-rr",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-44",
+      "location": "line:7",
+      "current": "某子组课程完成率70.0%，分母和组别仍待作者确认。",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Authoritative version is not established; alternative results were retained.",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "fact_id": "unknown-subgroup"
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": "binding-45",
+      "location": "docx:p:3",
+      "current": "完成率优势排除了无效应，说明课程适合推广。",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Related material or wording changed: 解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "dependency_id": "abstract-interpretation",
+      "review_fingerprint": "74552e566fc9f0380a5093352d9797b011090b4e525a3e89c377b42b0abe39ce"
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-46",
+      "location": "line:4",
+      "current": "完成率优势排除了无效应，因此推荐立即普遍推广。",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Related material or wording changed: 解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "dependency_id": "discussion-recommendation",
+      "review_fingerprint": "05281c60ac672d8d3f373bf00aff79d9e741a9dce9dbb37ff928a9e68084c04f"
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-47",
+      "location": "line:8",
+      "current": "从新材料看，完成率的点估计仍向干预组倾斜，但需要关注区间宽度。",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Related material or wording changed: 解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "dependency_id": "discussion-cautious",
+      "review_fingerprint": "732044ce57540e880ae7acf2d53e710b56094c6b5d936533cb3470680cbaf058"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-48",
+      "location": "ppt:3:effect/message:text",
+      "current": "区间下限高于1",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Related material or wording changed: 解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "dependency_id": "ppt-headline",
+      "review_fingerprint": "c0770d9f7676ff95deae85a5c8b87ea9ba12fbc71f4380a7e7da7490430959b2"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": "binding-49",
+      "location": "ppt:3:notes",
+      "current": "未调整模型排除了无效应；调整模型仍不精确。\n\n来源：合成材料 · effect\n预计讲解：40秒",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Related material or wording changed: 解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "dependency_id": "ppt-interpretation",
+      "review_fingerprint": "4861052080654f7f828034fd9012f75298387e4021296401f24eaa260b2e3fcc"
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\materials\\deck-plan.json",
+      "binding_id": "binding-50",
+      "location": "json:/slides/2/message",
+      "current": "区间下限高于1",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Related material or wording changed: 解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "dependency_id": "plan-headline",
+      "review_fingerprint": "c0770d9f7676ff95deae85a5c8b87ea9ba12fbc71f4380a7e7da7490430959b2"
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\materials\\deck-plan.json",
+      "binding_id": "binding-51",
+      "location": "json:/slides/2/notes",
+      "current": "未调整模型排除了无效应；调整模型仍不精确。",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Related material or wording changed: 解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "dependency_id": "plan-interpretation",
+      "review_fingerprint": "818f08d726cc32e9fe34665ceda58166bbf105b86ab7fb41ef079d0b1082fef1"
+    },
+    {
+      "file_id": "md",
+      "file": "@RUN@\\citation-probes\\discussion.md",
+      "binding_id": "binding-52",
+      "location": "line:9",
+      "current": "引用论断：同伴反馈帮助受访学生解释作业要求，并显著提高了课程完成率。[SYN-01]",
+      "new_material": null,
+      "status": "review",
+      "judgment": "需重新判断",
+      "reason": "Claim, source version, support passage or citation ledger changed; old support is pending re-review.",
+      "suggestion": "重新阅读相关材料并判断，不自动选结果或改写。",
+      "citation_id": "citation-SYN-01",
+      "support_status": "pending"
+    },
+    {
+      "file_id": "doc",
+      "file": "@RUN@\\materials\\manuscript.docx",
+      "binding_id": null,
+      "location": "word/header1.xml",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Ancillary Word part not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:1:3",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:2:3",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:2:completion/visual/chart",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Chart label formatting/geometry require edu-ppt check_deck and rendering.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\deck-before\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:3:3",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "formula",
+      "file": "@RUN@\\materials\\formula-supplement.xlsx",
+      "binding_id": null,
+      "location": "辅助计算!D2",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Formula not recalculated; cached value is not authoritative.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "broken",
+      "file": "@RUN@\\materials\\broken-supplement.docx",
+      "binding_id": null,
+      "location": "@RUN@\\materials\\broken-supplement.docx",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "BadZipFile: File is not a zip file",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    }
+  ],
+  "coverage": {
+    "new": {
+      "read_units": 17,
+      "mapped_units": 9,
+      "unmapped_locations": [
+        "json:/phase1/completion",
+        "json:/phase2/treated_n",
+        "json:/phase2/control_n",
+        "json:/phase2/complete_treated",
+        "json:/phase2/complete_control",
+        "json:/phase2/outcome",
+        "json:/phase2/sample",
+        "json:/phase2/model"
+      ],
+      "parser_status": "read"
+    },
+    "old": {
+      "read_units": 16,
+      "mapped_units": 0,
+      "unmapped_locations": [
+        "json:/phase1/n",
+        "json:/phase1/survey_n",
+        "json:/phase1/completion",
+        "json:/phase2/n",
+        "json:/phase2/survey_n",
+        "json:/phase2/treated_n",
+        "json:/phase2/control_n",
+        "json:/phase2/complete_treated",
+        "json:/phase2/complete_control",
+        "json:/phase2/rate_treated",
+        "json:/phase2/rate_control",
+        "json:/phase2/outcome",
+        "json:/phase2/sample",
+        "json:/phase2/model",
+        "json:/phase2/rr",
+        "json:/phase2/adjusted"
+      ],
+      "parser_status": "read"
+    },
+    "doc": {
+      "read_units": 16,
+      "mapped_units": 5,
+      "unmapped_locations": [
+        "docx:p:0",
+        "docx:p:4",
+        "docx:p:5",
+        "docx:p:6",
+        "docx:p:7",
+        "docx:p:8",
+        "docx:p:10",
+        "docx:p:11",
+        "docx:p:13",
+        "docx:p:14",
+        "docx:p:15"
+      ],
+      "parser_status": "read"
+    },
+    "csv": {
+      "read_units": 42,
+      "mapped_units": 4,
+      "unmapped_locations": [
+        "csv:1:1",
+        "csv:1:2",
+        "csv:1:3",
+        "csv:1:4",
+        "csv:1:5",
+        "csv:1:6",
+        "csv:2:1",
+        "csv:2:2",
+        "csv:2:3",
+        "csv:2:4",
+        "csv:2:5",
+        "csv:3:1",
+        "csv:3:2",
+        "csv:3:3",
+        "csv:3:4",
+        "csv:3:5",
+        "csv:4:1",
+        "csv:4:2",
+        "csv:4:3",
+        "csv:4:4",
+        "csv:4:5",
+        "csv:5:1",
+        "csv:5:2",
+        "csv:5:3",
+        "csv:5:4",
+        "csv:5:5",
+        "csv:6:1",
+        "csv:6:2",
+        "csv:6:3",
+        "csv:6:4",
+        "csv:6:5",
+        "csv:6:6",
+        "csv:7:1",
+        "csv:7:2",
+        "csv:7:3",
+        "csv:7:4",
+        "csv:7:5",
+        "csv:7:6"
+      ],
+      "parser_status": "read"
+    },
+    "md": {
+      "read_units": 10,
+      "mapped_units": 9,
+      "unmapped_locations": [
+        "line:1"
+      ],
+      "parser_status": "read"
+    },
+    "plan": {
+      "read_units": 61,
+      "mapped_units": 6,
+      "unmapped_locations": [
+        "json:/route",
+        "json:/stage",
+        "json:/title",
+        "json:/minutes",
+        "json:/sources/0/id",
+        "json:/sources/0/title",
+        "json:/sources/0/access",
+        "json:/sources/0/short",
+        "json:/slides/0/id",
+        "json:/slides/0/title",
+        "json:/slides/0/message",
+        "json:/slides/0/body/0",
+        "json:/slides/0/body/1",
+        "json:/slides/0/notes",
+        "json:/slides/0/visual_plan",
+        "json:/slides/0/seconds",
+        "json:/slides/0/role",
+        "json:/slides/0/status",
+        "json:/slides/0/evidence/0/source",
+        "json:/slides/0/evidence/0/location",
+        "json:/slides/0/evidence/0/supports",
+        "json:/slides/1/id",
+        "json:/slides/1/title",
+        "json:/slides/1/message",
+        "json:/slides/1/visual_plan",
+        "json:/slides/1/seconds",
+        "json:/slides/1/role",
+        "json:/slides/1/status",
+        "json:/slides/1/evidence/0/source",
+        "json:/slides/1/evidence/0/location",
+        "json:/slides/1/evidence/0/supports",
+        "json:/slides/1/visual/type",
+        "json:/slides/1/visual/kind",
+        "json:/slides/1/visual/unit",
+        "json:/slides/1/visual/categories/0",
+        "json:/slides/1/visual/categories/1",
+        "json:/slides/1/visual/series/0/name",
+        "json:/slides/1/visual/series/0/values/1",
+        "json:/slides/1/visual/minimum",
+        "json:/slides/1/visual/maximum",
+        "json:/slides/1/visual/number_format",
+        "json:/slides/2/id",
+        "json:/slides/2/title",
+        "json:/slides/2/visual_plan",
+        "json:/slides/2/seconds",
+        "json:/slides/2/role",
+        "json:/slides/2/status",
+        "json:/slides/2/evidence/0/source",
+        "json:/slides/2/evidence/0/location",
+        "json:/slides/2/evidence/0/supports",
+        "json:/slides/2/visual/type",
+        "json:/slides/2/visual/columns/0",
+        "json:/slides/2/visual/columns/1",
+        "json:/slides/2/visual/rows/0/0",
+        "json:/slides/2/visual/rows/0/1"
+      ],
+      "parser_status": "read"
+    },
+    "ppt": {
+      "read_units": 32,
+      "mapped_units": 10,
+      "unmapped_locations": [
+        "ppt:1:sample/title:text",
+        "ppt:1:sample/message:text",
+        "ppt:1:sample/source:text",
+        "ppt:1:sample/number:text",
+        "ppt:1:notes",
+        "ppt:2:completion/title:text",
+        "ppt:2:completion/message:text",
+        "ppt:2:completion/visual/chart:category:0",
+        "ppt:2:completion/visual/chart:category:1",
+        "ppt:2:completion/visual/chart:series:0:name",
+        "ppt:2:completion/visual/chart:axis:minimum_scale",
+        "ppt:2:completion/visual/chart:axis:maximum_scale",
+        "ppt:2:completion/visual/chart:axis:major_unit",
+        "ppt:2:completion/visual/chart:axis:title",
+        "ppt:2:completion/source:text",
+        "ppt:2:completion/number:text",
+        "ppt:3:effect/title:text",
+        "ppt:3:effect/visual/table:cell:0:0",
+        "ppt:3:effect/visual/table:cell:0:1",
+        "ppt:3:effect/visual/table:cell:1:0",
+        "ppt:3:effect/source:text",
+        "ppt:3:effect/number:text"
+      ],
+      "parser_status": "read"
+    },
+    "reading": {
+      "read_units": 2,
+      "mapped_units": 1,
+      "unmapped_locations": [
+        "line:1"
+      ],
+      "parser_status": "read"
+    },
+    "ledger": {
+      "read_units": 11,
+      "mapped_units": 0,
+      "unmapped_locations": [
+        "json:/references/0/id",
+        "json:/references/0/title",
+        "json:/references/0/identity_verified",
+        "json:/claims/0/block_id",
+        "json:/claims/0/reference_id",
+        "json:/claims/0/status",
+        "json:/claims/0/reason",
+        "json:/claims/1/block_id",
+        "json:/claims/1/reference_id",
+        "json:/claims/1/status",
+        "json:/claims/1/reason"
+      ],
+      "parser_status": "read"
+    },
+    "formula": {
+      "read_units": 8,
+      "mapped_units": 0,
+      "unmapped_locations": [
+        "xlsx:辅助计算!A1",
+        "xlsx:辅助计算!B1",
+        "xlsx:辅助计算!C1",
+        "xlsx:辅助计算!D1",
+        "xlsx:辅助计算!A2",
+        "xlsx:辅助计算!B2",
+        "xlsx:辅助计算!C2",
+        "xlsx:辅助计算!D2"
+      ],
+      "parser_status": "read"
+    },
+    "broken": {
+      "read_units": 0,
+      "mapped_units": 0,
+      "unmapped_locations": [],
+      "parser_status": "failed"
+    }
+  },
+  "deck_checks": [],
+  "scope": "Only explicitly registered semantic mappings. Unmapped units and unreadable objects are not certified. First use establishes a current baseline, not historical change. Scripts verify bytes/locations/values; the reader establishes analysis identity and interpretation."
+}

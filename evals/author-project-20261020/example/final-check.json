@@ -1,0 +1,1045 @@
+{
+  "schema": 1,
+  "input_fingerprint": "a5f39711dbaec883bb528bda9238d51c439db46b54a01c520f8fa8b432951bae",
+  "files": {
+    "analysis": {
+      "path": "@RUN@\\analysis.json",
+      "sha256": "fe7670b7b73da7815659bbc5e838de446aba724ecb861814f58db0f73693f369",
+      "baseline_state": "changed"
+    },
+    "paper": {
+      "path": "@RUN@\\paper-reviewed.docx",
+      "sha256": "20acc9fb1f33724219aaff694e9cc8a5dca3039fb99da57d3a8a11cd450a1ae2",
+      "baseline_state": "changed"
+    },
+    "plan": {
+      "path": "@RUN@\\plan-updated.json",
+      "sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555",
+      "baseline_state": "changed"
+    },
+    "ppt": {
+      "path": "@RUN@\\after\\slides.pptx",
+      "sha256": "3fa47757f87b0bf996f2aa6d472f9b346897346fb26b8d598072261fb89df99d",
+      "baseline_state": "changed"
+    }
+  },
+  "findings": [
+    {
+      "file_id": "paper",
+      "file": "@RUN@\\paper-reviewed.docx",
+      "binding_id": "sample-word",
+      "location": "docx:p:2",
+      "current": "The analysis included 382 pupils; 410 were enrolled.",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/analysis_n",
+        "values": {
+          "value": "382"
+        },
+        "authority": {
+          "source": "sample-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "n",
+          "unit": "people",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "not applicable"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "sample",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "sample-plan",
+      "location": "json:/slides/2/visual/rows/1/1",
+      "current": "382",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/analysis_n",
+        "values": {
+          "value": "382"
+        },
+        "authority": {
+          "source": "sample-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "n",
+          "unit": "people",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "not applicable"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "sample",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": "sample-ppt",
+      "location": "ppt:3:SAMPLE/visual/table:cell:2:1",
+      "current": "382",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/analysis_n",
+        "values": {
+          "value": "382"
+        },
+        "authority": {
+          "source": "sample-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "n",
+          "unit": "people",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "not applicable"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "sample",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "paper",
+      "file": "@RUN@\\paper-reviewed.docx",
+      "binding_id": "post-word",
+      "location": "docx:p:9",
+      "current": "16",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/intervention_post",
+        "values": {
+          "value": "16"
+        },
+        "authority": {
+          "source": "post-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention group",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "mean",
+          "unit": "score",
+          "model": "descriptive",
+          "adjustments": "none",
+          "analysis": "primary",
+          "uncertainty": "not supplied"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "post",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "post-plan",
+      "location": "json:/slides/0/visual/series/0/values/1",
+      "current": "16",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/intervention_post",
+        "values": {
+          "value": "16"
+        },
+        "authority": {
+          "source": "post-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention group",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "mean",
+          "unit": "score",
+          "model": "descriptive",
+          "adjustments": "none",
+          "analysis": "primary",
+          "uncertainty": "not supplied"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "post",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": "post-ppt",
+      "location": "ppt:1:GROUPS/visual/chart:series:0:value:1",
+      "current": "16.0",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/intervention_post",
+        "values": {
+          "value": "16"
+        },
+        "authority": {
+          "source": "post-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention group",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "mean",
+          "unit": "score",
+          "model": "descriptive",
+          "adjustments": "none",
+          "analysis": "primary",
+          "uncertainty": "not supplied"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "post",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "post-message",
+      "location": "json:/slides/0/message",
+      "current": "Post scores: intervention 16, comparison 14.",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/intervention_post",
+        "values": {
+          "value": "16"
+        },
+        "authority": {
+          "source": "post-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention group",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "mean",
+          "unit": "score",
+          "model": "descriptive",
+          "adjustments": "none",
+          "analysis": "primary",
+          "uncertainty": "not supplied"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "post",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "post-notes",
+      "location": "json:/slides/0/notes",
+      "current": "Post scores: intervention 16, comparison 14. These are synthetic validation data, not a real educational finding.",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/intervention_post",
+        "values": {
+          "value": "16"
+        },
+        "authority": {
+          "source": "post-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention group",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "mean",
+          "unit": "score",
+          "model": "descriptive",
+          "adjustments": "none",
+          "analysis": "primary",
+          "uncertainty": "not supplied"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "post",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "paper",
+      "file": "@RUN@\\paper-reviewed.docx",
+      "binding_id": "estimate-word",
+      "location": "docx:p:4",
+      "current": "The adjusted difference was 0.006 [-0.002, 0.014].",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/estimate",
+        "values": {
+          "value": "0.006"
+        },
+        "authority": {
+          "source": "estimate-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_estimate",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "estimate",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "estimate-plan",
+      "location": "json:/slides/1/visual/rows/0/estimate",
+      "current": "0.006",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/estimate",
+        "values": {
+          "value": "0.006"
+        },
+        "authority": {
+          "source": "estimate-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_estimate",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "estimate",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "estimate-message",
+      "location": "json:/slides/1/message",
+      "current": "Adjusted difference: 0.006 [-0.002, 0.014].",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/estimate",
+        "values": {
+          "value": "0.006"
+        },
+        "authority": {
+          "source": "estimate-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_estimate",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "estimate",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "estimate-notes",
+      "location": "json:/slides/1/notes",
+      "current": "Adjusted difference: 0.006 [-0.002, 0.014]. These are synthetic validation data, not a real educational finding.",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/estimate",
+        "values": {
+          "value": "0.006"
+        },
+        "authority": {
+          "source": "estimate-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_estimate",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "estimate",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "paper",
+      "file": "@RUN@\\paper-reviewed.docx",
+      "binding_id": "low-word",
+      "location": "docx:p:4",
+      "current": "The adjusted difference was 0.006 [-0.002, 0.014].",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/low",
+        "values": {
+          "value": "-0.002"
+        },
+        "authority": {
+          "source": "low-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_low",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "low",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "low-plan",
+      "location": "json:/slides/1/visual/rows/0/low",
+      "current": "-0.002",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/low",
+        "values": {
+          "value": "-0.002"
+        },
+        "authority": {
+          "source": "low-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_low",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "low",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "low-message",
+      "location": "json:/slides/1/message",
+      "current": "Adjusted difference: 0.006 [-0.002, 0.014].",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/low",
+        "values": {
+          "value": "-0.002"
+        },
+        "authority": {
+          "source": "low-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_low",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "low",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "low-notes",
+      "location": "json:/slides/1/notes",
+      "current": "Adjusted difference: 0.006 [-0.002, 0.014]. These are synthetic validation data, not a real educational finding.",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/low",
+        "values": {
+          "value": "-0.002"
+        },
+        "authority": {
+          "source": "low-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_low",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "low",
+      "source_changed_since_baseline": true
+    },
+    {
+      "file_id": "paper",
+      "file": "@RUN@\\paper-reviewed.docx",
+      "binding_id": "high-word",
+      "location": "docx:p:4",
+      "current": "The adjusted difference was 0.006 [-0.002, 0.014].",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/high",
+        "values": {
+          "value": "0.014"
+        },
+        "authority": {
+          "source": "high-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_high",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "high",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "high-plan",
+      "location": "json:/slides/1/visual/rows/0/high",
+      "current": "0.014",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/high",
+        "values": {
+          "value": "0.014"
+        },
+        "authority": {
+          "source": "high-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_high",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "high",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "high-message",
+      "location": "json:/slides/1/message",
+      "current": "Adjusted difference: 0.006 [-0.002, 0.014].",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/high",
+        "values": {
+          "value": "0.014"
+        },
+        "authority": {
+          "source": "high-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_high",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "high",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "plan",
+      "file": "@RUN@\\plan-updated.json",
+      "binding_id": "high-notes",
+      "location": "json:/slides/1/notes",
+      "current": "Adjusted difference: 0.006 [-0.002, 0.014]. These are synthetic validation data, not a real educational finding.",
+      "new_material": {
+        "file": "@RUN@\\analysis.json",
+        "location": "json:/difference/high",
+        "values": {
+          "value": "0.014"
+        },
+        "authority": {
+          "source": "high-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        },
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_high",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        }
+      },
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Same value or explicitly permitted display rounding.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "fact_id": "high",
+      "source_changed_since_baseline": false
+    },
+    {
+      "file_id": "paper",
+      "file": "@RUN@\\paper-reviewed.docx",
+      "binding_id": "direction-word",
+      "location": "docx:p:5",
+      "current": "The interval includes zero.",
+      "new_material": null,
+      "status": "consistent",
+      "judgment": "已一致",
+      "reason": "Reader judged this interpretation still supported: The new lower bound is -0.002 and upper bound 0.014.",
+      "suggestion": "保留；对应值一致，语义解释仍按上下文判断。",
+      "dependency_id": "direction-reading"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:1:3",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:2:3",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:2:INTERVAL/visual/reference",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:2:INTERVAL/visual/axis-line",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:2:INTERVAL/visual/row/0/interval",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    },
+    {
+      "file_id": "ppt",
+      "file": "@RUN@\\after\\slides.pptx",
+      "binding_id": null,
+      "location": "ppt:3:3",
+      "current": null,
+      "new_material": null,
+      "status": "unchecked",
+      "judgment": "未能检查",
+      "reason": "Nontext drawing: geometry/meaning not checked.",
+      "suggestion": "补足可读材料或重新定位后检查。"
+    }
+  ],
+  "coverage": {
+    "analysis": {
+      "read_units": 12,
+      "mapped_units": 5,
+      "unmapped_locations": [
+        "json:/enrolled_n",
+        "json:/comparison_post",
+        "json:/outcome",
+        "json:/unit",
+        "json:/model",
+        "json:/unadjusted_beta",
+        "json:/adjusted_beta"
+      ],
+      "parser_status": "read"
+    },
+    "paper": {
+      "read_units": 12,
+      "mapped_units": 4,
+      "unmapped_locations": [
+        "docx:p:0",
+        "docx:p:1",
+        "docx:p:3",
+        "docx:p:6",
+        "docx:p:7",
+        "docx:p:8",
+        "docx:p:10",
+        "docx:p:11"
+      ],
+      "parser_status": "read"
+    },
+    "plan": {
+      "read_units": 80,
+      "mapped_units": 9,
+      "unmapped_locations": [
+        "json:/title",
+        "json:/route",
+        "json:/stage",
+        "json:/language",
+        "json:/minutes",
+        "json:/sources/0/id",
+        "json:/sources/0/title",
+        "json:/sources/0/short",
+        "json:/sources/0/access",
+        "json:/sources/0/year",
+        "json:/slides/0/id",
+        "json:/slides/0/title",
+        "json:/slides/0/visual/type",
+        "json:/slides/0/visual/kind",
+        "json:/slides/0/visual/categories/0",
+        "json:/slides/0/visual/categories/1",
+        "json:/slides/0/visual/series/0/name",
+        "json:/slides/0/visual/series/0/values/0",
+        "json:/slides/0/visual/series/1/name",
+        "json:/slides/0/visual/series/1/values/0",
+        "json:/slides/0/visual/series/1/values/1",
+        "json:/slides/0/visual/unit",
+        "json:/slides/0/visual/minimum",
+        "json:/slides/0/visual/maximum",
+        "json:/slides/0/visual/major_unit",
+        "json:/slides/0/visual/number_format",
+        "json:/slides/0/visual/caption",
+        "json:/slides/0/visual_plan",
+        "json:/slides/0/seconds",
+        "json:/slides/0/role",
+        "json:/slides/0/status",
+        "json:/slides/0/section",
+        "json:/slides/0/evidence/0/source",
+        "json:/slides/0/evidence/0/location",
+        "json:/slides/0/evidence/0/supports",
+        "json:/slides/1/id",
+        "json:/slides/1/title",
+        "json:/slides/1/visual/type",
+        "json:/slides/1/visual/rows/0/label",
+        "json:/slides/1/visual/range/0",
+        "json:/slides/1/visual/range/1",
+        "json:/slides/1/visual/reference",
+        "json:/slides/1/visual/unit",
+        "json:/slides/1/visual/caption",
+        "json:/slides/1/visual_plan",
+        "json:/slides/1/seconds",
+        "json:/slides/1/role",
+        "json:/slides/1/status",
+        "json:/slides/1/section",
+        "json:/slides/1/evidence/0/source",
+        "json:/slides/1/evidence/0/location",
+        "json:/slides/1/evidence/0/supports",
+        "json:/slides/2/id",
+        "json:/slides/2/title",
+        "json:/slides/2/message",
+        "json:/slides/2/visual/type",
+        "json:/slides/2/visual/columns/0",
+        "json:/slides/2/visual/columns/1",
+        "json:/slides/2/visual/rows/0/0",
+        "json:/slides/2/visual/rows/0/1",
+        "json:/slides/2/visual/rows/1/0",
+        "json:/slides/2/visual/caption",
+        "json:/slides/2/visual_plan",
+        "json:/slides/2/notes",
+        "json:/slides/2/seconds",
+        "json:/slides/2/role",
+        "json:/slides/2/status",
+        "json:/slides/2/section",
+        "json:/slides/2/evidence/0/source",
+        "json:/slides/2/evidence/0/location",
+        "json:/slides/2/evidence/0/supports"
+      ],
+      "parser_status": "read"
+    },
+    "ppt": {
+      "read_units": 41,
+      "mapped_units": 2,
+      "unmapped_locations": [
+        "ppt:1:GROUPS/title:text",
+        "ppt:1:GROUPS/message:text",
+        "ppt:1:GROUPS/visual/chart:category:0",
+        "ppt:1:GROUPS/visual/chart:category:1",
+        "ppt:1:GROUPS/visual/chart:series:0:name",
+        "ppt:1:GROUPS/visual/chart:series:0:value:0",
+        "ppt:1:GROUPS/visual/chart:series:1:name",
+        "ppt:1:GROUPS/visual/chart:series:1:value:0",
+        "ppt:1:GROUPS/visual/chart:series:1:value:1",
+        "ppt:1:GROUPS/visual/chart:axis:minimum_scale",
+        "ppt:1:GROUPS/visual/chart:axis:maximum_scale",
+        "ppt:1:GROUPS/visual/chart:axis:major_unit",
+        "ppt:1:GROUPS/visual/chart:axis:title",
+        "ppt:1:GROUPS/visual/caption:text",
+        "ppt:1:GROUPS/source:text",
+        "ppt:1:GROUPS/number:text",
+        "ppt:1:notes",
+        "ppt:2:INTERVAL/title:text",
+        "ppt:2:INTERVAL/message:text",
+        "ppt:2:INTERVAL/visual/row/0/label:text",
+        "ppt:2:INTERVAL/visual/row/0/estimate:text",
+        "ppt:2:INTERVAL/visual/row/0/display:text",
+        "ppt:2:INTERVAL/visual/axis-label:text",
+        "ppt:2:INTERVAL/visual/reference-label:text",
+        "ppt:2:INTERVAL/visual/caption:text",
+        "ppt:2:INTERVAL/source:text",
+        "ppt:2:INTERVAL/number:text",
+        "ppt:2:notes",
+        "ppt:3:SAMPLE/title:text",
+        "ppt:3:SAMPLE/message:text",
+        "ppt:3:SAMPLE/visual/table:cell:0:0",
+        "ppt:3:SAMPLE/visual/table:cell:0:1",
+        "ppt:3:SAMPLE/visual/table:cell:1:0",
+        "ppt:3:SAMPLE/visual/table:cell:1:1",
+        "ppt:3:SAMPLE/visual/table:cell:2:0",
+        "ppt:3:SAMPLE/visual/caption:text",
+        "ppt:3:SAMPLE/source:text",
+        "ppt:3:SAMPLE/number:text",
+        "ppt:3:notes"
+      ],
+      "parser_status": "read"
+    }
+  },
+  "deck_checks": [
+    {
+      "ppt": "ppt",
+      "plan": "plan",
+      "result": {
+        "status": "passed",
+        "errors": [],
+        "issues": [],
+        "warnings": [],
+        "inventory": [
+          {
+            "slide": 1,
+            "editable_text": 5,
+            "shapes_or_lines": 1,
+            "native_charts": 1
+          },
+          {
+            "slide": 2,
+            "editable_text": 9,
+            "shapes_or_lines": 5
+          },
+          {
+            "slide": 3,
+            "editable_text": 5,
+            "shapes_or_lines": 1,
+            "native_tables": 1
+          }
+        ],
+        "render_status": "not_checked",
+        "plan_consistency": "passed",
+        "source_fact_check": "not_performed",
+        "visual_review": "not_performed",
+        "scope": "native object consistency with supplied verified plan, geometry and preview freshness; original-source correctness and visual quality require separate review"
+      }
+    }
+  ],
+  "scope": "Only explicitly registered semantic mappings. Unmapped units and unreadable objects are not certified. First use establishes a current baseline, not historical change. Scripts verify bytes/locations/values; the reader establishes analysis identity and interpretation."
+}

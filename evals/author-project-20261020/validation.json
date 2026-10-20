@@ -1,0 +1,53 @@
+{
+  "baseline_commit": "f3e2066a181cbda90b75bd71296c49a9ac5f6007",
+  "release": "0.14.0",
+  "runtime_sha256": {
+    "skills/edu-writing/scripts/author_preferences.py": "306f17553fb4fb8a8612af3038bcea56f637150eb68f187d2c615a25a170b0c8",
+    "skills/edu-writing/references/author-preferences.md": "bd6950259b4c619e171ed3625a3b7430faff8f68ef0b775084ba52e43ed40611",
+    "skills/edu-shared/scripts/private_store.py": "855f8362083eef577413e2540a51947de50632cc61b0525ed206d0f45cdb7a72",
+    "skills/edu-shared/scripts/project_documents.py": "b19731bc3e36ff3c28fbd852abe60e41dbc98fa5f8430351302930d3d5d59a61",
+    "skills/edu-research/scripts/project_check.py": "ade780f27cc969912504ba7a1181433d89cf8273523635a61450fffc0993f41f",
+    "skills/edu-research/references/material-updates.md": "ca908948b50cb5330363e0a367dca1d852e3fef41235ea72fab0cce6b795a3bd",
+    "skills/edu-writing/SKILL.md": "1012b26790ac2384e3779f28d3f99401613f970fab811bd5bf6a5b1ac5e0e320",
+    "skills/edu-research/SKILL.md": "2fb0a1832c73e573f2616641b01ef516c886afdfe58b3f96dcea5cae53a3e4fc",
+    "skills/edu-ppt/SKILL.md": "2d6cc716f97c4f214cb8fdae0f02c86ccef964bb5d5c9a96bd3cce05d67207dd",
+    "skills/edu-writing/references/reference-verification.md": "4d8add4293bf36d0d680588c1f0212737f331c9313d334546e33b3f3996ecd83",
+    "skills/edu-research/requirements.txt": "0b4b6394796374073db3409fe1f8305e00721ccb2a41fa544ccb49ff75e976ac"
+  },
+  "local_complete_suite": {
+    "command": "python -X utf8 -m unittest discover -s tests -v",
+    "tests": 146,
+    "status": "passed",
+    "log": "tests-final.log",
+    "locale": "English_United States.utf8 (Windows R)",
+    "R_tests_skipped": false
+  },
+  "subsequent_integration_check": {
+    "command": "python -X utf8 -m unittest discover -s tests -p test_project_check.py -v",
+    "tests": 16,
+    "status": "passed",
+    "scope": "Includes the added native deck integration regression: same values with changed category, series and unit fail."
+  },
+  "initial_failure": {
+    "log": "tests-01.log",
+    "status": "failed",
+    "reason": "Host C.UTF-8 locale caused Windows R to misread a Chinese source path.",
+    "repair": "R-compatible locale in the invoking environment; no statistics-code edits or skipped test."
+  },
+  "skill_validation": {
+    "edu-writing": "passed",
+    "edu-research": "passed"
+  },
+  "visual": {
+    "example": "example/visual-review.json",
+    "independent": "linked-materials/independent-report.md",
+    "scope": "Actual PowerPoint and Word rendering, followed by AI image inspection."
+  },
+  "ci_gate": "Check Python and R jobs for the final commit; the final response links the exact completed run.",
+  "limits": [
+    "All new public materials are synthetic.",
+    "No measured author time savings or human preference scores.",
+    "Independent trials preceded some localized fixes; failures and actual retests are retained.",
+    "Artifact and structural validation do not prove semantic correctness."
+  ]
+}

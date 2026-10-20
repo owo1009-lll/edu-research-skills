@@ -1,0 +1,13 @@
+{
+  "args": [
+    "@REPO@\\skills\\edu-research\\scripts\\project_check.py",
+    "sync",
+    "--project",
+    "@RUN@\\project",
+    "--request",
+    "@RUN@\\interpretation-sync-request.json"
+  ],
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "Only inspected, unambiguous locations can be synchronized automatically.\n"
+}

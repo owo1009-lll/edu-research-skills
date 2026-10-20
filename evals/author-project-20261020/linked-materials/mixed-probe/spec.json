@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "id": "new",
+      "path": "@RUN@\\materials\\result-current.json",
+      "role": "明确指定的当前正式试验结果"
+    },
+    {
+      "id": "md",
+      "path": "@RUN@\\mixed-probe\\discussion.md",
+      "role": "一个已确认值与一个待作者判断值共处的段落"
+    }
+  ],
+  "facts": [
+    {
+      "id": "treated-rate",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "正式试验全部240名随机分组学生",
+        "statistic": "完成比例",
+        "unit": "比例",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-15",
+          "file": "new",
+          "locator": "json:/phase2/rate_treated",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "guards": [
+            {
+              "locator": "json:/phase2/outcome",
+              "equals": "8周课程完成"
+            },
+            {
+              "locator": "json:/phase2/sample",
+              "equals": "正式试验全部随机分组学生"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-18",
+          "file": "md",
+          "locator": "line:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "干预组课程完成率(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        }
+      ],
+      "authority": {
+        "source": "binding-15",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "unknown-subgroup",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "未决：分母和组别待作者确认",
+        "statistic": "完成比例",
+        "unit": "%",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-44",
+          "file": "md",
+          "locator": "line:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "某子组课程完成率(?P<value>[\\d.]+)%"
+        }
+      ],
+      "occurrences": []
+    }
+  ],
+  "dependencies": [],
+  "citations": []
+}

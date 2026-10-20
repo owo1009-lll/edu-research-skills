@@ -1,0 +1,12 @@
+{
+  "args": [
+    "@REPO@\\skills\\edu-ppt\\scripts\\render_deck.py",
+    "--pptx",
+    "@RUN@\\deck-after\\slides.pptx",
+    "--out",
+    "@RUN@\\render-after"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"source\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\deck-after\\\\slides.pptx\",\n  \"pptx_sha256\": \"35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872\",\n  \"status\": \"rendered\",\n  \"visual_review\": \"not_performed\",\n  \"errors\": [],\n  \"engine\": \"PowerPoint COM\",\n  \"slides\": 3,\n  \"contact_sheets\": [\n    \"contact-01.png\"\n  ],\n  \"images\": {\n    \"slide-001.png\": \"2454356c0c8746fa8083b943975182735c7544cc287f5ff3683b9d327faa6b92\",\n    \"slide-002.png\": \"c0c2390b478503b80c6f0a366b3342fc89674291f2fa8c34ab7bc272134cb534\",\n    \"slide-003.png\": \"364259f31a1f1de82f48b3fa19a1e301b47b859034ba810254ad1ddfe6a6c785\"\n  }\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,13 @@
+{
+  "args": [
+    "@REPO@\\skills\\edu-research\\scripts\\project_check.py",
+    "sync",
+    "--project",
+    "@RUN@\\project",
+    "--request",
+    "@RUN@\\sync-request.json"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"files\": [\n    {\n      \"source\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\materials\\\\manuscript.docx\",\n      \"output\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\updated\\\\manuscript.docx\",\n      \"sha256\": \"de70cdf55caf187cb689cd6a2f3517d2ed30b2150ab6da7200422673674010e2\"\n    },\n    {\n      \"source\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\materials\\\\discussion.md\",\n      \"output\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\updated\\\\discussion.md\",\n      \"sha256\": \"d2daf5ba55fc1aede8c06e83f7743626fc50dfa3b196880c5d8b3db585996fc3\"\n    },\n    {\n      \"source\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\materials\\\\deck-plan.json\",\n      \"output\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\updated\\\\deck-plan.json\",\n      \"sha256\": \"2a14ccd634c5042c76ca03fe7d0601e60b27ecfb9c90678f3538d5c1639a5785\"\n    }\n  ],\n  \"next\": \"Register explicit new paths, refresh changed semantic mappings, and check again. For changed PPT plans, rebuild_deck, check_deck and render all affected slides.\"\n}\n",
+  "stderr": ""
+}

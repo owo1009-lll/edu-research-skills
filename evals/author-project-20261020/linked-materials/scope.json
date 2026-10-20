@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "id": "new",
+      "path": "@RUN@\\materials\\result-current.json",
+      "role": "明确指定的当前正式试验结果"
+    },
+    {
+      "id": "old",
+      "path": "@RUN@\\materials\\result-old.json",
+      "role": "旧版本，非当前权威"
+    },
+    {
+      "id": "doc",
+      "path": "@RUN@\\materials\\manuscript.docx",
+      "role": "Word摘要及结果表"
+    },
+    {
+      "id": "csv",
+      "path": "@RUN@\\materials\\results.csv",
+      "role": "结果表"
+    },
+    {
+      "id": "md",
+      "path": "@RUN@\\materials\\discussion.md",
+      "role": "讨论"
+    },
+    {
+      "id": "plan",
+      "path": "@RUN@\\materials\\deck-plan.json",
+      "role": "已有关联PPT计划"
+    },
+    {
+      "id": "ppt",
+      "path": "@RUN@\\deck-before\\slides.pptx",
+      "role": "PPT"
+    },
+    {
+      "id": "reading",
+      "path": "@RUN@\\materials\\synthetic-reading.md",
+      "role": "虚构来源阅读文件"
+    },
+    {
+      "id": "ledger",
+      "path": "@RUN@\\materials\\citation-ledger.json",
+      "role": "已有引用支持记录"
+    },
+    {
+      "id": "formula",
+      "path": "@RUN@\\materials\\formula-supplement.xlsx",
+      "role": "辅助计算"
+    },
+    {
+      "id": "broken",
+      "path": "@RUN@\\materials\\broken-supplement.docx",
+      "role": "损坏附录"
+    }
+  ],
+  "facts": [],
+  "dependencies": [],
+  "citations": []
+}

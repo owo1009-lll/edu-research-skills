@@ -1,11 +1,13 @@
 ---
 name: edu-writing
-description: Write or revise Chinese (CSSCI) and English (SSCI) education papers from evidence, preserving the author's argument. Covers paper sections, literature synthesis, full manuscripts, tables, figures, APA or GB/T 7714 references, Word delivery and manuscript consistency. When a target journal is specified, verify current editorial roles and search relevant journal, editor and competing research for substantive citation use. Raw data or interviews go first to edu-analysis or edu-qual. Use for 写论文、论文写作、写摘要、写讨论、写引言、文献综述、研究方法、研究结果写作、结论与建议、修改论文、润色、改稿、完整论文、全文一致性检查、参考文献格式、目标期刊、编辑团队相关研究、GB/T 7714、中文核心期刊、CSSCI、SSCI、英文论文、学术写作、教育学论文.
+description: Write or revise Chinese (CSSCI) and English (SSCI) education papers from evidence, preserving the author's argument. Save and manage scoped author writing preferences (记住写作习惯、查看或删除偏好). Covers paper sections, literature synthesis, full manuscripts, tables, figures, APA or GB/T 7714 references, Word delivery and manuscript consistency. When a target journal is specified, verify current editorial roles and search relevant journal, editor and competing research for substantive citation use. Raw data or interviews go first to edu-analysis or edu-qual. Use for 写论文、论文写作、写摘要、写讨论、写引言、文献综述、研究方法、研究结果写作、结论与建议、修改论文、润色、改稿、完整论文、全文一致性检查、参考文献格式、目标期刊、编辑团队相关研究、GB/T 7714、中文核心期刊、CSSCI、SSCI、英文论文、学术写作、教育学论文.
 ---
 
 # 教育学论文写作
 
 接受论文、结果、参考文献、笔记、初稿或一句普通的写作请求。证据记录由助理在内部整理，不要求用户准备 JSON。保留真实的研究问题、时间顺序、发现和有依据的作者意图。只有缺失的信息会实质改变研究判断时才询问。
+
+用户要记住、查看、停用或删除写作习惯，或当前项目已有授权的偏好档案时，按 [作者偏好](references/author-preferences.md) 只加载与本次语言、研究类型、章节和任务相关的有效项。当前要求优先，候选不自动改稿，项目事实不进入个人偏好；没有档案也直接完成写作。结果或来源更新后要检查稿件／PPT 中的旧内容时，转到 [材料关联核对](../edu-research/references/material-updates.md)，默认只提供定位清单。
 
 ## 步骤
 

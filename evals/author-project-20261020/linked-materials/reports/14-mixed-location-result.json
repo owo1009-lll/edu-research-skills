@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "output_exists": true,
+  "output": "正式试验干预组课程完成率65.0%；某子组课程完成率65.0%，分母和组别待确认。\n",
+  "expected": "拒绝替作者决定未决子组的值",
+  "request": "@RUN@\\mixed-probe\\request.json"
+}

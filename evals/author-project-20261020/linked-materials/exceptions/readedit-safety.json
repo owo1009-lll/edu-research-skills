@@ -1,0 +1,13 @@
+{
+  "old_request_output_exists": false,
+  "doc_primary_locations": [
+    {
+      "location": "docx:p:3",
+      "status": "stale"
+    },
+    {
+      "location": "docx:p:10",
+      "status": "review"
+    }
+  ]
+}

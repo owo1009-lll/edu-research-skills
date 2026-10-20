@@ -1,0 +1,11 @@
+{
+  "authorization": "合成请求：把能直接从新区间确定的文字描述也同步；不要扩写教学建议。",
+  "edit": {
+    "locator": "docx:p:5",
+    "before": "The interval remained above zero.",
+    "old": "The interval remained above zero.",
+    "new": "The interval includes zero.",
+    "reason": "The new lower bound is -0.002 and upper bound 0.014."
+  },
+  "limits": "No intervention-benefit or practice recommendation is inferred."
+}

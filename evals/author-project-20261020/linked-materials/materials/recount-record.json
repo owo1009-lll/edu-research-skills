@@ -1,0 +1,11 @@
+{
+  "label": "SYNTHETIC, not real research",
+  "formula": "Risk ratio; independent-binomial log-Wald CI",
+  "deduplicated_old_completions": 6,
+  "n": 240,
+  "rr": 1.0833333333333335,
+  "low": 0.8901407797601373,
+  "high": 1.3184556171298654,
+  "old_ci": "Synthetic prior mixed-cluster model output, not independently recomputed",
+  "authority": "Requester explicitly selects result-current.json for the formal-trial primary result only"
+}

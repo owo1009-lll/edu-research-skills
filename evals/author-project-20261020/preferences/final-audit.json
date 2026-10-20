@@ -1,0 +1,33 @@
+{
+  "synthetic_only": true,
+  "repository_writes_performed": false,
+  "external_services_used": false,
+  "test_log_records": 46,
+  "management_checks": 20,
+  "management_passed": 19,
+  "historical_management_failure": "documentation omitted scope=author on an author-item update; explicit scope fixed it",
+  "documentation_fix_observed": true,
+  "active_author_items": 3,
+  "project_facts_in_author_profile": false,
+  "deleted_short_example_storage_residuals": {
+    "Within shared aims, teachers judge the next classroom step.": [],
+    "Judgment remains answerable to shared curricular purposes.": []
+  },
+  "storage_files": [
+    "private-profile\\author-preferences.json",
+    "project-enabled\\edu_output\\project\\materials.json",
+    "project-enabled\\edu_output\\project\\preferences.json",
+    "project-no-profile\\edu_output\\project\\materials.json"
+  ],
+  "lock_or_temporary_files": [],
+  "final_words": {
+    "project-enabled": 55,
+    "project-no-profile": 55
+  },
+  "limits": [
+    "Same evaluator authored both variants; no model-context blinding.",
+    "No real author preference scores or time measurements.",
+    "Deleted synthetic examples remain in deliberately retained test driver/logs, not live preference storage.",
+    "The original is 49 words; strict shortening conflicts with the 55–75-word request."
+  ]
+}

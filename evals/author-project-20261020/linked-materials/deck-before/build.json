@@ -1,0 +1,95 @@
+{
+  "plan_sha256": "a7e88e96465a04b3fb0c62d22111e977caeb4a3e904a953920971623ffd0a4f0",
+  "mode": "pptx",
+  "source_plan": "@RUN@\\materials\\deck-plan.json",
+  "slides": 3,
+  "planned_seconds": 120,
+  "requested_minutes": 2,
+  "warnings": [],
+  "render_status": "not_run",
+  "template_sha256": null,
+  "theme_sha256": null,
+  "objects": [
+    {
+      "slide": 1,
+      "id": "sample/title"
+    },
+    {
+      "slide": 1,
+      "id": "sample/message"
+    },
+    {
+      "slide": 1,
+      "id": "sample/body/0"
+    },
+    {
+      "slide": 1,
+      "id": "sample/body/1"
+    },
+    {
+      "slide": 1,
+      "id": "sample/source"
+    },
+    {
+      "slide": 1,
+      "id": "sample/number"
+    },
+    {
+      "slide": 2,
+      "id": "completion/title"
+    },
+    {
+      "slide": 2,
+      "id": "completion/message"
+    },
+    {
+      "slide": 2,
+      "id": "completion/body/0"
+    },
+    {
+      "slide": 2,
+      "id": "completion/visual/chart",
+      "series_colors": [
+        "176B76"
+      ]
+    },
+    {
+      "slide": 2,
+      "id": "completion/source"
+    },
+    {
+      "slide": 2,
+      "id": "completion/number"
+    },
+    {
+      "slide": 3,
+      "id": "effect/title"
+    },
+    {
+      "slide": 3,
+      "id": "effect/message"
+    },
+    {
+      "slide": 3,
+      "id": "effect/body/0"
+    },
+    {
+      "slide": 3,
+      "id": "effect/visual/table"
+    },
+    {
+      "slide": 3,
+      "id": "effect/source"
+    },
+    {
+      "slide": 3,
+      "id": "effect/number"
+    }
+  ],
+  "outputs": {
+    "content.md": "96aa66e0f417149d605911e7126c5a1465f3c9bfa56f656b4d7f02d4eb0644b2",
+    "plan.json": "a7e88e96465a04b3fb0c62d22111e977caeb4a3e904a953920971623ffd0a4f0",
+    "slides.pptx": "c9218403cbd2a97fb878fa0cdc66fca2512fef33ba15bcd44c5205a3dd2254e0",
+    "speaker_notes.md": "314ddd82d06628b03c099f41df8e49722e3d14e0d18b8b6d5beb65ec8ee0edba"
+  }
+}

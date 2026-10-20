@@ -1,0 +1,7 @@
+{
+  "doc": "@RUN@\\updated\\manuscript.docx",
+  "md": "@RUN@\\updated\\discussion.md",
+  "plan": "@RUN@\\updated\\deck-plan.json",
+  "csv": "@RUN@\\updated\\results.csv",
+  "ppt": "@RUN@\\deck-after\\slides.pptx"
+}

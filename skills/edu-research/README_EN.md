@@ -8,6 +8,7 @@ Entry point for education research: routes a request to the right module, and ha
 
 - Turn a topic into feasible research questions and a design
 - Multi-step projects (analyze data, then write the paper)
+- Locate manuscript, table, citation and presentation passages affected by updated materials
 - When it is unclear which module to use
 
 ## Typical Requests
@@ -15,6 +16,7 @@ Entry point for education research: routes a request to the right module, and ha
 - "Propose feasible research questions and a design on generative AI and university students' self-regulated learning"
 - "How large a sample does this quasi-experiment need?"
 - "Write a paper from these data"
+- "These are my confirmed results; check the Word manuscript and slides for old content without editing them"
 
 ## What You Need To Provide
 
@@ -26,11 +28,12 @@ Entry point for education research: routes a request to the right module, and ha
 
 ## Runtime and Dependencies
 
-- No extra dependencies; see each module for its own
+- Routing needs no extra dependencies. Cross-format checks use this package's `requirements.txt` for DOCX, PPTX, PDF and XLSX reading; no R is required.
 
 ## Boundaries
 
 - Does not invent recruitment, ethics approval, data or preregistration
+- Update checks are Beta. The reader establishes semantic mappings; checks are read-only by default and disclose unreadable or unmapped content. Authorized synchronization creates new versions. See the [workflow](references/material-updates.md).
 
 ## Related Skills
 

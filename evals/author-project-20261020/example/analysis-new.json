@@ -1,0 +1,16 @@
+{
+  "analysis_n": 382,
+  "enrolled_n": 410,
+  "intervention_post": 16,
+  "comparison_post": 14,
+  "difference": {
+    "estimate": 0.006,
+    "low": -0.002,
+    "high": 0.014
+  },
+  "outcome": "classroom engagement",
+  "unit": "score",
+  "model": "baseline-adjusted",
+  "unadjusted_beta": 0.21,
+  "adjusted_beta": 0.21
+}

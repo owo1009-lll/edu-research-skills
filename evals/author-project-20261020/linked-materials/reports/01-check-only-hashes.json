@@ -1,0 +1,22 @@
+{
+  "unchanged": {
+    "new": true,
+    "old": true,
+    "doc": true,
+    "csv": true,
+    "md": true,
+    "plan": true,
+    "ppt": true,
+    "reading": true,
+    "ledger": true,
+    "formula": true,
+    "broken": true
+  },
+  "counts": {
+    "stale": 15,
+    "review": 2,
+    "consistent": 19,
+    "unchecked": 7
+  },
+  "dependency_findings": []
+}

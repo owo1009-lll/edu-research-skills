@@ -1,0 +1,111 @@
+{
+  "route": "own",
+  "stage": "completed",
+  "title": "同伴反馈课程：两阶段研究（合成）",
+  "minutes": 2,
+  "sources": [
+    {
+      "id": "author",
+      "title": "作者提供的合成分析材料",
+      "access": "author_material",
+      "short": "合成材料"
+    }
+  ],
+  "slides": [
+    {
+      "id": "sample",
+      "title": "两阶段样本",
+      "message": "样本口径必须分开",
+      "body": [
+        "先导阶段 n=48；问卷 n=42",
+        "正式试验 n=240；问卷 n=196"
+      ],
+      "notes": "两个阶段独立，不能把问卷有效人数作为随机样本数。",
+      "visual_plan": "原生图表或文字",
+      "seconds": 40,
+      "role": "finding",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "author",
+          "location": "sample",
+          "supports": "样本口径必须分开"
+        }
+      ]
+    },
+    {
+      "id": "completion",
+      "title": "正式试验课程完成率",
+      "message": "8周课程完成",
+      "body": [
+        "干预组70.0%；对照组60.0%"
+      ],
+      "notes": "干预组70.0%，对照组60.0%。",
+      "visual_plan": "原生图表或文字",
+      "seconds": 40,
+      "role": "finding",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "author",
+          "location": "completion",
+          "supports": "8周课程完成"
+        }
+      ],
+      "visual": {
+        "type": "chart",
+        "kind": "column",
+        "unit": "%",
+        "categories": [
+          "干预组",
+          "对照组"
+        ],
+        "series": [
+          {
+            "name": "完成率",
+            "values": [
+              70,
+              60
+            ]
+          }
+        ],
+        "minimum": 0,
+        "maximum": 100,
+        "number_format": "0.0"
+      }
+    },
+    {
+      "id": "effect",
+      "title": "未调整风险比",
+      "message": "区间下限高于1",
+      "body": [
+        "RR=1.166667; 95%CI=[1.001200,1.359400]"
+      ],
+      "notes": "未调整模型排除了无效应；调整模型仍不精确。",
+      "visual_plan": "原生图表或文字",
+      "seconds": 40,
+      "role": "finding",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "author",
+          "location": "effect",
+          "supports": "区间下限高于1"
+        }
+      ],
+      "visual": {
+        "type": "table",
+        "columns": [
+          "模型",
+          "RR及95%CI"
+        ],
+        "rows": [
+          [
+            "调整模型",
+            "1.12 [0.93,1.35]"
+          ]
+        ]
+      }
+    }
+  ]
+}

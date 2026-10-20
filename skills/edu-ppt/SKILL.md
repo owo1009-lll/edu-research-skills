@@ -7,6 +7,8 @@ description: Prepare education research presentations with source-linked slide t
 
 用户提供自然语言需求与材料即可；助理阅读、组织并生成内部格式，不要求用户填写JSON。不需要额外模型API密钥。遵守[共同规则](../edu-shared/references/integrity.md)。
 
+论文或结果更新后检查旧数据，使用 [材料关联核对](../edu-research/references/material-updates.md) 连接权威材料、内容计划和实际对象。默认只定位；用户授权同步后更新计划、重建并复用本 skill 的成品核对与实际渲染，不覆盖旧图上的数字冒充更新。
+
 ## 选择路线和交付
 
 路线A中用户指定目标期刊、需要定位贡献时，可复用edu-writing的 [目标期刊检索](../edu-writing/references/target-journal.md) 及已核实文献。路线B不默认检索编辑团队。

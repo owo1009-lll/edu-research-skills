@@ -1,0 +1,29 @@
+{
+  "original_word_count": 49,
+  "final_checks": [
+    {
+      "project": "project-enabled",
+      "word_count": 55,
+      "within_requested_range": true,
+      "concept_label": true,
+      "should_retained": true,
+      "attainment_boundary": true,
+      "source_interviews": true,
+      "shared_aims": true,
+      "researcher_judgment_first": true
+    },
+    {
+      "project": "project-no-profile",
+      "word_count": 55,
+      "within_requested_range": true,
+      "concept_label": true,
+      "should_retained": true,
+      "attainment_boundary": true,
+      "source_interviews": true,
+      "shared_aims": true,
+      "researcher_judgment_first": true
+    }
+  ],
+  "one_time_words": 55,
+  "evaluation": "AI inspection of explicit synthetic instructions; no human preference score."
+}

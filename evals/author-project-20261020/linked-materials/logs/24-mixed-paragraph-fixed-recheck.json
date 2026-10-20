@@ -1,0 +1,13 @@
+{
+  "args": [
+    "@REPO@\\skills\\edu-research\\scripts\\project_check.py",
+    "sync",
+    "--project",
+    "@RUN@\\mixed-probe\\project",
+    "--request",
+    "@RUN@\\mixed-probe\\after-fix-request.json"
+  ],
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "This location also contains unresolved evidence; re-read and narrow the edit before synchronization.\n"
+}

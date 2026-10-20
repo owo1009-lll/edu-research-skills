@@ -1,6 +1,6 @@
 ---
 name: edu-research
-description: Plan education research and coordinate multi-step projects - topics, research questions, frameworks, sampling and design, or analysis followed by writing or presenting. Single tasks go to edu-analysis, edu-qual, edu-audit, edu-writing, edu-review, edu-response, edu-proposal or edu-ppt. Use for 选题、研究问题、研究设计、研究方案、理论框架、抽样设计、样本量估计、准实验设计、教育研究整体规划、从数据到完整论文. A request for a research presentation or paper-reading slides goes directly to edu-ppt.
+description: Plan education research and coordinate multi-step projects - topics, research questions, frameworks, sampling and design, or analysis followed by writing or presenting. Check linked manuscripts, results and slides after material updates (结果更新、查旧数据、同步已确认位置). Single tasks go to edu-analysis, edu-qual, edu-audit, edu-writing, edu-review, edu-response, edu-proposal or edu-ppt. Use for 选题、研究问题、研究设计、研究方案、理论框架、抽样设计、样本量估计、准实验设计、教育研究整体规划、从数据到完整论文. A request for a research presentation or paper-reading slides goes directly to edu-ppt.
 ---
 
 # 教育学科研入口
@@ -18,6 +18,8 @@ description: Plan education research and coordinate multi-step projects - topics
    | 访谈、观察、开放题，要主题分析、内容分析或扎根理论编码 | edu-qual |
    | 已发表论文或自己稿件里的统计结果，要核对、复算或检查报告是否规范 | edu-audit |
    | 要写或改论文的某一部分、整篇论文、文献综合、讨论，或润色 | edu-writing |
+   | 记住、查看、修改、停用或删除作者写作偏好 | edu-writing 的 [作者偏好](../edu-writing/references/author-preferences.md) |
+   | 结果、正文、来源或 PPT 更新了，要找遗漏或同步已授权的位置 | [材料关联核对](references/material-updates.md) |
    | 指定目标期刊，按该刊修改或找编辑团队相关研究 | edu-writing的 [目标期刊检索](../edu-writing/references/target-journal.md) |
    | 要汇报自己的论文、方案或进展；解读文章、按选题找文章做组会PPT；只要逐页内容和讲稿 | edu-ppt |
    | 要写课题申报书、活页或开题报告 | edu-proposal |
@@ -33,5 +35,6 @@ description: Plan education research and coordinate multi-step projects - topics
 ## 共同约定
 
 - 所有产出写在用户当前项目下的 `edu_output/`，原始数据和访谈不上传、不写进 skill 文件夹。
+- 偏好与项目事实分开保存；默认只读取指定稿件、明确关联材料和授权个人档案。跨材料核对由用户触发，不后台监控，不因偏好变化重写历史稿件。
 - 统计需要 R（edu-analysis 会自检并提示安装缺少的包）；纯写作只需要 Python，不需要 R。
 - 能力范围与限制见 [能力表](references/scope.md)，运行环境见 [环境](references/execution.md)，共同红线见 [共同规则](../edu-shared/references/integrity.md)。

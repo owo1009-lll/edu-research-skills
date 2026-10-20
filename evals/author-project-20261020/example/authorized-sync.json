@@ -1,0 +1,95 @@
+{
+  "authorization": "合成请求：同步修改已确认的数值和区间，保留原件。解释变化先列出来。",
+  "report_fingerprint": "3b8633eff864426b513eff360c79b47bb49042a23fcfc72ad66d4eee7eee3ccf",
+  "edits": [
+    {
+      "file": "paper",
+      "output": "@RUN@\\paper-updated.docx",
+      "replacements": [
+        {
+          "locator": "docx:p:2",
+          "before": "The analysis included 390 pupils; 410 were enrolled.",
+          "old": "The analysis included 390 pupils; 410 were enrolled.",
+          "new": "The analysis included 382 pupils; 410 were enrolled.",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "docx:p:9",
+          "before": "18",
+          "old": "18",
+          "new": "16",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "docx:p:4",
+          "before": "The adjusted difference was 0.009 [0.004, 0.014].",
+          "old": "The adjusted difference was 0.009 [0.004, 0.014].",
+          "new": "The adjusted difference was 0.006 [-0.002, 0.014].",
+          "reason": "Explicitly authorized same-result numeric update."
+        }
+      ]
+    },
+    {
+      "file": "plan",
+      "output": "@RUN@\\plan-updated.json",
+      "replacements": [
+        {
+          "locator": "json:/slides/2/visual/rows/1/1",
+          "before": "390",
+          "old": "390",
+          "new": "382",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "json:/slides/0/visual/series/0/values/1",
+          "before": "18",
+          "old": "18",
+          "new": "16",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "json:/slides/0/message",
+          "before": "Post scores: intervention 18, comparison 14.",
+          "old": "Post scores: intervention 18, comparison 14.",
+          "new": "Post scores: intervention 16, comparison 14.",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "json:/slides/0/notes",
+          "before": "Post scores: intervention 18, comparison 14. These are synthetic validation data, not a real educational finding.",
+          "old": "Post scores: intervention 18, comparison 14. These are synthetic validation data, not a real educational finding.",
+          "new": "Post scores: intervention 16, comparison 14. These are synthetic validation data, not a real educational finding.",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "json:/slides/1/visual/rows/0/estimate",
+          "before": "0.009",
+          "old": "0.009",
+          "new": "0.006",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "json:/slides/1/message",
+          "before": "Adjusted difference: 0.009 [0.004, 0.014].",
+          "old": "Adjusted difference: 0.009 [0.004, 0.014].",
+          "new": "Adjusted difference: 0.006 [-0.002, 0.014].",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "json:/slides/1/notes",
+          "before": "Adjusted difference: 0.009 [0.004, 0.014]. These are synthetic validation data, not a real educational finding.",
+          "old": "Adjusted difference: 0.009 [0.004, 0.014]. These are synthetic validation data, not a real educational finding.",
+          "new": "Adjusted difference: 0.006 [-0.002, 0.014]. These are synthetic validation data, not a real educational finding.",
+          "reason": "Explicitly authorized same-result numeric update."
+        },
+        {
+          "locator": "json:/slides/1/visual/rows/0/low",
+          "before": "0.004",
+          "old": "0.004",
+          "new": "-0.002",
+          "reason": "Explicitly authorized same-result numeric update."
+        }
+      ]
+    }
+  ]
+}

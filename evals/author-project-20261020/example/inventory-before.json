@@ -1,0 +1,324 @@
+{
+  "paper": {
+    "path": "@RUN@\\paper.docx",
+    "sha256": "f260f8e49527646c9e032ce541542886071fe8af22e47f61343fc01ba3ab21a3",
+    "units": [
+      {
+        "locator": "docx:p:0",
+        "text": "Synthetic classroom study",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:1",
+        "text": "Abstract",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:2",
+        "text": "The analysis included 390 pupils; 410 were enrolled.",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:3",
+        "text": "Results",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:4",
+        "text": "The adjusted difference was 0.009 [0.004, 0.014].",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:5",
+        "text": "The interval remained above zero.",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:6",
+        "text": "Group",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:7",
+        "text": "Post score",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:8",
+        "text": "Intervention",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:9",
+        "text": "18",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:10",
+        "text": "Comparison",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:11",
+        "text": "14",
+        "kind": "table_paragraph",
+        "editable": true
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "ppt": {
+    "path": "@RUN@\\before\\slides.pptx",
+    "sha256": "f29789bca88b69f47040b5ad226b2092bf66d68f48bbeaa43a9b6c3a5266c5e6",
+    "units": [
+      {
+        "locator": "ppt:1:GROUPS/title:text",
+        "text": "Groups at two measurement points",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:GROUPS/message:text",
+        "text": "Post scores: intervention 18, comparison 14.",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:category:0",
+        "text": "Pre",
+        "kind": "chart_category"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:category:1",
+        "text": "Post",
+        "kind": "chart_category"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:series:0:name",
+        "text": "Intervention",
+        "kind": "chart_series"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:series:0:value:0",
+        "text": "12.0",
+        "kind": "chart_value"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:series:0:value:1",
+        "text": "18.0",
+        "kind": "chart_value"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:series:1:name",
+        "text": "Comparison",
+        "kind": "chart_series"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:series:1:value:0",
+        "text": "12.0",
+        "kind": "chart_value"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:series:1:value:1",
+        "text": "14.0",
+        "kind": "chart_value"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:axis:minimum_scale",
+        "text": "0.0",
+        "kind": "axis"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:axis:maximum_scale",
+        "text": "20.0",
+        "kind": "axis"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:axis:major_unit",
+        "text": "5.0",
+        "kind": "axis"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/chart:axis:title",
+        "text": "score",
+        "kind": "unit"
+      },
+      {
+        "locator": "ppt:1:GROUPS/visual/caption:text",
+        "text": "Synthetic values; no real intervention conclusion.",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:GROUPS/source:text",
+        "text": "Synthetic · GROUPS",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:GROUPS/number:text",
+        "text": "1",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:notes",
+        "text": "Post scores: intervention 18, comparison 14. These are synthetic validation data, not a real educational finding.\n\n来源：Synthetic · GROUPS\n预计讲解：60秒",
+        "kind": "notes"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/title:text",
+        "text": "An estimate and its uncertainty",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/message:text",
+        "text": "Adjusted difference: 0.009 [0.004, 0.014].",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/visual/row/0/label:text",
+        "text": "Adjusted difference",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/visual/row/0/estimate:text",
+        "text": "",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/visual/row/0/display:text",
+        "text": "0.009 [0.004, 0.014]",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/visual/axis-label:text",
+        "text": "-0.005 ← score → 0.02",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/visual/reference-label:text",
+        "text": "参考值 = 0",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/visual/caption:text",
+        "text": "Synthetic interval.",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/source:text",
+        "text": "Synthetic · INTERVAL",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:INTERVAL/number:text",
+        "text": "2",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:notes",
+        "text": "Adjusted difference: 0.009 [0.004, 0.014]. These are synthetic validation data, not a real educational finding.\n\n来源：Synthetic · INTERVAL\n预计讲解：60秒",
+        "kind": "notes"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/title:text",
+        "text": "Enrollment and analysis sample",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/message:text",
+        "text": "The enrolled and analyzed populations differ.",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/visual/table:cell:0:0",
+        "text": "Population",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/visual/table:cell:0:1",
+        "text": "N",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/visual/table:cell:1:0",
+        "text": "Enrolled",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/visual/table:cell:1:1",
+        "text": "410",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/visual/table:cell:2:0",
+        "text": "Analysis",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/visual/table:cell:2:1",
+        "text": "390",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/visual/caption:text",
+        "text": "Synthetic sample flow.",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/source:text",
+        "text": "Synthetic · SAMPLE",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:SAMPLE/number:text",
+        "text": "3",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:notes",
+        "text": "The enrolled and analyzed populations differ. These are synthetic validation data, not a real educational finding.\n\n来源：Synthetic · SAMPLE\n预计讲解：60秒",
+        "kind": "notes"
+      }
+    ],
+    "unchecked": [
+      {
+        "location": "ppt:1:3",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      },
+      {
+        "location": "ppt:1:GROUPS/visual/chart",
+        "reason": "Chart label formatting/geometry require edu-ppt check_deck and rendering."
+      },
+      {
+        "location": "ppt:2:3",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      },
+      {
+        "location": "ppt:2:INTERVAL/visual/reference",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      },
+      {
+        "location": "ppt:2:INTERVAL/visual/axis-line",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      },
+      {
+        "location": "ppt:2:INTERVAL/visual/row/0/interval",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      },
+      {
+        "location": "ppt:3:3",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      }
+    ],
+    "status": "read"
+  }
+}

@@ -2,4 +2,5 @@
 -r skills/edu-writing/requirements.txt
 -r skills/edu-ppt/requirements.txt
 -r skills/edu-review/requirements.txt
+-r skills/edu-research/requirements.txt
 beautifulsoup4>=4.12,<5

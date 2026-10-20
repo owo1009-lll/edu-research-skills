@@ -1,0 +1,105 @@
+{
+  "reader": "independent forward-testing reader",
+  "reason": "实际阅读点估计和区间后保留有依据的谨慎句",
+  "replace": {
+    "dependencies": [
+      {
+        "id": "abstract-interpretation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-45",
+          "file": "doc",
+          "locator": "docx:p:3",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "discussion-recommendation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-46",
+          "file": "md",
+          "locator": "line:4",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "discussion-cautious",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-47",
+          "file": "md",
+          "locator": "line:8",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1",
+        "decision": {
+          "status": "still_supported",
+          "reader": "independent forward-testing reader",
+          "reason": "新RR=1.083333仍高于1，区间较宽且跨1；原句只说点估计倾向干预组、需关注区间宽度，仍受支持",
+          "fingerprint": "85befd6906dd778bf4cc60883b9058120f3ddff0bb418cd891be352fdb09cf08"
+        }
+      },
+      {
+        "id": "ppt-headline",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-48",
+          "file": "ppt",
+          "locator": "ppt:3:effect/message:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "ppt-interpretation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-49",
+          "file": "ppt",
+          "locator": "ppt:3:notes",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "plan-headline",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-50",
+          "file": "plan",
+          "locator": "json:/slides/2/message",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "plan-interpretation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-51",
+          "file": "plan",
+          "locator": "json:/slides/2/notes",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      }
+    ]
+  }
+}

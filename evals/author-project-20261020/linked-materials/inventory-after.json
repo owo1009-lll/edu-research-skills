@@ -1,0 +1,1556 @@
+{
+  "new": {
+    "path": "@RUN@\\materials\\result-current.json",
+    "sha256": "a30203aedf8053f213052a13bbd6cb9ef55cb9c3eefc9dbcba7a92789d0db24f",
+    "units": [
+      {
+        "locator": "json:/phase1/n",
+        "text": "48",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase1/survey_n",
+        "text": "42",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase1/completion",
+        "text": "0.7291666666666666",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/n",
+        "text": "240",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/survey_n",
+        "text": "196",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/treated_n",
+        "text": "120",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/control_n",
+        "text": "120",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/complete_treated",
+        "text": "78",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/complete_control",
+        "text": "72",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/rate_treated",
+        "text": "0.65",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/rate_control",
+        "text": "0.6",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/outcome",
+        "text": "8周课程完成",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/sample",
+        "text": "正式试验全部随机分组学生",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/model",
+        "text": "未调整风险比",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/rr",
+        "text": "RR=1.083333; 95%CI=[0.890141,1.318456]",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/adjusted",
+        "text": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/sensitivity",
+        "text": "RR=1.020000; 95%CI=[1.000400,1.039984]",
+        "kind": "scalar"
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "old": {
+    "path": "@RUN@\\materials\\result-old.json",
+    "sha256": "566ae34b830e51162839408ec684354f9768893d7652ad692d781b568199e816",
+    "units": [
+      {
+        "locator": "json:/phase1/n",
+        "text": "48",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase1/survey_n",
+        "text": "42",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase1/completion",
+        "text": "0.7291666666666666",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/n",
+        "text": "240",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/survey_n",
+        "text": "196",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/treated_n",
+        "text": "120",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/control_n",
+        "text": "120",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/complete_treated",
+        "text": "84",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/complete_control",
+        "text": "72",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/rate_treated",
+        "text": "0.7",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/rate_control",
+        "text": "0.6",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/outcome",
+        "text": "8周课程完成",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/sample",
+        "text": "正式试验全部随机分组学生",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/model",
+        "text": "未调整风险比",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/rr",
+        "text": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/phase2/adjusted",
+        "text": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+        "kind": "scalar"
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "doc": {
+    "path": "@RUN@\\updated\\manuscript.docx",
+    "sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261",
+    "units": [
+      {
+        "locator": "docx:p:0",
+        "text": "同伴反馈课程：两阶段研究（合成试用材料）",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:1",
+        "text": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:2",
+        "text": "正式试验8周课程完成率：干预组65.0%，对照组60.0%；未调整风险比RR=1.083333; 95%CI=[0.890141,1.318456]。",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:3",
+        "text": "完成率差异未排除无效应；原推广结论需作者重新判断。",
+        "kind": "paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:4",
+        "text": "分析",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:5",
+        "text": "统计量",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:6",
+        "text": "结果",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:7",
+        "text": "正式试验",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:8",
+        "text": "未调整RR",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:9",
+        "text": "RR=1.083333; 95%CI=[0.890141,1.318456]",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:10",
+        "text": "正式试验",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:11",
+        "text": "调整RR",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:12",
+        "text": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:13",
+        "text": "先导阶段",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:14",
+        "text": "问卷样本n",
+        "kind": "table_paragraph",
+        "editable": true
+      },
+      {
+        "locator": "docx:p:15",
+        "text": "42",
+        "kind": "table_paragraph",
+        "editable": true
+      }
+    ],
+    "unchecked": [
+      {
+        "location": "word/header1.xml",
+        "reason": "Ancillary Word part not checked."
+      }
+    ],
+    "status": "read"
+  },
+  "csv": {
+    "path": "@RUN@\\updated\\results.csv",
+    "sha256": "824f415b1c8456f8b41bcc0a3b143726607d7a49425e601a1dc30293500a587f",
+    "units": [
+      {
+        "locator": "csv:1:1",
+        "text": "phase",
+        "kind": "cell",
+        "row_context": [
+          "phase",
+          "sample",
+          "outcome",
+          "model",
+          "statistic",
+          "value"
+        ],
+        "column": "phase"
+      },
+      {
+        "locator": "csv:1:2",
+        "text": "sample",
+        "kind": "cell",
+        "row_context": [
+          "phase",
+          "sample",
+          "outcome",
+          "model",
+          "statistic",
+          "value"
+        ],
+        "column": "sample"
+      },
+      {
+        "locator": "csv:1:3",
+        "text": "outcome",
+        "kind": "cell",
+        "row_context": [
+          "phase",
+          "sample",
+          "outcome",
+          "model",
+          "statistic",
+          "value"
+        ],
+        "column": "outcome"
+      },
+      {
+        "locator": "csv:1:4",
+        "text": "model",
+        "kind": "cell",
+        "row_context": [
+          "phase",
+          "sample",
+          "outcome",
+          "model",
+          "statistic",
+          "value"
+        ],
+        "column": "model"
+      },
+      {
+        "locator": "csv:1:5",
+        "text": "statistic",
+        "kind": "cell",
+        "row_context": [
+          "phase",
+          "sample",
+          "outcome",
+          "model",
+          "statistic",
+          "value"
+        ],
+        "column": "statistic"
+      },
+      {
+        "locator": "csv:1:6",
+        "text": "value",
+        "kind": "cell",
+        "row_context": [
+          "phase",
+          "sample",
+          "outcome",
+          "model",
+          "statistic",
+          "value"
+        ],
+        "column": "value"
+      },
+      {
+        "locator": "csv:2:1",
+        "text": "正式",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "干预组完成率",
+          "65.0"
+        ],
+        "column": "phase"
+      },
+      {
+        "locator": "csv:2:2",
+        "text": "全部240人",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "干预组完成率",
+          "65.0"
+        ],
+        "column": "sample"
+      },
+      {
+        "locator": "csv:2:3",
+        "text": "8周课程完成",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "干预组完成率",
+          "65.0"
+        ],
+        "column": "outcome"
+      },
+      {
+        "locator": "csv:2:4",
+        "text": "描述统计",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "干预组完成率",
+          "65.0"
+        ],
+        "column": "model"
+      },
+      {
+        "locator": "csv:2:5",
+        "text": "干预组完成率",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "干预组完成率",
+          "65.0"
+        ],
+        "column": "statistic"
+      },
+      {
+        "locator": "csv:2:6",
+        "text": "65.0",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "干预组完成率",
+          "65.0"
+        ],
+        "column": "value"
+      },
+      {
+        "locator": "csv:3:1",
+        "text": "正式",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "对照组完成率",
+          "60.0"
+        ],
+        "column": "phase"
+      },
+      {
+        "locator": "csv:3:2",
+        "text": "全部240人",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "对照组完成率",
+          "60.0"
+        ],
+        "column": "sample"
+      },
+      {
+        "locator": "csv:3:3",
+        "text": "8周课程完成",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "对照组完成率",
+          "60.0"
+        ],
+        "column": "outcome"
+      },
+      {
+        "locator": "csv:3:4",
+        "text": "描述统计",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "对照组完成率",
+          "60.0"
+        ],
+        "column": "model"
+      },
+      {
+        "locator": "csv:3:5",
+        "text": "对照组完成率",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "对照组完成率",
+          "60.0"
+        ],
+        "column": "statistic"
+      },
+      {
+        "locator": "csv:3:6",
+        "text": "60.0",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "描述统计",
+          "对照组完成率",
+          "60.0"
+        ],
+        "column": "value"
+      },
+      {
+        "locator": "csv:4:1",
+        "text": "正式",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "未调整风险比",
+          "RR",
+          "RR=1.083333; 95%CI=[0.890141,1.318456]"
+        ],
+        "column": "phase"
+      },
+      {
+        "locator": "csv:4:2",
+        "text": "全部240人",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "未调整风险比",
+          "RR",
+          "RR=1.083333; 95%CI=[0.890141,1.318456]"
+        ],
+        "column": "sample"
+      },
+      {
+        "locator": "csv:4:3",
+        "text": "8周课程完成",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "未调整风险比",
+          "RR",
+          "RR=1.083333; 95%CI=[0.890141,1.318456]"
+        ],
+        "column": "outcome"
+      },
+      {
+        "locator": "csv:4:4",
+        "text": "未调整风险比",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "未调整风险比",
+          "RR",
+          "RR=1.083333; 95%CI=[0.890141,1.318456]"
+        ],
+        "column": "model"
+      },
+      {
+        "locator": "csv:4:5",
+        "text": "RR",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "未调整风险比",
+          "RR",
+          "RR=1.083333; 95%CI=[0.890141,1.318456]"
+        ],
+        "column": "statistic"
+      },
+      {
+        "locator": "csv:4:6",
+        "text": "RR=1.083333; 95%CI=[0.890141,1.318456]",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "未调整风险比",
+          "RR",
+          "RR=1.083333; 95%CI=[0.890141,1.318456]"
+        ],
+        "column": "value"
+      },
+      {
+        "locator": "csv:5:1",
+        "text": "正式",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "基线协变量调整",
+          "RR",
+          "RR=1.120000; 95%CI=[0.930000,1.350000]"
+        ],
+        "column": "phase"
+      },
+      {
+        "locator": "csv:5:2",
+        "text": "全部240人",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "基线协变量调整",
+          "RR",
+          "RR=1.120000; 95%CI=[0.930000,1.350000]"
+        ],
+        "column": "sample"
+      },
+      {
+        "locator": "csv:5:3",
+        "text": "8周课程完成",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "基线协变量调整",
+          "RR",
+          "RR=1.120000; 95%CI=[0.930000,1.350000]"
+        ],
+        "column": "outcome"
+      },
+      {
+        "locator": "csv:5:4",
+        "text": "基线协变量调整",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "基线协变量调整",
+          "RR",
+          "RR=1.120000; 95%CI=[0.930000,1.350000]"
+        ],
+        "column": "model"
+      },
+      {
+        "locator": "csv:5:5",
+        "text": "RR",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "基线协变量调整",
+          "RR",
+          "RR=1.120000; 95%CI=[0.930000,1.350000]"
+        ],
+        "column": "statistic"
+      },
+      {
+        "locator": "csv:5:6",
+        "text": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "全部240人",
+          "8周课程完成",
+          "基线协变量调整",
+          "RR",
+          "RR=1.120000; 95%CI=[0.930000,1.350000]"
+        ],
+        "column": "value"
+      },
+      {
+        "locator": "csv:6:1",
+        "text": "先导",
+        "kind": "cell",
+        "row_context": [
+          "先导",
+          "问卷有效42人",
+          "满意度",
+          "描述统计",
+          "高满意比例",
+          "70.0"
+        ],
+        "column": "phase"
+      },
+      {
+        "locator": "csv:6:2",
+        "text": "问卷有效42人",
+        "kind": "cell",
+        "row_context": [
+          "先导",
+          "问卷有效42人",
+          "满意度",
+          "描述统计",
+          "高满意比例",
+          "70.0"
+        ],
+        "column": "sample"
+      },
+      {
+        "locator": "csv:6:3",
+        "text": "满意度",
+        "kind": "cell",
+        "row_context": [
+          "先导",
+          "问卷有效42人",
+          "满意度",
+          "描述统计",
+          "高满意比例",
+          "70.0"
+        ],
+        "column": "outcome"
+      },
+      {
+        "locator": "csv:6:4",
+        "text": "描述统计",
+        "kind": "cell",
+        "row_context": [
+          "先导",
+          "问卷有效42人",
+          "满意度",
+          "描述统计",
+          "高满意比例",
+          "70.0"
+        ],
+        "column": "model"
+      },
+      {
+        "locator": "csv:6:5",
+        "text": "高满意比例",
+        "kind": "cell",
+        "row_context": [
+          "先导",
+          "问卷有效42人",
+          "满意度",
+          "描述统计",
+          "高满意比例",
+          "70.0"
+        ],
+        "column": "statistic"
+      },
+      {
+        "locator": "csv:6:6",
+        "text": "70.0",
+        "kind": "cell",
+        "row_context": [
+          "先导",
+          "问卷有效42人",
+          "满意度",
+          "描述统计",
+          "高满意比例",
+          "70.0"
+        ],
+        "column": "value"
+      },
+      {
+        "locator": "csv:7:1",
+        "text": "正式",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "问卷有效196人",
+          "问卷",
+          "描述统计",
+          "有效样本n",
+          "196"
+        ],
+        "column": "phase"
+      },
+      {
+        "locator": "csv:7:2",
+        "text": "问卷有效196人",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "问卷有效196人",
+          "问卷",
+          "描述统计",
+          "有效样本n",
+          "196"
+        ],
+        "column": "sample"
+      },
+      {
+        "locator": "csv:7:3",
+        "text": "问卷",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "问卷有效196人",
+          "问卷",
+          "描述统计",
+          "有效样本n",
+          "196"
+        ],
+        "column": "outcome"
+      },
+      {
+        "locator": "csv:7:4",
+        "text": "描述统计",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "问卷有效196人",
+          "问卷",
+          "描述统计",
+          "有效样本n",
+          "196"
+        ],
+        "column": "model"
+      },
+      {
+        "locator": "csv:7:5",
+        "text": "有效样本n",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "问卷有效196人",
+          "问卷",
+          "描述统计",
+          "有效样本n",
+          "196"
+        ],
+        "column": "statistic"
+      },
+      {
+        "locator": "csv:7:6",
+        "text": "196",
+        "kind": "cell",
+        "row_context": [
+          "正式",
+          "问卷有效196人",
+          "问卷",
+          "描述统计",
+          "有效样本n",
+          "196"
+        ],
+        "column": "value"
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "md": {
+    "path": "@RUN@\\updated\\discussion.md",
+    "sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b",
+    "units": [
+      {
+        "locator": "line:1",
+        "text": "# 讨论（合成材料）",
+        "kind": "text"
+      },
+      {
+        "locator": "line:2",
+        "text": "正式试验干预组课程完成率65.0%，对照组为60.0%。",
+        "kind": "text"
+      },
+      {
+        "locator": "line:3",
+        "text": "未调整风险比RR=1.083333; 95%CI=[0.890141,1.318456]。",
+        "kind": "text"
+      },
+      {
+        "locator": "line:4",
+        "text": "完成率差异未排除无效应；原立即普遍推广建议需作者重新判断。",
+        "kind": "text"
+      },
+      {
+        "locator": "line:5",
+        "text": "先导阶段问卷有效样本为42人；正式试验问卷有效样本为196人。两阶段样本不可相加。",
+        "kind": "text"
+      },
+      {
+        "locator": "line:6",
+        "text": "协变量调整模型RR=1.120000; 95%CI=[0.930000,1.350000]，提示估计不够精确。",
+        "kind": "text"
+      },
+      {
+        "locator": "line:7",
+        "text": "某子组课程完成率70.0%，分母和组别仍待作者确认。",
+        "kind": "text"
+      },
+      {
+        "locator": "line:8",
+        "text": "从新材料看，完成率的点估计仍向干预组倾斜，但需要关注区间宽度。",
+        "kind": "text"
+      },
+      {
+        "locator": "line:9",
+        "text": "引用论断：同伴反馈帮助受访学生解释作业要求。[SYN-01]",
+        "kind": "text"
+      },
+      {
+        "locator": "line:10",
+        "text": "加权敏感性分析RR=1.02; 95%CI=[1.00,1.04]。",
+        "kind": "text"
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "plan": {
+    "path": "@RUN@\\updated\\deck-plan.json",
+    "sha256": "528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d",
+    "units": [
+      {
+        "locator": "json:/route",
+        "text": "own",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/stage",
+        "text": "completed",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/title",
+        "text": "同伴反馈课程：两阶段研究（合成）",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/minutes",
+        "text": "2",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/sources/0/id",
+        "text": "author",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/sources/0/title",
+        "text": "作者提供的合成分析材料",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/sources/0/access",
+        "text": "author_material",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/sources/0/short",
+        "text": "合成材料",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/id",
+        "text": "sample",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/title",
+        "text": "两阶段样本",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/message",
+        "text": "样本口径必须分开",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/body/0",
+        "text": "先导阶段 n=48；问卷 n=42",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/body/1",
+        "text": "正式试验 n=240；问卷 n=196",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/notes",
+        "text": "两个阶段独立，不能把问卷有效人数作为随机样本数。",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/visual_plan",
+        "text": "原生图表或文字",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/seconds",
+        "text": "40",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/role",
+        "text": "finding",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/status",
+        "text": "completed",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/evidence/0/source",
+        "text": "author",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/evidence/0/location",
+        "text": "sample",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/0/evidence/0/supports",
+        "text": "样本口径必须分开",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/id",
+        "text": "completion",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/title",
+        "text": "正式试验课程完成率",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/message",
+        "text": "8周课程完成",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/body/0",
+        "text": "干预组65.0%；对照组60.0%",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/notes",
+        "text": "干预组65.0%，对照组60.0%。",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual_plan",
+        "text": "原生图表或文字",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/seconds",
+        "text": "40",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/role",
+        "text": "finding",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/status",
+        "text": "completed",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/evidence/0/source",
+        "text": "author",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/evidence/0/location",
+        "text": "completion",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/evidence/0/supports",
+        "text": "8周课程完成",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/type",
+        "text": "chart",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/kind",
+        "text": "column",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/unit",
+        "text": "%",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/categories/0",
+        "text": "干预组",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/categories/1",
+        "text": "对照组",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/series/0/name",
+        "text": "完成率",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/series/0/values/0",
+        "text": "65",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/series/0/values/1",
+        "text": "60",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/minimum",
+        "text": "0",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/maximum",
+        "text": "100",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/1/visual/number_format",
+        "text": "0.0",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/id",
+        "text": "effect",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/title",
+        "text": "未调整风险比",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/message",
+        "text": "区间包含无效应参考值1",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/body/0",
+        "text": "RR=1.083333; 95%CI=[0.890141,1.318456]",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/notes",
+        "text": "未调整模型未排除无效应；调整模型仍不精确。",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/visual_plan",
+        "text": "原生图表或文字",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/seconds",
+        "text": "40",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/role",
+        "text": "finding",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/status",
+        "text": "completed",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/evidence/0/source",
+        "text": "author",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/evidence/0/location",
+        "text": "effect",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/evidence/0/supports",
+        "text": "区间下限高于1",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/visual/type",
+        "text": "table",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/visual/columns/0",
+        "text": "模型",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/visual/columns/1",
+        "text": "RR及95%CI",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/visual/rows/0/0",
+        "text": "调整模型",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/slides/2/visual/rows/0/1",
+        "text": "1.12 [0.93,1.35]",
+        "kind": "scalar"
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "ppt": {
+    "path": "@RUN@\\deck-after\\slides.pptx",
+    "sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872",
+    "units": [
+      {
+        "locator": "ppt:1:sample/title:text",
+        "text": "两阶段样本",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:sample/message:text",
+        "text": "样本口径必须分开",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:sample/body/0:text",
+        "text": "先导阶段 n=48；问卷 n=42",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:sample/body/1:text",
+        "text": "正式试验 n=240；问卷 n=196",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:sample/source:text",
+        "text": "合成材料 · sample",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:sample/number:text",
+        "text": "1",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:1:notes",
+        "text": "两个阶段独立，不能把问卷有效人数作为随机样本数。\n\n来源：合成材料 · sample\n预计讲解：40秒",
+        "kind": "notes"
+      },
+      {
+        "locator": "ppt:2:completion/title:text",
+        "text": "正式试验课程完成率",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:completion/message:text",
+        "text": "8周课程完成",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:completion/body/0:text",
+        "text": "干预组65.0%；对照组60.0%",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:category:0",
+        "text": "干预组",
+        "kind": "chart_category"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:category:1",
+        "text": "对照组",
+        "kind": "chart_category"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:series:0:name",
+        "text": "完成率",
+        "kind": "chart_series"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:series:0:value:0",
+        "text": "65.0",
+        "kind": "chart_value"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:series:0:value:1",
+        "text": "60.0",
+        "kind": "chart_value"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:axis:minimum_scale",
+        "text": "0.0",
+        "kind": "axis"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:axis:maximum_scale",
+        "text": "100.0",
+        "kind": "axis"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:axis:major_unit",
+        "text": "None",
+        "kind": "axis"
+      },
+      {
+        "locator": "ppt:2:completion/visual/chart:axis:title",
+        "text": "%",
+        "kind": "unit"
+      },
+      {
+        "locator": "ppt:2:completion/source:text",
+        "text": "合成材料 · completion",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:completion/number:text",
+        "text": "2",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:2:notes",
+        "text": "干预组65.0%，对照组60.0%。\n\n来源：合成材料 · completion\n预计讲解：40秒",
+        "kind": "notes"
+      },
+      {
+        "locator": "ppt:3:effect/title:text",
+        "text": "未调整风险比",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:effect/message:text",
+        "text": "区间包含无效应参考值1",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:effect/body/0:text",
+        "text": "RR=1.083333; 95%CI=[0.890141,1.318456]",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:effect/visual/table:cell:0:0",
+        "text": "模型",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:effect/visual/table:cell:0:1",
+        "text": "RR及95%CI",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:effect/visual/table:cell:1:0",
+        "text": "调整模型",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:effect/visual/table:cell:1:1",
+        "text": "1.12 [0.93,1.35]",
+        "kind": "cell"
+      },
+      {
+        "locator": "ppt:3:effect/source:text",
+        "text": "合成材料 · effect",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:effect/number:text",
+        "text": "3",
+        "kind": "slide_text"
+      },
+      {
+        "locator": "ppt:3:notes",
+        "text": "未调整模型未排除无效应；调整模型仍不精确。\n\n来源：合成材料 · effect\n预计讲解：40秒",
+        "kind": "notes"
+      }
+    ],
+    "unchecked": [
+      {
+        "location": "ppt:1:3",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      },
+      {
+        "location": "ppt:2:3",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      },
+      {
+        "location": "ppt:2:completion/visual/chart",
+        "reason": "Chart label formatting/geometry require edu-ppt check_deck and rendering."
+      },
+      {
+        "location": "ppt:3:3",
+        "reason": "Nontext drawing: geometry/meaning not checked."
+      }
+    ],
+    "status": "read"
+  },
+  "reading": {
+    "path": "@RUN@\\materials\\synthetic-reading.md",
+    "sha256": "d1b90c4e1f6203a348a6d770176973ce7048014bbf90c0135b6863c8a786aee2",
+    "units": [
+      {
+        "locator": "line:1",
+        "text": "# SYN-01，虚构研究，仅用于测试",
+        "kind": "text"
+      },
+      {
+        "locator": "line:2",
+        "text": "8名受访学生描述，同伴反馈帮助他们解释作业要求；本研究没有测量课程完成率。",
+        "kind": "text"
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "ledger": {
+    "path": "@RUN@\\materials\\citation-ledger.json",
+    "sha256": "3d0231b20c28152ad8671235497b9dc15f4b313f5da1c3414dd32b3f73d1d5f5",
+    "units": [
+      {
+        "locator": "json:/SYN-01/claim",
+        "text": "同伴反馈帮助受访学生解释作业要求",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/SYN-01/support",
+        "text": "supported",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/SYN-01/scope",
+        "text": "8名访谈学生，自陈，未测量完成率",
+        "kind": "scalar"
+      },
+      {
+        "locator": "json:/SYN-01/reader",
+        "text": "independent trial",
+        "kind": "scalar"
+      }
+    ],
+    "unchecked": [],
+    "status": "read"
+  },
+  "formula": {
+    "path": "@RUN@\\materials\\formula-supplement.xlsx",
+    "sha256": "05630ac55725e06fe7033933c56c5a1133f190e04f5383bac3b069c609dfbac1",
+    "units": [
+      {
+        "locator": "xlsx:辅助计算!A1",
+        "text": "指标",
+        "kind": "cell"
+      },
+      {
+        "locator": "xlsx:辅助计算!B1",
+        "text": "完成人数",
+        "kind": "cell"
+      },
+      {
+        "locator": "xlsx:辅助计算!C1",
+        "text": "分母",
+        "kind": "cell"
+      },
+      {
+        "locator": "xlsx:辅助计算!D1",
+        "text": "比例公式",
+        "kind": "cell"
+      },
+      {
+        "locator": "xlsx:辅助计算!A2",
+        "text": "干预组",
+        "kind": "cell"
+      },
+      {
+        "locator": "xlsx:辅助计算!B2",
+        "text": "78",
+        "kind": "cell"
+      },
+      {
+        "locator": "xlsx:辅助计算!C2",
+        "text": "120",
+        "kind": "cell"
+      },
+      {
+        "locator": "xlsx:辅助计算!D2",
+        "text": "None",
+        "kind": "formula",
+        "formula": "=B2/C2"
+      }
+    ],
+    "unchecked": [
+      {
+        "location": "辅助计算!D2",
+        "reason": "Formula not recalculated; cached value is not authoritative."
+      }
+    ],
+    "status": "read"
+  },
+  "broken": {
+    "path": "@RUN@\\materials\\broken-supplement.docx",
+    "sha256": "e14db27449d4a75578813a56bb5fa9f10aa80ee726e1b197582078e55fa08127",
+    "units": [],
+    "unchecked": [
+      {
+        "location": "@RUN@\\materials\\broken-supplement.docx",
+        "reason": "BadZipFile: File is not a zip file"
+      }
+    ],
+    "status": "failed"
+  }
+}

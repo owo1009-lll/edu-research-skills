@@ -1,0 +1,134 @@
+{
+  "plan_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555",
+  "mode": "pptx",
+  "source_plan": "@RUN@\\plan-updated.json",
+  "slides": 3,
+  "planned_seconds": 180,
+  "requested_minutes": 3,
+  "warnings": [],
+  "render_status": "not_run",
+  "template_sha256": null,
+  "theme_sha256": null,
+  "objects": [
+    {
+      "slide": 1,
+      "id": "GROUPS/title"
+    },
+    {
+      "slide": 1,
+      "id": "GROUPS/message"
+    },
+    {
+      "slide": 1,
+      "id": "GROUPS/visual/chart",
+      "series_colors": [
+        "176B76",
+        "C46B16"
+      ]
+    },
+    {
+      "slide": 1,
+      "id": "GROUPS/visual/caption"
+    },
+    {
+      "slide": 1,
+      "id": "GROUPS/source"
+    },
+    {
+      "slide": 1,
+      "id": "GROUPS/number"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/title"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/message"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/reference",
+      "value": 0
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/axis-line",
+      "range": [
+        -0.005,
+        0.02
+      ],
+      "scale": "linear",
+      "unit": "score"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/row/0/label"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/row/0/interval",
+      "low": -0.002,
+      "high": 0.014
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/row/0/estimate",
+      "value": 0.006
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/row/0/display"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/axis-label"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/reference-label"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/visual/caption"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/source"
+    },
+    {
+      "slide": 2,
+      "id": "INTERVAL/number"
+    },
+    {
+      "slide": 3,
+      "id": "SAMPLE/title"
+    },
+    {
+      "slide": 3,
+      "id": "SAMPLE/message"
+    },
+    {
+      "slide": 3,
+      "id": "SAMPLE/visual/table"
+    },
+    {
+      "slide": 3,
+      "id": "SAMPLE/visual/caption"
+    },
+    {
+      "slide": 3,
+      "id": "SAMPLE/source"
+    },
+    {
+      "slide": 3,
+      "id": "SAMPLE/number"
+    }
+  ],
+  "outputs": {
+    "content.md": "4e56f3532316a19dc49a08fcb01548b1859043c9bb78131ecdac6162b0d0f1dc",
+    "plan.json": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555",
+    "slides.pptx": "3fa47757f87b0bf996f2aa6d472f9b346897346fb26b8d598072261fb89df99d",
+    "speaker_notes.md": "bf20ba6dc26fe9e6e49e5aa9ba68e3aef37968abc20b8e4c269bbb6c3d0ce369"
+  }
+}

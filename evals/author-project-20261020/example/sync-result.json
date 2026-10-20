@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "source": "@RUN@\\paper.docx",
+      "output": "@RUN@\\paper-updated.docx",
+      "sha256": "96ffa59138b8e4454b4d08f77e9b5e7d8f5c2df7b86abdb0cf03f583c46a5a82"
+    },
+    {
+      "source": "@RUN@\\plan.json",
+      "output": "@RUN@\\plan-updated.json",
+      "sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+    }
+  ],
+  "next": "Register explicit new paths, refresh changed semantic mappings, and check again. For changed PPT plans, rebuild_deck, check_deck and render all affected slides."
+}

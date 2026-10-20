@@ -1,0 +1,18 @@
+{
+    "reviewer":  "Codex image inspection",
+    "rendererPPT":  "PowerPoint COM",
+    "rendererWord":  "Microsoft Word ExportAsFixedFormat",
+    "inspected":  [
+                      "before/render/contact-01.png",
+                      "after/render/contact-01.png",
+                      "paper-reviewed-1.png"
+                  ],
+    "findings":  [
+                     "Two distinct series retain group labels and score units; post intervention changes 18 to 16.",
+                     "Interval changes from excluding zero to crossing zero; native label preserves three decimals.",
+                     "Enrollment 410 retained; analyzed sample changes 390 to 382.",
+                     "Reviewed Word says the interval includes zero; numeric-only Word is an explicitly preserved intermediate.",
+                     "No observed clipping or table displacement in inspected pages."
+                 ],
+    "limits":  "AI visual inspection of synthetic artifacts; no audience trial, source-fact certification or measured speaking time."
+}

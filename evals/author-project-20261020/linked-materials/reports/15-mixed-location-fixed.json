@@ -1,0 +1,7 @@
+{
+  "returncode": 2,
+  "stderr": "This location also contains unresolved evidence; re-read and narrow the edit before synchronization.\n",
+  "output_exists": false,
+  "prior_failure_preserved": true,
+  "implementation_sha256": "6feb1ffcc5d26d26436632ac97e511a7850455aefb4db50fa1daf0379cb719e5"
+}

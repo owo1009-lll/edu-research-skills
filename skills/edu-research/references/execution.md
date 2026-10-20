@@ -5,3 +5,4 @@
 - **工作目录**：在用户的论文或项目文件夹里运行。产出写入 `./edu_output/`，每次运行新建子文件夹，失败的运行也保留；不同任务互不覆盖。
 - **恢复任务**：中断后读取 `edu_output/` 里最近的任务文件夹（`run_status.json`、写作任务的 `rationale.md` 和首稿）继续，不需要用户重复材料。
 - **安装位置**：Claude Code 为 `~/.claude/skills/`，Codex 为 `~/.codex/skills/`。各 skill 与 `edu-shared` 放在同一目录下，互相用相对路径引用。
+- **偏好与材料核对**：偏好存取仅用 Python 标准库；跨格式读取用 edu-research 的 `requirements.txt`，XLSX 另需 openpyxl。只处理用户授权文件；材料记录和偏好分开保存在项目侧，个人档案不写入 skill 工作树。普通写作不会因此要求统计环境。

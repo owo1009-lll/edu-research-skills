@@ -1,0 +1,23 @@
+{
+  "phase1": {
+    "n": 48,
+    "survey_n": 42,
+    "completion": 0.7291666666666666
+  },
+  "phase2": {
+    "n": 240,
+    "survey_n": 196,
+    "treated_n": 120,
+    "control_n": 120,
+    "complete_treated": 84,
+    "complete_control": 72,
+    "rate_treated": 0.7,
+    "rate_control": 0.6,
+    "outcome": "8周课程完成",
+    "sample": "正式试验全部随机分组学生",
+    "model": "未调整风险比",
+    "rr": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+    "adjusted": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+    "sensitivity": "RR=1.020000; 95%CI=[1.000400,1.039984]"
+  }
+}

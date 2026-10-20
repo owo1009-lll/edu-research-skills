@@ -1,0 +1,20 @@
+[
+  {
+    "request": "仅这一次先写访谈材料，再写判断；以后仍照旧。",
+    "load": "load-one-time",
+    "file": "@RUN@\\project-enabled\\edu_output\\writing\\management-scenarios\\one-time-evidence-first.md",
+    "reason": "当前任务要求覆盖相反的作者顺序项；其余概念和语气偏好继续使用。"
+  },
+  {
+    "request": "用中文把这段整理成讨论文字。",
+    "load": "load-other-language",
+    "file": "@RUN@\\project-enabled\\edu_output\\writing\\management-scenarios\\other-language-zh-discussion.md",
+    "reason": "英文作者偏好全部不匹配；中文仍依据原材料保留判断、建议和证据边界。"
+  },
+  {
+    "request": "将已知研究信息写成一句英文 Methods 说明。",
+    "load": "load-other-section",
+    "file": "@RUN@\\project-enabled\\edu_output\\writing\\management-scenarios\\other-section-en-methods.md",
+    "reason": "discussion 偏好不匹配；方法只写已提供的研究类型、样本、访谈及研究内容，不加入 should 建议。"
+  }
+]

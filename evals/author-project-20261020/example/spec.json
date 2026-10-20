@@ -1,0 +1,415 @@
+{
+  "files": [
+    {
+      "id": "analysis",
+      "path": "@RUN@\\analysis.json",
+      "role": "confirmed_synthetic_results"
+    },
+    {
+      "id": "paper",
+      "path": "@RUN@\\paper.docx",
+      "role": "manuscript"
+    },
+    {
+      "id": "plan",
+      "path": "@RUN@\\plan.json",
+      "role": "presentation_plan"
+    },
+    {
+      "id": "ppt",
+      "path": "@RUN@\\before\\slides.pptx",
+      "role": "presentation"
+    }
+  ],
+  "facts": [
+    {
+      "id": "sample",
+      "identity": {
+        "outcome": "classroom engagement",
+        "comparison": "intervention - comparison",
+        "timepoint": "post",
+        "sample": "complete cases",
+        "statistic": "n",
+        "unit": "people",
+        "model": "baseline-adjusted",
+        "adjustments": "pretest",
+        "analysis": "primary",
+        "uncertainty": "not applicable"
+      },
+      "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+      "sources": [
+        {
+          "id": "sample-source",
+          "file": "analysis",
+          "locator": "json:/analysis_n",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "guards": [
+            {
+              "locator": "json:/outcome",
+              "equals": "classroom engagement"
+            },
+            {
+              "locator": "json:/model",
+              "equals": "baseline-adjusted"
+            },
+            {
+              "locator": "json:/unit",
+              "equals": "score"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "sample-word",
+          "file": "paper",
+          "locator": "docx:p:2",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "included (?P<value>\\d+) pupils"
+        },
+        {
+          "id": "sample-plan",
+          "file": "plan",
+          "locator": "json:/slides/2/visual/rows/1/1",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        },
+        {
+          "id": "sample-ppt",
+          "file": "ppt",
+          "locator": "ppt:3:SAMPLE/visual/table:cell:2:1",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        }
+      ],
+      "authority": {
+        "source": "sample-source",
+        "kind": "user_confirmed",
+        "reason": "The example request explicitly designates analysis.json."
+      }
+    },
+    {
+      "id": "post",
+      "identity": {
+        "outcome": "classroom engagement",
+        "comparison": "intervention group",
+        "timepoint": "post",
+        "sample": "complete cases",
+        "statistic": "mean",
+        "unit": "score",
+        "model": "descriptive",
+        "adjustments": "none",
+        "analysis": "primary",
+        "uncertainty": "not supplied"
+      },
+      "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+      "sources": [
+        {
+          "id": "post-source",
+          "file": "analysis",
+          "locator": "json:/intervention_post",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "guards": [
+            {
+              "locator": "json:/outcome",
+              "equals": "classroom engagement"
+            },
+            {
+              "locator": "json:/model",
+              "equals": "baseline-adjusted"
+            },
+            {
+              "locator": "json:/unit",
+              "equals": "score"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "post-word",
+          "file": "paper",
+          "locator": "docx:p:9",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        },
+        {
+          "id": "post-plan",
+          "file": "plan",
+          "locator": "json:/slides/0/visual/series/0/values/1",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        },
+        {
+          "id": "post-ppt",
+          "file": "ppt",
+          "locator": "ppt:1:GROUPS/visual/chart:series:0:value:1",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        },
+        {
+          "id": "post-message",
+          "file": "plan",
+          "locator": "json:/slides/0/message",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "intervention (?P<value>\\d+)"
+        },
+        {
+          "id": "post-notes",
+          "file": "plan",
+          "locator": "json:/slides/0/notes",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "intervention (?P<value>\\d+)"
+        }
+      ],
+      "authority": {
+        "source": "post-source",
+        "kind": "user_confirmed",
+        "reason": "The example request explicitly designates analysis.json."
+      }
+    },
+    {
+      "id": "estimate",
+      "identity": {
+        "outcome": "classroom engagement",
+        "comparison": "intervention - comparison",
+        "timepoint": "post",
+        "sample": "complete cases",
+        "statistic": "difference_estimate",
+        "unit": "score",
+        "model": "baseline-adjusted",
+        "adjustments": "pretest",
+        "analysis": "primary",
+        "uncertainty": "95% confidence interval"
+      },
+      "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+      "sources": [
+        {
+          "id": "estimate-source",
+          "file": "analysis",
+          "locator": "json:/difference/estimate",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "guards": [
+            {
+              "locator": "json:/outcome",
+              "equals": "classroom engagement"
+            },
+            {
+              "locator": "json:/model",
+              "equals": "baseline-adjusted"
+            },
+            {
+              "locator": "json:/unit",
+              "equals": "score"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "estimate-word",
+          "file": "paper",
+          "locator": "docx:p:4",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "difference was (?P<value>-?\\d+(?:\\.\\d+)?)",
+          "display_decimals": 3
+        },
+        {
+          "id": "estimate-plan",
+          "file": "plan",
+          "locator": "json:/slides/1/visual/rows/0/estimate",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        },
+        {
+          "id": "estimate-message",
+          "file": "plan",
+          "locator": "json:/slides/1/message",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "difference: (?P<value>-?\\d+(?:\\.\\d+)?)",
+          "display_decimals": 3
+        },
+        {
+          "id": "estimate-notes",
+          "file": "plan",
+          "locator": "json:/slides/1/notes",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "difference: (?P<value>-?\\d+(?:\\.\\d+)?)",
+          "display_decimals": 3
+        }
+      ],
+      "authority": {
+        "source": "estimate-source",
+        "kind": "user_confirmed",
+        "reason": "The example request explicitly designates analysis.json."
+      }
+    },
+    {
+      "id": "low",
+      "identity": {
+        "outcome": "classroom engagement",
+        "comparison": "intervention - comparison",
+        "timepoint": "post",
+        "sample": "complete cases",
+        "statistic": "difference_low",
+        "unit": "score",
+        "model": "baseline-adjusted",
+        "adjustments": "pretest",
+        "analysis": "primary",
+        "uncertainty": "95% confidence interval"
+      },
+      "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+      "sources": [
+        {
+          "id": "low-source",
+          "file": "analysis",
+          "locator": "json:/difference/low",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "guards": [
+            {
+              "locator": "json:/outcome",
+              "equals": "classroom engagement"
+            },
+            {
+              "locator": "json:/model",
+              "equals": "baseline-adjusted"
+            },
+            {
+              "locator": "json:/unit",
+              "equals": "score"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "low-word",
+          "file": "paper",
+          "locator": "docx:p:4",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "\\[(?P<value>-?\\d+(?:\\.\\d+)?),",
+          "display_decimals": 3
+        },
+        {
+          "id": "low-plan",
+          "file": "plan",
+          "locator": "json:/slides/1/visual/rows/0/low",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        },
+        {
+          "id": "low-message",
+          "file": "plan",
+          "locator": "json:/slides/1/message",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "\\[(?P<value>-?\\d+(?:\\.\\d+)?),",
+          "display_decimals": 3
+        },
+        {
+          "id": "low-notes",
+          "file": "plan",
+          "locator": "json:/slides/1/notes",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": "\\[(?P<value>-?\\d+(?:\\.\\d+)?),",
+          "display_decimals": 3
+        }
+      ],
+      "authority": {
+        "source": "low-source",
+        "kind": "user_confirmed",
+        "reason": "The example request explicitly designates analysis.json."
+      }
+    },
+    {
+      "id": "high",
+      "identity": {
+        "outcome": "classroom engagement",
+        "comparison": "intervention - comparison",
+        "timepoint": "post",
+        "sample": "complete cases",
+        "statistic": "difference_high",
+        "unit": "score",
+        "model": "baseline-adjusted",
+        "adjustments": "pretest",
+        "analysis": "primary",
+        "uncertainty": "95% confidence interval"
+      },
+      "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+      "sources": [
+        {
+          "id": "high-source",
+          "file": "analysis",
+          "locator": "json:/difference/high",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "guards": [
+            {
+              "locator": "json:/outcome",
+              "equals": "classroom engagement"
+            },
+            {
+              "locator": "json:/model",
+              "equals": "baseline-adjusted"
+            },
+            {
+              "locator": "json:/unit",
+              "equals": "score"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "high-word",
+          "file": "paper",
+          "locator": "docx:p:4",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": ", (?P<value>-?\\d+(?:\\.\\d+)?)\\]",
+          "display_decimals": 3
+        },
+        {
+          "id": "high-plan",
+          "file": "plan",
+          "locator": "json:/slides/1/visual/rows/0/high",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+        },
+        {
+          "id": "high-message",
+          "file": "plan",
+          "locator": "json:/slides/1/message",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": ", (?P<value>-?\\d+(?:\\.\\d+)?)\\]",
+          "display_decimals": 3
+        },
+        {
+          "id": "high-notes",
+          "file": "plan",
+          "locator": "json:/slides/1/notes",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "pattern": ", (?P<value>-?\\d+(?:\\.\\d+)?)\\]",
+          "display_decimals": 3
+        }
+      ],
+      "authority": {
+        "source": "high-source",
+        "kind": "user_confirmed",
+        "reason": "The example request explicitly designates analysis.json."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "ppt": "ppt",
+      "plan": "plan"
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "direction-reading",
+      "depends_on": [
+        "estimate",
+        "low",
+        "high"
+      ],
+      "target": {
+        "id": "direction-word",
+        "file": "paper",
+        "locator": "docx:p:5",
+        "reason": "Read the labeled synthetic outcome, model, sample and timepoint."
+      },
+      "reason": "Whether the interval excludes zero must be reconsidered."
+    }
+  ]
+}

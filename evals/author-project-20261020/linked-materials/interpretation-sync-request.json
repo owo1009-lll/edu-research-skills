@@ -1,0 +1,19 @@
+{
+  "authorization": "同步修改已确定的旧内容，保留原件；歧义不要替我决定。",
+  "report_fingerprint": "aa096a4da92f05f757e9db6786a907bb9fa0ddbfa0f21cd599aafe749647bc09",
+  "edits": [
+    {
+      "file": "doc",
+      "output": "@RUN@\\probe\\interpretation.docx",
+      "replacements": [
+        {
+          "locator": "docx:p:3",
+          "before": "完成率优势排除了无效应，说明课程适合推广。",
+          "old": "完成率优势排除了无效应，说明课程适合推广。",
+          "new": "完成率优势未排除无效应，说明课程适合推广。",
+          "reason": "阅读新95%区间包含1，修正明确的统计解释，不替作者决定推广结论"
+        }
+      ]
+    }
+  ]
+}

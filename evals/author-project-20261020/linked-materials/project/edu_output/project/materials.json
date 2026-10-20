@@ -1,0 +1,1534 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-20T08:50:23.275849+00:00",
+  "spec": {
+    "files": [
+      {
+        "id": "new",
+        "path": "@RUN@\\materials\\result-current.json",
+        "role": "明确指定的当前正式试验结果"
+      },
+      {
+        "id": "old",
+        "path": "@RUN@\\materials\\result-old.json",
+        "role": "旧版本，非当前权威"
+      },
+      {
+        "id": "doc",
+        "path": "@RUN@\\updated\\manuscript.docx",
+        "role": "Word摘要及结果表"
+      },
+      {
+        "id": "csv",
+        "path": "@RUN@\\updated\\results.csv",
+        "role": "结果表"
+      },
+      {
+        "id": "md",
+        "path": "@RUN@\\updated\\discussion.md",
+        "role": "讨论"
+      },
+      {
+        "id": "plan",
+        "path": "@RUN@\\updated\\deck-plan.json",
+        "role": "已有关联PPT计划"
+      },
+      {
+        "id": "ppt",
+        "path": "@RUN@\\deck-after\\slides.pptx",
+        "role": "PPT"
+      },
+      {
+        "id": "reading",
+        "path": "@RUN@\\materials\\synthetic-reading.md",
+        "role": "虚构来源阅读文件"
+      },
+      {
+        "id": "ledger",
+        "path": "@RUN@\\materials\\citation-ledger.json",
+        "role": "已有引用支持记录"
+      },
+      {
+        "id": "formula",
+        "path": "@RUN@\\materials\\formula-supplement.xlsx",
+        "role": "辅助计算"
+      },
+      {
+        "id": "broken",
+        "path": "@RUN@\\materials\\broken-supplement.docx",
+        "role": "损坏附录"
+      }
+    ],
+    "facts": [
+      {
+        "id": "pilot-total",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "先导阶段全部样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-3",
+            "file": "new",
+            "locator": "json:/phase1/n",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-1",
+            "file": "doc",
+            "locator": "docx:p:1",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "先导阶段纳入(?P<value>48)人",
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-2",
+            "file": "ppt",
+            "locator": "ppt:1:sample/body/0:text",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "先导阶段 n=(?P<value>\\d+)",
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          }
+        ],
+        "authority": {
+          "source": "binding-3",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "pilot-survey",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "先导阶段问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-7",
+            "file": "new",
+            "locator": "json:/phase1/survey_n",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-4",
+            "file": "doc",
+            "locator": "docx:p:1",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "其中(?P<value>\\d+)人完成问卷",
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-5",
+            "file": "ppt",
+            "locator": "ppt:1:sample/body/0:text",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "问卷 n=(?P<value>\\d+)",
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          },
+          {
+            "id": "binding-6",
+            "file": "md",
+            "locator": "line:5",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "先导阶段问卷有效样本为(?P<value>\\d+)人",
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          }
+        ],
+        "authority": {
+          "source": "binding-7",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "formal-total",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-10",
+            "file": "new",
+            "locator": "json:/phase2/n",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-8",
+            "file": "doc",
+            "locator": "docx:p:1",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "正式试验纳入(?P<value>\\d+)人",
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-9",
+            "file": "ppt",
+            "locator": "ppt:1:sample/body/1:text",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "正式试验 n=(?P<value>\\d+)",
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          }
+        ],
+        "authority": {
+          "source": "binding-10",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "formal-survey",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验问卷有效样本",
+          "statistic": "n",
+          "unit": "人数",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-14",
+            "file": "new",
+            "locator": "json:/phase2/survey_n",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-11",
+            "file": "doc",
+            "locator": "docx:p:1",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "问卷有效样本为(?P<value>\\d+)人",
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-12",
+            "file": "ppt",
+            "locator": "ppt:1:sample/body/1:text",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "问卷 n=(?P<value>\\d+)",
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          },
+          {
+            "id": "binding-13",
+            "file": "md",
+            "locator": "line:5",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "正式试验问卷有效样本为(?P<value>\\d+)人",
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          }
+        ],
+        "authority": {
+          "source": "binding-14",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "treated-rate",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-15",
+            "file": "new",
+            "locator": "json:/phase2/rate_treated",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "guards": [
+              {
+                "locator": "json:/phase2/outcome",
+                "equals": "8周课程完成"
+              },
+              {
+                "locator": "json:/phase2/sample",
+                "equals": "正式试验全部随机分组学生"
+              }
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-16",
+            "file": "doc",
+            "locator": "docx:p:2",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "干预组(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-17",
+            "file": "csv",
+            "locator": "csv:2:6",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "guards": [
+              {
+                "locator": "csv:2:2",
+                "equals": "全部240人"
+              },
+              {
+                "locator": "csv:2:5",
+                "equals": "干预组完成率"
+              }
+            ],
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "824f415b1c8456f8b41bcc0a3b143726607d7a49425e601a1dc30293500a587f"
+          },
+          {
+            "id": "binding-18",
+            "file": "md",
+            "locator": "line:2",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "干预组课程完成率(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          },
+          {
+            "id": "binding-19",
+            "file": "ppt",
+            "locator": "ppt:2:completion/body/0:text",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "干预组(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          },
+          {
+            "id": "binding-20",
+            "file": "ppt",
+            "locator": "ppt:2:completion/visual/chart:series:0:value:0",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "guards": [
+              {
+                "locator": "ppt:2:completion/visual/chart:category:0",
+                "equals": "干预组"
+              },
+              {
+                "locator": "ppt:2:completion/visual/chart:axis:title",
+                "equals": "%"
+              }
+            ],
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          },
+          {
+            "id": "binding-21",
+            "file": "ppt",
+            "locator": "ppt:2:notes",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "干预组(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          },
+          {
+            "id": "binding-22",
+            "file": "plan",
+            "locator": "json:/slides/1/body/0",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "干预组(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d"
+          },
+          {
+            "id": "binding-23",
+            "file": "plan",
+            "locator": "json:/slides/1/visual/series/0/values/0",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d"
+          },
+          {
+            "id": "binding-24",
+            "file": "plan",
+            "locator": "json:/slides/1/notes",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "干预组(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d"
+          }
+        ],
+        "authority": {
+          "source": "binding-15",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "control-rate",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "完成比例",
+          "unit": "比例",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-25",
+            "file": "new",
+            "locator": "json:/phase2/rate_control",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-26",
+            "file": "doc",
+            "locator": "docx:p:2",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "对照组(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-27",
+            "file": "csv",
+            "locator": "csv:3:6",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "824f415b1c8456f8b41bcc0a3b143726607d7a49425e601a1dc30293500a587f"
+          },
+          {
+            "id": "binding-28",
+            "file": "md",
+            "locator": "line:2",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "对照组为(?P<value>[\\d.]+)%",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          },
+          {
+            "id": "binding-29",
+            "file": "ppt",
+            "locator": "ppt:2:completion/visual/chart:series:0:value:1",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "scale": 0.01,
+            "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+            "display_decimals": 1,
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          }
+        ],
+        "authority": {
+          "source": "binding-25",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "primary-rr",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "未调整风险比",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-30",
+            "file": "new",
+            "locator": "json:/phase2/rr",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reference_values": [
+              1
+            ],
+            "guards": [
+              {
+                "locator": "json:/phase2/model",
+                "equals": "未调整风险比"
+              }
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-31",
+            "file": "doc",
+            "locator": "docx:p:2",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-32",
+            "file": "doc",
+            "locator": "docx:p:9",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "guards": [
+              {
+                "locator": "docx:p:8",
+                "equals": "未调整RR"
+              }
+            ],
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-33",
+            "file": "csv",
+            "locator": "csv:4:6",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "guards": [
+              {
+                "locator": "csv:4:4",
+                "equals": "未调整风险比"
+              }
+            ],
+            "reviewed_sha256": "824f415b1c8456f8b41bcc0a3b143726607d7a49425e601a1dc30293500a587f"
+          },
+          {
+            "id": "binding-34",
+            "file": "md",
+            "locator": "line:3",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          },
+          {
+            "id": "binding-35",
+            "file": "ppt",
+            "locator": "ppt:3:effect/body/0:text",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          },
+          {
+            "id": "binding-36",
+            "file": "plan",
+            "locator": "json:/slides/2/body/0",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reviewed_sha256": "528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d"
+          }
+        ],
+        "authority": {
+          "source": "binding-30",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "adjusted-rr",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "基线协变量调整",
+          "adjustments": "基线协变量",
+          "analysis": "主分析",
+          "uncertainty": "95%置信区间"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-37",
+            "file": "new",
+            "locator": "json:/phase2/adjusted",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reference_values": [
+              1
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-38",
+            "file": "doc",
+            "locator": "docx:p:12",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "guards": [
+              {
+                "locator": "docx:p:11",
+                "equals": "调整RR"
+              }
+            ],
+            "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+          },
+          {
+            "id": "binding-39",
+            "file": "csv",
+            "locator": "csv:5:6",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "guards": [
+              {
+                "locator": "csv:5:4",
+                "equals": "基线协变量调整"
+              }
+            ],
+            "reviewed_sha256": "824f415b1c8456f8b41bcc0a3b143726607d7a49425e601a1dc30293500a587f"
+          },
+          {
+            "id": "binding-40",
+            "file": "md",
+            "locator": "line:6",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          },
+          {
+            "id": "binding-41",
+            "file": "ppt",
+            "locator": "ppt:3:effect/visual/table:cell:1:1",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "(?P<value>[\\d.]+) \\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "display_decimals": 2,
+            "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+          }
+        ],
+        "authority": {
+          "source": "binding-37",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "sensitivity-rr",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "干预组相对对照组",
+          "timepoint": "第8周",
+          "sample": "正式试验全部240名随机分组学生",
+          "statistic": "RR",
+          "unit": "比值",
+          "model": "加权",
+          "adjustments": "不适用",
+          "analysis": "敏感性",
+          "uncertainty": "95%置信区间"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-42",
+            "file": "new",
+            "locator": "json:/phase2/sensitivity",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "reference_values": [
+              1
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "binding-43",
+            "file": "md",
+            "locator": "line:10",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+            "display_decimals": 2,
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          }
+        ],
+        "authority": {
+          "source": "binding-42",
+          "kind": "user_confirmed",
+          "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+        }
+      },
+      {
+        "id": "unknown-subgroup",
+        "identity": {
+          "outcome": "8周课程完成",
+          "comparison": "不适用",
+          "timepoint": "第8周",
+          "sample": "未决：分母和组别待作者确认",
+          "statistic": "完成比例",
+          "unit": "%",
+          "model": "描述统计",
+          "adjustments": "不适用",
+          "analysis": "主分析",
+          "uncertainty": "不适用"
+        },
+        "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+        "sources": [
+          {
+            "id": "binding-44",
+            "file": "md",
+            "locator": "line:7",
+            "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+            "pattern": "完成率(?P<value>[\\d.]+)%",
+            "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+          }
+        ],
+        "occurrences": []
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "abstract-interpretation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-45",
+          "file": "doc",
+          "locator": "docx:p:3",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "ca69ea103347e361e7d107bc100ac3986618047f9c9704080a0a6d51ef62b261"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "discussion-recommendation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-46",
+          "file": "md",
+          "locator": "line:4",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "discussion-cautious",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-47",
+          "file": "md",
+          "locator": "line:8",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "ppt-headline",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-48",
+          "file": "ppt",
+          "locator": "ppt:3:effect/message:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "ppt-interpretation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-49",
+          "file": "ppt",
+          "locator": "ppt:3:notes",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "35d01f18d33a53678e66e213220659da28e8e5d983119415b035a31e21ad0872"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "plan-headline",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-50",
+          "file": "plan",
+          "locator": "json:/slides/2/message",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      },
+      {
+        "id": "plan-interpretation",
+        "depends_on": [
+          "primary-rr"
+        ],
+        "target": {
+          "id": "binding-51",
+          "file": "plan",
+          "locator": "json:/slides/2/notes",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "528d937f3fdab0a3bc4d6dacf491a677dc7ee68f8e97bf081da649dfecea0a5d"
+        },
+        "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+      }
+    ],
+    "citations": [
+      {
+        "id": "citation-SYN-01",
+        "reference_id": "SYN-01",
+        "reader": "independent forward-testing reader",
+        "claim": {
+          "id": "binding-52",
+          "file": "md",
+          "locator": "line:9",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "reviewed_sha256": "ed38ff9879d496d1d65025948aaeb9902e636df738724ce701f650f36f629e3b"
+        },
+        "support": {
+          "id": "binding-53",
+          "file": "reading",
+          "locator": "line:2",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        },
+        "source_file": "reading",
+        "ledger_file": "ledger"
+      }
+    ]
+  },
+  "baseline": {
+    "new": {
+      "sha256": "a30203aedf8053f213052a13bbd6cb9ef55cb9c3eefc9dbcba7a92789d0db24f",
+      "status": "read"
+    },
+    "old": {
+      "sha256": "566ae34b830e51162839408ec684354f9768893d7652ad692d781b568199e816",
+      "status": "read"
+    },
+    "doc": {
+      "sha256": "a3c387d8c01cdc409bdf6dc6687d04c9714920bb335fc47fb7272edebc9bd05f",
+      "status": "read"
+    },
+    "csv": {
+      "sha256": "359773025369de93ae2ce9ba48f92b2728cee316fc3cf3519a1c5d02394ca1ec",
+      "status": "read"
+    },
+    "md": {
+      "sha256": "c08be91baa7fecec43b27877b4eb3cdcd67a4036c2d58475d752b1d920f55c34",
+      "status": "read"
+    },
+    "plan": {
+      "sha256": "a7e88e96465a04b3fb0c62d22111e977caeb4a3e904a953920971623ffd0a4f0",
+      "status": "read"
+    },
+    "ppt": {
+      "sha256": "c9218403cbd2a97fb878fa0cdc66fca2512fef33ba15bcd44c5205a3dd2254e0",
+      "status": "read"
+    },
+    "reading": {
+      "sha256": "d1b90c4e1f6203a348a6d770176973ce7048014bbf90c0135b6863c8a786aee2",
+      "status": "read"
+    },
+    "ledger": {
+      "sha256": "3d0231b20c28152ad8671235497b9dc15f4b313f5da1c3414dd32b3f73d1d5f5",
+      "status": "read"
+    },
+    "formula": {
+      "sha256": "05630ac55725e06fe7033933c56c5a1133f190e04f5383bac3b069c609dfbac1",
+      "status": "read"
+    },
+    "broken": {
+      "sha256": "e14db27449d4a75578813a56bb5fa9f10aa80ee726e1b197582078e55fa08127",
+      "status": "failed"
+    }
+  },
+  "bindings": {
+    "binding-3": {
+      "locator": "json:/phase1/n",
+      "text": "48",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "48"
+      },
+      "relocation": "located"
+    },
+    "binding-1": {
+      "locator": "docx:p:1",
+      "text": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "48"
+      },
+      "relocation": "located"
+    },
+    "binding-2": {
+      "locator": "ppt:1:sample/body/0:text",
+      "text": "先导阶段 n=48；问卷 n=42",
+      "kind": "slide_text",
+      "status": "read",
+      "values": {
+        "value": "48"
+      },
+      "relocation": "located"
+    },
+    "binding-7": {
+      "locator": "json:/phase1/survey_n",
+      "text": "42",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "42"
+      },
+      "relocation": "located"
+    },
+    "binding-4": {
+      "locator": "docx:p:1",
+      "text": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "42"
+      },
+      "relocation": "located"
+    },
+    "binding-5": {
+      "locator": "ppt:1:sample/body/0:text",
+      "text": "先导阶段 n=48；问卷 n=42",
+      "kind": "slide_text",
+      "status": "read",
+      "values": {
+        "value": "42"
+      },
+      "relocation": "located"
+    },
+    "binding-6": {
+      "locator": "line:5",
+      "text": "先导阶段问卷有效样本为42人；正式试验问卷有效样本为196人。两阶段样本不可相加。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "42"
+      },
+      "relocation": "located"
+    },
+    "binding-10": {
+      "locator": "json:/phase2/n",
+      "text": "240",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "240"
+      },
+      "relocation": "located"
+    },
+    "binding-8": {
+      "locator": "docx:p:1",
+      "text": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "240"
+      },
+      "relocation": "located"
+    },
+    "binding-9": {
+      "locator": "ppt:1:sample/body/1:text",
+      "text": "正式试验 n=240；问卷 n=196",
+      "kind": "slide_text",
+      "status": "read",
+      "values": {
+        "value": "240"
+      },
+      "relocation": "located"
+    },
+    "binding-14": {
+      "locator": "json:/phase2/survey_n",
+      "text": "196",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "196"
+      },
+      "relocation": "located"
+    },
+    "binding-11": {
+      "locator": "docx:p:1",
+      "text": "摘要：先导阶段纳入48人，其中42人完成问卷；正式试验纳入240人，问卷有效样本为196人。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "196"
+      },
+      "relocation": "located"
+    },
+    "binding-12": {
+      "locator": "ppt:1:sample/body/1:text",
+      "text": "正式试验 n=240；问卷 n=196",
+      "kind": "slide_text",
+      "status": "read",
+      "values": {
+        "value": "196"
+      },
+      "relocation": "located"
+    },
+    "binding-13": {
+      "locator": "line:5",
+      "text": "先导阶段问卷有效样本为42人；正式试验问卷有效样本为196人。两阶段样本不可相加。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "196"
+      },
+      "relocation": "located"
+    },
+    "binding-15": {
+      "locator": "json:/phase2/rate_treated",
+      "text": "0.65",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.65"
+      },
+      "relocation": "located"
+    },
+    "binding-16": {
+      "locator": "docx:p:2",
+      "text": "正式试验8周课程完成率：干预组70.0%，对照组60.0%；未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-17": {
+      "locator": "csv:2:6",
+      "text": "70.0",
+      "kind": "cell",
+      "row_context": [
+        "正式",
+        "全部240人",
+        "8周课程完成",
+        "描述统计",
+        "干预组完成率",
+        "70.0"
+      ],
+      "column": "value",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-18": {
+      "locator": "line:2",
+      "text": "正式试验干预组课程完成率70.0%，对照组为60.0%。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-19": {
+      "locator": "ppt:2:completion/body/0:text",
+      "text": "干预组70.0%；对照组60.0%",
+      "kind": "slide_text",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-20": {
+      "locator": "ppt:2:completion/visual/chart:series:0:value:0",
+      "text": "70.0",
+      "kind": "chart_value",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-21": {
+      "locator": "ppt:2:notes",
+      "text": "干预组70.0%，对照组60.0%。\n\n来源：合成材料 · completion\n预计讲解：40秒",
+      "kind": "notes",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-22": {
+      "locator": "json:/slides/1/body/0",
+      "text": "干预组70.0%；对照组60.0%",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-23": {
+      "locator": "json:/slides/1/visual/series/0/values/0",
+      "text": "70",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "70"
+      },
+      "relocation": "located"
+    },
+    "binding-24": {
+      "locator": "json:/slides/1/notes",
+      "text": "干预组70.0%，对照组60.0%。",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-25": {
+      "locator": "json:/phase2/rate_control",
+      "text": "0.6",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.6"
+      },
+      "relocation": "located"
+    },
+    "binding-26": {
+      "locator": "docx:p:2",
+      "text": "正式试验8周课程完成率：干预组70.0%，对照组60.0%；未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "60.0"
+      },
+      "relocation": "located"
+    },
+    "binding-27": {
+      "locator": "csv:3:6",
+      "text": "60.0",
+      "kind": "cell",
+      "row_context": [
+        "正式",
+        "全部240人",
+        "8周课程完成",
+        "描述统计",
+        "对照组完成率",
+        "60.0"
+      ],
+      "column": "value",
+      "status": "read",
+      "values": {
+        "value": "60.0"
+      },
+      "relocation": "located"
+    },
+    "binding-28": {
+      "locator": "line:2",
+      "text": "正式试验干预组课程完成率70.0%，对照组为60.0%。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "60.0"
+      },
+      "relocation": "located"
+    },
+    "binding-29": {
+      "locator": "ppt:2:completion/visual/chart:series:0:value:1",
+      "text": "60.0",
+      "kind": "chart_value",
+      "status": "read",
+      "values": {
+        "value": "60.0"
+      },
+      "relocation": "located"
+    },
+    "binding-30": {
+      "locator": "json:/phase2/rr",
+      "text": "RR=1.083333; 95%CI=[0.890141,1.318456]",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "1.083333",
+        "low": "0.890141",
+        "high": "1.318456"
+      },
+      "relocation": "located"
+    },
+    "binding-31": {
+      "locator": "docx:p:2",
+      "text": "正式试验8周课程完成率：干预组70.0%，对照组60.0%；未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "1.166667",
+        "low": "1.001200",
+        "high": "1.359400"
+      },
+      "relocation": "located"
+    },
+    "binding-32": {
+      "locator": "docx:p:9",
+      "text": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "kind": "table_paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "1.166667",
+        "low": "1.001200",
+        "high": "1.359400"
+      },
+      "relocation": "located"
+    },
+    "binding-33": {
+      "locator": "csv:4:6",
+      "text": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "kind": "cell",
+      "row_context": [
+        "正式",
+        "全部240人",
+        "8周课程完成",
+        "未调整风险比",
+        "RR",
+        "RR=1.166667; 95%CI=[1.001200,1.359400]"
+      ],
+      "column": "value",
+      "status": "read",
+      "values": {
+        "value": "1.166667",
+        "low": "1.001200",
+        "high": "1.359400"
+      },
+      "relocation": "located"
+    },
+    "binding-34": {
+      "locator": "line:3",
+      "text": "未调整风险比RR=1.166667; 95%CI=[1.001200,1.359400]。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "1.166667",
+        "low": "1.001200",
+        "high": "1.359400"
+      },
+      "relocation": "located"
+    },
+    "binding-35": {
+      "locator": "ppt:3:effect/body/0:text",
+      "text": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "kind": "slide_text",
+      "status": "read",
+      "values": {
+        "value": "1.166667",
+        "low": "1.001200",
+        "high": "1.359400"
+      },
+      "relocation": "located"
+    },
+    "binding-36": {
+      "locator": "json:/slides/2/body/0",
+      "text": "RR=1.166667; 95%CI=[1.001200,1.359400]",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "1.166667",
+        "low": "1.001200",
+        "high": "1.359400"
+      },
+      "relocation": "located"
+    },
+    "binding-37": {
+      "locator": "json:/phase2/adjusted",
+      "text": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "1.120000",
+        "low": "0.930000",
+        "high": "1.350000"
+      },
+      "relocation": "located"
+    },
+    "binding-38": {
+      "locator": "docx:p:12",
+      "text": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+      "kind": "table_paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "1.120000",
+        "low": "0.930000",
+        "high": "1.350000"
+      },
+      "relocation": "located"
+    },
+    "binding-39": {
+      "locator": "csv:5:6",
+      "text": "RR=1.120000; 95%CI=[0.930000,1.350000]",
+      "kind": "cell",
+      "row_context": [
+        "正式",
+        "全部240人",
+        "8周课程完成",
+        "基线协变量调整",
+        "RR",
+        "RR=1.120000; 95%CI=[0.930000,1.350000]"
+      ],
+      "column": "value",
+      "status": "read",
+      "values": {
+        "value": "1.120000",
+        "low": "0.930000",
+        "high": "1.350000"
+      },
+      "relocation": "located"
+    },
+    "binding-40": {
+      "locator": "line:6",
+      "text": "协变量调整模型RR=1.120000; 95%CI=[0.930000,1.350000]，提示估计不够精确。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "1.120000",
+        "low": "0.930000",
+        "high": "1.350000"
+      },
+      "relocation": "located"
+    },
+    "binding-41": {
+      "locator": "ppt:3:effect/visual/table:cell:1:1",
+      "text": "1.12 [0.93,1.35]",
+      "kind": "cell",
+      "status": "read",
+      "values": {
+        "value": "1.12",
+        "low": "0.93",
+        "high": "1.35"
+      },
+      "relocation": "located"
+    },
+    "binding-42": {
+      "locator": "json:/phase2/sensitivity",
+      "text": "RR=1.020000; 95%CI=[1.000400,1.039984]",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "1.020000",
+        "low": "1.000400",
+        "high": "1.039984"
+      },
+      "relocation": "located"
+    },
+    "binding-43": {
+      "locator": "line:10",
+      "text": "加权敏感性分析RR=1.02; 95%CI=[1.00,1.04]。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "1.02",
+        "low": "1.00",
+        "high": "1.04"
+      },
+      "relocation": "located"
+    },
+    "binding-44": {
+      "locator": "line:7",
+      "text": "某子组课程完成率70.0%，分母和组别仍待作者确认。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "70.0"
+      },
+      "relocation": "located"
+    },
+    "binding-45": {
+      "locator": "docx:p:3",
+      "text": "完成率优势排除了无效应，说明课程适合推广。",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "完成率优势排除了无效应，说明课程适合推广。"
+      },
+      "relocation": "located"
+    },
+    "binding-46": {
+      "locator": "line:4",
+      "text": "完成率优势排除了无效应，因此推荐立即普遍推广。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "完成率优势排除了无效应，因此推荐立即普遍推广。"
+      },
+      "relocation": "located"
+    },
+    "binding-47": {
+      "locator": "line:8",
+      "text": "从新材料看，完成率的点估计仍向干预组倾斜，但需要关注区间宽度。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "从新材料看，完成率的点估计仍向干预组倾斜，但需要关注区间宽度。"
+      },
+      "relocation": "located"
+    },
+    "binding-48": {
+      "locator": "ppt:3:effect/message:text",
+      "text": "区间下限高于1",
+      "kind": "slide_text",
+      "status": "read",
+      "values": {
+        "value": "区间下限高于1"
+      },
+      "relocation": "located"
+    },
+    "binding-49": {
+      "locator": "ppt:3:notes",
+      "text": "未调整模型排除了无效应；调整模型仍不精确。\n\n来源：合成材料 · effect\n预计讲解：40秒",
+      "kind": "notes",
+      "status": "read",
+      "values": {
+        "value": "未调整模型排除了无效应；调整模型仍不精确。\n\n来源：合成材料 · effect\n预计讲解：40秒"
+      },
+      "relocation": "located"
+    },
+    "binding-50": {
+      "locator": "json:/slides/2/message",
+      "text": "区间下限高于1",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "区间下限高于1"
+      },
+      "relocation": "located"
+    },
+    "binding-51": {
+      "locator": "json:/slides/2/notes",
+      "text": "未调整模型排除了无效应；调整模型仍不精确。",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "未调整模型排除了无效应；调整模型仍不精确。"
+      },
+      "relocation": "located"
+    },
+    "binding-52": {
+      "locator": "line:9",
+      "text": "引用论断：同伴反馈帮助受访学生解释作业要求。[SYN-01]",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "引用论断：同伴反馈帮助受访学生解释作业要求。[SYN-01]"
+      },
+      "relocation": "located"
+    },
+    "binding-53": {
+      "locator": "line:2",
+      "text": "8名受访学生描述，同伴反馈帮助他们解释作业要求；本研究没有测量课程完成率。",
+      "kind": "text",
+      "status": "read",
+      "values": {
+        "value": "8名受访学生描述，同伴反馈帮助他们解释作业要求；本研究没有测量课程完成率。"
+      },
+      "relocation": "located"
+    }
+  },
+  "citation_fingerprints": {
+    "citation-SYN-01": {
+      "claim": "16d38a07b165ae9f4e63f49da3824d0cc46946d9e1ee86bf69dfc3ac55716f25",
+      "support": "106715a48475841a123eb8ae88d302f4b25ebcc088a19d26e04c9f48a203e112",
+      "source": "d1b90c4e1f6203a348a6d770176973ce7048014bbf90c0135b6863c8a786aee2",
+      "ledger": "3d0231b20c28152ad8671235497b9dc15f4b313f5da1c3414dd32b3f73d1d5f5",
+      "readable": true
+    }
+  }
+}

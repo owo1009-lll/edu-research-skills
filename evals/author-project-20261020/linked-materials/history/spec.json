@@ -1,0 +1,826 @@
+{
+  "files": [
+    {
+      "id": "new",
+      "path": "@RUN@\\history\\previous-confirmed-source.json",
+      "role": "明确指定的当前正式试验结果"
+    },
+    {
+      "id": "old",
+      "path": "@RUN@\\materials\\result-old.json",
+      "role": "旧版本，非当前权威"
+    },
+    {
+      "id": "doc",
+      "path": "@RUN@\\materials\\manuscript.docx",
+      "role": "Word摘要及结果表"
+    },
+    {
+      "id": "csv",
+      "path": "@RUN@\\materials\\results.csv",
+      "role": "结果表"
+    },
+    {
+      "id": "md",
+      "path": "@RUN@\\materials\\discussion.md",
+      "role": "讨论"
+    },
+    {
+      "id": "plan",
+      "path": "@RUN@\\materials\\deck-plan.json",
+      "role": "已有关联PPT计划"
+    },
+    {
+      "id": "ppt",
+      "path": "@RUN@\\deck-before\\slides.pptx",
+      "role": "PPT"
+    },
+    {
+      "id": "reading",
+      "path": "@RUN@\\materials\\synthetic-reading.md",
+      "role": "虚构来源阅读文件"
+    },
+    {
+      "id": "ledger",
+      "path": "@RUN@\\materials\\citation-ledger.json",
+      "role": "已有引用支持记录"
+    },
+    {
+      "id": "formula",
+      "path": "@RUN@\\materials\\formula-supplement.xlsx",
+      "role": "辅助计算"
+    },
+    {
+      "id": "broken",
+      "path": "@RUN@\\materials\\broken-supplement.docx",
+      "role": "损坏附录"
+    }
+  ],
+  "facts": [
+    {
+      "id": "pilot-total",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "先导阶段全部样本",
+        "statistic": "n",
+        "unit": "人数",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-3",
+          "file": "new",
+          "locator": "json:/phase1/n",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-1",
+          "file": "doc",
+          "locator": "docx:p:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "先导阶段纳入(?P<value>48)人"
+        },
+        {
+          "id": "binding-2",
+          "file": "ppt",
+          "locator": "ppt:1:sample/body/0:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "先导阶段 n=(?P<value>\\d+)"
+        }
+      ],
+      "authority": {
+        "source": "binding-3",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "pilot-survey",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "先导阶段问卷有效样本",
+        "statistic": "n",
+        "unit": "人数",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-7",
+          "file": "new",
+          "locator": "json:/phase1/survey_n",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-4",
+          "file": "doc",
+          "locator": "docx:p:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "其中(?P<value>\\d+)人完成问卷"
+        },
+        {
+          "id": "binding-5",
+          "file": "ppt",
+          "locator": "ppt:1:sample/body/0:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "问卷 n=(?P<value>\\d+)"
+        },
+        {
+          "id": "binding-6",
+          "file": "md",
+          "locator": "line:5",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "先导阶段问卷有效样本为(?P<value>\\d+)人"
+        }
+      ],
+      "authority": {
+        "source": "binding-7",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "formal-total",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "正式试验全部样本",
+        "statistic": "n",
+        "unit": "人数",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-10",
+          "file": "new",
+          "locator": "json:/phase2/n",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-8",
+          "file": "doc",
+          "locator": "docx:p:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "正式试验纳入(?P<value>\\d+)人"
+        },
+        {
+          "id": "binding-9",
+          "file": "ppt",
+          "locator": "ppt:1:sample/body/1:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "正式试验 n=(?P<value>\\d+)"
+        }
+      ],
+      "authority": {
+        "source": "binding-10",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "formal-survey",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "正式试验问卷有效样本",
+        "statistic": "n",
+        "unit": "人数",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-14",
+          "file": "new",
+          "locator": "json:/phase2/survey_n",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-11",
+          "file": "doc",
+          "locator": "docx:p:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "问卷有效样本为(?P<value>\\d+)人"
+        },
+        {
+          "id": "binding-12",
+          "file": "ppt",
+          "locator": "ppt:1:sample/body/1:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "问卷 n=(?P<value>\\d+)"
+        },
+        {
+          "id": "binding-13",
+          "file": "md",
+          "locator": "line:5",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "正式试验问卷有效样本为(?P<value>\\d+)人"
+        }
+      ],
+      "authority": {
+        "source": "binding-14",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "treated-rate",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "正式试验全部240名随机分组学生",
+        "statistic": "完成比例",
+        "unit": "比例",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-15",
+          "file": "new",
+          "locator": "json:/phase2/rate_treated",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "guards": [
+            {
+              "locator": "json:/phase2/outcome",
+              "equals": "8周课程完成"
+            },
+            {
+              "locator": "json:/phase2/sample",
+              "equals": "正式试验全部随机分组学生"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-16",
+          "file": "doc",
+          "locator": "docx:p:2",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "干预组(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-17",
+          "file": "csv",
+          "locator": "csv:2:6",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "guards": [
+            {
+              "locator": "csv:2:2",
+              "equals": "全部240人"
+            },
+            {
+              "locator": "csv:2:5",
+              "equals": "干预组完成率"
+            }
+          ],
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-18",
+          "file": "md",
+          "locator": "line:2",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "干预组课程完成率(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-19",
+          "file": "ppt",
+          "locator": "ppt:2:completion/body/0:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "干预组(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-20",
+          "file": "ppt",
+          "locator": "ppt:2:completion/visual/chart:series:0:value:0",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "guards": [
+            {
+              "locator": "ppt:2:completion/visual/chart:category:0",
+              "equals": "干预组"
+            },
+            {
+              "locator": "ppt:2:completion/visual/chart:axis:title",
+              "equals": "%"
+            }
+          ],
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-21",
+          "file": "ppt",
+          "locator": "ppt:2:notes",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "干预组(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-22",
+          "file": "plan",
+          "locator": "json:/slides/1/body/0",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "干预组(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-23",
+          "file": "plan",
+          "locator": "json:/slides/1/visual/series/0/values/0",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-24",
+          "file": "plan",
+          "locator": "json:/slides/1/notes",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "干预组(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        }
+      ],
+      "authority": {
+        "source": "binding-15",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "control-rate",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "正式试验全部240名随机分组学生",
+        "statistic": "完成比例",
+        "unit": "比例",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-25",
+          "file": "new",
+          "locator": "json:/phase2/rate_control",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-26",
+          "file": "doc",
+          "locator": "docx:p:2",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "对照组(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-27",
+          "file": "csv",
+          "locator": "csv:3:6",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-28",
+          "file": "md",
+          "locator": "line:2",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "对照组为(?P<value>[\\d.]+)%",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        },
+        {
+          "id": "binding-29",
+          "file": "ppt",
+          "locator": "ppt:2:completion/visual/chart:series:0:value:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "scale": 0.01,
+          "conversion_reason": "同一组、同一正式试验、同一8周完成率，百分数除以100得到比例",
+          "display_decimals": 1
+        }
+      ],
+      "authority": {
+        "source": "binding-25",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "primary-rr",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "干预组相对对照组",
+        "timepoint": "第8周",
+        "sample": "正式试验全部240名随机分组学生",
+        "statistic": "RR",
+        "unit": "比值",
+        "model": "未调整风险比",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "95%置信区间"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-30",
+          "file": "new",
+          "locator": "json:/phase2/rr",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "reference_values": [
+            1
+          ],
+          "guards": [
+            {
+              "locator": "json:/phase2/model",
+              "equals": "未调整风险比"
+            }
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-31",
+          "file": "doc",
+          "locator": "docx:p:2",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]"
+        },
+        {
+          "id": "binding-32",
+          "file": "doc",
+          "locator": "docx:p:9",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "guards": [
+            {
+              "locator": "docx:p:8",
+              "equals": "未调整RR"
+            }
+          ]
+        },
+        {
+          "id": "binding-33",
+          "file": "csv",
+          "locator": "csv:4:6",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "guards": [
+            {
+              "locator": "csv:4:4",
+              "equals": "未调整风险比"
+            }
+          ]
+        },
+        {
+          "id": "binding-34",
+          "file": "md",
+          "locator": "line:3",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]"
+        },
+        {
+          "id": "binding-35",
+          "file": "ppt",
+          "locator": "ppt:3:effect/body/0:text",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]"
+        },
+        {
+          "id": "binding-36",
+          "file": "plan",
+          "locator": "json:/slides/2/body/0",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]"
+        }
+      ],
+      "authority": {
+        "source": "binding-30",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "adjusted-rr",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "干预组相对对照组",
+        "timepoint": "第8周",
+        "sample": "正式试验全部240名随机分组学生",
+        "statistic": "RR",
+        "unit": "比值",
+        "model": "基线协变量调整",
+        "adjustments": "基线协变量",
+        "analysis": "主分析",
+        "uncertainty": "95%置信区间"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-37",
+          "file": "new",
+          "locator": "json:/phase2/adjusted",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "reference_values": [
+            1
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-38",
+          "file": "doc",
+          "locator": "docx:p:12",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "guards": [
+            {
+              "locator": "docx:p:11",
+              "equals": "调整RR"
+            }
+          ]
+        },
+        {
+          "id": "binding-39",
+          "file": "csv",
+          "locator": "csv:5:6",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "guards": [
+            {
+              "locator": "csv:5:4",
+              "equals": "基线协变量调整"
+            }
+          ]
+        },
+        {
+          "id": "binding-40",
+          "file": "md",
+          "locator": "line:6",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]"
+        },
+        {
+          "id": "binding-41",
+          "file": "ppt",
+          "locator": "ppt:3:effect/visual/table:cell:1:1",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "(?P<value>[\\d.]+) \\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "display_decimals": 2
+        }
+      ],
+      "authority": {
+        "source": "binding-37",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "sensitivity-rr",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "干预组相对对照组",
+        "timepoint": "第8周",
+        "sample": "正式试验全部240名随机分组学生",
+        "statistic": "RR",
+        "unit": "比值",
+        "model": "加权",
+        "adjustments": "不适用",
+        "analysis": "敏感性",
+        "uncertainty": "95%置信区间"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-42",
+          "file": "new",
+          "locator": "json:/phase2/sensitivity",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "reference_values": [
+            1
+          ]
+        }
+      ],
+      "occurrences": [
+        {
+          "id": "binding-43",
+          "file": "md",
+          "locator": "line:10",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "RR=(?P<value>[\\d.]+); 95%CI=\\[(?P<low>[\\d.]+),(?P<high>[\\d.]+)\\]",
+          "display_decimals": 2
+        }
+      ],
+      "authority": {
+        "source": "binding-42",
+        "kind": "user_confirmed",
+        "reason": "本次请求明确指定 result-current.json 中同一分析记录；不凭文件时间或显著性选择"
+      }
+    },
+    {
+      "id": "unknown-subgroup",
+      "identity": {
+        "outcome": "8周课程完成",
+        "comparison": "不适用",
+        "timepoint": "第8周",
+        "sample": "未决：分母和组别待作者确认",
+        "statistic": "完成比例",
+        "unit": "%",
+        "model": "描述统计",
+        "adjustments": "不适用",
+        "analysis": "主分析",
+        "uncertainty": "不适用"
+      },
+      "mapping_reason": "依据合成研究两阶段设计与当前材料明确标签逐处确认",
+      "sources": [
+        {
+          "id": "binding-44",
+          "file": "md",
+          "locator": "line:7",
+          "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应",
+          "pattern": "完成率(?P<value>[\\d.]+)%"
+        }
+      ],
+      "occurrences": []
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "abstract-interpretation",
+      "depends_on": [
+        "primary-rr"
+      ],
+      "target": {
+        "id": "binding-45",
+        "file": "doc",
+        "locator": "docx:p:3",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+    },
+    {
+      "id": "discussion-recommendation",
+      "depends_on": [
+        "primary-rr"
+      ],
+      "target": {
+        "id": "binding-46",
+        "file": "md",
+        "locator": "line:4",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+    },
+    {
+      "id": "discussion-cautious",
+      "depends_on": [
+        "primary-rr"
+      ],
+      "target": {
+        "id": "binding-47",
+        "file": "md",
+        "locator": "line:8",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+    },
+    {
+      "id": "ppt-headline",
+      "depends_on": [
+        "primary-rr"
+      ],
+      "target": {
+        "id": "binding-48",
+        "file": "ppt",
+        "locator": "ppt:3:effect/message:text",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+    },
+    {
+      "id": "ppt-interpretation",
+      "depends_on": [
+        "primary-rr"
+      ],
+      "target": {
+        "id": "binding-49",
+        "file": "ppt",
+        "locator": "ppt:3:notes",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+    },
+    {
+      "id": "plan-headline",
+      "depends_on": [
+        "primary-rr"
+      ],
+      "target": {
+        "id": "binding-50",
+        "file": "plan",
+        "locator": "json:/slides/2/message",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+    },
+    {
+      "id": "plan-interpretation",
+      "depends_on": [
+        "primary-rr"
+      ],
+      "target": {
+        "id": "binding-51",
+        "file": "plan",
+        "locator": "json:/slides/2/notes",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "reason": "解释依赖未调整风险比及区间是否覆盖无效应参考值1"
+    }
+  ],
+  "citations": [
+    {
+      "id": "citation-SYN-01",
+      "reference_id": "SYN-01",
+      "reader": "independent forward-testing reader",
+      "claim": {
+        "id": "binding-52",
+        "file": "md",
+        "locator": "line:9",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "support": {
+        "id": "binding-53",
+        "file": "reading",
+        "locator": "line:2",
+        "reason": "实际阅读该位置上下文，按阶段、样本、模型、单位和结局确认对应"
+      },
+      "source_file": "reading",
+      "ledger_file": "ledger"
+    }
+  ]
+}

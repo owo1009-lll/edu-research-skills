@@ -1,0 +1,13 @@
+{
+  "args": [
+    "@REPO@\\skills\\edu-research\\scripts\\project_check.py",
+    "sync",
+    "--project",
+    "@RUN@\\mixed-probe\\project",
+    "--request",
+    "@RUN@\\mixed-probe\\request.json"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"files\": [\n    {\n      \"source\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\mixed-probe\\\\discussion.md\",\n      \"output\": \"D:\\\\codex项目\\\\教育学skill\\\\本次更新材料_20261020\\\\作者偏好关联核对\\\\independent-links\\\\mixed-probe\\\\unsafe-attempt.md\",\n      \"sha256\": \"33e11e4dc0d0f6ae87230b9ce5af284b8e296d592f4a826c6662466c0ea51922\"\n    }\n  ],\n  \"next\": \"Register explicit new paths, refresh changed semantic mappings, and check again. For changed PPT plans, rebuild_deck, check_deck and render all affected slides.\"\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,1565 @@
+{
+  "checks": [
+    {
+      "name": "one-time-saved",
+      "passed": true,
+      "detail": {
+        "id": "pref-769a1508dfdf87f4bec9",
+        "status": "active",
+        "changed": true
+      }
+    },
+    {
+      "name": "one-time-priority",
+      "passed": true,
+      "detail": {
+        "active": [
+          {
+            "category": "expression",
+            "content": "这次先给访谈材料，再给作者判断。",
+            "scope": "task",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "仅这一次先写访谈材料，再写判断；以后仍照旧。",
+              "time": "2026-10-20"
+            },
+            "task_id": "one-time-evidence-first",
+            "id": "pref-769a1508dfdf87f4bec9",
+            "created_utc": "2026-10-20T08:49:54.273461+00:00",
+            "storage": "project"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-026c5f9667b45cf61537",
+            "created_utc": "2026-10-20T08:49:04.690407+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-9c3ff3328f62757bcd9b",
+            "created_utc": "2026-10-20T08:49:04.859200+00:00",
+            "storage": "author"
+          }
+        ],
+        "candidates_for_review_only": [],
+        "skipped": [
+          {
+            "id": "pref-1296c75e100aae525a0b",
+            "reason": "本次明确要求材料先行，仅排除相反的作者顺序偏好。",
+            "priority": "current_request"
+          }
+        ],
+        "current_requirements": [
+          "仅这一次先写访谈材料，再写判断；以后仍照旧。"
+        ],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "one-time-does-not-leak",
+      "passed": true,
+      "detail": {
+        "active": [
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-026c5f9667b45cf61537",
+            "created_utc": "2026-10-20T08:49:04.690407+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-1296c75e100aae525a0b",
+            "created_utc": "2026-10-20T08:49:04.775644+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-9c3ff3328f62757bcd9b",
+            "created_utc": "2026-10-20T08:49:04.859200+00:00",
+            "storage": "author"
+          }
+        ],
+        "candidates_for_review_only": [],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "filter-language",
+      "passed": true,
+      "detail": {
+        "active": [],
+        "candidates_for_review_only": [],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "filter-section",
+      "passed": true,
+      "detail": {
+        "active": [],
+        "candidates_for_review_only": [],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "filter-research-type",
+      "passed": true,
+      "detail": {
+        "active": [],
+        "candidates_for_review_only": [],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "filter-task-kind",
+      "passed": true,
+      "detail": {
+        "active": [],
+        "candidates_for_review_only": [],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "silence-is-not-acceptance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate-separated",
+      "passed": true,
+      "detail": {
+        "active": [
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-026c5f9667b45cf61537",
+            "created_utc": "2026-10-20T08:49:04.690407+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-1296c75e100aae525a0b",
+            "created_utc": "2026-10-20T08:49:04.775644+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-9c3ff3328f62757bcd9b",
+            "created_utc": "2026-10-20T08:49:04.859200+00:00",
+            "storage": "author"
+          }
+        ],
+        "candidates_for_review_only": [
+          {
+            "category": "expression",
+            "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+            "scope": "project",
+            "basis": "inferred",
+            "status": "candidate",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "example",
+              "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+              "ownership": "author",
+              "time": "2026-10-20"
+            },
+            "id": "pref-8481800584372373f975",
+            "created_utc": "2026-10-20T08:49:54.932350+00:00",
+            "storage": "project"
+          }
+        ],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "project-disable-only",
+      "passed": true,
+      "detail": {
+        "disabled": {
+          "active": [],
+          "candidates_for_review_only": [
+            {
+              "category": "expression",
+              "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+              "scope": "project",
+              "basis": "inferred",
+              "status": "candidate",
+              "languages": [
+                "en"
+              ],
+              "research_types": [
+                "qualitative"
+              ],
+              "sections": [
+                "discussion"
+              ],
+              "tasks": [
+                "revise"
+              ],
+              "conditions": [
+                "仅用于有材料或明确专业依据的作者判断"
+              ],
+              "exceptions": [
+                "不覆盖当前明确要求或事实与证据边界"
+              ],
+              "source": {
+                "kind": "example",
+                "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+                "ownership": "author",
+                "time": "2026-10-20"
+              },
+              "id": "pref-8481800584372373f975",
+              "created_utc": "2026-10-20T08:49:54.932350+00:00",
+              "storage": "project"
+            }
+          ],
+          "skipped": [],
+          "current_requirements": [],
+          "application_order": [
+            "facts_and_evidence",
+            "current_request",
+            "project_and_verified_journal",
+            "task_preference",
+            "project_preference",
+            "author_preference"
+          ],
+          "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+        },
+        "other": {
+          "active": [
+            {
+              "category": "expression",
+              "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+              "scope": "author",
+              "basis": "explicit",
+              "status": "active",
+              "languages": [
+                "en"
+              ],
+              "research_types": [
+                "qualitative"
+              ],
+              "sections": [
+                "discussion"
+              ],
+              "tasks": [
+                "revise"
+              ],
+              "conditions": [
+                "仅用于有材料或明确专业依据的作者判断"
+              ],
+              "exceptions": [
+                "不覆盖当前明确要求或事实与证据边界"
+              ],
+              "source": {
+                "kind": "explicit",
+                "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+                "time": "2026-10-20",
+                "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+              },
+              "id": "pref-026c5f9667b45cf61537",
+              "created_utc": "2026-10-20T08:49:04.690407+00:00",
+              "storage": "author"
+            },
+            {
+              "category": "expression",
+              "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+              "scope": "author",
+              "basis": "explicit",
+              "status": "active",
+              "languages": [
+                "en"
+              ],
+              "research_types": [
+                "qualitative"
+              ],
+              "sections": [
+                "discussion"
+              ],
+              "tasks": [
+                "revise"
+              ],
+              "conditions": [
+                "仅用于有材料或明确专业依据的作者判断"
+              ],
+              "exceptions": [
+                "不覆盖当前明确要求或事实与证据边界"
+              ],
+              "source": {
+                "kind": "explicit",
+                "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+                "time": "2026-10-20",
+                "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+              },
+              "id": "pref-1296c75e100aae525a0b",
+              "created_utc": "2026-10-20T08:49:04.775644+00:00",
+              "storage": "author"
+            },
+            {
+              "category": "expression",
+              "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+              "scope": "author",
+              "basis": "explicit",
+              "status": "active",
+              "languages": [
+                "en"
+              ],
+              "research_types": [
+                "qualitative"
+              ],
+              "sections": [
+                "discussion"
+              ],
+              "tasks": [
+                "revise"
+              ],
+              "conditions": [
+                "仅用于有材料或明确专业依据的作者判断"
+              ],
+              "exceptions": [
+                "不覆盖当前明确要求或事实与证据边界"
+              ],
+              "source": {
+                "kind": "explicit",
+                "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+                "time": "2026-10-20",
+                "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+              },
+              "id": "pref-9c3ff3328f62757bcd9b",
+              "created_utc": "2026-10-20T08:49:04.859200+00:00",
+              "storage": "author"
+            }
+          ],
+          "candidates_for_review_only": [],
+          "skipped": [],
+          "current_requirements": [],
+          "application_order": [
+            "facts_and_evidence",
+            "current_request",
+            "project_and_verified_journal",
+            "task_preference",
+            "project_preference",
+            "author_preference"
+          ],
+          "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+        }
+      }
+    },
+    {
+      "name": "undo-disable-restores",
+      "passed": true,
+      "detail": {
+        "active": [
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-026c5f9667b45cf61537",
+            "created_utc": "2026-10-20T08:49:04.690407+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-1296c75e100aae525a0b",
+            "created_utc": "2026-10-20T08:49:04.775644+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-9c3ff3328f62757bcd9b",
+            "created_utc": "2026-10-20T08:49:04.859200+00:00",
+            "storage": "author"
+          }
+        ],
+        "candidates_for_review_only": [
+          {
+            "category": "expression",
+            "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+            "scope": "project",
+            "basis": "inferred",
+            "status": "candidate",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "example",
+              "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+              "ownership": "author",
+              "time": "2026-10-20"
+            },
+            "id": "pref-8481800584372373f975",
+            "created_utc": "2026-10-20T08:49:54.932350+00:00",
+            "storage": "project"
+          }
+        ],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "pause-removes-from-active",
+      "passed": true,
+      "detail": {
+        "active": [
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-026c5f9667b45cf61537",
+            "created_utc": "2026-10-20T08:49:04.690407+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-1296c75e100aae525a0b",
+            "created_utc": "2026-10-20T08:49:04.775644+00:00",
+            "storage": "author"
+          }
+        ],
+        "candidates_for_review_only": [
+          {
+            "category": "expression",
+            "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+            "scope": "project",
+            "basis": "inferred",
+            "status": "candidate",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "example",
+              "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+              "ownership": "author",
+              "time": "2026-10-20"
+            },
+            "id": "pref-8481800584372373f975",
+            "created_utc": "2026-10-20T08:49:54.932350+00:00",
+            "storage": "project"
+          }
+        ],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "resume-restores",
+      "passed": true,
+      "detail": {
+        "active": [
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-026c5f9667b45cf61537",
+            "created_utc": "2026-10-20T08:49:04.690407+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-1296c75e100aae525a0b",
+            "created_utc": "2026-10-20T08:49:04.775644+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-9c3ff3328f62757bcd9b",
+            "created_utc": "2026-10-20T08:49:04.859200+00:00",
+            "updated_utc": "2026-10-20T08:49:55.659916+00:00",
+            "storage": "author"
+          }
+        ],
+        "candidates_for_review_only": [
+          {
+            "category": "expression",
+            "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+            "scope": "project",
+            "basis": "inferred",
+            "status": "candidate",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "example",
+              "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+              "ownership": "author",
+              "time": "2026-10-20"
+            },
+            "id": "pref-8481800584372373f975",
+            "created_utc": "2026-10-20T08:49:54.932350+00:00",
+            "storage": "project"
+          }
+        ],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    },
+    {
+      "name": "example-actually-saved",
+      "passed": true,
+      "detail": {
+        "id": "pref-fe338eed0edd0880d4c1"
+      }
+    },
+    {
+      "name": "delete-physically-removes-example",
+      "passed": true,
+      "detail": {
+        "storage_residual_files": [],
+        "scope": "Only actual profile/project storage scanned; synthetic test logs intentionally retained."
+      }
+    },
+    {
+      "name": "delete-idempotent",
+      "passed": true,
+      "detail": {
+        "deleted": "pref-fe338eed0edd0880d4c1",
+        "changed": false
+      }
+    },
+    {
+      "name": "undo-example-actually-saved",
+      "passed": true,
+      "detail": {
+        "id": "pref-a52afbf733f59db70fba"
+      }
+    },
+    {
+      "name": "undo-removes-example",
+      "passed": true,
+      "detail": {
+        "removed_id": "pref-a52afbf733f59db70fba"
+      }
+    },
+    {
+      "name": "documented-pause-example-handles-author-item",
+      "passed": false,
+      "detail": {
+        "profile_unchanged": true,
+        "expected_behavior": "Pause selected author item with supplied profile."
+      }
+    },
+    {
+      "name": "explicit-author-scope-fixes-pause",
+      "passed": true,
+      "detail": {
+        "active": [
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-1296c75e100aae525a0b",
+            "created_utc": "2026-10-20T08:49:04.775644+00:00",
+            "storage": "author"
+          },
+          {
+            "category": "expression",
+            "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+            "scope": "author",
+            "basis": "explicit",
+            "status": "active",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "explicit",
+              "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+              "time": "2026-10-20",
+              "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+            },
+            "id": "pref-9c3ff3328f62757bcd9b",
+            "created_utc": "2026-10-20T08:49:04.859200+00:00",
+            "updated_utc": "2026-10-20T08:49:55.659916+00:00",
+            "storage": "author"
+          }
+        ],
+        "candidates_for_review_only": [
+          {
+            "category": "expression",
+            "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+            "scope": "project",
+            "basis": "inferred",
+            "status": "candidate",
+            "languages": [
+              "en"
+            ],
+            "research_types": [
+              "qualitative"
+            ],
+            "sections": [
+              "discussion"
+            ],
+            "tasks": [
+              "revise"
+            ],
+            "conditions": [
+              "仅用于有材料或明确专业依据的作者判断"
+            ],
+            "exceptions": [
+              "不覆盖当前明确要求或事实与证据边界"
+            ],
+            "source": {
+              "kind": "example",
+              "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+              "ownership": "author",
+              "time": "2026-10-20"
+            },
+            "id": "pref-8481800584372373f975",
+            "created_utc": "2026-10-20T08:49:54.932350+00:00",
+            "storage": "project"
+          }
+        ],
+        "skipped": [],
+        "current_requirements": [],
+        "application_order": [
+          "facts_and_evidence",
+          "current_request",
+          "project_and_verified_journal",
+          "task_preference",
+          "project_preference",
+          "author_preference"
+        ],
+        "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+      }
+    }
+  ],
+  "final": {
+    "active": [
+      {
+        "category": "expression",
+        "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+        "scope": "author",
+        "basis": "explicit",
+        "status": "active",
+        "languages": [
+          "en"
+        ],
+        "research_types": [
+          "qualitative"
+        ],
+        "sections": [
+          "discussion"
+        ],
+        "tasks": [
+          "revise"
+        ],
+        "conditions": [
+          "仅用于有材料或明确专业依据的作者判断"
+        ],
+        "exceptions": [
+          "不覆盖当前明确要求或事实与证据边界"
+        ],
+        "source": {
+          "kind": "explicit",
+          "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+          "time": "2026-10-20",
+          "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+        },
+        "id": "pref-026c5f9667b45cf61537",
+        "created_utc": "2026-10-20T08:49:04.690407+00:00",
+        "updated_utc": "2026-10-20T08:49:56.520280+00:00",
+        "storage": "author"
+      },
+      {
+        "category": "expression",
+        "content": "修改英文定性论文的 Discussion 时，先给出作者有依据的判断，再给出材料与解释。",
+        "scope": "author",
+        "basis": "explicit",
+        "status": "active",
+        "languages": [
+          "en"
+        ],
+        "research_types": [
+          "qualitative"
+        ],
+        "sections": [
+          "discussion"
+        ],
+        "tasks": [
+          "revise"
+        ],
+        "conditions": [
+          "仅用于有材料或明确专业依据的作者判断"
+        ],
+        "exceptions": [
+          "不覆盖当前明确要求或事实与证据边界"
+        ],
+        "source": {
+          "kind": "explicit",
+          "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+          "time": "2026-10-20",
+          "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+        },
+        "id": "pref-1296c75e100aae525a0b",
+        "created_utc": "2026-10-20T08:49:04.775644+00:00",
+        "storage": "author"
+      },
+      {
+        "category": "expression",
+        "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+        "scope": "author",
+        "basis": "explicit",
+        "status": "active",
+        "languages": [
+          "en"
+        ],
+        "research_types": [
+          "qualitative"
+        ],
+        "sections": [
+          "discussion"
+        ],
+        "tasks": [
+          "revise"
+        ],
+        "conditions": [
+          "仅用于有材料或明确专业依据的作者判断"
+        ],
+        "exceptions": [
+          "不覆盖当前明确要求或事实与证据边界"
+        ],
+        "source": {
+          "kind": "explicit",
+          "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+          "time": "2026-10-20",
+          "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+        },
+        "id": "pref-9c3ff3328f62757bcd9b",
+        "created_utc": "2026-10-20T08:49:04.859200+00:00",
+        "updated_utc": "2026-10-20T08:49:55.659916+00:00",
+        "storage": "author"
+      }
+    ],
+    "candidates_for_review_only": [
+      {
+        "category": "expression",
+        "content": "作者可能偏好将建议与概念判断放在同一句，待确认。",
+        "scope": "project",
+        "basis": "inferred",
+        "status": "candidate",
+        "languages": [
+          "en"
+        ],
+        "research_types": [
+          "qualitative"
+        ],
+        "sections": [
+          "discussion"
+        ],
+        "tasks": [
+          "revise"
+        ],
+        "conditions": [
+          "仅用于有材料或明确专业依据的作者判断"
+        ],
+        "exceptions": [
+          "不覆盖当前明确要求或事实与证据边界"
+        ],
+        "source": {
+          "kind": "example",
+          "evidence": "合成原段只有一条实践建议；不能推出稳定句式偏好。",
+          "ownership": "author",
+          "time": "2026-10-20"
+        },
+        "id": "pref-8481800584372373f975",
+        "created_utc": "2026-10-20T08:49:54.932350+00:00",
+        "storage": "project"
+      }
+    ],
+    "skipped": [],
+    "current_requirements": [],
+    "application_order": [
+      "facts_and_evidence",
+      "current_request",
+      "project_and_verified_journal",
+      "task_preference",
+      "project_preference",
+      "author_preference"
+    ],
+    "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+  },
+  "one_time_load": {
+    "active": [
+      {
+        "category": "expression",
+        "content": "这次先给访谈材料，再给作者判断。",
+        "scope": "task",
+        "basis": "explicit",
+        "status": "active",
+        "languages": [
+          "en"
+        ],
+        "research_types": [
+          "qualitative"
+        ],
+        "sections": [
+          "discussion"
+        ],
+        "tasks": [
+          "revise"
+        ],
+        "conditions": [
+          "仅用于有材料或明确专业依据的作者判断"
+        ],
+        "exceptions": [
+          "不覆盖当前明确要求或事实与证据边界"
+        ],
+        "source": {
+          "kind": "explicit",
+          "evidence": "仅这一次先写访谈材料，再写判断；以后仍照旧。",
+          "time": "2026-10-20"
+        },
+        "task_id": "one-time-evidence-first",
+        "id": "pref-769a1508dfdf87f4bec9",
+        "created_utc": "2026-10-20T08:49:54.273461+00:00",
+        "storage": "project"
+      },
+      {
+        "category": "expression",
+        "content": "修改英文定性论文的 Discussion 时保留作者采用且有材料依据的概念标签，如 professional discretion；本项目概念定义不跨项目迁移。",
+        "scope": "author",
+        "basis": "explicit",
+        "status": "active",
+        "languages": [
+          "en"
+        ],
+        "research_types": [
+          "qualitative"
+        ],
+        "sections": [
+          "discussion"
+        ],
+        "tasks": [
+          "revise"
+        ],
+        "conditions": [
+          "仅用于有材料或明确专业依据的作者判断"
+        ],
+        "exceptions": [
+          "不覆盖当前明确要求或事实与证据边界"
+        ],
+        "source": {
+          "kind": "explicit",
+          "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+          "time": "2026-10-20",
+          "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+        },
+        "id": "pref-026c5f9667b45cf61537",
+        "created_utc": "2026-10-20T08:49:04.690407+00:00",
+        "storage": "author"
+      },
+      {
+        "category": "expression",
+        "content": "修改英文定性论文的 Discussion 时，保留有专业依据的 should，不统一改成 could。",
+        "scope": "author",
+        "basis": "explicit",
+        "status": "active",
+        "languages": [
+          "en"
+        ],
+        "research_types": [
+          "qualitative"
+        ],
+        "sections": [
+          "discussion"
+        ],
+        "tasks": [
+          "revise"
+        ],
+        "conditions": [
+          "仅用于有材料或明确专业依据的作者判断"
+        ],
+        "exceptions": [
+          "不覆盖当前明确要求或事实与证据边界"
+        ],
+        "source": {
+          "kind": "explicit",
+          "evidence": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。",
+          "time": "2026-10-20",
+          "cross_project_authorization": "以后修改我英文定性论文的 Discussion 时保留 professional discretion 这样的概念标签，先讲我的判断再给材料；有专业依据的 should 别一律弱化。这个项目存档位置由你在本测试目录内安排。"
+        },
+        "id": "pref-9c3ff3328f62757bcd9b",
+        "created_utc": "2026-10-20T08:49:04.859200+00:00",
+        "storage": "author"
+      }
+    ],
+    "candidates_for_review_only": [],
+    "skipped": [
+      {
+        "id": "pref-1296c75e100aae525a0b",
+        "reason": "本次明确要求材料先行，仅排除相反的作者顺序偏好。",
+        "priority": "current_request"
+      }
+    ],
+    "current_requirements": [
+      "仅这一次先写访谈材料，再写判断；以后仍照旧。"
+    ],
+    "application_order": [
+      "facts_and_evidence",
+      "current_request",
+      "project_and_verified_journal",
+      "task_preference",
+      "project_preference",
+      "author_preference"
+    ],
+    "limits": "Selectors do not judge semantic conflicts. Apply current requirements first; check conditions and exceptions; candidates never authorize rewriting; unchanged prose is valid."
+  }
+}

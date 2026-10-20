@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "original_files_unchanged": true,
+  "stale_positions_before_sync": 16,
+  "stale_positions_after_sync": 0,
+  "intermediate_pending_interpretation": "The interval remained above zero.",
+  "reviewed_interpretation": "The interval includes zero.",
+  "native_deck_consistency": "passed",
+  "visual_review": "pending image inspection"
+}

@@ -1,0 +1,284 @@
+python : test_actual_rejection_records_choice_and_reason (test_author_preferences.Preferences.test_actual_rejection_rec
+ords_choice_and_reason) ... ok
+所在位置 行:4 字符: 1
++ python -X utf8 -m unittest discover -s tests -v 2>&1 | Tee-Object -Fi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_actual_rej..._reason) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_current_request_and_fact_conflicts_override_saved_preference (test_author_preferences.Preferences.test_current_req
+uest_and_fact_conflicts_override_saved_preference) ... ok
+test_explicit_long_term_memory_is_available_in_another_project (test_author_preferences.Preferences.test_explicit_long_
+term_memory_is_available_in_another_project) ... ok
+test_inference_remains_local_candidate (test_author_preferences.Preferences.test_inference_remains_local_candidate) ...
+ ok
+test_language_section_and_research_type_are_filtered (test_author_preferences.Preferences.test_language_section_and_res
+earch_type_are_filtered) ... ok
+test_pause_delete_and_undo_remove_examples_from_all_owned_files (test_author_preferences.Preferences.test_pause_delete_
+and_undo_remove_examples_from_all_owned_files) ... ok
+test_project_facts_and_public_repository_storage_are_rejected (test_author_preferences.Preferences.test_project_facts_a
+nd_public_repository_storage_are_rejected) ... ok
+test_project_opt_out_and_idempotent_add (test_author_preferences.Preferences.test_project_opt_out_and_idempotent_add) .
+.. ok
+test_silence_is_not_acceptance (test_author_preferences.Preferences.test_silence_is_not_acceptance) ... ok
+test_task_requirement_does_not_leak (test_author_preferences.Preferences.test_task_requirement_does_not_leak) ... ok
+test_contracts_present (test_contracts.RedLines.test_contracts_present) ... ok
+test_writing_language_follows_journal (test_contracts.RedLines.test_writing_language_follows_journal) ... ok
+test_codex_interface (test_contracts.Structure.test_codex_interface) ... ok
+test_frontmatter (test_contracts.Structure.test_frontmatter) ... ok
+test_packages_match_folders (test_contracts.Structure.test_packages_match_folders) ... ok
+test_plugin_manifests_match_release (test_contracts.Structure.test_plugin_manifests_match_release) ... ok
+test_readmes_mirror (test_contracts.Structure.test_readmes_mirror) ... ok
+test_relative_links_resolve (test_contracts.Structure.test_relative_links_resolve) ... ok
+test_root_document_links_resolve (test_contracts.Structure.test_root_document_links_resolve) ... ok
+test_scripts_named_in_skills_exist (test_contracts.Structure.test_scripts_named_in_skills_exist) ... ok
+test_pdf_mime_type_does_not_turn_a_landing_page_into_full_text (test_distill_sources.SourceExtractionTests.test_pdf_mim
+e_type_does_not_turn_a_landing_page_into_full_text) ... ok
+test_pdf_signature_alone_is_not_a_valid_article (test_distill_sources.SourceExtractionTests.test_pdf_signature_alone_is
+_not_a_valid_article) ... ok
+test_publisher_pdf_with_leading_newline_retains_text (test_distill_sources.SourceExtractionTests.test_publisher_pdf_wit
+h_leading_newline_retains_text) ... ok
+test_bytecode_cache_from_running_scripts_does_not_block_update (test_install.InstallLifecycle.test_bytecode_cache_from_
+running_scripts_does_not_block_update) ... ok
+test_changed_and_extra_files_preserved (test_install.InstallLifecycle.test_changed_and_extra_files_preserved) ... ok
+test_extra_empty_directory_preserved (test_install.InstallLifecycle.test_extra_empty_directory_preserved) ... ok
+test_foreign_target_preflight_no_partial_install (test_install.InstallLifecycle.test_foreign_target_preflight_no_partia
+l_install) ... ok
+test_host_destinations_include_workbuddy_and_codebuddy (test_install.InstallLifecycle.test_host_destinations_include_wo
+rkbuddy_and_codebuddy) ... ok
+test_idempotency_and_stable_sibling_preserved (test_install.InstallLifecycle.test_idempotency_and_stable_sibling_preser
+ved) ... ok
+test_identical_without_receipt_is_foreign (test_install.InstallLifecycle.test_identical_without_receipt_is_foreign) ...
+ ok
+test_installed_links_and_unchanged_analysis_code (test_install.InstallLifecycle.test_installed_links_and_unchanged_anal
+ysis_code) ... ok
+test_partial_failure_rolls_back_all_packages (test_install.InstallLifecycle.test_partial_failure_rolls_back_all_package
+s) ... ok
+test_real_version_update_and_repeat (test_install.InstallLifecycle.test_real_version_update_and_repeat) ... ok
+test_abstract_can_support_its_claim_but_metadata_cannot (test_journal_search.JournalSearchTest.test_abstract_can_suppor
+t_its_claim_but_metadata_cannot) ... ok
+test_cross_journal_candidates_are_retained_but_not_certified (test_journal_search.JournalSearchTest.test_cross_journal_
+candidates_are_retained_but_not_certified) ... ok
+test_former_admin_unresolved_and_unselected_guest_are_not_editor_queries (test_journal_search.JournalSearchTest.test_fo
+rmer_admin_unresolved_and_unselected_guest_are_not_editor_queries) ... ok
+test_name_hit_alone_is_unresolved_but_relevant_paper_can_be_cited (test_journal_search.JournalSearchTest.test_name_hit_
+alone_is_unresolved_but_relevant_paper_can_be_cited) ... ok
+test_no_editor_citation_quota_and_network_failure_is_not_no_results (test_journal_search.JournalSearchTest.test_no_edit
+or_citation_quota_and_network_failure_is_not_no_results) ... ok
+test_official_page_identifier_conflict_requires_resolution (test_journal_search.JournalSearchTest.test_official_page_id
+entifier_conflict_requires_resolution) ... ok
+test_primary_record_does_not_silently_override_conflicting_deposit (test_journal_search.JournalSearchTest.test_primary_
+record_does_not_silently_override_conflicting_deposit) ... ok
+test_same_name_different_orcid_cannot_be_confirmed (test_journal_search.JournalSearchTest.test_same_name_different_orci
+d_cannot_be_confirmed) ... ok
+test_gbt7714_numbering_superscript_and_three_line_table (test_manuscript_delivery.ChineseJournalLayout.test_gbt7714_num
+bering_superscript_and_three_line_table) ... ok
+test_chinese_source_identities_are_not_empty (test_manuscript_delivery.ManuscriptDelivery.test_chinese_source_identitie
+s_are_not_empty) ... ok
+test_cli_preserves_installed_tree_and_compact_table_layout (test_manuscript_delivery.ManuscriptDelivery.test_cli_preser
+ves_installed_tree_and_compact_table_layout) ... ok
+test_conceptual_and_theme_diagram_status_and_exports (test_manuscript_delivery.ManuscriptDelivery.test_conceptual_and_t
+heme_diagram_status_and_exports) ... ok
+test_display_numbering_and_known_wrong_reference (test_manuscript_delivery.ManuscriptDelivery.test_display_numbering_an
+d_known_wrong_reference) ... ok
+test_doi_less_primary_record_and_changed_evidence (test_manuscript_delivery.ManuscriptDelivery.test_doi_less_primary_re
+cord_and_changed_evidence) ... ok
+test_doi_title_author_and_year_known_errors (test_manuscript_delivery.ManuscriptDelivery.test_doi_title_author_and_year
+_known_errors) ... ok
+test_known_correction_and_full_structure_gates (test_manuscript_delivery.ManuscriptDelivery.test_known_correction_and_f
+ull_structure_gates) ... ok
+test_no_fabricated_trajectory_or_interval (test_manuscript_delivery.ManuscriptDelivery.test_no_fabricated_trajectory_or
+_interval) ... ok
+test_pending_reading_and_semantic_review_rejected (test_manuscript_delivery.ManuscriptDelivery.test_pending_reading_and
+_semantic_review_rejected) ... ok
+test_provided_intervals_export_without_estimation (test_manuscript_delivery.ManuscriptDelivery.test_provided_intervals_
+export_without_estimation) ... ok
+test_real_docx_embedding_editable_table_and_exact_plot_data (test_manuscript_delivery.ManuscriptDelivery.test_real_docx
+_embedding_editable_table_and_exact_plot_data) ... ok
+test_same_author_year_disambiguation (test_manuscript_delivery.ManuscriptDelivery.test_same_author_year_disambiguation)
+ ... ok
+test_theory_structure_does_not_require_fake_methods (test_manuscript_delivery.ManuscriptDelivery.test_theory_structure_
+does_not_require_fake_methods) ... ok
+test_unknown_and_uncited_references_rejected (test_manuscript_delivery.ManuscriptDelivery.test_unknown_and_uncited_refe
+rences_rejected) ... ok
+test_audit_example (test_modules.Analysis.test_audit_example) ... ok
+test_failed_script_is_kept_and_reported (test_modules.Analysis.test_failed_script_is_kept_and_reported) ... ok
+test_known_answers (test_modules.Analysis.test_known_answers) ... FAIL
+test_script_and_adapter_runs_write_to_project (test_modules.Analysis.test_script_and_adapter_runs_write_to_project) ...
+ ok
+test_counts_identity_and_overclaims (test_modules.Proposal.test_counts_identity_and_overclaims) ... ok
+test_synthetic_thematic_cycle (test_modules.Qualitative.test_synthetic_thematic_cycle) ... ok
+test_transcripts_outside_private_are_refused (test_modules.Qualitative.test_transcripts_outside_private_are_refused) ..
+. ok
+test_disclaimers_and_invented_numbers_are_flagged (test_modules.Voice.test_disclaimers_and_invented_numbers_are_flagged
+) ... ok
+test_published_style_passes (test_modules.Voice.test_published_style_passes) ... ok
+test_content_mode_delivers_actual_prose_and_notes (test_ppt.PptTests.test_content_mode_delivers_actual_prose_and_notes)
+ ... ok
+test_content_only_table_is_readable_without_json_or_empty_body (test_ppt.PptTests.test_content_only_table_is_readable_w
+ithout_json_or_empty_body) ... ok
+test_density_and_overwrite_fail_explicitly (test_ppt.PptTests.test_density_and_overwrite_fail_explicitly) ... ok
+test_docx_extraction_retains_paragraph_and_table_locators (test_ppt.PptTests.test_docx_extraction_retains_paragraph_and
+_table_locators) ... ok
+test_invalid_evidence_and_intervals_are_rejected (test_ppt.PptTests.test_invalid_evidence_and_intervals_are_rejected) .
+.. ok
+test_multiline_body_keeps_line_breaks_and_room_for_next_item (test_ppt.PptTests.test_multiline_body_keeps_line_breaks_a
+nd_room_for_next_item) ... ok
+test_native_objects_and_notes_survive_editing (test_ppt.PptTests.test_native_objects_and_notes_survive_editing) ... ok
+test_notes_tampering_detected (test_ppt.PptTests.test_notes_tampering_detected) ... ok
+test_style_rebuild_retains_content_and_input (test_ppt.PptTests.test_style_rebuild_retains_content_and_input) ... ok
+test_template_geometry_preserved_without_sample_pages (test_ppt.PptTests.test_template_geometry_preserved_without_sampl
+e_pages) ... ok
+test_chart_labels_series_order_values_units_and_axes (test_ppt_fidelity.FidelityTests.test_chart_labels_series_order_va
+lues_units_and_axes) ... ok
+test_display_precision_near_zero_and_ratio_reference (test_ppt_fidelity.FidelityTests.test_display_precision_near_zero_
+and_ratio_reference) ... ok
+test_explicit_axis_validation_and_intentional_truncation (test_ppt_fidelity.FidelityTests.test_explicit_axis_validation
+_and_intentional_truncation) ... ok
+test_identity_survives_layout_and_theme_and_defeats_decoy_text (test_ppt_fidelity.FidelityTests.test_identity_survives_
+layout_and_theme_and_defeats_decoy_text) ... ok
+test_individual_label_text_format_and_visibility (test_ppt_fidelity.FidelityTests.test_individual_label_text_format_and
+_visibility) ... ok
+test_interval_rows_keep_text_and_marks_together (test_ppt_fidelity.FidelityTests.test_interval_rows_keep_text_and_marks
+_together) ... ok
+test_legal_label_components_percent_and_point_overrides (test_ppt_fidelity.FidelityTests.test_legal_label_components_pe
+rcent_and_point_overrides) ... ok
+test_nonzero_reference_geometry_and_label_changes (test_ppt_fidelity.FidelityTests.test_nonzero_reference_geometry_and_
+label_changes) ... ok
+test_preview_freshness_is_separate_from_plan_and_source_checks (test_ppt_fidelity.FidelityTests.test_preview_freshness_
+is_separate_from_plan_and_source_checks) ... ok
+test_process_order_connections_and_quote_attribution (test_ppt_fidelity.FidelityTests.test_process_order_connections_an
+d_quote_attribution) ... ok
+test_small_intervals_and_original_numeric_labels (test_ppt_fidelity.FidelityTests.test_small_intervals_and_original_num
+eric_labels) ... ok
+test_source_image_bytes_and_generation_record (test_ppt_fidelity.FidelityTests.test_source_image_bytes_and_generation_r
+ecord) ... ok
+test_table_cells_header_structure_and_removal (test_ppt_fidelity.FidelityTests.test_table_cells_header_structure_and_re
+moval) ... ok
+test_two_series_have_distinct_colors_and_legend (test_ppt_fidelity.FidelityTests.test_two_series_have_distinct_colors_a
+nd_legend) ... ok
+test_unsupported_label_sources_are_reported_unverified (test_ppt_fidelity.FidelityTests.test_unsupported_label_sources_
+are_reported_unverified) ... ok
+test_authority_unclear_and_context_changed_are_not_guessed (test_project_check.ProjectCheck.test_authority_unclear_and_
+context_changed_are_not_guessed) ... ok
+test_authorized_sync_preserves_original_and_refuses_stale_report (test_project_check.ProjectCheck.test_authorized_sync_
+preserves_original_and_refuses_stale_report) ... ok
+test_baseline_new_results_and_no_unauthorized_writes (test_project_check.ProjectCheck.test_baseline_new_results_and_no_
+unauthorized_writes) ... ok
+test_claim_expansion_invalidates_support (test_project_check.ProjectCheck.test_claim_expansion_invalidates_support) ...
+ ok
+test_different_statistics_samples_and_models_remain_separate (test_project_check.ProjectCheck.test_different_statistics
+_samples_and_models_remain_separate) ... ok
+test_first_use_mismatch_also_flags_dependent_interpretation (test_project_check.ProjectCheck.test_first_use_mismatch_al
+so_flags_dependent_interpretation) ... ok
+test_interval_only_change_and_nonzero_reference (test_project_check.ProjectCheck.test_interval_only_change_and_nonzero_
+reference) ... ok
+test_mixed_certain_and_uncertain_same_paragraph_cannot_be_bulk_synced (test_project_check.ProjectCheck.test_mixed_certa
+in_and_uncertain_same_paragraph_cannot_be_bulk_synced) ... ok
+test_percent_conversion_requires_explicit_same_quantity (test_project_check.ProjectCheck.test_percent_conversion_requir
+es_explicit_same_quantity) ... ok
+test_rename_relocate_modified_anchor_and_missing_file (test_project_check.ProjectCheck.test_rename_relocate_modified_an
+chor_and_missing_file) ... ok
+test_rounding_units_and_interval_reference_boundary (test_project_check.ProjectCheck.test_rounding_units_and_interval_r
+eference_boundary) ... ok
+test_unrelated_citation_entry_does_not_invalidate_read_support (test_project_check.ProjectCheck.test_unrelated_citation
+_entry_does_not_invalidate_read_support) ... ok
+test_word_tables_csv_xlsx_pdf_and_parse_failure_are_visible (test_project_check.ProjectCheck.test_word_tables_csv_xlsx_
+pdf_and_parse_failure_are_visible) ... ok
+test_wrong_authorized_replacement_is_rejected_before_writing (test_project_check.ProjectCheck.test_wrong_authorized_rep
+lacement_is_rejected_before_writing) ... ok
+test_empty_plan_passes_and_never_overwrites (test_review_annotations.Annotations.test_empty_plan_passes_and_never_overw
+rites) ... ok
+test_english_native_comment_labels_follow_plan_language (test_review_annotations.Annotations.test_english_native_commen
+t_labels_follow_plan_language) ... ok
+test_overlap_and_unsupported_field_anchor_rejected (test_review_annotations.Annotations.test_overlap_and_unsupported_fi
+eld_anchor_rejected) ... ok
+test_pdf_modified_comment_or_page_content_fails (test_review_annotations.Annotations.test_pdf_modified_comment_or_page_
+content_fails) ... ok
+test_pdf_native_comments_existing_note_and_exact_repeated_number (test_review_annotations.Annotations.test_pdf_native_c
+omments_existing_note_and_exact_repeated_number) ... ok
+test_pdf_rotated_and_multiline_anchors (test_review_annotations.Annotations.test_pdf_rotated_and_multiline_anchors) ...
+ ok
+test_unknown_comment_language_rejected_before_output (test_review_annotations.Annotations.test_unknown_comment_language
+_rejected_before_output) ... ok
+test_word_preserves_text_tables_images_fields_comments_and_revisions (test_review_annotations.Annotations.test_word_pre
+serves_text_tables_images_fields_comments_and_revisions) ... ok
+test_word_tampering_with_text_comment_revision_or_image_fails (test_review_annotations.Annotations.test_word_tampering_
+with_text_comment_revision_or_image_fails) ... ok
+test_word_without_comment_part_and_partial_multirun_anchor (test_review_annotations.Annotations.test_word_without_comme
+nt_part_and_partial_multirun_anchor) ... ok
+test_wrong_anchor_and_changed_source_rejected_without_output (test_review_annotations.Annotations.test_wrong_anchor_and
+_changed_source_rejected_without_output) ... ok
+test_consistent_english_manuscript_passes (test_review_response.Consistency.test_consistent_english_manuscript_passes) 
+... ok
+test_keyword_variants_found_without_term_group (test_review_response.Consistency.test_keyword_variants_found_without_te
+rm_group) ... ok
+test_seeded_chinese_manuscript (test_review_response.Consistency.test_seeded_chinese_manuscript) ... ok
+test_evaluative_wording_is_a_review_cue_not_a_fault (test_review_response.Prose.test_evaluative_wording_is_a_review_cue
+_not_a_fault) ... ok
+test_no_chinese_references (test_review_response.Prose.test_no_chinese_references) ... ok
+test_published_style_passes (test_review_response.Prose.test_published_style_passes) ... ok
+test_weak_discussion_is_flagged (test_review_response.Prose.test_weak_discussion_is_flagged) ... ok
+test_evaluative_wording_is_a_review_cue_not_a_fault (test_review_response.ProseEnglish.test_evaluative_wording_is_a_rev
+iew_cue_not_a_fault) ... ok
+test_narrative_discussion_flagged_only_for_hypothesis_testing (test_review_response.ProseEnglish.test_narrative_discuss
+ion_flagged_only_for_hypothesis_testing) ... ok
+test_published_style_passes (test_review_response.ProseEnglish.test_published_style_passes) ... ok
+test_sections_found_from_topic_headings (test_review_response.ProseEnglish.test_sections_found_from_topic_headings) ...
+ ok
+test_weak_prose_is_flagged (test_review_response.ProseEnglish.test_weak_prose_is_flagged) ... ok
+test_fullwidth_signs_table_mentions_and_numbering (test_review_response.RealManuscriptConventions.test_fullwidth_signs_
+table_mentions_and_numbering) ... ok
+test_voice_check_stops_at_back_matter_in_word (test_review_response.RealManuscriptConventions.test_voice_check_stops_at
+_back_matter_in_word) ... ok
+test_seeded_statements (test_review_response.Reporting.test_seeded_statements) ... ok
+test_placeholders_deleted_quotes_and_procedural_items (test_review_response.Response.test_placeholders_deleted_quotes_a
+nd_procedural_items) ... ok
+test_redline_keeps_tables_in_place_and_whole_numbers (test_review_response.Response.test_redline_keeps_tables_in_place_
+and_whole_numbers) ... ok
+test_reference_list_labels_not_superscript (test_review_response.Response.test_reference_list_labels_not_superscript) .
+.. ok
+test_response_checks_and_redline (test_review_response.Response.test_response_checks_and_redline) ... ok
+test_empty_field_negated_probability_and_multiline_values (test_review_response.Review.test_empty_field_negated_probabi
+lity_and_multiline_values) ... ok
+test_numbered_sections_back_matter_and_evidence_pointing_to_concern (test_review_response.Review.test_numbered_sections
+_back_matter_and_evidence_pointing_to_concern) ... ok
+test_structure_checks (test_review_response.Review.test_structure_checks) ... ok
+test_conceptual_distinction_is_not_a_disclaimer (test_review_response.VoiceCues.test_conceptual_distinction_is_not_a_di
+sclaimer) ... ok
+test_may_partly_is_one_qualifier (test_review_response.VoiceCues.test_may_partly_is_one_qualifier) ... ok
+test_null_turned_into_equivalence_or_exclusive_mechanism_needs_semantic_check (test_review_response.VoiceCues.test_null
+_turned_into_equivalence_or_exclusive_mechanism_needs_semantic_check) ... ok
+test_number_check_states_its_limits (test_review_response.VoiceCues.test_number_check_states_its_limits) ... ok
+test_commit_tables_and_saturation (test_usability_fixes.GroundedCoding.test_commit_tables_and_saturation) ... ok
+test_md_to_docx_three_line_table_and_superscript (test_usability_fixes.WordAndChecks.test_md_to_docx_three_line_table_a
+nd_superscript) ... ok
+test_proposal_official_headings_and_section_limits (test_usability_fixes.WordAndChecks.test_proposal_official_headings_
+and_section_limits) ... ok
+test_rounded_values_count_as_sourced (test_usability_fixes.WordAndChecks.test_rounded_values_count_as_sourced) ... ok
+
+======================================================================
+FAIL: test_known_answers (test_modules.Analysis.test_known_answers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "@REPO@\tests\test_modules.py", line 36, in test_known_answers
+    self.assertEqual(proc.returncode, 0, proc.stdout[-3000:] + proc.stderr[-2000:])
+AssertionError: 1 != 0 : During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Error in file(filename, "r", encoding = encoding) : 
+  cannot open the connection
+Calls: source -> file
+In addition: Warning message:
+In file(filename, "r", encoding = encoding) :
+  cannot open file 'D:/codexi!9g./fh2e-&skill/edu-research-skills-public/skills/edu-analysis/tests/../scripts/edu_m
+ethods.R': Invalid argument
+Execution halted
+
+
+----------------------------------------------------------------------
+Ran 145 tests in 38.372s
+
+FAILED (failures=1)

@@ -1,0 +1,733 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-20T09:05:54.790351+00:00",
+  "spec": {
+    "files": [
+      {
+        "id": "analysis",
+        "path": "@RUN@\\analysis.json",
+        "role": "confirmed_synthetic_results"
+      },
+      {
+        "id": "paper",
+        "path": "@RUN@\\paper-reviewed.docx",
+        "role": "manuscript"
+      },
+      {
+        "id": "plan",
+        "path": "@RUN@\\plan-updated.json",
+        "role": "presentation_plan"
+      },
+      {
+        "id": "ppt",
+        "path": "@RUN@\\after\\slides.pptx",
+        "role": "presentation"
+      }
+    ],
+    "facts": [
+      {
+        "id": "sample",
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "n",
+          "unit": "people",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "not applicable"
+        },
+        "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+        "sources": [
+          {
+            "id": "sample-source",
+            "file": "analysis",
+            "locator": "json:/analysis_n",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "guards": [
+              {
+                "locator": "json:/outcome",
+                "equals": "classroom engagement"
+              },
+              {
+                "locator": "json:/model",
+                "equals": "baseline-adjusted"
+              },
+              {
+                "locator": "json:/unit",
+                "equals": "score"
+              }
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "sample-word",
+            "file": "paper",
+            "locator": "docx:p:2",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "included (?P<value>\\d+) pupils",
+            "reviewed_sha256": "20acc9fb1f33724219aaff694e9cc8a5dca3039fb99da57d3a8a11cd450a1ae2"
+          },
+          {
+            "id": "sample-plan",
+            "file": "plan",
+            "locator": "json:/slides/2/visual/rows/1/1",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "sample-ppt",
+            "file": "ppt",
+            "locator": "ppt:3:SAMPLE/visual/table:cell:2:1",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "3fa47757f87b0bf996f2aa6d472f9b346897346fb26b8d598072261fb89df99d"
+          }
+        ],
+        "authority": {
+          "source": "sample-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        }
+      },
+      {
+        "id": "post",
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention group",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "mean",
+          "unit": "score",
+          "model": "descriptive",
+          "adjustments": "none",
+          "analysis": "primary",
+          "uncertainty": "not supplied"
+        },
+        "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+        "sources": [
+          {
+            "id": "post-source",
+            "file": "analysis",
+            "locator": "json:/intervention_post",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "guards": [
+              {
+                "locator": "json:/outcome",
+                "equals": "classroom engagement"
+              },
+              {
+                "locator": "json:/model",
+                "equals": "baseline-adjusted"
+              },
+              {
+                "locator": "json:/unit",
+                "equals": "score"
+              }
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "post-word",
+            "file": "paper",
+            "locator": "docx:p:9",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "20acc9fb1f33724219aaff694e9cc8a5dca3039fb99da57d3a8a11cd450a1ae2"
+          },
+          {
+            "id": "post-plan",
+            "file": "plan",
+            "locator": "json:/slides/0/visual/series/0/values/1",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "post-ppt",
+            "file": "ppt",
+            "locator": "ppt:1:GROUPS/visual/chart:series:0:value:1",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "3fa47757f87b0bf996f2aa6d472f9b346897346fb26b8d598072261fb89df99d"
+          },
+          {
+            "id": "post-message",
+            "file": "plan",
+            "locator": "json:/slides/0/message",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "intervention (?P<value>\\d+)",
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "post-notes",
+            "file": "plan",
+            "locator": "json:/slides/0/notes",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "intervention (?P<value>\\d+)",
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          }
+        ],
+        "authority": {
+          "source": "post-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        }
+      },
+      {
+        "id": "estimate",
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_estimate",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        },
+        "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+        "sources": [
+          {
+            "id": "estimate-source",
+            "file": "analysis",
+            "locator": "json:/difference/estimate",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "guards": [
+              {
+                "locator": "json:/outcome",
+                "equals": "classroom engagement"
+              },
+              {
+                "locator": "json:/model",
+                "equals": "baseline-adjusted"
+              },
+              {
+                "locator": "json:/unit",
+                "equals": "score"
+              }
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "estimate-word",
+            "file": "paper",
+            "locator": "docx:p:4",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "difference was (?P<value>-?\\d+(?:\\.\\d+)?)",
+            "display_decimals": 3,
+            "reviewed_sha256": "20acc9fb1f33724219aaff694e9cc8a5dca3039fb99da57d3a8a11cd450a1ae2"
+          },
+          {
+            "id": "estimate-plan",
+            "file": "plan",
+            "locator": "json:/slides/1/visual/rows/0/estimate",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "estimate-message",
+            "file": "plan",
+            "locator": "json:/slides/1/message",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "difference: (?P<value>-?\\d+(?:\\.\\d+)?)",
+            "display_decimals": 3,
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "estimate-notes",
+            "file": "plan",
+            "locator": "json:/slides/1/notes",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "difference: (?P<value>-?\\d+(?:\\.\\d+)?)",
+            "display_decimals": 3,
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          }
+        ],
+        "authority": {
+          "source": "estimate-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        }
+      },
+      {
+        "id": "low",
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_low",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        },
+        "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+        "sources": [
+          {
+            "id": "low-source",
+            "file": "analysis",
+            "locator": "json:/difference/low",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "guards": [
+              {
+                "locator": "json:/outcome",
+                "equals": "classroom engagement"
+              },
+              {
+                "locator": "json:/model",
+                "equals": "baseline-adjusted"
+              },
+              {
+                "locator": "json:/unit",
+                "equals": "score"
+              }
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "low-word",
+            "file": "paper",
+            "locator": "docx:p:4",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "\\[(?P<value>-?\\d+(?:\\.\\d+)?),",
+            "display_decimals": 3,
+            "reviewed_sha256": "20acc9fb1f33724219aaff694e9cc8a5dca3039fb99da57d3a8a11cd450a1ae2"
+          },
+          {
+            "id": "low-plan",
+            "file": "plan",
+            "locator": "json:/slides/1/visual/rows/0/low",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "low-message",
+            "file": "plan",
+            "locator": "json:/slides/1/message",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "\\[(?P<value>-?\\d+(?:\\.\\d+)?),",
+            "display_decimals": 3,
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "low-notes",
+            "file": "plan",
+            "locator": "json:/slides/1/notes",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": "\\[(?P<value>-?\\d+(?:\\.\\d+)?),",
+            "display_decimals": 3,
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          }
+        ],
+        "authority": {
+          "source": "low-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        }
+      },
+      {
+        "id": "high",
+        "identity": {
+          "outcome": "classroom engagement",
+          "comparison": "intervention - comparison",
+          "timepoint": "post",
+          "sample": "complete cases",
+          "statistic": "difference_high",
+          "unit": "score",
+          "model": "baseline-adjusted",
+          "adjustments": "pretest",
+          "analysis": "primary",
+          "uncertainty": "95% confidence interval"
+        },
+        "mapping_reason": "Same labeled synthetic result; enrolled N stays a distinct fact.",
+        "sources": [
+          {
+            "id": "high-source",
+            "file": "analysis",
+            "locator": "json:/difference/high",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "guards": [
+              {
+                "locator": "json:/outcome",
+                "equals": "classroom engagement"
+              },
+              {
+                "locator": "json:/model",
+                "equals": "baseline-adjusted"
+              },
+              {
+                "locator": "json:/unit",
+                "equals": "score"
+              }
+            ]
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "high-word",
+            "file": "paper",
+            "locator": "docx:p:4",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": ", (?P<value>-?\\d+(?:\\.\\d+)?)\\]",
+            "display_decimals": 3,
+            "reviewed_sha256": "20acc9fb1f33724219aaff694e9cc8a5dca3039fb99da57d3a8a11cd450a1ae2"
+          },
+          {
+            "id": "high-plan",
+            "file": "plan",
+            "locator": "json:/slides/1/visual/rows/0/high",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "high-message",
+            "file": "plan",
+            "locator": "json:/slides/1/message",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": ", (?P<value>-?\\d+(?:\\.\\d+)?)\\]",
+            "display_decimals": 3,
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          },
+          {
+            "id": "high-notes",
+            "file": "plan",
+            "locator": "json:/slides/1/notes",
+            "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+            "pattern": ", (?P<value>-?\\d+(?:\\.\\d+)?)\\]",
+            "display_decimals": 3,
+            "reviewed_sha256": "1ee90cf279cd552b3a3f178bdaa266d1f2410d6705c7aa35b141e5596b438555"
+          }
+        ],
+        "authority": {
+          "source": "high-source",
+          "kind": "user_confirmed",
+          "reason": "The example request explicitly designates analysis.json."
+        }
+      }
+    ],
+    "decks": [
+      {
+        "ppt": "ppt",
+        "plan": "plan"
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "direction-reading",
+        "depends_on": [
+          "estimate",
+          "low",
+          "high"
+        ],
+        "target": {
+          "id": "direction-word",
+          "file": "paper",
+          "locator": "docx:p:5",
+          "reason": "Read the labeled synthetic outcome, model, sample and timepoint.",
+          "reviewed_sha256": "20acc9fb1f33724219aaff694e9cc8a5dca3039fb99da57d3a8a11cd450a1ae2"
+        },
+        "reason": "Whether the interval excludes zero must be reconsidered.",
+        "decision": {
+          "status": "still_supported",
+          "reader": "Example runner",
+          "reason": "The new lower bound is -0.002 and upper bound 0.014.",
+          "fingerprint": "03ded8547012ca1654138dce271b2b9051f68304bc096f6e169cb5e9b3074027"
+        }
+      }
+    ]
+  },
+  "baseline": {
+    "analysis": {
+      "sha256": "dca718c70c209dc892f453691250bd9cd97c7070821696a855b9ab1ee47be595",
+      "status": "read"
+    },
+    "paper": {
+      "sha256": "f260f8e49527646c9e032ce541542886071fe8af22e47f61343fc01ba3ab21a3",
+      "status": "read"
+    },
+    "plan": {
+      "sha256": "54cdcdf6d0990623cedeb6e853c3b204fc45ac24bc399237dc0305abec875f95",
+      "status": "read"
+    },
+    "ppt": {
+      "sha256": "f29789bca88b69f47040b5ad226b2092bf66d68f48bbeaa43a9b6c3a5266c5e6",
+      "status": "read"
+    }
+  },
+  "bindings": {
+    "sample-source": {
+      "locator": "json:/analysis_n",
+      "text": "390",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "390"
+      },
+      "relocation": "located"
+    },
+    "sample-word": {
+      "locator": "docx:p:2",
+      "text": "The analysis included 390 pupils; 410 were enrolled.",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "390"
+      },
+      "relocation": "located"
+    },
+    "sample-plan": {
+      "locator": "json:/slides/2/visual/rows/1/1",
+      "text": "390",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "390"
+      },
+      "relocation": "located"
+    },
+    "sample-ppt": {
+      "locator": "ppt:3:SAMPLE/visual/table:cell:2:1",
+      "text": "390",
+      "kind": "cell",
+      "status": "read",
+      "values": {
+        "value": "390"
+      },
+      "relocation": "located"
+    },
+    "post-source": {
+      "locator": "json:/intervention_post",
+      "text": "18",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "18"
+      },
+      "relocation": "located"
+    },
+    "post-word": {
+      "locator": "docx:p:9",
+      "text": "18",
+      "kind": "table_paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "18"
+      },
+      "relocation": "located"
+    },
+    "post-plan": {
+      "locator": "json:/slides/0/visual/series/0/values/1",
+      "text": "18",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "18"
+      },
+      "relocation": "located"
+    },
+    "post-ppt": {
+      "locator": "ppt:1:GROUPS/visual/chart:series:0:value:1",
+      "text": "18.0",
+      "kind": "chart_value",
+      "status": "read",
+      "values": {
+        "value": "18.0"
+      },
+      "relocation": "located"
+    },
+    "post-message": {
+      "locator": "json:/slides/0/message",
+      "text": "Post scores: intervention 18, comparison 14.",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "18"
+      },
+      "relocation": "located"
+    },
+    "post-notes": {
+      "locator": "json:/slides/0/notes",
+      "text": "Post scores: intervention 18, comparison 14. These are synthetic validation data, not a real educational finding.",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "18"
+      },
+      "relocation": "located"
+    },
+    "estimate-source": {
+      "locator": "json:/difference/estimate",
+      "text": "0.009",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.009"
+      },
+      "relocation": "located"
+    },
+    "estimate-word": {
+      "locator": "docx:p:4",
+      "text": "The adjusted difference was 0.009 [0.004, 0.014].",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "0.009"
+      },
+      "relocation": "located"
+    },
+    "estimate-plan": {
+      "locator": "json:/slides/1/visual/rows/0/estimate",
+      "text": "0.009",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.009"
+      },
+      "relocation": "located"
+    },
+    "estimate-message": {
+      "locator": "json:/slides/1/message",
+      "text": "Adjusted difference: 0.009 [0.004, 0.014].",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.009"
+      },
+      "relocation": "located"
+    },
+    "estimate-notes": {
+      "locator": "json:/slides/1/notes",
+      "text": "Adjusted difference: 0.009 [0.004, 0.014]. These are synthetic validation data, not a real educational finding.",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.009"
+      },
+      "relocation": "located"
+    },
+    "low-source": {
+      "locator": "json:/difference/low",
+      "text": "0.004",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.004"
+      },
+      "relocation": "located"
+    },
+    "low-word": {
+      "locator": "docx:p:4",
+      "text": "The adjusted difference was 0.009 [0.004, 0.014].",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "0.004"
+      },
+      "relocation": "located"
+    },
+    "low-plan": {
+      "locator": "json:/slides/1/visual/rows/0/low",
+      "text": "0.004",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.004"
+      },
+      "relocation": "located"
+    },
+    "low-message": {
+      "locator": "json:/slides/1/message",
+      "text": "Adjusted difference: 0.009 [0.004, 0.014].",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.004"
+      },
+      "relocation": "located"
+    },
+    "low-notes": {
+      "locator": "json:/slides/1/notes",
+      "text": "Adjusted difference: 0.009 [0.004, 0.014]. These are synthetic validation data, not a real educational finding.",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.004"
+      },
+      "relocation": "located"
+    },
+    "high-source": {
+      "locator": "json:/difference/high",
+      "text": "0.014",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.014"
+      },
+      "relocation": "located"
+    },
+    "high-word": {
+      "locator": "docx:p:4",
+      "text": "The adjusted difference was 0.009 [0.004, 0.014].",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "0.014"
+      },
+      "relocation": "located"
+    },
+    "high-plan": {
+      "locator": "json:/slides/1/visual/rows/0/high",
+      "text": "0.014",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.014"
+      },
+      "relocation": "located"
+    },
+    "high-message": {
+      "locator": "json:/slides/1/message",
+      "text": "Adjusted difference: 0.009 [0.004, 0.014].",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.014"
+      },
+      "relocation": "located"
+    },
+    "high-notes": {
+      "locator": "json:/slides/1/notes",
+      "text": "Adjusted difference: 0.009 [0.004, 0.014]. These are synthetic validation data, not a real educational finding.",
+      "kind": "scalar",
+      "status": "read",
+      "values": {
+        "value": "0.014"
+      },
+      "relocation": "located"
+    },
+    "direction-word": {
+      "locator": "docx:p:5",
+      "text": "The interval remained above zero.",
+      "kind": "paragraph",
+      "editable": true,
+      "status": "read",
+      "values": {
+        "value": "The interval remained above zero."
+      },
+      "relocation": "located"
+    }
+  },
+  "citation_fingerprints": {}
+}

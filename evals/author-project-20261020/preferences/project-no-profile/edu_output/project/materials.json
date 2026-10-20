@@ -1,0 +1,17 @@
+{
+  "synthetic": true,
+  "language": "en",
+  "research_type": "qualitative",
+  "sample": {
+    "count": 24,
+    "population": "rural teachers",
+    "method": "interviews"
+  },
+  "project_concept": {
+    "label": "professional discretion",
+    "definition": "教师在统一课程框架内根据学生需要判断教学顺序"
+  },
+  "findings": "制度约束与教师实践判断并存",
+  "untested": "未检验学习效果",
+  "original": "Professional discretion is not an escape from curriculum responsibility. Teachers described adapting the sequence of classroom tasks to pupils’ immediate needs while retaining shared curricular aims. Administrators should protect time for these situated judgments. The interviews illuminate how this responsibility was negotiated; they do not establish gains in attainment."
+}
