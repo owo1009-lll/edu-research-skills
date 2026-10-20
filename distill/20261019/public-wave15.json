@@ -1,0 +1,21 @@
+{
+  "purpose": "English mixed-methods development source examining how descriptive survey patterns are elaborated through student accounts. Design and integration require full-text verification; acquisition is not completed analysis. Not a final holdout.",
+  "sources": [
+    {
+      "id": "M-N24",
+      "doi": "10.1007/s13384-017-0250-y",
+      "candidate_group": "mixed_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "title": "What do students believe about effective classroom management? A mixed-methods investigation in Western Australian high schools",
+      "selection_question": "How do students' accounts distinguish shared responsibility from permissiveness and elaborate survey descriptions of effective teachers? Inspect the actual connection between strands, subgroup exceptions, and the authors' practical position without treating descriptive similarity as demonstrated equivalence.",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007/s13384-017-0250-y.pdf",
+        "https://link.springer.com/article/10.1007/s13384-017-0250-y"
+      ],
+      "publisher_record": "https://link.springer.com/article/10.1007/s13384-017-0250-y",
+      "version_note": "Helen Egeberg and Andrew McConney; online 2017, The Australian Educational Researcher 45, 195-216 (2018). Publisher identifies CC BY 4.0 and a January 2019 correction associated with retrospective open access; inspect the correction and downloaded version. Located through a reference in L-N19, so development-exposed.",
+      "reading_status": "not_yet_read"
+    }
+  ]
+}

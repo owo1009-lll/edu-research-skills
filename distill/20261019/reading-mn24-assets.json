@@ -1,0 +1,195 @@
+{
+  "source_id": "M-N24",
+  "doi": "10.1007/s13384-017-0250-y",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s13384-017-0250-y.pdf",
+  "publisher_url": "https://link.springer.com/article/10.1007/s13384-017-0250-y",
+  "source_pdf_sha256": "5f86332f4451ea42e7ee0b99b49416f51d0abbb2da70445092ed5e4ea1a85712",
+  "reading_sha256": "ae3449c9d7bd4e20bdc748fccebbedd6a06555fe06ac2f9b76aca17568fbd431",
+  "reading_scope": "All 22 PDF pages, B001-B022: complete main article, Tables 1-4, Figures 1-3 and captions, references, licence and author biographies.",
+  "tables_checked": [
+    {
+      "table": 1,
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        201
+      ],
+      "scope": "All subgroup counts and column relationships, including 194 higher-SEA private-school males and 201 private-school males overall."
+    },
+    {
+      "table": 2,
+      "pdf_pages": [
+        10,
+        11,
+        12
+      ],
+      "printed_pages": [
+        204,
+        205,
+        206
+      ],
+      "scope": "All 35 items, five response columns, effective-teacher instruction and continuations; negative wording distinguished from positive items."
+    },
+    {
+      "table": 3,
+      "pdf_pages": [
+        14
+      ],
+      "printed_pages": [
+        208
+      ],
+      "scope": "All theme/subtheme counts and percentages; overlapping coded responses are not mutually exclusive student proportions."
+    },
+    {
+      "table": 4,
+      "pdf_pages": [
+        15
+      ],
+      "printed_pages": [
+        209
+      ],
+      "scope": "All theme/subtheme coding-reference counts and percentages; not an individual matching table or joint display."
+    }
+  ],
+  "figures_actually_viewed": [
+    {
+      "figure": 1,
+      "pdf_page": 12,
+      "printed_page": 206,
+      "scope": "Actual chart, labels, series legend, axis and caption inspected in the rendered PDF. Rounded plotted comparisons do not supply raw response records."
+    },
+    {
+      "figure": 2,
+      "pdf_page": 13,
+      "printed_page": 207,
+      "scope": "Actual chart, labels, series legend, axis and caption inspected in the rendered PDF. Rounded plotted comparisons do not supply raw response records."
+    },
+    {
+      "figure": 3,
+      "pdf_page": 13,
+      "printed_page": 207,
+      "scope": "Actual chart, labels, series legend, axis and caption inspected in the rendered PDF. Rounded plotted comparisons do not supply raw response records."
+    }
+  ],
+  "page_renders_actually_viewed": [
+    {
+      "pdf_page": 1,
+      "printed_page": 195,
+      "file": "page-01.png",
+      "sha256": "31be2e433effcf6ad270be9d74c2e970ba2ff11d87d00c8b9f6e8b2ffa8f56d3",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 201,
+      "file": "page-07.png",
+      "sha256": "1b681861d8f87487277c7256d175578964b8d45edb1d17a30148cc0d255ed3c8",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 204,
+      "file": "page-10.png",
+      "sha256": "e98d9d0f4435068f14e7043a2e3809361e83278a6c4c29f7a7943a434d18680a",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 205,
+      "file": "page-11.png",
+      "sha256": "c5e0a75add4292104e99d92d1c7355054efdffcd8e50910be154837978706f9a",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 206,
+      "file": "page-12.png",
+      "sha256": "12e62c7d7e2a582082b78d526504f4b06e95510b5c34f7d4360980619cf68572",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 207,
+      "file": "page-13.png",
+      "sha256": "34624f6248d539e2757b3a78ee0142ccdec8475ef32b5a6f69a86f98f78bd17b",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 208,
+      "file": "page-14.png",
+      "sha256": "fcbf7dab5754ef9d39db268b4d9a1bf9984798750f5dbc0fddfc6277e052f26d",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 209,
+      "file": "page-15.png",
+      "sha256": "6721677c4c5a8de1b6a7067b40f154342a9b6f74215e93d9013dc3afd9c11386",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 210,
+      "file": "page-16.png",
+      "sha256": "23b4fbc06ab89080af9848405b77a7bb64bf6dea22cb76ddbb001df828b5d246",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 211,
+      "file": "page-17.png",
+      "sha256": "4593993ab25a47f1a6ba14d4f304877bcd9425de38efb4c1e8c8b7b954dfd243",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 213,
+      "file": "page-19.png",
+      "sha256": "d827147112c5c358473148585339df3f44bf2bbdf299ce110528a97f2bcf8675",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 214,
+      "file": "page-20.png",
+      "sha256": "988b80a83b96377b2a3222a62d07f7516ebd14728de3e29d02aebf795de82540",
+      "scale": 1.5,
+      "actually_viewed": true
+    }
+  ],
+  "extraction_qualifications": [
+    "PDF stream order on pages 12-15 moves tables/figures relative to the prose. The actual table continuations and figure placements were checked visually; acquisition text and hashes remain unchanged.",
+    "Rendered page 12 shows Table 2 continuation, Figure 1, then continued prose. Page 13 places Figure 2 above prose and Figure 3 below. Pages 14 and 15 place Tables 3 and 4 above continued prose."
+  ],
+  "reporting_qualifications": [
+    "The prose shorthand 54% private-school males corresponds approximately to the higher-SEA private-school male subgroup (194/360), not all private-school males (201/360). Figure 1 legend uses the more specific subgroup; preserve this ambiguity.",
+    "Figure captions specify differences greater than 10%, while some reported rounded comparisons differ by 10 percentage points. Raw selection values are unavailable.",
+    "Descriptive similarity is not inferential equivalence and does not demonstrate that unequal subgroup composition is harmless.",
+    "Focus-group elaboration is linked to survey participation and a common framework, but no complete item-by-item or individual-level integration is reported."
+  ],
+  "correction_record": {
+    "url": "https://link.springer.com/article/10.1007/s13384-018-00298-9",
+    "scope": "Publisher correction metadata page inspected; full notice not available in the retrieved page. Main-article publisher record states revision due to retrospective Open Access; PDF identifies corrected publication 2019. Not counted as another study."
+  },
+  "not_read": [
+    "Raw responses, recordings and transcripts",
+    "Complete interview guide beyond questions reproduced in the article",
+    "Cited originals and policy documents",
+    "Full separate correction notice"
+  ],
+  "rights": "CC BY 4.0 stated on printed page 214. Full source PDF and page images remain outside the public repository; note and same-fact examples are original.",
+  "reproduction": "Download the registered publisher PDF, verify identity and source hash, read all 22 pages and inspect the specified tables, figures and pages. Printed page is PDF page plus 194. Acquisition records are acquisition-time states; reading-coverage.json records completed reading. This is source analysis, not a behavioral skill comparison."
+}

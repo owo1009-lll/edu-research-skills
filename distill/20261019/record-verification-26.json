@@ -1,0 +1,55 @@
+{
+  "checked_utc": "2026-10-20T04:43:27.230371+00:00",
+  "comparison_commit": "4261debe237457f673b80ec2a1e33d5257121a58",
+  "status": "passed",
+  "english_new_candidates": 67,
+  "english_acquired_or_completely_web_read_fulltexts": 49,
+  "english_new_empirical_or_boundary_analyses": 45,
+  "confirmed_empirical_groups": {
+    "quantitative": 14,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 15,
+    "mixed": 15
+  },
+  "english_methodological_application_analyses": 2,
+  "english_screening_counterexamples_separate": 1,
+  "english_rereads_separate": 2,
+  "unchanged_previous_reading_records": 72,
+  "historical_chinese_records_unchanged": 4,
+  "new_candidates": [
+    "M-N24"
+  ],
+  "new_acquisitions": [
+    "M-N24"
+  ],
+  "new_full_article_analyses": [
+    "M-N24"
+  ],
+  "complete_PDF_pages_read": 22,
+  "page_renders_actually_viewed_and_hashes_verified": [
+    1,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20
+  ],
+  "tables_checked": 4,
+  "figures_actually_viewed": 3,
+  "source_reading_and_metadata_hashes_verified": 3,
+  "analysis_note_reading_hash_references_verified": 50,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 102,
+  "authored_relative_markdown_links_checked": 445,
+  "changed_files_local_path_check": "passed",
+  "note": "Verifies source-record consistency, identity, hashes, links and unchanged runtime. Interpretation and writing quality require substantive review; this is not an automated quality score. No new Chinese work or final holdout evaluation. Inspect remote CI separately after pushing."
+}

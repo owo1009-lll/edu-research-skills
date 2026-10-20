@@ -1112,6 +1112,23 @@
       "not_read": "Raw/complete participant data, full artwork collection, platform exchanges, original Dhivehi records/translations, lesson plans and cited originals/policies. Article states research data are not publicly available.",
       "confirmed_group": "qualitative",
       "classification_note": "Qualitative teacher-research/ethnographically influenced project in seven schools. Approximate project participation count is not an interview sample or quantitative outcome strand."
+    },
+    {
+      "id": "M-N24",
+      "doi": "10.1007/s13384-017-0250-y",
+      "candidate_group": "mixed_pending_fulltext_confirmation",
+      "exposure": "new_development",
+      "language": "en",
+      "scope_status": "in_scope_english",
+      "acquisition_status": "downloaded_for_reading",
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/M-N24.md",
+      "use_status": "selected_descriptive_to_concept_elaboration_writing_moves; incomplete_subgroup_explanations_and_reporting_ambiguities_retained; no runtime adoption",
+      "read_scope": "All 22 PDF pages, B001-B022: complete main article, Tables 1-4, Figures 1-3 and captions, references, licence and author biographies. Twelve actual page-image inspections: PDF pp. 1,7,10-17,19,20; table and figure placement checked.",
+      "reading_sha256": "ae3449c9d7bd4e20bdc748fccebbedd6a06555fe06ac2f9b76aca17568fbd431",
+      "not_read": "Raw responses, recordings and transcripts; Complete interview guide beyond questions reproduced in the article; Cited originals and policy documents; Full separate correction notice",
+      "confirmed_group": "mixed",
+      "classification_note": "Sequential explanatory descriptive survey and six linked focus groups, with a shared conceptual framework and thematic elaboration in discussion. Not a complete matched-item or participant-level explanation of subgroup contrasts."
     }
   ],
   "current_scope": {
