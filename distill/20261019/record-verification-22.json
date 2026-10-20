@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-20T03:26:30.929769+00:00",
+  "comparison_commit": "347ec28151c96311fb177c8c05d39230463e5fdb",
+  "status": "passed",
+  "english_new_candidates": 60,
+  "english_acquired_or_completely_web_read_fulltexts": 45,
+  "english_new_empirical_or_boundary_analyses": 41,
+  "confirmed_empirical_groups": {
+    "quantitative": 14,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 12,
+    "mixed": 14
+  },
+  "english_methodological_application_analyses": 2,
+  "english_screening_counterexamples_separate": 1,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "Q-N17"
+  ],
+  "unchanged_previous_reading_records": 65,
+  "historical_chinese_records_unchanged": 4,
+  "new_acquisitions": 0,
+  "new_full_main_article_analyses": [
+    "Q-N17"
+  ],
+  "complete_main_HTML_blocks_read": 240,
+  "structured_result_tables_checked": 4,
+  "original_figure_image_hashes_verified": 6,
+  "source_and_reading_hashes_verified": 2,
+  "rejected_non_PDF_responses": 2,
+  "supplement_read": false,
+  "analysis_note_reading_hash_references_verified": 46,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 90,
+  "authored_relative_markdown_links_checked": 387,
+  "changed_files_local_path_check": "passed",
+  "note": "Verifies English main-article reading records, scoped provenance and unchanged runtime. No new Chinese source work or writing task. Does not validate the source analyses, establish writing-quality improvement, or complete corpus breadth and final evaluation."
+}

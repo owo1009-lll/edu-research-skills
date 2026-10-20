@@ -1,0 +1,133 @@
+{
+  "source_id": "Q-N17",
+  "doi": "10.1073/pnas.2019030118",
+  "public_fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8271720/",
+  "reading_completed_utc": "2026-10-20T03:23:52.168235+00:00",
+  "source_sha256": "a7ec1b9556ab1a0106f0bb423729bc5da2b33688f442ec0573ade4e40088f9fa",
+  "reading_sha256": "597035d888a40623f1781619280bb0879f6836d13c55ed0501bfb661fdce0ad1",
+  "text_blocks_read": "B001-B240, including equations, four result tables, six captions, 89 reference entries and declarations",
+  "table_inspection": "Structured original HTML rows and cells; no PDF-page rendering claimed",
+  "tables": [
+    {
+      "id": "t01",
+      "rows": 22,
+      "html_sha256": "91e3ab1f5e4096a9a675049728361934e75a8bd99e1aec1e1c175890b4a64281"
+    },
+    {
+      "id": "t02",
+      "rows": 22,
+      "html_sha256": "e5946a6146e0d70cd8e9e090bdf24784524866e50bc0f7786036adf2ed67f43c"
+    },
+    {
+      "id": "t03",
+      "rows": 13,
+      "html_sha256": "f81cc3677cccb351f7069008d96233acff3b78b58e58635492526519fe7e46bd"
+    },
+    {
+      "id": "t04",
+      "rows": 6,
+      "html_sha256": "302ed9f73ef12b898cc648984316bdd259503c753c1f8b1bc20c9ecb730d3010"
+    }
+  ],
+  "original_figure_images": [
+    {
+      "file": "fig01.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/ea250655fe5f/pnas.2019030118fig01.jpg",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/ea250655fe5f/pnas.2019030118fig01.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 56663,
+      "validated_format": true,
+      "sha256": "fad81e9728610308e30ea7e35104132cdf10235f0263b357d4582bd26adf30d4",
+      "actually_viewed": true
+    },
+    {
+      "file": "fig02.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/5290717892ed/pnas.2019030118fig02.jpg",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/5290717892ed/pnas.2019030118fig02.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 60494,
+      "validated_format": true,
+      "sha256": "2a2305df832d5a849b20ecddd5f27b536cbc49cb87dad87f7838678dd4b453ef",
+      "actually_viewed": true
+    },
+    {
+      "file": "fig03.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/05256b138e3b/pnas.2019030118fig03.jpg",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/05256b138e3b/pnas.2019030118fig03.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 68838,
+      "validated_format": true,
+      "sha256": "1732d95032db35d300d44090cb482bf46717c06d1d7fd07d4d21758978746fcf",
+      "actually_viewed": true
+    },
+    {
+      "file": "fig04.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/c2897735db45/pnas.2019030118fig04.jpg",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/c2897735db45/pnas.2019030118fig04.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 67385,
+      "validated_format": true,
+      "sha256": "41067ce83523a1699ab8ac2b14946ff3b7489e20db94e0a5e375f92e70f56b64",
+      "actually_viewed": true
+    },
+    {
+      "file": "fig05.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/409f45adf849/pnas.2019030118fig05.jpg",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/409f45adf849/pnas.2019030118fig05.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 50167,
+      "validated_format": true,
+      "sha256": "d586d71bc5d98810d2399b5f429f2a1bd1c31d1e9654503784b6395692196fbb",
+      "actually_viewed": true
+    },
+    {
+      "file": "fig06.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/ac53adafb3b4/pnas.2019030118fig06.jpg",
+      "final_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5874/8271720/ac53adafb3b4/pnas.2019030118fig06.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 56771,
+      "validated_format": true,
+      "sha256": "3a7eba51cd3e636901976aea48a4a95d3f0cc73240e29389bb6649038f38ade7",
+      "actually_viewed": true
+    }
+  ],
+  "pdf_access_attempts": [
+    {
+      "file": "supplement.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8271720/bin/pnas.2019030118.sapp.pdf",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8271720/bin/pnas.2019030118.sapp.pdf",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 21400,
+      "validated_format": false,
+      "sha256": "224f3617573357deb02205de2dbc1b6e3958ad742954c13367be6139e6072b7c",
+      "reading_status": "not_read; response failed PDF magic validation"
+    },
+    {
+      "file": "article.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8271720/pdf/pnas.202019030.pdf",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8271720/pdf/pnas.202019030.pdf",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 21371,
+      "validated_format": false,
+      "sha256": "0f46d0b96860384009bf6d8168b21a3858c50e0057b2f6ddbd0ec4bd91054de1",
+      "reading_status": "not_read; response failed PDF magic validation"
+    }
+  ],
+  "not_read": [
+    "Main PDF layout",
+    "Supplement",
+    "Interview records",
+    "Participant data",
+    "Analysis code",
+    "Cited original studies"
+  ],
+  "source_license": "Published under the PNAS license; original text and images remain outside the repository"
+}

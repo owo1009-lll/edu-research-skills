@@ -949,11 +949,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_or_opening_screened_only",
-      "analysis": null,
-      "use_status": "pending_full_reading_and_classification",
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/Q-N17.md",
+      "use_status": "outcome_comparison_implementation_explanation_and_author_voice_examples; source_conflicts_retained; no runtime adoption",
       "reading_sha256": "597035d888a40623f1781619280bb0879f6836d13c55ed0501bfb661fdce0ad1",
-      "read_scope": "PMC title/authors and search excerpts only; 240 extracted blocks acquired but not fully read."
+      "read_scope": "B001-B240: complete main HTML, four result tables also inspected as structured cells, all equations, six captions, 89 reference entries and declarations. All six original figure images actually viewed. Main and supplement PDF requests returned non-PDF HTML.",
+      "confirmed_group": "quantitative",
+      "not_read": "Supplement, interview records, participant data, analysis code and cited originals; no model reanalysis or main-PDF layout inspection.",
+      "classification_note": "Regression-discontinuity study with between-school and within-school implementation comparisons. Architect interviews provide contextual interpretation; insufficient documented qualitative procedure for a separate mixed-methods exemplar. Earlier policy reports concern overlapping cohorts."
     },
     {
       "id": "Q-N18",
