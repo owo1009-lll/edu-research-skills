@@ -994,11 +994,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_or_opening_screened_only",
-      "analysis": null,
-      "use_status": "pending_full_reading_and_classification",
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/M-N22.md",
+      "use_status": "screening_counterexample_separate_from_empirical_exemplars; local_programme_description_example; no runtime adoption",
       "reading_sha256": "ac53749998aea9e7a834844fbf142f90d2da0b3aa82db26c020eaa7936e57ea1",
-      "read_scope": "Title, authors and opening abstract excerpt only; 11-page PDF acquired, not fully read."
+      "read_scope": "B001-B011; all 11 PDF pages including Tables 1-4, Figure 1, declarations and references. Actual images inspected: pages 1,3-9.",
+      "confirmed_group": "mixed_integration_screening_counterexample",
+      "not_read": "Complete reflective journals, participant data, analysis code and cited originals; no statistical reanalysis.",
+      "classification_note": "Authors describe explanatory sequential mixed methods. Construct-level mapping is present, but qualitative inquiry is gated by significance and the displayed links do not substantively explain the score pattern. Retained separately as a screening counterexample, not added to mixed empirical-exemplar coverage."
     },
     {
       "id": "M-N23",
@@ -1008,11 +1011,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_or_opening_screened_only",
-      "analysis": null,
-      "use_status": "pending_full_reading_and_classification",
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/M-N23.md",
+      "use_status": "selected_narrative_integration_and_conceptual_reclassification_examples; reporting_and_inference_limits_retained; no runtime adoption",
       "reading_sha256": "7feaa02de6dbb32f00103570d963a2946e93025bb72385a260331dc5b2f996a1",
-      "read_scope": "Publisher cover page identity only; 25-page PDF acquired, body not fully read."
+      "read_scope": "B001-B025; all 25 PDF pages (publisher cover and printed pp.173-196), Tables 1-6, Figures 1-6, declarations and references. Actual images inspected: PDF pages 2,5,8,10-19,21.",
+      "confirmed_group": "mixed",
+      "not_read": "Full video, complete workshop artifacts, transcripts, raw questionnaires and cited originals; no statistical reanalysis. Figure 3 handwriting was not exhaustively transcribed.",
+      "classification_note": "Participatory action research case with mixed-method process evaluation. Narrative integration at participant-group and construct level; no demonstrated individual-level matching of score change with qualitative accounts. School-community inquiry and implementation products answer a distinct question from participant development."
     }
   ],
   "current_scope": {

@@ -1,0 +1,206 @@
+{
+  "checked_utc": "2026-10-20T02:21:26.353689+00:00",
+  "renderer": "PyMuPDF 1.27.2.2",
+  "scale": 1.6,
+  "sources": [
+    {
+      "id": "M-N22",
+      "doi": "10.3389/fpsyg.2025.1568476",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1568476/pdf",
+      "publisher_record": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1568476/full",
+      "source_sha256": "30bfa4718614f80f4709c3eef1b7c81cd11452556429e27961a2c6f0328e40fa",
+      "reading_sha256": "ac53749998aea9e7a834844fbf142f90d2da0b3aa82db26c020eaa7936e57ea1",
+      "pdf_pages": 11,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "actual_page_images_inspected": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "images": [
+        {
+          "page": 1,
+          "file": "page-01.png",
+          "sha256": "6635a9ad099def35e30a04a016a144f0d28d38778ffe3041b5e112a75a68ce7d"
+        },
+        {
+          "page": 3,
+          "file": "page-03.png",
+          "sha256": "a56a0771118086cd34a4cb54b7d7865396c7cd1887d398cfe522ad89f1f54534"
+        },
+        {
+          "page": 4,
+          "file": "page-04.png",
+          "sha256": "f36f606b67c94b5105fbcd55393c794ec17c1aebb3c977feb34f7e19f4b0cfd8"
+        },
+        {
+          "page": 5,
+          "file": "page-05.png",
+          "sha256": "acda6dce4b4143e702fd46c19da67275e630e9e3948a38258ee8f95c0e93c608"
+        },
+        {
+          "page": 6,
+          "file": "page-06.png",
+          "sha256": "4746ad218699b46836b6358ce28e19bd240ac0ca23f295d751e4790c0ecc51aa"
+        },
+        {
+          "page": 7,
+          "file": "page-07.png",
+          "sha256": "01744a50ef28829981ae64752a50c181a0e026fc15d69fda37ed9a9674fea0f2"
+        },
+        {
+          "page": 8,
+          "file": "page-08.png",
+          "sha256": "d6ab3d7f1502b34811b19493d2751e095d3c6620e1a7061112cf6c9f7dc933bc"
+        },
+        {
+          "page": 9,
+          "file": "page-09.png",
+          "sha256": "82a34775c357b5726da9f376cd91d0bff8a03023b8f7f695dafa816262bd1117"
+        }
+      ]
+    },
+    {
+      "id": "M-N23",
+      "doi": "10.1080/09650792.2018.1436079",
+      "source_url": "https://www.peggykern.org/uploads/5/6/6/7/56678211/halliday_2019_-_the_student_voice_in_well_being_case_study_of_participatory_action_research_in_positive_education.pdf",
+      "publisher_record": "https://www.tandfonline.com/doi/full/10.1080/09650792.2018.1436079",
+      "source_sha256": "02179aa49171d4a76204d603cc26d020641847f2248086f676cb0bc60e51761f",
+      "reading_sha256": "7feaa02de6dbb32f00103570d963a2946e93025bb72385a260331dc5b2f996a1",
+      "pdf_pages": 25,
+      "text_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "actual_page_images_inspected": [
+        2,
+        5,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21
+      ],
+      "images": [
+        {
+          "page": 2,
+          "file": "page-02.png",
+          "sha256": "bf172093ff727e2af73645ec013fa844e7062cb4b7fc08aa558c0f3def28a37e"
+        },
+        {
+          "page": 5,
+          "file": "page-05.png",
+          "sha256": "e77e5b66a346461c8a99b1112872bf5f865bd41da3f215fab447a9797d9b5e0f"
+        },
+        {
+          "page": 8,
+          "file": "page-08.png",
+          "sha256": "6a9de1923a6ba3668eff26af8fa794c7eb8f7a70f9989d15ec5b5f001590a8b3"
+        },
+        {
+          "page": 10,
+          "file": "page-10.png",
+          "sha256": "cb791bc077f3286e440c73816332e0c8af58115b22d1b2f0987033bf5d61faf0"
+        },
+        {
+          "page": 11,
+          "file": "page-11.png",
+          "sha256": "b5f997f1db375e2bdb5326dd533f4d429632dcd27de11bbb93c61b9eb0e9dab9"
+        },
+        {
+          "page": 12,
+          "file": "page-12.png",
+          "sha256": "5eb685473f231346d9962fe1c3e59f3d836f2cf57ab3f0fbf8c34413ed4baeea"
+        },
+        {
+          "page": 13,
+          "file": "page-13.png",
+          "sha256": "b7eb5a89ae78b7f9783dcd4623f2f8c101060b901fe67c5c3e5d9078de2cd429"
+        },
+        {
+          "page": 14,
+          "file": "page-14.png",
+          "sha256": "128e423c53d86b3ed2f9e088455a005c7601a1272ec90da51d5e97100dc8016b"
+        },
+        {
+          "page": 15,
+          "file": "page-15.png",
+          "sha256": "fe46daf164dfb980662b9a1c0c064fcbff6e0daf5b9b1537b2205d8015023f20"
+        },
+        {
+          "page": 16,
+          "file": "page-16.png",
+          "sha256": "eed917bf749e9bb74d6bc9beffdd4aaac38dde0fc9d0c03d2ce3e19b8cd13251"
+        },
+        {
+          "page": 17,
+          "file": "page-17.png",
+          "sha256": "69c2e3b5c27ba23d7ce0833b537073bece23265c73430968324e91223c55ab92"
+        },
+        {
+          "page": 18,
+          "file": "page-18.png",
+          "sha256": "14d16ccdaba4fde293c7f1b48325f9c688e67468136ce246db3533f3c03fd5b3"
+        },
+        {
+          "page": 19,
+          "file": "page-19.png",
+          "sha256": "b67bdceddbca461cc422aadea51142116392d8249f6e779c7eafe185e24c1f38"
+        },
+        {
+          "page": 21,
+          "file": "page-21.png",
+          "sha256": "3c4bee0cf000b12852b82de911961f3e1644c400926f71da9e620ad907503973"
+        }
+      ]
+    }
+  ],
+  "note": "Text-reading and actual page-image inspection are separate. Complete public-source PDFs and images remain outside this repository. Original acquisition-time screening statuses remain historical."
+}

@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-10-20T02:43:32.300256+00:00",
+  "comparison_commit": "a4c78dad8a350b92340515986e24da2a9ae401e3",
+  "status": "passed",
+  "english_new_candidates": 60,
+  "english_acquired_or_completely_web_read_fulltexts": 45,
+  "english_new_empirical_or_boundary_analyses": 40,
+  "confirmed_empirical_groups": {
+    "quantitative": 13,
+    "qualitative": 12,
+    "mixed": 14,
+    "mixed_data_transformation_boundary_case": 1
+  },
+  "english_methodological_application_analyses": 2,
+  "english_screening_counterexamples_separate": 1,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "M-N22",
+    "M-N23"
+  ],
+  "unchanged_previous_reading_records": 64,
+  "historical_chinese_records_unchanged": 4,
+  "new_acquisitions": 0,
+  "new_full_analyses": [
+    "M-N22",
+    "M-N23"
+  ],
+  "new_mixed_empirical_case": "M-N23",
+  "screening_counterexample_excluded_from_empirical_count": "M-N22",
+  "complete_PDF_text_pages_read": 36,
+  "actual_page_image_hashes_verified": 22,
+  "source_and_reading_hashes_verified": 4,
+  "analysis_note_reading_hash_references_verified": 45,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 88,
+  "authored_relative_markdown_links_checked": 376,
+  "changed_files_local_path_check": "passed",
+  "note": "Verifies English reading records, scoped selection and unchanged runtime. Does not validate the papers statistical analyses, establish writing-quality improvement, or complete the corpus and final-evaluation objectives."
+}

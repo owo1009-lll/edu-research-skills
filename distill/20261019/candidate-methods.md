@@ -2,7 +2,7 @@
 
 状态：开发候选，尚未加载到正式 skill。Q-C01、L-C01、M-C01 均已完成各一项英文研究上的新写／压缩对照，具体结果及限度见各节；三项候选均未进入运行规则。下列旧样稿提供具体编辑问题及基线已有能力的线索，不代表这些问题在当前版本普遍存在。它们来自上一轮 p/q/r 的相应快照；本轮基线仍是 `684f5e435b76daf8d0109c9c6a93297542c59889`，不能互相替换。
 
-本轮目前完成 39 篇新增英文实证／边界案例分析、两篇方法应用分析及两篇英文复读，远未完成语料规模和覆盖。这里先做类型内部的局部比较，不据此宣布跨类型共性或最终选择。每项都可能因当前基线已能完成、加载收益不足或带来退步而不进入运行规则。
+本轮目前完成 40 篇新增英文实证／边界案例分析，另有两篇方法应用分析、一篇筛选反例及两篇英文复读，远未完成语料规模和覆盖。这里先做类型内部的局部比较，不据此宣布跨类型共性或最终选择。每项都可能因当前基线已能完成、加载收益不足或带来退步而不进入运行规则。
 
 ## Q-C01：解释一个指标或比较为什么承担当前判断
 
@@ -150,6 +150,10 @@ Both notes contain original English same-fact edits. They remain development ill
 [M-N20](papers/M-N20.md), B064, B077 and B083, adds an English Head Start case to the mixed-methods comparison. The useful move is to distinguish willingness to collaborate from access to relevant expertise, then identify who could supply the missing support. B064 gives each sentence a concrete addition—coordination, protected time and suitable space—while B077 contains procedural repetition that can be compressed. Its broad survey item does not verify the interviewees' proposed explanation; the positive rewrite retains that difference. Together with M-N21's distinction between resource availability and desirability, this supports interpretation at the level of the actual question. Compared with M-N07's observation-led cases, the link here is only at the topic level. This remains a scoped development example under existing mixed-research guidance, not a new universal sequence or a demonstrated runtime improvement.
 
 [M-N12](papers/M-N12.md) adds a methodological application to the English mixed-research comparison. Its useful writing move is to explain why an analytic choice changes what can be understood, instead of repeatedly announcing that integration is valuable. The scoped English edit retains a discrepancy and the authors' exact conceptual distinction, while making the attribution explicit. This complements M-N20 and M-N21's attention to the meaning of the actual comparison, but does not require a display, descending order or a fixed number of excerpts in every manuscript. Its figure inconsistencies and the difference between interpretation and direct measurement remain visible. No runtime addition follows from this reading alone.
+
+[M-N23](papers/M-N23.md), printed pp. 186, 189–192 and Tables 5–6, adds a participatory case. The useful move is to revisit the actual allocation of authority while keeping the authors' affirmative position. Its reflection paragraph revises an initial ladder classification, names who retained final authority, and explains why consultation still has value. The English edit brings a favorable group response together with an account of limited influence and this conceptual revision; it does not claim person-level matching or that the source explicitly combined those exact passages. This is narrative integration at group/construct level, not proof of a causal pathway or universal benefit. The later critique of authority also connects to M-N12's distinction between improving a comparison and abandoning a framework.
+
+[M-N22](papers/M-N22.md), pp. 3–9 and Tables 3–4, is retained separately as an integration-screening counterexample. Its overall-significance-to-category mapping and significance-gated qualitative question should not become a method exemplar. A local positive example explains the roles and purpose of joint reflection; it does not repair the missing explanatory connection. Concept drift and text/table discrepancies remain visible. Neither this exclusion nor M-N23's scoped inclusion adds runtime instructions or establishes a new M-C01 result.
 
 ## 此阶段不作出的归纳
 
