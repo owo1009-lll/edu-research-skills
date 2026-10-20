@@ -2,13 +2,13 @@
 
 [中文说明](README.md)
 
-Version **0.12.0**. Skills for education paper writing and revision, mock review, reviewer responses, recorded R analyses, qualitative analysis, statistical checks, proposals, research design and academic presentations. The Chinese [user manual](使用手册.md) explains material preparation and review responsibilities.
+Version **0.13.0**. Skills for education paper writing and revision, mock review, reviewer responses, recorded R analyses, qualitative analysis, statistical checks, proposals, research design and academic presentations. The Chinese [user manual](使用手册.md) explains material preparation and review responsibilities.
 
 Mock review now returns the original DOCX or PDF with native highlights and comments, preserving prose and existing comments/revisions. No separate report or automatic rewrite by default. Public synthetic files and actual Word checks are in the [annotation evaluation](evals/review-annotations/README.md).
 
 The [presentation evaluation](evals/edu-ppt-evaluation.md) records seven exercised scenarios, actual renders, independent AI trials and remaining limits. The [open-article example](skills/edu-ppt/examples/article-nbo/README.md) includes selection reasons, a runnable plan and attribution.
 
-Version 0.12.0 adds per-point chart-label and interval-row checks, plus target-journal and editorial-team literature discovery. A new writing card was withheld after mixed blinded comparisons; mechanical introduction quotas were removed, and an optional evidence-sequencing method was retained for article presentations. Complete outputs, source records and rendered previews are in the [evaluation](evals/capability-20261013/README.md).
+Version 0.13.0 (2026-10-20) adds native DOCX/PDF review annotations and completes English quantitative, qualitative and mixed-methods writing distillation. It makes the mixed-methods route explicit, removes fixed paragraph endings, ordering and conclusion formulas, and preserves supported author judgments. Six final writing tasks on three held-out papers and native annotation checks are archived; extra rules without stable gains were withheld. See the [delivery and limits](distill/20261019/delivery.md), [final writing evaluation](evals/writing-final-20261020/README.md) and [annotation evaluation](evals/review-annotations/README.md). This version synchronization changes only release metadata and the root READMEs; historical evaluations retain their recorded frozen versions.
 
 ## Install
 
