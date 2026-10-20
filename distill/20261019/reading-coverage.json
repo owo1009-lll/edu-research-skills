@@ -1104,12 +1104,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "identity_and_opening_screened",
-      "analysis": null,
-      "use_status": "pending_full_reading_and_classification",
-      "read_scope": "PDF page 1 only: title, author(s), DOI, version and opening/abstract; remaining pages not yet read.",
+      "reading_status": "main_text_read_and_analysis_written",
+      "analysis": "papers/L-N24.md",
+      "use_status": "selected_conceptual_and_encounter_to_interpretation_writing_moves; counterexamples_retained; no runtime adoption",
+      "read_scope": "All 25 PDF pages, B001-B025: complete main text, participant Table 1, Figures 1-4, captions, references, declarations and final citation box. Fourteen page renders actually viewed: PDF 1,2,5,9,11,13,14,15,18,19,20,21,22,25. Page-2 reading order verified visually.",
       "reading_sha256": "7a6588a92627a8e0ae399f03bbdaf1c5162493e07a05b00657324212e1aa9a2b",
-      "not_read": "Remaining PDF pages, figures, tables, supplements and cited originals."
+      "not_read": "Raw/complete participant data, full artwork collection, platform exchanges, original Dhivehi records/translations, lesson plans and cited originals/policies. Article states research data are not publicly available.",
+      "confirmed_group": "qualitative",
+      "classification_note": "Qualitative teacher-research/ethnographically influenced project in seven schools. Approximate project participation count is not an interview sample or quantitative outcome strand."
     }
   ],
   "current_scope": {

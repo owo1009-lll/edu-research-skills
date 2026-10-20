@@ -1,0 +1,56 @@
+{
+  "checked_utc": "2026-10-20T04:29:33.720713+00:00",
+  "comparison_commit": "d2eec7fa716cb77511e7b4a140e74740ef5c673e",
+  "status": "passed",
+  "english_new_candidates": 66,
+  "english_acquired_or_completely_web_read_fulltexts": 48,
+  "english_new_empirical_or_boundary_analyses": 44,
+  "confirmed_empirical_groups": {
+    "quantitative": 14,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 15,
+    "mixed": 14
+  },
+  "english_methodological_application_analyses": 2,
+  "english_screening_counterexamples_separate": 1,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "L-N24"
+  ],
+  "unchanged_previous_reading_records": 71,
+  "historical_chinese_records_unchanged": 4,
+  "new_candidates": 0,
+  "new_acquisitions": 0,
+  "new_full_article_analyses": [
+    "L-N24"
+  ],
+  "complete_PDF_pages_read": 25,
+  "page_renders_actually_viewed_and_hashes_verified": [
+    1,
+    2,
+    5,
+    9,
+    11,
+    13,
+    14,
+    15,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25
+  ],
+  "participant_tables_checked": 1,
+  "figures_actually_viewed": 4,
+  "source_and_reading_hashes_verified": 2,
+  "analysis_note_reading_hash_references_verified": 49,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 98,
+  "authored_relative_markdown_links_checked": 428,
+  "changed_files_local_path_check": "passed",
+  "note": "Verifies source-record consistency, reading and render hashes, links and unchanged runtime. Does not automate source interpretation or establish improved writing. No new Chinese work or final holdout evaluation. Inspect CI separately after pushing."
+}

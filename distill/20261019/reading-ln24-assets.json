@@ -1,0 +1,172 @@
+{
+  "source_id": "L-N24",
+  "doi": "10.1002/berj.70050",
+  "source_url": "https://radar.brookes.ac.uk/radar/file/e0210e3d-1d33-4e8d-9c40-9636bf619ee6/1/British%20Educational%20Res%20J%20-%202025%20-%20Lee%20-%20Our%20World%20%20Our%20Futures%20%20A%20dialogic%20approach%20to%20environmental%20literacy%20and%20global.pdf",
+  "publisher_url": "https://doi.org/10.1002/berj.70050",
+  "source_pdf_sha256": "8bf72fae6505bc014be4a7adb27f49b5bda4cf191b3b114f1a808bd3fd609275",
+  "reading_sha256": "7a6588a92627a8e0ae399f03bbdaf1c5162493e07a05b00657324212e1aa9a2b",
+  "reading_scope": "All 25 PDF pages, B001-B025: complete main article, participant Table 1, Figures 1-4, captions, references, declarations and citation box.",
+  "tables_checked": [
+    {
+      "table": 1,
+      "pdf_page": 9,
+      "printed_page": 188,
+      "scope": "All seven teacher rows and three columns; teacher role, school context and project matched."
+    }
+  ],
+  "figures_actually_viewed": [
+    {
+      "figure": 1,
+      "pdf_page": 13,
+      "printed_page": 192,
+      "scope": "Figure and caption inspected within the rendered original PDF page; no independent verification of raw artwork or depicted systems."
+    },
+    {
+      "figure": 2,
+      "pdf_page": 14,
+      "printed_page": 193,
+      "scope": "Figure and caption inspected within the rendered original PDF page; no independent verification of raw artwork or depicted systems."
+    },
+    {
+      "figure": 3,
+      "pdf_page": 15,
+      "printed_page": 194,
+      "scope": "Figure and caption inspected within the rendered original PDF page; no independent verification of raw artwork or depicted systems."
+    },
+    {
+      "figure": 4,
+      "pdf_page": 18,
+      "printed_page": 197,
+      "scope": "Figure and caption inspected within the rendered original PDF page; no independent verification of raw artwork or depicted systems."
+    }
+  ],
+  "page_renders_actually_viewed": [
+    {
+      "pdf_page": 1,
+      "printed_page": 180,
+      "file": "page-01.png",
+      "sha256": "668ca4a933e4b2e848a8142788ea1b7d43bbc0638a3d0d37d7b20c7b2d3eb73c",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 181,
+      "file": "page-02.png",
+      "sha256": "98ce4c038a9ac6a612b8c8af0c135dbecb548070e410c71082c47bbe2410c9bb",
+      "scale": 1.4,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 184,
+      "file": "page-05.png",
+      "sha256": "db238b2e1594a1cd4247e238ccad09cc9124de1b88570786024e7e1cbbc8eafc",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 188,
+      "file": "page-09.png",
+      "sha256": "5404ee3038a6b1e2cb8ef5deb4c1ab17f125589f69efc669070d54bcc959c7cf",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 190,
+      "file": "page-11.png",
+      "sha256": "7959e1ae446783e02d8b4e1b1759a48c1392ba839a574f7f19d5b05ee5552638",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 192,
+      "file": "page-13.png",
+      "sha256": "f5736759445669ca5f555933f0d7142ded7f6326e560725bf754c7f0ebb7365e",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 193,
+      "file": "page-14.png",
+      "sha256": "16321562b9efbc321673c971f525820b279ab555db382ae1d11e781d8fdcbe21",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 194,
+      "file": "page-15.png",
+      "sha256": "c3f11081e14b7e8767afce58a6b615f6b130645d2299f327d279ff82d1033e50",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 197,
+      "file": "page-18.png",
+      "sha256": "6b0d8fe1e12feedd9a7594b2524d3aaffd550a95bcb81a27a7e2f66a4c5b85a6",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 198,
+      "file": "page-19.png",
+      "sha256": "c3be2bd8021bb1dbd5c9ab6bd4d6819ae4f7b7ee9b0209bded973497b2a80331",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 199,
+      "file": "page-20.png",
+      "sha256": "02c2100352ecd6a6b488fd22ff9a699695f7c7d74d51b399fa1dae407250b12c",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 200,
+      "file": "page-21.png",
+      "sha256": "2f8e8fdd1de4b1f5d8be514bf171d154f1ebfd69a3c6da7c3246bb240b0c5711",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 201,
+      "file": "page-22.png",
+      "sha256": "1223ea3afcfa9a4c593098c8f3cb1abb19d68d19604124ee515a4246f11f733c",
+      "scale": 1.5,
+      "actually_viewed": true
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 204,
+      "file": "page-25.png",
+      "sha256": "c7d93ad47eec5b6bfde3204060774c7aaa6c40c95bf4dac918ed9ae46cc136f7",
+      "scale": 1.5,
+      "actually_viewed": true
+    }
+  ],
+  "extraction_qualifications": [
+    "PDF page 2 text-stream order places the introduction before the abstract continuation and key-insights box. Actual page inspected: abstract continuation, keywords, key insights, introduction. The analysis uses the page order.",
+    "Garbled margin text represents the English publisher download notice, not Chinese study content. It is not a second-language source.",
+    "The original reading.txt and acquisition hashes remain unchanged; page renders provide the check on layout and figure placement."
+  ],
+  "not_read": [
+    "Raw or complete participant data",
+    "Full artwork collection and digital-platform exchanges",
+    "Original Dhivehi recordings/transcripts and translations",
+    "Lesson plans and complete meeting records",
+    "Cited originals and policy documents"
+  ],
+  "data_access": "The article states that underlying research data are not publicly available under its ethical procedures. No attempt was made to acquire those data.",
+  "rights": "Creative Commons Attribution licence stated on PDF page 1. Full source PDF and page images remain outside the public repository; public note and editing examples are original.",
+  "reproduction": "Retrieve the public university PDF, verify its DOI/title/authors and source hash, read all 25 pages and inspect the specified pages, table and figures. Printed page equals PDF page plus 179. This record establishes reading scope, not a new writing-quality comparison."
+}
