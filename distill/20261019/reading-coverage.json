@@ -894,10 +894,14 @@
       "language": "en",
       "scope_status": "in_scope_english",
       "acquisition_status": "downloaded_for_reading",
-      "reading_status": "partial_html_screening_only",
-      "read_scope": "PMC identity, abstract, introduction, methods and opening results screened incompletely across sessions. Complete public HTML, including three inline tables and 103 references, now acquired and prepared; remaining full reading and analysis pending. Earlier PDF challenge and initial incomplete reference extraction retained.",
-      "use_status": "pending_full_reading_and_classification",
-      "reading_sha256": "79c0f1fe58fee43c664415c31001944d25e5494588a84b1b40d9a72dc03b2110"
+      "reading_status": "main_text_read_and_analysis_written",
+      "read_scope": "B001-B200: complete corrected PMC HTML, all three tables read in extraction and as HTML rows/cells, both original source figure images actually viewed, declarations and 103 reference entries",
+      "use_status": "selected_local_integration_and_concrete_support_moves; contrast source for anticipated versus observed outcomes; no runtime adoption",
+      "reading_sha256": "79c0f1fe58fee43c664415c31001944d25e5494588a84b1b40d9a72dc03b2110",
+      "confirmed_group": "mixed",
+      "analysis": "papers/M-N20.md",
+      "not_read": "PDF (challenge response), raw survey responses, full transcripts, related More PEAS Please! reports and cited originals",
+      "classification_note": "Author-described convergent parallel design; interview volunteers recruited from survey participants; separate analyses then topic-level narrative integration, without individual response/account matching or a joint display"
     },
     {
       "id": "M-N21",

@@ -1,0 +1,37 @@
+{
+  "checked_utc": "2026-10-20T00:27:56.088004+00:00",
+  "comparison_commit": "b1c1cd8e3f2a6f07d14f285c1b3463ec5589950c",
+  "status": "passed",
+  "english_new_candidates": 55,
+  "english_acquired_fulltexts": 40,
+  "english_new_empirical_or_boundary_analyses": 38,
+  "confirmed_empirical_groups": {
+    "quantitative": 12,
+    "mixed_data_transformation_boundary_case": 1,
+    "qualitative": 12,
+    "mixed": 13
+  },
+  "english_methodological_application_analyses": 1,
+  "english_rereads_separate": 2,
+  "changed_previous_reading_records": [
+    "M-N20"
+  ],
+  "unchanged_previous_reading_records": 60,
+  "historical_chinese_records_unchanged": 4,
+  "new_reading_records": [],
+  "new_full_analyses": [
+    "M-N20"
+  ],
+  "source_HTML_blocks_read": 200,
+  "source_HTML_tables_read": 3,
+  "actually_viewed_original_figure_hashes_verified": 2,
+  "analysis_note_reading_hash_references_verified": 41,
+  "runtime_files_verified_against_actual_freeze": 203,
+  "runtime_changed_files": [],
+  "runtime_tree_sha256": "bb4e73cc22eaca30de7aa9de7e56d2bd9c1eca0b0b4a413e2e34447b945d5789",
+  "new_behavioral_writing_comparisons": 0,
+  "json_files_parsed_excluding_this_record": 75,
+  "authored_relative_markdown_links_checked": 326,
+  "initial_check_issue": "First link check stopped at README link to this not-yet-created verification record. References to this record were subsequently checked after writing it; all other checks rerun successfully.",
+  "note": "English full-text analysis and same-fact illustrations only. All source figures listed were actually viewed; no PDF inspection, new Chinese source work, runtime adoption, final holdout or overall completion claim."
+}

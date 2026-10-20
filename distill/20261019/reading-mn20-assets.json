@@ -1,0 +1,28 @@
+{
+  "source_id": "M-N20",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650122/",
+  "source_sha256": "93b76e56757d96ac6d1f5396a2eccceb5cb0cf763c488386ad5f2fb907e056cf",
+  "reading_sha256": "79c0f1fe58fee43c664415c31001944d25e5494588a84b1b40d9a72dc03b2110",
+  "images": [
+    {
+      "id": "F1",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6367/12650122/78a0a5a81a42/nihms-2092794-f0001.jpg",
+      "file": "F1.jpg",
+      "sha256": "1445aaae8ad727d443c031b7902d77420cbbd219c16464951274ff7a0d009b36",
+      "bytes": 547977,
+      "content_type": "image/jpeg",
+      "downloaded_utc": "2026-10-20T00:21:16.160574+00:00"
+    },
+    {
+      "id": "F2",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6367/12650122/d1cdc8a0272b/nihms-2092794-f0002.jpg",
+      "file": "F2.jpg",
+      "sha256": "7a6d31b58267c343943b326954a6f39dd2268af51fcd2e646f401e32db33acb0",
+      "bytes": 622903,
+      "content_type": "image/jpeg",
+      "downloaded_utc": "2026-10-20T00:21:18.380669+00:00"
+    }
+  ],
+  "inspection": "Both original source images were actually viewed. These are publisher/PMC images, not locally rendered PDF pages. Table structures were read directly from the HTML.",
+  "reproduction": "Acquire M-N20 with public-mn20-html-retry.json in a new external cache. Download the two image URLs listed here, which are the img src attributes inside figures F1 and F2 of the source HTML. Inspect the images separately from the extracted text. Source text and images are not redistributed in this repository."
+}
